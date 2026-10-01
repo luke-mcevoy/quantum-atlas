@@ -1,0 +1,1685 @@
+{
+  "topic": "superconducting_b",
+  "analyst": "claude-opus-5-5 (superconducting_b analyst)",
+  "generated_at": "2026-10-01T12:00:00Z",
+  "sources": [
+    {
+      "id": "src:iqm-pr-2024-07-15-cz-9991",
+      "title": "IQM Quantum Computers achieves new technology milestones with 99.9% 2-qubit gate fidelity and 1 millisecond coherence time",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://meetiqm.com/press-releases/iqm-quantum-computers-achieves-new-technology-milestones-with-99-9-2-qubit-gate-fidelity-and-1-millisecond-coherence-time/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-07-15",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-pr-2024-02-20-20q-benchmarks",
+      "title": "IQM Quantum Computers achieves a new benchmark result on 20-qubit quantum computer",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://meetiqm.com/press-releases/iqm-quantum-computers-achieves-a-new-benchmark-result-on-20-qubit-quantum-computer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-02-20",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-radiance-product-page",
+      "title": "IQM Radiance - Quantum for High-Performance Computing (product page)",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://meetiqm.com/products/iqm-radiance/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-roadmap-page",
+      "title": "Roadmap - IQM Quantum Computers (Our journey to fault-tolerant quantum computing and beyond)",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/technology/roadmap/",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-pr-2024-11-13-roadmap",
+      "title": "IQM Quantum Computers unveils development roadmap focused on fault-tolerant quantum computing by 2030",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/press-releases/iqm-quantum-computers-unveils-development-roadmap-focused-on-fault-tolerant-quantum-computing-by-2030/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-11-13",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-pr-2025-11-13-halocene",
+      "title": "IQM launches Halocene, a new quantum computer product line for error correction",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/press-releases/iqm-launches-halocene-a-new-quantum-computer-product-line-for-error-correction/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-13",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-pr-2026-09-10-lumi-iq",
+      "title": "LUMI AI Factory selects IQM's staged path to Europe's first superconducting quantum computer with logical qubits",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/press-releases/lumi-ai-factory-selects-iqms-staged-path-to-europes-first-superconducting-quantum-computer-with-logical-qubits/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-10",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+      "title": "IQM Deploys Its First U.S. Quantum Computer at Oak Ridge National Laboratory",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/press-releases/iqm-deploys-its-first-u-s-quantum-computer-at-oak-ridge-national-laboratory/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-16",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-pr-2026-06-11-cineca",
+      "title": "IQM quantum computer goes live at supercomputing center CINECA in Italy, boosting national compute infrastructure and research",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/press-releases/iqm-quantum-computer-goes-live-at-supercomputing-center-cineca-in-italy-boosting-national-compute-infrastructure-and-research/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-11",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-release-2026-07-01-nasdaq",
+      "title": "IQM Quantum Computers and Real Asset Acquisition Corp. complete the combination; trading in IQM's ADSs and IQM Warrants on Nasdaq Stock Market LLC commences on July 2, 2026 (Stock Exchange Release)",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/press-releases/iqm-quantum-computers-and-real-asset-acquisition-corp-complete-the-combination-trading-in-iqms-adss-and-iqm-warrants-on-nasdaq-stock-market-llc-commences-on-july-2-2026/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-pr-2026-06-23-directional-tile-codes",
+      "title": "IQM achieves milestone in quantum error correction, enabling fault-tolerant computing in the near-term",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/press-releases/iqm-achieves-milestone-in-quantum-error-correction-enabling-fault-tolerant-computing-in-the-near-term/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-23",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:iqm-blog-2025-08-05-emerald",
+      "title": "New on IQM Resonance: IQM Emerald - almost 3x qubits for the same reliable quality",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/blog/new-on-iqm-resonance-iqm-emerald-almost-3x-qubits-for-the-same-reliable-quality/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-08-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aws-blog-2025-07-21-iqm-emerald",
+      "title": "Amazon Braket launches new 54-qubit superconducting quantum processor from IQM",
+      "publisher": "Amazon Web Services (AWS Quantum Technologies Blog)",
+      "url": "https://aws.amazon.com/blogs/quantum-computing/amazon-braket-launches-new-54-qubit-superconducting-quantum-processor-from-iqm/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-07-21",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2508.16437",
+      "title": "Above 99.9% Fidelity Single-Qubit Gates, Two-Qubit Gates, and Readout in a Single Superconducting Quantum Device (Marxer et al.)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2508.16437",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-08-22",
+      "accessed": "2026-10-01",
+      "arxiv": "2508.16437"
+    },
+    {
+      "id": "src:prxquantum-marxer-2026",
+      "title": "Above 99.9% Fidelity Single-Qubit Gates, Two-Qubit Gates, and Readout in a Single Superconducting Quantum Device (PRX Quantum 7, 020333)",
+      "publisher": "PRX Quantum (American Physical Society)",
+      "url": "https://doi.org/10.1103/n86s-2b88",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2026-05-20",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/n86s-2b88"
+    },
+    {
+      "id": "src:vtt-2025-03-04-50-qubit",
+      "title": "VTT and IQM launch first 50-qubit quantum computer developed in Europe",
+      "publisher": "VTT Technical Research Centre of Finland",
+      "url": "https://www.vttresearch.com/en/news-and-ideas/vtt-and-iqm-launch-first-50-qubit-quantum-computer-developed-europe",
+      "doc_type": "institution_release",
+      "tier": 2,
+      "document_date": "2025-03-04",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:lrz-2026-02-11-euro-q-exa",
+      "title": "First European quantum computer for Germany: Euro-Q-Exa starts operation at LRZ",
+      "publisher": "Leibniz-Rechenzentrum (LRZ)",
+      "url": "https://www.lrz.de/en/news/detail/first-european-quantum-computer-for-germany-euro-q-exa-starts-operation-at-lrz",
+      "doc_type": "institution_release",
+      "tier": 2,
+      "document_date": "2026-02-11",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-2026-02-12-euro-q-exa",
+      "title": "Inauguration of Euro-Q-Exa: Expanding the European Quantum Computing Infrastructure",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://eurohpc-ju.europa.eu/inauguration-euro-q-exa-expanding-european-quantum-computing-infrastructure-2026-02-12_en",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2026-02-12",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-pr-2023-11-27-toshiko",
+      "title": "OQC launches OQC Toshiko, the world's first enterprise ready quantum platform",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/toshiko-the-worlds-first-enterprise-ready-quantum-platform/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-11-27",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-roadmap-page",
+      "title": "The OQC Roadmap - Fastest path to commercial advantage",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/roadmap/",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-tech-page",
+      "title": "OQC Tech (technology overview page)",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/tech/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-devices-page",
+      "title": "OQC Devices",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/tech/devices/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-pr-2025-06-19-dual-rail-dimon",
+      "title": "OQC announces research that could dramatically accelerate the path to commercially viable quantum computers",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/oqc-announces-dual-rail-dimon-research",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-19",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-blog-2025-06-19-ddq",
+      "title": "Error-detected coherence metrology of a dual-rail encoded fixed-frequency multimode superconducting qubit (OQC research summary)",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/resources/beyond-the-bit/dual-rail-dimon-research/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-06-19",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2506.15420",
+      "title": "Error-detected coherence metrology of a dual-rail encoded fixed-frequency multimode superconducting qubit",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2506.15420",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-06-18",
+      "accessed": "2026-10-01",
+      "arxiv": "2506.15420"
+    },
+    {
+      "id": "src:oqc-pr-2025-09-16-nyc-quantum-ai-dc",
+      "title": "OQC and Digital Realty Team with NVIDIA to Launch First Quantum-AI Data Centre in New York City",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/oqc-quantum-ai-data-centre",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-16",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-pr-2026-02-16-wafer-scale",
+      "title": "Oxford Quantum Circuits Demonstrates Wafer-Scale Packaging Architecture for 500+ Superconducting Qubits",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/oqc-wafer-scale-packaging-500-qubits",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-02-16",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2602.12773",
+      "title": "Design and Operation of Wafer-Scale Packages Containing >500 Superconducting Qubits",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2602.12773",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2026-02-13",
+      "accessed": "2026-10-01",
+      "arxiv": "2602.12773"
+    },
+    {
+      "id": "src:oqc-pr-2025-01-20-sapphire",
+      "title": "OQC announces research publication on sapphire-based quantum processors",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/sapphire-based-quantum-processors/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-01-20",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:advmat-through-sapphire-2025",
+      "title": "Integration of Through-Sapphire Substrate Machining with Superconducting Quantum Processors (Advanced Materials)",
+      "publisher": "Advanced Materials (Wiley)",
+      "url": "https://doi.org/10.1002/adma.202411780",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-01-19",
+      "accessed": "2026-10-01",
+      "doi": "10.1002/adma.202411780"
+    },
+    {
+      "id": "src:oqc-pr-2026-06-03-series-c",
+      "title": "OQC raises £260m in Europe's largest ever private quantum computing funding round",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/series-c",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-03",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-pr-2023-03-14-equinix-ty11",
+      "title": "OQC / Equinix joint press release (Japanese edition): quantum computer at Equinix TY11 IBX, Tokyo",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/oqc-installing-quantum-computer-in-equinix-japan/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-03-14",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-pr-2022-09-28-cyxtera-lhr3",
+      "title": "OQC Partners with Cyxtera to Improve Accessibility to Quantum Computers",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/oqc-partners-with-cyxtera-to-improve-accessibility-to-quantum-computers/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-09-28",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:oqc-pr-2023-04-21-cesga",
+      "title": "OQC and Fujitsu selected by Spanish supercomputing centre, CESGA, to deliver the future of compute",
+      "publisher": "Oxford Quantum Circuits (OQC)",
+      "url": "https://oqc.tech/company/newsroom/oqc-and-fujitsu-selected-by-spanish-supercomputing-centre-cesga-to-deliver-the-future-of-compute/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-04-21",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:iqm",
+      "name": "IQM Quantum Computers",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "FI",
+      "hq": {
+        "lat": 60.2055,
+        "lon": 24.6559,
+        "precision": "city",
+        "address": "Espoo, Finland"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "tickers": [
+        "NASDAQ:IQMX"
+      ],
+      "sec_cik": "0002113060",
+      "website": "https://iqm.tech",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2024-07-15-cz-9991",
+          "quote": "IQM Quantum Computers (Nasdaq: IQMX) is a global leader in superconducting quantum computers, delivering full-stack quantum systems and cloud platform access to enterprises, research institutions, universities, high-performance computing centers, and national laboratories worldwide.",
+          "locator": "boilerplate 'About IQM'",
+          "supports": "existence, modality, ticker"
+        },
+        {
+          "source": "src:iqm-pr-2024-07-15-cz-9991",
+          "quote": "Founded in 2018 and headquartered in Finland, with major operations in Munich",
+          "locator": "boilerplate 'About IQM'",
+          "supports": "hq country"
+        },
+        {
+          "source": "src:iqm-pr-2024-07-15-cz-9991",
+          "quote": "Espoo, Finland, 15th July 2024 – IQM Quantum Computers",
+          "locator": "dateline",
+          "supports": "hq city"
+        },
+        {
+          "source": "src:iqm-release-2026-07-01-nasdaq",
+          "quote": "Trading in ADSs will commence on the Global Select Market of the Nasdaq Stock Market LLC (“ Nasdaq ”) on July 2, 2026 under the trading symbol “IQMX”.",
+          "locator": "second paragraph",
+          "supports": "ticker"
+        }
+      ]
+    },
+    {
+      "id": "co:vtt",
+      "name": "VTT Technical Research Centre of Finland",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "FI",
+      "hq": {
+        "lat": 60.1867,
+        "lon": 24.8196,
+        "precision": "city",
+        "address": "Espoo, Finland"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:vtt-2025-03-04-50-qubit",
+          "quote": "The new 50-qubit quantum computer is located at VTT’s premises in Micronova in Espoo, Finland.",
+          "locator": "body",
+          "supports": "existence, city"
+        }
+      ]
+    },
+    {
+      "id": "co:lrz",
+      "name": "Leibniz Supercomputing Centre (LRZ)",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "DE",
+      "hq": {
+        "lat": 48.2626,
+        "lon": 11.6679,
+        "precision": "city",
+        "address": "Garching (near Munich), Germany"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:lrz-2026-02-11-euro-q-exa",
+          "quote": "The computing centre in Garching has gained extensive experience in integrating various quantum technologies into supercomputers, as well as in operating them.",
+          "locator": "body",
+          "supports": "existence, city"
+        }
+      ]
+    },
+    {
+      "id": "co:ornl",
+      "name": "Oak Ridge National Laboratory",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "US",
+      "hq": {
+        "lat": 35.9311,
+        "lon": -84.3101,
+        "precision": "city",
+        "address": "Oak Ridge, Tennessee"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "The Department of Energy’s Oak Ridge National Laboratory (ORNL) today launched Pathfinder",
+          "locator": "lead paragraph",
+          "supports": "existence"
+        },
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "Tennessee, Espoo, Finland, 16 June, 2026",
+          "locator": "dateline",
+          "supports": "region"
+        }
+      ]
+    },
+    {
+      "id": "co:cineca",
+      "name": "CINECA",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "IT",
+      "hq": {
+        "lat": 44.5163,
+        "lon": 11.3667,
+        "precision": "city",
+        "address": "Bologna, Italy"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-06-11-cineca",
+          "quote": "The installation, located at the CINECA headquarters in the DAMA Tecnopolo in Bologna",
+          "locator": "body",
+          "supports": "existence, hq"
+        }
+      ]
+    },
+    {
+      "id": "gov:eu-eurohpc",
+      "name": "EuroHPC Joint Undertaking",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "LU",
+      "hq": {
+        "lat": 49.6116,
+        "lon": 6.1319,
+        "precision": "country"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:eurohpc-2026-02-12-euro-q-exa",
+          "quote": "Today, the EuroHPC Joint Undertaking (EuroHPC JU) inaugurated Euro-Q-Exa, a new EuroHPC quantum computer, located in Munich, Germany.",
+          "locator": "lead paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:oqc",
+      "name": "Oxford Quantum Circuits (OQC)",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.4543,
+        "lon": -0.9781,
+        "precision": "city",
+        "address": "Reading, UK"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://oqc.tech",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2025-06-19-dual-rail-dimon",
+          "quote": "READING, UK – June 19, 2025 – Oxford Quantum Circuits (OQC) , a global leader in quantum computing solutions spun out from Oxford University",
+          "locator": "dateline",
+          "supports": "existence, hq city"
+        },
+        {
+          "source": "src:oqc-pr-2026-06-03-series-c",
+          "quote": "Founded in the UK, OQC develops and operates superconducting quantum computers designed for deployment in data-centre environments serving enterprise and government customers.",
+          "locator": "body",
+          "supports": "existence, modality"
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "site:vtt-micronova-espoo",
+      "name": "VTT Micronova, Espoo",
+      "operator": "co:vtt",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 60.1867,
+        "lon": 24.8196,
+        "precision": "site",
+        "address": "VTT premises in Micronova, Espoo, Finland"
+      },
+      "country": "FI",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:vtt-2025-03-04-50-qubit",
+          "quote": "The new 50-qubit quantum computer is located at VTT’s premises in Micronova in Espoo, Finland.",
+          "locator": "body",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:lrz-garching",
+      "name": "Leibniz Supercomputing Centre (LRZ), Garching",
+      "operator": "co:lrz",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 48.2626,
+        "lon": 11.6679,
+        "precision": "site",
+        "address": "Leibniz Supercomputing Centre, Garching near Munich"
+      },
+      "country": "DE",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:lrz-2026-02-11-euro-q-exa",
+          "quote": "The LRZ will host and operate the innovative quantum computer. The computing centre in Garching has gained extensive experience",
+          "locator": "body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:lrz-2026-02-11-euro-q-exa",
+          "quote": "Germany’s first European quantum computer is being installed at the Leibniz Supercomputing Centre in Bavaria",
+          "locator": "quote of Markus Blume",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:ornl-oak-ridge",
+      "name": "Oak Ridge National Laboratory campus",
+      "operator": "co:ornl",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 35.9311,
+        "lon": -84.3101,
+        "precision": "site",
+        "address": "ORNL campus, Oak Ridge, Tennessee"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "ORNL owns and operates the system on its own campus.",
+          "locator": "highlights",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "Our first U.S. system now sits on Oak Ridge campus, connected to their HPC environment",
+          "locator": "quote of Jan Goetz",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:cineca-bologna-tecnopolo",
+      "name": "CINECA, DAMA Tecnopolo, Bologna",
+      "operator": "co:cineca",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 44.5163,
+        "lon": 11.3667,
+        "precision": "site",
+        "address": "CINECA headquarters, DAMA Tecnopolo, Bologna"
+      },
+      "country": "IT",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-06-11-cineca",
+          "quote": "The installation, located at the CINECA headquarters in the DAMA Tecnopolo in Bologna",
+          "locator": "body",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:digital-realty-jfk10-nyc",
+      "name": "Digital Realty JFK10, New York City",
+      "operator": "co:oqc",
+      "kind": "datacenter",
+      "location": {
+        "lat": 40.7128,
+        "lon": -74.006,
+        "precision": "city",
+        "address": "Digital Realty JFK10 facility, New York City (street address not given in source)"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2025-09-16-nyc-quantum-ai-dc",
+          "quote": "today announced the launch of the first Quantum-AI Data Centre in New York City, located at Digital Realty’s JFK10 facility",
+          "locator": "lead",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:oqc-pr-2025-09-16-nyc-quantum-ai-dc",
+          "quote": "The system features OQC GENESIS, a logical-era quantum computer, installed within Digital Realty’s secure JFK10 site",
+          "locator": "body",
+          "supports": "system placement"
+        }
+      ]
+    },
+    {
+      "id": "site:equinix-ty11-tokyo",
+      "name": "Equinix TY11 IBX, Tokyo",
+      "operator": "co:oqc",
+      "kind": "datacenter",
+      "location": {
+        "lat": 35.6762,
+        "lon": 139.6503,
+        "precision": "city",
+        "address": "Equinix TY11 International Business Exchange, Tokyo (street address not given in source)"
+      },
+      "country": "JP",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2023-03-14-equinix-ty11",
+          "quote": "都内にあるエクイニクスのデータセンター「TY11 International Business Exchange™ (IBX®) 」を通じて、高性能な量子コンピュータを世界中の企業に商用提供することを発表しました。",
+          "locator": "lead paragraph (EN: announced commercial provision of a quantum computer to companies worldwide through Equinix's data centre 'TY11 IBX' in Tokyo)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:oqc-pr-2023-03-14-equinix-ty11",
+          "quote": "OQCは、量子コンピュータをTY11に導入し",
+          "locator": "second paragraph (EN: OQC will install a quantum computer in TY11; release dated March 2023 describes service planned for late 2023)",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "site:cyxtera-lhr3-reading",
+      "name": "Cyxtera Reading Data Center Campus LHR3",
+      "operator": "co:oqc",
+      "kind": "datacenter",
+      "location": {
+        "lat": 51.4543,
+        "lon": -0.9781,
+        "precision": "city",
+        "address": "Reading Data Center Campus LHR3, Reading, UK"
+      },
+      "country": "GB",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2022-09-28-cyxtera-lhr3",
+          "quote": "customers will soon have access to quantum computing-as-a-service via Cyxtera’s Reading Data Center Campus LHR3.",
+          "locator": "lead",
+          "supports": "existence, location"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "sys:iqm-garnet",
+      "name": "IQM Garnet",
+      "operator": "co:iqm",
+      "modality": "superconducting",
+      "status": "online",
+      "physical_qubits": {
+        "value": 20,
+        "as_of": "2025-07-21",
+        "evidence": [
+          {
+            "source": "src:aws-blog-2025-07-21-iqm-emerald",
+            "quote": "customers can now access two IQM quantum processors: the 20-qubit Garnet and the new 54-qubit Emerald",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:aws-blog-2025-07-21-iqm-emerald",
+          "quote": "customers can now access two IQM quantum processors: the 20-qubit Garnet and the new 54-qubit Emerald",
+          "locator": "body",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:iqm-blog-2025-08-05-emerald",
+          "quote": "compared to its predecessor, IQM Garnet, with its Crystal 20 QPU",
+          "locator": "first paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "sys:iqm-emerald",
+      "name": "IQM Emerald",
+      "operator": "co:iqm",
+      "modality": "superconducting",
+      "submodality": "transmon",
+      "status": "online",
+      "announced": "2025-07-21",
+      "physical_qubits": {
+        "value": 54,
+        "as_of": "2025-07-21",
+        "evidence": [
+          {
+            "source": "src:aws-blog-2025-07-21-iqm-emerald",
+            "quote": "The device, named Emerald, is a 54-qubit superconducting QPU providing customers higher fidelity gates and full square lattice connectivity.",
+            "locator": "first paragraph",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (median, CZ)",
+          "value": 99.5,
+          "unit": "%",
+          "as_of": "2025-07-21",
+          "definition": "Median two-qubit (CZ, the native two-qubit gate) fidelity from 'early characterization data' as stated in the AWS Braket launch blog; AWS states up-to-date metrics are on the Braket console device page.",
+          "evidence": [
+            {
+              "source": "src:aws-blog-2025-07-21-iqm-emerald",
+              "quote": "Early characterization data shows median single-qubit gate fidelity of 99.93% and median two-qubit gate fidelity of 99.5%.",
+              "locator": "gate set paragraph",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "single-qubit gate fidelity (median)",
+          "value": 99.93,
+          "unit": "%",
+          "as_of": "2025-07-21",
+          "definition": "Median single-qubit gate fidelity from 'early characterization data' as stated in the AWS Braket launch blog.",
+          "evidence": [
+            {
+              "source": "src:aws-blog-2025-07-21-iqm-emerald",
+              "quote": "Early characterization data shows median single-qubit gate fidelity of 99.93% and median two-qubit gate fidelity of 99.5%.",
+              "locator": "gate set paragraph",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:aws-blog-2025-07-21-iqm-emerald",
+          "quote": "Emerald features IQM’s Crystal 54 architecture, built using superconducting transmon qubits arranged in a square lattice and interconnected via tunable couplers.",
+          "locator": "architecture paragraph",
+          "supports": "existence, modality, submodality"
+        },
+        {
+          "source": "src:aws-blog-2025-07-21-iqm-emerald",
+          "quote": "Today, we expand the hardware available on Braket with the general availability of IQM’s latest quantum processing unit (QPU).",
+          "locator": "first paragraph",
+          "supports": "status"
+        },
+        {
+          "source": "src:iqm-blog-2025-08-05-emerald",
+          "quote": "We have upgraded our quantum cloud platform, IQM Resonance, with a new 54-qubit quantum computer processor, IQM Emerald.",
+          "locator": "first paragraph",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:vtt-50-qubit",
+      "name": "VTT 50-qubit quantum computer (VTT Q50)",
+      "operator": "co:vtt",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:vtt-micronova-espoo",
+      "online_since": "2025-03-04",
+      "physical_qubits": {
+        "value": 50,
+        "as_of": "2025-03-04",
+        "evidence": [
+          {
+            "source": "src:vtt-2025-03-04-50-qubit",
+            "quote": "have completed and launched Europe’s first 50-qubit superconducting quantum computer, now open to researchers and companies",
+            "locator": "lead",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:vtt-2025-03-04-50-qubit",
+          "quote": "VTT Technical Research Centre of Finland and IQM Quantum Computers , one of the global leaders in superconducting quantum computers, have completed and launched Europe’s first 50-qubit superconducting quantum computer",
+          "locator": "lead",
+          "supports": "existence, modality, builder"
+        },
+        {
+          "source": "src:vtt-2025-03-04-50-qubit",
+          "quote": "The 50-qubit quantum computer opens today for use by companies and researchers",
+          "locator": "body",
+          "supports": "status"
+        },
+        {
+          "source": "src:vtt-2025-03-04-50-qubit",
+          "quote": "The new 50-qubit quantum computer is located at VTT’s premises in Micronova in Espoo, Finland.",
+          "locator": "body",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "sys:lrz-euro-q-exa",
+      "name": "Euro-Q-Exa",
+      "operator": "co:lrz",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:lrz-garching",
+      "online_since": "2026-02-12",
+      "physical_qubits": {
+        "value": 54,
+        "as_of": "2026-02-12",
+        "note": "LRZ and EuroHPC state a 150-qubit addition/upgrade is planned (see target)",
+        "evidence": [
+          {
+            "source": "src:lrz-2026-02-11-euro-q-exa",
+            "quote": "Based on the 'Radiance' system from IQM Quantum Computers , Euro-Q-Exa features 54 quantum bits (qubits) made of superconducting circuits.",
+            "locator": "body",
+            "supports": "qubits, builder"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:lrz-2026-02-11-euro-q-exa",
+          "quote": "the European quantum computer 'Euro-Q-Exa' at the Leibniz Supercomputing Centre (LRZ) of the Bavarian Academy of Sciences and Humanities (BAdW) will begin working on research projects",
+          "locator": "body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:eurohpc-2026-02-12-euro-q-exa",
+          "quote": "Hosted and operated by LRZ in Munich and supplied by IQM Quantum Computers , Euro-Q-Exa is a digital quantum computer based on superconducting qubits arranged in a square lattice",
+          "locator": "body",
+          "supports": "existence, operator, modality"
+        },
+        {
+          "source": "src:eurohpc-2026-02-12-euro-q-exa",
+          "quote": "As of tomorrow, Euro-Q-Exa will be ready to provide compute resources to European end users",
+          "locator": "body",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:ornl-pathfinder",
+      "name": "Pathfinder (IQM Radiance, 20 qubits)",
+      "operator": "co:ornl",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:ornl-oak-ridge",
+      "online_since": "2026-06-16",
+      "physical_qubits": {
+        "value": 20,
+        "as_of": "2026-06-16",
+        "evidence": [
+          {
+            "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+            "quote": "Pathfinder, a 20-qubit IQM Radiance system, is now operational at the home of Frontier",
+            "locator": "highlights",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "Pathfinder, a 20-qubit IQM Radiance system, is now operational at the home of Frontier",
+          "locator": "highlights",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "ORNL owns and operates the system on its own campus.",
+          "locator": "highlights",
+          "supports": "operator, location"
+        }
+      ]
+    },
+    {
+      "id": "sys:cineca-nox",
+      "name": "NOX (IQM Radiance 54)",
+      "operator": "co:cineca",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:cineca-bologna-tecnopolo",
+      "online_since": "2026-06-11",
+      "physical_qubits": {
+        "value": 54,
+        "as_of": "2026-06-11",
+        "evidence": [
+          {
+            "source": "src:iqm-pr-2026-06-11-cineca",
+            "quote": "IQM Radiance quantum computer, featuring a 54-qubit processing unit.",
+            "locator": "highlights",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-06-11-cineca",
+          "quote": "today inaugurated the IQM Radiance 54 quantum computer at CINECA",
+          "locator": "lead",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:iqm-pr-2026-06-11-cineca",
+          "quote": "IQM Radiance, named NOX, is being integrated into Leonardo",
+          "locator": "body",
+          "supports": "name"
+        },
+        {
+          "source": "src:iqm-pr-2026-06-11-cineca",
+          "quote": "The installation, located at the CINECA headquarters in the DAMA Tecnopolo in Bologna",
+          "locator": "body",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "sys:iqm-halocene-150",
+      "name": "IQM Halocene (150-qubit)",
+      "operator": "co:iqm",
+      "modality": "superconducting",
+      "status": "announced",
+      "announced": "2025-11-13",
+      "physical_qubits": {
+        "value": 150,
+        "as_of": "2025-11-13",
+        "note": "announced product; not yet delivered per the cited source",
+        "evidence": [
+          {
+            "source": "src:iqm-pr-2025-11-13-halocene",
+            "quote": "The first release of IQM Halocene will be a 150-qubit quantum computer with advanced error correction functionality.",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2025-11-13-halocene",
+          "quote": "IQM Halocene is a new quantum computer product line aimed at error correction development. It will start with a 150-qubit system to be delivered by the end of 2026",
+          "locator": "highlights",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:oqc-toshiko",
+      "name": "OQC Toshiko",
+      "operator": "co:oqc",
+      "modality": "superconducting",
+      "submodality": "transmon",
+      "status": "online",
+      "announced": "2023-11-27",
+      "physical_qubits": {
+        "value": 32,
+        "as_of": "2023-11-27",
+        "evidence": [
+          {
+            "source": "src:oqc-pr-2023-11-27-toshiko",
+            "quote": "OQC Toshiko is a powerful next generation 32-qubit platform, deployed to commercial data-centres",
+            "locator": "lead",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2023-11-27-toshiko",
+          "quote": "today announced the public availability of OQC Toshiko",
+          "locator": "lead",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:oqc-tech-page",
+          "quote": "Our 32-qubit Toshiko device is deployed and securely accessible in datacentres in the UK, Japan and soon New York, as well as in a supercomputing centre in Spain.",
+          "locator": "body",
+          "supports": "status, deployment countries (no named facility)"
+        },
+        {
+          "source": "src:oqc-devices-page",
+          "quote": "as we move from the conventional transmon in our existing OQC Toshiko® device, to the dual-rail encoded dimon in OQC GENESIS",
+          "locator": "Coaxmon section",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:oqc-genesis",
+      "name": "OQC GENESIS",
+      "operator": "co:oqc",
+      "modality": "superconducting",
+      "submodality": "superconducting_other",
+      "status": "announced",
+      "announced": "2025-09-16",
+      "site": "site:digital-realty-jfk10-nyc",
+      "physical_qubits": {
+        "value": 16,
+        "as_of": "2026-10-01",
+        "note": "16 dual-rail dimon qubits (DDQs) as stated; each DDQ is a multimode device encoding one qubit across two modes. Source does not give a mode/transmon count.",
+        "evidence": [
+          {
+            "source": "src:oqc-devices-page",
+            "quote": "GENESIS will feature 16 of our dual-rail dimon qubits, which enable quantum error-detection on the individual qubit level",
+            "locator": "GENESIS section",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2025-09-16-nyc-quantum-ai-dc",
+          "quote": "The system features OQC GENESIS, a logical-era quantum computer, installed within Digital Realty’s secure JFK10 site",
+          "locator": "body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "This kiloquop device marks the start of the logical era, commercially available from 2026.",
+          "locator": "roadmap: OQC GENESIS tab",
+          "supports": "status (commercial availability from 2026)"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS is an evolution of the Toshiko processor featuring OQC’s multi-mode Dual-rail Dimon Qubit (DDQ) technology",
+          "locator": "roadmap: OQC GENESIS tab",
+          "supports": "modality"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms:iqm-cz-9991-test-device",
+      "orgs": [
+        "co:iqm"
+      ],
+      "date": "2024-07-15",
+      "category": "fidelity",
+      "claim": "IQM reports a CZ gate between two qubits with (99.91 +- 0.02) % fidelity measured by interleaved randomised benchmarking, and a qubit relaxation time T1 of 0.964 +- 0.092 milliseconds on a test device.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2024-07-15-cz-9991",
+          "quote": "A record low error rate for two-qubit operations was achieved by demonstrating a CZ gate between two qubits with (99.91 +- 0.02) % fidelity, which was validated by interleaved randomised benchmarking.",
+          "locator": "body",
+          "supports": "fidelity"
+        },
+        {
+          "source": "src:iqm-pr-2024-07-15-cz-9991",
+          "quote": "qubit relaxation time T1 of 0.964 +- 0.092 milliseconds and dephasing time T2 echo of 1.155 +- 0.188 milliseconds was demonstrated on a planar transmon qubit on a silicon chip fabricated in IQM´s own fabrication facilities",
+          "locator": "body",
+          "supports": "coherence"
+        }
+      ]
+    },
+    {
+      "id": "ms:iqm-prxq-999-single-device",
+      "orgs": [
+        "co:iqm"
+      ],
+      "date": "2026-05-20",
+      "category": "fidelity",
+      "claim": "IQM researchers report, in a two-transmon device with a tunable coupler, a 40 h-averaged CZ gate fidelity of 99.93 %, simultaneous single-qubit gate fidelities of 99.98 % and readout fidelities over 99.94 %.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/n86s-2b88",
+      "arxiv": "2508.16437",
+      "evidence": [
+        {
+          "source": "src:prxquantum-marxer-2026",
+          "quote": "we achieve a 40 h-averaged CZ gate fidelity of 99.93 %, simultaneous single-qubit gate fidelities of 99.98 %, and readout fidelities over 99.94 % in a single device",
+          "locator": "abstract (retrieved via Crossref metadata API https://api.crossref.org/works/10.1103/n86s-2b88; APS landing page returned HTTP 403)",
+          "supports": "fidelity, peer review"
+        },
+        {
+          "source": "src:prxquantum-marxer-2026",
+          "quote": "a superconducting circuit with two transmon qubits coupled via a tunable coupler",
+          "locator": "abstract",
+          "supports": "device"
+        },
+        {
+          "source": "src:arxiv-2508.16437",
+          "quote": "we achieve a 40h-averaged CZ gate fidelity of 99.93%, simultaneous single-qubit gate fidelities of 99.98%, and readout fidelities over 99.94% in a single device",
+          "locator": "arXiv abstract (v1, submitted 22 Aug 2025; listing gives related DOI 10.1103/n86s-2b88)",
+          "supports": "preprint"
+        }
+      ]
+    },
+    {
+      "id": "ms:iqm-20q-median-cz-9951",
+      "orgs": [
+        "co:iqm"
+      ],
+      "date": "2024-02-20",
+      "category": "fidelity",
+      "claim": "IQM reports a median two-qubit (CZ) gate fidelity of 99.51% across 30 qubit pairs, maximum 99.8% on a single pair, on its 20-qubit quantum computer.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2024-02-20-20q-benchmarks",
+          "quote": "the 20-qubit processor demonstrates a median two-qubit (CZ) gate fidelity of 99.51% across 30 qubit pairs, with maximum fidelity over a single pair reaching as high as 99.8%.",
+          "locator": "body",
+          "supports": "fidelity"
+        }
+      ]
+    },
+    {
+      "id": "ms:vtt-iqm-50-qubit-launch",
+      "orgs": [
+        "co:vtt",
+        "co:iqm"
+      ],
+      "systems": [
+        "sys:vtt-50-qubit"
+      ],
+      "date": "2025-03-04",
+      "category": "system_launch",
+      "claim": "VTT and IQM state they completed and launched a 50-qubit superconducting quantum computer at VTT in Espoo, opened to companies and researchers.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:vtt-2025-03-04-50-qubit",
+          "quote": "VTT Technical Research Centre of Finland and IQM Quantum Computers , one of the global leaders in superconducting quantum computers, have completed and launched Europe’s first 50-qubit superconducting quantum computer",
+          "locator": "lead",
+          "supports": "event"
+        },
+        {
+          "source": "src:vtt-2025-03-04-50-qubit",
+          "quote": "The new 50-qubit quantum computer is located at VTT’s premises in Micronova in Espoo, Finland.",
+          "locator": "body",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "ms:lrz-euro-q-exa-inauguration",
+      "orgs": [
+        "co:lrz",
+        "gov:eu-eurohpc",
+        "co:iqm"
+      ],
+      "systems": [
+        "sys:lrz-euro-q-exa"
+      ],
+      "date": "2026-02-12",
+      "category": "system_launch",
+      "claim": "EuroHPC JU inaugurated Euro-Q-Exa, a 54-qubit IQM Radiance-based system hosted and operated by LRZ.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:eurohpc-2026-02-12-euro-q-exa",
+          "quote": "Today, the EuroHPC Joint Undertaking (EuroHPC JU) inaugurated Euro-Q-Exa, a new EuroHPC quantum computer, located in Munich, Germany.",
+          "locator": "lead",
+          "supports": "event"
+        },
+        {
+          "source": "src:eurohpc-2026-02-12-euro-q-exa",
+          "quote": "While the system will initially offer 54 physical qubits",
+          "locator": "body",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:lrz-2026-02-11-euro-q-exa",
+          "quote": "Based on the 'Radiance' system from IQM Quantum Computers , Euro-Q-Exa features 54 quantum bits (qubits) made of superconducting circuits.",
+          "locator": "body",
+          "supports": "builder"
+        }
+      ]
+    },
+    {
+      "id": "ms:ornl-iqm-pathfinder-launch",
+      "orgs": [
+        "co:ornl",
+        "co:iqm"
+      ],
+      "systems": [
+        "sys:ornl-pathfinder"
+      ],
+      "date": "2026-06-16",
+      "category": "system_launch",
+      "claim": "ORNL launched Pathfinder, a 20-qubit IQM Radiance system that IQM states is its first quantum computer installation in the United States.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "The 20-qubit IQM Radiance system marks IQM’s first quantum computer installation in the United States.",
+          "locator": "lead",
+          "supports": "event, qubits"
+        },
+        {
+          "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+          "quote": "The Department of Energy’s Oak Ridge National Laboratory (ORNL) today launched Pathfinder",
+          "locator": "lead",
+          "supports": "event"
+        }
+      ]
+    },
+    {
+      "id": "ms:oqc-toshiko-launch",
+      "orgs": [
+        "co:oqc"
+      ],
+      "systems": [
+        "sys:oqc-toshiko"
+      ],
+      "date": "2023-11-27",
+      "category": "system_launch",
+      "claim": "OQC announced public availability of OQC Toshiko, a 32-qubit platform deployed to commercial data centres.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2023-11-27-toshiko",
+          "quote": "today announced the public availability of OQC Toshiko",
+          "locator": "lead",
+          "supports": "event"
+        },
+        {
+          "source": "src:oqc-pr-2023-11-27-toshiko",
+          "quote": "OQC Toshiko is a powerful next generation 32-qubit platform, deployed to commercial data-centres",
+          "locator": "lead",
+          "supports": "qubits"
+        }
+      ]
+    },
+    {
+      "id": "ms:oqc-dual-rail-dimon",
+      "orgs": [
+        "co:oqc"
+      ],
+      "date": "2025-06-18",
+      "category": "error_correction",
+      "claim": "OQC researchers report a dual-rail encoding within a single fixed-frequency multimode transmon in which error-detected bit-flip and phase-flip error rates are more than one order of magnitude lower than physical error rates, measured on three devices.",
+      "peer_review": "preprint",
+      "arxiv": "2506.15420",
+      "evidence": [
+        {
+          "source": "src:arxiv-2506.15420",
+          "quote": "We show the logical bit-flip and phase-flip error rates are more than one order of magnitude lower than the physical error rates, and demonstrate stability and repeatability of the architecture through an extended measurement of three such devices.",
+          "locator": "abstract",
+          "supports": "result"
+        },
+        {
+          "source": "src:arxiv-2506.15420",
+          "quote": "Here we present a dual-rail encoding within a single fixed-frequency superconducting multimode transmon qubit.",
+          "locator": "abstract",
+          "supports": "device"
+        },
+        {
+          "source": "src:oqc-blog-2025-06-19-ddq",
+          "quote": "The encoded qubits exhibit significantly improved bit-flip and phase-flip error rates, with lifetimes exceeding 1 ms and stable over the course of 50 hours.",
+          "locator": "summary",
+          "supports": "company summary"
+        }
+      ]
+    },
+    {
+      "id": "ms:oqc-through-sapphire-machining",
+      "orgs": [
+        "co:oqc"
+      ],
+      "systems": [
+        "sys:oqc-toshiko"
+      ],
+      "date": "2025-01-19",
+      "category": "manufacturing",
+      "claim": "OQC reports a through-sapphire substrate machining process compatible with high-coherence qubits, which it states it demonstrated through the complete manufacturing process of its 32-qubit OQC Toshiko QPU.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1002/adma.202411780",
+      "evidence": [
+        {
+          "source": "src:advmat-through-sapphire-2025",
+          "quote": "Here, a sapphire machining process that is compatible with high‐coherence qubits is presented.",
+          "locator": "abstract (retrieved via Crossref metadata API https://api.crossref.org/works/10.1002/adma.202411780)",
+          "supports": "result, peer review"
+        },
+        {
+          "source": "src:oqc-pr-2025-01-20-sapphire",
+          "quote": "Successful demonstrations of this technique have been shown through the complete manufacturing process of their 32-qubit OQC Toshiko QPU.",
+          "locator": "body",
+          "supports": "system link"
+        }
+      ]
+    },
+    {
+      "id": "ms:oqc-wafer-scale-500-package",
+      "orgs": [
+        "co:oqc"
+      ],
+      "date": "2026-02-13",
+      "category": "manufacturing",
+      "claim": "OQC researchers report a wafer-scale package supporting over 500 qubits on a single 3-inch die, with median readout fidelity of 97.5% measured across 54 qubits.",
+      "peer_review": "preprint",
+      "arxiv": "2602.12773",
+      "evidence": [
+        {
+          "source": "src:arxiv-2602.12773",
+          "quote": "We present a wafer-scale packaging architecture supporting over 500 qubits on a single 3-inch die.",
+          "locator": "abstract",
+          "supports": "result"
+        },
+        {
+          "source": "src:arxiv-2602.12773",
+          "quote": "readout with median fidelity of 97.5% (54 qubits)",
+          "locator": "abstract",
+          "supports": "metric"
+        }
+      ]
+    },
+    {
+      "id": "ms:oqc-genesis-nyc-install",
+      "orgs": [
+        "co:oqc"
+      ],
+      "systems": [
+        "sys:oqc-genesis"
+      ],
+      "date": "2025-09-16",
+      "category": "system_launch",
+      "claim": "OQC and Digital Realty announced a Quantum-AI Data Centre at Digital Realty's JFK10 facility in New York City, stating OQC GENESIS is installed there.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2025-09-16-nyc-quantum-ai-dc",
+          "quote": "today announced the launch of the first Quantum-AI Data Centre in New York City, located at Digital Realty’s JFK10 facility",
+          "locator": "lead",
+          "supports": "event"
+        },
+        {
+          "source": "src:oqc-pr-2025-09-16-nyc-quantum-ai-dc",
+          "quote": "The system features OQC GENESIS, a logical-era quantum computer, installed within Digital Realty’s secure JFK10 site",
+          "locator": "body",
+          "supports": "system"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:iqm-fault-tolerance-2030",
+      "org": "co:iqm",
+      "target_date": "2030",
+      "statement": "IQM targets “fault tolerant quantum computing by 2030”.",
+      "stated_on": "2024-11-13",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2024-11-13-roadmap",
+          "quote": "today announced its development roadmap with technical milestones targeting fault tolerant quantum computing by 2030",
+          "locator": "lead paragraph",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:iqm-pr-2026-09-10-lumi-iq",
+          "quote": "The deployments are in line with IQM’s development roadmap for fault-tolerant quantum computing by 2030.",
+          "locator": "highlights (restated 10 Sept 2026)",
+          "supports": "target reaffirmed"
+        }
+      ]
+    },
+    {
+      "id": "tgt:iqm-halocene-150-2026",
+      "org": "co:iqm",
+      "system": "sys:iqm-halocene-150",
+      "system_name": "IQM Halocene",
+      "target_date": "2026-12",
+      "statement": "IQM targets commercial availability of a 150-qubit IQM Halocene system, with research on up to five encoded qubits, by the end of 2026.",
+      "stated_on": "2025-11-13",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2025-11-13-halocene",
+          "quote": "The 150-qubit system will become commercially available by the end of 2026.",
+          "locator": "body",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:iqm-pr-2025-11-13-halocene",
+          "quote": "enabling research on up to five logical qubits and the implementation of Clifford gates",
+          "locator": "body",
+          "supports": "scope"
+        }
+      ]
+    },
+    {
+      "id": "tgt:iqm-lumi-iq-halocene-h4-2027",
+      "org": "co:iqm",
+      "system_name": "LUMI-IQ (IQM Halocene H4)",
+      "target_date": "2027",
+      "statement": "IQM targets a first LUMI-IQ installation, an IQM Halocene H4 system with 150 physical qubits, at CSC in Kajaani in 2027.",
+      "stated_on": "2026-09-10",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-09-10-lumi-iq",
+          "quote": "LUMI-IQ will be delivered in three steps: the first installation of an IQM Halocene H4 system in 2027 with 150 physical qubits and early quantum error correction capabilities.",
+          "locator": "body",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:iqm-pr-2026-09-10-lumi-iq",
+          "quote": "LUMI-IQ will be hosted in CSC’s new data center in Kajaani, Finland.",
+          "locator": "body",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "tgt:iqm-lumi-iq-halocene-h5-2029",
+      "org": "co:iqm",
+      "system_name": "LUMI-IQ (IQM Halocene H5)",
+      "target_date": "2029",
+      "statement": "IQM targets installing an IQM Halocene H5 system as the final LUMI-IQ upgrade in 2029, stating it will enable computations with up to 9 encoded qubits using distance 3 surface code and colour code.",
+      "stated_on": "2026-09-10",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2026-09-10-lumi-iq",
+          "quote": "The final upgrade is installation of IQM Halocene H5 system in 2029.",
+          "locator": "body",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:iqm-pr-2026-09-10-lumi-iq",
+          "quote": "With distance 3 surface code and colour code, the system will enable computations with up to 9 logical qubits.",
+          "locator": "body",
+          "supports": "scope, code"
+        }
+      ]
+    },
+    {
+      "id": "tgt:eurohpc-euro-q-exa-150-upgrade",
+      "org": "gov:eu-eurohpc",
+      "system": "sys:lrz-euro-q-exa",
+      "system_name": "Euro-Q-Exa upgrade",
+      "target_date": "2026-12",
+      "statement": "EuroHPC JU targets expanding Euro-Q-Exa with an upgrade offering 150 qubits by the end of 2026.",
+      "stated_on": "2026-02-12",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:eurohpc-2026-02-12-euro-q-exa",
+          "quote": "Euro-Q-Exa will be expanded by the end of 2026 with the installation of an upgrade offering 150 qubits.",
+          "locator": "body",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:eurohpc-2026-02-12-euro-q-exa",
+          "quote": "With the new system — and its substantial upgrade planned for early 2027 — we are already enabling complex quantum computations today.",
+          "locator": "quote of Henna Virkkunen (same release gives early 2027)",
+          "supports": "date ambiguity"
+        },
+        {
+          "source": "src:lrz-2026-02-11-euro-q-exa",
+          "quote": "A second, more powerful quantum computer with 150 qubits is expected to be added to the system by end of 2026.",
+          "locator": "body",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:oqc-megaquop-2028",
+      "org": "co:oqc",
+      "target_date": "2028",
+      "statement": "OQC targets an affordable quantum computing infrastructure that can reliably perform millions of quantum operations by 2028.",
+      "stated_on": "2025-06-19",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2025-06-19-dual-rail-dimon",
+          "quote": "by building an affordable quantum computing infrastructure by 2028 that can reliably perform millions of quantum operations for a variety of users",
+          "locator": "body",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:oqc-titan-2028",
+      "org": "co:oqc",
+      "system_name": "OQC TITAN",
+      "target_date": "2028",
+      "statement": "OQC targets OQC TITAN, described as featuring 200 “logical qubits” within 2,000 lattice sites, by 2028.",
+      "stated_on": "2026-10-01",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap timeline tabs (page undated; images uploaded 2026/04)",
+          "supports": "date"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "Featuring 200 logical qubits within 2,000 lattice sites, it will perform millions of quantum operations.",
+          "locator": "OQC TITAN tab",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:oqc-athena-2031",
+      "org": "co:oqc",
+      "system_name": "OQC ATHENA",
+      "target_date": "2031",
+      "statement": "OQC targets OQC ATHENA, described as offering 5,000 “logical qubits” from 75,000 lattice sites on 200 mm wafers, by 2031.",
+      "stated_on": "2026-10-01",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap timeline tabs",
+          "supports": "date"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "This 200 mm wafer-scale QPU allows OQC’s patented extensible architecture to achieve 75,000 lattice sites.",
+          "locator": "OQC ATHENA tab",
+          "supports": "target"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "A highly-efficient outer code corrects remaining errors, offering 5,000 logical qubits at very low 10 -9 error rates.",
+          "locator": "OQC ATHENA tab",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:oqc-atlas-2034",
+      "org": "co:oqc",
+      "system_name": "OQC ATLAS",
+      "target_date": "2034",
+      "statement": "OQC targets OQC ATLAS, described as delivering 50,000 “logical qubits” from 1 million lattice sites on 300 mm wafers, by 2034.",
+      "stated_on": "2026-10-01",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap timeline tabs",
+          "supports": "date"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC ATLAS: Delivering 50,000 logical qubits and trillions of operations",
+          "locator": "OQC ATLAS tab",
+          "supports": "target"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "The OQC ATLAS QPU is fabricated using 300 mm wafers and features 1 million lattice sites with multi-layer connectivity.",
+          "locator": "OQC ATLAS tab",
+          "supports": "target"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "gaps": [
+    {
+      "topic": "IQM Garnet / Emerald physical location",
+      "why": "No IQM document fetched places the cloud-accessible Garnet or Emerald QPUs at a named facility (IQM mentions a quantum data centre in Munich but does not tie these machines to it).",
+      "would_need": "IQM statement naming the facility hosting Garnet/Emerald."
+    },
+    {
+      "topic": "IQM SEC prospectus (424B3, 2026-08-26) and 6-K filings",
+      "why": "www.sec.gov/Archives refused the declared User-Agent (HTTP 403 'Undeclared Automated Tool'); IR site investors.iqm.tech failed (HTTP/2 error). System counts, roadmap and risk factors from the prospectus could not be quoted.",
+      "would_need": "IR-hosted copy of the F-1/424B3 prospectus."
+    },
+    {
+      "topic": "IQM logical error-rate target revision",
+      "why": "IQM's Nov 2024 roadmap release targets logical error rates 'below 10^-7'; the current roadmap page says the roadmap 'targets logical error rates reaching 10⁻⁹'. Neither text gives a date for the error-rate goal, so the change was not recorded as a dated target revision.",
+      "would_need": "Dated roadmap document stating the error-rate target with a year."
+    },
+    {
+      "topic": "IQM Garnet two-qubit fidelity",
+      "why": "IQM's 99.51% median CZ fidelity release refers to 'the 20-qubit quantum computer' without naming Garnet, so it was recorded as a milestone, not as a Garnet metric.",
+      "would_need": "IQM document tying benchmark numbers to Garnet by name."
+    },
+    {
+      "topic": "OQC roadmap original publication (June 2025)",
+      "why": "OQC's roadmap page is undated (timeline images uploaded April 2026); no OQC-hosted June 2025 roadmap release was found and the Wayback Machine was offline, so the original stated_on date and any changes between versions could not be verified. Targets use the access date as stated_on.",
+      "would_need": "OQC's June 2025 roadmap press release or an archived copy of oqc.tech/roadmap from 2025."
+    },
+    {
+      "topic": "OQC Toshiko installation sites",
+      "why": "OQC states Toshiko is deployed in datacentres in the UK, Japan and Spain, but no fetched document names which facility hosts a Toshiko system today. Equinix TY11 (Tokyo, 2023 plan) and Cyxtera LHR3 (Reading, 2022 plan) are recorded as announced sites only; CESGA (Galicia) installation of a 32-qubit OQC machine was announced in 2023 without a confirming release.",
+      "would_need": "OQC or host releases confirming Toshiko is operational at a named facility."
+    },
+    {
+      "topic": "OQC Toshiko gate fidelities",
+      "why": "No OQC primary document fetched states two-qubit fidelity for Toshiko with a definition.",
+      "would_need": "OQC datasheet or Braket/OQC Cloud device page with a stated median/mean definition."
+    },
+    {
+      "topic": "OQC GENESIS operational status",
+      "why": "The Sept 2025 release says GENESIS is 'installed' at JFK10, while the devices page says GENESIS 'will feature' 16 DDQs and the roadmap says commercially available from 2026. Recorded as announced.",
+      "would_need": "OQC statement that GENESIS is operational / available to customers."
+    }
+  ]
+}

@@ -1,13 +1,21 @@
-import type { Evidence, Index, Review } from "../atlas";
-import { DOC_LABEL } from "../theme";
+import type { Evidence, Index, Review, PeerReview } from "../atlas";
+import { DOC_LABEL, PEER_LABEL, PEER_TITLE } from "../theme";
 
 export function TierBadge({ tier }: { tier: 1 | 2 | 3 }) {
-  return <span className={`tier t${tier}`} title={tier === 1 ? "Tier 1 — legal / regulatory primary document" : tier === 2 ? "Tier 2 — company primary document" : "Tier 3 — secondary source (flagged)"}>T{tier}</span>;
+  return <span className={`tier t${tier}`} title={tier === 1 ? "Tier 1 — peer-reviewed paper, SEC filing or government document" : tier === 2 ? "Tier 2 — official company / institution material or preprint" : "Tier 3 — secondary source (flagged)"}>T{tier}</span>;
 }
 
 export function ReviewBadge({ review, note }: { review: Review; note?: string }) {
   const label = review === "verified" ? "VERIFIED" : review === "flagged" ? "FLAGGED" : "UNVERIFIED DRAFT";
   return <span className={`review r-${review}`} title={note}>{label}</span>;
+}
+
+export function PeerBadge({ status }: { status: PeerReview }) {
+  return <span className={`peer p-${status}`} title={PEER_TITLE[status]}>{PEER_LABEL[status]}</span>;
+}
+
+export function PreprintBadge() {
+  return <span className="peer p-preprint" title="Not peer reviewed">PREPRINT</span>;
 }
 
 export function EvidenceList({ idx, evidence }: { idx: Index; evidence: Evidence[] }) {
@@ -21,6 +29,7 @@ export function EvidenceList({ idx, evidence }: { idx: Index; evidence: Evidence
           <div className="ev" key={i}>
             <div className="ev-head">
               {src && <TierBadge tier={src.tier} />}
+              {src?.doc_type === "preprint" && <PreprintBadge />}
               <span className="ev-doc">{src ? DOC_LABEL[src.doc_type] ?? src.doc_type : "Unknown source"}</span>
               <span className="ev-date mono">{src?.document_date}</span>
             </div>
@@ -32,7 +41,7 @@ export function EvidenceList({ idx, evidence }: { idx: Index; evidence: Evidence
             {src && (
               <a className="ev-src" href={src.url} target="_blank" rel="noreferrer noopener">
                 <span className="ev-title">{src.title}</span>
-                <span className="ev-pub">{src.publisher}{src.identifier ? ` · ${src.identifier}` : ""} ↗</span>
+                <span className="ev-pub">{src.publisher}{src.doi ? ` · doi:${src.doi}` : ""}{src.arxiv ? ` · arXiv:${src.arxiv}` : ""}{src.identifier ? ` · ${src.identifier}` : ""} ↗</span>
               </a>
             )}
           </div>

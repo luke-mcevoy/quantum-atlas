@@ -1,0 +1,965 @@
+{
+  "topic": "trapped_ion",
+  "analyst": "claude-opus-5.5 (trapped_ion analyst)",
+  "generated_at": "2026-10-01T00:00:00Z",
+  "sources": [
+    {
+      "id": "src:quantinuum-helios-launch-pr",
+      "title": "Quantinuum Announces Commercial Launch of New Helios Quantum Computer that Offers Unprecedented Accuracy to Enable Generative Quantum AI (GenQAI)",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-announces-commercial-launch-of-new-helios-quantum-computer-that-offers-unprecedented-accuracy-to-enable-generative-quantum-ai-genqai",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-helios-blog",
+      "title": "Introducing Helios: The Most Accurate Quantum Computer in the World",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/blog/introducing-helios-the-most-accurate-quantum-computer-in-the-world",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-11-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2511.05465",
+      "title": "Helios: A 98-qubit trapped-ion quantum computer",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2511.05465",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-11-07",
+      "accessed": "2026-10-01",
+      "arxiv": "2511.05465"
+    },
+    {
+      "id": "src:arxiv-2602.22211",
+      "title": "Computing with many encoded logical qubits beyond break-even",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2602.22211",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2026-02-25",
+      "accessed": "2026-10-01",
+      "arxiv": "2602.22211"
+    },
+    {
+      "id": "src:quantinuum-h1-page",
+      "title": "System Model H1",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/products-solutions/quantinuum-systems/system-model-h1",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-h2-page",
+      "title": "System Model H2",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/products-solutions/quantinuum-systems/system-model-h2",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-about",
+      "title": "About Quantinuum",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/company/about",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-piper-pr",
+      "title": "Quantinuum to Participate in the Piper Sandler 5th Annual Growth Frontiers Conference",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-to-participate-in-the-piper-sandler-5th-annual-growth-frontiers-conference",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-11",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-h2-56-pr",
+      "title": "Quantinuum Launches Industry-First, Trapped-Ion 56-Qubit Quantum Computer, Breaking Key Benchmark Record",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-launches-industry-first-trapped-ion-56-qubit-quantum-computer-that-challenges-the-worlds-best-supercomputers",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-06-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:prx-15-021052",
+      "title": "Computational Power of Random Quantum Circuits in Arbitrary Geometries (Phys. Rev. X 15, 021052)",
+      "publisher": "American Physical Society (Physical Review X)",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevX.15.021052/fulltext",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-05-13",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PhysRevX.15.021052"
+    },
+    {
+      "id": "src:arxiv-2404.02280",
+      "title": "Demonstration of logical qubits and repeated error correction with better-than-physical error rates",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2404.02280",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-04-02",
+      "accessed": "2026-10-01",
+      "arxiv": "2404.02280"
+    },
+    {
+      "id": "src:quantinuum-microsoft-apr2024-pr",
+      "title": "Quantinuum Partners with Microsoft in New Phase of Reliable Quantum Computing with Breakthrough Demonstration of Reliable Logical Qubits",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/news/quantinuum-and-microsoft-announce-new-era-in-quantum-computing-with-breakthrough-demonstration-of-reliable-qubits",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-03",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:nature-s41586-025-08737-1",
+      "title": "Certified randomness using a trapped-ion quantum processor (Nature)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-08737-1",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-03-26",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-08737-1"
+    },
+    {
+      "id": "src:prx-dck4-x9c2",
+      "title": "Experimental Demonstration of High-Fidelity Logical Magic States from Code Switching (Phys. Rev. X 15, 041008)",
+      "publisher": "American Physical Society (Physical Review X)",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/dck4-x9c2/fulltext",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-10-14",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/dck4-x9c2"
+    },
+    {
+      "id": "src:arxiv-2506.14688",
+      "title": "Breaking even with magic: demonstration of a high-fidelity logical non-Clifford gate",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2506.14688",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-06-17",
+      "accessed": "2026-10-01",
+      "arxiv": "2506.14688"
+    },
+    {
+      "id": "src:nature-s41586-026-10445-3",
+      "title": "Digital quantum magnetism on a trapped-ion quantum computer (Nature 653, 56-62)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10445-3",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2026-04-29",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-026-10445-3"
+    },
+    {
+      "id": "src:quantinuum-roadmap-pr-2024",
+      "title": "Quantinuum Unveils Accelerated Roadmap to Achieve Universal, Fully Fault-Tolerant Quantum Computing by 2030",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-unveils-accelerated-roadmap-to-achieve-universal-fault-tolerant-quantum-computing-by-2030",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2024-09-10",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-tech-perspective-2024",
+      "title": "Technical Perspective: By the end of the decade, we will deliver universal, fault-tolerant quantum computing",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/blog/technical-perspective-by-the-end-of-the-decade-we-will-deliver-universal-fault-tolerant-quantum-computing",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2024-09-17",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-2029-blog",
+      "title": "Quantinuum Overcomes Last Major Hurdle to Deliver Scalable Universal Fault-Tolerant Quantum Computers by 2029",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/blog/quantinuum-overcomes-last-major-hurdle-to-deliver-scalable-universal-fault-tolerant-quantum-computers-by-2029",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-06-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-q2-2026-results",
+      "title": "Quantinuum Reports Second Quarter 2026 Results",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-reports-second-quarter-2026-results",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-11",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-singapore-pr",
+      "title": "Singapore’s National Quantum Office and Quantinuum Forge Strategic Partnership to Accelerate Quantum Computing",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/singapores-national-quantum-office-and-quantinuum-forge-strategic-partnership-to-accelerate-quantum-computing",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-06",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-broomfield-lab-blog",
+      "title": "Quantinuum announces its new laboratory space in Broomfield",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/blog/quantinuum-announces-its-new-laboratory-space-in-broomfield",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2023-06-08",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:quantinuum",
+      "name": "Quantinuum",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 39.928,
+        "lon": -105.131,
+        "precision": "site",
+        "address": "303 S Technology Court, Broomfield, CO 80021, USA"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "tickers": [
+        "NASDAQ:QNT"
+      ],
+      "sec_cik": "0002110105",
+      "parent": "co:honeywell",
+      "website": "https://www.quantinuum.com",
+      "evidence": [
+        {
+          "source": "src:quantinuum-piper-pr",
+          "quote": "Quantinuum’s headquarters is in Broomfield, Colorado, with additional facilities across the United States, United Kingdom, Germany, Japan, Qatar, and Singapore.",
+          "locator": "About Quantinuum boilerplate",
+          "supports": "hq"
+        },
+        {
+          "source": "src:quantinuum-about",
+          "quote": "Broomfield, Colorado, USA 303 S Technology Court Broomfield, CO 80021",
+          "locator": "Office locations list",
+          "supports": "hq address"
+        },
+        {
+          "source": "src:quantinuum-piper-pr",
+          "quote": "Quantinuum Inc. (Nasdaq: QNT)",
+          "locator": "Dateline paragraph",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:quantinuum-piper-pr",
+          "quote": "The company has commercially deployed multiple generations of trapped-ion based quantum systems built on the well-established QCCD architecture",
+          "locator": "About Quantinuum boilerplate",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:quantinuum-h2-56-pr",
+          "quote": "Mitsui & Co., Amgen and Honeywell, which remains the company’s majority shareholder",
+          "locator": "Funding paragraph (June 2024; pre-IPO)",
+          "supports": "parent"
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "site:quantinuum-broomfield",
+      "name": "Quantinuum Broomfield, Colorado (headquarters and laboratories)",
+      "operator": "co:quantinuum",
+      "kind": "headquarters",
+      "location": {
+        "lat": 39.928,
+        "lon": -105.131,
+        "precision": "site",
+        "address": "303 S Technology Court, Broomfield, CO 80021, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:quantinuum-about",
+          "quote": "Broomfield, Colorado, USA 303 S Technology Court Broomfield, CO 80021",
+          "locator": "Office locations list",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:quantinuum-piper-pr",
+          "quote": "Quantinuum’s headquarters is in Broomfield, Colorado",
+          "locator": "About Quantinuum boilerplate",
+          "supports": "kind (headquarters)"
+        },
+        {
+          "source": "src:quantinuum-broomfield-lab-blog",
+          "quote": "Quantinuum has unveiled our new optics and electromechanical engineering laboratory space at our largest operating site, in Broomfield Colorado.",
+          "locator": "Opening paragraph",
+          "supports": "lab"
+        }
+      ]
+    },
+    {
+      "id": "site:quantinuum-cambridge-uk",
+      "name": "Quantinuum Cambridge, United Kingdom (Terrington House)",
+      "operator": "co:quantinuum",
+      "kind": "lab",
+      "location": {
+        "lat": 52.1995,
+        "lon": 0.1289,
+        "precision": "site",
+        "address": "Terrington House, 13-15 Hills Road, Cambridge CB2 1NL, United Kingdom"
+      },
+      "country": "GB",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:quantinuum-about",
+          "quote": "Cambridge, United Kingdom Terrington House 13-15 Hills Road Cambridge CB2 1NL",
+          "locator": "Office locations list",
+          "supports": "existence, location"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "sys:quantinuum-h1",
+      "name": "System Model H1",
+      "operator": "co:quantinuum",
+      "modality": "trapped_ion",
+      "status": "online",
+      "physical_qubits": {
+        "value": 20,
+        "as_of": "2026-10",
+        "note": "as listed on the current product page",
+        "evidence": [
+          {
+            "source": "src:quantinuum-h1-page",
+            "quote": "20 fully-connected qubits",
+            "locator": "Key specifications",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "quantum volume",
+          "value": 1048576,
+          "unit": "",
+          "definition": "Quantum volume as listed by Quantinuum on the System Model H1 product page (2^20); measurement date not stated on the page",
+          "as_of": "2026-10",
+          "evidence": [
+            {
+              "source": "src:quantinuum-h1-page",
+              "quote": "1,048,576 (2 20 ) quantum volume",
+              "locator": "Key specifications",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "two-qubit gate fidelity",
+          "value": 99.9,
+          "unit": "%",
+          "definition": "Stated as \">99.9% two-qubit gate fidelity\" on the product page; the page does not state whether average or best, nor the benchmarking method",
+          "as_of": "2026-10",
+          "evidence": [
+            {
+              "source": "src:quantinuum-h1-page",
+              "quote": ">99.9% two-qubit gate fidelity",
+              "locator": "Key specifications",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:quantinuum-h1-page",
+          "quote": "System Model H1 is our first-generation of quantum computers with a single linear architecture",
+          "locator": "Product overview",
+          "supports": "existence"
+        },
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "Today, Quantinuum’s H1 and H2 quantum computers, Powered by Honeywell, remain available on Azure and directly to Quantinuum customers and partners.",
+          "locator": "Body (September 2024)",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:quantinuum-h2",
+      "name": "System Model H2",
+      "operator": "co:quantinuum",
+      "modality": "trapped_ion",
+      "status": "online",
+      "physical_qubits": {
+        "value": 56,
+        "as_of": "2024-06-05",
+        "note": "upgraded from 32 to 56 qubits in June 2024",
+        "evidence": [
+          {
+            "source": "src:quantinuum-h2-56-pr",
+            "quote": "today unveiled the industry’s first quantum computer with 56 trapped-ion qubits",
+            "locator": "Lead paragraph",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:quantinuum-h2-page",
+            "quote": "56 fully-connected qubits",
+            "locator": "Key specifications",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity",
+          "value": 99.843,
+          "unit": "%",
+          "definition": "Two-qubit gate fidelity of H2 after the upgrade to 56 qubits, as reported in the peer-reviewed PRX paper (99.843(5)%); the abstract does not specify averaging beyond this figure",
+          "as_of": "2025-05-13",
+          "evidence": [
+            {
+              "source": "src:prx-15-021052",
+              "quote": "enabling it to operate on up to 56 qubits with arbitrary connectivity and 99.843(5)% two-qubit gate fidelity",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "quantum volume",
+          "value": 33554432,
+          "unit": "",
+          "definition": "Quantum volume as listed by Quantinuum on the System Model H2 product page (2^25); measurement date not stated on the page",
+          "as_of": "2026-10",
+          "evidence": [
+            {
+              "source": "src:quantinuum-h2-page",
+              "quote": "33,554,432 (2 25 ) quantum volume",
+              "locator": "Key specifications",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:quantinuum-h2-page",
+          "quote": "System Model H2 is our second-generation of quantum computers with a racetrack architecture",
+          "locator": "Product overview",
+          "supports": "existence"
+        },
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "Today, Quantinuum’s H1 and H2 quantum computers, Powered by Honeywell, remain available on Azure and directly to Quantinuum customers and partners.",
+          "locator": "Body (September 2024)",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:quantinuum-helios",
+      "name": "Helios",
+      "operator": "co:quantinuum",
+      "modality": "trapped_ion",
+      "status": "online",
+      "announced": "2025-11-05",
+      "online_since": "2025-11-05",
+      "physical_qubits": {
+        "value": 98,
+        "as_of": "2025-11-05",
+        "evidence": [
+          {
+            "source": "src:quantinuum-helios-launch-pr",
+            "quote": "Physical qubits (PQ) : 98 PQ at 99.921% 2-qubit gate fidelity, and 99.9975% 1-qubit gate fidelity.",
+            "locator": "Specifications footnote",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:arxiv-2511.05465",
+            "quote": "We report on Quantinuum Helios, a 98-qubit trapped-ion quantum processor based on the quantum charge-coupled device (QCCD) architecture.",
+            "locator": "Abstract",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity",
+          "value": 99.921,
+          "unit": "%",
+          "definition": "Quantinuum states 99.921% two-qubit gate fidelity \"across all qubit pairs\"; the Helios preprint reports an average two-qubit gate infidelity of 7.9(2)x10^-4 averaged over all operational zones",
+          "as_of": "2025-11-05",
+          "evidence": [
+            {
+              "source": "src:quantinuum-helios-blog",
+              "quote": "two-qubit gate fidelity of 99.921% across all qubit pairs",
+              "locator": "A Stellar Quantum Computer section",
+              "supports": "metric"
+            },
+            {
+              "source": "src:arxiv-2511.05465",
+              "quote": "Averaged over all operational zones in the system, we achieve average infidelities of $2.5(1)\\times10^{-5}$ for single-qubit gates, $7.9(2)\\times10^{-4}$ for two-qubit gates",
+              "locator": "Abstract",
+              "supports": "metric definition"
+            }
+          ]
+        },
+        {
+          "name": "single-qubit gate fidelity",
+          "value": 99.9975,
+          "unit": "%",
+          "definition": "Quantinuum-stated single-qubit gate fidelity; the preprint reports an average single-qubit infidelity of 2.5(1)x10^-5 averaged over all operational zones",
+          "as_of": "2025-11-05",
+          "evidence": [
+            {
+              "source": "src:quantinuum-helios-blog",
+              "quote": "98 fully connected physical qubits with single-qubit gate fidelity of 99.9975%",
+              "locator": "A Stellar Quantum Computer section",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:quantinuum-helios-launch-pr",
+          "quote": "Helios is now available to customers through Quantinuum’s cloud service and on-premise offering.",
+          "locator": "Lead paragraph",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:arxiv-2511.05465",
+          "quote": "Helios features $^{137}$Ba$^{+}$ hyperfine qubits, all-to-all connectivity enabled by a rotatable ion storage ring connecting two quantum operation regions by a junction",
+          "locator": "Abstract",
+          "supports": "modality"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms:quantinuum-h2-56-qubit-rcs",
+      "orgs": [
+        "co:quantinuum"
+      ],
+      "systems": [
+        "sys:quantinuum-h2"
+      ],
+      "date": "2024-06-05",
+      "category": "computational_task",
+      "claim": "Quantinuum upgraded H2 to 56 qubits and ran random circuit sampling on it; the peer-reviewed paper reports 99.843(5)% two-qubit gate fidelity and states H2 can yield data “well beyond the reach of state-of-the art classical simulation methods”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PhysRevX.15.021052",
+      "arxiv": "2406.02501",
+      "evidence": [
+        {
+          "source": "src:prx-15-021052",
+          "quote": "Here, we describe recent hardware upgrades to Quantinuum’s H2 quantum computer, enabling it to operate on up to 56 qubits with arbitrary connectivity and 99.843(5)% two-qubit gate fidelity.",
+          "locator": "Abstract",
+          "supports": "claim, metric"
+        },
+        {
+          "source": "src:prx-15-021052",
+          "quote": "indicates that H2 can yield data well beyond the reach of state-of-the art classical simulation methods at unprecedented fidelities",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:quantinuum-h2-56-pr",
+          "quote": "A joint team from Quantinuum and JPMorgan Chase ran a Random Circuit Sampling (RCS) algorithm",
+          "locator": "Lead paragraph",
+          "supports": "date, claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:quantinuum-microsoft-encoded-qubits-2024",
+      "orgs": [
+        "co:quantinuum"
+      ],
+      "systems": [
+        "sys:quantinuum-h2"
+      ],
+      "date": "2024-04-03",
+      "category": "error_correction",
+      "claim": "Quantinuum and Microsoft report entangled encoded qubits in the [[7,1,3]] and [[12,2,4]] codes on the 32-qubit H2 with error rates below physical levels, and state they created four “logical qubits” using 30 of the 32 physical qubits.",
+      "peer_review": "preprint",
+      "arxiv": "2404.02280",
+      "evidence": [
+        {
+          "source": "src:arxiv-2404.02280",
+          "quote": "we entangled logical qubits encoded in the [[7,1,3]] code with error rates 9.8 times to 500 times lower than at the physical level, and entangled logical qubits encoded in a [[12,2,4]] code based on Knill's C4/C6 scheme with error rates 4.7 times to 800 times lower than at the physical level, depending on the judicious use of post-selection",
+          "locator": "Abstract",
+          "supports": "claim, code"
+        },
+        {
+          "source": "src:quantinuum-microsoft-apr2024-pr",
+          "quote": "The joint team created four logical qubits using 30 of the 32 physical qubits available on the H2",
+          "locator": "Body",
+          "supports": "claim, qubits"
+        }
+      ]
+    },
+    {
+      "id": "ms:quantinuum-certified-randomness-h2",
+      "orgs": [
+        "co:quantinuum"
+      ],
+      "systems": [
+        "sys:quantinuum-h2"
+      ],
+      "date": "2025-03-26",
+      "category": "computational_task",
+      "claim": "A Nature paper reports generating certifiably random bits on the 56-qubit Quantinuum H2-1 accessed over the Internet, certifying 71,313 bits of entropy under a restricted adversary model and additional assumptions.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-08737-1",
+      "evidence": [
+        {
+          "source": "src:nature-s41586-025-08737-1",
+          "quote": "Here we demonstrate the generation of certifiably random bits using the 56-qubit Quantinuum H2-1 trapped-ion quantum computer accessed over the Internet.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-s41586-025-08737-1",
+          "quote": "we certify 71,313 bits of entropy under this restricted adversary and additional assumptions",
+          "locator": "Abstract",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:quantinuum-magic-state-code-switching",
+      "orgs": [
+        "co:quantinuum"
+      ],
+      "systems": [
+        "sys:quantinuum-h2"
+      ],
+      "date": "2025-06-26",
+      "category": "error_correction",
+      "claim": "A peer-reviewed PRX paper reports preparing an encoded magic state in the Steane code by code switching from the fifteen-qubit quantum Reed-Muller code on H2-1; a companion preprint reports preparing magic states in a [[6,2,2]] error-detecting code on the 20-qubit H1-1 and using them for a non-Clifford controlled-Hadamard gate.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/dck4-x9c2",
+      "arxiv": "2506.14169",
+      "evidence": [
+        {
+          "source": "src:prx-dck4-x9c2",
+          "quote": "Our experiment is based on the first demonstration of code switching between color codes, from the fifteen-qubit quantum Reed-Muller code to the seven-qubit Steane code. We prepare an encoded magic state in the Steane code with 82.58% probability, with an infidelity of at most",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:prx-dck4-x9c2",
+          "quote": "Error rate of H2-1 quantum processor is",
+          "locator": "Section on hardware",
+          "supports": "system"
+        },
+        {
+          "source": "src:arxiv-2506.14688",
+          "quote": "We propose and experimentally implement a magic-state preparation protocol to fault-tolerantly prepare a pair of logical magic states in a [[6,2,2]] quantum error-detecting code using only eight physical qubits. Implementing this protocol on H1-1, a 20 qubit trapped-ion quantum processor, we prepare magic states with experimental infidelity",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:quantinuum-2029-blog",
+          "quote": "Today, we have published two papers",
+          "locator": "Body (June 26, 2025)",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:quantinuum-digital-magnetism-h2",
+      "orgs": [
+        "co:quantinuum"
+      ],
+      "systems": [
+        "sys:quantinuum-h2"
+      ],
+      "date": "2026-04-29",
+      "category": "computational_task",
+      "claim": "A Nature paper reports using H2 to simulate digitized dynamics of the quantum Ising model, observing thermalization on timescales the authors state “severely challenge classical simulation methods”, with native partial entangler fidelities of 99.94(1)%.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-026-10445-3",
+      "arxiv": "2503.20870",
+      "evidence": [
+        {
+          "source": "src:nature-s41586-026-10445-3",
+          "quote": "Here we use Quantinuum’s H2 quantum computer 9 , 10 to simulate digitized dynamics of the quantum Ising model, suppressing digitization errors well enough to observe thermalization on timescales that severely challenge classical simulation methods.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-s41586-026-10445-3",
+          "quote": "native partial entangler fidelities of 99.94(1)%",
+          "locator": "Abstract",
+          "supports": "metric"
+        }
+      ]
+    },
+    {
+      "id": "ms:quantinuum-helios-launch",
+      "orgs": [
+        "co:quantinuum"
+      ],
+      "systems": [
+        "sys:quantinuum-helios"
+      ],
+      "date": "2025-11-05",
+      "category": "system_launch",
+      "claim": "Quantinuum launched Helios, a 98-qubit trapped-ion system using barium ions and a junction-based QCCD trap, available via cloud and on-premise; Quantinuum states 99.921% two-qubit gate fidelity.",
+      "peer_review": "preprint",
+      "arxiv": "2511.05465",
+      "evidence": [
+        {
+          "source": "src:quantinuum-helios-launch-pr",
+          "quote": "today announced the launch of Helios",
+          "locator": "Lead paragraph",
+          "supports": "date, claim"
+        },
+        {
+          "source": "src:quantinuum-helios-launch-pr",
+          "quote": "Physical qubits (PQ) : 98 PQ at 99.921% 2-qubit gate fidelity, and 99.9975% 1-qubit gate fidelity.",
+          "locator": "Specifications footnote",
+          "supports": "claim"
+        },
+        {
+          "source": "src:quantinuum-helios-blog",
+          "quote": "we switched our qubits from ytterbium to barium",
+          "locator": "Qubits at a Crossroads section",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2511.05465",
+          "quote": "We report on Quantinuum Helios, a 98-qubit trapped-ion quantum processor based on the quantum charge-coupled device (QCCD) architecture.",
+          "locator": "Abstract",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:quantinuum-helios-iceberg-encoded",
+      "orgs": [
+        "co:quantinuum"
+      ],
+      "systems": [
+        "sys:quantinuum-helios"
+      ],
+      "date": "2026-02-25",
+      "category": "error_correction",
+      "claim": "A Quantinuum preprint reports computations on Helios in iceberg error-detecting codes and two-level concatenated iceberg codes with between 48 and 94 encoded qubits that outperform unencoded counterparts, described by the authors as “beyond break-even”; Quantinuum’s launch materials describe “94 LQ (error detected)” and “48 LQ (error corrected)”.",
+      "peer_review": "preprint",
+      "arxiv": "2602.22211",
+      "evidence": [
+        {
+          "source": "src:arxiv-2602.22211",
+          "quote": "using the 98-qubit Quantinuum Helios trapped-ion quantum processor",
+          "locator": "Abstract",
+          "supports": "claim, system"
+        },
+        {
+          "source": "src:arxiv-2602.22211",
+          "quote": "we realize this \"beyond break-even\" performance with reasonable postselection rates",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2602.22211",
+          "quote": "between 48 and 94 logical qubits",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2602.22211",
+          "quote": "iceberg quantum error detecting (QED) and",
+          "locator": "Abstract",
+          "supports": "code"
+        },
+        {
+          "source": "src:quantinuum-helios-launch-pr",
+          "quote": "94 LQ (error detected) globally entangled with better than physical performance",
+          "locator": "Specifications footnote",
+          "supports": "claim"
+        },
+        {
+          "source": "src:quantinuum-helios-launch-pr",
+          "quote": "48 LQ (error corrected) with better than physical performance (99.99% state prep and measurement fidelity)",
+          "locator": "Specifications footnote",
+          "supports": "claim"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:quantinuum-ft-by-2030",
+      "org": "co:quantinuum",
+      "system_name": "Apollo",
+      "target_date": "2030",
+      "stated_on": "2024-09-10",
+      "status": "revised",
+      "superseded_by": "tgt:quantinuum-apollo-2029",
+      "statement": "Quantinuum targets “universal, fully fault-tolerant quantum computing by 2030”, delivered by its fifth-generation system Apollo, by 2030.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "unveiled its roadmap to universal, fully fault-tolerant quantum computing by 2030",
+          "locator": "Lead paragraph",
+          "supports": "statement, date"
+        },
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "Quantinuum’s roadmap unveils its fifth-generation quantum computer, Apollo, which will be a fully fault-tolerant and universal quantum computer",
+          "locator": "Body",
+          "supports": "system"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quantinuum-apollo-2029",
+      "org": "co:quantinuum",
+      "system_name": "Apollo",
+      "target_date": "2029",
+      "stated_on": "2025-06-26",
+      "status": "open",
+      "statement": "Quantinuum targets delivery of Apollo, which it calls its “universal, fully fault-tolerant quantum computer”, by 2029.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-2029-blog",
+          "quote": "positions us to fulfill our promise to deliver our universal, fully fault-tolerant quantum computer, Apollo , by 2029",
+          "locator": "Body",
+          "supports": "statement, date"
+        },
+        {
+          "source": "src:quantinuum-q2-2026-results",
+          "quote": "Apollo remains on schedule for 2029, with significant progress made across key architectural subsystems through prototyping.",
+          "locator": "R&D Milestones (August 11, 2026)",
+          "supports": "reaffirmation"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quantinuum-helios-2025",
+      "org": "co:quantinuum",
+      "system": "sys:quantinuum-helios",
+      "system_name": "Helios",
+      "target_date": "2025",
+      "stated_on": "2024-09-17",
+      "status": "met",
+      "met_by": "ms:quantinuum-helios-launch",
+      "statement": "Quantinuum targets releasing Helios with around 100 physical qubits and two-qubit gate errors below 5x10^-4 by 2025.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-tech-perspective-2024",
+          "quote": "The Quantinuum Helios™ system, which we are releasing in 2025, will offer around 100 physical qubits with two-qubit gate errors less than 5x10 -4 .",
+          "locator": "Roadmap section",
+          "supports": "statement, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quantinuum-sol-2027",
+      "org": "co:quantinuum",
+      "system_name": "Sol",
+      "target_date": "2027",
+      "stated_on": "2026-08-11",
+      "status": "open",
+      "statement": "Quantinuum targets the launch of Sol, which it describes as its first commercially available 2D-grid-based system with hundreds of physical qubits, by 2027.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-q2-2026-results",
+          "quote": "Progressing towards the launch of Sol in 2027, with Sol’s trap chip back from fabrication and advancing through product validation.",
+          "locator": "R&D Milestones",
+          "supports": "statement, date"
+        },
+        {
+          "source": "src:quantinuum-tech-perspective-2024",
+          "quote": "After Helios we will introduce Quantinuum Sol™, our first commercially available 2D-grid-based quantum computer.",
+          "locator": "Roadmap section",
+          "supports": "description"
+        },
+        {
+          "source": "src:quantinuum-tech-perspective-2024",
+          "quote": "Sol will offer hundreds of physical qubits with two-qubit gate errors less than 2x10 -4",
+          "locator": "Roadmap section",
+          "supports": "description"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quantinuum-helios-singapore-2026",
+      "org": "co:quantinuum",
+      "system": "sys:quantinuum-helios",
+      "system_name": "Helios",
+      "target_date": "2026",
+      "stated_on": "2025-11-06",
+      "status": "open",
+      "statement": "Quantinuum targets completing installation of a Helios system in Singapore by 2026.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-singapore-pr",
+          "quote": "The installation of the Helios system in Singapore, expected to be completed in 2026",
+          "locator": "Partnership details",
+          "supports": "statement, date"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "gaps": [
+    {
+      "topic": "Quantinuum SEC filings (S-1, 424B4, 10-Q)",
+      "why": "www.sec.gov/Archives refused the declared User-Agent (403); ir.quantinuum.com reset the connection. Filing index retrieved from data.sec.gov only.",
+      "would_need": "An accessible copy of the 424B4 (0001628280-26-041003) and 10-Q (0001628280-26-056743) to source ownership, sites and system details from Tier 1."
+    },
+    {
+      "topic": "Honeywell ownership of Quantinuum after the June 2026 IPO",
+      "why": "Only a June 2024 press release states Honeywell \"remains the company’s majority shareholder\"; post-IPO ownership could not be sourced from a fetchable filing.",
+      "would_need": "Quantinuum 424B4 / 10-Q or Honeywell 10-Q ownership disclosure."
+    },
+    {
+      "topic": "Physical location of H1, H2 and Helios machines",
+      "why": "No fetched document names the facility housing each machine; systems are drawn at the Broomfield HQ.",
+      "would_need": "A Quantinuum document naming where each system is installed."
+    },
+    {
+      "topic": "Helios installation in Singapore / Oracle OCI data centre",
+      "why": "Announced (Nov 2025, Aug 2026) but no fetched document confirms completion or names the facility.",
+      "would_need": "A release confirming installation and naming the site."
+    }
+  ]
+}

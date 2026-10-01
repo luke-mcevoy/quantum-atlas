@@ -1,92 +1,81 @@
 import { create } from "zustand";
-import { CHAIN, type Layer } from "./atlas";
+import { MODALITIES, type Modality } from "./atlas";
 
-export type Mode = "network" | "capital" | "controls";
+export type Mode = "modality" | "roadmap" | "access";
 
 export interface Hover { id: string; kind: string; x: number; y: number }
 
 interface State {
   mode: Mode;
-  layers: Set<Layer>;
-  showInferred: boolean;
+  modalities: Set<Modality>;
   showFlagged: boolean;
-  showPlanned: boolean;
+  showAnnounced: boolean;
+  showRetired: boolean;
+  showRelationships: boolean;
+  /** Access view: which tiers to draw. */
+  accessTiers: Set<string>;
   selected: string | null;
   hover: Hover | null;
-  trace: boolean;
-  severed: Set<string>; // node ids, or "country:XX"
-  controlDate: number;
-  /** Controls view: whose restrictions to draw. */
-  ctlBloc: "allies" | "cn" | "all";
+  /** Roadmap view: the scrubbed date (ms). */
+  roadmapDate: number;
   paletteOpen: boolean;
   aboutOpen: boolean;
   dataOpen: boolean;
   railOpen: boolean;
   flyTo: { lon: number; lat: number; zoom?: number; t: number } | null;
-  /** Active chain walk: anchor node, direction, current step index. */
-  tour: { anchor: string; dir: "up" | "down"; step: number } | null;
   story: { id: string; step: number } | null;
   storyPicker: boolean;
 
   setMode: (m: Mode) => void;
-  toggleLayer: (l: Layer) => void;
-  soloLayer: (l: Layer) => void;
+  toggleModality: (m: Modality) => void;
+  soloModality: (m: Modality) => void;
   set: (p: Partial<State>) => void;
   select: (id: string | null) => void;
-  toggleSever: (id: string) => void;
   focus: (lon: number, lat: number, zoom?: number) => void;
 }
 
-const readHash = () => new URLSearchParams(location.hash.slice(1));
+const readHash = () => new URLSearchParams(typeof location !== "undefined" ? location.hash.slice(1) : "");
+const MODES: Mode[] = ["modality", "roadmap", "access"];
 
 export const useStore = create<State>((set, get) => ({
-  mode: (readHash().get("mode") as Mode) || "network",
-  layers: new Set(CHAIN),
-  showInferred: true,
+  mode: (MODES.find((m) => m === readHash().get("mode")) ?? "modality"),
+  modalities: new Set(MODALITIES),
   showFlagged: true,
-  showPlanned: true,
+  showAnnounced: true,
+  showRetired: false,
+  showRelationships: true,
+  accessTiers: new Set(["open_free", "paid", "application", "restricted"]),
   selected: readHash().get("sel"),
   hover: null,
-  trace: readHash().get("trace") === "1",
-  severed: new Set(readHash().get("sever")?.split(",").filter(Boolean) ?? []),
-  controlDate: Date.now(),
-  ctlBloc: "allies",
+  roadmapDate: Date.now(),
   paletteOpen: false,
   aboutOpen: false,
   dataOpen: false,
   railOpen: typeof window !== "undefined" ? window.innerWidth > 900 : true,
   flyTo: null,
-  tour: null,
   story: null,
   storyPicker: false,
 
   setMode: (mode) => set({ mode }),
-  toggleLayer: (l) => {
-    const layers = new Set(get().layers);
-    if (layers.has(l)) layers.delete(l); else layers.add(l);
-    set({ layers });
+  toggleModality: (m) => {
+    const modalities = new Set(get().modalities);
+    if (modalities.has(m)) modalities.delete(m); else modalities.add(m);
+    set({ modalities });
   },
-  soloLayer: (l) => {
-    const cur = get().layers;
-    set({ layers: cur.size === 1 && cur.has(l) ? new Set(CHAIN) : new Set([l]) });
+  soloModality: (m) => {
+    const cur = get().modalities;
+    set({ modalities: cur.size === 1 && cur.has(m) ? new Set(MODALITIES) : new Set([m]) });
   },
   set: (p) => set(p),
-  select: (selected) => set({ selected, trace: selected ? get().trace : false }),
-  toggleSever: (id) => {
-    const severed = new Set(get().severed);
-    if (severed.has(id)) severed.delete(id); else severed.add(id);
-    set({ severed });
-  },
+  select: (selected) => set({ selected }),
   focus: (lon, lat, zoom) => set({ flyTo: { lon, lat, zoom, t: Date.now() } }),
 }));
 
-// Shareable URLs: mode, selection, trace and severed set live in the hash.
+// Shareable URLs: mode and selection live in the hash.
 useStore.subscribe((s) => {
   const p = new URLSearchParams();
-  if (s.mode !== "network") p.set("mode", s.mode);
+  if (s.mode !== "modality") p.set("mode", s.mode);
   if (s.selected) p.set("sel", s.selected);
-  if (s.trace) p.set("trace", "1");
-  if (s.severed.size) p.set("sever", [...s.severed].join(","));
   const h = p.toString();
   if (h !== location.hash.slice(1)) history.replaceState(null, "", h ? `#${h}` : location.pathname);
 });

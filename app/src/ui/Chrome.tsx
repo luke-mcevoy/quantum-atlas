@@ -1,26 +1,23 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { CHAIN, type Index, nodeName, locateAny, formatMoney, traverse, ctlEffect, cutOff } from "../atlas";
-import { LAYER_COLOR, LAYER_LABEL, LAYER_CODE, FIN_LABEL, DOC_LABEL, css } from "../theme";
+import { MODALITIES, type Index, nodeName, locateAny, formatMoney, roadmapState, timeOf, orgModality, targetChain } from "../atlas";
+import { MODALITY_COLOR, MODALITY_LABEL, MODALITY_CODE, DOC_LABEL, ROUTE_LABEL, ROUTE_COLOR, TIER_ACCESS_LABEL, REL_LABEL, REL_COLOR, PEER_LABEL, css } from "../theme";
 import { useStore, type Mode } from "../store";
-import { activeControls } from "../Globe";
-import { defaultAnchors, startTour } from "./Tour";
 
 // ─── Top bar ────────────────────────────────────────────────────────────────
 
 export function TopBar({ idx }: { idx: Index }) {
   const { mode, setMode, set } = useStore();
-  const t12 = idx.atlas.sources.filter((s) => s.tier <= 2).length;
-  const pct = idx.atlas.sources.length ? Math.floor((1000 * t12) / idx.atlas.sources.length) / 10 : 0;
   const modes: [Mode, string, string][] = [
-    ["network", "Network", "Physical supply routes, mine to megawatt"],
-    ["capital", "Capital", "Who pays whom: investments, contracts, subsidies"],
-    ["controls", "Controls", "Export controls: who can't get what, over time"],
+    ["modality", "Modality", "Machines coloured by qubit technology, where they physically are"],
+    ["roadmap", "Roadmap", "What has been achieved vs what is targeted, over time"],
+    ["access", "Access", "Which cloud platforms reach which machines, and how to submit a program"],
   ];
+  const peer = idx.atlas.milestones.filter((m) => m.peer_review === "peer_reviewed").length;
   return (
     <header className="topbar">
       <div className="brand">
-        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="1.5" /><ellipse cx="12" cy="12" rx="4.5" ry="10" fill="none" stroke="currentColor" strokeWidth="1.2" /><path d="M2 12h20" stroke="currentColor" strokeWidth="1.2" /></svg>
-        <span className="brand-name">AI SUPPLY CHAIN ATLAS</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="1.5" /><ellipse cx="12" cy="12" rx="10" ry="4" fill="none" stroke="currentColor" strokeWidth="1.1" transform="rotate(60 12 12)" /><ellipse cx="12" cy="12" rx="10" ry="4" fill="none" stroke="currentColor" strokeWidth="1.1" transform="rotate(-60 12 12)" /><circle cx="12" cy="12" r="1.8" fill="currentColor" /></svg>
+        <span className="brand-name">QUANTUM COMPUTING ATLAS</span>
         {idx.atlas.draft && <span className="draft-flag" title="Built with --draft: includes unverified research. Not for publication.">DRAFT BUILD</span>}
       </div>
       <nav className="modes" role="tablist">
@@ -30,122 +27,82 @@ export function TopBar({ idx }: { idx: Index }) {
       </nav>
       <div className="top-right">
         <button className="walk-btn story-btn" onClick={() => set({ storyPicker: true })} title="Guided stories with verbatim, sourced quotes">◆ <span>Stories</span></button>
-        <button className="walk-btn" onClick={() => { const a = defaultAnchors(idx); if (a.campus) { set({ mode: "network" }); startTour(a.campus, "up"); } }}
-          title="Step through the supply chain, stage by stage">▶ <span>Walk the chain</span></button>
         <button className="search-btn" onClick={() => set({ paletteOpen: true })}><span>Search</span><kbd>⌘K</kbd></button>
-        <div className="meta mono" title="Share of cited documents that are legal/regulatory (T1) or company-primary (T2)">
-          {idx.atlas.sources.length} SOURCES · {pct}% T1/T2
+        <div className="meta mono" title="Machines, documented achievements (peer-reviewed share) and cited documents">
+          {idx.atlas.systems.length} SYSTEMS · {idx.atlas.milestones.length} ACHIEVED ({peer} PEER-REVIEWED) · {idx.atlas.sources.length} SOURCES
         </div>
-        <button className="about-btn data-btn" onClick={() => set({ dataOpen: true })} title="Every site, route, deal, rule and source as a sortable table, with CSV export">Data</button>
+        <button className="about-btn data-btn" onClick={() => set({ dataOpen: true })} title="Every system, milestone, target, access route and source as a sortable table, with CSV export">Data</button>
         <button className="about-btn" onClick={() => set({ aboutOpen: true })}>Method</button>
       </div>
     </header>
   );
 }
 
-// ─── Left rail: chain stages, filters, chokepoints, scenarios ──────────────
+// ─── Left rail ──────────────────────────────────────────────────────────────
 
 export function Rail({ idx }: { idx: Index }) {
   const s = useStore();
   const counts = useMemo(() => {
-    const m = new Map<string, { f: number; v: number }>();
-    for (const f of idx.atlas.facilities) {
-      const c = m.get(f.layer) ?? { f: 0, v: 0 };
-      c.f++; if (f.review === "verified") c.v++;
-      m.set(f.layer, c);
-    }
+    const m = new Map<string, number>();
+    for (const y of idx.atlas.systems) m.set(y.modality, (m.get(y.modality) ?? 0) + 1);
     return m;
   }, [idx]);
-  const spof = useMemo(() => [...idx.ko.critical]
-    .map(([id, hits]) => ({ id, n: hits.length, doc: idx.ko.criticalDoc.get(id) ?? 0, kinds: [...new Set(hits.map((h) => h.kind))] }))
-    .sort((a, b) => b.doc - a.doc || b.n - a.n), [idx]);
-  const [showInferredSpof, setShowInferredSpof] = useState(false);
-  const spofShown = spof.filter((r) => showInferredSpof || r.doc > 0);
-  const inferredOnly = spof.filter((r) => r.doc === 0).length;
-  const exposure = useMemo(() => {
-    if (!s.severed.size) return null;
-    const seeds: string[] = [];
-    for (const id of s.severed) {
-      if (id.startsWith("country:")) { for (const f of idx.atlas.facilities) if (f.country === id.slice(8)) seeds.push(f.id); }
-      else seeds.push(id);
-    }
-    const { nodes, flows } = traverse(idx, seeds, "down");
-    const dcs = [...nodes].map((n) => idx.facility.get(n)).filter((f) => f?.layer === "datacenter");
-    return { sites: nodes.size, flows: flows.size, dcs: dcs.length, cut: cutOff(idx, seeds).length };
-  }, [s.severed, idx]);
-  const scenarios: [string, string][] = [["TW", "Taiwan"], ["KR", "South Korea"], ["NL", "Netherlands"], ["JP", "Japan"], ["CN", "China"]];
-
+  const largest = useMemo(() => [...idx.atlas.systems].filter((y) => y.physical_qubits && s.modalities.has(y.modality))
+    .sort((a, b) => b.physical_qubits!.value - a.physical_qubits!.value), [idx, s.modalities]);
   if (!s.railOpen) return <button className="rail-toggle" onClick={() => s.set({ railOpen: true })} aria-label="Open panel">☰</button>;
   return (
     <aside className="panel rail">
       <button className="close" onClick={() => s.set({ railOpen: false })} aria-label="Collapse panel">‹</button>
-      <h3>The chain</h3>
+      <h3>Modalities</h3>
       <ol className="chain">
-        {CHAIN.map((l, i) => {
-          const c = counts.get(l);
-          const on = s.layers.has(l);
+        {MODALITIES.map((m) => {
+          const on = s.modalities.has(m);
           return (
-            <li key={l} className={on ? "" : "off"}>
-              <button className="stage" onClick={() => s.toggleLayer(l)} onDoubleClick={() => s.soloLayer(l)} title="Click to toggle · double-click to solo">
-                <span className="stage-n mono">{String(i + 1).padStart(2, "0")}</span>
-                <i className="swatch" style={{ background: css(LAYER_COLOR[l]), boxShadow: on ? `0 0 10px ${css(LAYER_COLOR[l], 0.6)}` : "none" }} />
-                <span className="stage-name">{LAYER_LABEL[l]}</span>
-                <span className="stage-count mono">{c?.f ?? 0}</span>
+            <li key={m} className={on ? "" : "off"}>
+              <button className="stage" onClick={() => s.toggleModality(m)} onDoubleClick={() => s.soloModality(m)} title="Click to toggle · double-click to solo">
+                <span className="stage-n mono">{MODALITY_CODE[m]}</span>
+                <i className="swatch" style={{ background: css(MODALITY_COLOR[m]), boxShadow: on ? `0 0 10px ${css(MODALITY_COLOR[m], 0.6)}` : "none" }} />
+                <span className="stage-name">{MODALITY_LABEL[m]}</span>
+                <span className="stage-count mono">{counts.get(m) ?? 0}</span>
               </button>
             </li>
           );
         })}
       </ol>
-
       <button className="rail-data" onClick={() => s.set({ dataOpen: true })}>▦ Open data table · CSV</button>
 
-      <h3>Evidence filters</h3>
-      <label className="check"><input type="checkbox" checked={s.showInferred} onChange={(e) => s.set({ showInferred: e.target.checked })} /> Inferred routes <span className="muted">(dashed)</span></label>
-      <label className="check"><input type="checkbox" checked={s.showFlagged} onChange={(e) => s.set({ showFlagged: e.target.checked })} /> Flagged / Tier-3 items</label>
-      <label className="check"><input type="checkbox" checked={s.showPlanned} onChange={(e) => s.set({ showPlanned: e.target.checked })} /> Announced / planned sites</label>
+      <h3>Show</h3>
+      <label className="check"><input type="checkbox" checked={s.showAnnounced} onChange={(e) => s.set({ showAnnounced: e.target.checked })} /> Announced systems <span className="muted">(hollow)</span></label>
+      <label className="check"><input type="checkbox" checked={s.showRetired} onChange={(e) => s.set({ showRetired: e.target.checked })} /> Retired systems</label>
+      <label className="check"><input type="checkbox" checked={s.showFlagged} onChange={(e) => s.set({ showFlagged: e.target.checked })} /> Flagged items</label>
+      <label className="check"><input type="checkbox" checked={s.showRelationships} onChange={(e) => s.set({ showRelationships: e.target.checked })} /> Acquisitions, partnerships, awards <span className="muted">(Modality view)</span></label>
 
-      <h3>Walk the chain</h3>
-      <div className="scenario">
-        <button onClick={() => { const a = defaultAnchors(idx); if (a.mine) { s.set({ mode: "network" }); startTour(a.mine, "down"); } }}>Mine → campus</button>
-        <button onClick={() => { const a = defaultAnchors(idx); if (a.campus) { s.set({ mode: "network" }); startTour(a.campus, "up"); } }}>Campus → mine</button>
-      </div>
-
-      <h3>What-if: sever a country</h3>
-      <div className="scenario">
-        {scenarios.map(([cc, name]) => (
-          <button key={cc} className={s.severed.has(`country:${cc}`) ? "on danger" : ""} onClick={() => s.toggleSever(`country:${cc}`)}>{name}</button>
-        ))}
-      </div>
-      {exposure && (
-        <div className="exposure">
-          <div><b className="mono danger-t">{exposure.cut}</b> AI campuses cut off · <b className="mono">{exposure.dcs}</b> exposed</div>
-          <div className="muted small"><b>Cut off</b>: a campus loses every recorded supplier of some input (e.g. all its recorded GPU sources). <b>Exposed</b>: at least one input passes through a severed site. Neither models inventory or suppliers missing from the data.</div>
-          <button className="linkish" onClick={() => s.set({ severed: new Set() })}>Clear</button>
-        </div>
+      {s.mode === "access" && (
+        <>
+          <h3>Access tier</h3>
+          {(["open_free", "paid", "application", "restricted"] as const).map((t) => (
+            <label key={t} className="check"><input type="checkbox" checked={s.accessTiers.has(t)} onChange={() => {
+              const n = new Set(s.accessTiers); if (n.has(t)) n.delete(t); else n.add(t); s.set({ accessTiers: n });
+            }} /> {TIER_ACCESS_LABEL[t]} <span className="muted mono">{idx.atlas.access.filter((a) => a.tier === t).length}</span></label>
+          ))}
+        </>
       )}
 
-      <h3 title="Remove one site or company; count AI campuses that then have no recorded supplier left for some input. Suppliers of the same kind of input count as substitutes. The dataset is incomplete, so 'no recorded alternative' is not proof there is none.">Single points of failure</h3>
-      <div className="muted small spof-note">Campuses left with no recorded supplier of an input if this one node goes down, counting documented routes; <span className="mono">+inf</span> = more if inferred routes are included.</div>
+      <h3 title="Physical qubit counts as each vendor states them. Counts measure size, not capability; qubit quality differs by orders of magnitude between machines and modalities.">Largest stated qubit counts</h3>
+      <div className="muted small spof-note">As stated by each source. A qubit count is not a measure of capability, and counts are not comparable across modalities.</div>
       <ol className="choke">
-        {spofShown.map((r) => {
-          const p = locateAny(idx, r.id);
-          const l = idx.facility.get(r.id)?.layer ?? idx.company.get(r.id)?.layers?.[0];
+        {largest.slice(0, 10).map((y) => {
+          const p = locateAny(idx, y.id);
           return (
-            <li key={r.id}>
-              <button onClick={() => { s.select(r.id); if (p) s.focus(p[0], p[1], 2.6); }} title={`Cuts off ${r.n} campus(es): ${r.kinds.join(", ")}`}>
-                <i className="dot" style={{ background: l ? css(LAYER_COLOR[l]) : "#999" }} />
-                <span className="choke-name">{nodeName(idx, r.id)}<span className="muted small"> · {r.kinds[0]}</span></span>
-                <span className="mono choke-n">{r.doc}{r.n > r.doc && <span className="muted small"> +{r.n - r.doc} inf</span>}</span>
+            <li key={y.id}>
+              <button onClick={() => { s.select(y.id); if (p) s.focus(p[0], p[1], 2.8); }}>
+                <i className="dot" style={{ background: css(MODALITY_COLOR[y.modality]) }} />
+                <span className="choke-name">{y.name}<span className="muted small"> · {nodeName(idx, y.operator)}{y.status !== "online" ? ` · ${y.status}` : ""}</span></span>
+                <span className="mono choke-n">{y.physical_qubits!.value.toLocaleString()}</span>
               </button>
             </li>
           );
         })}
-        {!spofShown.length && <li className="muted small">None in the recorded data.</li>}
-        {inferredOnly > 0 && (
-          <li><button className="linkish" onClick={() => setShowInferredSpof((v) => !v)}>
-            {showInferredSpof ? "Hide" : "Show"} {inferredOnly} that appear only through inferred routes
-          </button></li>
-        )}
       </ol>
     </aside>
   );
@@ -155,18 +112,34 @@ export function Rail({ idx }: { idx: Index }) {
 
 export function Tooltip({ idx }: { idx: Index }) {
   const hover = useStore((s) => s.hover);
+  const mode = useStore((s) => s.mode);
+  const date = useStore((s) => s.roadmapDate);
   if (!hover) return null;
   const { id, x, y } = hover;
   let title = "", sub = "", color = "";
-  const f = idx.facility.get(id);
-  const fl = idx.flow.get(id);
-  const fin = idx.fin.get(id);
-  if (f) { title = f.name; sub = `${LAYER_CODE[f.layer]} · ${nodeName(idx, f.operator)} · ${f.status.replaceAll("_", " ")}`; color = css(LAYER_COLOR[f.layer]); }
-  else if (fl) { title = fl.commodity; sub = `${nodeName(idx, fl.from_node)} → ${nodeName(idx, fl.to_node)} · ${fl.basis}`; color = css(LAYER_COLOR[fl.layer] ?? [200, 200, 200]); }
-  else if (fin) { title = `${formatMoney(fin.amount)} · ${FIN_LABEL[fin.kind] ?? fin.kind}`; sub = `${nodeName(idx, fin.from)} → ${nodeName(idx, fin.to)} · ${fin.date}`; color = css([240, 196, 80]); }
-  else if (id.startsWith("country:")) { title = id.slice(8); sub = "Click for controls"; }
-  else if (id.includes(">")) { const [a, b] = id.split(">"); title = `${a} ✕ ${b}`; sub = "Restricted export route · click for rule"; color = css([236, 84, 88]); }
-  else { title = nodeName(idx, id); sub = idx.company.get(id)?.country ?? ""; }
+  const sys = idx.system.get(id), org = idx.org.get(id), acc = idx.access.get(id), rel = idx.rel.get(id);
+  if (sys) {
+    title = sys.name;
+    sub = `${MODALITY_LABEL[sys.modality]} · ${nodeName(idx, sys.operator)} · ${sys.status}${sys.physical_qubits ? ` · ${sys.physical_qubits.value.toLocaleString()} qubits (stated)` : ""}${sys.location_basis === "hq" ? " · at HQ" : ""}`;
+    color = css(MODALITY_COLOR[sys.modality]);
+  } else if (acc) {
+    title = `${acc.platform_name} → ${acc.system ? nodeName(idx, acc.system) : acc.system_hint}`;
+    sub = `${TIER_ACCESS_LABEL[acc.tier]} · ${acc.sdks.slice(0, 3).join(", ")}`;
+    color = css(ROUTE_COLOR[acc.route] ?? [200, 200, 200]);
+  } else if (rel) {
+    title = `${REL_LABEL[rel.kind]}${rel.amount ? ` · ${formatMoney(rel.amount)}` : ""}`;
+    sub = `${nodeName(idx, rel.from)} → ${nodeName(idx, rel.to)} · ${rel.date}`;
+    color = css(REL_COLOR[rel.kind] ?? [200, 200, 200]);
+  } else if (org) {
+    title = org.name;
+    if (mode === "roadmap") {
+      const st = roadmapState(idx, date);
+      const a = st.achieved.filter((m) => m.orgs.includes(id)).length, p = st.pending.filter((t) => t.org === id).length;
+      sub = `${a} achieved by ${new Date(date).toISOString().slice(0, 7)} · ${p} open target${p === 1 ? "" : "s"}`;
+    } else sub = `${org.country}${org.modalities.length ? " · " + org.modalities.map((m) => MODALITY_LABEL[m]).join(", ") : ""}`;
+    const m = orgModality(idx, id);
+    color = m ? css(MODALITY_COLOR[m]) : "";
+  } else title = nodeName(idx, id);
   return (
     <div className="tooltip" style={{ left: x + 14, top: y + 14, borderLeftColor: color || undefined }}>
       <div className="tt-title">{title}</div>
@@ -175,78 +148,93 @@ export function Tooltip({ idx }: { idx: Index }) {
   );
 }
 
-// ─── Bottom: legend / controls timeline ─────────────────────────────────────
+// ─── Bottom: legend / roadmap timeline ──────────────────────────────────────
 
 export function Bottom({ idx }: { idx: Index }) {
   const mode = useStore((s) => s.mode);
-  const touring = useStore((s) => !!s.tour || !!s.story);
-  if (touring) return null;
-  if (mode === "controls") return <Timeline idx={idx} />;
+  const story = useStore((s) => !!s.story);
+  if (story) return null;
+  if (mode === "roadmap") return <Timeline idx={idx} />;
   return (
     <div className="legend">
-      {mode === "network" ? (
+      {mode === "modality" ? (
         <>
-          <span><i className="lg-line" /> Documented route</span>
-          <span><i className="lg-line dashed" /> Inferred route</span>
-          <span><i className="lg-dot" /> Node size = downstream AI campuses</span>
-          <span><i className="lg-dot ring" /> Amber ring = flagged evidence</span>
+          <span><i className="lg-dot" style={{ background: "#4c90f0" }} /> Machine at a documented site</span>
+          <span><i className="lg-dot" style={{ background: "rgba(76,144,240,.6)" }} /> Drawn at HQ (site undocumented)</span>
+          <span><i className="lg-dot ring" style={{ borderColor: "#4c90f0", background: "transparent" }} /> Announced</span>
+          <span><i className="lg-dot ring" /> Amber ring = flagged</span>
+          <span className="muted">Size ∝ log₂(stated qubits)</span>
+          <span><i className="lg-line" style={{ background: "#f0c450" }} /> Acquisition</span>
+          <span><i className="lg-line" style={{ background: "#60a0ff" }} /> Gov. award / contract</span>
+          <span><i className="lg-line dashed" /> Partnership</span>
         </>
       ) : (
         <>
-          <span><i className="lg-line" style={{ background: "#f0c450" }} /> Equity / JV</span>
-          <span><i className="lg-line" style={{ background: "#46ceb4" }} /> Contracts & commitments</span>
-          <span><i className="lg-line" style={{ background: "#60a0ff" }} /> Government</span>
-          <span><i className="lg-line" style={{ background: "#ec8c48" }} /> Debt</span>
-          <span><i className="lg-dot ring" style={{ borderColor: "#46ceb4" }} /> Capex / backlog / unnamed counterparty</span>
-          <span><i className="lg-line dashed" /> Undisclosed amount</span>
-          <span className="muted">Width ∝ log(amount)</span>
+          {Object.entries(ROUTE_LABEL).filter(([k]) => idx.atlas.access.some((a) => a.route === k)).map(([k, label]) => (
+            <span key={k}><i className="lg-line" style={{ background: css(ROUTE_COLOR[k]) }} /> {label}</span>
+          ))}
+          <span><i className="lg-line dashed" /> By application / restricted</span>
+          <span><i className="lg-dot ring" style={{ borderColor: "#f0c450", background: "#10141a" }} /> Platform</span>
         </>
       )}
     </div>
   );
 }
 
-function Timeline({ idx }: { idx: Index }) {
-  const { controlDate, set, select, ctlBloc } = useStore();
-  const start = Date.parse("2019-01-01");
-  const end = Date.now() + 30 * 864e5;
-  const ticks = idx.atlas.controls
-    .map((c) => ({ c, t: idx.controlSpan.get(c.id)?.[0] ?? NaN }))
-    .filter((x) => x.t >= start && x.t <= end);
-  const active = activeControls(idx, controlDate)
-    .filter((c) => ctlEffect(c) === "restrict")
-    .filter((c) => ctlBloc === "all" || (ctlBloc === "cn") === c.authority.startsWith("CN"));
+const T0 = Date.UTC(2016, 0, 1);
+const T1 = Date.UTC(2036, 0, 1);
+
+export function Timeline({ idx }: { idx: Index }) {
+  const { roadmapDate, set, select, selected, modalities } = useStore();
   const trackRef = useRef<HTMLDivElement>(null);
-  const pct = (t: number) => ((t - start) / (end - start)) * 100;
+  const pct = (t: number) => ((Math.max(T0, Math.min(T1, t)) - T0) / (T1 - T0)) * 100;
+  const st = useMemo(() => roadmapState(idx, roadmapDate), [idx, roadmapDate]);
+  const vis = (orgId: string) => { const m = orgModality(idx, orgId); return !m || modalities.has(m); };
+  const ms = useMemo(() => idx.atlas.milestones.filter((m) => vis(m.orgs[0])), [idx, modalities]); // eslint-disable-line react-hooks/exhaustive-deps
+  const tg = useMemo(() => idx.atlas.targets.filter((t) => vis(t.org)), [idx, modalities]); // eslint-disable-line react-hooks/exhaustive-deps
+  const links = useMemo(() => tg.filter((t) => t.superseded_by && idx.target.has(t.superseded_by)).map((t) => [t, idx.target.get(t.superseded_by!)!] as const), [tg, idx]);
   const drag = (clientX: number) => {
     const r = trackRef.current!.getBoundingClientRect();
     const f = Math.max(0, Math.min(1, (clientX - r.left) / r.width));
-    set({ controlDate: start + f * (end - start) });
+    set({ roadmapDate: T0 + f * (T1 - T0) });
   };
-  const years = [];
-  for (let y = 2019; y <= new Date().getFullYear(); y++) years.push(y);
+  const years: number[] = [];
+  for (let y = 2016; y <= 2035; y++) years.push(y);
+  const sel = selected && idx.target.get(selected);
+  const chainIds = new Set(sel ? targetChain(idx, sel).map((x) => x.id) : []);
   return (
-    <div className="timeline">
+    <div className="timeline roadmap-tl">
       <div className="tl-head">
-        <span className="mono">{new Date(controlDate).toISOString().slice(0, 10)}</span>
-        <span className="muted">{active.length} export restrictions in force · red = restricted destination, blue = imposing jurisdiction · white dots = named restricted parties · green ticks = suspensions, grey = import measures</span>
-        <span className="seg" role="radiogroup" aria-label="Imposed by">
-          {([["allies", "US & allies"], ["cn", "China"], ["all", "All"]] as const).map(([k, label]) => (
-            <button key={k} role="radio" aria-checked={ctlBloc === k} className={ctlBloc === k ? "on" : ""} onClick={() => set({ ctlBloc: k })}>{label}</button>
-          ))}
-        </span>
-        <button className="linkish" onClick={() => set({ controlDate: Date.now() })}>Today</button>
+        <span className="mono">{new Date(roadmapDate).toISOString().slice(0, 10)}</span>
+        <span className="muted"><b className="t-ach">{st.achieved.length}</b> achieved by this date · <b className="t-tgt">{st.pending.length}</b> stated targets still ahead · filled = achieved (documented) · hollow ◇ = target (a plan, not a result) · dotted = target revised</span>
+        <button className="linkish" onClick={() => set({ roadmapDate: Date.now() })}>Today</button>
       </div>
-      <div className="tl-track" ref={trackRef}
+      <div className="tl-track road" ref={trackRef}
         onPointerDown={(e) => { (e.target as HTMLElement).setPointerCapture?.(e.pointerId); drag(e.clientX); }}
         onPointerMove={(e) => { if (e.buttons) drag(e.clientX); }}>
-        {years.map((y) => <span key={y} className="tl-year mono" style={{ left: `${pct(Date.parse(`${y}-01-01`))}%` }}>{y}</span>)}
-        {ticks.map(({ c, t }) => (
-          <button key={c.id} className={`tl-tick a-${c.authority.split("-")[0].toLowerCase()} e-${ctlEffect(c)}`} style={{ left: `${pct(t)}%` }}
-            title={`${c.effective_date} · ${c.authority} · ${c.citation}`}
-            onClick={(e) => { e.stopPropagation(); set({ controlDate: t + 864e5 }); select(c.id); }} />
+        {years.map((y) => <span key={y} className={`tl-year mono${y % 2 ? " odd" : ""}`} style={{ left: `${pct(Date.UTC(y, 0, 1))}%` }}>{y}</span>)}
+        <span className="lane-label ach">ACHIEVED</span>
+        <span className="lane-label tgt">TARGETED</span>
+        <div className="tl-today" style={{ left: `${pct(Date.now())}%` }} title="Today" />
+        <svg className="tl-links" preserveAspectRatio="none" viewBox="0 0 100 10" aria-hidden>
+          {links.map(([a, b]) => (
+            <line key={a.id} x1={pct(timeOf(a.target_date))} x2={pct(timeOf(b.target_date))} y1={5} y2={5} className={chainIds.has(a.id) ? "on" : ""} />
+          ))}
+        </svg>
+        {ms.map((m) => {
+          const mod = orgModality(idx, m.orgs[0]);
+          return (
+            <button key={m.id} className={`tl-tick ms achieved p-${m.peer_review}${selected === m.id ? " sel" : ""}`} style={{ left: `${pct(timeOf(m.date, false))}%`, background: mod ? css(MODALITY_COLOR[mod]) : undefined }}
+              title={`${m.date} · ${nodeName(idx, m.orgs[0])} · ${PEER_LABEL[m.peer_review]}\n${m.claim}`}
+              onClick={(e) => { e.stopPropagation(); set({ roadmapDate: timeOf(m.date, false) + 864e5 }); select(m.id); }} />
+          );
+        })}
+        {tg.map((t) => (
+          <button key={t.id} className={`tl-tick tgt st-${t.status}${selected === t.id || chainIds.has(t.id) ? " sel" : ""}`} style={{ left: `${pct(timeOf(t.target_date))}%` }}
+            title={`Target · due ${t.target_date} · stated ${t.stated_on} · ${t.status}\n${t.statement}`}
+            onClick={(e) => { e.stopPropagation(); select(t.id); }} />
         ))}
-        <div className="tl-cursor" style={{ left: `${pct(controlDate)}%` }} />
+        <div className="tl-cursor" style={{ left: `${pct(roadmapDate)}%` }} />
       </div>
     </div>
   );
@@ -254,22 +242,23 @@ function Timeline({ idx }: { idx: Index }) {
 
 // ─── ⌘K palette ─────────────────────────────────────────────────────────────
 
-interface Hit { id: string; label: string; sub: string; kind: string }
+interface Hit { id: string; label: string; sub: string; kind: string; mode?: Mode }
 
 export function Palette({ idx }: { idx: Index }) {
   const { paletteOpen, set, select, focus } = useStore();
   const [q, setQ] = useState("");
   const [cur, setCur] = useState(0);
   const all: Hit[] = useMemo(() => [
-    ...idx.atlas.facilities.map((f) => ({ id: f.id, label: f.name, sub: `${LAYER_LABEL[f.layer]} · ${nodeName(idx, f.operator)} · ${f.country}`, kind: LAYER_CODE[f.layer] })),
-    ...idx.atlas.companies.map((c) => ({ id: c.id, label: c.name, sub: `Company · ${c.country}`, kind: "CO" })),
-    ...idx.atlas.controls.map((c) => ({ id: c.id, label: c.instrument, sub: `${c.authority} · ${c.citation} · ${c.effective_date}`, kind: "CTL" })),
-    ...idx.atlas.financial_links.map((f) => ({ id: f.id, label: `${nodeName(idx, f.from)} → ${nodeName(idx, f.to)}`, sub: `${FIN_LABEL[f.kind] ?? f.kind} · ${formatMoney(f.amount)} · ${f.date}`, kind: "FIN" })),
-    ...idx.atlas.flows.map((f) => ({ id: f.id, label: f.commodity, sub: `${nodeName(idx, f.from_node)} → ${nodeName(idx, f.to_node)}`, kind: "RTE" })),
+    ...idx.atlas.systems.map((y) => ({ id: y.id, label: y.name, sub: `${MODALITY_LABEL[y.modality]} · ${nodeName(idx, y.operator)} · ${y.status}`, kind: "SYS" })),
+    ...idx.atlas.orgs.map((o) => ({ id: o.id, label: o.name, sub: `${o.kind.replace("_", " ")} · ${o.country}`, kind: "ORG" })),
+    ...idx.atlas.milestones.map((m) => ({ id: m.id, label: m.claim, sub: `${m.date} · ${m.orgs.map((o) => nodeName(idx, o)).join(", ")} · ${PEER_LABEL[m.peer_review]}`, kind: "DONE", mode: "roadmap" as Mode })),
+    ...idx.atlas.targets.map((t) => ({ id: t.id, label: t.statement, sub: `target · due ${t.target_date} · ${t.status}`, kind: "TGT", mode: "roadmap" as Mode })),
+    ...idx.atlas.access.map((a) => ({ id: a.id, label: `${a.platform_name} → ${a.system ? nodeName(idx, a.system) : a.system_hint}`, sub: `${TIER_ACCESS_LABEL[a.tier]} · ${a.sdks.join(", ")}`, kind: "ACC", mode: "access" as Mode })),
+    ...idx.atlas.relationships.map((r) => ({ id: r.id, label: `${nodeName(idx, r.from)} → ${nodeName(idx, r.to)}`, sub: `${REL_LABEL[r.kind]} · ${r.date}${r.amount ? " · " + formatMoney(r.amount) : ""}`, kind: "REL" })),
   ], [idx]);
   const hits = useMemo(() => {
     const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
-    if (!terms.length) return all.filter((h) => h.kind !== "RTE").slice(0, 12);
+    if (!terms.length) return all.filter((h) => h.kind === "SYS" || h.kind === "ORG").slice(0, 12);
     return all.filter((h) => terms.every((t) => `${h.label} ${h.sub}`.toLowerCase().includes(t))).slice(0, 40);
   }, [q, all]);
 
@@ -286,18 +275,18 @@ export function Palette({ idx }: { idx: Index }) {
   if (!paletteOpen) return null;
   const choose = (h: Hit) => {
     select(h.id);
-    const f = idx.flow.get(h.id);
-    const p = locateAny(idx, f ? f.to_node : idx.fin.get(h.id)?.to ?? h.id);
+    const anchor = idx.milestone.get(h.id)?.orgs[0] ?? idx.target.get(h.id)?.org ?? idx.access.get(h.id)?.system ?? idx.access.get(h.id)?.target_org ?? idx.rel.get(h.id)?.to ?? h.id;
+    const p = locateAny(idx, anchor);
     if (p) focus(p[0], p[1]);
-    if (h.kind === "FIN") set({ mode: "capital" });
-    if (h.kind === "CTL") set({ mode: "controls" });
+    if (h.mode) set({ mode: h.mode });
+    if (h.kind === "DONE") set({ roadmapDate: timeOf(idx.milestone.get(h.id)!.date, false) + 864e5 });
     set({ paletteOpen: false });
     setQ("");
   };
   return (
     <div className="scrim" onClick={() => set({ paletteOpen: false })}>
       <div className="palette" onClick={(e) => e.stopPropagation()}>
-        <input autoFocus placeholder="Search sites, companies, rules, deals…" value={q} onChange={(e) => setQ(e.target.value)}
+        <input autoFocus placeholder="Search machines, companies, results, targets, platforms…" value={q} onChange={(e) => setQ(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") { e.preventDefault(); setCur((c) => Math.min(hits.length - 1, c + 1)); }
             if (e.key === "ArrowUp") { e.preventDefault(); setCur((c) => Math.max(0, c - 1)); }
@@ -325,50 +314,51 @@ export function About({ idx }: { idx: Index }) {
   if (!aboutOpen) return null;
   const a = idx.atlas;
   const tiers = [1, 2, 3].map((t) => a.sources.filter((s) => s.tier === t).length);
-  const docTypes = Object.entries(a.sources.reduce<Record<string, number>>((m, s) => ((m[s.doc_type] = (m[s.doc_type] ?? 0) + 1), m), {}))
-    .sort((x, y) => y[1] - x[1]);
-  const flowsDoc = a.flows.filter((f) => f.basis === "documented").length;
+  const docTypes = Object.entries(a.sources.reduce<Record<string, number>>((m, s) => ((m[s.doc_type] = (m[s.doc_type] ?? 0) + 1), m), {})).sort((x, y) => y[1] - x[1]);
+  const peer = (k: string) => a.milestones.filter((m) => m.peer_review === k).length;
+  const sims = a.access.filter((x) => x.snippet);
   return (
     <div className="scrim" onClick={() => set({ aboutOpen: false })}>
       <article className="about" onClick={(e) => e.stopPropagation()}>
         <button className="close" onClick={() => set({ aboutOpen: false })}>✕</button>
         <h1>Method</h1>
-        <p className="lede">Every site, route, dollar and trade rule on this globe traces to a quoted passage in a primary document. A separate verification pass re-fetched every document and checked every quote before anything was published.</p>
+        <p className="lede">Every machine, result, target and access route on this globe traces to a quoted passage in a primary document. A separate reviewer re-fetched every document and checked every quote before anything was published.</p>
         <div className="stat-row">
-          <div><b className="mono">{a.facilities.length}</b><span>sites</span></div>
-          <div><b className="mono">{a.flows.length}</b><span>routes ({flowsDoc} documented)</span></div>
-          <div><b className="mono">{a.financial_links.length}</b><span>money flows</span></div>
-          <div><b className="mono">{a.controls.length}</b><span>trade rules</span></div>
+          <div><b className="mono">{a.orgs.filter((o) => o.roles.includes("hardware")).length}</b><span>hardware builders</span></div>
+          <div><b className="mono">{a.systems.length}</b><span>systems</span></div>
+          <div><b className="mono">{a.milestones.length}</b><span>achievements ({peer("peer_reviewed")} peer-reviewed, {peer("preprint")} preprint, {peer("company_claim")} company claim)</span></div>
+          <div><b className="mono">{a.targets.length}</b><span>roadmap targets</span></div>
+          <div><b className="mono">{a.access.length}</b><span>access routes</span></div>
           <div><b className="mono">{a.sources.length}</b><span>source documents</span></div>
         </div>
         <h2>Evidence tiers</h2>
-        <table className="tbl">
-          <tbody>
-            <tr><td><span className="tier t1">T1</span></td><td>Legal &amp; regulatory primary documents: SEC filings, statutory annual reports, the Federal Register and CFR, the BIS Entity List, government awards and contracts, FERC/NRC/PUC dockets, permits, and USGS/EIA/GAO reports.</td><td className="mono">{tiers[0]}</td></tr>
-            <tr><td><span className="tier t2">T2</span></td><td>Company primary: earnings calls, investor presentations, official releases.</td><td className="mono">{tiers[1]}</td></tr>
-            <tr><td><span className="tier t3">T3</span></td><td>Secondary sources, used only when no primary source exists. Always flagged.</td><td className="mono">{tiers[2]}</td></tr>
-          </tbody>
-        </table>
+        <table className="tbl"><tbody>
+          <tr><td><span className="tier t1">T1</span></td><td>Peer-reviewed journal articles (DOI), SEC filings, government awards, contracts and agency releases.</td><td className="mono">{tiers[0]}</td></tr>
+          <tr><td><span className="tier t2">T2</span></td><td>Official company and institution material: releases, roadmaps, documentation, technical blogs, investor presentations. arXiv preprints are T2 and always labelled <span className="peer p-preprint">PREPRINT</span>.</td><td className="mono">{tiers[1]}</td></tr>
+          <tr><td><span className="tier t3">T3</span></td><td>Secondary sources, only when no primary source exists. Always flagged.</td><td className="mono">{tiers[2]}</td></tr>
+        </tbody></table>
+        <h2>Rules the data follows</h2>
+        <ul>
+          <li><b>Achieved and targeted are kept apart.</b> An achievement is something a document says has been done. A target is something a document says will be done. Every target reads "&lt;organisation&gt; targets … by &lt;date&gt;" and is drawn hollow. When a later document moved a target, both versions are kept and linked.</li>
+          <li><b>Every achievement shows its peer-review status</b>: peer-reviewed (journal article cited by DOI), preprint, or company claim.</li>
+          <li><b>Contested words are quoted, never asserted.</b> "Advantage", "supremacy", "logical qubit", "error-corrected", "fault-tolerant", "beyond-classical" and "utility" appear only inside quotation marks, attributed to the source, and the quoted words appear verbatim in that item's evidence. A test enforces this.</li>
+          <li><b>Metrics are as stated, never ranked.</b> Each figure keeps the source's own definition (which gate, median or average or best, which date). Vendors measure differently, so the atlas never compares them across vendors. Qubit counts measure size, not capability.</li>
+          <li><b>Logical qubits</b> appear only where the source states both the number and the code used.</li>
+          <li><b>Locations.</b> A machine is drawn at a specific site only when a document places that machine there. Otherwise it is drawn at its operator's headquarters and labelled that way.</li>
+          <li><b>Access.</b> Each route records the platform, SDKs, authentication and access tier as the platform's own documentation states them, with a minimal example copied verbatim from the official docs. {sims.filter((x) => x.snippet!.sim_check.status === "passed").length} of {sims.length} examples were run against the SDK's local simulator, with only the device swapped. No real or paid machine was called.</li>
+        </ul>
         <h2>Pipeline</h2>
         <ol className="pipeline">
-          <li><b>Analysts</b>, one per stage of the chain, extract claims with verbatim quotes and exact locators.</li>
-          <li><b>Counsel</b> independently re-fetches every document. Each quote is marked verified, not found, doesn't support, superseded, insufficient tier, or unreachable. Anything unsupported is withheld.</li>
-          <li><b>Build</b> publishes only items with a publish verdict, drops failed evidence, and applies counsel's corrections.</li>
+          <li><b>Analysts</b>, one per modality group plus one for access and one for deals, extract claims with verbatim quotes, checked by script against saved copies of each document.</li>
+          <li><b>Counsel</b>, a separate agent on a different model, re-fetches every document and marks each quote verified, not found, doesn't support, superseded, insufficient tier, or unreachable.</li>
+          <li><b>Build</b> publishes only approved items, drops failed evidence, applies corrections, re-checks the language rules, and derives each result's peer-review status from its surviving evidence.</li>
         </ol>
-        <h2>How to read the map</h2>
-        <ul>
-          <li><b>Documented</b> routes (solid) have a primary source naming both parties. <b>Inferred</b> routes (dashed) are deduced from documented facts, and the deduction is shown on each one.</li>
-          <li>Where a document names a company but not a site, the route is drawn at a specific site only if the route's own evidence names it, or the company has exactly one site. Otherwise it is drawn from the company's headquarters. The inspector says when this happens.</li>
-          <li><b>Single points of failure</b>: remove one site or company, and count the AI campuses left with no recorded supplier for some input. Suppliers of the same kind of input (two wafer makers, say) count as substitutes; different inputs (wafers and lithography) are all required. An inferred route can add an alternative supplier but can't add a new requirement to a company whose inputs are documented. <b>Documented requirements</b> (such as a fab's documented use of EUV, combined with a filing stating ASML is the only maker) add hard needs, but only once fully verified; flagged ones are shown and don't feed the analysis. Results show how many hold on documented routes alone. The data is incomplete, so “no recorded alternative” is not proof that none exists.</li>
-          <li>The severance what-if shows <i>exposure</i>, not failure. It doesn't model inventory, second sources or substitution.</li>
-          <li>Trade rules are shown as in force between their effective date and the date of the rule that superseded them.</li>
-        </ul>
         <h2>Document types</h2>
         <div className="doc-types">{docTypes.map(([k, n]) => <span key={k}>{DOC_LABEL[k] ?? k} <b className="mono">{n}</b></span>)}</div>
         <h2>Known gaps <span className="muted small">({a.gaps.length})</span></h2>
         <p className="muted small">These could not be sourced to Tier 1 or Tier 2, so they are left off the globe instead of estimated.</p>
-        <ul className="gaps">{a.gaps.map((g, i) => <li key={i}><b>{g.topic}</b><span className="muted"> · {LAYER_LABEL[g.layer] ?? g.layer}</span><div className="small">{g.why} <i>Would need: {g.would_need}</i></div></li>)}</ul>
-        <p className="muted small">Built {a.built_at.slice(0, 10)}. This is not legal or investment advice. Descriptions restate what the cited documents say.</p>
+        <ul className="gaps">{a.gaps.map((g, i) => <li key={i}><b>{g.topic}</b><div className="small">{g.why} <i>Would need: {g.would_need}</i></div></li>)}</ul>
+        <p className="muted small">Built {a.built_at.slice(0, 10)}. Not investment advice. Descriptions restate what the cited documents say; a simulated or announced result is not a guarantee of performance.</p>
       </article>
     </div>
   );

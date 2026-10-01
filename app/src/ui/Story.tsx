@@ -1,9 +1,9 @@
 import { useEffect, useMemo } from "react";
-import { STORIES, type Story } from "../stories";
-import { type Index, nodeName } from "../atlas";
+import { STORIES, type Story, quoteOf } from "../stories";
+import { type Index, nodeName, entityOf } from "../atlas";
 import { DOC_LABEL } from "../theme";
 import { useStore } from "../store";
-import { TierBadge } from "./Evidence";
+import { TierBadge, PreprintBadge } from "./Evidence";
 
 export function useStory(): { story: Story; step: number } | null {
   const st = useStore((s) => s.story);
@@ -13,27 +13,29 @@ export function useStory(): { story: Story; step: number } | null {
   }, [st]);
 }
 
-/** Nodes and routes to highlight for the current story step. */
+/** What to highlight for the current story step: orgs/systems (nodes), relationship and access arcs, and what to frame. */
 export function useStoryFocus(idx: Index) {
   const cur = useStory();
   return useMemo(() => {
     const step = cur?.story.steps[cur.step];
     if (!step) return null;
-    const nodes = new Set<string>(), flows = new Set<string>(), frame: string[] = [];
+    const nodes = new Set<string>(), rels = new Set<string>(), access = new Set<string>(), frame = new Set<string>();
+    const node = (id: string) => { nodes.add(id); frame.add(id); };
     for (const id of step.focus) {
-      const f = idx.flow.get(id);
-      const fin = idx.fin.get(id);
-      if (f) { flows.add(id); nodes.add(f.from_node); nodes.add(f.to_node); frame.push(f.from_node, f.to_node); }
-      else if (fin) { nodes.add(fin.from); nodes.add(fin.to); frame.push(fin.to); }
-      else if (idx.facility.has(id) || idx.company.has(id)) { nodes.add(id); frame.push(id); }
+      const ms = idx.milestone.get(id), tg = idx.target.get(id), ac = idx.access.get(id), r = idx.rel.get(id);
+      if (ms) { ms.orgs.forEach(node); (ms.systems ?? []).forEach(node); }
+      else if (tg) { node(tg.org); if (tg.system) node(tg.system); }
+      else if (ac) { access.add(id); nodes.add(ac.platform); node(ac.system ?? ac.target_org); }
+      else if (r) { rels.add(id); node(r.from); node(r.to); }
+      else if (idx.system.has(id)) { node(id); nodes.add(idx.system.get(id)!.operator); }
+      else if (idx.org.has(id) || idx.site.has(id)) node(id);
     }
-    return { nodes, flows, stepNodes: new Set(frame), controls: step.focus.filter((id) => idx.control.has(id)) };
+    return { nodes, rels, access, frame };
   }, [cur, idx]);
 }
 
 export function startStory(id: string) {
-  useStore.getState().set({ story: { id, step: 0 }, tour: null, trace: false, storyPicker: false,
-    railOpen: window.innerWidth > 900 ? useStore.getState().railOpen : false });
+  useStore.getState().set({ story: { id, step: 0 }, storyPicker: false, railOpen: window.innerWidth > 900 ? useStore.getState().railOpen : false });
 }
 
 export function StoryPicker() {
@@ -67,14 +69,12 @@ export default function StoryPanel({ idx }: { idx: Index }) {
   const select = useStore((s) => s.select);
   const step = cur?.story.steps[cur.step];
 
-  // Apply the step: view mode, inspector selection, and for trade rules the timeline date and bloc.
   useEffect(() => {
     if (!step) return;
     const patch: Record<string, unknown> = { mode: step.mode };
-    if (step.date) patch.controlDate = step.date === "today" ? Date.now() : Date.parse(step.date);
-    if (step.bloc) patch.ctlBloc = step.bloc;
+    if (step.date) patch.roadmapDate = step.date === "today" ? Date.now() : Date.parse(step.date);
     set(patch);
-    if (step.select && (idx.facility.has(step.select) || idx.flow.has(step.select) || idx.fin.has(step.select) || idx.control.has(step.select) || idx.company.has(step.select))) select(step.select);
+    if (step.select && entityOf(idx, step.select)) select(step.select);
   }, [step]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -115,17 +115,16 @@ export default function StoryPanel({ idx }: { idx: Index }) {
         </div>
         <p className="story-caption">{step.caption}</p>
         {step.quotes.map((q, i) => {
-          const e = idx.facility.get(q.entity) ?? idx.flow.get(q.entity) ?? idx.fin.get(q.entity) ?? idx.control.get(q.entity) ?? idx.company.get(q.entity);
-          const ev = e?.evidence[q.ev];
+          const ev = quoteOf(idx, q);
           const src = ev && idx.source.get(ev.source);
           if (!ev || !src) return null;
           return (
             <figure key={i} className="story-quote">
               <blockquote>“{ev.quote}”</blockquote>
               <figcaption>
-                <TierBadge tier={src.tier} /> <a href={src.url} target="_blank" rel="noreferrer noopener">{DOC_LABEL[src.doc_type] ?? src.doc_type} · {src.publisher}</a>
+                <TierBadge tier={src.tier} /> {src.doc_type === "preprint" && <PreprintBadge />} <a href={src.url} target="_blank" rel="noreferrer noopener">{DOC_LABEL[src.doc_type] ?? src.doc_type} · {src.publisher}</a>
                 <span className="muted"> · {src.document_date} · on </span>
-                <button className="link" onClick={() => select(q.entity)}>{idx.control.get(q.entity)?.citation ?? (nodeName(idx, q.entity) !== q.entity ? nodeName(idx, q.entity) : "this item")}</button>
+                <button className="link" onClick={() => select(q.entity)}>{nodeName(idx, q.entity) !== q.entity ? nodeName(idx, q.entity) : "this item"}</button>
               </figcaption>
             </figure>
           );

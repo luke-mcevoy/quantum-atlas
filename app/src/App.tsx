@@ -4,7 +4,6 @@ import { loadWorld, type World } from "./geo";
 import Globe from "./Globe";
 import Inspector from "./ui/Inspector";
 import { TopBar, Rail, Tooltip, Bottom, Palette, About } from "./ui/Chrome";
-import TourPanel from "./ui/Tour";
 import DataTable from "./ui/DataTable";
 import StoryPanel, { StoryPicker } from "./ui/Story";
 
@@ -32,7 +31,6 @@ export default function App() {
       <Rail idx={idx} />
       <Inspector idx={idx} />
       <Bottom idx={idx} />
-      <TourPanel idx={idx} />
       <StoryPanel idx={idx} />
       <StoryPicker />
       <Tooltip idx={idx} />

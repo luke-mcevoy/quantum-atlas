@@ -1,4 +1,4 @@
-/* AI Supply Chain Atlas: dark analyst workstation. Dense, quiet, precise. */
+/* Quantum Computing Atlas (forked from the AI Supply Chain Atlas): dark analyst workstation. Dense, quiet, precise. */
 
 :root {
   --space: #07090c;
@@ -434,3 +434,99 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
   .scrim { padding-top: 56px; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* ── Quantum Computing Atlas additions ─────────────────────────── */
+.glabel.sys { font-size: 10px; color: var(--text-2); }
+
+/* peer-review, target and access badges */
+.peer { display: inline-block; font: 600 9px/1 var(--mono); letter-spacing: .05em; padding: 3px 4px; border-radius: 2px; border: 1px solid var(--line-2); white-space: nowrap; }
+.peer.p-peer_reviewed { color: #6fdc9d; border-color: rgba(50,164,103,.55); background: rgba(50,164,103,.1); }
+.peer.p-preprint { color: #f2c46d; border-color: rgba(240,196,80,.55); background: rgba(240,196,80,.1); }
+.peer.p-company_claim { color: var(--text-2); border-color: var(--line-2); background: rgba(255,255,255,.04); }
+.fl-comm .peer { margin-left: 4px; }
+.tgt-flag { font: 600 9.5px/1 var(--mono); letter-spacing: .05em; padding: 3px 5px; border-radius: 2px; border: 1px dashed #c4cedc; color: #c4cedc; }
+.status { font: 600 9.5px/1 var(--mono); letter-spacing: .05em; padding: 3px 5px; border-radius: 2px; border: 1px solid var(--line-2); }
+.status.sys-online { color: #6fdc9d; }
+.status.sys-announced { color: #8fb8f5; border-style: dashed; }
+.status.sys-retired, .status.tg-withdrawn { color: var(--muted); }
+.status.tg-open { color: #c4cedc; border-style: dashed; }
+.status.tg-met { color: #6fdc9d; }
+.status.tg-missed { color: var(--warn); }
+.status.tg-revised { color: var(--muted); text-decoration: line-through; }
+.acc-tier { font: 600 9.5px/1 var(--mono); letter-spacing: .05em; padding: 3px 5px; border-radius: 2px; border: 1px solid var(--line-2); }
+.acc-open_free { color: #6fdc9d !important; border-color: rgba(50,164,103,.5) !important; }
+.acc-paid { color: var(--gold) !important; border-color: rgba(240,196,80,.45) !important; }
+.acc-application { color: #8fb8f5 !important; border-color: rgba(76,144,240,.45) !important; border-style: dashed !important; }
+.acc-restricted { color: var(--danger) !important; border-color: rgba(236,84,88,.45) !important; }
+.basis.b-ms { color: #6fdc9d; border-color: rgba(50,164,103,.5); }
+.basis.b-tgt { color: #c4cedc; border-style: dashed; }
+.basis.b-rel { color: var(--gold); border-color: rgba(240,196,80,.45); }
+.ms-row .fl-node, .tgt-row .fl-node { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; font-size: 12px; line-height: 1.35; }
+.tgt-row .fl-node { color: var(--text-2); font-style: italic; }
+.tgt-row.st-revised .fl-node, .tgt-row.st-withdrawn .fl-node { text-decoration: line-through; text-decoration-color: rgba(255,255,255,.25); }
+.ms-row .fl-comm, .tgt-row .fl-comm { max-width: 170px; }
+.inspector h2.claim { font-size: 15px; line-height: 1.4; font-weight: 600; }
+.inspector h2.claim.target { font-style: italic; color: var(--text-2); }
+.mod-chips { margin: 0 0 10px; }
+.mod-chips .chip { display: inline-flex; align-items: center; gap: 6px; }
+.sec-note { margin: -2px 0 8px; line-height: 1.4; }
+
+/* figures and metrics */
+.figure { margin: 0 0 8px; }
+.fig-head { text-align: left; padding: 4px 0; color: var(--text); display: block; width: 100%; }
+.fig-head:hover .muted { color: var(--accent); }
+.fig-v { font-size: 15px; color: var(--text); margin-right: 2px; }
+.metric { border-left: 2px solid var(--line-2); padding-left: 8px; margin: 0 0 10px; }
+.metric-def { color: var(--text-2); line-height: 1.4; }
+
+/* access snippet */
+.snippet { background: #080b0f; border: 1px solid var(--line); border-radius: 2px; padding: 10px 12px; font: 11.5px/1.5 var(--mono); color: #d6e2ee; overflow: auto; max-height: 340px; white-space: pre; margin: 0 0 8px; }
+.snippet.out { max-height: 120px; color: var(--text-2); font-size: 10.5px; margin-top: 6px; }
+.snippet-meta { display: grid; gap: 5px; line-height: 1.4; }
+.snippet-meta a { color: var(--accent); overflow-wrap: anywhere; }
+.sim { font: 500 10.5px/1.4 var(--mono); padding: 4px 7px; border-radius: 2px; border: 1px solid var(--line-2); }
+.sim b { letter-spacing: .04em; }
+.sim.sim-passed { color: #6fdc9d; border-color: rgba(50,164,103,.5); background: rgba(50,164,103,.08); }
+.sim.sim-failed { color: var(--danger); border-color: rgba(236,84,88,.5); }
+.sim.sim-not_run { color: var(--muted); }
+
+/* target revision chain */
+.revisions { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.revisions li.on .flowrow { background: rgba(196,206,220,.08); outline: 1px dashed rgba(196,206,220,.4); }
+.revisions .flowrow { grid-template-columns: 78px minmax(0, 1fr) auto; }
+.revisions .fl-node { white-space: normal; font-size: 12px; }
+.rev-date { font-size: 10.5px; color: var(--muted); }
+
+/* roadmap timeline: two lanes, achieved (filled) above targets (hollow diamonds) */
+.timeline.roadmap-tl { left: 292px; right: 24px; }
+.app:has(.inspector) .timeline.roadmap-tl { right: 416px; }
+.tl-track.road { height: 58px; border-top: 0; margin-top: 4px; }
+.tl-track.road::before, .tl-track.road::after { content: ""; position: absolute; left: 0; right: 0; height: 1px; background: var(--line-2); }
+.tl-track.road::before { top: 10px; }
+.tl-track.road::after { top: 32px; border-top: 1px dashed var(--line-2); background: none; }
+.tl-track.road .tl-year { top: 44px; }
+.tl-track.road .tl-year.odd { opacity: .55; }
+.lane-label { position: absolute; left: -2px; font: 600 8.5px/1 var(--mono); letter-spacing: .08em; color: var(--muted); pointer-events: none; transform: translateX(-100%); padding-right: 6px; }
+.lane-label.ach { top: 6px; }
+.lane-label.tgt { top: 28px; }
+.tl-tick.ms { top: 5px; width: 9px; height: 9px; margin-left: -4.5px; border-radius: 50%; opacity: .9; border: 1px solid rgba(0,0,0,.6); }
+.tl-tick.ms.p-preprint { box-shadow: 0 0 0 1.5px #f2c46d; }
+.tl-tick.ms.p-company_claim { opacity: .55; }
+.tl-tick.ms:hover, .tl-tick.ms.sel { transform: scale(1.5); opacity: 1; z-index: 2; }
+.tl-tick.tgt { top: 27px; width: 9px; height: 9px; margin-left: -4.5px; background: var(--panel-solid); border: 1.5px solid #c4cedc; border-radius: 1px; transform: rotate(45deg); opacity: .85; }
+.tl-tick.tgt.st-revised, .tl-tick.tgt.st-withdrawn { border-style: dotted; opacity: .5; }
+.tl-tick.tgt.st-met { border-color: #6fdc9d; }
+.tl-tick.tgt.st-missed { border-color: var(--warn); }
+.tl-tick.tgt:hover, .tl-tick.tgt.sel { transform: rotate(45deg) scale(1.5); opacity: 1; z-index: 2; }
+.tl-links { position: absolute; left: 0; right: 0; top: 27px; width: 100%; height: 10px; pointer-events: none; overflow: visible; }
+.tl-links line { stroke: rgba(196,206,220,.35); stroke-width: 1; stroke-dasharray: 1.2 1; vector-effect: non-scaling-stroke; }
+.tl-links line.on { stroke: #fff; stroke-width: 1.6; }
+.tl-today { position: absolute; top: 0; bottom: 14px; width: 1px; background: var(--accent); opacity: .6; pointer-events: none; }
+.tl-head b.t-ach { color: #6fdc9d; }
+.tl-head b.t-tgt { color: #c4cedc; }
+@media (max-width: 900px) {
+  .timeline.roadmap-tl { left: 8px; right: 8px; }
+  .app:has(.inspector) .timeline.roadmap-tl { display: none; }
+  .lane-label { display: none; }
+  .tl-head > .muted { display: none; }
+}

@@ -1,0 +1,1798 @@
+{
+  "topic": "neutral_atom",
+  "analyst": "Claude Opus 5.5 (research analyst agent)",
+  "generated_at": "2026-10-01",
+  "sources": [
+    {
+      "id": "src:ac-1000-qubits-pr",
+      "title": "Quantum startup Atom Computing first to exceed 1,000 qubits",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/quantum-startup-atom-computing-first-to-exceed-1000-qubits/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-10-24",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-ac1000-page",
+      "title": "AC1000 product page",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/ac1000/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-microsoft-collab-2024",
+      "title": "Atom Computing: Building Quantum Supercomputers with Microsoft",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/building-quantum-supercomputers-with-microsoft/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-09-10",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-denmark-2024",
+      "title": "Atom Computing in Denmark",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/atom-computing-in-denmark/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-06-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-qunorth-magne-2025",
+      "title": "EIFO and the Novo Nordisk Foundation Acquire the World’s Most Powerful Quantum Computer",
+      "publisher": "Atom Computing (reposting EIFO / Novo Nordisk Foundation announcement)",
+      "url": "https://atom-computing.com/eifo-and-the-novo-nordisk-foundation-acquire-the-worlds-most-powerful-quantum-computer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-07-17",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-logical-blog-2024",
+      "title": "Demonstrating high-fidelity gates and the world’s largest entangled logical qubit state in Atom Computing’s flagship systems",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/high-fidelity-gates-and-the-worlds-largest-entangled-logical-qubit-state/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-11-19",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-toric-pr-2026",
+      "title": "Atom Computing Reveals Quantum Error Correction with Toric Code",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/atom-computing-reveals-quantum-error-correction-with-toric-code/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-03",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-colorado-pr-2022",
+      "title": "Silicon Valley Up-Start, Atom Computing, Chooses Colorado to Build Next-Generation Quantum Computers",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/silicon-valley-up-start-atom-computing-chooses-colorado-to-build-next-generation-quantum-computers/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-09-28",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-2026-preview",
+      "title": "2026 in Quantum: A Strategic Preview from Atom Computing and Partners",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/2026-in-quantum-a-strategic-preview-from-atom-computing-and-partners/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2026-01-07",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ac-darpa-qbi-b-pr",
+      "title": "Atom Computing selected by DARPA for the next stage of exploring near-term utility-scale quantum computing with neutral atoms",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/atom-computing-selected-by-darpa-for-the-next-stage-of-exploring-near-term-utility-scale-quantum-computing-with-neutral-atoms/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-07",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ms-azure-blog-atom-2024",
+      "title": "Microsoft and Atom Computing offer a commercial quantum machine with the largest number of entangled logical qubits on record",
+      "publisher": "Microsoft",
+      "url": "https://azure.microsoft.com/en-us/blog/quantum/2024/11/19/microsoft-and-atom-computing-offer-a-commercial-quantum-machine-with-the-largest-number-of-entangled-logical-qubits-on-record/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-11-19",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ms-facts",
+      "title": "Facts About Microsoft",
+      "publisher": "Microsoft",
+      "url": "https://news.microsoft.com/facts-about-microsoft/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2411.11822",
+      "title": "Fault-tolerant quantum computation with a neutral atom processor (arXiv:2411.11822v3)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2411.11822",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-11-18",
+      "accessed": "2026-10-01",
+      "arxiv": "2411.11822"
+    },
+    {
+      "id": "src:arxiv-2401.16177",
+      "title": "Iterative assembly of 171Yb atom arrays with cavity-enhanced optical lattices (arXiv:2401.16177)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2401.16177",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-01-29",
+      "accessed": "2026-10-01",
+      "arxiv": "2401.16177"
+    },
+    {
+      "id": "src:prxq-5-030316",
+      "title": "Iterative Assembly of 171Yb Atom Arrays with Cavity-Enhanced Optical Lattices (PRX Quantum 5, 030316)",
+      "publisher": "American Physical Society (PRX Quantum)",
+      "url": "https://doi.org/10.1103/PRXQuantum.5.030316",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-07-25",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PRXQuantum.5.030316"
+    },
+    {
+      "id": "src:prxq-6-020334",
+      "title": "High-Fidelity Universal Gates in the 171Yb Ground-State Nuclear-Spin Qubit (PRX Quantum 6, 020334)",
+      "publisher": "American Physical Society (PRX Quantum)",
+      "url": "https://doi.org/10.1103/PRXQuantum.6.020334",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-05-21",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PRXQuantum.6.020334"
+    },
+    {
+      "id": "src:arxiv-2305.19119",
+      "title": "Mid-circuit qubit measurement and rearrangement in a 171Yb atomic array (arXiv:2305.19119)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2305.19119",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2023-05-30",
+      "accessed": "2026-10-01",
+      "arxiv": "2305.19119"
+    },
+    {
+      "id": "src:prx-13-041034",
+      "title": "Midcircuit Qubit Measurement and Rearrangement in a 171Yb Atomic Array (Phys. Rev. X 13, 041034)",
+      "publisher": "American Physical Society (Physical Review X)",
+      "url": "https://doi.org/10.1103/PhysRevX.13.041034",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2023-11-22",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PhysRevX.13.041034"
+    },
+    {
+      "id": "src:prx-15-041040",
+      "title": "Repeated Ancilla Reuse for Logical Computation on a Neutral Atom Quantum Computer (Phys. Rev. X 15, 041040)",
+      "publisher": "American Physical Society (Physical Review X)",
+      "url": "https://doi.org/10.1103/v7ny-fg31",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-12-04",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/v7ny-fg31"
+    },
+    {
+      "id": "src:arxiv-2606.04079",
+      "title": "Quantum error correction with the toric code (arXiv:2606.04079)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2606.04079",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2026-06-02",
+      "accessed": "2026-10-01",
+      "arxiv": "2606.04079"
+    },
+    {
+      "id": "src:ncomms-13-2779",
+      "title": "Universal gate operations on nuclear spin qubits in an optical tweezer array of 87Sr atoms (Nature Communications)",
+      "publisher": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-022-29977-z",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2022-05-19",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41467-022-29977-z"
+    },
+    {
+      "id": "src:quera-roadmap-2024",
+      "title": "QuEra Computing Releases a Groundbreaking Roadmap for Advanced Error-Corrected Quantum Computers, Pioneering the Next Frontier in Quantum Innovation",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-01-09",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-libra-2026",
+      "title": "QuEra Announces 2028 Fault-Tolerant Quantum Computer and Expanded Multi-Year Strategic Collaboration with AWS",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/quera-announces-2028-fault-tolerant-quantum-computer-and-expanded-multi-year-strategic-collaboration-with-aws",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-15",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-gigaquop-2026",
+      "title": "QuEra Unveils Gigaquop-Class Fault-Tolerant Roadmap and Invites Organizations to Co-Design Quantum Applications",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/quera-unveils-gigaquop-class-fault-tolerant-roadmap-and-invites-organizations-to-co-design-quantum-applications",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-roadmap-page",
+      "title": "Our quantum roadmap",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/our-quantum-roadmap",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-2025-review",
+      "title": "QuEra Computing Marks Record 2025 as the Year of Fault Tolerance and Over $230M of New Capital to Accelerate Industrial Deployment",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/quera-computing-marks-record-2025-as-the-year-of-fault-tolerance-and-over-230m-of-new-capital-to-accelerate-industrial-deployment",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-12-09",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-aquila-page",
+      "title": "Aquila",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/aquila",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-gemini-page",
+      "title": "Gemini",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/gemini",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-braket-2022",
+      "title": "QuEra’s quantum computer Aquila now available on Amazon Braket",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/queras-quantum-computer-aquila-now-available-on-amazon-braket",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-11-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-aist-2024",
+      "title": "AIST Selects QuEra’s Neutral-Atom Quantum Computer to Be Installed Alongside NVIDIA-Powered ABCI-Q Supercomputer",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/aist-selects-quera0",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-aist-mou-2024",
+      "title": "AIST and QuEra Sign Memorandum of Understanding to Strengthen Collaboration Toward Commercial Use of Quantum Computers",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/aist-and-quera-sign-memorandum-of-understanding-to-strengthen-collaboration-toward-commercial-use-of-quantum-computers0",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-nqcc-2024",
+      "title": "QuEra to Build World’s Most Advanced Quantum Computing Testbed in the UK",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/quera-to-build-worlds-most-advanced-quantum-computing-testbed-in-the-uk",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-02-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-magic-pr-2025",
+      "title": "QuEra, Harvard and MIT Researchers Demonstrate Logical-Level Magic State Distillation on a Neutral-Atom Quantum Computer",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/quera-harvard-and-mit-researchers-demonstrate-logical-level-magic-state-distillation-on-a-neutral-atom-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-07-14",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quera-48lq-pr-2023",
+      "title": "Harvard, QuEra, MIT, and the NIST/University of Maryland Usher in New Era of Quantum Computing by Performing Complex, Error-Corrected Quantum Algorithms on 48 Logical Qubits",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/harvard-quera-mit-and-the-nist-university-of-maryland-usher-in-new-era-of-quantum-computing-by-performing-complex-error-corrected-quantum-algorithms-on-48-logical-qubits0",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-12-06",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:nqcc-testbeds",
+      "title": "Quantum computing testbeds",
+      "publisher": "National Quantum Computing Centre (UK)",
+      "url": "https://www.nqcc.ac.uk/technology-research/quantum-computing-testbeds/",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:nature-626-58",
+      "title": "Logical quantum processor based on reconfigurable atom arrays (Nature)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-023-06927-3",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2023-12-06",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-023-06927-3"
+    },
+    {
+      "id": "src:nature-622-268",
+      "title": "High-fidelity parallel entangling gates on a neutral-atom quantum computer (Nature)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-023-06481-y",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2023-10-11",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-023-06481-y"
+    },
+    {
+      "id": "src:nature-magic-2025",
+      "title": "Experimental demonstration of logical magic state distillation (Nature)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-09367-3",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-07-14",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-09367-3"
+    },
+    {
+      "id": "src:nature-3000-2025",
+      "title": "Continuous operation of a coherent 3,000-qubit system (Nature)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-09596-6",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-09-15",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-09596-6"
+    },
+    {
+      "id": "src:nature-ftarch-2025",
+      "title": "A fault-tolerant neutral-atom architecture for universal quantum computation (Nature)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-09848-5",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-11-10",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-09848-5"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:atom-computing",
+      "name": "Atom Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.8695,
+        "lon": -122.301,
+        "precision": "site",
+        "address": "1901 Fourth St. Suite 200, Berkeley CA 94710"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "website": "https://atom-computing.com",
+      "evidence": [
+        {
+          "source": "src:ac-1000-qubits-pr",
+          "quote": "1901 Fourth St. Suite 200,\nBerkeley CA 94710",
+          "locator": "page footer",
+          "supports": "hq"
+        },
+        {
+          "source": "src:ac-colorado-pr-2022",
+          "quote": "The company opened its first office, which also serves as its global headquarters, in Berkeley, California in 2018.",
+          "locator": "paragraph 2",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:ac-1000-qubits-pr",
+          "quote": "Atom Computing is building scalable quantum computers with arrays of optically trapped neutral atoms.",
+          "locator": "About Atom Computing",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:microsoft",
+      "name": "Microsoft",
+      "kind": "company",
+      "roles": [
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 47.6396,
+        "lon": -122.1283,
+        "precision": "site",
+        "address": "One Microsoft Way, Redmond, WA 98052-7329"
+      },
+      "modalities": [],
+      "website": "https://www.microsoft.com",
+      "tickers": [
+        "NASDAQ:MSFT"
+      ],
+      "evidence": [
+        {
+          "source": "src:ms-facts",
+          "quote": "Microsoft Corporation\nOne Microsoft Way\nRedmond, WA 98052-7329",
+          "locator": "Corporate Address",
+          "supports": "existence, hq"
+        }
+      ]
+    },
+    {
+      "id": "co:qunorth",
+      "name": "QuNorth",
+      "kind": "company",
+      "roles": [],
+      "country": "DK",
+      "hq": {
+        "lat": 55.6761,
+        "lon": 12.5683,
+        "precision": "city",
+        "address": "Copenhagen"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "QuNorth is a new joint venture established to procure and operate the world’s most powerful commercial quantum computer to date.",
+          "locator": "fact box",
+          "supports": "existence"
+        },
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "QuNorth is owned 50/50 by EIFO and the Novo Nordisk Foundation and will have around 10 specialized employees.",
+          "locator": "fact box",
+          "supports": "existence, ownership"
+        },
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "Both Magne and QuNorth will be based in Copenhagen.",
+          "locator": "body, final paragraph before fact box",
+          "supports": "hq"
+        }
+      ]
+    },
+    {
+      "id": "co:quera",
+      "name": "QuEra Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "precision": "city",
+        "address": "Boston, Massachusetts"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "website": "https://www.quera.com",
+      "evidence": [
+        {
+          "source": "src:quera-aist-2024",
+          "quote": "Based in Boston and built on pioneering research from nearby Harvard University and MIT, QuEra operates the world’s largest publicly accessible quantum computer",
+          "locator": "About QuEra",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:quera-aist-2024",
+          "quote": "QuEra Computing is the leader in commercializing quantum computers using neutral atoms",
+          "locator": "About QuEra",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:harvard-university",
+      "name": "Harvard University",
+      "kind": "research_institution",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 42.377,
+        "lon": -71.1167,
+        "precision": "city",
+        "address": "Cambridge, MA"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "evidence": [
+        {
+          "source": "src:nature-3000-2025",
+          "quote": "Department of Physics, Harvard University, Cambridge, MA, USA",
+          "locator": "Authors and Affiliations",
+          "supports": "existence, hq, modality (neutral-atom experiments)"
+        }
+      ]
+    },
+    {
+      "id": "co:mit",
+      "name": "Massachusetts Institute of Technology",
+      "kind": "research_institution",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 42.3601,
+        "lon": -71.0942,
+        "precision": "city",
+        "address": "Cambridge, MA"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "evidence": [
+        {
+          "source": "src:nature-3000-2025",
+          "quote": "Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "locator": "Authors and Affiliations",
+          "supports": "existence, hq"
+        }
+      ]
+    },
+    {
+      "id": "co:aist",
+      "name": "National Institute of Advanced Industrial Science and Technology (AIST)",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "JP",
+      "hq": {
+        "lat": 35.6762,
+        "lon": 139.6503,
+        "precision": "city",
+        "address": "Tokyo"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:quera-aist-2024",
+          "quote": "The National Institute of Advanced Industrial Science and Technology (AIST), headquartered in Tokyo, Japan, is one of the country’s largest public research organizations.",
+          "locator": "About AIST",
+          "supports": "existence, hq"
+        }
+      ]
+    },
+    {
+      "id": "gov:gb-nqcc",
+      "name": "National Quantum Computing Centre (NQCC)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.5745,
+        "lon": -1.3125,
+        "precision": "site",
+        "address": "Harwell Campus, Oxfordshire"
+      },
+      "modalities": [],
+      "website": "https://www.nqcc.ac.uk",
+      "evidence": [
+        {
+          "source": "src:nqcc-testbeds",
+          "quote": "These prototype quantum computers, based on state-of-the-art technology platforms, are being deployed at the NQCC’s facilities on the Harwell Campus in Oxfordshire.",
+          "locator": "State-of-the-art quantum computing testbeds...",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:quera-nqcc-2024",
+          "quote": "The NQCC is the UK’s national centre for quantum computing",
+          "locator": "About the NQCC",
+          "supports": "kind"
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "site:atom-computing-boulder",
+      "name": "Atom Computing research and development facility, Boulder",
+      "operator": "co:atom-computing",
+      "kind": "lab",
+      "location": {
+        "lat": 40.015,
+        "lon": -105.2705,
+        "precision": "city",
+        "address": "Boulder, Colorado"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ac-colorado-pr-2022",
+          "quote": "Atom Computing today announced the opening of its new research and development facility in Boulder",
+          "locator": "paragraph 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:ac-colorado-pr-2022",
+          "quote": "The new facility is Atom’s largest to date and will house future generations of its highly scalable quantum computers",
+          "locator": "paragraph 2",
+          "supports": "kind"
+        }
+      ]
+    },
+    {
+      "id": "site:atom-computing-berkeley",
+      "name": "Atom Computing headquarters, Berkeley",
+      "operator": "co:atom-computing",
+      "kind": "headquarters",
+      "location": {
+        "lat": 37.8695,
+        "lon": -122.301,
+        "precision": "site",
+        "address": "1901 Fourth St. Suite 200, Berkeley CA 94710"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ac-colorado-pr-2022",
+          "quote": "The company opened its first office, which also serves as its global headquarters, in Berkeley, California in 2018.",
+          "locator": "paragraph 2",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:ac-1000-qubits-pr",
+          "quote": "1901 Fourth St. Suite 200,\nBerkeley CA 94710",
+          "locator": "page footer",
+          "supports": "address"
+        }
+      ]
+    },
+    {
+      "id": "site:atom-computing-copenhagen",
+      "name": "Atom Computing European headquarters, Copenhagen",
+      "operator": "co:atom-computing",
+      "kind": "headquarters",
+      "location": {
+        "lat": 55.6761,
+        "lon": 12.5683,
+        "precision": "city",
+        "address": "Copenhagen"
+      },
+      "country": "DK",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:ac-denmark-2024",
+          "quote": "we announced that Atom Computing is establishing a European headquarters in Copenhagen",
+          "locator": "paragraph 1",
+          "supports": "existence, location, status (announced 2024)"
+        }
+      ]
+    },
+    {
+      "id": "site:qunorth-copenhagen",
+      "name": "QuNorth / Magne installation, Copenhagen",
+      "operator": "co:qunorth",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 55.6761,
+        "lon": 12.5683,
+        "precision": "city",
+        "address": "Copenhagen"
+      },
+      "country": "DK",
+      "status": "under_construction",
+      "evidence": [
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "Both Magne and QuNorth will be based in Copenhagen.",
+          "locator": "body",
+          "supports": "location"
+        },
+        {
+          "source": "src:ac-toric-pr-2026",
+          "quote": "Currently being installed in partnership with Microsoft, the on-premises quantum system, Magne, is paving the way for advanced regional collaborations.",
+          "locator": "paragraph 6",
+          "supports": "status (being installed as of 2026-06-03)"
+        }
+      ]
+    },
+    {
+      "id": "site:aist-abci-q",
+      "name": "AIST, alongside the ABCI-Q supercomputer (Japan)",
+      "operator": "co:aist",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 36.2048,
+        "lon": 138.2529,
+        "precision": "country",
+        "address": "Japan (AIST; city of the ABCI-Q installation not stated in fetched sources)"
+      },
+      "country": "JP",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:quera-2025-review",
+          "quote": "QuEra completed its first on-premises installation at AIST (Japan), where its Gemini-class system now operates alongside the NVIDIA-powered ABCI-Q supercomputer.",
+          "locator": "Hybrid Compute Reality",
+          "supports": "existence, status, location (country)"
+        }
+      ]
+    },
+    {
+      "id": "site:nqcc-harwell",
+      "name": "National Quantum Computing Centre, Harwell Campus",
+      "operator": "gov:gb-nqcc",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 51.5745,
+        "lon": -1.3125,
+        "precision": "site",
+        "address": "Harwell Campus, Oxfordshire"
+      },
+      "country": "GB",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:nqcc-testbeds",
+          "quote": "These prototype quantum computers, based on state-of-the-art technology platforms, are being deployed at the NQCC’s facilities on the Harwell Campus in Oxfordshire.",
+          "locator": "State-of-the-art quantum computing testbeds...",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:quera-nqcc-2024",
+          "quote": "the UK’s National Quantum Computing Centre (NQCC) at Harwell, Oxfordshire, will soon be home to one of the world’s most advanced quantum computing testbeds",
+          "locator": "paragraph 1",
+          "supports": "location"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "sys:atom-computing-ac1000",
+      "name": "AC1000",
+      "operator": "co:atom-computing",
+      "modality": "neutral_atom",
+      "submodality": "digital_gate",
+      "status": "online",
+      "physical_qubits": {
+        "value": 1200,
+        "as_of": "2026-10-01",
+        "note": "Product page states \"> 1,200\" physical qubits (a lower bound). The October 2023 announcement of the second-generation platform stated a 1,225-site array populated with 1,180 qubits.",
+        "evidence": [
+          {
+            "source": "src:ac-ac1000-page",
+            "quote": "Physical qubits (PQs) > 1,200",
+            "locator": "AC1000 Details table",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:ac-1000-qubits-pr",
+            "quote": "Atom Computing announced it has created a 1,225-site atomic array, currently populated with 1,180 qubits, in its next-generation quantum computing platform.",
+            "locator": "paragraph 1",
+            "supports": "qubits (2023)"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (spec)",
+          "value": 99.6,
+          "unit": "%",
+          "definition": "AC1000 product specification table entry \"2Q Gate Fidelity > 99.6%\"; a lower bound; the page does not state the benchmarking method, whether median or mean, or which qubits.",
+          "as_of": "2026-10-01",
+          "evidence": [
+            {
+              "source": "src:ac-ac1000-page",
+              "quote": "2Q Gate Fidelity > 99.6%",
+              "locator": "AC1000 Details table, Gate Operations",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "single-qubit gate fidelity (spec)",
+          "value": 99.9,
+          "unit": "%",
+          "definition": "AC1000 product specification table entry \"1Q Gate Fidelity > 99.9%\"; a lower bound; method not stated on the page.",
+          "as_of": "2026-10-01",
+          "evidence": [
+            {
+              "source": "src:ac-ac1000-page",
+              "quote": "1Q Gate Fidelity > 99.9%",
+              "locator": "AC1000 Details table, Gate Operations",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:ac-ac1000-page",
+          "quote": "Atom Type Ytterbium-171",
+          "locator": "AC1000 Details table",
+          "supports": "modality"
+        },
+        {
+          "source": "src:ac-ac1000-page",
+          "quote": "AC1000 can be installed and operated on-premises to create and manage your own quantum ecosystem.",
+          "locator": "Meet AC1000",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:ac-microsoft-collab-2024",
+          "quote": "Atom Computing’s second-generation systems are enabling the co-development and logical qubit demonstrations with Microsoft.",
+          "locator": "body",
+          "supports": "status (second-generation systems in operation)"
+        },
+        {
+          "source": "src:ac-2026-preview",
+          "quote": "In the near term, Atom Computing’s systems leverage neutral atom technology to provide leading specifications, including 1,200+ physical qubits",
+          "locator": "Justin Ging outlook",
+          "supports": "qubits, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:qunorth-magne",
+      "name": "Magne",
+      "operator": "co:qunorth",
+      "modality": "neutral_atom",
+      "submodality": "digital_gate",
+      "status": "announced",
+      "site": "site:qunorth-copenhagen",
+      "announced": "2025-07-17",
+      "evidence": [
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "The computer will be named Magne, inspired by Norse mythology",
+          "locator": "body",
+          "supports": "existence, name"
+        },
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "Atom Computing will build and deliver the quantum hardware for Magne, while Microsoft will integrate, among other things, its Azure software, which will be tailored to Atom Computing’s neutral atom technology.",
+          "locator": "fact box",
+          "supports": "builder, modality"
+        },
+        {
+          "source": "src:ac-toric-pr-2026",
+          "quote": "Currently being installed in partnership with Microsoft, the on-premises quantum system, Magne, is paving the way for advanced regional collaborations.",
+          "locator": "paragraph 6",
+          "supports": "status (installation in progress at 2026-06-03)"
+        }
+      ]
+    },
+    {
+      "id": "sys:quera-aquila",
+      "name": "Aquila",
+      "operator": "co:quera",
+      "modality": "neutral_atom",
+      "submodality": "analog",
+      "status": "online",
+      "online_since": "2022-11-01",
+      "physical_qubits": {
+        "value": 256,
+        "as_of": "2026-10-01",
+        "evidence": [
+          {
+            "source": "src:quera-aquila-page",
+            "quote": "Aquila is a field‑programmable, analog quantum processor built on a reconfigurable 256‑qubit neutral‑atom array.",
+            "locator": "Aquila page, intro",
+            "supports": "qubits, submodality"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:quera-aquila-page",
+          "quote": "Launched in November 2022 as the first publicly accessible neutral‑atom quantum computer",
+          "locator": "Aquila page, intro",
+          "supports": "existence, date"
+        },
+        {
+          "source": "src:quera-braket-2022",
+          "quote": "Aquila is now live on Amazon Braket",
+          "locator": "CEO quote",
+          "supports": "status"
+        },
+        {
+          "source": "src:quera-libra-2026",
+          "quote": "Aquila , the 256-physical-qubit system live on Amazon Braket since 2022",
+          "locator": "body",
+          "supports": "status (2026)"
+        }
+      ]
+    },
+    {
+      "id": "sys:quera-gemini",
+      "name": "Gemini",
+      "operator": "co:quera",
+      "modality": "neutral_atom",
+      "submodality": "digital_gate",
+      "status": "online",
+      "physical_qubits": {
+        "value": 260,
+        "as_of": "2026-10-01",
+        "evidence": [
+          {
+            "source": "src:quera-gemini-page",
+            "quote": "A 260-qubit gate-model neutral-atom system",
+            "locator": "Gemini page, header",
+            "supports": "qubits, submodality"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity",
+          "value": 99.2,
+          "unit": "%",
+          "definition": "Gemini product page: \"99.2% on 2‑qubit gates\"; the page does not state the benchmarking method, median vs mean, or date of measurement.",
+          "as_of": "2026-10-01",
+          "evidence": [
+            {
+              "source": "src:quera-gemini-page",
+              "quote": "Delivers 99.9% fidelity on 1‑qubit gates and 99.2% on 2‑qubit gates, with SPAM and shuttling fidelities of 99.7%.",
+              "locator": "Gemini page, features",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "single-qubit gate fidelity",
+          "value": 99.9,
+          "unit": "%",
+          "definition": "Gemini product page: \"99.9% fidelity on 1‑qubit gates\"; method not stated.",
+          "as_of": "2026-10-01",
+          "evidence": [
+            {
+              "source": "src:quera-gemini-page",
+              "quote": "Delivers 99.9% fidelity on 1‑qubit gates and 99.2% on 2‑qubit gates, with SPAM and shuttling fidelities of 99.7%.",
+              "locator": "Gemini page, features",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:quera-gemini-page",
+          "quote": "featuring a dynamic qubit array (DQA™) with 260 neutral‑atom qubits",
+          "locator": "Gemini page",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:quera-magic-pr-2025",
+          "quote": "Using QuEra’s Gemini neutral-atom computer, the team first grouped individual atoms into error-protected logical qubits.",
+          "locator": "body",
+          "supports": "status (in use 2025)"
+        }
+      ]
+    },
+    {
+      "id": "sys:quera-gemini-aist",
+      "name": "Gemini-class system at AIST",
+      "operator": "co:quera",
+      "modality": "neutral_atom",
+      "submodality": "digital_gate",
+      "status": "online",
+      "site": "site:aist-abci-q",
+      "online_since": "2025",
+      "evidence": [
+        {
+          "source": "src:quera-2025-review",
+          "quote": "QuEra completed its first on-premises installation at AIST (Japan), where its Gemini-class system now operates alongside the NVIDIA-powered ABCI-Q supercomputer.",
+          "locator": "Hybrid Compute Reality",
+          "supports": "existence, status, site"
+        },
+        {
+          "source": "src:quera-aist-mou-2024",
+          "quote": "QuEra will establish and operate a cloud-based platform, providing remote access to the quantum computer for researchers, collaborators, and external users.",
+          "locator": "body",
+          "supports": "operator"
+        },
+        {
+          "source": "src:quera-aist-2024",
+          "quote": "QuEra's gate-based neutral-atom quantum computers are known for their unique scale, fidelity",
+          "locator": "body",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:quera-nqcc-testbed",
+      "name": "QuEra neutral-atom testbed at the NQCC",
+      "operator": "co:quera",
+      "modality": "neutral_atom",
+      "status": "announced",
+      "site": "site:nqcc-harwell",
+      "announced": "2024-02-05",
+      "evidence": [
+        {
+          "source": "src:nqcc-testbeds",
+          "quote": "QuEra’s project is designed to develop a more robust, scalable, and user-friendly neutral-atom testbed, offering an error-corrected operation.",
+          "locator": "Quantum computing testbed projects",
+          "supports": "existence"
+        },
+        {
+          "source": "src:quera-nqcc-2024",
+          "quote": "QuEra will begin work on its testbed for the NQCC soon and expects it to be operational in early 2025.",
+          "locator": "body",
+          "supports": "status (as of 2024)"
+        }
+      ]
+    },
+    {
+      "id": "sys:quera-libra",
+      "name": "Libra",
+      "operator": "co:quera",
+      "modality": "neutral_atom",
+      "status": "announced",
+      "announced": "2026-06-15",
+      "evidence": [
+        {
+          "source": "src:quera-libra-2026",
+          "quote": "QuEra Computing today announced Libra , its first fault-tolerant quantum computer, arriving on Amazon Braket in 2028",
+          "locator": "paragraph 1",
+          "supports": "existence, status (announced)"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms:atom-computing-1225-site-array",
+      "orgs": [
+        "co:atom-computing"
+      ],
+      "date": "2023-10-24",
+      "category": "qubit_count",
+      "claim": "Atom Computing announced a 1,225-site atomic array populated with 1,180 qubits; the peer-reviewed paper describing the assembly method reports near-deterministic filling (99% per-site occupancy) of 1225-site arrays.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PRXQuantum.5.030316",
+      "arxiv": "2401.16177",
+      "evidence": [
+        {
+          "source": "src:ac-1000-qubits-pr",
+          "quote": "Atom Computing announced it has created a 1,225-site atomic array, currently populated with 1,180 qubits, in its next-generation quantum computing platform.",
+          "locator": "paragraph 1",
+          "supports": "qubits, date"
+        },
+        {
+          "source": "src:prxq-5-030316",
+          "quote": "We apply this protocol to demonstrate near-deterministic filling (99% per-site occupancy) of 1225-site arrays of optical traps.",
+          "locator": "Crossref metadata record (api.crossref.org/works/<doi>), abstract; publisher page refused automated access (HTTP 403)",
+          "supports": "peer review, qubits"
+        },
+        {
+          "source": "src:arxiv-2401.16177",
+          "quote": "We apply this protocol to demonstrate near-deterministic filling (99% per-site occupancy) of 1225-site arrays of optical traps.",
+          "locator": "arXiv abstract",
+          "supports": "preprint"
+        }
+      ]
+    },
+    {
+      "id": "ms:atom-computing-sr87-coherence-2022",
+      "orgs": [
+        "co:atom-computing"
+      ],
+      "date": "2022-05-19",
+      "category": "fidelity",
+      "claim": "Atom Computing researchers report nuclear-spin qubits in 87Sr atoms with an echo coherence time of (40 ± 7) seconds while driving multiple qubits in parallel.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41467-022-29977-z",
+      "evidence": [
+        {
+          "source": "src:ncomms-13-2779",
+          "quote": "Here we introduce a qubit encoded in two nuclear spin states of a single 87 Sr atom and demonstrate coherence approaching the minute-scale within an assembled register of individually-controlled qubits.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ncomms-13-2779",
+          "quote": "we observe coherence in excess of 10 5 times the current length of the operations, with \\({T}_{2}^{{{{{\\mathrm{echo}}}}}}=\\left(40\\pm 7\\right)\\) seconds",
+          "locator": "Abstract (LaTeX as rendered on the page)",
+          "supports": "metric"
+        },
+        {
+          "source": "src:ac-1000-qubits-pr",
+          "quote": "The company has achieved record coherence times by demonstrating its qubits can store quantum information for 40 seconds.",
+          "locator": "list of capabilities",
+          "supports": "company framing"
+        }
+      ]
+    },
+    {
+      "id": "ms:atom-computing-mid-circuit-measurement",
+      "orgs": [
+        "co:atom-computing"
+      ],
+      "date": "2023-11-22",
+      "category": "other",
+      "claim": "Atom Computing reports mid-circuit, site-selective measurement in a 171Yb tweezer array with conditional refilling of ancilla sites to correct for atom loss while maintaining data-qubit coherence.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PhysRevX.13.041034",
+      "arxiv": "2305.19119",
+      "evidence": [
+        {
+          "source": "src:prx-13-041034",
+          "quote": "Midcircuit Qubit Measurement and Rearrangement in a Yb 171 Atomic Array",
+          "locator": "Crossref metadata record, title (no abstract deposited); publisher page refused automated access (HTTP 403)",
+          "supports": "peer review"
+        },
+        {
+          "source": "src:arxiv-2305.19119",
+          "quote": "we perform conditional refilling of ancilla sites to correct for occasional atom loss, while maintaining the coherence of data qubits",
+          "locator": "arXiv abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2305.19119",
+          "quote": "https://doi.org/10.1103/PhysRevX.13.041034",
+          "locator": "arXiv listing, Related DOI",
+          "supports": "journal link"
+        }
+      ]
+    },
+    {
+      "id": "ms:atom-computing-microsoft-24-encoded-qubits",
+      "orgs": [
+        "co:atom-computing",
+        "co:microsoft"
+      ],
+      "systems": [],
+      "date": "2024-11-18",
+      "category": "error_correction",
+      "claim": "Microsoft and Atom Computing report entangling 24 encoded qubits ([[4,2,2]] code, 48 atoms) in a cat state and running the Bernstein-Vazirani algorithm on up to 28 encoded qubits in 112 atoms, on a 256-qubit Ytterbium-atom processor; the preprint describes these as “logical qubits”.",
+      "peer_review": "preprint",
+      "arxiv": "2411.11822",
+      "evidence": [
+        {
+          "source": "src:arxiv-2411.11822",
+          "quote": "We demonstrate fault-tolerant quantum computation on a quantum processor with 256 qubits, each an individual neutral Ytterbium atom.",
+          "locator": "Abstract (PDF)",
+          "supports": "processor"
+        },
+        {
+          "source": "src:arxiv-2411.11822",
+          "quote": "We demonstrate the entanglement of 24 logical qubits encoded into 48 atoms",
+          "locator": "Abstract (PDF)",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2411.11822",
+          "quote": "We also implement the Bernstein-Vazirani algorithm with up to 28 logical qubits encoded into 112 atoms, showing better-than-physical error rates.",
+          "locator": "Abstract (PDF)",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2411.11822",
+          "quote": "The logical qubits are encoded with the J4, 2, 2K code into 48 physical qubits.",
+          "locator": "Section on cat state (Fig. 5); \"J4, 2, 2K\" is how pdftotext renders the double-bracket notation [[4, 2, 2]]",
+          "supports": "code"
+        },
+        {
+          "source": "src:ms-azure-blog-atom-2024",
+          "quote": "Twenty-eight logical qubits, created from 112 physical qubits, were used to perform successful computations based on the Bernstein-Vazirani algorithm.",
+          "locator": "body",
+          "supports": "company framing"
+        }
+      ]
+    },
+    {
+      "id": "ms:atom-computing-yb-gate-fidelity",
+      "orgs": [
+        "co:atom-computing"
+      ],
+      "date": "2025-05-21",
+      "category": "fidelity",
+      "claim": "Atom Computing reports a two-qubit entangling gate fidelity of 99.72(3)% with postselection and 99.40(3)% without, on the ground-state nuclear-spin qubit of tweezer-trapped 171Yb atoms.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PRXQuantum.6.020334",
+      "arxiv": "2411.11708",
+      "evidence": [
+        {
+          "source": "src:prxq-6-020334",
+          "quote": "We measure our two-qubit entangling gate fidelity to be 99.72(3)% (99.40(3)%) with (without) postselection.",
+          "locator": "Crossref metadata record (api.crossref.org/works/<doi>), abstract; publisher page refused automated access (HTTP 403)",
+          "supports": "metric, peer review"
+        },
+        {
+          "source": "src:prxq-6-020334",
+          "quote": "operating on the ground-state nuclear-spin qubit in arrays of tweezer-trapped 171 Yb atoms",
+          "locator": "Crossref metadata record (api.crossref.org/works/<doi>), abstract; publisher page refused automated access (HTTP 403)",
+          "supports": "qubit type"
+        },
+        {
+          "source": "src:ac-logical-blog-2024",
+          "quote": "with a 99.963(2)% single-qubit gate fidelity, and a 99.56(5)% two-qubit gate fidelity",
+          "locator": "body",
+          "supports": "company framing (differs from the published abstract)"
+        }
+      ]
+    },
+    {
+      "id": "ms:atom-computing-ancilla-reuse",
+      "orgs": [
+        "co:atom-computing"
+      ],
+      "date": "2025-12-04",
+      "category": "error_correction",
+      "claim": "Atom Computing reports measuring, re-initializing and replacing a subset of atoms mid-computation while maintaining coherence in others, performing up to 41 rounds of syndrome extraction in a repetition code.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/v7ny-fg31",
+      "arxiv": "2506.09936",
+      "evidence": [
+        {
+          "source": "src:prx-15-041040",
+          "quote": "We highlight this capability by performing up to 41 rounds of syndrome extraction in a repetition code",
+          "locator": "Crossref metadata record (api.crossref.org/works/<doi>), abstract; publisher page refused automated access (HTTP 403)",
+          "supports": "claim, peer review"
+        },
+        {
+          "source": "src:prx-15-041040",
+          "quote": "we demonstrate the ability to measure and reinitialize, and if necessary replace, a subset of atoms while maintaining coherence in other atoms",
+          "locator": "Crossref metadata record (api.crossref.org/works/<doi>), abstract; publisher page refused automated access (HTTP 403)",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:atom-computing-toric-code",
+      "orgs": [
+        "co:atom-computing"
+      ],
+      "systems": [],
+      "date": "2026-06-02",
+      "category": "error_correction",
+      "claim": "Atom Computing reports many cycles of syndrome extraction in a toric code with replacement of lost qubits, characterising the logical error rate after up to 90 cycles and a lower absolute logical error rate for the larger of two code distances up to 8 rounds; the company calls it a “full demonstration of quantum error correction”.",
+      "peer_review": "preprint",
+      "arxiv": "2606.04079",
+      "evidence": [
+        {
+          "source": "src:arxiv-2606.04079",
+          "quote": "We characterize the logical error rate after up to 90 cycles, showing that logical information can be preserved through multiple rounds of qubit reloading.",
+          "locator": "arXiv abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2606.04079",
+          "quote": "Comparing two distances of the code up to 8 rounds of syndrome extraction shows a lower absolute logical error rate for the larger distance code.",
+          "locator": "arXiv abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ac-toric-pr-2026",
+          "quote": "Atom Computing today announced the industry’s first full demonstration of quantum error correction using a toric code.",
+          "locator": "paragraph 1",
+          "supports": "company framing"
+        }
+      ]
+    },
+    {
+      "id": "ms:quera-aquila-braket-launch",
+      "orgs": [
+        "co:quera"
+      ],
+      "systems": [
+        "sys:quera-aquila"
+      ],
+      "date": "2022-11-01",
+      "category": "system_launch",
+      "claim": "QuEra made Aquila, an analog neutral-atom processor offering up to 256 qubits, available on Amazon Braket.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:quera-braket-2022",
+          "quote": "QuEra Computing today announced that Aquila, its neutral atom quantum computer, is now available via Amazon Braket",
+          "locator": "paragraph 1",
+          "supports": "claim"
+        },
+        {
+          "source": "src:quera-braket-2022",
+          "quote": "Today, Aquila offers users up to 256 qubits, with plans to scale to much higher numbers.",
+          "locator": "body",
+          "supports": "qubits"
+        }
+      ]
+    },
+    {
+      "id": "ms:harvard-quera-parallel-gates-99-5",
+      "orgs": [
+        "co:harvard-university",
+        "co:mit",
+        "co:quera"
+      ],
+      "date": "2023-10-11",
+      "category": "fidelity",
+      "claim": "Harvard, MIT and QuEra researchers report two-qubit entangling gates with 99.5% fidelity on up to 60 atoms in parallel.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-023-06481-y",
+      "evidence": [
+        {
+          "source": "src:nature-622-268",
+          "quote": "Here we report the realization of two-qubit entangling gates with 99.5% fidelity on up to 60 atoms in parallel, surpassing the surface-code threshold for error correction",
+          "locator": "Abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:nature-622-268",
+          "quote": "QuEra Computing Inc., Boston, MA, USA",
+          "locator": "Authors and Affiliations",
+          "supports": "orgs"
+        }
+      ]
+    },
+    {
+      "id": "ms:harvard-quera-48-encoded-qubits",
+      "orgs": [
+        "co:harvard-university",
+        "co:quera",
+        "co:mit"
+      ],
+      "date": "2023-12-06",
+      "category": "error_correction",
+      "claim": "A Harvard-led team with QuEra reports a programmable processor operating with up to 280 physical qubits, improvement of a two-qubit logic gate as surface-code distance increased from 3 to 7, and sampling circuits with up to 48 encoded qubits in [[8,3,2]] code blocks, which the paper calls “logical qubits”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-023-06927-3",
+      "evidence": [
+        {
+          "source": "src:nature-626-58",
+          "quote": "Here we report the realization of a programmable quantum processor based on encoded logical qubits operating with up to 280 physical qubits.",
+          "locator": "Abstract",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:nature-626-58",
+          "quote": "we demonstrate improvement of a two-qubit logic gate by scaling surface-code 6 distance from d = 3 to d = 7",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-626-58",
+          "quote": "using 3D [[8,3,2]] code blocks 16 , 17 , we realize computationally complex sampling circuits 18 with up to 48 logical qubits entangled with hypercube connectivity",
+          "locator": "Abstract",
+          "supports": "claim, code"
+        },
+        {
+          "source": "src:nature-626-58",
+          "quote": "QuEra Computing Inc., Boston, MA, USA",
+          "locator": "Authors and Affiliations",
+          "supports": "orgs"
+        }
+      ]
+    },
+    {
+      "id": "ms:quera-logical-magic-state-distillation",
+      "orgs": [
+        "co:quera",
+        "co:harvard-university",
+        "co:mit"
+      ],
+      "systems": [
+        "sys:quera-gemini"
+      ],
+      "date": "2025-07-14",
+      "category": "error_correction",
+      "claim": "QuEra, Harvard and MIT researchers report distillation of magic states encoded in d = 3 and d = 5 colour codes on a neutral-atom computer, with output logical magic-state fidelity improved over the inputs; QuEra states the work ran on its Gemini computer.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-09367-3",
+      "evidence": [
+        {
+          "source": "src:nature-magic-2025",
+          "quote": "We demonstrate the distillation of magic states encoded in d = 3 and d = 5 colour codes, observing improvements in the logical fidelity of the output magic states compared with the input logical magic states.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-magic-2025",
+          "quote": "This work, including the design, assembly and operation of the Gemini-class neutral-atom quantum computer, was supported by QuEra Computing.",
+          "locator": "Acknowledgements",
+          "supports": "system"
+        },
+        {
+          "source": "src:quera-magic-pr-2025",
+          "quote": "Using QuEra’s Gemini neutral-atom computer, the team first grouped individual atoms into error-protected logical qubits.",
+          "locator": "body",
+          "supports": "system"
+        }
+      ]
+    },
+    {
+      "id": "ms:harvard-mit-continuous-3000-atoms",
+      "orgs": [
+        "co:harvard-university",
+        "co:mit"
+      ],
+      "date": "2025-09-15",
+      "category": "qubit_count",
+      "claim": "Harvard and MIT researchers report assembling and maintaining an array of over 3,000 atoms for more than 2 hours using continuous reloading at 300,000 atoms per second, while preserving stored qubit states.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-09596-6",
+      "evidence": [
+        {
+          "source": "src:nature-3000-2025",
+          "quote": "Using a reloading rate of 300,000 atoms in tweezers per second, we create over 30,000 initialized qubits per second, which we leverage to assemble and maintain an array of over 3,000 atoms for more than 2 hours.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-3000-2025",
+          "quote": "we demonstrate persistent refilling of the array with atomic qubits in either a spin-polarized or a coherent superposition state while preserving the quantum state of stored qubits",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:quera-2025-review",
+          "quote": "In a breakthrough led by Harvard and MIT, researchers demonstrated a 3,000-qubit array operating continuously for over two hours",
+          "locator": "Solving the Scale Barrier",
+          "supports": "orgs"
+        }
+      ]
+    },
+    {
+      "id": "ms:harvard-quera-448-atom-qec-architecture",
+      "orgs": [
+        "co:harvard-university",
+        "co:mit",
+        "co:quera"
+      ],
+      "date": "2025-11-10",
+      "category": "error_correction",
+      "claim": "A Harvard-led team with MIT and QuEra reports using reconfigurable arrays of up to 448 neutral atoms to study repeated error correction, reporting 2.14(13)x below-threshold performance with surface codes in a four-round characterization circuit; the paper is titled “A fault-tolerant neutral-atom architecture for universal quantum computation”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-09848-5",
+      "evidence": [
+        {
+          "source": "src:nature-ftarch-2025",
+          "quote": "A fault-tolerant neutral-atom architecture for universal quantum computation",
+          "locator": "Title",
+          "supports": "title"
+        },
+        {
+          "source": "src:nature-ftarch-2025",
+          "quote": "Here we use reconfigurable arrays of up to 448 neutral atoms to implement the key elements of a universal, fault-tolerant quantum processing architecture",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-ftarch-2025",
+          "quote": "demonstrating 2.14(13)x below-threshold performance in a four-round characterization circuit by leveraging atom loss detection and machine learning decoding",
+          "locator": "Abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:nature-ftarch-2025",
+          "quote": "QuEra Computing, Boston, MA, USA",
+          "locator": "Authors and Affiliations",
+          "supports": "orgs"
+        }
+      ]
+    },
+    {
+      "id": "ms:quera-aist-installation",
+      "orgs": [
+        "co:quera"
+      ],
+      "systems": [
+        "sys:quera-gemini-aist"
+      ],
+      "date": "2025-12-09",
+      "category": "system_launch",
+      "claim": "QuEra states it completed its first on-premises installation, a Gemini-class system at AIST in Japan operating alongside the ABCI-Q supercomputer.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:quera-2025-review",
+          "quote": "QuEra completed its first on-premises installation at AIST (Japan), where its Gemini-class system now operates alongside the NVIDIA-powered ABCI-Q supercomputer.",
+          "locator": "Hybrid Compute Reality",
+          "supports": "claim"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:qunorth-magne-2027",
+      "org": "co:qunorth",
+      "system": "sys:qunorth-magne",
+      "system_name": "Magne",
+      "target_date": "2027-01",
+      "statement": "QuNorth targets Magne, built by Atom Computing and Microsoft, to be ready for its first tasks by the new year 2026/27, stated as consisting of 50 “logical qubits” and over 1,200 physical qubits.",
+      "stated_on": "2025-07-17",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "Construction of Magne will begin in autumn 2025, and the computer is expected to be ready for its first tasks by the new year 2026/27.",
+          "locator": "body",
+          "supports": "date"
+        },
+        {
+          "source": "src:ac-qunorth-magne-2025",
+          "quote": "Magne will be the world’s first commercially available level 2 quantum computer, consisting of 50 logical qubits and over 1,200 physical qubits.",
+          "locator": "fact box",
+          "supports": "qubits"
+        }
+      ]
+    },
+    {
+      "id": "tgt:atom-computing-systems-available-2024",
+      "org": "co:atom-computing",
+      "system": "sys:atom-computing-ac1000",
+      "target_date": "2024",
+      "statement": "Atom Computing targets availability of its 1,000-plus-qubit next-generation systems in 2024.",
+      "stated_on": "2023-10-24",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:ac-1000-qubits-pr",
+          "quote": "Atom Computing is working with enterprise, academic, and government users today to develop applications and reserve time on the systems, which will be available in 2024.",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-2024-10-logical",
+      "org": "co:quera",
+      "target_date": "2024",
+      "statement": "QuEra Computing targets launching in 2024 a quantum computer with ten “logical qubits”, transversal gate capability and over 256 physical qubits.",
+      "stated_on": "2024-01-09",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024",
+          "quote": "2024: Launching a quantum computer with ten logical qubits, unique transversal gate capability, and over 256 physical qubits.",
+          "locator": "QuEra roadmap press release, 9 Jan 2024",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-2025-30-logical",
+      "org": "co:quera",
+      "target_date": "2025",
+      "statement": "QuEra Computing targets in 2025 an enhanced model with 30 “logical error-corrected qubits” with magic state distillation, supported by over 3,000 physical qubits.",
+      "stated_on": "2024-01-09",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024",
+          "quote": "2025: An enhanced model with 30 logical error-corrected qubits with magic state distillation, supported by over 3,000 physical qubits.",
+          "locator": "QuEra roadmap press release, 9 Jan 2024",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-2026-third-gen-100-logical",
+      "org": "co:quera",
+      "target_date": "2026",
+      "statement": "QuEra Computing targets in 2026 a third-generation model with 100 “logical qubits” and over 10,000 physical qubits.",
+      "stated_on": "2024-01-09",
+      "status": "revised",
+      "superseded_by": "tgt:quera-third-gen-2026-2027",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024",
+          "quote": "2026: Introduction of a third-generation quantum error-corrected model with 100 logical qubits and over 10,000 physical qubits.",
+          "locator": "QuEra roadmap press release, 9 Jan 2024",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-third-gen-2026-2027",
+      "org": "co:quera",
+      "target_date": "2027",
+      "statement": "QuEra Computing targets demonstrating its third-generation systems in 2026-2027, described as featuring a large number of high-quality “logical qubits” operating continuously.",
+      "stated_on": "2025-12-09",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quera-2025-review",
+          "quote": "QuEra is on track to demonstrate its third-generation systems in 2026-2027. These systems are designed to feature a large number of high-quality logical qubits operating continuously",
+          "locator": "closing section",
+          "supports": "target, revision of 2026 date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-libra-2028",
+      "org": "co:quera",
+      "system": "sys:quera-libra",
+      "system_name": "Libra",
+      "target_date": "2028",
+      "statement": "QuEra Computing targets availability of Libra on Amazon Braket in 2028, with projected specs of over 256 “error-corrected logical qubits” and a logical error rate of 10⁻⁶.",
+      "stated_on": "2026-06-15",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quera-libra-2026",
+          "quote": "With projected specs of over 256 error-corrected logical qubits and a logical error rate of 10⁻⁶, Libra is designed to give AWS customers cloud access to fault-tolerant quantum computing in 2028",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:quera-libra-2026",
+          "quote": "Under the expanded agreement, Libra will be available on Braket starting in 2028.",
+          "locator": "An Expanded Strategic Collaboration with AWS",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-gigaquop-2029",
+      "org": "co:quera",
+      "target_date": "2029",
+      "statement": "QuEra Computing targets initial in-house use of a next-generation system in the 2028 to 2029 timeframe, with projected specifications of more than 1,000 “logical qubits”, a 10⁻⁹ logical error rate and over 20,000 physical qubits in a single processing core.",
+      "stated_on": "2026-06-25",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quera-gigaquop-2026",
+          "quote": "With projected specifications of more than 1,000 logical qubits, a 10⁻⁹ logical error rate, and over 20,000 physical qubits in a single processing core, the system is targeted for initial use at QuEra in the 2028 to 2029 timeframe.",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-aist-install-2025",
+      "org": "co:quera",
+      "system": "sys:quera-gemini-aist",
+      "target_date": "2025",
+      "statement": "QuEra Computing targets on-premises installation of its gate-based computer at AIST in 2025.",
+      "stated_on": "2024-04-30",
+      "status": "met",
+      "met_by": "ms:quera-aist-installation",
+      "evidence": [
+        {
+          "source": "src:quera-aist-2024",
+          "quote": "QuEra’s gate-based computer is scheduled for on-premises installation in 2025.",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-nqcc-testbed-2025",
+      "org": "co:quera",
+      "system": "sys:quera-nqcc-testbed",
+      "target_date": "2025",
+      "statement": "QuEra Computing targets its NQCC testbed being operational in early 2025.",
+      "stated_on": "2024-02-05",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quera-nqcc-2024",
+          "quote": "QuEra will begin work on its testbed for the NQCC soon and expects it to be operational in early 2025.",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "gaps": [
+    {
+      "topic": "Atom Computing: whether 2024 system-availability target was met",
+      "why": "No primary document found stating the date the AC1000 / second-generation system became available to external users; target left \"open\".",
+      "would_need": "Atom Computing or customer release stating first external availability / delivery date."
+    },
+    {
+      "topic": "Atom Computing third-generation system",
+      "why": "The 2026 preview states Atom is \"designing Atom’s third-generation systems with 10,000 physical qubits\" but gives no date, so no target was recorded.",
+      "would_need": "Dated roadmap document."
+    },
+    {
+      "topic": "Atom Computing: physical location of AC1000 / second-generation systems",
+      "why": "Documents place the 100-qubit prototype Phoenix in Berkeley (2022) and say the Boulder facility \"will house future generations\", but no document found explicitly placing the AC1000 systems used for the Microsoft or toric-code results at a site; system drawn at HQ.",
+      "would_need": "Document naming the facility of the second-generation systems."
+    },
+    {
+      "topic": "Atom Computing / Microsoft logical-qubit paper peer review",
+      "why": "arXiv:2411.11822 (v3, June 2025) shows no journal reference; no journal version found.",
+      "would_need": "Journal DOI if published."
+    },
+    {
+      "topic": "QuEra 2024 and 2025 roadmap targets (10 and 30 encoded-qubit systems): met or missed",
+      "why": "No QuEra document found that states whether the 2024 ten-logical-qubit product or the 2025 30-logical-qubit model was launched; the Dec 2025 review re-dates the third generation to 2026-2027. Targets left \"open\".",
+      "would_need": "QuEra statement on launch of these products, or archived roadmap page versions (Wayback) showing the revision."
+    },
+    {
+      "topic": "QuEra NQCC testbed operational status",
+      "why": "QuEra expected the NQCC testbed to be operational in early 2025; no fetched document confirms it is operating.",
+      "would_need": "NQCC or QuEra release confirming installation/operation."
+    },
+    {
+      "topic": "Location of the AIST / ABCI-Q installation",
+      "why": "QuEra releases place the Gemini-class system alongside ABCI-Q at AIST but do not name the city; AIST pages refused automated access (HTTP 403) or returned 404.",
+      "would_need": "AIST/G-QuAT page naming the facility city (site drawn at country precision until then)."
+    },
+    {
+      "topic": "Physical location of Aquila and the Boston Gemini system",
+      "why": "No document found naming the facility; drawn at QuEra HQ (Boston).",
+      "would_need": "QuEra document naming the facility."
+    },
+    {
+      "topic": "QuEra Gemini metrics methodology",
+      "why": "Gemini page lists fidelities without method/date; no Gemini system paper with definitions found.",
+      "would_need": "QuEra technical datasheet or paper."
+    }
+  ]
+}
