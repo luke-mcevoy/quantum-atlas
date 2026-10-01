@@ -530,3 +530,8 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
   .lane-label { display: none; }
   .tl-head > .muted { display: none; }
 }
+.legend { max-width: calc(100vw - 760px); flex-wrap: wrap; justify-content: center; row-gap: 4px; white-space: normal; }
+.legend span { white-space: nowrap; }
+.app:has(.roadmap-tl) .camera { bottom: 132px; }
+.timeline.roadmap-tl .tl-track.road { margin-left: 64px; }
+@media (max-width: 900px) { .timeline.roadmap-tl .tl-track.road { margin-left: 0; } .legend { max-width: calc(100vw - 24px); } }
