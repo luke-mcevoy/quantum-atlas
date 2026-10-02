@@ -2,6 +2,8 @@ FROM node:24-alpine AS build
 WORKDIR /src
 COPY app/package.json app/package-lock.json ./
 RUN npm ci
+# Tests import ../../scripts from /src/test, which resolves to /scripts.
+COPY scripts /scripts
 COPY app/ ./
 RUN npm run build
 
