@@ -416,6 +416,353 @@
       "document_date": "2025-11-10",
       "accessed": "2026-10-01",
       "doi": "10.1038/s41586-025-09848-5"
+    },
+    {
+      "id": "src:pasqal-340m-2026",
+      "title": "Pasqal is entering a new phase of development with new financing expected of at least €340 million in anticipation of its public listing",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-is-entering-a-new-phase-of-development-with-new-financing-expected-of-at-least-e340-million-in-anticipation-of-its-public-listing/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-03-04",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-bc-complete-2026",
+      "title": "Pasqal and Bleichroeder Acquisition Corp. II Complete Business Combination",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-and-bleichroeder-acquisition-corp-ii-complete-business-combination/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-27",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-h1-2026",
+      "title": "Pasqal Reports First Half 2026 Financial Results",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-reports-first-half-2026-financial-results/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-24",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-1000-atoms-2024",
+      "title": "Pasqal exceeds 1000 atoms in quantum processor",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-exceeds-1000-atoms-in-quantum-processor/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-06-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-genci-delivery-2024",
+      "title": "The First Advanced Quantum Processing Unit Delivered by Pasqal to GENCI and CEA",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/first-qpu-delivered-by-pasqal-to-genci-and-cea/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-06-19",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-hpcqs-inauguration-2025",
+      "title": "Pasqal drives Europe’s quantum industrialization with the integration of two QPUs into Europe’s first hybrid HPC–Quantum infrastructure",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-drives-europes-quantum-industrialization-with-the-integration-of-two-qpus-into-europes-first-hybrid-hpc-quantum-infrastructure/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-13",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-hpcqs-selection-2022",
+      "title": "With two 100 qubits quantum computers from Pasqal, FZJ and GENCI boost HPCQS, the pan-European hybrid HPC/quantum infrastructure",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/with-two-100-qubits-quantum-computers-from-pasqal-fzj-and-genci-boost-hpcqs-the-pan-european-hybrid-hpc-quantum-infrastructure/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-05-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-hybrid-milestone-2023",
+      "title": "GENCI, CEA, FZJ and Pasqal announce significant milestone in hybrid computing",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/genci-cea-fzj-and-pasqal-announce-significant-milestone-in-hybrid-computing/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-11-09",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-roadmap-2024",
+      "title": "Pasqal announces New Roadmap focused on Business Utility and Scaling beyond 1,000 Qubits towards Fault Tolerance Era",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-announces-new-roadmap-focused-on-business-utility-and-scaling-beyond-1000-qubits-towards-fault-tolerance-era/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-03-12",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-roadmap-2025",
+      "title": "Pasqal Releases 2025 Roadmap Showcasing Upgradable Platform from Today’s Quantum Solutions to Tomorrow’s Fault-Tolerant Systems",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-12",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-cineca-sol-2026",
+      "title": "Pasqal Inaugurates Italy’s First Neutral-Atom Quantum Computer, Third Pasqal System in Europe",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-inaugurates-italys-first-neutral-atom-quantum-computer-third-pasqal-system-in-europe/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-11",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-logical-de-2026",
+      "title": "Pasqal Demonstrates Logical Qubits Outperform Physical Qubits Solving Differential Equations",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-demonstrates-logical-qubits-outperform-physical-qubits-solving-differential-equations-an-industry-first-for-neutral-atom-quantum-computing/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-21",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-aramco-2025",
+      "title": "Aramco and Pasqal make history with Saudi Arabia’s first quantum computer",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/aramco-and-pasqal-make-history-with-saudi-arabia-first-quantum-computer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-24",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-aramco-2026",
+      "title": "Aramco and Pasqal launch Saudi Arabia’s first Quantum Computer and Middle East’s first commercial Quantum Computing as a Service platform",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/aramco-and-pasqal-launch-saudi-arabias-first-quantum-computer-and-middle-easts-first-commercial-quantum-computing-as-a-service-platform/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-18",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:pasqal-roadmap-page",
+      "title": "Pasqal technology roadmap (web page)",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/technology/roadmap/",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2405.19503",
+      "title": "Rearrangement of single atoms in a 2000-site optical tweezers array at cryogenic temperatures (arXiv:2405.19503)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2405.19503",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-05-29",
+      "accessed": "2026-10-01",
+      "arxiv": "2405.19503"
+    },
+    {
+      "id": "src:pr-applied-22-024073",
+      "title": "Rearrangement of individual atoms in a 2000-site optical-tweezer array at cryogenic temperatures (Phys. Rev. Applied 22, 024073)",
+      "publisher": "American Physical Society (Physical Review Applied)",
+      "url": "https://doi.org/10.1103/PhysRevApplied.22.024073",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-08-29",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PhysRevApplied.22.024073"
+    },
+    {
+      "id": "src:arxiv-2605.21276",
+      "title": "Benchmarking a machine-learning differential equations solver on a neutral-atom logical processor (arXiv:2605.21276)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2605.21276",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2026-05-20",
+      "accessed": "2026-10-01",
+      "arxiv": "2605.21276"
+    },
+    {
+      "id": "src:infleqtion-10k-2025",
+      "title": "Infleqtion, Inc. Annual Report on Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC (filer: Infleqtion, Inc.)",
+      "url": "https://ir.infleqtion.com/sec-filings/all-sec-filings/content/0001193125-26-134544/d94946d10k.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-03-31",
+      "accessed": "2026-10-01",
+      "identifier": "0001193125-26-134544"
+    },
+    {
+      "id": "src:infleqtion-30lq-2026",
+      "title": "Infleqtion Achieves 30 Entangled Logical Qubits on Its Sqale Quantum Computer",
+      "publisher": "Infleqtion",
+      "url": "https://infleqtion.com/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-24",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:infleqtion-matdesign-2024",
+      "title": "Infleqtion Delivers First Quantum Material Design Application Powered by Logical Qubits and NVIDIA CUDA-Q",
+      "publisher": "Infleqtion",
+      "url": "https://infleqtion.com/infleqtion-delivers-first-quantum-material-design-application-powered-by-logical-qubits-and-nvidia-cuda-q/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-12-10",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:infleqtion-qc-page",
+      "title": "Quantum Computing (Sqale)",
+      "publisher": "Infleqtion",
+      "url": "https://infleqtion.com/quantum-computing/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:infleqtion-japan-operational",
+      "title": "Japan’s Full-Stack Neutral-Atom Quantum Computer is Operational",
+      "publisher": "Infleqtion",
+      "url": "https://infleqtion.com/news/japans-full-stack-neutral-atom-quantum-computer-is-operational/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2408.08288",
+      "title": "A universal neutral-atom quantum computer with individual optical addressing and non-destructive readout (arXiv:2408.08288)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2408.08288",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-08-15",
+      "accessed": "2026-10-01",
+      "arxiv": "2408.08288"
+    },
+    {
+      "id": "src:prxq-6-030334",
+      "title": "Universal Neutral-Atom Quantum Computer with Individual Optical Addressing and Nondestructive Readout (PRX Quantum 6, 030334)",
+      "publisher": "American Physical Society (PRX Quantum)",
+      "url": "https://doi.org/10.1103/66s8-jj18",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-08-25",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/66s8-jj18"
+    },
+    {
+      "id": "src:planqc-maqcs-hw-2026",
+      "title": "MAQCS takes shape as first quantum computing hardware arrives at LRZ",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/news/maqcs-takes-shape-as-first-quantum-computing-hardware-arrives-at-lrz",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-09",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-maqcs-2024",
+      "title": "planqc to build 1,000-qubit neutral atom quantum computer for LRZ",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/news/planqc-to-build-1-000-qubit-neutral-atom-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-11-13",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-dlr-contract",
+      "title": "planqc awarded EUR 29 million contract from DLR to build scalable neutral-atom quantum computer",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/news/planqc-awarded-eur-29-million-contract-from-the-dlr-to-build-and-install-scalable-neutral-atom-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-hq-2024",
+      "title": "planqc opens new company headquarters in Garching near Munich",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/news/planqc-opens-new-company-headquarters-in-garching-near-munich",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-09-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-logiqc-2026",
+      "title": "planqc selected for Germany’s Quantum Computing Competition with LOGIQC",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/news/planqc-selected-for-germany-s-quantum-computing-competition-with-logiqc",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-contact",
+      "title": "Contact (offices and labs)",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/company/contact",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-products",
+      "title": "Products",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/technology/products",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-maqcs-page",
+      "title": "MAQCS custom system",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/technology/maqcs-custom-system",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:nature-6100-2025",
+      "title": "A tweezer array with 6,100 highly coherent atomic qubits (Nature)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-09641-4",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-09-24",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-09641-4"
     }
   ],
   "orgs": [
@@ -657,6 +1004,315 @@
           "supports": "kind"
         }
       ]
+    },
+    {
+      "id": "co:pasqal",
+      "name": "Pasqal",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.7146,
+        "lon": 2.2453,
+        "precision": "city",
+        "address": "Palaiseau, France"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "tickers": [
+        "NASDAQ:PSQL"
+      ],
+      "sec_cik": "0002119292",
+      "website": "https://www.pasqal.com",
+      "evidence": [
+        {
+          "source": "src:pasqal-340m-2026",
+          "quote": "The company is expected to remain a French legal entity, with its headquarters in Palaiseau.",
+          "locator": "body",
+          "supports": "hq"
+        },
+        {
+          "source": "src:pasqal-bc-complete-2026",
+          "quote": "Pasqal Holding SA’s ordinary shares and warrants are expected to begin trading on The Nasdaq Stock Market on August 28, 2026 under the ticker symbols “PSQL” and “PSQLW”, respectively.",
+          "locator": "body",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:pasqal-bc-complete-2026",
+          "quote": "Pasqal builds and operates neutral-atom quantum computers",
+          "locator": "About Pasqal",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "gov:fr-genci",
+      "name": "GENCI (Grand Équipement National de Calcul Intensif)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 46.6034,
+        "lon": 1.8883,
+        "precision": "country",
+        "address": "France"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:pasqal-genci-delivery-2024",
+          "quote": "Created by the public authorities in 2007, GENCI (Grand Équipement National de Calcul Intensif) is a major research infrastructure.",
+          "locator": "About GENCI",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "gov:fr-cea",
+      "name": "CEA (Commissariat à l’énergie atomique et aux énergies alternatives)",
+      "kind": "government",
+      "roles": [],
+      "country": "FR",
+      "hq": {
+        "lat": 46.6034,
+        "lon": 1.8883,
+        "precision": "country",
+        "address": "France"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:pasqal-hpcqs-inauguration-2025",
+          "quote": "Commissariat à l’énergie atomique et aux énergies alternatives (CEA)",
+          "locator": "paragraph 1",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:fzj",
+      "name": "Forschungszentrum Jülich (FZJ)",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "DE",
+      "hq": {
+        "lat": 50.905,
+        "lon": 6.4106,
+        "precision": "city",
+        "address": "Jülich"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:pasqal-genci-delivery-2024",
+          "quote": "another QPU will also be installed in Germany at Forschungszentrum Jülich (FZJ) and coupled with the JURECA supercomputer",
+          "locator": "body",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "co:cineca",
+      "name": "CINECA",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "IT",
+      "hq": {
+        "lat": 44.4949,
+        "lon": 11.3426,
+        "precision": "city",
+        "address": "Bologna"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "hosted at CINECA, Italy’s largest public supercomputing operator and a member of the Italian Research Center on High Performance Computing (ICSC), Big Data, and Quantum Computing, in Bologna, Italy",
+          "locator": "paragraph 1",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "co:aramco",
+      "name": "Aramco",
+      "kind": "company",
+      "roles": [],
+      "country": "SA",
+      "hq": {
+        "lat": 26.2886,
+        "lon": 50.114,
+        "precision": "city",
+        "address": "Dhahran"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:pasqal-aramco-2025",
+          "quote": "DHAHRAN, Saudi Arabia, November 24, 2025 – Aramco, one of the world’s leading integrated energy and chemicals companies",
+          "locator": "dateline",
+          "supports": "existence, city (dateline)"
+        }
+      ]
+    },
+    {
+      "id": "co:infleqtion",
+      "name": "Infleqtion",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 39.9568,
+        "lon": -105.153,
+        "precision": "site",
+        "address": "1315 West Century Drive, Suite 150, Louisville, CO 80027"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "tickers": [
+        "NYSE:INFQ"
+      ],
+      "sec_cik": "0002007825",
+      "website": "https://infleqtion.com",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "Our corporate headquarters are located in Louisville, Colorado, where we lease approximately 20,000 square feet of space from an independent third party",
+          "locator": "Item 2 Properties",
+          "supports": "hq"
+        },
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "c/o Infleqtion, Inc., 1315 West Century Drive, Suite 150, Louisville, CO 80027",
+          "locator": "Security ownership table note",
+          "supports": "address"
+        },
+        {
+          "source": "src:infleqtion-30lq-2026",
+          "quote": "Infleqtion (NYSE: INFQ), a global leader in quantum computing and quantum sensing powered by neutral-atom technology",
+          "locator": "paragraph 1",
+          "supports": "ticker, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:planqc",
+      "name": "planqc",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "DE",
+      "hq": {
+        "lat": 48.249,
+        "lon": 11.651,
+        "precision": "site",
+        "address": "Münchenerstr. 34, 85748 Garching b. München"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "website": "https://planqc.eu",
+      "evidence": [
+        {
+          "source": "src:planqc-contact",
+          "quote": "Garching Headquarters\n Münchenerstr. 34 \n85748 Garching b. München",
+          "locator": "Offices and labs",
+          "supports": "hq, address"
+        },
+        {
+          "source": "src:planqc-hq-2024",
+          "quote": "planqc has opened its new company headquarters in Garching near Munich",
+          "locator": "paragraph 1",
+          "supports": "hq"
+        },
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "planqc – Europe’s leader for digital quantum processors based on neutral atoms",
+          "locator": "body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:lrz",
+      "name": "Leibniz Supercomputing Centre (LRZ)",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "DE",
+      "hq": {
+        "lat": 48.262,
+        "lon": 11.668,
+        "precision": "city",
+        "address": "Garching near Munich"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:planqc-maqcs-2024",
+          "quote": "a 1,000-qubit quantum computer at the Leibniz Supercomputing Centre (LRZ) in Garching near Munich",
+          "locator": "paragraph 1",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "gov:de-dlr",
+      "name": "German Aerospace Center (DLR)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "DE",
+      "hq": {
+        "lat": 51.1657,
+        "lon": 10.4515,
+        "precision": "country",
+        "address": "Germany"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "planqc has been selected by the German Aerospace Center (DLR) to develop a digital neutral-atom-based quantum computing hardware and software platform",
+          "locator": "paragraph 1",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:caltech",
+      "name": "California Institute of Technology",
+      "kind": "research_institution",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 34.1377,
+        "lon": -118.1253,
+        "precision": "city",
+        "address": "Pasadena, CA"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "evidence": [
+        {
+          "source": "src:nature-6100-2025",
+          "quote": "California Institute of Technology, Pasadena, CA, USA",
+          "locator": "Authors and Affiliations",
+          "supports": "existence, hq"
+        }
+      ]
     }
   ],
   "sites": [
@@ -813,6 +1469,328 @@
           "quote": "the UK’s National Quantum Computing Centre (NQCC) at Harwell, Oxfordshire, will soon be home to one of the world’s most advanced quantum computing testbeds",
           "locator": "paragraph 1",
           "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:pasqal-massy",
+      "name": "Pasqal premises, Massy",
+      "operator": "co:pasqal",
+      "kind": "lab",
+      "location": {
+        "lat": 48.7309,
+        "lon": 2.2713,
+        "precision": "city",
+        "address": "Massy, France"
+      },
+      "country": "FR",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:pasqal-hybrid-milestone-2023",
+          "quote": "remote access to a 100+-qubit device hosted on PASQAL’s premises in Massy, France",
+          "locator": "body",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:cea-tgcc",
+      "name": "TGCC (Très Grand Centre de Calcul), CEA computing centre",
+      "operator": "gov:fr-cea",
+      "kind": "datacenter",
+      "location": {
+        "lat": 48.5897,
+        "lon": 2.1953,
+        "precision": "site",
+        "address": "TGCC, Bruyères-le-Châtel (facility named; address not stated in source)"
+      },
+      "country": "FR",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:pasqal-genci-delivery-2024",
+          "quote": "A pioneering 100+ qubit quantum processing unit (QPU), acquired by GENCI (Grand Équipement National de Calcul Intensif) , was delivered at TGCC , the CEA computing centre",
+          "locator": "paragraph 1",
+          "supports": "existence, facility"
+        },
+        {
+          "source": "src:pasqal-hpcqs-inauguration-2025",
+          "quote": "the two processors, situated respectively at Jülich Supercomputing Centre (JSC) in Germany and Très Grand Centre de Calcul (TGCC) will be presented",
+          "locator": "body",
+          "supports": "facility"
+        }
+      ]
+    },
+    {
+      "id": "site:fzj-jsc",
+      "name": "Jülich Supercomputing Centre (JSC)",
+      "operator": "co:fzj",
+      "kind": "datacenter",
+      "location": {
+        "lat": 50.905,
+        "lon": 6.4106,
+        "precision": "site",
+        "address": "Jülich Supercomputing Centre, Forschungszentrum Jülich"
+      },
+      "country": "DE",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:pasqal-hpcqs-inauguration-2025",
+          "quote": "the two processors, situated respectively at Jülich Supercomputing Centre (JSC) in Germany and Très Grand Centre de Calcul (TGCC) will be presented",
+          "locator": "body",
+          "supports": "existence, facility"
+        }
+      ]
+    },
+    {
+      "id": "site:cineca-bologna",
+      "name": "CINECA, DAMA Technopole, Bologna",
+      "operator": "co:cineca",
+      "kind": "datacenter",
+      "location": {
+        "lat": 44.513,
+        "lon": 11.326,
+        "precision": "site",
+        "address": "DAMA Technopole, Bologna, Emilia-Romagna"
+      },
+      "country": "IT",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "The system was unveiled at the DAMA Technopole in Emilia-Romagna during a ribbon-cutting ceremony",
+          "locator": "paragraph 1",
+          "supports": "facility"
+        },
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "hosted at CINECA, Italy’s largest public supercomputing operator and a member of the Italian Research Center on High Performance Computing (ICSC), Big Data, and Quantum Computing, in Bologna, Italy",
+          "locator": "paragraph 1",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:aramco-dhahran-dc",
+      "name": "Aramco data center, Dhahran",
+      "operator": "co:aramco",
+      "kind": "datacenter",
+      "location": {
+        "lat": 26.2886,
+        "lon": 50.114,
+        "precision": "city",
+        "address": "Dhahran"
+      },
+      "country": "SA",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:pasqal-aramco-2025",
+          "quote": "The deployment of Pasqal’s quantum computer powered by neutral-atom technology at Aramco’s data center, in Dhahran",
+          "locator": "body",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:infleqtion-boulder",
+      "name": "Infleqtion manufacturing and integration facility, Boulder",
+      "operator": "co:infleqtion",
+      "kind": "manufacturing",
+      "location": {
+        "lat": 40.015,
+        "lon": -105.2705,
+        "precision": "city",
+        "address": "Boulder, Colorado"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "We maintain manufacturing and integration capabilities across both our Boulder, Colorado and Oxford, United Kingdom facilities.",
+          "locator": "Item 1, Manufacturing",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:infleqtion-oxford",
+      "name": "Infleqtion manufacturing and integration facility, Oxford",
+      "operator": "co:infleqtion",
+      "kind": "manufacturing",
+      "location": {
+        "lat": 51.752,
+        "lon": -1.2577,
+        "precision": "city",
+        "address": "Oxford, United Kingdom"
+      },
+      "country": "GB",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "We maintain manufacturing and integration capabilities across both our Boulder, Colorado and Oxford, United Kingdom facilities.",
+          "locator": "Item 1, Manufacturing",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:infleqtion-chicago",
+      "name": "Infleqtion R&D and manufacturing operations, Chicago",
+      "operator": "co:infleqtion",
+      "kind": "lab",
+      "location": {
+        "lat": 41.8781,
+        "lon": -87.6298,
+        "precision": "city",
+        "address": "Chicago, Illinois"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "we also maintain additional R&D and manufacturing operations in Chicago, Illinois; Madison, Wisconsin; Boulder, Colorado; Oxford, United Kingdom; and Melbourne, Australia",
+          "locator": "Item 2 Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:infleqtion-madison",
+      "name": "Infleqtion R&D and manufacturing operations, Madison",
+      "operator": "co:infleqtion",
+      "kind": "lab",
+      "location": {
+        "lat": 43.0731,
+        "lon": -89.4012,
+        "precision": "city",
+        "address": "Madison, Wisconsin"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "we also maintain additional R&D and manufacturing operations in Chicago, Illinois; Madison, Wisconsin; Boulder, Colorado; Oxford, United Kingdom; and Melbourne, Australia",
+          "locator": "Item 2 Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:ims-japan",
+      "name": "Institute for Molecular Science (Japan)",
+      "operator": "co:infleqtion",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 36.2048,
+        "lon": 138.2529,
+        "precision": "country",
+        "address": "Japan (city not stated in fetched sources)"
+      },
+      "country": "JP",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "A quantum processor designed to process 529 physical qubits was delivered to the Institute for Molecular Sciences, further solidifying our global position in neutral atom computing.",
+          "locator": "Item 1, International Research Institutions",
+          "supports": "existence, location (country inferred from Quantum Moonshot context)"
+        },
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "We are the only foreign quantum computing partner selected by Japan’s Science and Technology Agency to participate in the Quantum Moonshot program.",
+          "locator": "Item 1, International Research Institutions",
+          "supports": "country"
+        }
+      ]
+    },
+    {
+      "id": "site:planqc-garching",
+      "name": "planqc headquarters and labs, Garching",
+      "operator": "co:planqc",
+      "kind": "headquarters",
+      "location": {
+        "lat": 48.249,
+        "lon": 11.651,
+        "precision": "site",
+        "address": "Münchenerstr. 34, 85748 Garching b. München"
+      },
+      "country": "DE",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:planqc-contact",
+          "quote": "Garching Headquarters\n Münchenerstr. 34 \n85748 Garching b. München",
+          "locator": "Offices and labs",
+          "supports": "address"
+        },
+        {
+          "source": "src:planqc-hq-2024",
+          "quote": "Several quantum computers are currently in development at the new company headquarters.",
+          "locator": "body",
+          "supports": "kind (lab)"
+        }
+      ]
+    },
+    {
+      "id": "site:lrz-garching",
+      "name": "Leibniz Supercomputing Centre (LRZ), Quantum Integration Centre",
+      "operator": "co:lrz",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 48.262,
+        "lon": 11.668,
+        "precision": "site",
+        "address": "Leibniz Supercomputing Centre, Garching near Munich"
+      },
+      "country": "DE",
+      "status": "under_construction",
+      "evidence": [
+        {
+          "source": "src:planqc-maqcs-hw-2026",
+          "quote": "All components are now tested at LRZ’s Quantum Integration Centre (QIC) and connected to the centre’s infrastructure.",
+          "locator": "body",
+          "supports": "facility, status"
+        },
+        {
+          "source": "src:planqc-maqcs-2024",
+          "quote": "a 1,000-qubit quantum computer at the Leibniz Supercomputing Centre (LRZ) in Garching near Munich",
+          "locator": "paragraph 1",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:dlr-qci-ulm",
+      "name": "DLR QCI Innovation Center, Ulm",
+      "operator": "gov:de-dlr",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 48.4225,
+        "lon": 9.944,
+        "precision": "site",
+        "address": "Wilhelm-Runge-Straße 10, 89081 Ulm"
+      },
+      "country": "DE",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "commissioned to build and install a quantum processor using ultracold atoms in optical lattices at the DLR Innovation Center in Ulm (Germany)",
+          "locator": "body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:planqc-contact",
+          "quote": "DLR QCI Innovationszentrum Ulm \nWilhelm-Runge-Straße 10 \n89081 Ulm",
+          "locator": "Offices and labs",
+          "supports": "address"
         }
       ]
     }
@@ -1106,6 +2084,353 @@
           "quote": "QuEra Computing today announced Libra , its first fault-tolerant quantum computer, arriving on Amazon Braket in 2028",
           "locator": "paragraph 1",
           "supports": "existence, status (announced)"
+        }
+      ]
+    },
+    {
+      "id": "sys:pasqal-ruby",
+      "name": "Ruby (Orion Beta)",
+      "operator": "gov:fr-genci",
+      "modality": "neutral_atom",
+      "submodality": "analog",
+      "status": "online",
+      "site": "site:cea-tgcc",
+      "online_since": "2025-11-13",
+      "physical_qubits": {
+        "value": 100,
+        "as_of": "2025-11-13",
+        "note": "Source states \"more than 100 qubits\" / \"100+ qubit\"; lower bound.",
+        "evidence": [
+          {
+            "source": "src:pasqal-hpcqs-inauguration-2025",
+            "quote": "the integration of the two quantum processors, each capable of controlling more than 100 qubits",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "with its Orion Beta machine (“Ruby”) acquired by Genci in France",
+          "locator": "body",
+          "supports": "existence, name, operator"
+        },
+        {
+          "source": "src:pasqal-hpcqs-inauguration-2025",
+          "quote": "the inauguration of two Pasqal quantum processors — Jade and Ruby — respectively situated at Forschungszentrum Jülich (FZJ) and Commissariat à l’énergie atomique et aux énergies alternatives (CEA)",
+          "locator": "paragraph 1",
+          "supports": "status, site"
+        },
+        {
+          "source": "src:pasqal-genci-delivery-2024",
+          "quote": "The integration of the analog quantum computers with supercomputers will allow European and French researchers to work on hybrid use cases",
+          "locator": "body",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:pasqal-jade",
+      "name": "Jade",
+      "operator": "co:fzj",
+      "modality": "neutral_atom",
+      "status": "online",
+      "site": "site:fzj-jsc",
+      "online_since": "2025-11-13",
+      "physical_qubits": {
+        "value": 100,
+        "as_of": "2025-11-13",
+        "note": "Source states \"more than 100 qubits\"; lower bound.",
+        "evidence": [
+          {
+            "source": "src:pasqal-hpcqs-inauguration-2025",
+            "quote": "the integration of the two quantum processors, each capable of controlling more than 100 qubits",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-hpcqs-inauguration-2025",
+          "quote": "the inauguration of two Pasqal quantum processors — Jade and Ruby — respectively situated at Forschungszentrum Jülich (FZJ) and Commissariat à l’énergie atomique et aux énergies alternatives (CEA)",
+          "locator": "paragraph 1",
+          "supports": "existence, status, site"
+        }
+      ]
+    },
+    {
+      "id": "sys:pasqal-sol",
+      "name": "SOL",
+      "operator": "co:cineca",
+      "modality": "neutral_atom",
+      "status": "online",
+      "site": "site:cineca-bologna",
+      "online_since": "2026-06-11",
+      "physical_qubits": {
+        "value": 140,
+        "as_of": "2026-06-11",
+        "evidence": [
+          {
+            "source": "src:pasqal-cineca-sol-2026",
+            "quote": "Named SOL, it is a Pasqal Orion quantum processing unity (QPU) featuring 140 qubits.",
+            "locator": "paragraph 2",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "today announced the inauguration of Europe’s third Pasqal quantum computer hosted at CINECA",
+          "locator": "paragraph 1",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "It will be operated by CINECA and integrated into a hybrid architecture",
+          "locator": "body",
+          "supports": "operator"
+        }
+      ]
+    },
+    {
+      "id": "sys:pasqal-aramco-qpu",
+      "name": "Pasqal QPU at Aramco (Dhahran)",
+      "operator": "co:aramco",
+      "modality": "neutral_atom",
+      "status": "online",
+      "site": "site:aramco-dhahran-dc",
+      "online_since": "2026-05-18",
+      "physical_qubits": {
+        "value": 200,
+        "as_of": "2026-05-18",
+        "evidence": [
+          {
+            "source": "src:pasqal-aramco-2026",
+            "quote": "the Pasqal Quantum Processing Unit (QPU) is powered by neutral-atom technology and controls 200 programmable qubits",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-aramco-2025",
+          "quote": "Pasqal’s system installed at Aramco’s data center can control 200 qubits arranged in programmable two-dimensional arrays",
+          "locator": "body",
+          "supports": "existence, site"
+        },
+        {
+          "source": "src:pasqal-aramco-2026",
+          "quote": "Today’s inauguration formalizes its entry into active operation across a growing portfolio of industrial use cases",
+          "locator": "body",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:pasqal-orion-gamma",
+      "name": "Orion Gamma",
+      "operator": "co:pasqal",
+      "modality": "neutral_atom",
+      "status": "announced",
+      "announced": "2025-06-12",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "by the end of 2025, the company will deliver Orion Gamma, the third version of its Orion QPU platform, featuring over 140 physical qubits",
+          "locator": "Hardware products",
+          "supports": "existence (announced)"
+        }
+      ]
+    },
+    {
+      "id": "sys:infleqtion-sqale",
+      "name": "Sqale",
+      "operator": "co:infleqtion",
+      "modality": "neutral_atom",
+      "submodality": "digital_gate",
+      "status": "online",
+      "physical_qubits": {
+        "value": 1600,
+        "as_of": "2025-12",
+        "note": "Source: arrays of up to 1,600 trapped atoms supported as of December 2025; the 30-entangled-qubit result (Sept 2026) used 80 physical qubits.",
+        "evidence": [
+          {
+            "source": "src:infleqtion-10k-2025",
+            "quote": "As of December 2025, Sqale supported arrays of up to 1,600 trapped atoms, has demonstrated 12 logical qubits, and achieved a 99.73% two-qubit CZ gate fidelity.",
+            "locator": "Form 10-K FY2025, Item 1 Business, Computing",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "CZ gate fidelity (excluding atom-loss events)",
+          "value": 99.73,
+          "unit": "%",
+          "definition": "Two-qubit CZ fidelity of 99.73(3)% measured \"when excluding atom-loss events\" (PRX Quantum 6, 030334); the same paper reports 99.35(4)% CZ fidelity without that exclusion. The 10-K cites 99.73% without the qualifier.",
+          "as_of": "2025-08-25",
+          "evidence": [
+            {
+              "source": "src:prxq-6-030334",
+              "quote": "This technique also enables us to measure a state-of-the-art fidelity of 99.73(3)% when excluding atom-loss events",
+              "locator": "Crossref abstract (the word \"CZ\" is dropped from the deposited abstract markup)",
+              "supports": "metric, definition"
+            },
+            {
+              "source": "src:prxq-6-030334",
+              "quote": "We achieve fidelity of 99.35(4)% and local single-qubit R Z gate fidelity of 99.902(8)%",
+              "locator": "Crossref abstract",
+              "supports": "metric (without exclusion)"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "Our flagship quantum computing system, Sqale, is a neutral atom computer designed for integration with classical computing environments and accessible via the cloud.",
+          "locator": "Form 10-K FY2025, Item 1 Business, Computing",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "Quantum computing as a service provides customers with metered utilization of the Sqale quantum computing hardware over the cloud",
+          "locator": "Item 1",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:infleqtion-sqale-nqcc",
+      "name": "Sqale at the NQCC (SQALE testbed)",
+      "operator": "co:infleqtion",
+      "modality": "neutral_atom",
+      "status": "online",
+      "site": "site:nqcc-harwell",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "In the UK, we delivered our Sqale neutral atom quantum computer as part of the National Quantum Computing Centre testbed program.",
+          "locator": "Item 1, Quantum Research Infrastructure",
+          "supports": "existence, status, site"
+        },
+        {
+          "source": "src:nqcc-testbeds",
+          "quote": "SQALE: Scalable Quantum Atomic Lattice computing tEstbed",
+          "locator": "Quantum computing testbed projects",
+          "supports": "existence (NQCC)"
+        }
+      ]
+    },
+    {
+      "id": "sys:infleqtion-ims-japan",
+      "name": "Infleqtion 529-qubit processor at the Institute for Molecular Science",
+      "operator": "co:infleqtion",
+      "modality": "neutral_atom",
+      "status": "online",
+      "site": "site:ims-japan",
+      "physical_qubits": {
+        "value": 529,
+        "as_of": "2026-03-31",
+        "note": "Designed capacity as stated (\"designed to process 529 physical qubits\").",
+        "evidence": [
+          {
+            "source": "src:infleqtion-10k-2025",
+            "quote": "A quantum processor designed to process 529 physical qubits was delivered to the Institute for Molecular Sciences",
+            "locator": "Item 1, International Research Institutions",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "A quantum processor designed to process 529 physical qubits was delivered to the Institute for Molecular Sciences, further solidifying our global position in neutral atom computing.",
+          "locator": "Item 1",
+          "supports": "existence"
+        },
+        {
+          "source": "src:infleqtion-japan-operational",
+          "quote": "Japan’s Full-Stack Neutral-Atom Quantum Computer is Operational",
+          "locator": "page title (body not rendered in fetched HTML)",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:planqc-maqcs",
+      "name": "MAQCS (Multicore Atomic Quantum Computing System)",
+      "operator": "co:lrz",
+      "modality": "neutral_atom",
+      "submodality": "digital_gate",
+      "status": "announced",
+      "site": "site:lrz-garching",
+      "announced": "2024-11-13",
+      "physical_qubits": {
+        "value": 1000,
+        "as_of": "2026-09-09",
+        "note": "Planned qubit count (two cores, 1,000 qubits in total); system not yet live.",
+        "evidence": [
+          {
+            "source": "src:planqc-maqcs-2024",
+            "quote": "feature a multi-core architecture with two independent cores of 1,000 qubits in total",
+            "locator": "body",
+            "supports": "qubits (planned)"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:planqc-maqcs-hw-2026",
+          "quote": "The first hardware for MAQCS has arrived at the Leibniz Supercomputing Centre (LRZ), bringing planqc’s 1,000-qubit neutral-atom quantum computer one step closer to deployment.",
+          "locator": "paragraph 1",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:planqc-maqcs-page",
+          "quote": "build and deploy a fully-digital, 1,000-qubit neutral-atom quantum computer at the Leibniz Supercomputing Centre (LRZ)",
+          "locator": "MAQCS page",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:planqc-dlr-dinaqc",
+      "name": "DINAQC 100-qubit system for DLR",
+      "operator": "gov:de-dlr",
+      "modality": "neutral_atom",
+      "submodality": "digital_gate",
+      "status": "announced",
+      "site": "site:dlr-qci-ulm",
+      "physical_qubits": {
+        "value": 100,
+        "as_of": "2026-10-01",
+        "note": "Planned qubit count.",
+        "evidence": [
+          {
+            "source": "src:planqc-products",
+            "quote": "In the DINAQC project , we’re developing a 100 qubit system for the German Aerospace Center (DLR) as an on-premise solution.",
+            "locator": "On-premise",
+            "supports": "qubits (planned)"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:planqc-hq-2024",
+          "quote": "install a system with 100 qubits directly at the German Aerospace Center (DLR)",
+          "locator": "body",
+          "supports": "existence"
+        },
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "planqc has been selected by the German Aerospace Center (DLR) to develop a digital neutral-atom-based quantum computing hardware and software platform",
+          "locator": "paragraph 1",
+          "supports": "submodality"
         }
       ]
     }
@@ -1561,6 +2886,371 @@
           "supports": "claim"
         }
       ]
+    },
+    {
+      "id": "ms:pasqal-2088-site-cryogenic-array",
+      "orgs": [
+        "co:pasqal"
+      ],
+      "date": "2024-06-25",
+      "category": "qubit_count",
+      "claim": "Pasqal reports trapping single rubidium atoms in optical-tweezer arrays of up to 2088 sites at 6 K and atom-by-atom rearrangement of an 828-atom target array; Pasqal’s release states more than 1,110 atoms were trapped.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PhysRevApplied.22.024073",
+      "arxiv": "2405.19503",
+      "evidence": [
+        {
+          "source": "src:arxiv-2405.19503",
+          "quote": "We report on the trapping of single rubidium atoms in large arrays of optical tweezers comprising up to 2088 sites in a cryogenic environment at 6 K.",
+          "locator": "arXiv abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2405.19503",
+          "quote": "we demonstrate atom-by-atom rearrangement of an 828-atom target array using moving optical tweezers",
+          "locator": "arXiv abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2405.19503",
+          "quote": "Phys. Rev. Applied 22, 024073 (2024)",
+          "locator": "arXiv listing, Journal reference",
+          "supports": "peer review"
+        },
+        {
+          "source": "src:pr-applied-22-024073",
+          "quote": "Rearrangement of individual atoms in a 2000-site optical-tweezer array at cryogenic temperatures",
+          "locator": "Crossref metadata record, title (no abstract deposited); publisher page refused automated access (HTTP 403)",
+          "supports": "peer review"
+        },
+        {
+          "source": "src:pasqal-1000-atoms-2024",
+          "quote": "Pasqal has trapped more than 1,110 atoms within approximately 2,000 traps",
+          "locator": "body",
+          "supports": "company framing"
+        }
+      ]
+    },
+    {
+      "id": "ms:pasqal-first-qpu-delivery-genci",
+      "orgs": [
+        "co:pasqal",
+        "gov:fr-genci",
+        "gov:fr-cea"
+      ],
+      "systems": [
+        "sys:pasqal-ruby"
+      ],
+      "date": "2024-06-19",
+      "category": "system_launch",
+      "claim": "Pasqal delivered a 100+ qubit QPU acquired by GENCI to TGCC, the CEA computing centre, its first QPU delivered to a third party.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:pasqal-genci-delivery-2024",
+          "quote": "A pioneering 100+ qubit quantum processing unit (QPU), acquired by GENCI (Grand Équipement National de Calcul Intensif) , was delivered at TGCC , the CEA computing centre",
+          "locator": "paragraph 1",
+          "supports": "claim"
+        },
+        {
+          "source": "src:pasqal-genci-delivery-2024",
+          "quote": "As the first QPU to be delivered to a third party by Pasqal",
+          "locator": "paragraph 2",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:pasqal-hpcqs-inauguration",
+      "orgs": [
+        "co:pasqal",
+        "co:fzj",
+        "gov:fr-cea"
+      ],
+      "systems": [
+        "sys:pasqal-ruby",
+        "sys:pasqal-jade"
+      ],
+      "date": "2025-11-13",
+      "category": "system_launch",
+      "claim": "Pasqal QPUs Jade (Jülich Supercomputing Centre) and Ruby (TGCC), each stated to control more than 100 qubits, were inaugurated as part of the EuroHPC HPCQS project.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:pasqal-hpcqs-inauguration-2025",
+          "quote": "the inauguration of two Pasqal quantum processors — Jade and Ruby — respectively situated at Forschungszentrum Jülich (FZJ) and Commissariat à l’énergie atomique et aux énergies alternatives (CEA)",
+          "locator": "paragraph 1",
+          "supports": "claim"
+        },
+        {
+          "source": "src:pasqal-hpcqs-inauguration-2025",
+          "quote": "the integration of the two quantum processors, each capable of controlling more than 100 qubits",
+          "locator": "body",
+          "supports": "qubits"
+        }
+      ]
+    },
+    {
+      "id": "ms:pasqal-aramco-deployment",
+      "orgs": [
+        "co:pasqal",
+        "co:aramco"
+      ],
+      "systems": [
+        "sys:pasqal-aramco-qpu"
+      ],
+      "date": "2025-11-24",
+      "category": "system_launch",
+      "claim": "Aramco and Pasqal announced deployment of a Pasqal neutral-atom system controlling 200 qubits at Aramco’s data center in Dhahran; it was formally inaugurated on 18 May 2026.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:pasqal-aramco-2025",
+          "quote": "Pasqal’s system installed at Aramco’s data center can control 200 qubits arranged in programmable two-dimensional arrays",
+          "locator": "body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:pasqal-aramco-2026",
+          "quote": "today officially inaugurated the Kingdom of Saudi Arabia’s first quantum computer",
+          "locator": "paragraph 1",
+          "supports": "inauguration date"
+        }
+      ]
+    },
+    {
+      "id": "ms:pasqal-cineca-sol-inauguration",
+      "orgs": [
+        "co:pasqal",
+        "co:cineca"
+      ],
+      "systems": [
+        "sys:pasqal-sol"
+      ],
+      "date": "2026-06-11",
+      "category": "system_launch",
+      "claim": "Pasqal and CINECA inaugurated SOL, a 140-qubit Pasqal Orion QPU in Bologna integrated with the Leonardo supercomputer.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "Named SOL, it is a Pasqal Orion quantum processing unity (QPU) featuring 140 qubits.",
+          "locator": "paragraph 2",
+          "supports": "claim"
+        },
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "It has been engineered for tight integration with the Leonardo pre-exascale EuroHPC supercomputer",
+          "locator": "paragraph 2",
+          "supports": "claim"
+        },
+        {
+          "source": "src:pasqal-cineca-sol-2026",
+          "quote": "today announced the inauguration of Europe’s third Pasqal quantum computer hosted at CINECA",
+          "locator": "paragraph 1",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:pasqal-encoded-kernel-differential-equations",
+      "orgs": [
+        "co:pasqal"
+      ],
+      "date": "2026-05-20",
+      "category": "error_correction",
+      "claim": "Pasqal reports a quantum-kernel differential-equation solver run at both physical and encoded levels on an atom-based processor, with the encoded implementation performing better on the reported metrics; Pasqal states “logical qubits outperformed their physical counterparts by more than 50% on average”. The preprint abstract does not state the number of encoded qubits or the code.",
+      "peer_review": "preprint",
+      "arxiv": "2605.21276",
+      "evidence": [
+        {
+          "source": "src:arxiv-2605.21276",
+          "quote": "The algorithm is implemented on an atom-based logical quantum processor, both at the physical and logical levels. We show that the kernel estimated from the logical implementation performs better than its physical counterpart on relevant metrics.",
+          "locator": "arXiv abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:pasqal-logical-de-2026",
+          "quote": "Logical qubits outperformed their physical counterparts by more than 50% on average, and by a factor of 10 on a representative nonlinear problem.",
+          "locator": "body",
+          "supports": "company framing"
+        }
+      ]
+    },
+    {
+      "id": "ms:pasqal-1024-atom-register",
+      "orgs": [
+        "co:pasqal"
+      ],
+      "date": "2026-09-24",
+      "category": "qubit_count",
+      "claim": "Pasqal reports preparing defect-free registers of 1,024 atoms, doubling its previous result of 506 atoms (reported in its first-half 2026 results; no paper cited).",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:pasqal-h1-2026",
+          "quote": "Pasqal prepared defect-free registers of 1,024 atoms, doubling its previous result of 506 atoms, and extended atom lifetimes approximately 40-fold through a redesigned cryogenic platform.",
+          "locator": "Highlights",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:infleqtion-cz-99-73",
+      "orgs": [
+        "co:infleqtion"
+      ],
+      "systems": [
+        "sys:infleqtion-sqale"
+      ],
+      "date": "2025-08-25",
+      "category": "fidelity",
+      "claim": "Infleqtion reports a universal neutral-atom computer with individually addressed gates, with CZ fidelity of 99.35(4)% and 99.73(3)% when excluding atom-loss events.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/66s8-jj18",
+      "arxiv": "2408.08288",
+      "evidence": [
+        {
+          "source": "src:prxq-6-030334",
+          "quote": "We achieve fidelity of 99.35(4)% and local single-qubit R Z gate fidelity of 99.902(8)%",
+          "locator": "Crossref abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:prxq-6-030334",
+          "quote": "This technique also enables us to measure a state-of-the-art fidelity of 99.73(3)% when excluding atom-loss events",
+          "locator": "Crossref abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:arxiv-2408.08288",
+          "quote": "We achieve CZ fidelity of 99.35(4)% and local single-qubit RZ gate fidelity of 99.902(8)%.",
+          "locator": "arXiv abstract",
+          "supports": "gate name (CZ)"
+        }
+      ]
+    },
+    {
+      "id": "ms:infleqtion-nvidia-materials-encoded",
+      "orgs": [
+        "co:infleqtion"
+      ],
+      "systems": [
+        "sys:infleqtion-sqale"
+      ],
+      "date": "2024-12-10",
+      "category": "error_correction",
+      "claim": "Infleqtion, with NVIDIA, the University of Chicago and the University of Wisconsin, reports a materials-science calculation (Anderson Impurity Model ground state) on Sqale using error-detection-encoded qubits, which it calls a “materials science application powered by logical qubits”.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:infleqtion-matdesign-2024",
+          "quote": "today announced the world’s first demonstration of a materials science application powered by logical qubits",
+          "locator": "paragraph 1",
+          "supports": "claim"
+        },
+        {
+          "source": "src:infleqtion-qc-page",
+          "quote": "In a joint demonstration with NVIDIA, Infleqtion calculated the ground state of an Anderson Impurity Model system with logically encoded qubits – first in the world to apply quantum error detection to materials science.",
+          "locator": "roadmap timeline, December 2024",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:infleqtion-12-encoded-qubits-2025",
+      "orgs": [
+        "co:infleqtion"
+      ],
+      "systems": [
+        "sys:infleqtion-sqale"
+      ],
+      "date": "2025-12-31",
+      "category": "error_correction",
+      "claim": "Infleqtion states in its 10-K that, as of December 31, 2025, it had “achieved 12 logical qubits” on Sqale; the filing does not state the code used.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "As of December 31, 2025, the Company has achieved 12 logical qubits.",
+          "locator": "Form 10-K FY2025, Item 1 Business",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:infleqtion-30-entangled-encoded",
+      "orgs": [
+        "co:infleqtion"
+      ],
+      "systems": [
+        "sys:infleqtion-sqale"
+      ],
+      "date": "2026-09-24",
+      "category": "error_correction",
+      "claim": "Infleqtion states it entangled 30 encoded qubits using 80 physical qubits on Sqale in a single state, describing them as “30 entangled logical qubits”; the release does not state the code and no paper is cited.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:infleqtion-30lq-2026",
+          "quote": "today announced it has achieved 30 entangled logical qubits using just 80 physical qubits on its Sqale™ quantum computing platform, delivering a key milestone on its 2026 roadmap",
+          "locator": "paragraph 1",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:planqc-maqcs-first-hardware-lrz",
+      "orgs": [
+        "co:planqc",
+        "co:lrz"
+      ],
+      "systems": [
+        "sys:planqc-maqcs"
+      ],
+      "date": "2026-09-09",
+      "category": "other",
+      "claim": "planqc states the first MAQCS hardware (around 800 kg including a server cabinet, laser hardware and a computing rack) arrived at LRZ, and that it has reached a 1,000-qubit demonstrator at Technology Readiness Level 5.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:planqc-maqcs-hw-2026",
+          "quote": "The first shipment to LRZ comprised around 800 kilograms of equipment, including a custom-built server cabinet, laser hardware, and a computing rack.",
+          "locator": "body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:planqc-maqcs-hw-2026",
+          "quote": "planqc has reached every technical milestone of the MAQCS project on schedule so far, including a 1,000-qubit demonstrator at Technology Readiness Level (TRL) 5.",
+          "locator": "body",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:caltech-6100-atom-tweezer-array",
+      "orgs": [
+        "co:caltech"
+      ],
+      "date": "2025-09-24",
+      "category": "qubit_count",
+      "claim": "Caltech researchers report an optical-tweezer array trapping more than 6,100 neutral atoms in around 12,000 sites, with a hyperfine-qubit coherence time of 12.6(1) s.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-09641-4",
+      "evidence": [
+        {
+          "source": "src:nature-6100-2025",
+          "quote": "Here we experimentally realize an array of optical tweezers trapping more than 6,100 neutral atoms in around 12,000 sites",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-6100-2025",
+          "quote": "we demonstrate a coherence time of 12.6(1) s, a record for hyperfine qubits in an optical tweezer array",
+          "locator": "Abstract",
+          "supports": "metric"
+        }
+      ]
     }
   ],
   "targets": [
@@ -1744,6 +3434,280 @@
           "supports": "target"
         }
       ]
+    },
+    {
+      "id": "tgt:pasqal-hpcqs-install-h2-2023",
+      "org": "co:pasqal",
+      "target_date": "2023-12",
+      "statement": "Pasqal targets installation of two Fresnel quantum simulators at CEA/TGCC and FZJ/JSC during the second half of 2023 (HPCQS).",
+      "stated_on": "2022-05-30",
+      "status": "missed",
+      "evidence": [
+        {
+          "source": "src:pasqal-hpcqs-selection-2022",
+          "quote": "The two Fresnel quantum simulators will be installed during the second half of 2023 at CEA/TGCC and FZJ/JSC.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:pasqal-genci-delivery-2024",
+          "quote": "Paris, June 19, 2024 – A pioneering 100+ qubit quantum processing unit (QPU), acquired by GENCI",
+          "locator": "paragraph 1",
+          "supports": "later delivery date (first QPU delivered June 2024)"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-10000-qubits-2026",
+      "org": "co:pasqal",
+      "target_date": "2026",
+      "statement": "Pasqal targets 10,000 qubits in 2026 with what it calls a “scalable logical qubits architecture”.",
+      "stated_on": "2024-03-12",
+      "status": "revised",
+      "superseded_by": "tgt:pasqal-10000-qubits-2026-2027",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024",
+          "quote": "Pasqal’s roadmap points to 10,000 qubits in 2026 with scalable logical qubits architecture.",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-10000-qubits-2026-2027",
+      "org": "co:pasqal",
+      "target_date": "2027",
+      "statement": "Pasqal targets progressing towards 10,000 qubits by the 2026-2027 horizon.",
+      "stated_on": "2024-06-25",
+      "status": "revised",
+      "superseded_by": "tgt:pasqal-10000-qubits-2028",
+      "evidence": [
+        {
+          "source": "src:pasqal-1000-atoms-2024",
+          "quote": "This milestone aligns with Pasqal’s strategic roadmap, which emphasizes the development of quantum computers with over 1,000 qubits, progressing towards 10,000 qubits by the 2026-2027 horizon.",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-10000-qubits-2028",
+      "org": "co:pasqal",
+      "target_date": "2028",
+      "statement": "Pasqal targets reaching 1,000 physical qubits by the end of 2025 and moving towards 10,000 qubits by 2028.",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+          "locator": "Hardware technology roadmap",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-logical-20-by-2027",
+      "org": "co:pasqal",
+      "target_date": "2027",
+      "statement": "Pasqal targets 2 “logical qubits” in 2025, 20 by 2027 and 100 high-fidelity “logical qubits” by 2029.",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "Technology roadmap",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-200-logical-2030",
+      "org": "co:pasqal",
+      "target_date": "2030",
+      "statement": "Pasqal targets 200 “logical qubits” in 2030.",
+      "stated_on": "2025-06-12",
+      "status": "revised",
+      "superseded_by": "tgt:pasqal-200-logical-2029",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "Technology roadmap",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-200-logical-2029",
+      "org": "co:pasqal",
+      "target_date": "2029",
+      "statement": "Pasqal targets reaching 200+ “logical qubits” by 2029.",
+      "stated_on": "2026-10-01",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-page",
+          "quote": "the goal of reaching 200+ logical qubits by 2029",
+          "locator": "roadmap page (undated; stated_on = access date)",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-advantage-demo-2026",
+      "org": "co:pasqal",
+      "target_date": "2026-06",
+      "statement": "Pasqal targets demonstrating, in the first part of 2026, a 250-qubit QPU optimized for what it calls “quantum advantage” on an industry-relevant problem.",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "Pasqal is developing a 250-qubit QPU specifically optimized for achieving quantum advantage (where quantum outperforms classical computers in real-world tasks) on an industry-relevant problem, targeted for demonstration in the first part of 2026.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:pasqal-roadmap-page",
+          "quote": "culminating in a targeted demonstration of Quantum Advantage by the end of Q1 2026",
+          "locator": "roadmap page (undated)",
+          "supports": "target restated"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-orion-gamma-2025",
+      "org": "co:pasqal",
+      "system": "sys:pasqal-orion-gamma",
+      "system_name": "Orion Gamma",
+      "target_date": "2025-12",
+      "statement": "Pasqal targets delivering Orion Gamma, with over 140 physical qubits, by the end of 2025.",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "by the end of 2025, the company will deliver Orion Gamma, the third version of its Orion QPU platform, featuring over 140 physical qubits",
+          "locator": "Hardware products",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-vela-centaurus-lyra",
+      "org": "co:pasqal",
+      "system_name": "Vela / Centaurus / Lyra",
+      "target_date": "2029",
+      "statement": "Pasqal targets Vela in 2027 (200+ physical qubits), Centaurus in 2028 (“apt for early FTQC”) and Lyra in 2029.",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025",
+          "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+          "locator": "Hardware products",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:infleqtion-30-logical-2026",
+      "org": "co:infleqtion",
+      "system": "sys:infleqtion-sqale",
+      "target_date": "2026",
+      "statement": "Infleqtion targets reaching 30 “logical qubits” in 2026.",
+      "stated_on": "2026-03-31",
+      "status": "met",
+      "met_by": "ms:infleqtion-30-entangled-encoded",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "We have demonstrated 12 logical qubits and are aiming to reach 30 logical qubits in 2026.",
+          "locator": "Form 10-K FY2025, Item 1 Business",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:infleqtion-100-logical-2028",
+      "org": "co:infleqtion",
+      "target_date": "2028",
+      "statement": "Infleqtion targets 100 “logical qubits” by 2028 and demonstrating MegaQuOp scale (one million sequential logical operations) in 2028.",
+      "stated_on": "2026-03-31",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:infleqtion-10k-2025",
+          "quote": "Our quantum computing roadmap targets achieving 100 logical qubits by 2028. We also target demonstrating MegaQuOp scale in 2028, measuring one million sequential logical operations in a system.",
+          "locator": "Form 10-K FY2025, Item 1 Business, Computing",
+          "supports": "target"
+        },
+        {
+          "source": "src:infleqtion-matdesign-2024",
+          "quote": "Looking ahead, Infleqtion is committed to delivering systems with more than 100 logical qubits by 2028",
+          "locator": "closing paragraph",
+          "supports": "earlier statement of the same target (Dec 2024)"
+        }
+      ]
+    },
+    {
+      "id": "tgt:infleqtion-1000-logical-2030",
+      "org": "co:infleqtion",
+      "target_date": "2030",
+      "statement": "Infleqtion targets 1,000 “logical qubits” by 2030.",
+      "stated_on": "2026-09-24",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:infleqtion-30lq-2026",
+          "quote": "Infleqtion remains firmly on track to deliver 100 logical qubits in 2028 and 1,000 by 2030",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:planqc-maqcs-2027",
+      "org": "co:planqc",
+      "system": "sys:planqc-maqcs",
+      "system_name": "MAQCS",
+      "target_date": "2027-12",
+      "statement": "planqc targets the 1,000-qubit MAQCS system going live in 2027 and operating as a quantum co-processor within LRZ’s HPC infrastructure by the end of 2027.",
+      "stated_on": "2026-09-09",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:planqc-maqcs-hw-2026",
+          "quote": "By the end of 2027, the system is planned to operate as a quantum co-processor within LRZ’s high-performance computing infrastructure.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:planqc-maqcs-hw-2026",
+          "quote": "With the project progressing on schedule, the system is set to go live next year.",
+          "locator": "paragraph 1",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:planqc-qcc-entry-2027",
+      "org": "co:planqc",
+      "target_date": "2027-03-31",
+      "statement": "planqc’s LOGIQC consortium targets demonstrating a functioning system meeting the German Quantum Computing Competition entry criteria by March 31, 2027.",
+      "stated_on": "2026-09-22",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:planqc-logiqc-2026",
+          "quote": "with at least one partner in each consortium required to demonstrate a functioning system meeting defined entry criteria by March 31, 2027",
+          "locator": "body",
+          "supports": "target"
+        }
+      ]
     }
   ],
   "access": [],
@@ -1793,6 +3757,66 @@
       "topic": "QuEra Gemini metrics methodology",
       "why": "Gemini page lists fidelities without method/date; no Gemini system paper with definitions found.",
       "would_need": "QuEra technical datasheet or paper."
+    },
+    {
+      "topic": "Pasqal SEC filings (20-F filed 2026-09-02, F-4/A, F-1)",
+      "why": "www.sec.gov/Archives refused the declared User-Agent (HTTP 403) and investors.pasqal.com refused the connection; no SEC-filed text could be quoted. Ticker/CIK taken from data.sec.gov submissions JSON (CIK 0002119292, \"Pasqal Holding SA\").",
+      "would_need": "Reachable copy of the 20-F (risk factors, installed base, roadmap)."
+    },
+    {
+      "topic": "Pasqal quantum-advantage demonstration (targeted first part / Q1 2026)",
+      "why": "No Pasqal document found reporting a completed demonstration against the stated target; H1 2026 results quote the CEO on \"the ability to deliver quantum advantage on meaningful applications today\" without citing a specific demonstration. Target left \"open\".",
+      "would_need": "Pasqal release or paper reporting the demonstration."
+    },
+    {
+      "topic": "Orion Gamma delivery and Pasqal 1,000-physical-qubit target (end-2025)",
+      "why": "SOL (June 2026) is described as an Orion QPU with 140 qubits but not named Orion Gamma; the 1,024-atom register was reported in Sept 2026 without a date of achievement.",
+      "would_need": "Pasqal statement naming Orion Gamma deliveries / date of the 1,024-atom result, or a paper."
+    },
+    {
+      "topic": "Pasqal current roadmap document date",
+      "why": "The roadmap web page and the 2026 roadmap PDF (uploaded 2026-04) are undated; the PDF is a table whose column alignment could not be quoted unambiguously, so only web-page sentences were used.",
+      "would_need": "Dated roadmap release for 2026."
+    },
+    {
+      "topic": "Pasqal fleet: other deployed QPUs",
+      "why": "Pasqal states \"seven QPUs deployed today and three more in production\" (2026-08-27) but no document lists all seven with locations; only Ruby, Jade, SOL, the Aramco QPU and the Massy in-house device are recorded.",
+      "would_need": "Pasqal 20-F or fleet listing."
+    },
+    {
+      "topic": "Infleqtion 12 and 30 encoded-qubit results: code and paper",
+      "why": "The 10-K and the Sept 2026 release state logical-qubit counts but not the error-detecting/correcting code; the CTO blog write-up referenced in the release was not located. No logical_qubits figure recorded.",
+      "would_need": "Infleqtion technical write-up or arXiv preprint stating the code."
+    },
+    {
+      "topic": "Infleqtion Japan (IMS) system location and status details",
+      "why": "The \"Japan’s Full-Stack Neutral-Atom Quantum Computer is Operational\" page body did not render in the fetched HTML (only the title); the 10-K does not give the city of the Institute for Molecular Science.",
+      "would_need": "IMS or Infleqtion release naming the site and operational date."
+    },
+    {
+      "topic": "Infleqtion NQCC Sqale qubit count",
+      "why": "10-K says the NQCC system is \"currently the largest quantum computer in the UK\" without a qubit count in the fetched text.",
+      "would_need": "NQCC or Infleqtion document with the qubit count."
+    },
+    {
+      "topic": "planqc DLR (DINAQC) system delivery date and status",
+      "why": "planqc documents describe the 100-qubit DLR system as in development; no delivery date or operational status found.",
+      "would_need": "planqc or DLR release on delivery/commissioning."
+    },
+    {
+      "topic": "planqc DLR contract release date",
+      "why": "The page metadata dates the DLR-contract release 2022-05-04 while planqc’s About page lists the €29M DLR contract under 2023; document_date recorded as \"2023\".",
+      "would_need": "DLR press release on the award."
+    },
+    {
+      "topic": "planqc published qubit/fidelity results",
+      "why": "No peer-reviewed paper or preprint from planqc hardware located in this pass; the 1,000-qubit TRL-5 demonstrator is a company statement only.",
+      "would_need": "planqc preprint/paper."
+    },
+    {
+      "topic": "planqc cloud system at Garching",
+      "why": "planqc states another quantum computer will remain at its headquarters for cloud access; no name, qubit count or date found.",
+      "would_need": "planqc product/availability announcement."
     }
   ]
 }

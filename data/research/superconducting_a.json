@@ -1,0 +1,2371 @@
+{
+  "topic": "superconducting_a",
+  "analyst": "Claude Opus 5.5 (analyst agent)",
+  "generated_at": "2026-10-01T00:00:00Z",
+  "sources": [
+    {
+      "id": "src:ibm-pr-2025-06-10-starling",
+      "title": "IBM Sets the Course to Build World's First Large-Scale, Fault-Tolerant Quantum Computer at New IBM Quantum Data Center",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2025-06-10-IBM-Sets-the-Course-to-Build-Worlds-First-Large-Scale,-Fault-Tolerant-Quantum-Computer-at-New-IBM-Quantum-Data-Center",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-10",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-pr-2025-11-12-nighthawk-loon",
+      "title": "IBM Delivers New Quantum Processors, Software, and Algorithm Breakthroughs on Path to Advantage and Fault Tolerance",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2025-11-12-ibm-delivers-new-quantum-processors,-software,-and-algorithm-breakthroughs-on-path-to-advantage-and-fault-tolerance",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-12",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-roadmap-page",
+      "title": "Quantum Roadmap — IBM Technology Atlas",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/roadmaps/quantum/",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-blog-2022-05-10-roadmap",
+      "title": "Expanding the IBM Quantum roadmap to anticipate the future of quantum-centric supercomputing",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2022-05-10",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-pr-2023-12-04-heron-system-two",
+      "title": "IBM Debuts Next-Generation Quantum Processor & IBM Quantum System Two, Extends Roadmap to Advance Era of Quantum Utility",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2023-12-04-IBM-Debuts-Next-Generation-Quantum-Processor-IBM-Quantum-System-Two,-Extends-Roadmap-to-Advance-Era-of-Quantum-Utility",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-12-04",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-pr-2025-06-23-riken",
+      "title": "IBM and RIKEN Unveil First IBM Quantum System Two Outside of the U.S.",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2025-06-23-ibm-and-riken-unveil-first-ibm-quantum-system-two-outside-of-the-u-s",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-23",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-pr-2025-10-14-basque",
+      "title": "The Basque Government and IBM Inaugurate Europe's first IBM Quantum System Two in Donostia-San Sebastián",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2025-10-14-the-basque-government-and-ibm-inaugurate-europes-first-ibm-quantum-system-two-in-donostia-san-sebastian",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-14",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-pr-2024-10-01-ehningen",
+      "title": "First IBM Quantum Data Center in Europe Opens; Will Include IBM's Most Performant Quantum Systems",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2024-10-01-first-ibm-quantum-data-center-in-europe-opens-will-include-ibms-most-performant-quantum-systems",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-pr-2026-06-02-10b",
+      "title": "IBM Commits More Than $10 Billion to Quantum Computing, Funding Its Roadmap from Today's Leading Systems to the World's First Fault-Tolerant Quantum Computers",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-02",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-pr-2026-07-30-uchicago",
+      "title": "IBM and The University of Chicago Demonstrate Quantum Advantage, Establishing Trusted Quantum Computation on Logical Circuits",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2026-07-30-ibm-and-the-university-of-chicago-demonstrate-quantum-advantage,-establishing-trusted-quantum-computation-on-logical-circuits",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2607.25941",
+      "title": "Sampling hard circuits with verifiably high fidelity (v3)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2607.25941",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2026-07-28",
+      "accessed": "2026-10-01",
+      "arxiv": "2607.25941"
+    },
+    {
+      "id": "src:nature-kim-2023-utility",
+      "title": "Evidence for the utility of quantum computing before fault tolerance",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-023-06096-3",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2023-06-14",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-023-06096-3"
+    },
+    {
+      "id": "src:nature-bravyi-2024-bb",
+      "title": "High-threshold and low-overhead fault-tolerant quantum memory",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-024-07107-7",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-03-27",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-024-07107-7"
+    },
+    {
+      "id": "src:nature-arute-2019-sycamore",
+      "title": "Quantum supremacy using a programmable superconducting processor",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-019-1666-5",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2019-10-23",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-019-1666-5"
+    },
+    {
+      "id": "src:nature-gqai-2023-surface-code",
+      "title": "Suppressing quantum errors by scaling a surface code logical qubit",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-022-05434-1",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2023-02-22",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-022-05434-1"
+    },
+    {
+      "id": "src:nature-gqai-2024-below-threshold",
+      "title": "Quantum error correction below the surface code threshold",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-024-08449-y",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-12-09",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-024-08449-y"
+    },
+    {
+      "id": "src:nature-gqai-2025-otoc",
+      "title": "Observation of constructive interference at the edge of quantum ergodicity",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-09526-6",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-10-22",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-09526-6"
+    },
+    {
+      "id": "src:google-blog-2024-12-09-willow",
+      "title": "Meet Willow, our state-of-the-art quantum chip",
+      "publisher": "Google",
+      "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-12-09",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:google-willow-spec-sheet",
+      "title": "Willow Spec Sheet",
+      "publisher": "Google Quantum AI",
+      "url": "https://quantumai.google/static/site-assets/downloads/willow-spec-sheet.pdf",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2024-12-09",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:google-blog-2025-10-22-echoes",
+      "title": "Our Quantum Echoes algorithm is a big step toward real-world applications for quantum computing",
+      "publisher": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-10-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:google-quantum-ai-about-pdf",
+      "title": "Our focused and responsible approach to quantum computing (Google Quantum AI overview)",
+      "publisher": "Google",
+      "url": "https://services.google.com/fh/files/misc/google_quantum_ai_about.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2023",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:google-locations",
+      "title": "Google office locations",
+      "publisher": "Google",
+      "url": "https://about.google/intl/en/locations/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:rigetti-pr-2024-12-23-ankaa3",
+      "title": "Rigetti Computing Launches 84-Qubit Ankaa™-3 System; Achieves 99.5% Median Two-Qubit Gate Fidelity Milestone",
+      "publisher": "Rigetti Computing",
+      "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-launches-84-qubit-ankaatm-3-system-achieves",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-12-23",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260407084315/https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-launches-84-qubit-ankaatm-3-system-achieves"
+    },
+    {
+      "id": "src:rigetti-pr-2025-03-05-q4-2024",
+      "title": "Rigetti Computing Reports Fourth Quarter and Full-Year 2024 Results",
+      "publisher": "Rigetti Computing",
+      "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-fourth-quarter-and-full-year-2024",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-03-05",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260713034653/https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-fourth-quarter-and-full-year-2024"
+    },
+    {
+      "id": "src:rigetti-pr-2025-08-12-q2-2025",
+      "title": "Rigetti Computing Reports Second Quarter 2025 Financial Results; Announces General Availability of its 36-Qubit Multi-Chip Quantum Computer",
+      "publisher": "Rigetti Computing",
+      "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-second-quarter-2025-financial-results",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-12",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260407073942/https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-second-quarter-2025-financial-results"
+    },
+    {
+      "id": "src:rigetti-pr-2025-11-10-q3-2025",
+      "title": "Rigetti Computing Reports Third Quarter 2025 Financial Results; Provides Technology Roadmap Updates for 2026 and 2027",
+      "publisher": "Rigetti Computing",
+      "url": "https://www.globenewswire.com/news-release/2025/11/10/3185067/0/en/Rigetti-Computing-Reports-Third-Quarter-2025-Financial-Results-Provides-Technology-Roadmap-Updates-for-2026-and-2027.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-10",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260926134205/https://www.globenewswire.com/news-release/2025/11/10/3185067/0/en/rigetti-computing-reports-third-quarter-2025-financial-results-provides-technology-roadmap-updates-for-2026-and-2027.html"
+    },
+    {
+      "id": "src:rigetti-pr-2026-01-09-108q-update",
+      "title": "Rigetti Computing Provides Update on 108-Qubit System",
+      "publisher": "Rigetti Computing",
+      "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-provides-update-108-qubit-system",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-09",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260923234053/https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-provides-update-108-qubit-system"
+    },
+    {
+      "id": "src:rigetti-pr-2026-03-04-q4-2025",
+      "title": "Rigetti Computing Reports Fourth Quarter and Full-Year 2025 Financial Results",
+      "publisher": "Rigetti Computing",
+      "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-fourth-quarter-and-full-year-2025",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-03-04",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260407073236/https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-fourth-quarter-and-full-year-2025"
+    },
+    {
+      "id": "src:rigetti-pr-2026-04-07-108q-ga",
+      "title": "Rigetti Announces General Availability of 108-Qubit System",
+      "publisher": "Rigetti Computing",
+      "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-announces-general-availability-108-qubit-system",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-04-07",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260928092045/https://investors.rigetti.com/news-releases/news-release-details/rigetti-announces-general-availability-108-qubit-system"
+    },
+    {
+      "id": "src:rigetti-pr-2026-08-06-q2-2026",
+      "title": "Rigetti Computing Reports Second Quarter 2026 Financial Results",
+      "publisher": "Rigetti Computing",
+      "url": "https://www.globenewswire.com/news-release/2026/08/06/3340741/0/en/rigetti-computing-reports-second-quarter-2026-financial-results.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-06",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260822022841/https://www.globenewswire.com/news-release/2026/08/06/3340741/0/en/rigetti-computing-reports-second-quarter-2026-financial-results.html"
+    },
+    {
+      "id": "src:nature-putterman-2025-ocelot",
+      "title": "Hardware-efficient quantum error correction via concatenated bosonic qubits",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-08642-7",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-02-26",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-08642-7"
+    },
+    {
+      "id": "src:amazon-news-2025-02-27-ocelot",
+      "title": "Amazon's new Ocelot chip brings us closer to building a practical quantum computer",
+      "publisher": "Amazon",
+      "url": "https://www.aboutamazon.com/news/aws/quantum-computing-aws-ocelot-chip",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-02-27",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:amazon-science-2025-02-27-ocelot",
+      "title": "Amazon announces Ocelot quantum chip",
+      "publisher": "Amazon Science",
+      "url": "https://www.amazon.science/blog/amazon-announces-ocelot-quantum-chip",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-02-27",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aws-blog-2021-10-26-cqc",
+      "title": "Announcing the opening of the AWS Center for Quantum Computing",
+      "publisher": "Amazon Web Services",
+      "url": "https://aws.amazon.com/blogs/quantum-computing/announcing-the-opening-of-the-aws-center-for-quantum-computing/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2021-10-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:amazon-hq-seattle-tour",
+      "title": "25 exclusive photos from inside Amazon's headquarters in Seattle",
+      "publisher": "Amazon",
+      "url": "https://www.aboutamazon.com/news/amazon-offices/amazon-headquarters-seattle-photo-tour",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:alicebob-pr-2024-12-04-roadmap",
+      "title": "Alice & Bob Publishes Quantum Computing Roadmap to 100 Logical Qubits in 2030",
+      "publisher": "Alice & Bob",
+      "url": "https://alice-bob.com/newsroom/alice-bob-quantum-computing-roadmap/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-12-04",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20250901233734/https://alice-bob.com/newsroom/alice-bob-quantum-computing-roadmap/"
+    },
+    {
+      "id": "src:alicebob-pr-2025-09-25-bitflip",
+      "title": "Alice & Bob Shares Preliminary Results Vastly Surpassing Previous Bit-Flip Time Record",
+      "publisher": "Alice & Bob",
+      "url": "https://alice-bob.com/newsroom/alice-bob-surpasses-bit-flip-stability-record/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-25",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260926152131/https://alice-bob.com/newsroom/alice-bob-surpasses-bit-flip-stability-record/"
+    },
+    {
+      "id": "src:alicebob-pr-2025-05-14-lab",
+      "title": "Alice & Bob to Build $50 Million Advanced Quantum Lab in Paris",
+      "publisher": "Alice & Bob",
+      "url": "https://alice-bob.com/newsroom/alice-bob-product-development-lab/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-05-14",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20250603134726/https://alice-bob.com/newsroom/alice-bob-product-development-lab/"
+    },
+    {
+      "id": "src:alicebob-pr-2023-12-19-helium1",
+      "title": "Alice & Bob Announces Tape Out of New 'Helium 1' 16-Qubit Quantum Processing Unit",
+      "publisher": "Alice & Bob",
+      "url": "https://alice-bob.com/newsroom/alice-bob-new-helium-1-quantum-processor/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-12-19",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20251203173200/https://alice-bob.com/newsroom/alice-bob-new-helium-1-quantum-processor/"
+    },
+    {
+      "id": "src:alicebob-boson4-page",
+      "title": "Boson 4 - Alice & Bob",
+      "publisher": "Alice & Bob",
+      "url": "https://alice-bob.com/products/quantum-cloud-felis/boson-4/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024-07-29",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20240729075815/https://alice-bob.com/products/quantum-cloud-felis/boson-4/"
+    },
+    {
+      "id": "src:alicebob-pr-2024-03-13-proqcima",
+      "title": "French Government Taps Alice & Bob to Deliver Scalable Fault-Tolerant Systems with €500M in Funding",
+      "publisher": "Alice & Bob",
+      "url": "https://alice-bob.com/newsroom/alice-bob-funded-to-build-fault-tolerant-qunatum-computer-proqcima/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-03-13",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260825114510/https://alice-bob.com/newsroom/alice-bob-funded-to-build-fault-tolerant-qunatum-computer-proqcima/"
+    },
+    {
+      "id": "src:nature-reglade-2024-cat",
+      "title": "Quantum control of a cat qubit with bit-flip times exceeding ten seconds",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-024-07294-3",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-05-06",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-024-07294-3"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:ibm",
+      "name": "IBM",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 41.1265,
+        "lon": -73.714,
+        "precision": "city",
+        "address": "Armonk, New York"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "tickers": [
+        "NYSE:IBM"
+      ],
+      "sec_cik": "0000051143",
+      "website": "https://www.ibm.com/quantum",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2026-06-02-10b",
+          "quote": "ARMONK, N.Y., June 2, 2026 — IBM (NYSE: IBM ) has announced plans to invest more than $10 billion in quantum computing over the next five years.",
+          "locator": "dateline, first paragraph",
+          "supports": "existence, hq, ticker"
+        },
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "Together with Loon, this demonstrates the cornerstones needed to scale qLDPC codes on high-speed, high-fidelity superconducting qubits which form the core of IBM quantum computers.",
+          "locator": "section 'IBM Delivers Building Blocks Towards Fault-Tolerant Quantum Computing'",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:riken",
+      "name": "RIKEN",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "JP",
+      "hq": {
+        "lat": 36.2048,
+        "lon": 138.2529,
+        "precision": "country"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "IBM (NYSE: IBM ) and RIKEN, a national research laboratory in Japan , today unveiled the first IBM Quantum System Two ever to be deployed outside of the United States",
+          "locator": "first paragraph",
+          "supports": "existence, country"
+        }
+      ]
+    },
+    {
+      "id": "co:google",
+      "name": "Google (Google Quantum AI)",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "city",
+        "address": "Mountain View, CA"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://quantumai.google",
+      "evidence": [
+        {
+          "source": "src:google-locations",
+          "quote": "Google Mountain View - Googleplex 1600 Amphitheatre Pkwy, Mountain View, CA 94043",
+          "locator": "Locations list, Mountain View",
+          "supports": "existence, hq (city)"
+        },
+        {
+          "source": "src:google-quantum-ai-about-pdf",
+          "quote": "Google has been working on quantum computing since 2014.",
+          "locator": "section 'Our progress towards building a quantum computer'",
+          "supports": "existence (quantum programme)"
+        },
+        {
+          "source": "src:nature-gqai-2024-below-threshold",
+          "quote": "Here we present two below-threshold surface code memories on our newest generation of superconducting processors, Willow",
+          "locator": "Abstract",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:rigetti",
+      "name": "Rigetti Computing",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.8716,
+        "lon": -122.2727,
+        "precision": "city",
+        "address": "Berkeley, CA"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "tickers": [
+        "NASDAQ:RGTI"
+      ],
+      "sec_cik": "0001838359",
+      "website": "https://www.rigetti.com",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2026-08-06-q2-2026",
+          "quote": "Rigetti Computing, Inc. Berkeley, CA BERKELEY, Calif., Aug. 06, 2026 (GLOBE NEWSWIRE) -- Rigetti Computing, Inc. (Nasdaq: RGTI)",
+          "locator": "release header and dateline",
+          "supports": "existence, hq (city), ticker"
+        },
+        {
+          "source": "src:rigetti-pr-2026-04-07-108q-ga",
+          "quote": "Rigetti quantum computers are based on superconducting qubits",
+          "locator": "About Rigetti",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:aws",
+      "name": "Amazon Web Services (AWS)",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "precision": "city",
+        "address": "Seattle, WA (Amazon headquarters)"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://aws.amazon.com/quantum-technologies/",
+      "evidence": [
+        {
+          "source": "src:amazon-hq-seattle-tour",
+          "quote": "25 exclusive photos from inside Amazon’s headquarters in Seattle",
+          "locator": "page title",
+          "supports": "hq (city) of parent Amazon"
+        },
+        {
+          "source": "src:amazon-news-2025-02-27-ocelot",
+          "quote": "Today, Amazon Web Services (AWS) announced Ocelot, a new quantum computing chip that can reduce the costs of implementing quantum error correction by up to 90%, compared to current approaches.",
+          "locator": "first paragraph",
+          "supports": "existence"
+        },
+        {
+          "source": "src:amazon-science-2025-02-27-ocelot",
+          "quote": "Based on superconducting quantum circuits, Ocelot achieves the following major technical advances",
+          "locator": "introduction",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:alice-bob",
+      "name": "Alice & Bob",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "precision": "city",
+        "address": "Paris, France"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://alice-bob.com",
+      "evidence": [
+        {
+          "source": "src:alicebob-pr-2025-09-25-bitflip",
+          "quote": "Alice & Bob is a quantum computing company based in Paris and Boston whose goal is to create the first universal, fault-tolerant quantum computer.",
+          "locator": "About Alice & Bob",
+          "supports": "existence, hq (city)"
+        },
+        {
+          "source": "src:alicebob-pr-2024-12-04-roadmap",
+          "quote": "These superconducting chips feature an active stabilization mechanism that effectively shields the qubits from some external errors.",
+          "locator": "body",
+          "supports": "modality"
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "site:ibm-yorktown-heights",
+      "name": "IBM Quantum System Two, Yorktown Heights",
+      "operator": "co:ibm",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 41.2709,
+        "lon": -73.7776,
+        "precision": "city",
+        "address": "Yorktown Heights, New York"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2023-12-04-heron-system-two",
+          "quote": "The first IBM Quantum System Two, located in Yorktown Heights, New York , has begun operations with three IBM Heron processors and supporting control electronics.",
+          "locator": "first section",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "site:riken-kobe-r-ccs",
+      "name": "RIKEN Center for Computational Science (R-CCS), Kobe",
+      "operator": "co:riken",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 34.6533,
+        "lon": 135.2208,
+        "precision": "site",
+        "address": "RIKEN Center for Computational Science (R-CCS), Kobe, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "The new IBM Quantum System Two is co-located with Fugaku within the RIKEN Center for Computational Science (R-CCS), Japan's premier high-performance computing (HPC) center.",
+          "locator": "body",
+          "supports": "existence, location (facility)"
+        },
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "was officially launched during a ribbon-cutting ceremony on June 24, 2025 , in Kobe, Japan .",
+          "locator": "body",
+          "supports": "location (city), status"
+        }
+      ]
+    },
+    {
+      "id": "site:ibm-san-sebastian",
+      "name": "IBM-Euskadi Quantum Computational Center, San Sebastián",
+      "operator": "co:ibm",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 43.3183,
+        "lon": -1.9812,
+        "precision": "city",
+        "address": "Ikerbasque Foundation main campus, San Sebastián (Donostia), Spain"
+      },
+      "country": "ES",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-10-14-basque",
+          "quote": "today unveiled the first IBM Quantum System Two in Europe at the IBM-Euskadi Quantum Computational Center in San Sebastián.",
+          "locator": "first paragraph",
+          "supports": "existence, location (city)"
+        },
+        {
+          "source": "src:ibm-pr-2025-10-14-basque",
+          "quote": "The system installed on the Ikerbasque Foundation's main campus, at the IBM-Euskadi Quantum Computational Center, was inaugurated at a ceremony",
+          "locator": "body",
+          "supports": "location (facility), status"
+        }
+      ]
+    },
+    {
+      "id": "site:ibm-ehningen",
+      "name": "IBM Quantum Data Center, Ehningen",
+      "operator": "co:ibm",
+      "kind": "datacenter",
+      "location": {
+        "lat": 48.6586,
+        "lon": 8.9408,
+        "precision": "city",
+        "address": "Ehningen, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2024-10-01-ehningen",
+          "quote": "Now online in Ehningen, Germany , Europe's first IBM Quantum Data Center includes two new utility-scale, IBM Quantum Eagle-based systems, and will soon feature a new IBM Quantum Heron-based system.",
+          "locator": "body",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "site:ibm-poughkeepsie",
+      "name": "IBM Quantum Data Center, Poughkeepsie (planned Starling site)",
+      "operator": "co:ibm",
+      "kind": "datacenter",
+      "location": {
+        "lat": 41.7004,
+        "lon": -73.921,
+        "precision": "city",
+        "address": "Poughkeepsie, New York"
+      },
+      "country": "US",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-10-starling",
+          "quote": "Delivered by 2029, IBM Quantum Starling will be built in a new IBM Quantum Data Center in Poughkeepsie, New York",
+          "locator": "first paragraph",
+          "supports": "existence (announced), location"
+        }
+      ]
+    },
+    {
+      "id": "site:google-santa-barbara-fab",
+      "name": "Google Quantum AI fabrication facility, Santa Barbara",
+      "operator": "co:google",
+      "kind": "fab",
+      "location": {
+        "lat": 34.4208,
+        "lon": -119.6982,
+        "precision": "city",
+        "address": "Santa Barbara, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:google-blog-2024-12-09-willow",
+          "quote": "Willow was fabricated in our new, state-of-the-art fabrication facility in Santa Barbara",
+          "locator": "section 'State-of-the-art performance'",
+          "supports": "existence, location (city)"
+        }
+      ]
+    },
+    {
+      "id": "site:aws-cqc-pasadena",
+      "name": "AWS Center for Quantum Computing (Caltech campus, Pasadena)",
+      "operator": "co:aws",
+      "kind": "lab",
+      "location": {
+        "lat": 34.1377,
+        "lon": -118.1253,
+        "precision": "site",
+        "address": "Caltech campus, Pasadena, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:aws-blog-2021-10-26-cqc",
+          "quote": "The AWS Center for Quantum Computing is located on the Caltech campus in Pasadena, California.",
+          "locator": "body",
+          "supports": "existence, location (site)"
+        },
+        {
+          "source": "src:amazon-news-2025-02-27-ocelot",
+          "quote": "Developed by the team at the AWS Center for Quantum Computing at the California Institute of Technology",
+          "locator": "first paragraph",
+          "supports": "status (active 2025)"
+        }
+      ]
+    },
+    {
+      "id": "site:alice-bob-paris-lab",
+      "name": "Alice & Bob product development lab, Paris",
+      "operator": "co:alice-bob",
+      "kind": "lab",
+      "location": {
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "precision": "city",
+        "address": "Paris, France"
+      },
+      "country": "FR",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:alicebob-pr-2025-05-14-lab",
+          "quote": "today announced the construction of a 50 million dollar quantum computing laboratory in Paris to support the development of its products.",
+          "locator": "first paragraph",
+          "supports": "existence (announced), location (city)"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "sys:ibm-heron",
+      "name": "IBM Quantum Heron",
+      "operator": "co:ibm",
+      "modality": "superconducting",
+      "status": "online",
+      "announced": "2023-12-04",
+      "online_since": "2023-12-04",
+      "physical_qubits": {
+        "value": 156,
+        "as_of": "2025-06-23",
+        "note": "Current Heron revision (156 qubits); the first Heron released in December 2023 had 133 qubits.",
+        "evidence": [
+          {
+            "source": "src:ibm-pr-2025-06-23-riken",
+            "quote": "IBM Quantum System Two at RIKEN is powered by IBM's 156-qubit IBM Quantum Heron, the company's best performing quantum processor to-date.",
+            "locator": "body",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:ibm-pr-2023-12-04-heron-system-two",
+            "quote": "This includes experiments already running on the new IBM Quantum Heron 133-qubit processor, which IBM is making available for users today via the cloud.",
+            "locator": "body",
+            "supports": "qubits (2023 revision), date"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "CLOPS (circuit layer operations per second)",
+          "value": 250000,
+          "unit": "",
+          "definition": "IBM's CLOPS speed metric for the 156-qubit Heron, as stated in the RIKEN release (June 2025).",
+          "as_of": "2025-06-23",
+          "evidence": [
+            {
+              "source": "src:ibm-pr-2025-06-23-riken",
+              "quote": "IBM Heron's speed, as measured by the CLOPS (circuit layer operations per second) metric is 250,000",
+              "locator": "body",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2023-12-04-heron-system-two",
+          "quote": "IBM Heron is the first in IBM's new class of performant processors with significantly improved error rates",
+          "locator": "body",
+          "supports": "existence"
+        },
+        {
+          "source": "src:ibm-pr-2026-07-30-uchicago",
+          "quote": "IBM and The University of Chicago Demonstrate Quantum Advantage",
+          "locator": "title",
+          "supports": "status (in use 2026)"
+        }
+      ]
+    },
+    {
+      "id": "sys:ibm-nighthawk",
+      "name": "IBM Quantum Nighthawk",
+      "operator": "co:ibm",
+      "modality": "superconducting",
+      "status": "announced",
+      "announced": "2025-11-12",
+      "physical_qubits": {
+        "value": 120,
+        "as_of": "2025-11-12",
+        "evidence": [
+          {
+            "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+            "quote": "120 qubits linked together with 218 next-generation tunable couplers to their four nearest neighbors in a square lattice",
+            "locator": "section 'IBM Quantum Computers Built to Scale Advantage'",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "IBM Nighthawk is expected to be delivered to IBM users by the end of 2025",
+          "locator": "section 'IBM Quantum Computers Built to Scale Advantage'",
+          "supports": "existence, status (announced; delivery not confirmed in fetched sources)"
+        }
+      ]
+    },
+    {
+      "id": "sys:ibm-loon",
+      "name": "IBM Quantum Loon",
+      "operator": "co:ibm",
+      "modality": "superconducting",
+      "status": "announced",
+      "announced": "2025-11-12",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "The company is announcing IBM Quantum Loon, its experimental processor that, for the first time, shows that IBM has demonstrated all the key processor components needed for fault-tolerant quantum computing.",
+          "locator": "section 'IBM Delivers Building Blocks Towards Fault-Tolerant Quantum Computing'",
+          "supports": "existence, status (experimental)"
+        }
+      ]
+    },
+    {
+      "id": "sys:ibm-system-two-riken",
+      "name": "IBM Quantum System Two at RIKEN",
+      "operator": "co:ibm",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:riken-kobe-r-ccs",
+      "online_since": "2025-06-24",
+      "physical_qubits": {
+        "value": 156,
+        "as_of": "2025-06-23",
+        "note": "One 156-qubit Heron processor.",
+        "evidence": [
+          {
+            "source": "src:ibm-pr-2025-06-23-riken",
+            "quote": "IBM Quantum System Two at RIKEN is powered by IBM's 156-qubit IBM Quantum Heron, the company's best performing quantum processor to-date.",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit error rate (layered circuit)",
+          "value": 0.003,
+          "unit": "",
+          "definition": "IBM: two-qubit error rate measured across a 100-qubit layered circuit on the Heron in this system (best single two-qubit error stated separately as 1x10^-3). Number transcribed from the release's superscript notation '3x10 -3'.",
+          "as_of": "2025-06-23",
+          "evidence": [
+            {
+              "source": "src:ibm-pr-2025-06-23-riken",
+              "quote": "IBM Heron's quality as measured by the two-qubit error rate, across a 100-qubit layered circuit, is 3x10",
+              "locator": "body",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "today unveiled the first IBM Quantum System Two ever to be deployed outside of the United States",
+          "locator": "first paragraph",
+          "supports": "existence"
+        },
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "IBM's next-generation quantum computer, now online in Japan, is also connected to the supercomputer Fugaku",
+          "locator": "subtitle",
+          "supports": "status, location"
+        }
+      ]
+    },
+    {
+      "id": "sys:ibm-system-two-basque",
+      "name": "IBM Quantum System Two at IBM-Euskadi Quantum Computational Center",
+      "operator": "co:ibm",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:ibm-san-sebastian",
+      "online_since": "2025-10-14",
+      "physical_qubits": {
+        "value": 156,
+        "as_of": "2025-10-14",
+        "evidence": [
+          {
+            "source": "src:ibm-pr-2025-10-14-basque",
+            "quote": "It is powered by a 156-qubit IBM Quantum Heron processor, one of the best performing quantum processors developed by the company, to date.",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-10-14-basque",
+          "quote": "Members of the IBM-Euskadi Quantum Computational Center now have access to the system",
+          "locator": "body",
+          "supports": "status"
+        },
+        {
+          "source": "src:ibm-pr-2025-10-14-basque",
+          "quote": "today unveiled the first IBM Quantum System Two in Europe at the IBM-Euskadi Quantum Computational Center in San Sebastián.",
+          "locator": "first paragraph",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "sys:ibm-system-two-yorktown",
+      "name": "IBM Quantum System Two (Yorktown Heights)",
+      "operator": "co:ibm",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:ibm-yorktown-heights",
+      "online_since": "2023-12-04",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2023-12-04-heron-system-two",
+          "quote": "The first IBM Quantum System Two, located in Yorktown Heights, New York , has begun operations with three IBM Heron processors and supporting control electronics.",
+          "locator": "first section",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:google-sycamore",
+      "name": "Sycamore",
+      "operator": "co:google",
+      "modality": "superconducting",
+      "status": "online",
+      "announced": "2019-10-23",
+      "physical_qubits": {
+        "value": 54,
+        "as_of": "2019-10-23",
+        "note": "54-qubit array; one qubit inoperable, so the 2019 experiment used 53.",
+        "evidence": [
+          {
+            "source": "src:nature-arute-2019-sycamore",
+            "quote": "Layout of processor, showing a rectangular array of 54 qubits (grey), each connected to its four nearest neighbours with couplers (blue). The inoperable qubit is outlined.",
+            "locator": "Fig. 1 caption",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:nature-arute-2019-sycamore",
+            "quote": "so the device uses 53 qubits and 86 couplers",
+            "locator": "main text",
+            "supports": "qubits used"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:nature-arute-2019-sycamore",
+          "quote": "Our Sycamore processor takes about 200 seconds to sample one instance of a quantum circuit a million times",
+          "locator": "Abstract",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "sys:google-willow",
+      "name": "Willow",
+      "operator": "co:google",
+      "modality": "superconducting",
+      "status": "online",
+      "announced": "2024-12-09",
+      "physical_qubits": {
+        "value": 105,
+        "as_of": "2024-12-09",
+        "evidence": [
+          {
+            "source": "src:google-willow-spec-sheet",
+            "quote": "Number of qubits 105",
+            "locator": "Willow System Metrics table",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate error (CZ)",
+          "value": 0.33,
+          "unit": "%",
+          "definition": "Google spec sheet: mean, simultaneous two-qubit (CZ) gate error on Willow chip 1 (the quantum-error-correction chip), ± 0.18%, measured with randomized benchmarking and reported as average error.",
+          "as_of": "2024-12-09",
+          "evidence": [
+            {
+              "source": "src:google-willow-spec-sheet",
+              "quote": "Two-qubit gate error 1 (mean, simultaneous) 0.33% ± 0.18% (CZ)",
+              "locator": "Willow System Metrics table, Quantum Error Correction (Chip 1)",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "T1 (mean)",
+          "value": 68,
+          "unit": "us",
+          "definition": "Google spec sheet: mean T1 on Willow chip 1 (quantum-error-correction chip), ± 13 µs; chip 2 (random circuit sampling) is stated separately at 98 µs.",
+          "as_of": "2024-12-09",
+          "evidence": [
+            {
+              "source": "src:google-willow-spec-sheet",
+              "quote": "T1 time (mean) 68 µs ± 13 µs2",
+              "locator": "Willow System Metrics table, Quantum Error Correction (Chip 1)",
+              "supports": "metric"
+            },
+            {
+              "source": "src:google-willow-spec-sheet",
+              "quote": "T1 time (mean) 98 µs ± 32 µs2",
+              "locator": "Willow System Metrics table, Random Circuit Sampling (Chip 2)",
+              "supports": "metric (chip 2, context)"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:nature-gqai-2024-below-threshold",
+          "quote": "Here we present two below-threshold surface code memories on our newest generation of superconducting processors, Willow",
+          "locator": "Abstract",
+          "supports": "existence"
+        },
+        {
+          "source": "src:google-blog-2025-10-22-echoes",
+          "quote": "Our Willow quantum chip demonstrates the first-ever algorithm to achieve verifiable quantum advantage on hardware.",
+          "locator": "subtitle",
+          "supports": "status (in use 2025)"
+        }
+      ]
+    },
+    {
+      "id": "sys:rigetti-ankaa-3",
+      "name": "Ankaa-3",
+      "operator": "co:rigetti",
+      "modality": "superconducting",
+      "status": "online",
+      "online_since": "2024-12-23",
+      "physical_qubits": {
+        "value": 84,
+        "as_of": "2024-12-23",
+        "evidence": [
+          {
+            "source": "src:rigetti-pr-2024-12-23-ankaa3",
+            "quote": "announced today the public launch of its 84-qubit Ankaa-3 system",
+            "locator": "first paragraph",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (iSWAP, median)",
+          "value": 99.0,
+          "unit": "%",
+          "definition": "Rigetti: median iSWAP two-qubit gate fidelity on Ankaa-3 (December 2024). Rigetti separately states 99.5% median fidelity for fSim gates.",
+          "as_of": "2024-12-23",
+          "evidence": [
+            {
+              "source": "src:rigetti-pr-2024-12-23-ankaa3",
+              "quote": "successfully halving error rates in 2024 to achieve a median 99.0% iSWAP gate fidelity, as well as demonstrating 99.5% median fidelity fSim gates.",
+              "locator": "body",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2024-12-23-ankaa3",
+          "quote": "Ankaa-3 is now available to its partners via the Rigetti Quantum Cloud Services platform (QCS ® ) and will be coming to Amazon Braket and Microsoft Azure in the first quarter of 2025.",
+          "locator": "body",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:rigetti-cepheus-1-36q",
+      "name": "Cepheus-1-36Q",
+      "operator": "co:rigetti",
+      "modality": "superconducting",
+      "status": "online",
+      "online_since": "2025-08-12",
+      "physical_qubits": {
+        "value": 36,
+        "as_of": "2025-08-12",
+        "note": "Multi-chip system of four chips.",
+        "evidence": [
+          {
+            "source": "src:rigetti-pr-2025-08-12-q2-2025",
+            "quote": "Announces General Availability of its 36-Qubit Multi-Chip Quantum Computer",
+            "locator": "title",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (median)",
+          "value": 99.5,
+          "unit": "%",
+          "definition": "Rigetti: median two-qubit gate fidelity of Cepheus-1-36Q at general availability (August 2025).",
+          "as_of": "2025-08-12",
+          "evidence": [
+            {
+              "source": "src:rigetti-pr-2025-08-12-q2-2025",
+              "quote": "obtaining a 2x reduction in two-qubit gate error rate from its previous Ankaa™-3 system, and achieving a median two-qubit gate fidelity of 99.5%.",
+              "locator": "Technology Update",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2025-08-12-q2-2025",
+          "quote": "Rigetti’s Multi-Chip Quantum Computer, Cepheus™-1-36Q, the Industry’s Largest Multi-Chip Quantum Computer, is Released for General Availability and Deployed on the Rigetti Quantum Cloud Services Platform (QCS®)",
+          "locator": "Technology Update",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:rigetti-cepheus-1-108q",
+      "name": "Cepheus-1-108Q",
+      "operator": "co:rigetti",
+      "modality": "superconducting",
+      "status": "online",
+      "online_since": "2026-04-07",
+      "physical_qubits": {
+        "value": 108,
+        "as_of": "2026-04-07",
+        "note": "Twelve interconnected 9-qubit chiplets.",
+        "evidence": [
+          {
+            "source": "src:rigetti-pr-2026-04-07-108q-ga",
+            "quote": "The system comprises twelve interconnected 9-qubit chiplets, tripling the number of qubits and chiplets from Rigetti’s previous 36-qubit system, Cepheus-1-36Q.",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (median)",
+          "value": 99.1,
+          "unit": "%",
+          "definition": "Rigetti: median two-qubit gate fidelity of Cepheus-1-108Q at general availability, with ~60 ns gate speed (April 2026); the Q2 2026 release restates approximately 99.1%.",
+          "as_of": "2026-04-07",
+          "evidence": [
+            {
+              "source": "src:rigetti-pr-2026-04-07-108q-ga",
+              "quote": "The system is currently performing at a 99.1% median two-qubit gate fidelity with a gate speed of ~60 ns and a 99.9% median single-gate fidelity.",
+              "locator": "body",
+              "supports": "metric"
+            },
+            {
+              "source": "src:rigetti-pr-2026-08-06-q2-2026",
+              "quote": "Cepheus-1-108Q currently operates at approximately 99.9% median single-qubit gate fidelity, approximately 99.1% median two-qubit gate fidelity, and approximately 60 nanosecond gate speeds.",
+              "locator": "Technology Milestones",
+              "supports": "metric (restated Aug 2026)"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2026-04-07-108q-ga",
+          "quote": "Cepheus-1-108Q validates Rigetti’s proprietary chiplet-based scaling architecture and is now generally available to Rigetti’s customers and partners via the Rigetti Quantum Cloud Services platform and through Amazon Braket",
+          "locator": "subtitle",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:aws-ocelot",
+      "name": "Ocelot",
+      "operator": "co:aws",
+      "modality": "superconducting",
+      "submodality": "bosonic_cat",
+      "status": "online",
+      "announced": "2025-02-27",
+      "physical_qubits": {
+        "value": 5,
+        "as_of": "2025-02-27",
+        "note": "Five data (cat) qubits; the chip also has five buffer circuits and four error-detecting qubits (14 core components). Total qubit count is not stated as a single number.",
+        "evidence": [
+          {
+            "source": "src:amazon-news-2025-02-27-ocelot",
+            "quote": "The Ocelot chip is composed of 14 core components: five data qubits (the cat qubits), five ‘buffer circuits’ for stabilizing the data qubits, and four additional qubits for detecting errors on the data qubits.",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "logical_qubits": {
+        "value": 1,
+        "as_of": "2025-02-26",
+        "code": "concatenated bosonic cat qubits with an outer distance-5 repetition code (logical memory)",
+        "note": "A single encoded memory, as described in the Nature paper.",
+        "evidence": [
+          {
+            "source": "src:nature-putterman-2025-ocelot",
+            "quote": "we realize a logical qubit memory formed from the concatenation of encoded bosonic cat qubits with an outer repetition code of distance d = 5",
+            "locator": "Abstract",
+            "supports": "logical qubits, code"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:amazon-science-2025-02-27-ocelot",
+          "quote": "Today we are happy to announce Ocelot, our first-generation quantum chip.",
+          "locator": "introduction",
+          "supports": "existence"
+        },
+        {
+          "source": "src:amazon-science-2025-02-27-ocelot",
+          "quote": "Prototype is the first realization of a scalable, hardware-efficient quantum computing architecture based on bosonic quantum error correction.",
+          "locator": "subtitle",
+          "supports": "status (prototype), submodality"
+        },
+        {
+          "source": "src:nature-putterman-2025-ocelot",
+          "quote": "A stabilizing circuit passively protects cat qubits against bit flips",
+          "locator": "Abstract",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:alice-bob-boson-4",
+      "name": "Boson 4",
+      "operator": "co:alice-bob",
+      "modality": "superconducting",
+      "submodality": "bosonic_cat",
+      "status": "online",
+      "physical_qubits": {
+        "value": 1,
+        "as_of": "2024-07-29",
+        "note": "Boson series are single-qubit (single cat qubit) chips.",
+        "evidence": [
+          {
+            "source": "src:alicebob-boson4-page",
+            "quote": "Boson series processors are single-qubit chips",
+            "locator": "section 'Next steps'",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "bit-flip lifetime",
+          "value": 7,
+          "unit": "min",
+          "definition": "Alice & Bob: bit-flip lifetime 'surpassing 7 minutes' on Boson 4 (lower bound as stated; company page, preprint stated as forthcoming). A later release gives the 2024 Boson 4 record as 430 seconds.",
+          "as_of": "2024-07-29",
+          "evidence": [
+            {
+              "source": "src:alicebob-boson4-page",
+              "quote": "With bit-flip lifetime surpassing 7 minutes, Boson 4 beats any other superconducting qubit.",
+              "locator": "section 'World Record'",
+              "supports": "metric"
+            },
+            {
+              "source": "src:alicebob-pr-2025-09-25-bitflip",
+              "quote": "a considerable advance over the previous record of 430 seconds (about seven minutes) set in 2024 on Alice & Bob’s Boson 4 chip.",
+              "locator": "first paragraph",
+              "supports": "metric (restated)"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:alicebob-boson4-page",
+          "quote": "Boson 4 is the first cat qubit available for anyone to test over the cloud.",
+          "locator": "timeline, 2024",
+          "supports": "existence, status, submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:alice-bob-helium-1",
+      "name": "Helium 1",
+      "operator": "co:alice-bob",
+      "modality": "superconducting",
+      "submodality": "bosonic_cat",
+      "status": "announced",
+      "announced": "2023-12-19",
+      "physical_qubits": {
+        "value": 16,
+        "as_of": "2023-12-19",
+        "evidence": [
+          {
+            "source": "src:alicebob-pr-2023-12-19-helium1",
+            "quote": "The 16-qubit quantum processing unit (QPU), Helium 1, is the first chip in Alice & Bob’s roadmap combining cat qubits to run an error correction code.",
+            "locator": "body",
+            "supports": "qubits, submodality"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:alicebob-pr-2023-12-19-helium1",
+          "quote": "With the tape-out complete, the chip enters a characterization and calibration phase that will be followed by a release on the cloud.",
+          "locator": "body",
+          "supports": "existence, status (taped out; cloud release not confirmed in fetched sources)"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms:ibm-127q-expectation-values-2023",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2023-06-14",
+      "category": "computational_task",
+      "claim": "IBM reports measuring accurate expectation values on a noisy 127-qubit processor for circuits with up to 60 layers of two-qubit gates (2,880 CNOT gates), and states this is evidence for “the utility of quantum computing in a pre-fault-tolerant era”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-023-06096-3",
+      "evidence": [
+        {
+          "source": "src:nature-kim-2023-utility",
+          "quote": "Here we report experiments on a noisy 127-qubit processor and demonstrate the measurement of accurate expectation values for circuit volumes at a scale beyond brute-force classical computation. We argue that this represents evidence for the utility of quantum computing in a pre-fault-tolerant era.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-kim-2023-utility",
+          "quote": "We use a superconducting quantum processor with 127 qubits to run quantum circuits with up to 60 layers of two-qubit gates, a total of 2,880 CNOT gates.",
+          "locator": "main text",
+          "supports": "claim (numbers)"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-bb-qldpc-memory-2024",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2024-03-27",
+      "category": "error_correction",
+      "claim": "IBM researchers report a family of quantum low-density parity-check codes with an error threshold of 0.7% under a standard circuit-based noise model, and estimate that 12 encoded qubits can be preserved for nearly 1 million syndrome cycles using 288 physical qubits at a 0.1% physical error rate (a protocol and simulation result, not a hardware experiment).",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-024-07107-7",
+      "evidence": [
+        {
+          "source": "src:nature-bravyi-2024-bb",
+          "quote": "Our approach achieves an error threshold of 0.7% for the standard circuit-based noise model, on par with the surface code",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-bravyi-2024-bb",
+          "quote": "In particular, we show that 12 logical qubits can be preserved for nearly 1 million syndrome cycles using 288 physical qubits in total, assuming the physical error rate of 0.1%, whereas the surface code would require nearly 3,000 physical qubits to achieve said performance.",
+          "locator": "Abstract",
+          "supports": "claim (numbers)"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-heron-system-two-2023",
+      "orgs": [
+        "co:ibm"
+      ],
+      "systems": [
+        "sys:ibm-heron",
+        "sys:ibm-system-two-yorktown"
+      ],
+      "date": "2023-12-04",
+      "category": "system_launch",
+      "claim": "IBM releases the 133-qubit Heron processor via the cloud and begins operating its first IBM Quantum System Two in Yorktown Heights, New York, with three Heron processors.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2023-12-04-heron-system-two",
+          "quote": "This includes experiments already running on the new IBM Quantum Heron 133-qubit processor, which IBM is making available for users today via the cloud.",
+          "locator": "body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ibm-pr-2023-12-04-heron-system-two",
+          "quote": "The first IBM Quantum System Two, located in Yorktown Heights, New York , has begun operations with three IBM Heron processors and supporting control electronics.",
+          "locator": "first section",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-system-two-riken-2025",
+      "orgs": [
+        "co:ibm",
+        "co:riken"
+      ],
+      "systems": [
+        "sys:ibm-system-two-riken"
+      ],
+      "date": "2025-06-24",
+      "category": "system_launch",
+      "claim": "IBM and RIKEN launch an IBM Quantum System Two with a 156-qubit Heron processor at the RIKEN Center for Computational Science in Kobe, co-located with the Fugaku supercomputer; IBM states it is the first System Two deployed outside the United States.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "IBM Quantum System Two at RIKEN is powered by IBM's 156-qubit IBM Quantum Heron, the company's best performing quantum processor to-date.",
+          "locator": "body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "today unveiled the first IBM Quantum System Two ever to be deployed outside of the United States",
+          "locator": "first paragraph",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "The new IBM Quantum System Two is co-located with Fugaku within the RIKEN Center for Computational Science (R-CCS), Japan's premier high-performance computing (HPC) center.",
+          "locator": "body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ibm-pr-2025-06-23-riken",
+          "quote": "was officially launched during a ribbon-cutting ceremony on June 24, 2025 , in Kobe, Japan .",
+          "locator": "body",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-loon-2025",
+      "orgs": [
+        "co:ibm"
+      ],
+      "systems": [
+        "sys:ibm-loon"
+      ],
+      "date": "2025-11-12",
+      "category": "error_correction",
+      "claim": "IBM announces Loon, an experimental processor it states demonstrates all the key processor components needed for “fault-tolerant quantum computing”, and reports decoding qLDPC-code errors on classical hardware in real time (less than 480 nanoseconds).",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "The company is announcing IBM Quantum Loon, its experimental processor that, for the first time, shows that IBM has demonstrated all the key processor components needed for fault-tolerant quantum computing.",
+          "locator": "section 'IBM Delivers Building Blocks Towards Fault-Tolerant Quantum Computing'",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "IBM has proven it is possible to use classical computing hardware to accurately decode errors in real-time (less than 480 nanoseconds) using qLDPC codes.",
+          "locator": "section 'IBM Delivers Building Blocks Towards Fault-Tolerant Quantum Computing'",
+          "supports": "claim (decoder)"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-uchicago-encoded-sampling-2026",
+      "orgs": [
+        "co:ibm"
+      ],
+      "systems": [],
+      "date": "2026-07-30",
+      "category": "computational_task",
+      "claim": "IBM and University of Chicago researchers report a 64-qubit, depth-73 Clifford circuit doped with 314 T gates, encoded in spacetime codes on 76 physical qubits, with a certified fidelity lower bound of 0.349 at 95% confidence; IBM's release states the work achieves the criteria for “quantum advantage”.",
+      "peer_review": "preprint",
+      "arxiv": "2607.25941",
+      "evidence": [
+        {
+          "source": "src:arxiv-2607.25941",
+          "quote": "We demonstrate our proposal with a $64$-qubit, depth-$73$ Clifford circuit, doped with $314$ $T$ gates. We use a total of $76$ physical qubits to encode this computation in spacetime codes, effectively suppressing gate error rates by $10\\times$ after syndrome post-selection, and yielding a state with a fidelity lower bound of $0.349$ with $95\\%$ confidence.",
+          "locator": "Abstract (v3)",
+          "supports": "claim (numbers)"
+        },
+        {
+          "source": "src:ibm-pr-2026-07-30-uchicago",
+          "quote": "today announced a demonstration in quantum computing that achieves the fundamental criteria for quantum advantage",
+          "locator": "first paragraph",
+          "supports": "claim (framing), date"
+        }
+      ]
+    },
+    {
+      "id": "ms:google-sycamore-rcs-2019",
+      "orgs": [
+        "co:google"
+      ],
+      "systems": [
+        "sys:google-sycamore"
+      ],
+      "date": "2019-10-23",
+      "category": "computational_task",
+      "claim": "Google reports sampling one instance of a 53-qubit random quantum circuit a million times in about 200 seconds on Sycamore, estimates approximately 10,000 years for a state-of-the-art classical supercomputer, and describes the result as “an experimental realization of quantum supremacy” for this task.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-019-1666-5",
+      "evidence": [
+        {
+          "source": "src:nature-arute-2019-sycamore",
+          "quote": "Our Sycamore processor takes about 200 seconds to sample one instance of a quantum circuit a million times—our benchmarks currently indicate that the equivalent task for a state-of-the-art classical supercomputer would take approximately 10,000 years. This dramatic increase in speed compared to all known classical algorithms is an experimental realization of quantum supremacy",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-arute-2019-sycamore",
+          "quote": "to create quantum states on 53 qubits",
+          "locator": "Abstract",
+          "supports": "claim (qubits)"
+        }
+      ]
+    },
+    {
+      "id": "ms:google-surface-code-d5-2023",
+      "orgs": [
+        "co:google"
+      ],
+      "systems": [
+        "sys:google-sycamore"
+      ],
+      "date": "2023-02-22",
+      "category": "error_correction",
+      "claim": "Google reports a distance-5 surface-code encoded qubit whose logical error per cycle (2.914%) is modestly lower on average than an ensemble of distance-3 encodings (3.028%).",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-022-05434-1",
+      "evidence": [
+        {
+          "source": "src:nature-gqai-2023-surface-code",
+          "quote": "We find that our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, in terms of both logical error probability over 25 cycles and logical error per cycle ((2.914 ± 0.016)% compared to (3.028 ± 0.023)%).",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:google-quantum-ai-about-pdf",
+          "quote": "In 2023, we announced the first-ever experimental demonstration that it is possible to scale quantum error correction (Milestone 2).",
+          "locator": "section 'Our progress towards building a quantum computer'",
+          "supports": "roadmap context"
+        }
+      ]
+    },
+    {
+      "id": "ms:google-willow-below-threshold-2024",
+      "orgs": [
+        "co:google"
+      ],
+      "systems": [
+        "sys:google-willow"
+      ],
+      "date": "2024-12-09",
+      "category": "error_correction",
+      "claim": "Google reports two surface-code memories on Willow processors, with logical error suppressed by a factor of 2.14 per code-distance increase of 2 and a 101-qubit distance-7 code at 0.143% error per cycle, and describes them as “below-threshold surface code memories”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-024-08449-y",
+      "evidence": [
+        {
+          "source": "src:nature-gqai-2024-below-threshold",
+          "quote": "Here we present two below-threshold surface code memories on our newest generation of superconducting processors, Willow: a distance-7 code and a distance-5 code integrated with a real-time decoder. The logical error rate of our larger quantum memory is suppressed by a factor of Λ = 2.14 ± 0.02 when increasing the code distance by 2, culminating in a 101-qubit distance-7 code with 0.143% ± 0.003 per cent error per cycle of error correction.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-gqai-2024-below-threshold",
+          "quote": "An Author Correction to this article was published on 28 April 2026",
+          "locator": "article header",
+          "supports": "status note (author correction)"
+        }
+      ]
+    },
+    {
+      "id": "ms:google-willow-rcs-2024",
+      "orgs": [
+        "co:google"
+      ],
+      "systems": [
+        "sys:google-willow"
+      ],
+      "date": "2024-12-09",
+      "category": "computational_task",
+      "claim": "Google states Willow performed a random circuit sampling benchmark computation in under five minutes that it estimates would take one of today’s fastest supercomputers 10 septillion (10^25) years; its spec sheet lists 103 qubits, depth 40, XEB fidelity 0.1%.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:google-blog-2024-12-09-willow",
+          "quote": "Second, Willow performed a standard benchmark computation in under five minutes that would take one of today’s fastest supercomputers 10 septillion (that is, 10 25 ) years",
+          "locator": "introduction",
+          "supports": "claim"
+        },
+        {
+          "source": "src:google-willow-spec-sheet",
+          "quote": "Application performance 103 qubits, depth 40, XEB fidelity = 0.1%",
+          "locator": "Willow System Metrics table, Random Circuit Sampling (Chip 2)",
+          "supports": "claim (parameters)"
+        }
+      ]
+    },
+    {
+      "id": "ms:google-quantum-echoes-otoc-2025",
+      "orgs": [
+        "co:google"
+      ],
+      "systems": [
+        "sys:google-willow"
+      ],
+      "date": "2025-10-22",
+      "category": "computational_task",
+      "claim": "Google reports measuring second-order out-of-time-order correlators on a superconducting processor, including 65-qubit circuits, with an estimated classical simulation cost on the Frontier supercomputer approximately 13,000 times the experimental data collection time; Google's blog calls the result “verifiable quantum advantage”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-09526-6",
+      "evidence": [
+        {
+          "source": "src:nature-gqai-2025-otoc",
+          "quote": "Here we experimentally measure the second-order out-of-time-order correlators (OTOC (2) )",
+          "locator": "summary paragraph",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-gqai-2025-otoc",
+          "quote": "This is a factor of approximately 13,000 longer than the experimental data collection time of 2.1 h per circuit",
+          "locator": "main text, classical simulation cost",
+          "supports": "claim (numbers)"
+        },
+        {
+          "source": "src:nature-gqai-2025-otoc",
+          "quote": "measured on a set of 65-qubit circuits each having t = 23 cycles",
+          "locator": "Fig. 4 caption",
+          "supports": "claim (qubits)"
+        },
+        {
+          "source": "src:google-blog-2025-10-22-echoes",
+          "quote": "Our Willow quantum chip demonstrates the first-ever algorithm to achieve verifiable quantum advantage on hardware.",
+          "locator": "subtitle",
+          "supports": "system, framing"
+        }
+      ]
+    },
+    {
+      "id": "ms:rigetti-ankaa-3-launch-2024",
+      "orgs": [
+        "co:rigetti"
+      ],
+      "systems": [
+        "sys:rigetti-ankaa-3"
+      ],
+      "date": "2024-12-23",
+      "category": "system_launch",
+      "claim": "Rigetti launches the 84-qubit Ankaa-3 system, reporting a median 99.0% iSWAP gate fidelity and 99.5% median fidelity for fSim gates.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2024-12-23-ankaa3",
+          "quote": "announced today the public launch of its 84-qubit Ankaa-3 system",
+          "locator": "first paragraph",
+          "supports": "claim"
+        },
+        {
+          "source": "src:rigetti-pr-2024-12-23-ankaa3",
+          "quote": "successfully halving error rates in 2024 to achieve a median 99.0% iSWAP gate fidelity, as well as demonstrating 99.5% median fidelity fSim gates.",
+          "locator": "body",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:rigetti-cepheus-36q-ga-2025",
+      "orgs": [
+        "co:rigetti"
+      ],
+      "systems": [
+        "sys:rigetti-cepheus-1-36q"
+      ],
+      "date": "2025-08-12",
+      "category": "system_launch",
+      "claim": "Rigetti makes its 36-qubit multi-chip Cepheus-1-36Q generally available, reporting a median two-qubit gate fidelity of 99.5%.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2025-08-12-q2-2025",
+          "quote": "Announces General Availability of its 36-Qubit Multi-Chip Quantum Computer",
+          "locator": "title",
+          "supports": "claim"
+        },
+        {
+          "source": "src:rigetti-pr-2025-08-12-q2-2025",
+          "quote": "obtaining a 2x reduction in two-qubit gate error rate from its previous Ankaa™-3 system, and achieving a median two-qubit gate fidelity of 99.5%.",
+          "locator": "Technology Update",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:rigetti-cepheus-108q-ga-2026",
+      "orgs": [
+        "co:rigetti"
+      ],
+      "systems": [
+        "sys:rigetti-cepheus-1-108q"
+      ],
+      "date": "2026-04-07",
+      "category": "system_launch",
+      "claim": "Rigetti makes the 108-qubit Cepheus-1-108Q, built from twelve 9-qubit chiplets, generally available, reporting a 99.1% median two-qubit gate fidelity.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2026-04-07-108q-ga",
+          "quote": "The system comprises twelve interconnected 9-qubit chiplets, tripling the number of qubits and chiplets from Rigetti’s previous 36-qubit system, Cepheus-1-36Q. The system is currently performing at a 99.1% median two-qubit gate fidelity",
+          "locator": "body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:rigetti-pr-2026-04-07-108q-ga",
+          "quote": "Rigetti Announces General Availability of 108-Qubit System",
+          "locator": "title",
+          "supports": "claim, date"
+        }
+      ]
+    },
+    {
+      "id": "ms:rigetti-adiabatic-cz-2026",
+      "orgs": [
+        "co:rigetti"
+      ],
+      "date": "2026-03-04",
+      "category": "fidelity",
+      "claim": "Rigetti reports a two-qubit gate fidelity as high as 99.9% at 28 nanosecond gate speed on a prototype platform using an adiabatic CZ scheme.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2026-03-04-q4-2025",
+          "quote": "Rigetti recently achieved a two-qubit gate fidelity as high as 99.9% at 28 nanosecond gate speed on a prototype platform using its new proprietary adiabatic CZ scheme.",
+          "locator": "Technology Milestones",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:aws-ocelot-cat-repetition-2025",
+      "orgs": [
+        "co:aws"
+      ],
+      "systems": [
+        "sys:aws-ocelot"
+      ],
+      "date": "2025-02-26",
+      "category": "error_correction",
+      "claim": "AWS researchers report an encoded memory concatenating bosonic cat qubits with a distance-5 repetition code, with a minimum measured logical error per cycle of 1.75% (distance-3 sections) and 1.65% (distance-5), and state the phase-flip repetition code “operates below the threshold”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-08642-7",
+      "evidence": [
+        {
+          "source": "src:nature-putterman-2025-ocelot",
+          "quote": "we realize a logical qubit memory formed from the concatenation of encoded bosonic cat qubits with an outer repetition code of distance d = 5",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-putterman-2025-ocelot",
+          "quote": "finding that the phase-flip correcting repetition code operates below the threshold",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-putterman-2025-ocelot",
+          "quote": "The minimum measured logical error per cycle is on average 1.75(2)% for the distance-3 code sections, and 1.65(3)% for the distance-5 code.",
+          "locator": "Abstract",
+          "supports": "claim (numbers)"
+        },
+        {
+          "source": "src:amazon-news-2025-02-27-ocelot",
+          "quote": "AWS researchers have published their findings in a peer-reviewed research paper in Nature .",
+          "locator": "body",
+          "supports": "system link (Ocelot)"
+        }
+      ]
+    },
+    {
+      "id": "ms:alice-bob-cat-bitflip-10s-2024",
+      "orgs": [
+        "co:alice-bob"
+      ],
+      "date": "2024-05-06",
+      "category": "fidelity",
+      "claim": "Researchers from Alice & Bob and collaborators report a superconducting cat qubit with bit-flip times exceeding 10 s and phase-flip times greater than 490 ns, with phase control that did not break the bit-flip protection.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-024-07294-3",
+      "evidence": [
+        {
+          "source": "src:nature-reglade-2024-cat",
+          "quote": "Here, in a superconducting-circuit experiment, we implemented a cat qubit with bit-flip times exceeding 10 s. This is an improvement of four orders of magnitude over previously published cat-qubit implementations. We prepared and imaged quantum superposition states, and measured phase-flip times greater than 490 ns. Most importantly, we controlled the phase of these quantum superpositions without breaking the bit-flip protection.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-reglade-2024-cat",
+          "quote": "Alice & Bob, Paris, France",
+          "locator": "Authors and Affiliations",
+          "supports": "org attribution"
+        }
+      ]
+    },
+    {
+      "id": "ms:alice-bob-bitflip-hour-2025",
+      "orgs": [
+        "co:alice-bob"
+      ],
+      "date": "2025-09-25",
+      "category": "fidelity",
+      "claim": "Alice & Bob reports preliminary measurements of cat-qubit bit-flip times between 33 and 60 minutes (95% confidence interval) at a mean photon number of 11, on the qubit design used in its 12-cat-qubit Helium 2 chip.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:alicebob-pr-2025-09-25-bitflip",
+          "quote": "At a mean photon number of 11, the team was able to measure bit-flip times between 33 and 60 minutes at a 95% confidence interval",
+          "locator": "body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:alicebob-pr-2025-09-25-bitflip",
+          "quote": "This result was achieved on Alice & Bob’s latest qubit design, the Galvanic Cat, the same used on their 12-cat qubit chip Helium 2.",
+          "locator": "body",
+          "supports": "claim (design)"
+        },
+        {
+          "source": "src:alicebob-pr-2025-09-25-bitflip",
+          "quote": "Alice & Bob Shares Preliminary Results Vastly Surpassing Previous Bit-Flip Time Record",
+          "locator": "title",
+          "supports": "status (preliminary)"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:ibm-kookaburra-2025",
+      "org": "co:ibm",
+      "system_name": "Kookaburra",
+      "target_date": "2025",
+      "stated_on": "2022-05-10",
+      "status": "revised",
+      "superseded_by": "tgt:ibm-kookaburra-2026",
+      "statement": "IBM targets introducing Kookaburra, a 1,386-qubit multi-chip processor with a quantum communication link, and connecting three Kookaburra chips into a 4,158-qubit system, by 2025.",
+      "evidence": [
+        {
+          "source": "src:ibm-blog-2022-05-10-roadmap",
+          "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+          "locator": "body (blog dated May 2022; page carries a later disclaimer that the roadmap has since been updated)",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-kookaburra-2026",
+      "org": "co:ibm",
+      "system_name": "Kookaburra",
+      "target_date": "2026",
+      "stated_on": "2025-06-10",
+      "status": "open",
+      "statement": "IBM targets Kookaburra, its first modular processor designed to store and process encoded information, combining quantum memory with logic operations, in 2026.",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-10-starling",
+          "quote": "IBM Quantum Kookaburra , expected in 2026 , will be IBM's first modular processor designed to store and process encoded information. It will combine quantum memory with logic operations",
+          "locator": "section 'From Roadmap to Reality'",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:ibm-roadmap-page",
+          "quote": "demonstrate in the Kookaburra processor a single module comprising a logical processing unit plus a quantum memory",
+          "locator": "2026 milestone",
+          "supports": "target (current roadmap page)"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-loon-2025",
+      "org": "co:ibm",
+      "system": "sys:ibm-loon",
+      "system_name": "Loon",
+      "target_date": "2025",
+      "stated_on": "2025-06-10",
+      "status": "met",
+      "met_by": "ms:ibm-loon-2025",
+      "statement": "IBM targets Loon, a processor to test architecture components for the qLDPC code including “C-couplers”, in 2025.",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-10-starling",
+          "quote": "IBM Quantum Loon , expected in 2025 , is designed to test architecture components for the qLDPC code, including \"C-couplers\" that connect qubits over longer distances within the same chip.",
+          "locator": "section 'From Roadmap to Reality'",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-starling-2029",
+      "org": "co:ibm",
+      "system_name": "Starling",
+      "target_date": "2029",
+      "stated_on": "2025-06-10",
+      "status": "open",
+      "statement": "IBM targets delivering Starling in Poughkeepsie, New York, running “100 million quantum operations using 200 logical qubits”, by 2029.",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-06-10-starling",
+          "quote": "Delivered by 2029, IBM Quantum Starling will be built in a new IBM Quantum Data Center in Poughkeepsie, New York",
+          "locator": "first paragraph",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:ibm-pr-2025-06-10-starling",
+          "quote": "Starling will be able to access the computational power required for these problems by running 100 million quantum operations using 200 logical qubits .",
+          "locator": "body",
+          "supports": "target (scale)"
+        },
+        {
+          "source": "src:ibm-pr-2026-06-02-10b",
+          "quote": "IBM has a clear path to delivering IBM Quantum Starling in 2029",
+          "locator": "section 'Roadmap to the World’s First Large-Scale, Fault-Tolerant Quantum Computer'",
+          "supports": "target restated June 2026"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-blue-jay-2033",
+      "org": "co:ibm",
+      "system_name": "Blue Jay",
+      "target_date": "2033",
+      "stated_on": "2025-06-10",
+      "status": "open",
+      "statement": "IBM targets Blue Jay, a 2000-qubit system capable of running 1 billion gates, by 2033 or later (“2033+”).",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-page",
+          "quote": "By 2033+, we will deliver a 2000 qubits system, called Blue Jay, capable of running 1 billion gates.",
+          "locator": "2030 section",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:ibm-pr-2025-06-10-starling",
+          "quote": "It will be the foundation for IBM Quantum Blue Jay, which will be capable of executing 1 billion quantum operations over 2,000 logical qubits.",
+          "locator": "body",
+          "supports": "target (scale, June 2025 wording)"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-advantage-2026",
+      "org": "co:ibm",
+      "target_date": "2026-12",
+      "stated_on": "2025-11-12",
+      "status": "open",
+      "statement": "IBM targets delivering “quantum advantage by the end of 2026”, and states it anticipates “the first cases of verified quantum advantage will be confirmed by the wider community by the end of 2026”.",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "IBM (NYSE: IBM ) today unveiled fundamental progress on its path to delivering both quantum advantage by the end of 2026 and fault-tolerant quantum computing by 2029.",
+          "locator": "first paragraph",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "IBM anticipates that the first cases of verified quantum advantage will be confirmed by the wider community by the end of 2026.",
+          "locator": "section 'IBM Quantum Computers Built to Scale Advantage'",
+          "supports": "target (verification criterion)"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-nighthawk-7500-gates-2026",
+      "org": "co:ibm",
+      "system": "sys:ibm-nighthawk",
+      "system_name": "Nighthawk",
+      "target_date": "2026-12",
+      "stated_on": "2025-11-12",
+      "status": "open",
+      "statement": "IBM targets future iterations of Nighthawk delivering up to 7,500 gates by the end of 2026 (and up to 10,000 gates in 2027).",
+      "evidence": [
+        {
+          "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+          "quote": "IBM expects future iterations of Nighthawk to deliver up to 7,500 gates by the end of 2026 and then up to 10,000 gates in 2027.",
+          "locator": "section 'IBM Quantum Computers Built to Scale Advantage'",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:rigetti-100q-2025-march",
+      "org": "co:rigetti",
+      "target_date": "2025-12",
+      "stated_on": "2025-03-05",
+      "status": "revised",
+      "superseded_by": "tgt:rigetti-108q-ga-q1-2026",
+      "statement": "Rigetti targets scaling to 100+ qubits by the end of 2025 with a targeted 2x reduction in error rates from its end-of-2024 levels.",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2025-03-05-q4-2024",
+          "quote": "remain confident in our plans to scale to 100+ qubits by the end of the year with a targeted 2x reduction in error rates from the error rates we achieved at the end of 2024.",
+          "locator": "CEO quote",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:rigetti-100q-995-2025",
+      "org": "co:rigetti",
+      "target_date": "2025-12",
+      "stated_on": "2025-11-10",
+      "status": "revised",
+      "superseded_by": "tgt:rigetti-108q-ga-q1-2026",
+      "statement": "Rigetti targets delivering a 100+ qubit chiplet-based system with an anticipated 99.5% median two-qubit gate fidelity by the end of 2025.",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2025-11-10-q3-2025",
+          "quote": "“On the technology front, we remain on track to deliver our 100+ qubit chiplet-based quantum system with an anticipated 99.5% median two-qubit gate fidelity by the end of 2025.”",
+          "locator": "CEO quote",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:rigetti-108q-ga-q1-2026",
+      "org": "co:rigetti",
+      "system": "sys:rigetti-cepheus-1-108q",
+      "system_name": "Cepheus-1-108Q",
+      "target_date": "2026-03",
+      "stated_on": "2026-01-09",
+      "status": "met",
+      "met_by": "ms:rigetti-cepheus-108q-ga-2026",
+      "statement": "Rigetti targets general availability of the 108-qubit Cepheus-1-108Q around the end of the first quarter of 2026 (revising its roadmap date).",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2026-01-09-108q-update",
+          "quote": "today announced that it is revising its roadmap and adjusting the date for general availability of its 108-qubit quantum computing system, Cepheus™-1-108Q. Cepheus-1-108Q is now expected to reach general availability around the end of the first quarter of 2026.",
+          "locator": "first paragraph",
+          "supports": "target, date, revision"
+        }
+      ]
+    },
+    {
+      "id": "tgt:rigetti-108q-995-2026",
+      "org": "co:rigetti",
+      "system": "sys:rigetti-cepheus-1-108q",
+      "system_name": "Cepheus-1-108Q",
+      "target_date": "2026-12",
+      "stated_on": "2026-04-07",
+      "status": "open",
+      "statement": "Rigetti targets Cepheus-1-108Q reaching a median 99.5% two-qubit gate fidelity later in 2026.",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2026-04-07-108q-ga",
+          "quote": "expects Cepheus‑1‑108Q to reach a median 99.5% two‑qubit gate fidelity later this year.",
+          "locator": "section 'Roadmap'",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:rigetti-150q-2026",
+      "org": "co:rigetti",
+      "target_date": "2026-12",
+      "stated_on": "2025-11-10",
+      "status": "open",
+      "statement": "Rigetti targets deploying a 150+ qubit system with an anticipated 99.7% median two-qubit gate fidelity by or around the end of 2026.",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2025-11-10-q3-2025",
+          "quote": "The Company expects to deploy a 150+ qubit system by or around the end of 2026 with an anticipated 99.7% median two-qubit gate fidelity",
+          "locator": "section '2026-2027 Technology Roadmap Updates'",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:rigetti-1000q-2027",
+      "org": "co:rigetti",
+      "target_date": "2027-12",
+      "stated_on": "2025-11-10",
+      "status": "revised",
+      "superseded_by": "tgt:rigetti-1000q-3yr-2026",
+      "statement": "Rigetti targets a 1,000+ qubit system with an anticipated 99.8% median two-qubit gate fidelity by or around the end of 2027.",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2025-11-10-q3-2025",
+          "quote": "and a 1,000+ qubit system by or around the end of 2027 with an anticipated 99.8% median two-qubit gate fidelity.",
+          "locator": "section '2026-2027 Technology Roadmap Updates'",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:rigetti-1000q-3yr-2026",
+      "org": "co:rigetti",
+      "target_date": "2029",
+      "stated_on": "2026-08-06",
+      "status": "open",
+      "statement": "Rigetti targets a path toward systems with approximately 1,000 qubits, approximately 99.9% two-qubit gate fidelity and gate speeds below 50 nanoseconds over roughly a three-year time horizon (about 2029, counted from August 2026).",
+      "evidence": [
+        {
+          "source": "src:rigetti-pr-2026-08-06-q2-2026",
+          "quote": "Rigetti continues to target a path toward systems with approximately 1,000 qubits, approximately 99.9% two-qubit gate fidelity, and gate speeds below 50 nanoseconds over roughly a three-year time horizon.",
+          "locator": "section 'Roadmap Toward Higher-Qubit Systems'",
+          "supports": "target, horizon"
+        }
+      ]
+    },
+    {
+      "id": "tgt:alice-bob-graphene-2030",
+      "org": "co:alice-bob",
+      "system_name": "Graphene",
+      "target_date": "2030",
+      "stated_on": "2024-12-04",
+      "status": "open",
+      "statement": "Alice & Bob targets the Graphene chip series, “featuring 100 high-fidelity logical qubits”, for early industrial use cases by 2030.",
+      "evidence": [
+        {
+          "source": "src:alicebob-pr-2024-12-04-roadmap",
+          "quote": "The Graphene chip series, featuring 100 high-fidelity logical qubits, will deliver a quantum computer capable of demonstrating quantum advantage in early industrial use cases by 2030, integrating into existing high-performance computing (HPC) facilities.",
+          "locator": "Milestone 5",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:alicebob-pr-2025-05-14-lab",
+          "quote": "A dedicated area of the cryostat farm is reserved for the installation of the company’s large-scale quantum computer Graphene, a 100-logical-qubit quantum computer planned for 2030.",
+          "locator": "body",
+          "supports": "target restated May 2025"
+        }
+      ]
+    },
+    {
+      "id": "tgt:alice-bob-lithium",
+      "org": "co:alice-bob",
+      "system_name": "Lithium",
+      "target_date": "2030",
+      "stated_on": "2024-12-04",
+      "status": "open",
+      "statement": "Alice & Bob targets, with its Lithium chip series, scaling multi-encoded-qubit systems and demonstrating its first “error-corrected logical gate”, as an intermediate step before its 2030 goal (no separate date stated).",
+      "evidence": [
+        {
+          "source": "src:alicebob-pr-2024-12-04-roadmap",
+          "quote": "With the upcoming Lithium chip series, Alice & Bob aims to scale multi-logical-qubit systems and demonstrate the first error-corrected logical gate.",
+          "locator": "Milestone 3",
+          "supports": "target"
+        },
+        {
+          "source": "src:alicebob-pr-2024-12-04-roadmap",
+          "quote": "The roadmap details five key milestones in Alice & Bob’s plan to deliver a universal, fault-tolerant quantum computer by 2030",
+          "locator": "body",
+          "supports": "date (overall horizon)"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "gaps": [
+    {
+      "topic": "Google Quantum AI roadmap dates",
+      "why": "Google's roadmap (quantumai.google/roadmap is image/JS-rendered; overview PDF fetched) lists six milestones and states it is working toward Milestone 3 ('long-lived logical qubit') but gives no target dates, so no Google targets were recorded.",
+      "would_need": "An official Google document attaching dates to roadmap milestones 3-6."
+    },
+    {
+      "topic": "Physical location of Willow and Sycamore",
+      "why": "Google states Willow was fabricated in Santa Barbara, but no fetched document states where the operating Willow or Sycamore systems are installed; neither system has a site.",
+      "would_need": "Official Google statement of where Willow/Sycamore systems operate."
+    },
+    {
+      "topic": "Current status of Sycamore and Ankaa-3",
+      "why": "No fetched document states whether Sycamore or Ankaa-3 has been retired; both are recorded as online based on their last documented use/availability.",
+      "would_need": "Official retirement or availability notices (Google Quantum AI, Rigetti QCS / Braket device pages)."
+    },
+    {
+      "topic": "IBM Nighthawk delivery",
+      "why": "IBM said in November 2025 that Nighthawk was expected to reach users by the end of 2025; no fetched document confirms delivery, so it is recorded as announced.",
+      "would_need": "IBM release or IBM Quantum Platform documentation listing a Nighthawk backend."
+    },
+    {
+      "topic": "IBM quantum-advantage target status",
+      "why": "IBM's July 2026 releases (University of Chicago, Algorithmiq, Qedma) describe demonstrations of quantum advantage, but they are preprints and IBM's own target wording calls for community-verified cases by end of 2026; the target is left open. Only the University of Chicago result is recorded as a milestone; the Algorithmiq (arXiv 2607.25998) and Qedma (arXiv 2607.24937) results were not recorded.",
+      "would_need": "Peer-reviewed versions and/or independent community verification (Quantum Advantage Tracker outcomes)."
+    },
+    {
+      "topic": "IBM/UChicago numbers mismatch",
+      "why": "IBM's 30 July 2026 release states 70 encoded qubits, 2,415 logical two-qubit operations and 468 T gates, whereas the arXiv abstract (v3, revised 2 Sep 2026) states a 64-qubit circuit with 314 T gates on 76 physical qubits; the milestone uses the arXiv numbers.",
+      "would_need": "Clarification from the authors / final journal version reconciling the two descriptions."
+    },
+    {
+      "topic": "Rigetti SEC filings",
+      "why": "www.sec.gov/Archives refused the declared User-Agent (HTTP 403) and investors.rigetti.com did not respond; Rigetti releases were read via Wayback Machine copies of the IR pages / GlobeNewswire (globenewswire.com also refused). Targets are sourced to press releases rather than 10-K/10-Q text.",
+      "would_need": "Reachable copies of Rigetti's 10-K (filed 2026-03-04, accession 0001104659-26-023454) and 10-Q filings."
+    },
+    {
+      "topic": "Rigetti 150+ qubit end-2026 target",
+      "why": "Stated November 2025; the April 2026 release says Rigetti intends to update its roadmap later in 2026, and the August 2026 release does not restate the 150+ qubit target. No document explicitly revises or withdraws it, so it remains open.",
+      "would_need": "Rigetti's updated 2026 technology roadmap."
+    },
+    {
+      "topic": "IBM 10-K",
+      "why": "www.sec.gov/Archives refused the declared User-Agent; IBM's HQ and quantum statements are sourced to IBM press releases.",
+      "would_need": "IR-hosted copy of IBM's 2025 Form 10-K."
+    },
+    {
+      "topic": "Alice & Bob Helium quantum system (June 2026)",
+      "why": "alice-bob.com refuses automated requests (HTTP 403) and the Wayback copy of the June 2026 Helium system announcement is a captcha page, so the system's qubit count, logical-qubit encoding and availability could not be quoted.",
+      "would_need": "A reachable copy of the Alice & Bob Helium system release or a related peer-reviewed/preprint paper."
+    },
+    {
+      "topic": "Alice & Bob roadmap PDF and Boson 4 preprint",
+      "why": "The long-version roadmap PDF could not be retrieved (site 403, Wayback returned no content); the Boson 4 bit-flip result is company-stated with a preprint described as 'coming soon'.",
+      "would_need": "Roadmap PDF copy; arXiv preprint for Boson 4 / Helium results."
+    },
+    {
+      "topic": "AWS quantum roadmap",
+      "why": "AWS states Ocelot could accelerate its timeline 'by up to five years' but publishes no dated roadmap targets; no AWS targets recorded.",
+      "would_need": "An official AWS roadmap with dated targets."
+    },
+    {
+      "topic": "Ocelot site",
+      "why": "Ocelot was developed by the AWS Center for Quantum Computing at Caltech, but no document states where the chip is installed, so it is not placed at the Pasadena site.",
+      "would_need": "AWS statement placing the Ocelot system."
+    },
+    {
+      "topic": "AWS headquarters",
+      "why": "The AWS org's HQ is sourced to an Amazon page about Amazon's Seattle headquarters (parent company); Amazon's 10-K was not reachable.",
+      "would_need": "Amazon 10-K or an AWS page stating AWS's headquarters."
+    },
+    {
+      "topic": "Other superconducting builders (QuantWare, SEEQC, Anyon Systems)",
+      "why": "Not researched in this pass (time budget spent on the five assigned orgs).",
+      "would_need": "A follow-up pass."
+    }
+  ]
+}

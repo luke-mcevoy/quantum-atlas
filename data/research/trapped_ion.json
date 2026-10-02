@@ -230,6 +230,369 @@
       "tier": 2,
       "document_date": "2023-06-08",
       "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-contact",
+      "title": "Contact IonQ",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/contact",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-company",
+      "title": "IonQ company page",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/company",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-superion-pr",
+      "title": "IonQ Launches Superion Product Line: Industry-Leading, Upgradeable Platform Designed to Scale Manufacturable Fault Tolerant Quantum Computing",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-launches-superion-product-line-industry-leading-upgradeable-platform-designed-to-scale-manufacturable-fault-tolerant-quantum-computing",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-08",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-bothell-pr",
+      "title": "IonQ Opens Doors to First Dedicated Quantum Computing Manufacturing Facility in the U.S.",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-opens-doors-to-first-dedicated-quantum-computing-manufacturing-facility",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-02-15",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-accel-roadmap-pr-2024",
+      "title": "IonQ Unveils Accelerated Roadmap and New Technical Milestones to Propel Commercial Quantum Advantage Forward",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-unveils-accelerated-roadmap-and-new-technical-milestones-to-propel",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2024-07-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-europe-aq36-pr",
+      "title": "IonQ Unveils Its First Quantum Computer in Europe, Online Now at a Record #AQ36",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-unveils-its-first-quantum-computer-in-europe-online-now-at-a-record-aq36",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-12-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-fe-tempo-unveil-pr",
+      "title": "IonQ Unveils Forte Enterprise and Tempo, Rack-Mounted Enterprise-Grade Quantum Computers for Today’s Data Center Environments",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-unveils-forte-enterprise-and-tempo-rack-mounted-enterprise-grade",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-09-27",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-forte-aq29-pr",
+      "title": "IonQ Forte Launched For Commercial Use, Making #AQ 29 Available for Customers Worldwide",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-forte-launched-for-commercial-use-making-aq-29-available-for-customers",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-06-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-aq64-pr",
+      "title": "IonQ Achieves Record Breaking Quantum Performance Milestone of #AQ 64",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-achieves-record-breaking-quantum-performance-milestone-of-aq-64",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-analyst-day-2025",
+      "title": "IonQ 2025 Analyst Day presentation",
+      "publisher": "IonQ",
+      "url": "https://s28.q4cdn.com/828571518/files/doc_presentations/2025/Sep/12/IonQ-2025-Analyst-Day-Presentation-2025-09-12-vFinal-Copy.pdf",
+      "doc_type": "investor_presentation",
+      "tier": 2,
+      "document_date": "2025-09-12",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-glossary",
+      "title": "IonQ Quantum Glossary",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/glossary",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-9999-pr",
+      "title": "IonQ Achieves Landmark Result, Setting New World Record in Quantum Computing Performance",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-achieves-landmark-result-setting-new-world-record-in-quantum-computing",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-21",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2510.17286",
+      "title": "Trapped-ion two-qubit gates with >99.99% fidelity without ground-state cooling",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2510.17286",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-10-20",
+      "accessed": "2026-10-01",
+      "arxiv": "2510.17286"
+    },
+    {
+      "id": "src:prxquantum-h4wk-v31j",
+      "title": "Scalable, High-Fidelity All-Electronic Control of Trapped-Ion Qubits (PRX Quantum 6, 040313)",
+      "publisher": "American Physical Society (PRX Quantum)",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/h4wk-v31j/fulltext",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-10-20",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/h4wk-v31j"
+    },
+    {
+      "id": "src:arxiv-2606.06455",
+      "title": "Breakeven demonstration of quantum low-density parity-check codes",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2606.06455",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2026-06-04",
+      "accessed": "2026-10-01",
+      "arxiv": "2606.06455"
+    },
+    {
+      "id": "src:ionq-oi-complete-pr",
+      "title": "IonQ Completes Acquisition of Oxford Ionics, Rapidly Accelerating Its Quantum Computing Roadmap",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-completes-acquisition-of-oxford-ionics-rapidly-accelerating-its-quantum",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-17",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-accel-roadmap-blog-2025",
+      "title": "IonQ's Accelerated Roadmap: Turning Quantum Ambition into Reality",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2025-06-13",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-roadmap-page",
+      "title": "IonQ Roadmap",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/roadmap",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-aria-page",
+      "title": "IonQ Aria",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/quantum-systems/aria",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-forte-page",
+      "title": "IonQ Forte",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/quantum-systems/forte",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-forte-enterprise-page",
+      "title": "IonQ Forte Enterprise",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/quantum-systems/forte-enterprise",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-tempo-page",
+      "title": "IonQ Tempo",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/quantum-systems/tempo",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-harmony-page",
+      "title": "IonQ Harmony",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/quantum-systems/harmony",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-compare-page",
+      "title": "IonQ Compare Quantum Systems",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/quantum-systems/compare",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-q2-2026-pr",
+      "title": "IonQ Announces Record Second Quarter 2026 Revenues, Growing 287% YoY",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/news/ionq-announces-record-second-quarter-2026-revenues-growing-287-yoy",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:harwell-quartet",
+      "title": "Oxford Ionics successfully installs QUARTET, a state-of-the-art quantum computer, at NQCC’s Harwell data centre",
+      "publisher": "Harwell Campus",
+      "url": "https://www.harwellcampus.com/oxford-ionics-successfully-installs-quartet/",
+      "doc_type": "institution_release",
+      "tier": 2,
+      "document_date": "2025-08-14",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:nqcc-testbeds",
+      "title": "Quantum computing testbeds",
+      "publisher": "National Quantum Computing Centre (NQCC)",
+      "url": "https://www.nqcc.ac.uk/quantum-computing-testbeds-in-the-uk/",
+      "doc_type": "institution_release",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-about",
+      "title": "About AQT",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/about/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-contact",
+      "title": "Contact AQT",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/contact/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-marmot",
+      "title": "MARMOT",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/marmot/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-lynx-news",
+      "title": "New “LYNX” Quantum Computer Series with Record-Breaking Quantum Volume",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/lynx-quantum-computer-series/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-lynx-qv32768",
+      "title": "AQT Unveils Highest-Performing Quantum Computer in Europe, with 32768 Quantum Volume",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/solution/quantum-computing-volume-32768/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2026-05-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:lrz-aqt-operational",
+      "title": "Ion-trap quantum computer ready for novel research and development at the LRZ",
+      "publisher": "Leibniz Supercomputing Centre (LRZ)",
+      "url": "https://www.lrz.de/en/news/detail/ion-trap-quantum-computer-ready-for-novel-research-and-development-at-the-lrz",
+      "doc_type": "institution_release",
+      "tier": 2,
+      "document_date": "2024-09-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-lrz-news",
+      "title": "Ion-trap quantum computer ready for novel research and development at the LRZ",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/ion-trap-quantum-computer-ready-for-novel-research-and-development-at-the-lrz/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-09-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-psnc-tender",
+      "title": "AQT was awarded a European tender for a trapped-ion quantum computer, with installation set for 2025",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/aqt-wins-european-tender-for-trapped-ions-quantum-computer-installation-set-for-2025/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-08-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-piast-q",
+      "title": "Inauguration of PIAST-Q – A Leap for European Quantum Computing",
+      "publisher": "Alpine Quantum Technologies (AQT)",
+      "url": "https://www.aqt.eu/inauguration-of-piast-q-a-leap-for-european-quantum-computing/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-25",
+      "accessed": "2026-10-01"
     }
   ],
   "orgs": [
@@ -289,6 +652,215 @@
           "supports": "parent"
         }
       ]
+    },
+    {
+      "id": "co:ionq",
+      "name": "IonQ, Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 38.9897,
+        "lon": -76.9378,
+        "precision": "site",
+        "address": "4505 Campus Drive, College Park, MD 20740, USA"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "tickers": [
+        "NYSE:IONQ"
+      ],
+      "sec_cik": "0001824920",
+      "website": "https://ionq.com",
+      "evidence": [
+        {
+          "source": "src:ionq-contact",
+          "quote": "Our mailing address: IonQ, Inc. 4505 Campus Drive College Park, MD 20740",
+          "locator": "Contact page",
+          "supports": "hq address"
+        },
+        {
+          "source": "src:ionq-company",
+          "quote": "[ Headquartered ] College Park, MD",
+          "locator": "Company facts",
+          "supports": "hq"
+        },
+        {
+          "source": "src:ionq-superion-pr",
+          "quote": "IonQ (NYSE: IONQ)",
+          "locator": "Dateline paragraph",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:ionq-forte-aq29-pr",
+          "quote": "IonQ’s most powerful quantum system, IonQ Forte",
+          "locator": "Subheadline",
+          "supports": "existence, modality (trapped ion per product pages)"
+        },
+        {
+          "source": "src:ionq-forte-page",
+          "quote": "We believe that trapped ions are the best way to produce the high-quality qubits needed to build fault tolerant quantum computers.",
+          "locator": "Product page body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:oxford-ionics",
+      "name": "Oxford Ionics",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.818,
+        "lon": -1.306,
+        "precision": "city",
+        "address": "Oxford OX5 1PF, United Kingdom (as given in author affiliations)"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "parent": "co:ionq",
+      "evidence": [
+        {
+          "source": "src:prxquantum-h4wk-v31j",
+          "quote": "Oxford Ionics, Oxford OX5 1PF, United Kingdom",
+          "locator": "Author affiliations",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:ionq-oi-complete-pr",
+          "quote": "today announced the successful completion of its acquisition of Oxford Ionics, a quantum computing company based in the United Kingdom",
+          "locator": "Lead paragraph (September 17, 2025)",
+          "supports": "parent"
+        },
+        {
+          "source": "src:harwell-quartet",
+          "quote": "QUARTET is a full-stack, trapped-ion quantum computer that leverages Oxford Ionics’ proprietary Electronic Qubit technology, which uses electronics instead of lasers to control its qubits.",
+          "locator": "Body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "gov:gb-nqcc",
+      "name": "National Quantum Computing Centre (NQCC)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.574,
+        "lon": -1.316,
+        "precision": "site",
+        "address": "Harwell Campus, Oxfordshire, United Kingdom"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:harwell-quartet",
+          "quote": "Oxford Ionics successfully installs QUARTET, a state-of-the-art quantum computer, at NQCC’s Harwell data centre",
+          "locator": "Headline",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:harwell-quartet",
+          "quote": "The NQCC is the UK’s national laboratory for quantum computing",
+          "locator": "Body",
+          "supports": "kind"
+        }
+      ]
+    },
+    {
+      "id": "co:aqt",
+      "name": "Alpine Quantum Technologies (AQT)",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "AT",
+      "hq": {
+        "lat": 47.2643,
+        "lon": 11.3446,
+        "precision": "site",
+        "address": "Technikerstrasse 17/1, 6020 Innsbruck, Austria"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "website": "https://www.aqt.eu",
+      "evidence": [
+        {
+          "source": "src:aqt-contact",
+          "quote": "Alpine Quantum Technologies GmbH Technikerstrasse 17 / 1 · 6020 Innsbruck · Austria",
+          "locator": "Page footer",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:aqt-about",
+          "quote": "Alpine Quantum Technologies GmbH was founded in February, 2018 by Prof. Rainer Blatt, Dr. Thomas Monz and Prof. Peter Zoller. AQT is developing the first general-purpose quantum computer based on trapped ions.",
+          "locator": "AQT Milestones",
+          "supports": "existence, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:lrz",
+      "name": "Leibniz Supercomputing Centre (LRZ)",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "DE",
+      "hq": {
+        "lat": 48.2626,
+        "lon": 11.6679,
+        "precision": "site",
+        "address": "Boltzmannstraße 1, 85748 Garching, Germany"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:lrz-aqt-operational",
+          "quote": "Leibniz Supercomputing Center of the Bavarian Academy of Sciences Boltzmannstraße 1 85748 Garching - Germany",
+          "locator": "Page footer",
+          "supports": "existence, hq"
+        }
+      ]
+    },
+    {
+      "id": "co:pcss",
+      "name": "Poznań Supercomputing and Networking Center (PCSS / PSNC)",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "PL",
+      "hq": {
+        "lat": 52.4064,
+        "lon": 16.9252,
+        "precision": "city",
+        "address": "Poznań, Poland"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "The inauguration ceremony was hosted by the Poznańskie Centrum Superkomputerowo-Sieciowe (PCSS) in Poland.",
+          "locator": "Body",
+          "supports": "existence"
+        },
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "EuroHPC JU inaugurated PIAST-Q in Poznań (Poland)",
+          "locator": "Body",
+          "supports": "hq (city)"
+        }
+      ]
     }
   ],
   "sites": [
@@ -345,6 +917,190 @@
           "quote": "Cambridge, United Kingdom Terrington House 13-15 Hills Road Cambridge CB2 1NL",
           "locator": "Office locations list",
           "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:ionq-college-park",
+      "name": "IonQ headquarters and quantum data center, College Park, Maryland",
+      "operator": "co:ionq",
+      "kind": "headquarters",
+      "location": {
+        "lat": 38.9897,
+        "lon": -76.9378,
+        "precision": "site",
+        "address": "4505 Campus Drive, College Park, MD 20740, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ionq-contact",
+          "quote": "Our mailing address: IonQ, Inc. 4505 Campus Drive College Park, MD 20740",
+          "locator": "Contact page",
+          "supports": "location"
+        },
+        {
+          "source": "src:ionq-accel-roadmap-pr-2024",
+          "quote": "Currently, IonQ operates two quantum data centers—one at its headquarters in College Park, Maryland, and another in Seattle, Washington",
+          "locator": "Enterprise-Grade section (July 2024)",
+          "supports": "existence, kind"
+        }
+      ]
+    },
+    {
+      "id": "site:ionq-bothell",
+      "name": "IonQ manufacturing facility and quantum data center, Bothell, Washington",
+      "operator": "co:ionq",
+      "kind": "manufacturing",
+      "location": {
+        "lat": 47.7601,
+        "lon": -122.2054,
+        "precision": "city",
+        "address": "Bothell, Washington, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ionq-bothell-pr",
+          "quote": "today announced the opening of the United States’ first quantum computing manufacturing facility, located in Bothell, Washington, a suburb of Seattle.",
+          "locator": "Lead paragraph (February 15, 2024)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:ionq-bothell-pr",
+          "quote": "The facility will be IonQ’s second quantum data center providing cloud access to IonQ customers, and the primary production engineering location in the U.S.",
+          "locator": "Body",
+          "supports": "kind"
+        }
+      ]
+    },
+    {
+      "id": "site:ionq-arlesheim-uptownbasel",
+      "name": "IonQ European Innovation Center, uptownBasel campus, Arlesheim",
+      "operator": "co:ionq",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 47.4943,
+        "lon": 7.62,
+        "precision": "site",
+        "address": "uptownBasel campus, Arlesheim, Switzerland"
+      },
+      "country": "CH",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:ionq-europe-aq36-pr",
+          "quote": "today announced the delivery of IonQ Forte Enterprise to its first European Innovation Center at the uptownBasel campus in Arlesheim, Switzerland",
+          "locator": "Lead paragraph (December 5, 2024)",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:nqcc-harwell",
+      "name": "NQCC Harwell data centre",
+      "operator": "gov:gb-nqcc",
+      "kind": "datacenter",
+      "location": {
+        "lat": 51.574,
+        "lon": -1.316,
+        "precision": "site",
+        "address": "Harwell Campus, Oxfordshire, United Kingdom"
+      },
+      "country": "GB",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:harwell-quartet",
+          "quote": "Oxford Ionics successfully installs QUARTET, a state-of-the-art quantum computer, at NQCC’s Harwell data centre",
+          "locator": "Headline (August 14, 2025)",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:aqt-innsbruck",
+      "name": "AQT headquarters and Experience Center, Innsbruck",
+      "operator": "co:aqt",
+      "kind": "headquarters",
+      "location": {
+        "lat": 47.2643,
+        "lon": 11.3446,
+        "precision": "site",
+        "address": "Technikerstrasse 17/1 (HQ) and Technikerstrasse 1-3 (Experience Center), 6020 Innsbruck, Austria"
+      },
+      "country": "AT",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:aqt-contact",
+          "quote": "Alpine Quantum Technologies GmbH Technikerstrasse 17 / 1 · 6020 Innsbruck · Austria",
+          "locator": "Page footer",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:aqt-contact",
+          "quote": "AQT Experience Center Technikerstrasse 1-3 6020 Innsbruck, Austria",
+          "locator": "Contact block",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:lrz-garching",
+      "name": "Leibniz Supercomputing Centre (LRZ), Quantum Integration Centre, Garching",
+      "operator": "co:lrz",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 48.2626,
+        "lon": 11.6679,
+        "precision": "site",
+        "address": "Boltzmannstraße 1, 85748 Garching, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:lrz-aqt-operational",
+          "quote": "The AQT quantum computer, featuring 20 qubits based on trapped-ion technology, is now operational at LRZ's Quantum Integration Centre (QIC)",
+          "locator": "Lead",
+          "supports": "existence"
+        },
+        {
+          "source": "src:lrz-aqt-operational",
+          "quote": "Leibniz Supercomputing Center of the Bavarian Academy of Sciences Boltzmannstraße 1 85748 Garching - Germany",
+          "locator": "Page footer",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:pcss-poznan",
+      "name": "Poznań Supercomputing and Networking Center (PCSS), Poznań",
+      "operator": "co:pcss",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 52.4064,
+        "lon": 16.9252,
+        "precision": "city",
+        "address": "Poznań, Poland"
+      },
+      "country": "PL",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "EuroHPC JU inaugurated PIAST-Q in Poznań (Poland)",
+          "locator": "Body (June 25, 2025)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "PIAST-Q is a laser-based trapped-ion quantum computer, hosted and operated by PCSS and supplied by AQT in Innsbruck, Austria",
+          "locator": "Body",
+          "supports": "kind, operator"
         }
       ]
     }
@@ -564,6 +1320,483 @@
           "quote": "Helios features $^{137}$Ba$^{+}$ hyperfine qubits, all-to-all connectivity enabled by a rotatable ion storage ring connecting two quantum operation regions by a junction",
           "locator": "Abstract",
           "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "sys:ionq-harmony",
+      "name": "IonQ Harmony",
+      "operator": "co:ionq",
+      "modality": "trapped_ion",
+      "status": "retired",
+      "retired": "2024",
+      "evidence": [
+        {
+          "source": "src:ionq-harmony-page",
+          "quote": "IonQ Harmony Retired in 2024",
+          "locator": "Product page header",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:ionq-harmony-page",
+          "quote": "IonQ Harmony was our first commercially available quantum computer",
+          "locator": "Product page header",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "sys:ionq-aria",
+      "name": "IonQ Aria",
+      "operator": "co:ionq",
+      "modality": "trapped_ion",
+      "status": "retired",
+      "retired": "2026",
+      "metrics": [
+        {
+          "name": "algorithmic qubits (#AQ)",
+          "value": 25,
+          "unit": "#AQ",
+          "definition": "IonQ algorithmic qubits (#AQ): IonQ describes #AQ as \"the number of useful qubits in a system\", defined \"based on QED-C benchmarking\" and measuring a system’s ability to run algorithms of increasing size and complexity at high fidelity. Vendor-specific metric; not comparable across vendors.",
+          "as_of": "2023-06-22",
+          "evidence": [
+            {
+              "source": "src:ionq-forte-aq29-pr",
+              "quote": "alongside IonQ Aria (#AQ 25)",
+              "locator": "Body",
+              "supports": "metric"
+            },
+            {
+              "source": "src:ionq-glossary",
+              "quote": "We use the Algorithmic Qubit metric as a way to describe the number of “useful” qubits in a system.",
+              "locator": "Glossary: Algorithmic Qubit",
+              "supports": "metric definition"
+            },
+            {
+              "source": "src:ionq-analyst-day-2025",
+              "quote": "Defining #AQ based on QED-C benchmarking",
+              "locator": "Slide \"Algorithmic Qubits Explained\"",
+              "supports": "metric definition"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-aria-page",
+          "quote": "IonQ Aria Retired in 2026",
+          "locator": "Product page header",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:ionq-forte",
+      "name": "IonQ Forte",
+      "operator": "co:ionq",
+      "modality": "trapped_ion",
+      "status": "online",
+      "online_since": "2022",
+      "physical_qubits": {
+        "value": 36,
+        "as_of": "2026-10",
+        "note": "as listed on the current product and comparison pages",
+        "evidence": [
+          {
+            "source": "src:ionq-forte-page",
+            "quote": "With 36 qubits, Forte represents IonQ’s largest single core quantum processor",
+            "locator": "Product page",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity",
+          "value": 99.6,
+          "unit": "%",
+          "definition": "\"2QG fidelity\" as listed in IonQ’s product comparison table for IonQ Forte; the table does not state averaging or date",
+          "as_of": "2026-10",
+          "evidence": [
+            {
+              "source": "src:ionq-compare-page",
+              "quote": "Check products IonQ Forte 36 99.6% 99.98% All-to-all First gen Acoustic-optic deflector",
+              "locator": "Product comparison table",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-forte-page",
+          "quote": "IonQ Forte Available since 2022",
+          "locator": "Product page header",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:ionq-forte-aq29-pr",
+          "quote": "First made available in 2022 through limited access to select partners",
+          "locator": "Body",
+          "supports": "online_since"
+        }
+      ]
+    },
+    {
+      "id": "sys:ionq-forte-enterprise-quantumbasel",
+      "name": "IonQ Forte Enterprise (QuantumBasel, Arlesheim)",
+      "operator": "co:ionq",
+      "modality": "trapped_ion",
+      "status": "online",
+      "site": "site:ionq-arlesheim-uptownbasel",
+      "online_since": "2024-12-05",
+      "metrics": [
+        {
+          "name": "algorithmic qubits (#AQ)",
+          "value": 36,
+          "unit": "#AQ",
+          "definition": "IonQ algorithmic qubits (#AQ): IonQ describes #AQ as \"the number of useful qubits in a system\", defined \"based on QED-C benchmarking\" and measuring a system’s ability to run algorithms of increasing size and complexity at high fidelity. Vendor-specific metric; not comparable across vendors. Value stated for this installed Forte Enterprise unit at commissioning.",
+          "as_of": "2024-12-05",
+          "evidence": [
+            {
+              "source": "src:ionq-europe-aq36-pr",
+              "quote": "Forte Enterprise is now online servicing compute jobs while performing at a record algorithmic qubit count of #AQ36",
+              "locator": "Body",
+              "supports": "metric"
+            },
+            {
+              "source": "src:ionq-glossary",
+              "quote": "We use the Algorithmic Qubit metric as a way to describe the number of “useful” qubits in a system.",
+              "locator": "Glossary: Algorithmic Qubit",
+              "supports": "metric definition"
+            },
+            {
+              "source": "src:ionq-analyst-day-2025",
+              "quote": "Defining #AQ based on QED-C benchmarking",
+              "locator": "Slide \"Algorithmic Qubits Explained\"",
+              "supports": "metric definition"
+            }
+          ]
+        }
+      ],
+      "physical_qubits": {
+        "value": 36,
+        "as_of": "2026-10",
+        "note": "qubit count of the Forte Enterprise product line as listed on IonQ’s product page, not a measurement of this specific unit",
+        "evidence": [
+          {
+            "source": "src:ionq-forte-enterprise-page",
+            "quote": "Our rack mountable, on-prem system for production readiness and hybrid workflows with #AQ 36 and 36 qubits",
+            "locator": "Product page footer card",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-europe-aq36-pr",
+          "quote": "today announced the delivery of IonQ Forte Enterprise to its first European Innovation Center at the uptownBasel campus in Arlesheim, Switzerland",
+          "locator": "Lead paragraph",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:ionq-europe-aq36-pr",
+          "quote": "Forte Enterprise is now online servicing compute jobs",
+          "locator": "Body",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:ionq-tempo",
+      "name": "IonQ Tempo",
+      "operator": "co:ionq",
+      "modality": "trapped_ion",
+      "status": "online",
+      "announced": "2023-09-27",
+      "metrics": [
+        {
+          "name": "algorithmic qubits (#AQ)",
+          "value": 64,
+          "unit": "#AQ",
+          "definition": "IonQ algorithmic qubits (#AQ): IonQ describes #AQ as \"the number of useful qubits in a system\", defined \"based on QED-C benchmarking\" and measuring a system’s ability to run algorithms of increasing size and complexity at high fidelity. Vendor-specific metric; not comparable across vendors. IonQ states #AQ 64 was achieved \"on an IonQ Tempo system\"; its Analyst Day deck labels the system a Tempo prototype.",
+          "as_of": "2025-09-25",
+          "evidence": [
+            {
+              "source": "src:ionq-aq64-pr",
+              "quote": "This milestone was achieved on an IonQ Tempo system, three months ahead of schedule",
+              "locator": "Lead paragraph",
+              "supports": "metric"
+            },
+            {
+              "source": "src:ionq-analyst-day-2025",
+              "quote": "IonQ (Tempo Prototype)",
+              "locator": "Slide \"Algorithm Qubit Comparisons\"",
+              "supports": "metric context"
+            },
+            {
+              "source": "src:ionq-glossary",
+              "quote": "We use the Algorithmic Qubit metric as a way to describe the number of “useful” qubits in a system.",
+              "locator": "Glossary: Algorithmic Qubit",
+              "supports": "metric definition"
+            },
+            {
+              "source": "src:ionq-analyst-day-2025",
+              "quote": "Defining #AQ based on QED-C benchmarking",
+              "locator": "Slide \"Algorithmic Qubits Explained\"",
+              "supports": "metric definition"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-fe-tempo-unveil-pr",
+          "quote": "today unveiled two new systems that aim to arm enterprises with the right hardware for achieving commercial advantage: IonQ Forte Enterprise and IonQ Tempo",
+          "locator": "Lead paragraph (September 27, 2023)",
+          "supports": "existence, announced"
+        },
+        {
+          "source": "src:ionq-q2-2026-pr",
+          "quote": "driven by global deployments of our IonQ Tempo quantum computers",
+          "locator": "CFO quote (August 2026)",
+          "supports": "status"
+        },
+        {
+          "source": "src:ionq-superion-pr",
+          "quote": "IonQ has deployed five generations of quantum computers to customers since 2019, most recently IonQ Tempo.",
+          "locator": "Body (September 8, 2026)",
+          "supports": "status"
+        },
+        {
+          "source": "src:ionq-tempo-page",
+          "quote": "100 Target qubits",
+          "locator": "Product page (qubit count shown as a target)",
+          "supports": "qubits (target, not recorded as a figure)"
+        }
+      ]
+    },
+    {
+      "id": "sys:ionq-superion-256",
+      "name": "IonQ Superion 256",
+      "operator": "co:ionq",
+      "modality": "trapped_ion",
+      "submodality": "microwave_or_electronic_gates",
+      "status": "announced",
+      "announced": "2026-09-08",
+      "evidence": [
+        {
+          "source": "src:ionq-superion-pr",
+          "quote": "today announced IonQ Superion 256, its sixth-generation quantum computing platform",
+          "locator": "Lead paragraph",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:ionq-superion-pr",
+          "quote": "Powering the system is IonQ's Electronic Qubit Control (EQC), which controls trapped-ion qubits with electronics integrated on the chip rather than with laser systems.",
+          "locator": "Body",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:oxford-ionics-quartet",
+      "name": "QUARTET",
+      "operator": "co:oxford-ionics",
+      "modality": "trapped_ion",
+      "submodality": "microwave_or_electronic_gates",
+      "status": "online",
+      "site": "site:nqcc-harwell",
+      "online_since": "2025-08-14",
+      "evidence": [
+        {
+          "source": "src:harwell-quartet",
+          "quote": "today announced that it has delivered and installed a full-stack quantum computer, called QUARTET (QUantum Advantage-Ready Trapped-ion Exploration Testbed), to the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Body (August 14, 2025)",
+          "supports": "existence, status, location"
+        },
+        {
+          "source": "src:harwell-quartet",
+          "quote": "QUARTET is a full-stack, trapped-ion quantum computer that leverages Oxford Ionics’ proprietary Electronic Qubit technology, which uses electronics instead of lasers to control its qubits.",
+          "locator": "Body",
+          "supports": "submodality"
+        },
+        {
+          "source": "src:nqcc-testbeds",
+          "quote": "Oxford Ionics has successfully installed QUARTET (QUantum Advantage-Ready Trapped-ion Exploration Testbed), a state-of-the-art quantum computer, at the NQCC’s Harwell data centre.",
+          "locator": "News list",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "sys:aqt-marmot",
+      "name": "MARMOT",
+      "operator": "co:aqt",
+      "modality": "trapped_ion",
+      "status": "online",
+      "physical_qubits": {
+        "value": 20,
+        "as_of": "2026-10",
+        "note": "as listed on the current product page",
+        "evidence": [
+          {
+            "source": "src:aqt-marmot",
+            "quote": "20 fully connected qubits",
+            "locator": "Key specifications",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "quantum volume",
+          "value": 128,
+          "unit": "",
+          "definition": "Quantum volume 2^7 measured \"on a 7-qubit register\", as listed on AQT’s MARMOT product page; date not stated",
+          "as_of": "2026-10",
+          "evidence": [
+            {
+              "source": "src:aqt-marmot",
+              "quote": "128 = 2 7 quantum volume on a 7-qubit register",
+              "locator": "Key specifications",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "two-qubit gate fidelity",
+          "value": 98.47,
+          "unit": "%",
+          "definition": "(98.47 +/- 0.3)% two-qubit gate fidelity \"over all pairs on an 11-qubit register\", as listed on the MARMOT product page; date and benchmarking method not stated",
+          "as_of": "2026-10",
+          "evidence": [
+            {
+              "source": "src:aqt-marmot",
+              "quote": "(98,47 +/- 0,3) % two-qubit gate fidelity over all pairs on an 11-qubit register",
+              "locator": "Key specifications",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:aqt-marmot",
+          "quote": "MARMOT The first commercial 19-inch rack-mounted quantum computer",
+          "locator": "Product page header",
+          "supports": "existence"
+        },
+        {
+          "source": "src:aqt-marmot",
+          "quote": "The MARMOT system has already been used to investigate quantum benefits",
+          "locator": "Product page",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:aqt-lynx",
+      "name": "LYNX",
+      "operator": "co:aqt",
+      "modality": "trapped_ion",
+      "status": "online",
+      "announced": "2026-05-05",
+      "metrics": [
+        {
+          "name": "quantum volume",
+          "value": 32768,
+          "unit": "",
+          "definition": "Quantum volume 2^15, AQT states the LYNX system \"passes Quantum Volume tests with up to 15 qubits\" using the QV protocol originally proposed by IBM",
+          "as_of": "2026-05-05",
+          "evidence": [
+            {
+              "source": "src:aqt-lynx-qv32768",
+              "quote": "The new generation of quantum computing systems from AQT successfully passes Quantum Volume tests with up to 15 qubits. AQT LYNX achieves a Quantum Volume of 2^15 = 32768",
+              "locator": "Body",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:aqt-lynx-news",
+          "quote": "AQT’s unveils the LYNX Series, a new generation of 19-inch rack-mounted quantum computers that has officially achieved a record-breaking Quantum Volume (QV) of 32768.",
+          "locator": "Body (May 5, 2026)",
+          "supports": "existence"
+        },
+        {
+          "source": "src:aqt-lynx-news",
+          "quote": "Cloud readiness will soon be available",
+          "locator": "Body",
+          "supports": "status (cloud access not yet available)"
+        }
+      ]
+    },
+    {
+      "id": "sys:aqt-lrz-20q",
+      "name": "AQT 20-qubit trapped-ion system at LRZ",
+      "operator": "co:lrz",
+      "modality": "trapped_ion",
+      "submodality": "optical_gates",
+      "status": "online",
+      "site": "site:lrz-garching",
+      "online_since": "2024-09-25",
+      "physical_qubits": {
+        "value": 20,
+        "as_of": "2024-09-25",
+        "evidence": [
+          {
+            "source": "src:lrz-aqt-operational",
+            "quote": "The system is based on trapped-ion technology and computes with 20 qubits.",
+            "locator": "Body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:lrz-aqt-operational",
+          "quote": "The AQT quantum computer, featuring 20 qubits based on trapped-ion technology, is now operational at LRZ's Quantum Integration Centre (QIC)",
+          "locator": "Lead",
+          "supports": "existence, status, location"
+        },
+        {
+          "source": "src:lrz-aqt-operational",
+          "quote": "It operates on the basis of electrically charged atoms (ions) whose quantum states are controlled by laser beams.",
+          "locator": "Body",
+          "supports": "submodality"
+        },
+        {
+          "source": "src:aqt-lrz-news",
+          "quote": "After the delivery in December 2023 and set up within a few months",
+          "locator": "CEO statement",
+          "supports": "history"
+        }
+      ]
+    },
+    {
+      "id": "sys:pcss-piast-q",
+      "name": "PIAST-Q",
+      "operator": "co:pcss",
+      "modality": "trapped_ion",
+      "submodality": "optical_gates",
+      "status": "online",
+      "site": "site:pcss-poznan",
+      "online_since": "2025-06-25",
+      "evidence": [
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "PIAST-Q is a laser-based trapped-ion quantum computer, hosted and operated by PCSS and supplied by AQT in Innsbruck, Austria",
+          "locator": "Body (June 25, 2025)",
+          "supports": "existence, location, submodality"
+        },
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "EuroHPC JU inaugurated PIAST-Q in Poznań (Poland)",
+          "locator": "Body",
+          "supports": "status"
         }
       ]
     }
@@ -821,6 +2054,304 @@
           "supports": "claim"
         }
       ]
+    },
+    {
+      "id": "ms:ionq-forte-enterprise-basel-aq36",
+      "orgs": [
+        "co:ionq"
+      ],
+      "systems": [
+        "sys:ionq-forte-enterprise-quantumbasel"
+      ],
+      "date": "2024-12-05",
+      "category": "system_launch",
+      "claim": "IonQ delivered a Forte Enterprise system to the uptownBasel campus in Arlesheim, Switzerland, and states it is online at #AQ36, an IonQ-defined benchmark.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ionq-europe-aq36-pr",
+          "quote": "today announced the delivery of IonQ Forte Enterprise to its first European Innovation Center at the uptownBasel campus in Arlesheim, Switzerland",
+          "locator": "Lead paragraph",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ionq-europe-aq36-pr",
+          "quote": "Forte Enterprise is now online servicing compute jobs while performing at a record algorithmic qubit count of #AQ36",
+          "locator": "Body",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:ionq-tempo-aq64",
+      "orgs": [
+        "co:ionq"
+      ],
+      "systems": [
+        "sys:ionq-tempo"
+      ],
+      "date": "2025-09-25",
+      "category": "other",
+      "claim": "IonQ reports an algorithmic qubit score of #AQ 64, an IonQ-defined benchmark, on an IonQ Tempo system, which its Analyst Day deck labels a Tempo prototype.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ionq-aq64-pr",
+          "quote": "today announced it has achieved a record algorithmic qubit score of #AQ 64. This milestone was achieved on an IonQ Tempo system",
+          "locator": "Lead paragraph",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ionq-analyst-day-2025",
+          "quote": "IonQ (Tempo Prototype)",
+          "locator": "Slide \"Algorithm Qubit Comparisons\"",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:oxford-ionics-electronic-gates-9997",
+      "orgs": [
+        "co:oxford-ionics"
+      ],
+      "date": "2024-07-10",
+      "category": "fidelity",
+      "claim": "Oxford Ionics reports electronically controlled two-qubit maximally entangled states with 99.97(1)% fidelity and single-qubit gates with fidelities of at least 99.99912(8)% in a seven-zone ion trap, published in PRX Quantum.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/h4wk-v31j",
+      "arxiv": "2407.07694",
+      "evidence": [
+        {
+          "source": "src:prxquantum-h4wk-v31j",
+          "quote": "We also electronically generate two-qubit maximally entangled states with 99.97(1)%",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:prxquantum-h4wk-v31j",
+          "quote": "site-selective single- and two-qubit gates in a seven-zone ion trap",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:prxquantum-h4wk-v31j",
+          "quote": "gates with ﬁdelities ≥99.99912(8)%",
+          "locator": "Abstract",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:ionq-eqc-two-qubit-9999",
+      "orgs": [
+        "co:ionq",
+        "co:oxford-ionics"
+      ],
+      "date": "2025-10-21",
+      "category": "fidelity",
+      "claim": "Researchers at Oxford Ionics (an IonQ company) report electronically controlled two-qubit gates with an estimated error of 8.4(7)x10^-5 without ground-state cooling, on R&D prototypes; IonQ describes this as 99.99% two-qubit gate performance.",
+      "peer_review": "preprint",
+      "arxiv": "2510.17286",
+      "evidence": [
+        {
+          "source": "src:arxiv-2510.17286",
+          "quote": "We demonstrate the power of this technique by performing electronically controlled two-qubit gates with an estimated error of 8.4(7) × 10−5 without the use of ground-state cooling.",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2510.17286",
+          "quote": "Oxford Ionics (an IonQ company), Oxford, OX5 1PF, UK",
+          "locator": "Author affiliations",
+          "supports": "orgs"
+        },
+        {
+          "source": "src:ionq-9999-pr",
+          "quote": "today released the technical papers that demonstrate 99.99% two-qubit gate performance",
+          "locator": "Lead paragraph",
+          "supports": "date, claim"
+        },
+        {
+          "source": "src:ionq-9999-pr",
+          "quote": "IonQ’s qubit performance result was achieved using prototypes in its R&D labs",
+          "locator": "Body",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:oxford-ionics-quartet-installed",
+      "orgs": [
+        "co:oxford-ionics"
+      ],
+      "systems": [
+        "sys:oxford-ionics-quartet"
+      ],
+      "date": "2025-08-14",
+      "category": "system_launch",
+      "claim": "Oxford Ionics installed QUARTET, a full-stack trapped-ion testbed using electronic qubit control, at the NQCC’s Harwell data centre.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:harwell-quartet",
+          "quote": "today announced that it has delivered and installed a full-stack quantum computer, called QUARTET (QUantum Advantage-Ready Trapped-ion Exploration Testbed), to the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:harwell-quartet",
+          "quote": "QUARTET is a full-stack, trapped-ion quantum computer that leverages Oxford Ionics’ proprietary Electronic Qubit technology, which uses electronics instead of lasers to control its qubits.",
+          "locator": "Body",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:ionq-qldpc-codes-breakeven",
+      "orgs": [
+        "co:ionq"
+      ],
+      "date": "2026-06-04",
+      "category": "error_correction",
+      "claim": "An IonQ preprint reports several quantum error-correcting codes run on one trapped-ion device without hardware reconfiguration, including a qLDPC code “encoding 4 logical qubits into 18 physical qubits”, and states that some instances reached “breakeven performance”.",
+      "peer_review": "preprint",
+      "arxiv": "2606.06455",
+      "evidence": [
+        {
+          "source": "src:arxiv-2606.06455",
+          "quote": "with starkly different qubit connectivity requirements on a single device without any hardware reconfiguration",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2606.06455",
+          "quote": "code encoding 4 logical qubits into 18 physical qubits",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2606.06455",
+          "quote": "our implementation exhibits breakeven performance",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2606.06455",
+          "quote": "IonQ, Inc.",
+          "locator": "Author affiliations",
+          "supports": "orgs"
+        }
+      ]
+    },
+    {
+      "id": "ms:ionq-superion-first-ions",
+      "orgs": [
+        "co:ionq"
+      ],
+      "systems": [
+        "sys:ionq-superion-256"
+      ],
+      "date": "2026-09-08",
+      "category": "manufacturing",
+      "claim": "IonQ reports fabricating its first fully integrated 256-qubit QPUs at its subsidiary SkyWater and trapping the first ions in prototype Superion 256 systems.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ionq-superion-pr",
+          "quote": "IonQ has fabricated its first fully integrated 256-qubit quantum processing units (QPUs) at its subsidiary SkyWater.",
+          "locator": "Body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:ionq-superion-pr",
+          "quote": "IonQ has trapped the first ions in prototype Superion 256 systems now being built in parallel at multiple IonQ facilities across the U.S.",
+          "locator": "Body",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:aqt-lrz-system-operational",
+      "orgs": [
+        "co:aqt",
+        "co:lrz"
+      ],
+      "systems": [
+        "sys:aqt-lrz-20q"
+      ],
+      "date": "2024-09-25",
+      "category": "system_launch",
+      "claim": "A 20-qubit AQT trapped-ion system, delivered in December 2023, became operational at LRZ’s Quantum Integration Centre in Garching.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:lrz-aqt-operational",
+          "quote": "The AQT quantum computer, featuring 20 qubits based on trapped-ion technology, is now operational at LRZ's Quantum Integration Centre (QIC)",
+          "locator": "Lead",
+          "supports": "claim"
+        },
+        {
+          "source": "src:aqt-lrz-news",
+          "quote": "After the delivery in December 2023 and set up within a few months",
+          "locator": "CEO statement",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:aqt-piast-q-inaugurated",
+      "orgs": [
+        "co:aqt",
+        "co:pcss"
+      ],
+      "systems": [
+        "sys:pcss-piast-q"
+      ],
+      "date": "2025-06-25",
+      "category": "system_launch",
+      "claim": "EuroHPC JU inaugurated PIAST-Q, a laser-based trapped-ion quantum computer supplied by AQT and operated by PCSS in Poznań.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "EuroHPC JU inaugurated PIAST-Q in Poznań (Poland)",
+          "locator": "Body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:aqt-piast-q",
+          "quote": "PIAST-Q is a laser-based trapped-ion quantum computer, hosted and operated by PCSS and supplied by AQT in Innsbruck, Austria",
+          "locator": "Body",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:aqt-lynx-qv-32768",
+      "orgs": [
+        "co:aqt"
+      ],
+      "systems": [
+        "sys:aqt-lynx"
+      ],
+      "date": "2026-05-05",
+      "category": "other",
+      "claim": "AQT reports that its LYNX system passed the quantum volume test at 2^15 = 32768 using up to 15 qubits.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:aqt-lynx-qv32768",
+          "quote": "The new generation of quantum computing systems from AQT successfully passes Quantum Volume tests with up to 15 qubits. AQT LYNX achieves a Quantum Volume of 2^15 = 32768",
+          "locator": "Body",
+          "supports": "claim"
+        },
+        {
+          "source": "src:aqt-lynx-news",
+          "quote": "achieved a record-breaking Quantum Volume (QV) of 32768",
+          "locator": "Body (May 5, 2026)",
+          "supports": "date"
+        }
+      ]
     }
   ],
   "targets": [
@@ -936,6 +2467,160 @@
           "supports": "statement, date"
         }
       ]
+    },
+    {
+      "id": "tgt:ionq-2m-qubits-2030",
+      "org": "co:ionq",
+      "target_date": "2030",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "statement": "IonQ targets a system with over 2,000,000 physical qubits, which it says will translate to between 40,000 and 80,000 “logical qubits”, by 2030.",
+      "evidence": [
+        {
+          "source": "src:ionq-accel-roadmap-blog-2025",
+          "quote": "By 2030: Our rapidly scalable architecture will enable a system with over 2,000,000 physical qubits. These will translate to between 40,000 and 80,000 logical qubits.",
+          "locator": "Roadmap Highlights",
+          "supports": "statement, date"
+        },
+        {
+          "source": "src:ionq-roadmap-page",
+          "quote": "IonQ is delivering the world’s most powerful quantum computers with 2 million physical qubits and 80,000 logical qubits by 2030",
+          "locator": "Roadmap page (undated; retrieved 2026-10-01)",
+          "supports": "restatement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-10k-qubits-2027",
+      "org": "co:ionq",
+      "system_name": "Superion 10K",
+      "target_date": "2027",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "statement": "IonQ targets 10,000 physical qubits on a single chip by 2027.",
+      "evidence": [
+        {
+          "source": "src:ionq-accel-roadmap-blog-2025",
+          "quote": "2027: 10,000 physical qubits on a single chip.",
+          "locator": "Roadmap Highlights",
+          "supports": "statement, date"
+        },
+        {
+          "source": "src:ionq-roadmap-page",
+          "quote": "2027 10,000 physical qubits",
+          "locator": "Roadmap table (undated; retrieved 2026-10-01)",
+          "supports": "restatement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-20k-qubits-2028",
+      "org": "co:ionq",
+      "target_date": "2028",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "statement": "IonQ targets two interconnected chips totalling 20,000 physical qubits in one system by 2028.",
+      "evidence": [
+        {
+          "source": "src:ionq-accel-roadmap-blog-2025",
+          "quote": "2028: Two interconnected chips for a total of 20,000 physical qubits in one system, with networking capabilities coming online.",
+          "locator": "Roadmap Highlights",
+          "supports": "statement, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-256-qubit-demo-2026",
+      "org": "co:ionq",
+      "system": "sys:ionq-superion-256",
+      "system_name": "256-qubit system",
+      "target_date": "2026",
+      "stated_on": "2025-10-21",
+      "status": "open",
+      "statement": "IonQ targets demonstrating 256-qubit systems based on its Electronic Qubit Control prototypes by 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-9999-pr",
+          "quote": "which will form the basis for its 256-qubit systems that will be demonstrated in 2026",
+          "locator": "Body",
+          "supports": "statement, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-superion-256-deliveries-2027",
+      "org": "co:ionq",
+      "system": "sys:ionq-superion-256",
+      "system_name": "Superion 256",
+      "target_date": "2027",
+      "stated_on": "2026-09-08",
+      "status": "open",
+      "statement": "IonQ targets customer deliveries of Superion 256 by 2027.",
+      "evidence": [
+        {
+          "source": "src:ionq-superion-pr",
+          "quote": "Superion 256 is available to order now, with customer deliveries in 2027.",
+          "locator": "Body",
+          "supports": "statement, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-logical-2q-five-nines-2025",
+      "org": "co:ionq",
+      "target_date": "2025-12",
+      "stated_on": "2024-07-22",
+      "status": "open",
+      "statement": "IonQ targets 99.999% logical two-qubit gate fidelity by the end of 2025.",
+      "evidence": [
+        {
+          "source": "src:ionq-accel-roadmap-pr-2024",
+          "quote": "IonQ expects to reach five 9’s (99.999%) in logical two-qubit gate fidelity by the end of 2025",
+          "locator": "Performance section",
+          "supports": "statement, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-native-2q-three-nines-2025",
+      "org": "co:ionq",
+      "target_date": "2025",
+      "stated_on": "2024-07-22",
+      "status": "open",
+      "statement": "IonQ targets native two-qubit gate fidelity above 99.9% in 2025.",
+      "evidence": [
+        {
+          "source": "src:ionq-accel-roadmap-pr-2024",
+          "quote": "IonQ is driving to improve native two-qubit gate performance to greater than three 9’s (>99.9%) in 2025",
+          "locator": "Performance section",
+          "supports": "statement, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:aqt-psnc-installation-2025",
+      "org": "co:aqt",
+      "system": "sys:pcss-piast-q",
+      "system_name": "EuroQCS-Poland",
+      "target_date": "2025",
+      "stated_on": "2024-08-30",
+      "status": "met",
+      "met_by": "ms:aqt-piast-q-inaugurated",
+      "statement": "AQT targets beginning installation of a trapped-ion quantum computer at the Poznan Supercomputing and Networking Center by 2025.",
+      "evidence": [
+        {
+          "source": "src:aqt-psnc-tender",
+          "quote": "AQT is delivering a quantum computer to the Poznan Supercomputing and Networking Center (PSNC) in Poland.",
+          "locator": "Body",
+          "supports": "statement"
+        },
+        {
+          "source": "src:aqt-psnc-tender",
+          "quote": "The installation of the system will begin in 2025.",
+          "locator": "Body",
+          "supports": "date"
+        }
+      ]
     }
   ],
   "access": [],
@@ -960,6 +2645,46 @@
       "topic": "Helios installation in Singapore / Oracle OCI data centre",
       "why": "Announced (Nov 2025, Aug 2026) but no fetched document confirms completion or names the facility.",
       "would_need": "A release confirming installation and naming the site."
+    },
+    {
+      "topic": "IonQ SEC filings (10-K, 10-Q, 8-K, S-4)",
+      "why": "www.sec.gov/Archives and investors.ionq.com refused the declared User-Agent (403). Only the data.sec.gov filing index was retrieved.",
+      "would_need": "Accessible copies of the FY2025 10-K (0001193125-26-071562) and 2026 10-Qs to source sites, system status and roadmap statements from Tier 1."
+    },
+    {
+      "topic": "Original IonQ #AQ 64 (2025) and #AQ 35 roadmap dates",
+      "why": "IonQ states #AQ 64 was reached \"three months ahead of schedule\" and #AQ35 \"one year ahead of schedule\", but no fetched document states the original target dates; no pre-2026 Wayback capture of ionq.com/roadmap exists.",
+      "would_need": "An earlier IonQ roadmap document or 10-K stating the #AQ target dates."
+    },
+    {
+      "topic": "Outcome of IonQ 2025 targets (99.999% logical two-qubit fidelity; >99.9% native two-qubit fidelity)",
+      "why": "No fetched document reports whether these end-2025 targets were met on a product system; the 99.99% result was on R&D prototypes. Left as open.",
+      "would_need": "An IonQ report or filing assessing these 2025 targets."
+    },
+    {
+      "topic": "IonQ Tempo physical qubit count and specific installations",
+      "why": "Tempo product page lists \"100 Target qubits\"; no fetched document gives a measured qubit count or names Tempo installation sites (KISTI, EPB, etc.).",
+      "would_need": "Tempo data sheet or deployment releases naming the site."
+    },
+    {
+      "topic": "Oxford Ionics QUARTET qubit count and fidelities",
+      "why": "Installation release does not state qubit count or metrics.",
+      "would_need": "NQCC or IonQ technical specification for QUARTET."
+    },
+    {
+      "topic": "AQT IBEX system",
+      "why": "No fetched AQT document describes a system named IBEX; current AQT product pages list MARMOT and the LYNX series.",
+      "would_need": "An AQT document naming and specifying IBEX."
+    },
+    {
+      "topic": "PIAST-Q and LYNX qubit counts and fidelities",
+      "why": "Fetched AQT releases do not state physical qubit counts or gate fidelities for PIAST-Q or LYNX (beyond \"up to 15 qubits\" in the QV test).",
+      "would_need": "AQT or PCSS data sheets."
+    },
+    {
+      "topic": "AQT PINE",
+      "why": "PINE SET-UP is described by AQT as an instrument (table-top ion trap), not a quantum computer system; not recorded as a system.",
+      "would_need": "n/a"
     }
   ]
 }

@@ -347,6 +347,236 @@
       "tier": 2,
       "document_date": "2023-04-21",
       "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:fujitsu-pr-2025-04-22-256q",
+      "title": "Fujitsu and RIKEN develop world-leading 256-qubit superconducting quantum computer",
+      "publisher": "Fujitsu Limited",
+      "url": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2025/0422-01.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-04-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:riken-2025-04-22-256q",
+      "title": "RIKEN and Fujitsu unveil world-leading 256-qubit quantum computer",
+      "publisher": "RIKEN",
+      "url": "https://www.riken.jp/en/news_pubs/news/2025/20250422_1/index.html",
+      "doc_type": "institution_release",
+      "tier": 2,
+      "document_date": "2025-04-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:fujitsu-pr-2023-10-05-64q",
+      "title": "Fujitsu and RIKEN develop superconducting quantum computer at the RIKEN RQC-Fujitsu Collaboration Center, paving the way for platform for hybrid quantum computing",
+      "publisher": "Fujitsu Limited",
+      "url": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2023/1005-01.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-10-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+      "title": "Japanese joint research group launches quantum computing cloud service",
+      "publisher": "Fujitsu Limited (joint release with RIKEN, AIST, NICT, Osaka University, NTT)",
+      "url": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2023/0324-01.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-03-24",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:fujitsu-pr-2021-04-01-collab-center",
+      "title": "RIKEN, Fujitsu Launch Collaborative R&D Center in Japan in First Step Toward Realization of Superconducting Quantum Computers",
+      "publisher": "Fujitsu Limited",
+      "url": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2021/0401-01.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-04-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:fujitsu-pr-2025-08-01-10000q",
+      "title": "Fujitsu starts official development of plus-10,000 qubit superconducting quantum computer targeting completion in 2030 (JCN Newswire distribution, Nasdaq.com copy)",
+      "publisher": "Fujitsu Limited (via JCN Newswire)",
+      "url": "https://www.nasdaq.com/press-release/fujitsu-starts-official-development-plus-10000-qubit-superconducting-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:prl-127-180501-zuchongzhi-2",
+      "title": "Strong Quantum Computational Advantage Using a Superconducting Quantum Processor (Phys. Rev. Lett. 127, 180501)",
+      "publisher": "Physical Review Letters (American Physical Society)",
+      "url": "https://doi.org/10.1103/PhysRevLett.127.180501",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2021-10-25",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PhysRevLett.127.180501"
+    },
+    {
+      "id": "src:arxiv-2106.14734",
+      "title": "Strong quantum computational advantage using a superconducting quantum processor",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2106.14734",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2021-06-28",
+      "accessed": "2026-10-01",
+      "arxiv": "2106.14734"
+    },
+    {
+      "id": "src:scibull-67-240-zuchongzhi-2-1",
+      "title": "Quantum computational advantage via 60-qubit 24-cycle random circuit sampling (Science Bulletin 67, 240-245)",
+      "publisher": "Science Bulletin (Elsevier / Science China Press)",
+      "url": "https://doi.org/10.1016/j.scib.2021.10.017",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2022-02",
+      "accessed": "2026-10-01",
+      "doi": "10.1016/j.scib.2021.10.017"
+    },
+    {
+      "id": "src:arxiv-2109.03494",
+      "title": "Quantum Computational Advantage via 60-Qubit 24-Cycle Random Circuit Sampling",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2109.03494",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2021-09-08",
+      "accessed": "2026-10-01",
+      "arxiv": "2109.03494"
+    },
+    {
+      "id": "src:prl-129-030501-surface-code",
+      "title": "Realization of an Error-Correcting Surface Code with Superconducting Qubits (Phys. Rev. Lett. 129, 030501)",
+      "publisher": "Physical Review Letters (American Physical Society)",
+      "url": "https://doi.org/10.1103/PhysRevLett.129.030501",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2022-07-11",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PhysRevLett.129.030501"
+    },
+    {
+      "id": "src:arxiv-2112.13505",
+      "title": "Realization of an Error-Correcting Surface Code with Superconducting Qubits",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2112.13505",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2021-12-27",
+      "accessed": "2026-10-01",
+      "arxiv": "2112.13505"
+    },
+    {
+      "id": "src:prl-134-090601-zuchongzhi-3",
+      "title": "Establishing a New Benchmark in Quantum Computational Advantage with 105-qubit Zuchongzhi 3.0 Processor (Phys. Rev. Lett. 134, 090601)",
+      "publisher": "Physical Review Letters (American Physical Society)",
+      "url": "https://doi.org/10.1103/PhysRevLett.134.090601",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-03-03",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/PhysRevLett.134.090601"
+    },
+    {
+      "id": "src:arxiv-2412.11924",
+      "title": "Establishing a New Benchmark in Quantum Computational Advantage with 105-qubit Zuchongzhi 3.0 Processor",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2412.11924",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-12-16",
+      "accessed": "2026-10-01",
+      "arxiv": "2412.11924"
+    },
+    {
+      "id": "src:prl-135-260601-zuchongzhi-3-2",
+      "title": "Experimental Quantum Error Correction below the Surface Code Threshold via All-Microwave Leakage Suppression (Phys. Rev. Lett. 135, 260601)",
+      "publisher": "Physical Review Letters (American Physical Society)",
+      "url": "https://doi.org/10.1103/rqkg-dw31",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-12-22",
+      "accessed": "2026-10-01",
+      "doi": "10.1103/rqkg-dw31"
+    },
+    {
+      "id": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+      "title": "中国科大在量子纠错领域达到关键里程碑 (USTC reaches key milestone in quantum error correction)",
+      "publisher": "University of Science and Technology of China (USTC News)",
+      "url": "https://news.ustc.edu.cn/info/1048/93556.htm",
+      "doc_type": "institution_release",
+      "tier": 2,
+      "document_date": "2025-12-23",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:origin-wukong-180-product-page",
+      "title": "Origin Wukong 180 - China's 4th Gen Superconducting Quantum Computer (product page)",
+      "publisher": "Origin Quantum Computing Technology",
+      "url": "https://originqc.com/quantum-machines/quantum-computer",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:origin-blog-2026-china-quantum-computers",
+      "title": "China Quantum Computer Breakthrough 2026: 3 New Machines Live (Origin Quantum blog)",
+      "publisher": "Origin Quantum Computing Technology",
+      "url": "https://originqc.com/blogs/china-quantum-computers",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2026-07-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:origin-home-zh",
+      "title": "本源量子官网 (Origin Quantum Chinese homepage, meta description)",
+      "publisher": "Origin Quantum Computing Technology",
+      "url": "https://originqc.com.cn/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:govcn-2025-02-16-origin-wukong",
+      "title": "Chinese superconducting quantum computer receives over 20 million global visits",
+      "publisher": "www.gov.cn (Xinhua-style report citing China Science and Technology Daily)",
+      "url": "https://english.www.gov.cn/news/202502/16/content_WS67b1d60cc6d0868f4e8efaf2.html",
+      "doc_type": "news",
+      "tier": 3,
+      "document_date": "2025-02-16",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:arxiv-2512.10504",
+      "title": "Tianyan: Cloud services with quantum advantage",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2512.10504",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-12-11",
+      "accessed": "2026-10-01",
+      "arxiv": "2512.10504"
+    },
+    {
+      "id": "src:quantware-homepage",
+      "title": "QuantWare | Building the world's most powerful quantum processors (homepage)",
+      "publisher": "QuantWare",
+      "url": "https://www.quantware.com/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
     }
   ],
   "orgs": [
@@ -550,6 +780,215 @@
           "supports": "existence, modality"
         }
       ]
+    },
+    {
+      "id": "co:fujitsu",
+      "name": "Fujitsu",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "JP",
+      "hq": {
+        "lat": 35.5308,
+        "lon": 139.7029,
+        "precision": "city",
+        "address": "Kawasaki, Japan"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "tickers": [
+        "TSE:6702"
+      ],
+      "website": "https://global.fujitsu",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2025-08-01-10000q",
+          "quote": "KAWASAKI, Japan , Aug 1, 2025 - (JCN Newswire) - - Fujitsu today announced that it has started research and development towards a superconducting quantum computer",
+          "locator": "dateline",
+          "supports": "existence, hq city, modality"
+        },
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "Fujitsu Limited (TSE:6702) reported consolidated revenues",
+          "locator": "About Fujitsu",
+          "supports": "ticker"
+        }
+      ]
+    },
+    {
+      "id": "co:riken",
+      "name": "RIKEN",
+      "kind": "research_institution",
+      "roles": [
+        "hardware"
+      ],
+      "country": "JP",
+      "hq": {
+        "lat": 35.7808,
+        "lon": 139.6067,
+        "precision": "city",
+        "address": "Wako, Saitama, Japan"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://www.riken.jp/en/",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "RIKEN, a National Research and Development Agency, is Japan's largest comprehensive research institution",
+          "locator": "About RIKEN",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fujitsu-pr-2021-04-01-collab-center",
+          "quote": "Located within RIKEN Center for Quantum Computing (Wako, Saitama, Japan)",
+          "locator": "Collaboration center overview",
+          "supports": "city"
+        },
+        {
+          "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+          "quote": "announced the successful development of Japan’s first superconducting ( 1 ) quantum computer",
+          "locator": "lead",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:ustc",
+      "name": "University of Science and Technology of China (USTC)",
+      "kind": "research_institution",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CN",
+      "hq": {
+        "lat": 31.8206,
+        "lon": 117.2272,
+        "precision": "city",
+        "address": "Hefei, Anhui, China"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://www.ustc.edu.cn",
+      "evidence": [
+        {
+          "source": "src:arxiv-2412.11924",
+          "quote": "Hefei National Research Center for Physical Sciences at the Microscale and School of Physical Sciences, University of Science and Technology of China, Hefei 230026, China",
+          "locator": "author affiliations (PDF p.1)",
+          "supports": "existence, city"
+        },
+        {
+          "source": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+          "quote": "中国科学技术大学教授潘建伟、朱晓波、彭承志和陈福升副教授等，基于超导量子处理器“祖冲之3.2号”",
+          "locator": "lead (EN: USTC professors Pan Jianwei, Zhu Xiaobo, Peng Chengzhi and associate professor Chen Fusheng et al., based on the superconducting quantum processor Zuchongzhi 3.2)",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:origin-quantum",
+      "name": "Origin Quantum Computing Technology (本源量子)",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "CN",
+      "hq": {
+        "lat": 31.8206,
+        "lon": 117.2272,
+        "precision": "city",
+        "address": "Hefei, Anhui, China"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://originqc.com.cn",
+      "evidence": [
+        {
+          "source": "src:origin-home-zh",
+          "quote": "本源量子，全称本源量子计算科技股份有限公司，专注量子计算机整机、量子芯片、量子软件及云平台研发",
+          "locator": "homepage meta description (EN: Origin Quantum, full name Origin Quantum Computing Technology Co., Ltd., focuses on R&D of complete quantum computers, quantum chips, quantum software and cloud platforms)",
+          "supports": "existence"
+        },
+        {
+          "source": "src:origin-blog-2026-china-quantum-computers",
+          "quote": "The \"Wukong\" series, engineered by Origin Quantum in Hefei, serves as China's premier superconducting hardware platform.",
+          "locator": "section 2",
+          "supports": "hq city, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:china-telecom-quantum",
+      "name": "China Telecom Quantum Information Technology Group (Tianyan Quantum Group)",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "CN",
+      "hq": {
+        "lat": 31.8206,
+        "lon": 117.2272,
+        "precision": "city",
+        "address": "Hefei 230031, China"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "evidence": [
+        {
+          "source": "src:arxiv-2512.10504",
+          "quote": "China Telecom Quantum Information Technology Group Co., Ltd., Hefei 230031, China",
+          "locator": "author affiliations (PDF p.1)",
+          "supports": "existence, city"
+        },
+        {
+          "source": "src:arxiv-2512.10504",
+          "quote": "Tianyan Quantum Cloud Platform offers cloud services demonstrating quantum advantage capabilities with a Zuchongzhi 3.0-like superconducting quantum processor.",
+          "locator": "abstract",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:quantware",
+      "name": "QuantWare",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "NL",
+      "hq": {
+        "lat": 51.9986,
+        "lon": 4.3733,
+        "precision": "site",
+        "address": "Molengraaffsingel 8, Office 02-02-13b, 2629 JD Delft - Netherlands"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://www.quantware.com",
+      "evidence": [
+        {
+          "source": "src:quantware-homepage",
+          "quote": "Molengraaffsingel 8, Office 02-02-13b, 2629 JD Delft - Netherlands",
+          "locator": "footer",
+          "supports": "hq address"
+        },
+        {
+          "source": "src:quantware-homepage",
+          "quote": "QuantWare is the world's largest commercial QPU supplier by volume, and has shipped more quantum processors than any other commercial supplier.",
+          "locator": "body",
+          "supports": "existence (claim as stated)"
+        }
+      ]
     }
   ],
   "sites": [
@@ -728,6 +1167,34 @@
           "quote": "customers will soon have access to quantum computing-as-a-service via Cyxtera’s Reading Data Center Campus LHR3.",
           "locator": "lead",
           "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:riken-wako-rqc-fujitsu",
+      "name": "RIKEN RQC-Fujitsu Collaboration Center, RIKEN Wako campus",
+      "operator": "co:riken",
+      "kind": "lab",
+      "location": {
+        "lat": 35.7808,
+        "lon": 139.6067,
+        "precision": "site",
+        "address": "RIKEN Center for Quantum Computing, Wako campus, Wako, Saitama, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2021-04-01-collab-center",
+          "quote": "Located within RIKEN Center for Quantum Computing (Wako, Saitama, Japan)",
+          "locator": "Collaboration center overview",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:riken-2025-04-22-256q",
+          "quote": "The system, located at the RIKEN RQC-FUJITSU Collaboration Center, located on the RIKEN Wako campus",
+          "locator": "body",
+          "supports": "location"
         }
       ]
     }
@@ -1110,6 +1577,375 @@
           "supports": "modality"
         }
       ]
+    },
+    {
+      "id": "sys:riken-japan-first-64q",
+      "name": "RIKEN superconducting quantum computer (Japan's first, 64-qubit chip; cloud service from March 2023)",
+      "operator": "co:riken",
+      "modality": "superconducting",
+      "status": "online",
+      "online_since": "2023-03-27",
+      "physical_qubits": {
+        "value": 64,
+        "as_of": "2023-03-24",
+        "evidence": [
+          {
+            "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+            "quote": "The newly developed superconducting quantum computer uses integrated circuits with 64 qubits",
+            "locator": "Technical features",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+          "quote": "Starting March 27, 2023, the partners will provide the newly developed technology to users in Japan as a cloud service for non-commercial use under a joint research agreement with RIKEN.",
+          "locator": "lead",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:riken-fujitsu-64q",
+      "name": "RIKEN-Fujitsu 64-qubit superconducting quantum computer",
+      "operator": "co:fujitsu",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:riken-wako-rqc-fujitsu",
+      "online_since": "2023-10-05",
+      "physical_qubits": {
+        "value": 64,
+        "as_of": "2023-10-05",
+        "evidence": [
+          {
+            "source": "src:fujitsu-pr-2023-10-05-64q",
+            "quote": "Fujitsu and RIKEN today announced the successful development of a new 64 qubit superconducting quantum computer at the RIKEN RQC-Fujitsu Collaboration Center.",
+            "locator": "lead",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2023-10-05-64q",
+          "quote": "Fujitsu and RIKEN today announced the successful development of a new 64 qubit superconducting quantum computer at the RIKEN RQC-Fujitsu Collaboration Center.",
+          "locator": "lead",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:fujitsu-pr-2023-10-05-64q",
+          "quote": "Fujitsu and RIKEN will provide the new platform to companies and research institutions that are conducting joint research with Fujitsu and RIKEN from October 5, 2023.",
+          "locator": "lead",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:riken-fujitsu-256q",
+      "name": "RIKEN-Fujitsu 256-qubit superconducting quantum computer",
+      "operator": "co:fujitsu",
+      "modality": "superconducting",
+      "status": "online",
+      "site": "site:riken-wako-rqc-fujitsu",
+      "announced": "2025-04-22",
+      "physical_qubits": {
+        "value": 256,
+        "as_of": "2025-04-22",
+        "evidence": [
+          {
+            "source": "src:fujitsu-pr-2025-04-22-256q",
+            "quote": "Fujitsu Limited and RIKEN today announced the development of a world-leading 256-qubit superconducting quantum computer, established at the RIKEN RQC-FUJITSU Collaboration Center.",
+            "locator": "lead",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "Fujitsu Limited and RIKEN today announced the development of a world-leading 256-qubit superconducting quantum computer, established at the RIKEN RQC-FUJITSU Collaboration Center.",
+          "locator": "lead",
+          "supports": "existence"
+        },
+        {
+          "source": "src:riken-2025-04-22-256q",
+          "quote": "The system, located at the RIKEN RQC-FUJITSU Collaboration Center, located on the RIKEN Wako campus",
+          "locator": "body",
+          "supports": "location"
+        },
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "offer it to companies and research institutions globally starting in the first quarter of fiscal 2025",
+          "locator": "body",
+          "supports": "status (planned availability from Q1 FY2025)"
+        }
+      ]
+    },
+    {
+      "id": "sys:ustc-zuchongzhi-3-0",
+      "name": "Zuchongzhi 3.0",
+      "operator": "co:ustc",
+      "modality": "superconducting",
+      "status": "online",
+      "announced": "2024-12-16",
+      "physical_qubits": {
+        "value": 105,
+        "as_of": "2025-03-03",
+        "evidence": [
+          {
+            "source": "src:arxiv-2412.11924",
+            "quote": "This superconducting quantum computer prototype, comprising 105 qubits, achieves high operational fidelities",
+            "locator": "abstract",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (iSWAP-like, average, simultaneous)",
+          "value": 99.62,
+          "unit": "%",
+          "as_of": "2024-12-16",
+          "definition": "Two-qubit (iSWAP-like) gate fidelity stated in the abstract; the paper states the average Pauli error for iSwap-like gates is 0.38% when all gates are applied simultaneously, for the 83 qubits selected for random circuit sampling (arXiv v1).",
+          "evidence": [
+            {
+              "source": "src:arxiv-2412.11924",
+              "quote": "with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.62% and 99.18%, respectively",
+              "locator": "abstract",
+              "supports": "metric"
+            },
+            {
+              "source": "src:arxiv-2412.11924",
+              "quote": "the average Pauli error for single-qubit gates(e1 ) and iSwap-like gates(e2 ) has been reduced to 0.10% and 0.38% respectively (as depicted in Fig. 2 (a) and (b)), when all gates are applied simultaneously",
+              "locator": "main text, device section (PDF)",
+              "supports": "definition"
+            }
+          ]
+        },
+        {
+          "name": "readout fidelity (average)",
+          "value": 99.18,
+          "unit": "%",
+          "as_of": "2024-12-16",
+          "definition": "Readout fidelity as stated in the arXiv v1 abstract; the text states average readout error across 83 qubits of 0.82%. (A USTC-hosted press article gives 99.13% parallel readout fidelity; values differ between sources.)",
+          "evidence": [
+            {
+              "source": "src:arxiv-2412.11924",
+              "quote": "with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.62% and 99.18%, respectively",
+              "locator": "abstract",
+              "supports": "metric"
+            },
+            {
+              "source": "src:arxiv-2412.11924",
+              "quote": "the average readout error across 83 qubits has been suppressed to 0.82%",
+              "locator": "main text (PDF)",
+              "supports": "definition"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:arxiv-2412.11924",
+          "quote": "we present a significant advancement with the development of Zuchongzhi 3.0. This superconducting quantum computer prototype, comprising 105 qubits",
+          "locator": "abstract",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:prl-134-090601-zuchongzhi-3",
+          "quote": "Establishing a New Benchmark in Quantum Computational Advantage with 105-qubit Zuchongzhi 3.0 Processor",
+          "locator": "article title (Crossref metadata record (https://api.crossref.org/works/10.1103/PhysRevLett.134.090601); APS/Elsevier landing pages returned HTTP 403 to the declared User-Agent)",
+          "supports": "existence, peer review"
+        }
+      ]
+    },
+    {
+      "id": "sys:ustc-zuchongzhi-3-2",
+      "name": "Zuchongzhi 3.2",
+      "operator": "co:ustc",
+      "modality": "superconducting",
+      "status": "online",
+      "announced": "2025-12-22",
+      "physical_qubits": {
+        "value": 107,
+        "as_of": "2025-12-22",
+        "evidence": [
+          {
+            "source": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+            "quote": "2025年底，中国科大团队基于107比特“祖冲之3.2号”量子处理器",
+            "locator": "body (EN: at the end of 2025 the USTC team, based on the 107-qubit Zuchongzhi 3.2 quantum processor)",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+          "quote": "基于超导量子处理器“祖冲之3.2号”在码距为7的表面码上实现了低于纠错阈值的量子纠错",
+          "locator": "lead (EN: based on the superconducting quantum processor Zuchongzhi 3.2, realized quantum error correction below the threshold on a distance-7 surface code)",
+          "supports": "existence, modality"
+        }
+      ]
+    },
+    {
+      "id": "sys:origin-wukong-180",
+      "name": "Origin Wukong 180",
+      "operator": "co:origin-quantum",
+      "modality": "superconducting",
+      "status": "online",
+      "online_since": "2026-05",
+      "physical_qubits": {
+        "value": 180,
+        "as_of": "2026-10-01",
+        "note": "180 data qubits plus 251 coupler qubits as stated by Origin",
+        "evidence": [
+          {
+            "source": "src:origin-wukong-180-product-page",
+            "quote": "Parameter Value Data Qubits 180 Coupler Qubits 251",
+            "locator": "specification table",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (typical)",
+          "value": 99.0,
+          "unit": "%",
+          "as_of": "2026-10-01",
+          "definition": "Origin's product specification lists 'Two-Qubit Gate Fidelity (typ.)' of 99.00%; gate type, averaging method and qubit subset are not stated.",
+          "evidence": [
+            {
+              "source": "src:origin-wukong-180-product-page",
+              "quote": "Two-Qubit Gate Fidelity (typ.) 99.00%",
+              "locator": "specification table",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "single-qubit gate fidelity (typical)",
+          "value": 99.9,
+          "unit": "%",
+          "as_of": "2026-10-01",
+          "definition": "Origin's product specification lists 'Single-Qubit Gate Fidelity (typ.)' of 99.90%; averaging method not stated.",
+          "evidence": [
+            {
+              "source": "src:origin-wukong-180-product-page",
+              "quote": "Single-Qubit Gate Fidelity (typ.) 99.90%",
+              "locator": "specification table",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:origin-wukong-180-product-page",
+          "quote": "Origin Wukong 180 is the 4th generation superconducting quantum computer developed by Origin Quantum, is equipped with a 180-bit independently developed superconducting quantum chip.",
+          "locator": "intro",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:origin-blog-2026-china-quantum-computers",
+          "quote": "Launched in May 2026, the Origin Wukong-180 packages 180 active computational qubits onto a single-core superconducting chip.",
+          "locator": "section 2",
+          "supports": "date, status"
+        },
+        {
+          "source": "src:origin-blog-2026-china-quantum-computers",
+          "quote": "The Origin Wukong-180 superconducting quantum computer actively processes calculations for global users via cloud-access platforms.",
+          "locator": "FAQ",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:origin-wukong-72",
+      "name": "Origin Wukong (third generation, 72-qubit chip)",
+      "operator": "co:origin-quantum",
+      "modality": "superconducting",
+      "status": "online",
+      "online_since": "2024-01-06",
+      "physical_qubits": {
+        "value": 72,
+        "as_of": "2025-02-16",
+        "note": "Supported only by a Tier 3 report; no Origin-hosted primary document with the 72-qubit figure could be fetched (Origin's Chinese news pages are script-rendered).",
+        "evidence": [
+          {
+            "source": "src:govcn-2025-02-16-origin-wukong",
+            "quote": "The quantum computer is powered by Wukong, a 72-qubit indigenous superconducting quantum chip.",
+            "locator": "body",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:govcn-2025-02-16-origin-wukong",
+          "quote": "Origin Wukong has completed more than 339,000 quantum computing tasks since it went into operation on Jan. 6, 2024",
+          "locator": "body",
+          "supports": "existence, date"
+        },
+        {
+          "source": "src:origin-home-zh",
+          "quote": "旗下超导量子计算机“本源悟空”全球累计访问量超过3000万次",
+          "locator": "homepage meta description (EN: its superconducting quantum computer 'Origin Wukong' has had over 30 million cumulative global visits)",
+          "supports": "existence (Origin primary)"
+        }
+      ]
+    },
+    {
+      "id": "sys:china-telecom-tianyan-287",
+      "name": "Tianyan-287",
+      "operator": "co:china-telecom-quantum",
+      "modality": "superconducting",
+      "status": "online",
+      "announced": "2025-12-11",
+      "physical_qubits": {
+        "value": 105,
+        "as_of": "2025-12-16",
+        "evidence": [
+          {
+            "source": "src:arxiv-2512.10504",
+            "quote": "This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits",
+            "locator": "abstract",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "two-qubit gate fidelity (average, simultaneous)",
+          "value": 99.56,
+          "unit": "%",
+          "as_of": "2025-12-16",
+          "definition": "Two-qubit gate fidelity stated in the abstract; the paper states the average two-qubit Pauli error e2 is 4.4‰ with all qubits operating simultaneously (preprint).",
+          "evidence": [
+            {
+              "source": "src:arxiv-2512.10504",
+              "quote": "with single-qubit gates, two-qubit gates, and readout fidelity at 99.90%, 99.56%, 98.7%, respectively",
+              "locator": "abstract",
+              "supports": "metric"
+            },
+            {
+              "source": "src:arxiv-2512.10504",
+              "quote": "For all qubits operating simultaneously, the average value of e1 and e2 are 1‰ and 4.4‰, respectively.",
+              "locator": "main text (PDF)",
+              "supports": "definition"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:arxiv-2512.10504",
+          "quote": "This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits",
+          "locator": "abstract",
+          "supports": "existence, status (cloud-accessible)"
+        }
+      ]
     }
   ],
   "milestones": [
@@ -1415,6 +2251,340 @@
           "supports": "system"
         }
       ]
+    },
+    {
+      "id": "ms:riken-japan-first-sc-qc",
+      "orgs": [
+        "co:riken",
+        "co:fujitsu"
+      ],
+      "systems": [
+        "sys:riken-japan-first-64q"
+      ],
+      "date": "2023-03-24",
+      "category": "system_launch",
+      "claim": "A RIKEN-led consortium including Fujitsu announced a superconducting quantum computer using a 64-qubit integrated circuit, offered as a non-commercial cloud service from March 27, 2023.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+          "quote": "announced the successful development of Japan’s first superconducting ( 1 ) quantum computer",
+          "locator": "lead",
+          "supports": "event"
+        },
+        {
+          "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+          "quote": "The newly developed superconducting quantum computer uses integrated circuits with 64 qubits",
+          "locator": "Technical features",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+          "quote": "Starting March 27, 2023, the partners will provide the newly developed technology to users in Japan as a cloud service for non-commercial use",
+          "locator": "lead",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:riken-fujitsu-64q-platform",
+      "orgs": [
+        "co:fujitsu",
+        "co:riken"
+      ],
+      "systems": [
+        "sys:riken-fujitsu-64q"
+      ],
+      "date": "2023-10-05",
+      "category": "system_launch",
+      "claim": "Fujitsu and RIKEN announced a 64 qubit superconducting quantum computer at the RIKEN RQC-Fujitsu Collaboration Center and a hybrid platform offered to joint-research companies and institutions from October 5, 2023.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2023-10-05-64q",
+          "quote": "Fujitsu and RIKEN today announced the successful development of a new 64 qubit superconducting quantum computer at the RIKEN RQC-Fujitsu Collaboration Center.",
+          "locator": "lead",
+          "supports": "event"
+        },
+        {
+          "source": "src:fujitsu-pr-2023-10-05-64q",
+          "quote": "Fujitsu and RIKEN will provide the new platform to companies and research institutions that are conducting joint research with Fujitsu and RIKEN from October 5, 2023.",
+          "locator": "lead",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:riken-fujitsu-256q",
+      "orgs": [
+        "co:fujitsu",
+        "co:riken"
+      ],
+      "systems": [
+        "sys:riken-fujitsu-256q"
+      ],
+      "date": "2025-04-22",
+      "category": "qubit_count",
+      "claim": "Fujitsu and RIKEN announced a 256-qubit superconducting quantum computer at the RIKEN RQC-FUJITSU Collaboration Center, built from 4-qubit unit cells in a 3D configuration and operating in the same dilution refrigerator as the 64-qubit system.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "Fujitsu Limited and RIKEN today announced the development of a world-leading 256-qubit superconducting quantum computer, established at the RIKEN RQC-FUJITSU Collaboration Center.",
+          "locator": "lead",
+          "supports": "event"
+        },
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "Enables efficient scaling of qubit count without requiring complex redesigns by arranging 4-qubit unit cells in a 3D configuration",
+          "locator": "Key features",
+          "supports": "architecture"
+        },
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "allowing the 256-qubit machine to operate within the same cooling unit as the 64-qubit system",
+          "locator": "Key features",
+          "supports": "cryogenics"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-zuchongzhi-2-rcs-56q",
+      "orgs": [
+        "co:ustc"
+      ],
+      "date": "2021-10-25",
+      "category": "computational_task",
+      "claim": "USTC reports Zuchongzhi, a 66-qubit tunable-coupling superconducting processor, performing random circuit sampling up to 56 qubits and 20 cycles, and titles the result “Strong Quantum Computational Advantage”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PhysRevLett.127.180501",
+      "arxiv": "2106.14734",
+      "evidence": [
+        {
+          "source": "src:prl-127-180501-zuchongzhi-2",
+          "quote": "Strong Quantum Computational Advantage Using a Superconducting Quantum Processor",
+          "locator": "article title (Crossref metadata record (https://api.crossref.org/works/10.1103/PhysRevLett.127.180501); APS/Elsevier landing pages returned HTTP 403 to the declared User-Agent)",
+          "supports": "peer review, framing"
+        },
+        {
+          "source": "src:arxiv-2106.14734",
+          "quote": "which is composed of 66 functional qubits in a tunable coupling architecture",
+          "locator": "abstract",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:arxiv-2106.14734",
+          "quote": "we perform random quantum circuits sampling for benchmarking, up to a system size of 56 qubits and 20 cycles",
+          "locator": "abstract",
+          "supports": "task"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-zuchongzhi-2-1-rcs-60q",
+      "orgs": [
+        "co:ustc"
+      ],
+      "date": "2022-02",
+      "category": "computational_task",
+      "claim": "USTC reports random circuit sampling with up to 60 qubits and 24 cycles on Zuchongzhi 2.1, a 66-qubit processor with average readout fidelity of 97.74%.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1016/j.scib.2021.10.017",
+      "arxiv": "2109.03494",
+      "evidence": [
+        {
+          "source": "src:scibull-67-240-zuchongzhi-2-1",
+          "quote": "Quantum computational advantage via 60-qubit 24-cycle random circuit sampling",
+          "locator": "article title (Crossref metadata record (https://api.crossref.org/works/10.1016/j.scib.2021.10.017); APS/Elsevier landing pages returned HTTP 403 to the declared User-Agent)",
+          "supports": "peer review"
+        },
+        {
+          "source": "src:arxiv-2109.03494",
+          "quote": "we demonstrate a superconducting quantum computing systems \\textit{Zuchongzhi} 2.1, which has 66 qubits in a two-dimensional array in a tunable coupler architecture",
+          "locator": "abstract (LaTeX markup as on arXiv listing)",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:arxiv-2109.03494",
+          "quote": "The readout fidelity of \\textit{Zuchongzhi} 2.1 is considerably improved to an average of 97.74\\%.",
+          "locator": "abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:arxiv-2109.03494",
+          "quote": "with a system scale of up to 60 qubits and 24 cycles",
+          "locator": "abstract",
+          "supports": "task"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-surface-code-d3",
+      "orgs": [
+        "co:ustc"
+      ],
+      "date": "2022-07-11",
+      "category": "error_correction",
+      "claim": "USTC reports a distance-3 surface code of 17 qubits on Zuchongzhi 2.1 with repeated error correction cycles, after which the encoded error was reduced when corrections were applied.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PhysRevLett.129.030501",
+      "arxiv": "2112.13505",
+      "evidence": [
+        {
+          "source": "src:prl-129-030501-surface-code",
+          "quote": "Realization of an Error-Correcting Surface Code with Superconducting Qubits",
+          "locator": "article title (Crossref metadata record (https://api.crossref.org/works/10.1103/PhysRevLett.129.030501); APS/Elsevier landing pages returned HTTP 403 to the declared User-Agent)",
+          "supports": "peer review"
+        },
+        {
+          "source": "src:arxiv-2112.13505",
+          "quote": "we experimentally implement an error-correcting surface code, the distance-3 surface code which consists of 17 qubits, on the \\textit{Zuchongzhi} 2.1 superconducting quantum processor",
+          "locator": "abstract",
+          "supports": "result"
+        },
+        {
+          "source": "src:arxiv-2112.13505",
+          "quote": "By executing several consecutive error correction cycles, the logical error can be significantly reduced after applying corrections",
+          "locator": "abstract",
+          "supports": "result"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-zuchongzhi-3-rcs-83q",
+      "orgs": [
+        "co:ustc"
+      ],
+      "systems": [
+        "sys:ustc-zuchongzhi-3-0"
+      ],
+      "date": "2025-03-03",
+      "category": "computational_task",
+      "claim": "USTC reports 83-qubit, 32-cycle random circuit sampling on the 105-qubit Zuchongzhi 3.0 and estimates the Frontier supercomputer would require approximately 6.4×10^9 years to replicate the task.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/PhysRevLett.134.090601",
+      "arxiv": "2412.11924",
+      "evidence": [
+        {
+          "source": "src:prl-134-090601-zuchongzhi-3",
+          "quote": "Establishing a New Benchmark in Quantum Computational Advantage with 105-qubit Zuchongzhi 3.0 Processor",
+          "locator": "article title (Crossref metadata record (https://api.crossref.org/works/10.1103/PhysRevLett.134.090601); APS/Elsevier landing pages returned HTTP 403 to the declared User-Agent)",
+          "supports": "peer review"
+        },
+        {
+          "source": "src:arxiv-2412.11924",
+          "quote": "Our experiments with an 83-qubit, 32-cycle random circuit sampling on Zuchongzhi 3.0 highlight its superior performance, achieving one million samples in just a few hundred seconds.",
+          "locator": "abstract",
+          "supports": "task"
+        },
+        {
+          "source": "src:arxiv-2412.11924",
+          "quote": "which would require approximately $6.4\\times 10^9$ years to replicate the task",
+          "locator": "abstract",
+          "supports": "classical estimate"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-zuchongzhi-3-2-surface-code-d7",
+      "orgs": [
+        "co:ustc"
+      ],
+      "systems": [
+        "sys:ustc-zuchongzhi-3-2"
+      ],
+      "date": "2025-12-22",
+      "category": "error_correction",
+      "claim": "USTC reports a distance-7 surface code on the 107-qubit Zuchongzhi 3.2 in which logical error rates decreased as code distance increased, with an error suppression factor of 1.4, using all-microwave leakage suppression; the paper is titled “Experimental Quantum Error Correction below the Surface Code Threshold”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1103/rqkg-dw31",
+      "evidence": [
+        {
+          "source": "src:prl-135-260601-zuchongzhi-3-2",
+          "quote": "Experimental Quantum Error Correction below the Surface Code Threshold via All-Microwave Leakage Suppression",
+          "locator": "article title (Crossref metadata record (https://api.crossref.org/works/10.1103/rqkg-dw31); APS/Elsevier landing pages returned HTTP 403 to the declared User-Agent)",
+          "supports": "peer review"
+        },
+        {
+          "source": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+          "quote": "实验结果显示，逻辑错误率随码距增加显著下降，错误抑制因子达到1.4，证明了系统已工作在纠错阈值之下",
+          "locator": "body (EN: results show the logical error rate decreases markedly as code distance increases; the error suppression factor reaches 1.4, showing the system operates below the error-correction threshold)",
+          "supports": "result"
+        },
+        {
+          "source": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+          "quote": "2025年底，中国科大团队基于107比特“祖冲之3.2号”量子处理器，提出并成功实践了一种全新的“全微波量子态泄漏抑制架构”",
+          "locator": "body (EN: at end-2025 the USTC team, based on the 107-qubit Zuchongzhi 3.2 processor, proposed and implemented an all-microwave leakage-suppression architecture)",
+          "supports": "device, method"
+        },
+        {
+          "source": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+          "quote": "研究团队结合全微波量子态泄漏抑制架构，实现了码距为7的表面码逻辑比特",
+          "locator": "body (EN: combining the all-microwave leakage suppression architecture, the team realized a distance-7 surface-code logical qubit)",
+          "supports": "code distance"
+        }
+      ]
+    },
+    {
+      "id": "ms:origin-wukong-180-launch",
+      "orgs": [
+        "co:origin-quantum"
+      ],
+      "systems": [
+        "sys:origin-wukong-180"
+      ],
+      "date": "2026-05",
+      "category": "system_launch",
+      "claim": "Origin Quantum states it launched Origin Wukong-180, a fourth-generation superconducting quantum computer with 180 computational qubits on a single-core chip, accessible to users via cloud.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:origin-blog-2026-china-quantum-computers",
+          "quote": "Launched in May 2026, the Origin Wukong-180 packages 180 active computational qubits onto a single-core superconducting chip.",
+          "locator": "section 2",
+          "supports": "event, qubits"
+        },
+        {
+          "source": "src:origin-wukong-180-product-page",
+          "quote": "Origin Wukong 180 is the 4th generation superconducting quantum computer developed by Origin Quantum",
+          "locator": "intro",
+          "supports": "generation"
+        }
+      ]
+    },
+    {
+      "id": "ms:china-telecom-tianyan-rcs-74q",
+      "orgs": [
+        "co:china-telecom-quantum"
+      ],
+      "systems": [
+        "sys:china-telecom-tianyan-287"
+      ],
+      "date": "2025-12-11",
+      "category": "computational_task",
+      "claim": "China Telecom's Tianyan Quantum Group reports random circuit sampling on a 74-qubit system over 24 cycles on the cloud-accessible Tianyan-287, completing one million samples in 18.4 minutes, and estimates classical supercomputers would need approximately 16,000 years.",
+      "peer_review": "preprint",
+      "arxiv": "2512.10504",
+      "evidence": [
+        {
+          "source": "src:arxiv-2512.10504",
+          "quote": "For a specific benchmark task involving random circuit sampling on a 74-qubit system over 24 cycles, the platform completes one million samples in just 18.4 minutes.",
+          "locator": "abstract",
+          "supports": "task"
+        },
+        {
+          "source": "src:arxiv-2512.10504",
+          "quote": "In contrast, state-of-the-art classical supercomputers would require approximately 16,000 years to complete the equivalent calculation.",
+          "locator": "abstract",
+          "supports": "classical estimate"
+        },
+        {
+          "source": "src:arxiv-2512.10504",
+          "quote": "This cloud-accessible superconducting quantum prototype, named Tianyan-287, features 105 qubits",
+          "locator": "abstract",
+          "supports": "system"
+        }
+      ]
     }
   ],
   "targets": [
@@ -1636,6 +2806,108 @@
           "supports": "target"
         }
       ]
+    },
+    {
+      "id": "tgt:riken-fujitsu-industrial-fy2023",
+      "org": "co:fujitsu",
+      "target_date": "2024-03",
+      "statement": "Fujitsu (jointly with RIKEN) targets providing a superconducting quantum computer for industrial use by the end of FY 2023.",
+      "stated_on": "2023-03-24",
+      "status": "met",
+      "met_by": "ms:riken-fujitsu-64q-platform",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+          "quote": "RIKEN and Fujitsu will further leverage their expertise in computing technologies and applied quantum technology to provide a superconducting quantum computer for industrial use by the end of FY 2023.",
+          "locator": "body",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:fujitsu-riken-1000q-2026",
+      "org": "co:fujitsu",
+      "system_name": "1,000-qubit superconducting quantum computer",
+      "target_date": "2026",
+      "statement": "Fujitsu (jointly with RIKEN) targets launching a 1,000-qubit superconducting quantum computer, installed in a new building at Fujitsu Technology Park, in 2026.",
+      "stated_on": "2025-04-22",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2025-04-22-256q",
+          "quote": "Fujitsu and RIKEN will continue R&D efforts toward the launch of a 1,000-qubit computer, which is scheduled to be installed in a new building at Fujitsu Technology Park in 2026.",
+          "locator": "Future plans",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:riken-2025-04-22-256q",
+          "quote": "Fujitsu and RIKEN will continue R&D efforts toward the launch of a 1,000-qubit computer, scheduled to be launched in 2026.",
+          "locator": "body",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:fujitsu-pr-2021-04-01-collab-center",
+          "quote": "Riken and Fujitsu will develop hardware and software technologies to realize a quantum computer with as many as 1000 qubits",
+          "locator": "2021 release (goal first stated without a date)",
+          "supports": "history"
+        }
+      ]
+    },
+    {
+      "id": "tgt:fujitsu-10000q-fy2030",
+      "org": "co:fujitsu",
+      "system_name": "10,000+ qubit superconducting quantum computer (STAR architecture)",
+      "target_date": "2030",
+      "statement": "Fujitsu targets completing a superconducting quantum computer with more than 10,000 qubits that it states will operate with 250 “logical qubits”, by fiscal 2030.",
+      "stated_on": "2025-08-01",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2025-08-01-10000q",
+          "quote": "Fujitsu today announced that it has started research and development towards a superconducting quantum computer with a capacity exceeding 10,000 qubits. Construction is slated for completion in fiscal 2030.",
+          "locator": "lead",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:fujitsu-pr-2025-08-01-10000q",
+          "quote": "The new superconducting quantum computer will operate with 250 logical qubits and will utilize Fujitsu's innovative \"STAR architecture,\"",
+          "locator": "second paragraph",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:fujitsu-1000-logical-fy2035",
+      "org": "co:fujitsu",
+      "target_date": "2035",
+      "statement": "Fujitsu targets “a 1,000 logical qubit machine in fiscal 2035”, integrating superconducting and diamond spin-based qubits.",
+      "stated_on": "2025-08-01",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:fujitsu-pr-2025-08-01-10000q",
+          "quote": "Fujitsu will further pursue advanced research initiatives targeting the integration of superconducting and diamond spin-based qubits from fiscal 2030 and aims to realize a 1,000 logical qubit machine in fiscal 2035",
+          "locator": "body",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quantware-vio-10000q-2028",
+      "org": "co:quantware",
+      "system_name": "VIO-based 10,000-qubit QPU",
+      "target_date": "2028",
+      "statement": "QuantWare targets delivering 10,000 qubit QPUs based on its VIO technology in 2028.",
+      "stated_on": "2026-10-01",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quantware-homepage",
+          "quote": "VIO is available today and delivers 10,000 qubit QPUs in 2028, providing the most compute per watt performance for the entire industry.",
+          "locator": "hero section (page undated)",
+          "supports": "target, date"
+        }
+      ]
     }
   ],
   "access": [],
@@ -1680,6 +2952,76 @@
       "topic": "OQC GENESIS operational status",
       "why": "The Sept 2025 release says GENESIS is 'installed' at JFK10, while the devices page says GENESIS 'will feature' 16 DDQs and the roadmap says commercially available from 2026. Recorded as announced.",
       "would_need": "OQC statement that GENESIS is operational / available to customers."
+    },
+    {
+      "topic": "Fujitsu newsroom (global.fujitsu)",
+      "why": "global.fujitsu returned HTTP 429 to the declared User-Agent on repeated attempts; the Aug 2025 10,000-qubit release is cited from the JCN Newswire distribution hosted on Nasdaq.com (verbatim issuer text). Older releases were fetched from info.archives.global.fujitsu.",
+      "would_need": "Fujitsu-hosted copy of the 1 Aug 2025 release once reachable."
+    },
+    {
+      "topic": "Fujitsu/RIKEN gate fidelities",
+      "why": "No fetched Fujitsu/RIKEN document states gate fidelities for the 64- or 256-qubit machines with a definition; no peer-reviewed hardware paper for these systems was identified.",
+      "would_need": "Fujitsu/RIKEN technical publication or device datasheet with fidelity definitions."
+    },
+    {
+      "topic": "Fujitsu/RIKEN 1,000-qubit machine status (2026)",
+      "why": "No primary document found (as of 2026-10-01) reporting the 1,000-qubit machine installed or launched; target left open. Fujitsu Technology Park site not recorded because no fetched document gives its location beyond the facility name.",
+      "would_need": "Fujitsu/RIKEN 2026 release on the 1,000-qubit system."
+    },
+    {
+      "topic": "Fujitsu fiscal-year dates",
+      "why": "Fiscal 2030 / 2035 targets are recorded with target_date 2030 / 2035; Fujitsu's fiscal year ends in March of the following calendar year.",
+      "would_need": "n/a (interpretation note)"
+    },
+    {
+      "topic": "Zuchongzhi physical location",
+      "why": "No fetched USTC or journal document names the facility housing Zuchongzhi 3.0 / 3.2; systems are drawn at USTC (Hefei).",
+      "would_need": "USTC statement naming the lab/facility."
+    },
+    {
+      "topic": "Zuchongzhi 3.2 arXiv preprint and full metrics",
+      "why": "No arXiv preprint for the PRL 135, 260601 paper was identified (secondary sources cite arXiv:2505.01978, which is a different USTC paper on cluster states); APS full text refused (HTTP 403). Gate fidelities for Zuchongzhi 3.2 not recorded.",
+      "would_need": "Open-access copy of PRL 135, 260601."
+    },
+    {
+      "topic": "Zuchongzhi 3.0 readout fidelity discrepancy",
+      "why": "arXiv v1 abstract gives readout fidelity 99.18%; a China Science Daily article reposted on USTC news gives 99.13% (parallel). The published PRL abstract could not be fetched to resolve which the journal version states.",
+      "would_need": "PRL 134, 090601 abstract text."
+    },
+    {
+      "topic": "USTC roadmap / targets",
+      "why": "No dated USTC roadmap targets (qubit counts, dates) were found in primary sources; only undated statements of intent to increase qubit count and continue error correction.",
+      "would_need": "Official USTC/CAS roadmap document."
+    },
+    {
+      "topic": "Origin Quantum primary releases",
+      "why": "Origin's Chinese newsroom (originqc.com.cn/zh/newslist.html) is script-rendered and no static or API copy of its Jan 2024 Wukong (72-qubit) or May 2026 Wukong-180 releases could be fetched; the 72-qubit system relies on a Tier 3 gov.cn report and no milestone was recorded for its 2024 launch.",
+      "would_need": "Origin-hosted press releases (Chinese or English) for Wukong (2024) and Wukong-180 (2026)."
+    },
+    {
+      "topic": "Origin Quantum roadmap and peer-reviewed results",
+      "why": "No dated Origin roadmap targets and no peer-reviewed hardware paper attributed to Origin Wukong were identified in this pass.",
+      "would_need": "Origin roadmap document; journal papers from Origin's hardware team."
+    },
+    {
+      "topic": "Origin Wukong physical location",
+      "why": "No fetched document names the facility hosting Wukong systems beyond the company being in Hefei.",
+      "would_need": "Origin statement naming the facility."
+    },
+    {
+      "topic": "China Telecom Tianyan journal version and location",
+      "why": "Tianyan-287 results are from an arXiv preprint (v2, 16 Dec 2025); no journal version or China Telecom-hosted release was fetched, and no facility is named.",
+      "would_need": "Journal version; China Telecom release naming the site."
+    },
+    {
+      "topic": "QuantWare systems and installations",
+      "why": "QuantWare supplies QPUs to other integrators; this pass recorded only the organisation and its homepage 2028 target. No named QuantWare-built system, metric, or customer installation was sourced.",
+      "would_need": "QuantWare product datasheets (e.g. Contralto/Soprano/VIO) and customer releases."
+    },
+    {
+      "topic": "Other non-US superconducting builders not covered",
+      "why": "Toshiba (double-transmon coupler), Anyon Systems (Canada), SpinQ (China) and others were not researched in this pass for time.",
+      "would_need": "Follow-up analyst pass."
     }
   ]
 }
