@@ -74,7 +74,7 @@ articles".
 | `access.json` | **running** (Claude, launched ~11:00) | — | per `docs/ACCESS.md`: cloud routes, SDKs, tiers, verbatim official snippets, each run against the SDK's **local simulator** in a scratch venv. Never call real or paid hardware; never create accounts. |
 | `relationships.json` | **not started** | — | acquisitions, partnerships, government contracts and awards (DARPA QBI, DOE, national programs), funding only from primary sources |
 
-**Before you start:** a Claude agent may still be writing `photonic.json`, and a Claude reviewer `data/verification/neutral_atom.json`.
+**Before you start:** Claude agents may still be writing `photonic.json`, `spin_topo_anneal.json`, `access.json` and `data/verification/neutral_atom.json`. Safe to start in parallel: the `relationships` analyst, and counsel for `superconducting_a`, `superconducting_b` and `trapped_ion`.
 Check modification times (`ls -l data/research`). If a file changed in the last ~15 minutes, leave it alone. When they
 stop, an analyst can resume a partial file: read it, keep what's there, and fill in the topic's remaining orgs.
 
