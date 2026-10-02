@@ -67,19 +67,19 @@ articles".
 |---|---|---|---|
 | `neutral_atom.json` | **done** | was running (check `data/verification/`) | 74 sources, 17 systems, 27 milestones (16 peer-reviewed), 25 targets |
 | `superconducting_a.json` | **done** | not started; give it the notes in `docs/handoff/counsel-superconducting_a.md` | IBM, Google, Rigetti, AWS, Alice & Bob: 14 systems, 18 milestones, 16 targets |
-| `superconducting_b.json` | was still running | not started | 16 systems, 20 milestones, 13 targets so far |
-| `trapped_ion.json` | was still running | not started | 14 systems, 17 milestones, 13 targets so far |
+| `superconducting_b.json` | **done** | not started; notes in `docs/handoff/counsel-superconducting_b.md` | IQM, OQC, Fujitsu/RIKEN, USTC, Origin: 17 systems, 21 milestones, 14 targets |
+| `trapped_ion.json` | **done** | not started; notes in `docs/handoff/counsel-trapped_ion.md` | Quantinuum, IonQ, Oxford Ionics, AQT: 14 systems, 17 milestones, 13 targets |
 | `photonic.json` | was just launched | not started | may not exist yet |
 | `spin_topo_anneal.json` | **not started** | — | spin/silicon (Intel, Diraq, Quantum Motion), topological (Microsoft), annealing (D-Wave), NV/other |
 | `access.json` | **not started** | — | per `docs/ACCESS.md`: cloud routes, SDKs, tiers, verbatim official snippets, each run against the SDK's **local simulator** in a scratch venv. Never call real or paid hardware; never create accounts. |
 | `relationships.json` | **not started** | — | acquisitions, partnerships, government contracts and awards (DARPA QBI, DOE, national programs), funding only from primary sources |
 
-**Before you start:** Claude agents may still be writing to `superconducting_b.json`, `trapped_ion.json` and `photonic.json`.
+**Before you start:** a Claude agent may still be writing `photonic.json`, and a Claude reviewer `data/verification/neutral_atom.json`.
 Check modification times (`ls -l data/research`). If a file changed in the last ~15 minutes, leave it alone. When they
 stop, an analyst can resume a partial file: read it, keep what's there, and fill in the topic's remaining orgs.
 
 ### Remaining steps
-1. **Finish the analysts:** superconducting_b, trapped_ion, photonic, spin_topo_anneal, access, relationships. Each one
+1. **Finish the analysts:** photonic (if incomplete), spin_topo_anneal, access, relationships. Each one
    follows `docs/ANALYST.md` (or `docs/ACCESS.md`), validates with `node scripts/validate.mjs <topic>` and finishes
    with a report listing counts, gaps and "items counsel should scrutinise".
 2. **Run counsel for each topic** (a separate agent or chat, ideally a different model), following `docs/COUNSEL.md`. Pass it the analyst's
