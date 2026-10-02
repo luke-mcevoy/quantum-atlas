@@ -1,0 +1,1024 @@
+{
+  "topic": "spin_topo_anneal",
+  "verifier": "cursor-gpt-counsel-spin_topo_anneal",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:intel-tunnel-falls-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nano-letters-tunnel-falls",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:diraq-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Undated current company page; document_date is the access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:diraq-lab-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:diraq-roadmap-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nature-s41586-025-09531-9",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nature-s41467-026-74597-6",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:qm-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Live page refused; the cited May 2026 Wayback capture was fetched. The capture date is not a demonstrated publication date."
+    },
+    {
+      "source": "src:qm-bloomsbury-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page refused; fetched through the 2026 Wayback replay, which contains the dated 26 October 2022 release."
+    },
+    {
+      "source": "src:qm-nqcc-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page and a 2026 replay showed a password gate; the cited 2025-10-04 Wayback capture was fetched and contains all quotations."
+    },
+    {
+      "source": "src:nature-s41928-024-01304-y",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:ms-majorana1-blog",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nature-s41586-024-08445-2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:ms-10k-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov refused; the 2026 Wayback copy of the filed 10-K was fetched. Inline XBRL tag boundaries were normalized when matching quotes."
+    },
+    {
+      "source": "src:photonic-ms-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ms-photonic-entanglement-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2406.01704",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:dwave-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov refused; the 2026 Wayback copy of the filed 10-K was fetched. Inline XBRL tag boundaries were normalized when matching quotes."
+    },
+    {
+      "source": "src:dwave-advantage2-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:dwave-advantage2-datasheet",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The date is the PDF CreationDate (2026-03-02); no printed cover date appears."
+    },
+    {
+      "source": "src:dwave-flux-noise-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The PDF CreationDate is 2022-06-15 and the body refers to a prototype launched in June 2022; no printed cover date appears."
+    },
+    {
+      "source": "src:science-ado6285",
+      "reachable": true,
+      "doc_type_ok": false,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The cited URL is an arXiv record, not Science full text. DOI, Science page, and 2026 Wayback replay all returned 403. Treat as a Tier 2 preprint source; the journal-reference line does not make its quotations peer-reviewed."
+    },
+    {
+      "source": "src:qb-qdk2-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:qb-computing-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Undated current company page; document_date is the access date, not a demonstrated publication date."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "The press-release dateline establishes Santa Clara as the release location, not Intel headquarters."
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:diraq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:diraq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:diraq",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:diraq",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantum-motion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantum-motion",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantum-motion",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:photonic-inc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:photonic-inc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 1,
+      "verdict": "superseded",
+      "notes": "The 2026 10-K says New York Stock Exchange, but current data.sec.gov submissions metadata lists Nasdaq and shows July 2026 exchange filings; delete the stale ticker field."
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 3,
+      "verdict": "superseded",
+      "notes": "The 2025 release accurately said NYSE at that date, but current SEC submissions metadata lists Nasdaq; delete the stale ticker field."
+    },
+    {
+      "entity": "co:quantum-brilliance",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "A joint Canberra/Stuttgart dateline does not establish Canberra as headquarters."
+    },
+    {
+      "entity": "co:quantum-brilliance",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantum-brilliance",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:diraq-unsw-sydney",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:qm-london",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:qm-london",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:microsoft-redmond",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:microsoft-redmond",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:d-wave-palo-alto",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:d-wave-palo-alto",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "A press-release dateline does not by itself place a facility; the 10-K address independently supports this site."
+    },
+    {
+      "entity": "site:d-wave-burnaby",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:d-wave-burnaby",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:d-wave-huntsville",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:d-wave-boca-raton",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:intel-tunnel-falls",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:intel-tunnel-falls",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:intel-tunnel-falls",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:intel-tunnel-falls",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:intel-tunnel-falls",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:diraq-simos-8",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:diraq-simos-8",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:diraq-simos-8",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qm-bloomsbury",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qm-bloomsbury",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qm-bloomsbury",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "The Nature Electronics paper supports CMOS technology generally but does not name Bloomsbury."
+    },
+    {
+      "entity": "sys:qm-bloomsbury",
+      "evidence_index": 3,
+      "verdict": "does_not_support",
+      "notes": "The paper reports 1,024 silicon quantum-dot devices but does not identify them as Bloomsbury."
+    },
+    {
+      "entity": "sys:qm-nqcc-cmos",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qm-nqcc-cmos",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qm-nqcc-cmos",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:microsoft-majorana-1",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:microsoft-majorana-1",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:microsoft-majorana-1",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:d-wave-advantage",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qb-qdk2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qb-qdk2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qb-qdk2",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qb-pawsey",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:qb-pawsey",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "This quote describes QB-QDK2.0, not the Pawsey accelerator; delete Pawsey submodality."
+    },
+    {
+      "entity": "ms:intel-tunnel-falls-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:intel-tunnel-falls-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:intel-tunnel-falls-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:intel-tunnel-falls-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:intel-tunnel-falls-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:diraq-fidelity-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:diraq-fidelity-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:diraq-fidelity-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:diraq-eight-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:diraq-eight-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:diraq-eight-2026",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-bloomsbury-2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-bloomsbury-2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-bloomsbury-2022",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-1024-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-1024-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-1024-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-nqcc-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-nqcc-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qm-nqcc-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:microsoft-majorana1-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:microsoft-majorana1-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:microsoft-parity-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:microsoft-parity-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:microsoft-parity-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:photonic-microsoft-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:photonic-microsoft-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:photonic-entanglement-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:photonic-entanglement-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:photonic-entanglement-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:photonic-entanglement-2024",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:photonic-entanglement-2024",
+      "evidence_index": 4,
+      "verdict": "verified_with_correction",
+      "notes": "The Microsoft quote supports a teleported CNOT, not attribution of that detail to the Photonic preprint; the claim is corrected to separate the sources."
+    },
+    {
+      "entity": "ms:d-wave-advantage-2020",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-advantage-2020",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-advantage2-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-advantage2-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-advantage2-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-simulation-2025",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The quote is verbatim in the fetched arXiv record, but not fetched from Science full text; peer_review and date are corrected to the preprint."
+    },
+    {
+      "entity": "ms:d-wave-simulation-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-simulation-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qb-pawsey-2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qb-qdk2-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qb-qdk2-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:qb-qdk2-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:intel-next-chip-2024",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The quote verifies the target statement, but no document says the target was missed; status is corrected to open."
+    },
+    {
+      "entity": "tgt:diraq-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:diraq-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:intel",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, ticker and spin-silicon modality are verified. Santa Clara appears only as a press-release dateline, not an explicit headquarters statement, so the city-level HQ placement is flagged."
+    },
+    {
+      "entity": "co:diraq",
+      "verdict": "publish",
+      "reasons": "Sydney head office, existence and silicon modality are verified from Diraq and the cited journal affiliation."
+    },
+    {
+      "entity": "co:quantum-motion",
+      "verdict": "publish",
+      "reasons": "The exact London address and headquarters status are verified from the archived company page."
+    },
+    {
+      "entity": "co:microsoft",
+      "verdict": "publish",
+      "reasons": "Headquarters and ticker are verified from the 2026 10-K; topological modality is verified as Microsoft company framing."
+    },
+    {
+      "entity": "co:photonic-inc",
+      "verdict": "publish",
+      "reasons": "Vancouver headquarters and the photonically linked silicon-spin architecture are verified from Photonic\u2019s release."
+    },
+    {
+      "entity": "co:d-wave",
+      "verdict": "publish_flagged",
+      "reasons": "Company, headquarters, annealing and Leap claims are verified. The cited 10-K and 2025 release said NYSE, but current SEC submissions metadata lists Nasdaq; the stale ticker is removed.",
+      "corrections": {
+        "tickers": null
+      }
+    },
+    {
+      "entity": "co:quantum-brilliance",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, Australian founding and NV-diamond modality are verified, but a Canberra/Stuttgart dateline does not establish Canberra as headquarters; city placement is flagged."
+    },
+    {
+      "entity": "site:diraq-unsw-sydney",
+      "verdict": "publish",
+      "reasons": "Diraq\u2019s release names a commercial laboratory on the UNSW campus in Sydney."
+    },
+    {
+      "entity": "site:qm-london",
+      "verdict": "publish",
+      "reasons": "The archived company page verifies the exact London address and identifies a lab and headquarters."
+    },
+    {
+      "entity": "site:microsoft-redmond",
+      "verdict": "publish",
+      "reasons": "The 2026 10-K verifies the exact Redmond headquarters address."
+    },
+    {
+      "entity": "site:d-wave-palo-alto",
+      "verdict": "publish",
+      "reasons": "The 2026 10-K verifies the principal executive office address; the press-release dateline is not relied upon."
+    },
+    {
+      "entity": "site:d-wave-burnaby",
+      "verdict": "publish",
+      "reasons": "The 2026 10-K names Burnaby and states the facility hosts system development and manufacturing."
+    },
+    {
+      "entity": "site:d-wave-huntsville",
+      "verdict": "publish",
+      "reasons": "The 2026 10-K places an operational Advantage2 at Davidson Technologies in Huntsville; D-Wave remains the recorded hardware operator because Davidson is not defined as an atlas org."
+    },
+    {
+      "entity": "site:d-wave-boca-raton",
+      "verdict": "publish",
+      "reasons": "The 2026 10-K verifies the announced R&D center and Boca Raton location."
+    },
+    {
+      "entity": "sys:intel-tunnel-falls",
+      "verdict": "publish",
+      "reasons": "Name, release, Si/SiGe technology and the qualified 12-dot/up-to-12-qubit count are verified."
+    },
+    {
+      "entity": "sys:diraq-simos-8",
+      "verdict": "publish",
+      "reasons": "The peer-reviewed paper verifies an eight-dot SiMOS array with all eight qubits tuned and characterized."
+    },
+    {
+      "entity": "sys:qm-bloomsbury",
+      "verdict": "publish_flagged",
+      "reasons": "Quantum Motion\u2019s 2022 release names Bloomsbury and reports 1,024 measured quantum dots. The later Nature Electronics paper reports 1,024 devices but never names Bloomsbury, so its system linkage is not accepted and the unsupported silicon_mos submodality is removed.",
+      "corrections": {
+        "submodality": null
+      }
+    },
+    {
+      "entity": "sys:qm-nqcc-cmos",
+      "verdict": "publish",
+      "reasons": "The dated 2025 Wayback capture verifies deployment at NQCC and silicon CMOS fabrication; no site or qubit count is asserted."
+    },
+    {
+      "entity": "sys:microsoft-majorana-1",
+      "verdict": "publish_flagged",
+      "reasons": "Name and eight-qubit count are verified only as Microsoft company claims. The Nature paper separately warns its parity measurements do not by themselves establish topology; no encoded-qubit count or code is recorded.",
+      "corrections": {
+        "physical_qubits.note": "Microsoft states it \u201cplaced eight topological qubits on a chip designed to house one million\u201d; no encoded-qubit count or code is stated."
+      }
+    },
+    {
+      "entity": "sys:d-wave-advantage2",
+      "verdict": "publish",
+      "reasons": "Online status, annealing modality, 4,400+ vendor count, flux-qubit implementation and 20-way connectivity are verified; no single site is assigned."
+    },
+    {
+      "entity": "sys:d-wave-advantage",
+      "verdict": "publish_flagged",
+      "reasons": "The 5,000+ annealing count and current Leap availability are verified. The 2020 date is an explicit inference from the 10-K sequence \u201cIn 2019\u201d followed by \u201cA year later,\u201d not a printed year in the launch sentence."
+    },
+    {
+      "entity": "sys:qb-qdk2",
+      "verdict": "publish",
+      "reasons": "The release verifies QB-QDK2.0, its announcement date and nitrogen-vacancy centres in diamond; no city or qubit count is asserted."
+    },
+    {
+      "entity": "sys:qb-pawsey",
+      "verdict": "publish_flagged",
+      "reasons": "The Pawsey installation and 2022 online date are verified, but the NV-centre quote describes the later QB-QDK2.0 rather than this machine; submodality is removed.",
+      "corrections": {
+        "submodality": null
+      }
+    },
+    {
+      "entity": "ms:intel-tunnel-falls-2023",
+      "verdict": "publish",
+      "reasons": "Intel\u2019s dated release verifies the Tunnel Falls launch and 12-qubit company figure."
+    },
+    {
+      "entity": "ms:intel-tunnel-falls-2024",
+      "verdict": "publish",
+      "reasons": "The Nano Letters article and DOI verify the 12-dot Tunnel Falls result and up-to-12-qubit statement."
+    },
+    {
+      "entity": "ms:diraq-fidelity-2025",
+      "verdict": "publish",
+      "reasons": "The Nature article verifies the Diraq-designed foundry devices, date and stated fidelity figures."
+    },
+    {
+      "entity": "ms:diraq-eight-2026",
+      "verdict": "publish",
+      "reasons": "The Nature Communications article verifies the eight-dot array and all-eight-qubits-tuned result."
+    },
+    {
+      "entity": "ms:qm-bloomsbury-2022",
+      "verdict": "publish",
+      "reasons": "The archived company release verifies the Bloomsbury name, 1,024 measured quantum dots and date as a company claim."
+    },
+    {
+      "entity": "ms:qm-1024-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The peer-reviewed paper verifies 1,024 silicon quantum-dot devices and Quantum Motion authorship, but it does not name Bloomsbury; the unsupported system link is removed.",
+      "corrections": {
+        "systems": null
+      }
+    },
+    {
+      "entity": "ms:qm-nqcc-2025",
+      "verdict": "publish",
+      "reasons": "The 2025 archived release verifies deployment of the full-stack silicon CMOS computer at NQCC as a company claim."
+    },
+    {
+      "entity": "ms:microsoft-majorana1-2025",
+      "verdict": "publish",
+      "reasons": "Published strictly as an attributed Microsoft company claim; no peer-reviewed or encoded-qubit conclusion is implied."
+    },
+    {
+      "entity": "ms:microsoft-parity-2025",
+      "verdict": "publish",
+      "reasons": "The Nature article verifies the parity-measurement result and its explicit caveat that the measurements do not by themselves establish topology."
+    },
+    {
+      "entity": "ms:photonic-microsoft-2023",
+      "verdict": "publish",
+      "reasons": "Photonic\u2019s release verifies the Microsoft collaboration and photonically linked silicon spin-qubit platform as a company claim."
+    },
+    {
+      "entity": "ms:photonic-entanglement-2024",
+      "verdict": "publish_flagged",
+      "reasons": "The preprint verifies inter-module entanglement over 40 metres; Microsoft separately reports a teleported CNOT. The claim is corrected to keep those attributions distinct.",
+      "corrections": {
+        "claim": "A Photonic preprint reports \u201cdistribution of entanglement between modules\u201d separated by \u201c40 meters of fibre.\u201d Microsoft reports a related demonstration involving a \u201cteleported CNOT\u201d over a \u201c40-meter fiber-optic cable.\u201d"
+      }
+    },
+    {
+      "entity": "ms:d-wave-advantage-2020",
+      "verdict": "publish",
+      "reasons": "The 10-K verifies the Advantage launch and 5,000+ annealing count; 2020 is the direct inference from 2019 followed by \u201cA year later.\u201d"
+    },
+    {
+      "entity": "ms:d-wave-advantage2-2025",
+      "verdict": "publish",
+      "reasons": "The release and 10-K verify May 2025 launch, annealing modality and the 4,400+ vendor count."
+    },
+    {
+      "entity": "ms:d-wave-simulation-2025",
+      "verdict": "publish_flagged",
+      "reasons": "All quotations are verified on arXiv, and the record links the Science DOI, but Science full text and its Wayback replay refused access. Under the counsel rule this remains a preprint-derived claim, dated to initial arXiv submission.",
+      "corrections": {
+        "date": "2024-03-01",
+        "peer_review": "preprint",
+        "doi": null,
+        "arxiv": "2403.00910"
+      }
+    },
+    {
+      "entity": "ms:qb-pawsey-2022",
+      "verdict": "publish",
+      "reasons": "The company page verifies a 2022 diamond quantum-accelerator installation at Pawsey; no city, NV submodality or qubit count is added."
+    },
+    {
+      "entity": "ms:qb-qdk2-2024",
+      "verdict": "publish_flagged",
+      "reasons": "The evidence verifies the QB-QDK2.0 name, date and NV-diamond implementation, but the selected quotes do not support the claim\u2019s purchase wording; the claim is narrowed.",
+      "corrections": {
+        "claim": "Quantum Brilliance describes its second-generation Quantum Development Kit (QB-QDK2.0) and states that it features \u201cnitrogen-vacancy centres in diamond.\u201d"
+      }
+    },
+    {
+      "entity": "tgt:intel-next-chip-2024",
+      "verdict": "publish_flagged",
+      "reasons": "Intel\u2019s 2023 target is verified, but a passed year and absence of a fetched successor announcement do not document missed status. Current Intel primary materials still describe Tunnel Falls as its most advanced released spin-qubit chip; status is corrected to open.",
+      "corrections": {
+        "status": "open"
+      }
+    },
+    {
+      "entity": "tgt:diraq-2029",
+      "verdict": "publish",
+      "reasons": "The dated Diraq roadmap verifies the open 2029 company target; \u201clogical qubits\u201d remains an attributed quotation and no achieved logical-qubit field is created."
+    },
+    {
+      "entity": "tgt:diraq-2031",
+      "verdict": "publish",
+      "reasons": "The dated Diraq roadmap verifies the open 2031 company target; \u201clogical qubits\u201d remains an attributed quotation and no achieved logical-qubit field is created."
+    }
+  ],
+  "summary": "30 publish, 12 publish_flagged, 0 reject. All 24 cited URLs were re-fetched and all 115 evidence quotations were found after allowed normalization; archived copies were required for Quantum Motion and SEC filings. Systemic issues: datelines used as headquarters evidence, cross-system/cross-document technology attribution, a stale D-Wave exchange field, inferred dates, and company claims needing separation from journal conclusions. Science DOI 10.1126/science.ado6285 is treated as preprint-derived because journal full text refused access. Intel\u2019s 2024 target is open, not missed, because no document supports missed status. Rejected ids: none."
+}

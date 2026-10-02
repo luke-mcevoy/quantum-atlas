@@ -49,8 +49,15 @@ for (const [topic, file] of Object.entries(research)) {
   const verdicts = new Map((v?.entity_verdicts ?? []).map((e) => [e.entity, e]));
   const failed = new Set((v?.evidence_checks ?? []).filter((c) => !PASS.has(c.verdict))
     .map((c) => `${c.entity}|${c.path ?? ""}|${c.evidence_index}`));
-  const srcTier = new Map((v?.source_checks ?? []).map((s) => [s.source, s.tier_assigned]));
-  for (const s of file.sources ?? []) if (!sources.has(s.id)) sources.set(s.id, { ...s, tier: srcTier.get(s.id) ?? s.tier, topic });
+  const srcChecks = new Map((v?.source_checks ?? []).map((s) => [s.source, s]));
+  for (const s of file.sources ?? []) if (!sources.has(s.id)) {
+    const check = srcChecks.get(s.id);
+    const published = { ...s, tier: check?.tier_assigned ?? s.tier, topic };
+    // Counsel can reject a claimed document type. A "peer_reviewed" source whose fetched
+    // text is only the preprint record is published as a preprint.
+    if (check && check.doc_type_ok === false && s.doc_type === "peer_reviewed") published.doc_type = "preprint";
+    sources.set(s.id, published);
+  }
 
   const keep = (id, path, list) => {
     const out = (list ?? []).filter((_, i) => !failed.has(`${id}|${path}|${i}`));

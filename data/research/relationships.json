@@ -1,0 +1,2241 @@
+{
+  "topic": "relationships",
+  "analyst": "cursor-grok-relationships",
+  "generated_at": "2026-10-01",
+  "sources": [
+    {
+      "id": "src:honeywell-qtm-combination-2021",
+      "title": "Honeywell Quantum Solutions and Cambridge Quantum complete business combination to form Quantinuum",
+      "publisher": "Honeywell",
+      "url": "https://www.honeywell.com/us/en/press/2021/11/honeywell-quantum-solutions-and-cambridge-quantum-complete-business-combination-to-form-world-s-largest-most-advanced-standalone-quantum-company",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-11-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-intro-2021",
+      "title": "Introducing Quantinuum: The World's Largest Integrated Quantum Computing Company",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/introducing-quantinuum",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-11-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quantinuum-about",
+      "title": "Quantinuum company locations, including Broomfield, Colorado",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/company/about",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-oxford-ionics-close-2025",
+      "title": "IonQ Completes Acquisition of Oxford Ionics",
+      "publisher": "IonQ",
+      "url": "https://www.ionq.com/news/ionq-completes-acquisition-of-oxford-ionics-rapidly-accelerating-its-quantum",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-17",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ionq-contact",
+      "title": "IonQ contact page (mailing address)",
+      "publisher": "IonQ",
+      "url": "https://ionq.com/contact",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:darpa-qbi-stage-b-2025",
+      "title": "Quantum Benchmarking Initiative Stage B selection",
+      "publisher": "DARPA",
+      "url": "https://www.darpa.mil/research/programs/quantum-benchmarking-initiative/stage-b-selection",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-11-06",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:darpa-qbi-stage-a-2025",
+      "title": "DARPA eyes companies targeting industrially useful quantum computers",
+      "publisher": "DARPA",
+      "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-04-03",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:govuk-testbeds-2024",
+      "title": "Unlocking the potential of quantum: £45 million investment to drive breakthroughs in brain scanners, navigation systems, and quantum computing",
+      "publisher": "UK Government",
+      "url": "https://www.gov.uk/government/news/unlocking-the-potential-of-quantum-45-million-investment-to-drive-breakthroughs-in-brain-scanners-navigation-systems-and-quantum-computing",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-02-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:nqcc-testbeds-2024",
+      "title": "Science Minister Andrew Griffith announces the results of the £30m quantum computing testbed competition",
+      "publisher": "National Quantum Computing Centre",
+      "url": "https://www.nqcc.ac.uk/updates/science-minister-andrew-griffith-announces-the-results-of-the-30m-quantum-computing-testbed-competition/",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-02-05",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:au-pm-psiq-2024",
+      "title": "Delivering a Future Made in Australia with 400 new technology jobs in Brisbane",
+      "publisher": "Prime Minister of Australia",
+      "url": "https://www.pm.gov.au/media/delivering-future-made-australia-400-new-technology-jobs-brisbane",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-04-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-griffith",
+      "title": "PsiQuantum opens a test and validation lab at Griffith University",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-opens-test-validation-lab-at-griffith-university",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-riken-system-two-2025",
+      "title": "IBM and RIKEN Unveil First IBM Quantum System Two Outside of the U.S.",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2025-06-23-ibm-and-riken-unveil-first-ibm-quantum-system-two-outside-of-the-u-s",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-23",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:ibm-armonk-2026",
+      "title": "IBM newsroom release datelined Armonk, N.Y., 2 June 2026",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-02",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:planqc-dlr-contract",
+      "title": "planqc awarded EUR 29 million contract from DLR to build scalable neutral-atom quantum computer",
+      "publisher": "planqc",
+      "url": "https://planqc.eu/news/planqc-awarded-eur-29-million-contract-from-the-dlr-to-build-and-install-scalable-neutral-atom-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-05-04",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-about",
+      "title": "Discover EuroHPC JU",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/about/discover-eurohpc-ju_en",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-lumiq-2024",
+      "title": "Signature of the procurement contract for the EuroHPC quantum computer located in Czechia",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/advancing-european-quantum-computing-signature-procurement-contract-eurohpc-quantum-computer-located-2024-09-26_en",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-09-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-euroqexa-2024",
+      "title": "Signature of the procurement contract for the EuroHPC quantum computer located in Germany",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/signature-procurement-contract-eurohpc-quantum-computer-located-germany-2024-10-15_en",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-10-15",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-italy-2025",
+      "title": "Signature of the procurement contract for the EuroHPC quantum computer located in Italy",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/signature-procurement-contract-eurohpc-quantum-computer-located-italy-2025-03-27_en",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-03-27",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-lucy-2024",
+      "title": "Signature of the procurement contract for Lucy, a EuroHPC quantum computer located in France",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/signature-procurement-contract-lucy-new-eurohpc-quantum-computer-located-france-2024-09-26_en",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-09-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-poland-2024",
+      "title": "Signature of the procurement contract for EuroQCS-Poland",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/advancing-european-quantum-computing-signature-procurement-contract-euroqcs-poland-2024-07-10_en",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-07-10",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:eurohpc-hpcqs-2022",
+      "title": "With two 100 qubits quantum computers from PASQAL, FZJ and GENCI boost HPCQS",
+      "publisher": "EuroHPC Joint Undertaking",
+      "url": "https://www.eurohpc-ju.europa.eu/two-100-qubits-quantum-computers-pasqal-fzj-and-genci-boost-hpcqs-pan-european-hybrid-hpcquantum-2022-05-30_en",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2022-05-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:aqt-contact",
+      "title": "AQT contact page",
+      "publisher": "Alpine Quantum Technologies",
+      "url": "https://www.aqt.eu/contact/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:google-locations",
+      "title": "Google locations",
+      "publisher": "Google",
+      "url": "https://about.google/intl/en/locations/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quandela-contact",
+      "title": "Quandela contact and sites",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/contact/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quandela-about",
+      "title": "About Quandela",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/about-us/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:honeywell",
+      "name": "Honeywell",
+      "kind": "company",
+      "roles": [
+        "parent"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 35.2271,
+        "lon": -80.8431,
+        "precision": "city",
+        "address": "Charlotte, N.C."
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "CHARLOTTE, N.C., Nov. 30, 2021 /PRNewswire/ -- Honeywell (NASDAQ: HON) announced today that Honeywell Quantum Solutions (HQS) and Cambridge Quantum (CQ), two global leaders in quantum computing and technology, received regulatory approval and completed the previously announced business combination.",
+          "locator": "Dateline and lead",
+          "supports": "existence, hq, ticker"
+        },
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "Honeywell has been an investor in and commercial partner of CQ since 2019, and now owns a majority stake in Quantinuum.",
+          "locator": "Ownership paragraph",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:HON"
+      ],
+      "website": "https://www.honeywell.com"
+    },
+    {
+      "id": "co:cambridge-quantum",
+      "name": "Cambridge Quantum",
+      "kind": "company",
+      "roles": [],
+      "country": "GB",
+      "hq": {
+        "lat": 52.2053,
+        "lon": 0.1218,
+        "precision": "city",
+        "address": "Cambridge, UK"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:quantinuum-intro-2021",
+          "quote": "Cambridge, UK and Broomfield, Colorado, November 30th, 2021 — The two leading companies in the quantum computing industry have combined to create Quantinuum",
+          "locator": "Dateline",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:quantinuum-intro-2021",
+          "quote": "Cambridge Quantum, the pioneer in quantum software, operating systems, and cybersecurity, and Honeywell Quantum Solutions, which has built the highest-performing quantum hardware, based on trapped-ion technologies, today announced they have satisfied all of the conditions required to close the business combination and formed the new company, now called Quantinuum.",
+          "locator": "Combination paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:quantinuum",
+      "name": "Quantinuum",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 39.928,
+        "lon": -105.131,
+        "precision": "site",
+        "address": "303 S Technology Court, Broomfield, CO 80021"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "evidence": [
+        {
+          "source": "src:quantinuum-about",
+          "quote": "303 S Technology Court Broomfield, CO 80021",
+          "locator": "Locations list",
+          "supports": "hq"
+        },
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "The new company, named Quantinuum, is now the largest",
+          "locator": "Lead",
+          "supports": "existence"
+        },
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "Honeywell has been an investor in and commercial partner of CQ since 2019, and now owns a majority stake in Quantinuum.",
+          "locator": "Ownership paragraph",
+          "supports": "modality"
+        },
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "long-term agreement for Honeywell to help manufacture the critical ion traps needed to power Quantinuum's trapped-ion quantum hardware.",
+          "locator": "Manufacturing agreement",
+          "supports": "modality"
+        }
+      ],
+      "website": "https://www.quantinuum.com"
+    },
+    {
+      "id": "co:ionq",
+      "name": "IonQ, Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 38.9897,
+        "lon": -76.9378,
+        "precision": "site",
+        "address": "4505 Campus Drive, College Park, MD 20740"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-contact",
+          "quote": "Our mailing address: IonQ, Inc. 4505 Campus Drive College Park, MD 20740",
+          "locator": "Mailing address",
+          "supports": "hq"
+        },
+        {
+          "source": "src:ionq-oxford-ionics-close-2025",
+          "quote": "COLLEGE PARK, MD – September 17, 2025 - IonQ (NYSE: IONQ), the leader in the quantum computing and networking industries, today announced the successful completion of its acquisition of Oxford Ionics, a quantum computing company based in the United Kingdom.",
+          "locator": "Lead",
+          "supports": "existence, ticker"
+        }
+      ],
+      "tickers": [
+        "NYSE:IONQ"
+      ],
+      "website": "https://ionq.com"
+    },
+    {
+      "id": "co:oxford-ionics",
+      "name": "Oxford Ionics",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.752,
+        "lon": -1.2577,
+        "precision": "city",
+        "address": "Oxford, UK"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-oxford-ionics-close-2025",
+          "quote": "COLLEGE PARK, MD – September 17, 2025 - IonQ (NYSE: IONQ), the leader in the quantum computing and networking industries, today announced the successful completion of its acquisition of Oxford Ionics, a quantum computing company based in the United Kingdom.",
+          "locator": "Lead",
+          "supports": "existence"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Oxford Ionics — Oxford, UK and Boulder, Colorado (trapped-ions)",
+          "locator": "Stage A company list",
+          "supports": "hq, modality"
+        }
+      ],
+      "parent": "co:ionq"
+    },
+    {
+      "id": "gov:us-darpa",
+      "name": "Defense Advanced Research Projects Agency (DARPA)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "existence"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "An official website of the United States Government",
+          "locator": "Site banner",
+          "supports": "country"
+        }
+      ]
+    },
+    {
+      "id": "co:atom-computing",
+      "name": "Atom Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 40.015,
+        "lon": -105.2705,
+        "precision": "city",
+        "address": "Boulder, Colorado"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Atom Computing: Boulder, Colorado (scalable arrays of neutral atoms)",
+          "locator": "Stage B company list",
+          "supports": "existence, hq, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:diraq",
+      "name": "Diraq",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "AU",
+      "hq": {
+        "lat": -33.8688,
+        "lon": 151.2093,
+        "precision": "city",
+        "address": "Sydney, Australia"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Diraq: Sydney, Australia, with operations in Palo Alto, California, and Boston, Massachusetts (silicon CMOS spin qubits)",
+          "locator": "Stage B company list",
+          "supports": "existence, hq, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:ibm",
+      "name": "IBM",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 41.1265,
+        "lon": -73.714,
+        "precision": "city",
+        "address": "Armonk, N.Y."
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-armonk-2026",
+          "quote": "ARMONK, N.Y., June 2, 2026 — IBM (NYSE: IBM)",
+          "locator": "Dateline",
+          "supports": "existence, hq, ticker"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "IBM: Yorktown Heights, New York (quantum computing with modular superconducting processors)",
+          "locator": "Stage B company list",
+          "supports": "modality"
+        }
+      ],
+      "tickers": [
+        "NYSE:IBM"
+      ],
+      "website": "https://www.ibm.com/quantum"
+    },
+    {
+      "id": "co:photonic-inc",
+      "name": "Photonic Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CA",
+      "hq": {
+        "lat": 49.2827,
+        "lon": -123.1207,
+        "precision": "city",
+        "address": "Vancouver, British Columbia, Canada"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Photonic Inc.: Vancouver, British Columbia, Canada (optically-linked silicon spin qubits)",
+          "locator": "Stage B company list",
+          "supports": "existence, hq, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:quantum-motion",
+      "name": "Quantum Motion",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "precision": "city",
+        "address": "London, UK"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Quantum Motion: London, UK (MOS-based silicon spin qubits)",
+          "locator": "Stage B company list",
+          "supports": "existence, hq, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:quera",
+      "name": "QuEra Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "precision": "city",
+        "address": "Boston, Massachusetts"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "QuEra Computing: Boston, Massachusetts (neutral atom qubits)",
+          "locator": "Stage B company list",
+          "supports": "existence, hq, modality"
+        }
+      ],
+      "website": "https://www.quera.com"
+    },
+    {
+      "id": "co:xanadu",
+      "name": "Xanadu Quantum Technologies",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CA",
+      "hq": {
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "precision": "city",
+        "address": "Toronto, Canada"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Xanadu: Toronto, Canada (photonic quantum computing)",
+          "locator": "Stage B company list",
+          "supports": "existence, hq, modality"
+        }
+      ],
+      "website": "https://www.xanadu.ai"
+    },
+    {
+      "id": "co:alice-bob",
+      "name": "Alice & Bob",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "precision": "city",
+        "address": "Paris, France"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Alice & Bob — Cambridge, Massachusetts, and Paris, France (superconducting cat qubits)",
+          "locator": "Stage A company list",
+          "supports": "existence, hq, modality"
+        }
+      ],
+      "website": "https://alice-bob.com"
+    },
+    {
+      "id": "co:google",
+      "name": "Google (Google Quantum AI)",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "site",
+        "address": "1600 Amphitheatre Pkwy, Mountain View, CA 94043"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "evidence": [
+        {
+          "source": "src:google-locations",
+          "quote": "1600 Amphitheatre Pkwy, Mountain View, CA 94043",
+          "locator": "Googleplex address",
+          "supports": "hq"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Google Quantum AI — Santa Barbara, California (superconducting transmon qubits)",
+          "locator": "Stage A company list",
+          "supports": "existence, modality"
+        }
+      ],
+      "website": "https://quantumai.google"
+    },
+    {
+      "id": "co:rigetti",
+      "name": "Rigetti Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.8716,
+        "lon": -122.2727,
+        "precision": "city",
+        "address": "Berkeley, California"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Rigetti Computing — Berkeley, California (superconducting tunable transmon qubits)",
+          "locator": "Stage A company list",
+          "supports": "existence, hq, modality"
+        }
+      ],
+      "website": "https://www.rigetti.com"
+    },
+    {
+      "id": "gov:gb-ukri",
+      "name": "UK Research and Innovation (UKRI)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 54.0,
+        "lon": -2.5,
+        "precision": "country"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "The UK Research and Innovation (UKRI) Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC) have invested £30 million",
+          "locator": "Investment paragraph",
+          "supports": "existence"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "5 February 2024",
+          "locator": "Published line",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "gov:gb-nqcc",
+      "name": "National Quantum Computing Centre (NQCC)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.574,
+        "lon": -1.316,
+        "precision": "region",
+        "address": "Oxfordshire"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "Seven quantum hardware companies have been awarded multimillion-pound contracts to build a diverse range of quantum computing testbeds at the NQCC facilities in Oxfordshire by March 2025.",
+          "locator": "Opening",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "The £30m programme has been funded through the UKRI Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Funding paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:orca",
+      "name": "ORCA Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "precision": "city",
+        "address": "London"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "evidence": [
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "ORCA Computing London QUARTET",
+          "locator": "Testbed winner table",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "a flexible photonic quantum computing testbed for machine learning ORCA Computing",
+          "locator": "Testbed winner table",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "gov:eu-eurohpc",
+      "name": "EuroHPC Joint Undertaking",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "LU",
+      "hq": {
+        "lat": 49.6116,
+        "lon": 6.1319,
+        "precision": "country",
+        "address": "Luxembourg"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:eurohpc-about",
+          "quote": "located in Luxembourg",
+          "locator": "Discover EuroHPC JU",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:eurohpc-lumiq-2024",
+          "quote": "LUMI-Q consortium’s quantum computer, the EuroHPC quantum computer to be located in Czechia, has been signed by the EuroHPC JU and the selected Finland-based vendor IQM Quantum Computers.",
+          "locator": "Lead",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:iqm",
+      "name": "IQM Quantum Computers",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FI",
+      "hq": {
+        "lat": 60.2055,
+        "lon": 24.6559,
+        "precision": "city",
+        "address": "Espoo, Finland"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "evidence": [
+        {
+          "source": "src:eurohpc-lumiq-2024",
+          "quote": "LUMI-Q consortium’s quantum computer, the EuroHPC quantum computer to be located in Czechia, has been signed by the EuroHPC JU and the selected Finland-based vendor IQM Quantum Computers.",
+          "locator": "Lead",
+          "supports": "existence"
+        },
+        {
+          "source": "src:eurohpc-euroqexa-2024",
+          "quote": "offices in Espoo",
+          "locator": "Company boilerplate",
+          "supports": "hq"
+        },
+        {
+          "source": "src:eurohpc-lumiq-2024",
+          "quote": "based on superconducting qubits",
+          "locator": "System description",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:pasqal",
+      "name": "Pasqal",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 46.6034,
+        "lon": 1.8883,
+        "precision": "country",
+        "address": "France"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "evidence": [
+        {
+          "source": "src:eurohpc-hpcqs-2022",
+          "quote": "Franco-German PPI procedure, won by the French startup PASQAL.",
+          "locator": "Selection paragraph",
+          "supports": "existence, country"
+        },
+        {
+          "source": "src:eurohpc-italy-2025",
+          "quote": "EuroQCS-Italy, the EuroHPC quantum computer to be located in Italy, has been signed by the European High Performance Computing Joint Undertaking (EuroHPC JU) and quantum computing company Pasqal, the selected vendor.",
+          "locator": "Lead",
+          "supports": "existence"
+        }
+      ],
+      "website": "https://www.pasqal.com"
+    },
+    {
+      "id": "co:aqt",
+      "name": "Alpine Quantum Technologies (AQT)",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "AT",
+      "hq": {
+        "lat": 47.2643,
+        "lon": 11.3446,
+        "precision": "site",
+        "address": "Technikerstrasse 1-3, 6020 Innsbruck, Austria"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "evidence": [
+        {
+          "source": "src:aqt-contact",
+          "quote": "Technikerstrasse 1-3 6020 Innsbruck, Austria",
+          "locator": "Contact address",
+          "supports": "hq"
+        },
+        {
+          "source": "src:aqt-contact",
+          "quote": "The home of ion trap quantum computing",
+          "locator": "About line",
+          "supports": "modality"
+        },
+        {
+          "source": "src:eurohpc-poland-2024",
+          "quote": "The procurement contract of EuroQCS-Poland, the EuroHPC quantum computer to be located in Poland, has been signed by the European High Performance Computing Joint Undertaking (EuroHPC JU) and the company AQT, the selected vendor.",
+          "locator": "Lead",
+          "supports": "existence"
+        }
+      ],
+      "website": "https://www.aqt.eu"
+    },
+    {
+      "id": "co:quandela",
+      "name": "Quandela",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.7262,
+        "lon": 2.271,
+        "precision": "site",
+        "address": "7 Rue Léonard de Vinci, 91300 Massy, France"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "evidence": [
+        {
+          "source": "src:quandela-contact",
+          "quote": "Headquarter – Eiffel Campus",
+          "locator": "Sites",
+          "supports": "hq"
+        },
+        {
+          "source": "src:quandela-contact",
+          "quote": "7 Rue Léonard de Vinci, 91300 Massy",
+          "locator": "Headquarter address",
+          "supports": "hq"
+        },
+        {
+          "source": "src:quandela-contact",
+          "quote": "91300 Massy FRANCE",
+          "locator": "Factory address",
+          "supports": "country"
+        },
+        {
+          "source": "src:quandela-about",
+          "quote": "Quandela is a world leader in full-stack photonic quantum computing.",
+          "locator": "About",
+          "supports": "existence, modality"
+        }
+      ],
+      "website": "https://www.quandela.com"
+    },
+    {
+      "id": "gov:au-gov",
+      "name": "Australian Government",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "AU",
+      "hq": {
+        "lat": -25.2744,
+        "lon": 133.7751,
+        "precision": "country"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "Prime Minister of Australia",
+          "locator": "Byline",
+          "supports": "existence"
+        },
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "The Australian and Queensland Governments will invest almost $1 billion into frontier technology company PsiQuantum",
+          "locator": "Investment paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:psiquantum",
+      "name": "PsiQuantum",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.4419,
+        "lon": -122.143,
+        "precision": "city",
+        "address": "Palo Alto, California"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "evidence": [
+        {
+          "source": "src:psiq-griffith",
+          "quote": "headquartered in Palo Alto, California.",
+          "locator": "Company boilerplate",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "The Australian and Queensland Governments will invest almost $1 billion into frontier technology company PsiQuantum",
+          "locator": "Investment paragraph",
+          "supports": "existence"
+        }
+      ],
+      "website": "https://www.psiquantum.com"
+    },
+    {
+      "id": "co:riken",
+      "name": "RIKEN",
+      "kind": "research_institution",
+      "roles": [],
+      "country": "JP",
+      "hq": {
+        "lat": 36.2048,
+        "lon": 138.2529,
+        "precision": "country"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:ibm-riken-system-two-2025",
+          "quote": "KOBE, Japan, June 23, 2025 /PRNewswire/ -- IBM (NYSE: IBM) and RIKEN, a national research laboratory in Japan, today unveiled the first IBM Quantum System Two ever to be deployed outside of the United States and beyond an IBM Quantum Data Center.",
+          "locator": "Dateline and lead",
+          "supports": "existence, country"
+        }
+      ]
+    },
+    {
+      "id": "gov:de-dlr",
+      "name": "German Aerospace Center (DLR)",
+      "kind": "government",
+      "roles": [
+        "funder"
+      ],
+      "country": "DE",
+      "hq": {
+        "lat": 51.1657,
+        "lon": 10.4515,
+        "precision": "country",
+        "address": "Germany"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "planqc has been selected by the German Aerospace Center (DLR) to develop a digital neutral-atom-based quantum computing hardware and software platform that is scalable and can demonstrate quantum algorithms for real-world problems. The award is valued at 29 million EUR.",
+          "locator": "Lead",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:planqc",
+      "name": "planqc",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "DE",
+      "hq": {
+        "lat": 48.249,
+        "lon": 11.651,
+        "precision": "city",
+        "address": "Garching near Munich, Germany"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "evidence": [
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "planqc has been selected by the German Aerospace Center (DLR) to develop a digital neutral-atom-based quantum computing hardware and software platform that is scalable and can demonstrate quantum algorithms for real-world problems. The award is valued at 29 million EUR.",
+          "locator": "Lead",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "The start-up planqc was founded in April 2022 in Garching near Munich (Germany).",
+          "locator": "Company background",
+          "supports": "hq"
+        }
+      ],
+      "website": "https://planqc.eu"
+    }
+  ],
+  "sites": [],
+  "systems": [],
+  "milestones": [],
+  "targets": [],
+  "access": [],
+  "relationships": [
+    {
+      "id": "rel:honeywell-cambridge-quantum-combination",
+      "from": "co:honeywell",
+      "to": "co:cambridge-quantum",
+      "kind": "acquisition",
+      "date": "2021-11-30",
+      "description": "On Nov. 30, 2021, Honeywell announced that Honeywell Quantum Solutions and Cambridge Quantum completed a business combination. Honeywell named the new company Quantinuum. Quantinuum states that the companies combined to create Quantinuum and that Cambridge Quantum and Honeywell Quantum Solutions formed that company.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "CHARLOTTE, N.C., Nov. 30, 2021 /PRNewswire/ -- Honeywell (NASDAQ: HON) announced today that Honeywell Quantum Solutions (HQS) and Cambridge Quantum (CQ), two global leaders in quantum computing and technology, received regulatory approval and completed the previously announced business combination.",
+          "locator": "Dateline and lead",
+          "supports": "parties, date, relationship"
+        },
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "The new company, named Quantinuum, is now the largest",
+          "locator": "Lead",
+          "supports": "parties"
+        },
+        {
+          "source": "src:quantinuum-intro-2021",
+          "quote": "Cambridge, UK and Broomfield, Colorado, November 30th, 2021 — The two leading companies in the quantum computing industry have combined to create Quantinuum",
+          "locator": "Dateline",
+          "supports": "parties"
+        },
+        {
+          "source": "src:quantinuum-intro-2021",
+          "quote": "Cambridge Quantum, the pioneer in quantum software, operating systems, and cybersecurity, and Honeywell Quantum Solutions, which has built the highest-performing quantum hardware, based on trapped-ion technologies, today announced they have satisfied all of the conditions required to close the business combination and formed the new company, now called Quantinuum.",
+          "locator": "Combination paragraph",
+          "supports": "parties"
+        }
+      ]
+    },
+    {
+      "id": "rel:honeywell-quantinuum-majority",
+      "from": "co:honeywell",
+      "to": "co:quantinuum",
+      "kind": "subsidiary",
+      "date": "2021-11-30",
+      "description": "Honeywell stated on Nov. 30, 2021 that it owns a majority stake in Quantinuum. Quantinuum states that Honeywell is its largest shareholder with an approximately 54 percent ownership stake and that Honeywell invested nearly $300 million in the new venture.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "Honeywell has been an investor in and commercial partner of CQ since 2019, and now owns a majority stake in Quantinuum.",
+          "locator": "Ownership paragraph",
+          "supports": "parties, relationship"
+        },
+        {
+          "source": "src:honeywell-qtm-combination-2021",
+          "quote": "CHARLOTTE, N.C., Nov. 30, 2021 /PRNewswire/ -- Honeywell (NASDAQ: HON) announced today that Honeywell Quantum Solutions (HQS) and Cambridge Quantum (CQ), two global leaders in quantum computing and technology, received regulatory approval and completed the previously announced business combination.",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:quantinuum-intro-2021",
+          "quote": "Honeywell is the largest shareholder of Quantinuum with an approximately 54 percent ownership stake in the new company. Additionally, on top of this stake, Honeywell has also invested nearly $300 million in the new venture",
+          "locator": "Ownership paragraph",
+          "supports": "amount, relationship"
+        }
+      ],
+      "amount": {
+        "value": 300000000,
+        "currency": "USD",
+        "note": "nearly $300 million, as stated, in addition to an approximately 54 percent ownership stake"
+      }
+    },
+    {
+      "id": "rel:ionq-acquires-oxford-ionics",
+      "from": "co:ionq",
+      "to": "co:oxford-ionics",
+      "kind": "acquisition",
+      "date": "2025-09-17",
+      "description": "On September 17, 2025, IonQ announced that it had completed its acquisition of Oxford Ionics, a quantum computing company based in the United Kingdom.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:ionq-oxford-ionics-close-2025",
+          "quote": "COLLEGE PARK, MD – September 17, 2025 - IonQ (NYSE: IONQ), the leader in the quantum computing and networking industries, today announced the successful completion of its acquisition of Oxford Ionics, a quantum computing company based in the United Kingdom.",
+          "locator": "Lead",
+          "supports": "parties, date, relationship"
+        }
+      ]
+    },
+    {
+      "id": "rel:ibm-quantinuum-shareholder",
+      "from": "co:ibm",
+      "to": "co:quantinuum",
+      "kind": "investment",
+      "date": "2021-11-30",
+      "description": "Quantinuum states that other shareholders include IBM.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:quantinuum-intro-2021",
+          "quote": "Other shareholders include IBM and JSR Corp from Japan.",
+          "locator": "Ownership paragraph",
+          "supports": "parties, relationship"
+        },
+        {
+          "source": "src:quantinuum-intro-2021",
+          "quote": "Cambridge, UK and Broomfield, Colorado, November 30th, 2021 — The two leading companies in the quantum computing industry have combined to create Quantinuum",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-atom-computing",
+      "from": "gov:us-darpa",
+      "to": "co:atom-computing",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names Atom Computing.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Atom Computing: Boulder, Colorado (scalable arrays of neutral atoms)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-diraq",
+      "from": "gov:us-darpa",
+      "to": "co:diraq",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names Diraq.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Diraq: Sydney, Australia, with operations in Palo Alto, California, and Boston, Massachusetts (silicon CMOS spin qubits)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-ibm",
+      "from": "gov:us-darpa",
+      "to": "co:ibm",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names IBM.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "IBM: Yorktown Heights, New York (quantum computing with modular superconducting processors)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-ionq",
+      "from": "gov:us-darpa",
+      "to": "co:ionq",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names IonQ.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "IonQ: College Park, Maryland (trapped-ion quantum computing)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-photonic-inc",
+      "from": "gov:us-darpa",
+      "to": "co:photonic-inc",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names Photonic Inc..",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Photonic Inc.: Vancouver, British Columbia, Canada (optically-linked silicon spin qubits)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-quantinuum",
+      "from": "gov:us-darpa",
+      "to": "co:quantinuum",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names Quantinuum.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Quantinuum: Broomfield, Colorado (trapped-ion quantum charged coupled device (QCCD) architecture)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-quantum-motion",
+      "from": "gov:us-darpa",
+      "to": "co:quantum-motion",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names Quantum Motion.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Quantum Motion: London, UK (MOS-based silicon spin qubits)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-quera",
+      "from": "gov:us-darpa",
+      "to": "co:quera",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names QuEra Computing.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "QuEra Computing: Boston, Massachusetts (neutral atom qubits)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-b-xanadu",
+      "from": "gov:us-darpa",
+      "to": "co:xanadu",
+      "kind": "government_award",
+      "date": "2025-11-06",
+      "description": "DARPA stated that, as of Nov. 6, 2025, it had selected companies for Stage B of the Quantum Benchmarking Initiative (QBI). The Stage B list names Xanadu.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "As of Nov. 6, 2025, DARPA has selected 11 companies to enter the second stage (Stage B) of the agency’s Quantum Benchmarking Initiative (QBI)",
+          "locator": "Opening paragraph",
+          "supports": "date, program"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "The following companies (with their qubit technology approach) have been selected for Stage B at this time:",
+          "locator": "List introduction",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-b-2025",
+          "quote": "Xanadu: Toronto, Canada (photonic quantum computing)",
+          "locator": "Stage B company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage B"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-a-alice-bob",
+      "from": "gov:us-darpa",
+      "to": "co:alice-bob",
+      "kind": "government_award",
+      "date": "2025-04-03",
+      "description": "DARPA's April 3, 2025 announcement lists Alice & Bob among companies it says it selected for Stage A of the Quantum Benchmarking Initiative (QBI).",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "April 3, 2025",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "We selected these companies for Stage A",
+          "locator": "Program manager quotation",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "DARPA QBI program manager",
+          "locator": "Attribution",
+          "supports": "parties"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Alice & Bob — Cambridge, Massachusetts, and Paris, France (superconducting cat qubits)",
+          "locator": "Stage A company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage A"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-a-oxford-ionics",
+      "from": "gov:us-darpa",
+      "to": "co:oxford-ionics",
+      "kind": "government_award",
+      "date": "2025-04-03",
+      "description": "DARPA's April 3, 2025 announcement lists Oxford Ionics among companies it says it selected for Stage A of the Quantum Benchmarking Initiative (QBI).",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "April 3, 2025",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "We selected these companies for Stage A",
+          "locator": "Program manager quotation",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "DARPA QBI program manager",
+          "locator": "Attribution",
+          "supports": "parties"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Oxford Ionics — Oxford, UK and Boulder, Colorado (trapped-ions)",
+          "locator": "Stage A company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage A"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-a-rigetti",
+      "from": "gov:us-darpa",
+      "to": "co:rigetti",
+      "kind": "government_award",
+      "date": "2025-04-03",
+      "description": "DARPA's April 3, 2025 announcement lists Rigetti Computing among companies it says it selected for Stage A of the Quantum Benchmarking Initiative (QBI).",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "April 3, 2025",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "We selected these companies for Stage A",
+          "locator": "Program manager quotation",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "DARPA QBI program manager",
+          "locator": "Attribution",
+          "supports": "parties"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Rigetti Computing — Berkeley, California (superconducting tunable transmon qubits)",
+          "locator": "Stage A company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage A"
+    },
+    {
+      "id": "rel:darpa-qbi-stage-a-google",
+      "from": "gov:us-darpa",
+      "to": "co:google",
+      "kind": "government_award",
+      "date": "2025-09-09",
+      "description": "DARPA states that its Stage A announcement was edited on Sept. 9, 2025 to add Google Quantum AI, and the announcement lists Google Quantum AI under the Quantum Benchmarking Initiative (QBI).",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "April 3, 2025",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "We selected these companies for Stage A",
+          "locator": "Program manager quotation",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "DARPA QBI program manager",
+          "locator": "Attribution",
+          "supports": "parties"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "This update was edited on April 29, 2025 to add QuEra Computing to the list of companies selected for Stage A, and on Sept. 9, 2025, to add Google Quantum AI.",
+          "locator": "Editor's note",
+          "supports": "date, parties"
+        },
+        {
+          "source": "src:darpa-qbi-stage-a-2025",
+          "quote": "Google Quantum AI — Santa Barbara, California (superconducting transmon qubits)",
+          "locator": "Stage A company list",
+          "supports": "parties"
+        }
+      ],
+      "program": "DARPA Quantum Benchmarking Initiative (QBI) Stage A"
+    },
+    {
+      "id": "rel:uk-testbed-orca",
+      "from": "gov:gb-ukri",
+      "to": "co:orca",
+      "kind": "government_contract",
+      "date": "2024-02-05",
+      "description": "On 5 February 2024, the UK government stated that UK Research and Innovation (UKRI) and the National Quantum Computing Centre (NQCC) had invested £30 million through a competition to develop quantum computing hardware prototypes. The announcement names ORCA Computing. The NQCC states that the winners were awarded contracts to build testbeds at NQCC facilities in Oxfordshire.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "5 February 2024",
+          "locator": "Published line",
+          "supports": "date"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "The UK Research and Innovation (UKRI) Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC) have invested £30 million",
+          "locator": "Investment paragraph",
+          "supports": "program, amount"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "Seven quantum hardware companies have been awarded multimillion-pound contracts to build a diverse range of quantum computing testbeds at the NQCC facilities in Oxfordshire by March 2025.",
+          "locator": "Opening",
+          "supports": "kind"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "The £30m programme has been funded through the UKRI Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Funding paragraph",
+          "supports": "parties"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "ORCA Computing London QUARTET",
+          "locator": "Winner table",
+          "supports": "parties"
+        }
+      ],
+      "program": "UKRI Technology Missions Fund and NQCC quantum computing testbed competition"
+    },
+    {
+      "id": "rel:uk-testbed-oxford-ionics",
+      "from": "gov:gb-ukri",
+      "to": "co:oxford-ionics",
+      "kind": "government_contract",
+      "date": "2024-02-05",
+      "description": "On 5 February 2024, the UK government stated that UK Research and Innovation (UKRI) and the National Quantum Computing Centre (NQCC) had invested £30 million through a competition to develop quantum computing hardware prototypes. The announcement names Oxford Ionics. The NQCC states that the winners were awarded contracts to build testbeds at NQCC facilities in Oxfordshire.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "5 February 2024",
+          "locator": "Published line",
+          "supports": "date"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "The UK Research and Innovation (UKRI) Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC) have invested £30 million",
+          "locator": "Investment paragraph",
+          "supports": "program, amount"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "Seven quantum hardware companies have been awarded multimillion-pound contracts to build a diverse range of quantum computing testbeds at the NQCC facilities in Oxfordshire by March 2025.",
+          "locator": "Opening",
+          "supports": "kind"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "The £30m programme has been funded through the UKRI Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Funding paragraph",
+          "supports": "parties"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "Oxford Ionics Oxford SQALE",
+          "locator": "Winner table",
+          "supports": "parties"
+        }
+      ],
+      "program": "UKRI Technology Missions Fund and NQCC quantum computing testbed competition"
+    },
+    {
+      "id": "rel:uk-testbed-quantum-motion",
+      "from": "gov:gb-ukri",
+      "to": "co:quantum-motion",
+      "kind": "government_contract",
+      "date": "2024-02-05",
+      "description": "On 5 February 2024, the UK government stated that UK Research and Innovation (UKRI) and the National Quantum Computing Centre (NQCC) had invested £30 million through a competition to develop quantum computing hardware prototypes. The announcement names Quantum Motion. The NQCC states that the winners were awarded contracts to build testbeds at NQCC facilities in Oxfordshire.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "5 February 2024",
+          "locator": "Published line",
+          "supports": "date"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "The UK Research and Innovation (UKRI) Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC) have invested £30 million",
+          "locator": "Investment paragraph",
+          "supports": "program, amount"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "Seven quantum hardware companies have been awarded multimillion-pound contracts to build a diverse range of quantum computing testbeds at the NQCC facilities in Oxfordshire by March 2025.",
+          "locator": "Opening",
+          "supports": "kind"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "The £30m programme has been funded through the UKRI Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Funding paragraph",
+          "supports": "parties"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "Quantum Motion London Quantum Catalyst Fund",
+          "locator": "Winner table",
+          "supports": "parties"
+        }
+      ],
+      "program": "UKRI Technology Missions Fund and NQCC quantum computing testbed competition"
+    },
+    {
+      "id": "rel:uk-testbed-quera",
+      "from": "gov:gb-ukri",
+      "to": "co:quera",
+      "kind": "government_contract",
+      "date": "2024-02-05",
+      "description": "On 5 February 2024, the UK government stated that UK Research and Innovation (UKRI) and the National Quantum Computing Centre (NQCC) had invested £30 million through a competition to develop quantum computing hardware prototypes. The announcement names QuEra UK Ltd. The NQCC states that the winners were awarded contracts to build testbeds at NQCC facilities in Oxfordshire.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "5 February 2024",
+          "locator": "Published line",
+          "supports": "date"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "The UK Research and Innovation (UKRI) Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC) have invested £30 million",
+          "locator": "Investment paragraph",
+          "supports": "program, amount"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "Seven quantum hardware companies have been awarded multimillion-pound contracts to build a diverse range of quantum computing testbeds at the NQCC facilities in Oxfordshire by March 2025.",
+          "locator": "Opening",
+          "supports": "kind"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "The £30m programme has been funded through the UKRI Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Funding paragraph",
+          "supports": "parties"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "QuEra UK Ltd Exeter Full-stack superconducting",
+          "locator": "Winner table",
+          "supports": "parties"
+        }
+      ],
+      "program": "UKRI Technology Missions Fund and NQCC quantum computing testbed competition"
+    },
+    {
+      "id": "rel:uk-testbed-rigetti",
+      "from": "gov:gb-ukri",
+      "to": "co:rigetti",
+      "kind": "government_contract",
+      "date": "2024-02-05",
+      "description": "On 5 February 2024, the UK government stated that UK Research and Innovation (UKRI) and the National Quantum Computing Centre (NQCC) had invested £30 million through a competition to develop quantum computing hardware prototypes. The announcement names Rigetti UK. The NQCC states that the winners were awarded contracts to build testbeds at NQCC facilities in Oxfordshire.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "5 February 2024",
+          "locator": "Published line",
+          "supports": "date"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "The UK Research and Innovation (UKRI) Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC) have invested £30 million",
+          "locator": "Investment paragraph",
+          "supports": "program, amount"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "Seven quantum hardware companies have been awarded multimillion-pound contracts to build a diverse range of quantum computing testbeds at the NQCC facilities in Oxfordshire by March 2025.",
+          "locator": "Opening",
+          "supports": "kind"
+        },
+        {
+          "source": "src:nqcc-testbeds-2024",
+          "quote": "The £30m programme has been funded through the UKRI Technology Missions Fund and the UK’s National Quantum Computing Centre (NQCC).",
+          "locator": "Funding paragraph",
+          "supports": "parties"
+        },
+        {
+          "source": "src:govuk-testbeds-2024",
+          "quote": "Rigetti UK London ARTEMIS",
+          "locator": "Winner table",
+          "supports": "parties"
+        }
+      ],
+      "program": "UKRI Technology Missions Fund and NQCC quantum computing testbed competition"
+    },
+    {
+      "id": "rel:eurohpc-iqm-lumiq",
+      "from": "gov:eu-eurohpc",
+      "to": "co:iqm",
+      "kind": "government_contract",
+      "date": "2024-09-26",
+      "description": "On 26 September 2024, the EuroHPC Joint Undertaking stated that it had signed the procurement contract for the LUMI-Q consortium's EuroHPC quantum computer, to be located in Czechia, with IQM Quantum Computers.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:eurohpc-lumiq-2024",
+          "quote": "LUMI-Q consortium’s quantum computer, the EuroHPC quantum computer to be located in Czechia, has been signed by the EuroHPC JU and the selected Finland-based vendor IQM Quantum Computers.",
+          "locator": "Lead",
+          "supports": "parties, relationship"
+        },
+        {
+          "source": "src:eurohpc-lumiq-2024",
+          "quote": "26 September 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ],
+      "program": "EuroHPC quantum computer in Czechia (LUMI-Q)"
+    },
+    {
+      "id": "rel:eurohpc-iqm-euro-q-exa",
+      "from": "gov:eu-eurohpc",
+      "to": "co:iqm",
+      "kind": "government_contract",
+      "date": "2024-10-15",
+      "description": "On 15 October 2024, the EuroHPC Joint Undertaking stated that it had signed the procurement contract for Euro-Q-Exa, the EuroHPC quantum computer to be located in Germany, with IQM Quantum Computers.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:eurohpc-euroqexa-2024",
+          "quote": "The procurement contract of Euro-Q-Exa, the EuroHPC quantum computer to be located in Germany, has been signed by the European High Performance Computing Joint Undertaking (EuroHPC JU) and the company IQM Quantum Computers, the selected vendor.",
+          "locator": "Lead",
+          "supports": "parties, relationship"
+        },
+        {
+          "source": "src:eurohpc-euroqexa-2024",
+          "quote": "15 October 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ],
+      "program": "EuroHPC Euro-Q-Exa (Germany)"
+    },
+    {
+      "id": "rel:eurohpc-pasqal-italy",
+      "from": "gov:eu-eurohpc",
+      "to": "co:pasqal",
+      "kind": "government_contract",
+      "date": "2025-03-27",
+      "description": "On 27 March 2025, the EuroHPC Joint Undertaking stated that it had signed the procurement contract for EuroQCS-Italy with Pasqal.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:eurohpc-italy-2025",
+          "quote": "EuroQCS-Italy, the EuroHPC quantum computer to be located in Italy, has been signed by the European High Performance Computing Joint Undertaking (EuroHPC JU) and quantum computing company Pasqal, the selected vendor.",
+          "locator": "Lead",
+          "supports": "parties, relationship"
+        },
+        {
+          "source": "src:eurohpc-italy-2025",
+          "quote": "27 March 2025",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ],
+      "program": "EuroHPC EuroQCS-Italy"
+    },
+    {
+      "id": "rel:eurohpc-pasqal-hpcqs",
+      "from": "gov:eu-eurohpc",
+      "to": "co:pasqal",
+      "kind": "government_contract",
+      "date": "2022-05-30",
+      "description": "On 30 May 2022, the EuroHPC Joint Undertaking stated that a Franco-German procurement in the HPCQS project was won by PASQAL to supply two quantum computers, each controlling 100+ qubits, including at the Jülich Supercomputing Centre, and the release also names GENCI.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:eurohpc-hpcqs-2022",
+          "quote": "30 May 2022",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:eurohpc-hpcqs-2022",
+          "quote": "Franco-German PPI procedure, won by the French startup PASQAL.",
+          "locator": "Selection paragraph",
+          "supports": "parties"
+        },
+        {
+          "source": "src:eurohpc-hpcqs-2022",
+          "quote": "pan-European HPCQS project.",
+          "locator": "Selection paragraph",
+          "supports": "program"
+        },
+        {
+          "source": "src:eurohpc-hpcqs-2022",
+          "quote": "Supported by the European High-Performance Computing Joint Undertaking (EuroHPC JU)",
+          "locator": "Project paragraph",
+          "supports": "parties"
+        },
+        {
+          "source": "src:eurohpc-hpcqs-2022",
+          "quote": "two quantum computers, each controlling 100+ qubits (quantum bits) in the Tier-0 HPC systems Joliot –Curie of GENCI, operated at CEA/TGCC, and the JUWELS modular supercomputer at the Jülich Supercomputing Centre (JSC).",
+          "locator": "Project paragraph",
+          "supports": "scope"
+        },
+        {
+          "source": "src:eurohpc-hpcqs-2022",
+          "quote": "With two 100 qubits quantum computers from PASQAL, FZJ and GENCI",
+          "locator": "Title",
+          "supports": "parties"
+        }
+      ],
+      "program": "HPCQS"
+    },
+    {
+      "id": "rel:eurohpc-aqt-poland",
+      "from": "gov:eu-eurohpc",
+      "to": "co:aqt",
+      "kind": "government_contract",
+      "date": "2024-07-10",
+      "description": "On 10 July 2024, the EuroHPC Joint Undertaking stated that it had signed the procurement contract for EuroQCS-Poland with AQT (Alpine Quantum Technologies GmbH in Innsbruck, Austria).",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:eurohpc-poland-2024",
+          "quote": "The procurement contract of EuroQCS-Poland, the EuroHPC quantum computer to be located in Poland, has been signed by the European High Performance Computing Joint Undertaking (EuroHPC JU) and the company AQT, the selected vendor.",
+          "locator": "Lead",
+          "supports": "parties, relationship"
+        },
+        {
+          "source": "src:eurohpc-poland-2024",
+          "quote": "10 July 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:eurohpc-poland-2024",
+          "quote": "AQT (Alpine Quantum Technologies GmbH in Innsbruck, Austria)",
+          "locator": "Background",
+          "supports": "parties"
+        }
+      ],
+      "program": "EuroHPC EuroQCS-Poland"
+    },
+    {
+      "id": "rel:eurohpc-quandela-lucy",
+      "from": "gov:eu-eurohpc",
+      "to": "co:quandela",
+      "kind": "government_contract",
+      "date": "2024-09-26",
+      "description": "On 26 September 2024, the EuroHPC Joint Undertaking stated that it had signed the procurement contract for Lucy, the EuroQCS-France quantum computer, with a vendor partnership including Quandela.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:eurohpc-lucy-2024",
+          "quote": "EuroQCS-France quantum computer, Lucy, has been signed by the European High Performance Computing Joint Undertaking (EuroHPC JU) and the selected French-German vendor partnership, including Quandela and attocube.",
+          "locator": "Lead",
+          "supports": "parties, relationship"
+        },
+        {
+          "source": "src:eurohpc-lucy-2024",
+          "quote": "26 September 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ],
+      "program": "EuroHPC Lucy (EuroQCS-France)"
+    },
+    {
+      "id": "rel:australia-psiquantum-investment",
+      "from": "gov:au-gov",
+      "to": "co:psiquantum",
+      "kind": "investment",
+      "date": "2024-04-30",
+      "description": "The Prime Minister of Australia stated on 30 April 2024 that the Australian and Queensland Governments will invest almost $1 billion in PsiQuantum, including approximately $470 million in equity and loans from each government.",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "Tuesday 30 April 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "Prime Minister of Australia",
+          "locator": "Byline",
+          "supports": "parties"
+        },
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "The Australian and Queensland Governments will invest almost $1 billion into frontier technology company PsiQuantum",
+          "locator": "Investment paragraph",
+          "supports": "parties, amount"
+        },
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "approximately $470 million in equity and loans from each government.",
+          "locator": "Investment breakdown",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 470000000,
+        "currency": "AUD",
+        "note": "approximately $470 million in equity and loans from each government, as stated"
+      }
+    },
+    {
+      "id": "rel:riken-hosts-ibm-system-two",
+      "from": "co:riken",
+      "to": "co:ibm",
+      "kind": "hosting",
+      "date": "2025-06-23",
+      "description": "On June 23, 2025, IBM and RIKEN announced that they had unveiled the first IBM Quantum System Two deployed outside the United States, co-located with Fugaku at the RIKEN Center for Computational Science. IBM states that the system was officially launched at a ceremony on June 24, 2025, in Kobe, Japan, and that the effort is supported by NEDO, under Japan's Ministry of Economy, Trade and Industry (METI).",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:ibm-riken-system-two-2025",
+          "quote": "KOBE, Japan, June 23, 2025 /PRNewswire/ -- IBM (NYSE: IBM) and RIKEN, a national research laboratory in Japan, today unveiled the first IBM Quantum System Two ever to be deployed outside of the United States and beyond an IBM Quantum Data Center.",
+          "locator": "Dateline and lead",
+          "supports": "parties, date, relationship"
+        },
+        {
+          "source": "src:ibm-riken-system-two-2025",
+          "quote": "The new IBM Quantum System Two is co-located with Fugaku within the RIKEN Center for Computational Science (R-CCS)",
+          "locator": "Placement paragraph",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:ibm-riken-system-two-2025",
+          "quote": "ribbon-cutting ceremony on June 24, 2025, in Kobe, Japan.",
+          "locator": "Launch paragraph",
+          "supports": "location, date"
+        },
+        {
+          "source": "src:ibm-riken-system-two-2025",
+          "quote": "This effort is supported by the New Energy and Industrial Technology Development Organization (NEDO), an organization under the jurisdiction of Japan's Ministry of Economy, Trade and Industry (METI)",
+          "locator": "Support paragraph",
+          "supports": "parties"
+        }
+      ]
+    },
+    {
+      "id": "rel:dlr-planqc-contract",
+      "from": "gov:de-dlr",
+      "to": "co:planqc",
+      "kind": "government_contract",
+      "date": "2022-05-04",
+      "description": "planqc stated that the German Aerospace Center (DLR) selected it to develop a neutral-atom quantum computing platform and that the award is valued at 29 million EUR.",
+      "status": "completed",
+      "evidence": [
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "2022-05-04",
+          "locator": "Article date",
+          "supports": "date"
+        },
+        {
+          "source": "src:planqc-dlr-contract",
+          "quote": "planqc has been selected by the German Aerospace Center (DLR) to develop a digital neutral-atom-based quantum computing hardware and software platform that is scalable and can demonstrate quantum algorithms for real-world problems. The award is valued at 29 million EUR.",
+          "locator": "Lead",
+          "supports": "parties, amount, relationship"
+        }
+      ],
+      "amount": {
+        "value": 29000000,
+        "currency": "EUR",
+        "note": "stated as 29 million EUR"
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "IonQ Oxford Ionics consideration",
+      "why": "www.sec.gov returned HTTP 403 for IonQ's Form 8-K on the Oxford Ionics closing (accession 0001193125-25-205489). A Wayback CDX lookup did not return a snapshot. The IonQ press release announces completion and does not state the share or cash consideration.",
+      "would_need": "The 8-K or Exhibit 99 body from data.sec.gov, an IR-hosted copy, or a Wayback snapshot that counsel can fetch."
+    },
+    {
+      "topic": "Honeywell stake in Quantinuum after the 2026 IPO",
+      "why": "www.sec.gov returned HTTP 403 for Honeywell's Form 10-Q for the quarter ended 2026-06-30 (accession 0000773840-26-000124, filed 2026-07-23 in the data.sec.gov submissions index). Wayback CDX returned no snapshot. This file therefore records the November 2021 majority stake and the nearly $300 million figure, and does not record a 2026 ownership percentage.",
+      "would_need": "Honeywell's 10-Q for the period ended 2026-06-30, or Quantinuum's Form 424B4, from a host that accepts the declared User-Agent."
+    },
+    {
+      "topic": "DOE quantum computing awards to canonical companies",
+      "why": "The Department of Energy's 9 September 2024 release of $65 million for quantum computing research names a program total and project count, not IonQ, IBM, Rigetti, Quantinuum, or another canonical hardware company as a recipient.",
+      "would_need": "An award table or agency release that names both DOE and the company."
+    },
+    {
+      "topic": "DARPA US2QC selections of Microsoft and PsiQuantum",
+      "why": "DARPA's Stage B page says Microsoft and PsiQuantum entered the final phase of the Underexplored Systems for Utility-Scale Quantum Computing program and that US2QC was expanded into QBI in 2024. The page does not state the selection date or an amount.",
+      "would_need": "The DARPA release that announces those selections, with a date."
+    },
+    {
+      "topic": "Other QBI names not given org records",
+      "why": "The Stage B page also names Nord Quantique and Silicon Quantum Computing Pty. Ltd. The Stage A page also names Atlantic Quantum and Hewlett Packard Enterprise. They are outside the canonical company list for this file.",
+      "would_need": "A decision to add those orgs, using the same DARPA pages."
+    },
+    {
+      "topic": "UK testbed winners Cold Quanta UK and Aegiq",
+      "why": "The 5 February 2024 UK announcement names Cold Quanta UK (Warwick) and Aegiq (Sheffield). The fetched pages do not identify Cold Quanta UK as Infleqtion. Aegiq is not a canonical company.",
+      "would_need": "A primary document that identifies Cold Quanta UK with Infleqtion, if that award is to be recorded under co:infleqtion."
+    },
+    {
+      "topic": "Australian industry department page",
+      "why": "https://www.industry.gov.au/news/leading-quantum-company-chooses-australia-site-its-groundbreaking-utility-scale-quantum-computer timed out with the declared User-Agent. The Prime Minister's 30 April 2024 release was used instead.",
+      "would_need": "The Department of Industry release, if counsel wants a second government page."
+    },
+    {
+      "topic": "China government awards",
+      "why": "No Chinese government page was fetched that names both a government body and a canonical company.",
+      "would_need": "A government page, fetched in this pass, that names both parties."
+    },
+    {
+      "topic": "Completed acquisitions of Pasqal, Atom Computing, or PsiQuantum",
+      "why": "No primary document fetched in this pass states that one of those companies was acquired or completed an acquisition of another canonical company.",
+      "would_need": "A company or SEC filing that states a completed acquisition."
+    },
+    {
+      "topic": "National awards in Canada, Korea, the Netherlands, and Denmark",
+      "why": "No agency release for those countries was fetched. Xanadu's DARPA Stage B selection is a U.S. award. EuroHPC's Italy release mentions quantum computers to be located in Luxembourg and the Netherlands but does not name a vendor for those systems in the sentences used here.",
+      "would_need": "An official award or procurement release naming the agency and the company."
+    },
+    {
+      "topic": "EuroHPC host in Spain",
+      "why": "EuroHPC's six-site hosting set includes Spain. This file records the signed vendor contracts fetched for Czechia, Germany, Italy, France, and Poland, plus the 2022 HPCQS selection of PASQAL, and does not include a Spain vendor release.",
+      "would_need": "The EuroHPC procurement release for the Spain system, if a vendor is named."
+    }
+  ]
+}

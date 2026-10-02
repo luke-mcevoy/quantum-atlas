@@ -1,0 +1,1712 @@
+{
+  "topic": "spin_topo_anneal",
+  "analyst": "cursor-grok-spin-topo-anneal",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:intel-tunnel-falls-pr",
+      "title": "Intel's New Chip to Advance Silicon Spin Qubit Research for Quantum Computing",
+      "publisher": "Intel Corporation",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1626/intels-new-chip-to-advance-silicon-spin-qubit-research",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-06-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:nano-letters-tunnel-falls",
+      "title": "12-Spin-Qubit Arrays Fabricated on a 300 mm Semiconductor Manufacturing Line",
+      "publisher": "Nano Letters (American Chemical Society)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11741134/",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-12-25",
+      "doi": "10.1021/acs.nanolett.4c05205",
+      "arxiv": "2410.16583",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:diraq-about",
+      "title": "About Diraq",
+      "publisher": "Diraq",
+      "url": "https://www.diraq.com/about",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:diraq-lab-2024",
+      "title": "Diraq Opens New Commercial Laboratory in Sydney to Propel Era of Fault Tolerant Quantum Computing",
+      "publisher": "Diraq",
+      "url": "https://www.diraq.com/newsdesk/diraq-opens-new-commercial-laboratory-in-sydney-to-propel-era-of-fault-tolerant-quantum-computing",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-02-21",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:diraq-roadmap-2026",
+      "title": "Diraq charts course to utility-scale quantum computing with millions of spin qubits on a single silicon chip",
+      "publisher": "Diraq",
+      "url": "https://www.diraq.com/newsdesk/diraq-sets-roadmap-for-utility-scale-quantum-computing-with-millions-of-qubits-on-a-single-silicon-chip",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-08-27",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:nature-s41586-025-09531-9",
+      "title": "Industry-compatible silicon spin-qubit unit cells exceeding 99% fidelity",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-025-09531-9",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-09-24",
+      "doi": "10.1038/s41586-025-09531-9",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:nature-s41467-026-74597-6",
+      "title": "Eight-qubit operation of a 300 mm SiMOS foundry-fabricated device",
+      "publisher": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-74597-6",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2026-07-09",
+      "doi": "10.1038/s41467-026-74597-6",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:qm-about",
+      "title": "About Quantum Motion",
+      "publisher": "Quantum Motion",
+      "url": "https://quantummotion.com/about/",
+      "archived_url": "https://web.archive.org/web/20260507104019/https://quantummotion.com/about/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-05-07",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:qm-bloomsbury-2022",
+      "title": "Quantum industry milestone brings mass production of quantum chips closer",
+      "publisher": "Quantum Motion",
+      "url": "https://quantummotion.tech/quantum-industry-milestone-brings-mass-production-of-quantum-chips-closer/",
+      "archived_url": "https://web.archive.org/web/20231220171634/https://quantummotion.tech/quantum-industry-milestone-brings-mass-production-of-quantum-chips-closer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-10-26",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:qm-nqcc-2025",
+      "title": "Quantum Motion Delivers the Industry's First Full-Stack Silicon CMOS Quantum Computer",
+      "publisher": "Quantum Motion",
+      "url": "https://quantummotion.com/quantum-motion-delivers-the-industrys-first-full-stack-silicon-cmos-quantum-computer/",
+      "archived_url": "https://web.archive.org/web/20251004071438/https://quantummotion.com/quantum-motion-delivers-the-industrys-first-full-stack-silicon-cmos-quantum-computer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:nature-s41928-024-01304-y",
+      "title": "Rapid cryogenic characterization of 1,024 integrated silicon quantum dot devices",
+      "publisher": "Nature Electronics",
+      "url": "https://www.nature.com/articles/s41928-024-01304-y.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-01-03",
+      "doi": "10.1038/s41928-024-01304-y",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ms-majorana1-blog",
+      "title": "Microsoft unveils Majorana 1, the world's first quantum processor powered by topological qubits",
+      "publisher": "Microsoft",
+      "url": "https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-02-19",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:nature-s41586-024-08445-2",
+      "title": "Interferometric single-shot parity measurement in InAs-Al hybrid devices",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-024-08445-2",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-02-19",
+      "doi": "10.1038/s41586-024-08445-2",
+      "arxiv": "2401.09549",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ms-10k-2026",
+      "title": "Microsoft Corporation Form 10-K for the fiscal year ended June 30, 2026",
+      "publisher": "U.S. SEC (filer: Microsoft Corporation)",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "archived_url": "https://web.archive.org/web/2026id_/https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-07-29",
+      "identifier": "0001193125-26-323660",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:photonic-ms-2023",
+      "title": "Photonic and Microsoft partner to power the quantum ecosystem",
+      "publisher": "Photonic Inc.",
+      "url": "https://photonic.com/news/photonic-collaborating-with-microsoft-to-power-global-quantum-ecosystem/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-11-08",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ms-photonic-entanglement-2024",
+      "title": "In collaboration with Microsoft, Photonic demonstrates quantum entanglement at telecom wavelengths",
+      "publisher": "Microsoft",
+      "url": "https://azure.microsoft.com/en-us/blog/quantum/2024/05/30/in-collaboration-with-microsoft-photonic-demonstrates-quantum-entanglement-at-telecom-wavelengths/",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-05-30",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:arxiv-2406.01704",
+      "title": "Distributed Quantum Computing in Silicon",
+      "publisher": "arXiv",
+      "url": "https://photonic.com/wp-content/uploads/2025/12/Distributed-Quantum-Computing-in-Silicon-publication.pdf",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-06-03",
+      "arxiv": "2406.01704",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-10k-2025",
+      "title": "D-Wave Quantum Inc. Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC (filer: D-Wave Quantum Inc.)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000026/qbts-20251231.htm",
+      "archived_url": "https://web.archive.org/web/2026id_/https://www.sec.gov/Archives/edgar/data/1907982/000190798226000026/qbts-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-26",
+      "identifier": "0001907982-26-000026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-advantage2-pr",
+      "title": "D-Wave Announces General Availability of Advantage2 Quantum Computer, Its Most Advanced and Performant System",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-general-availability-of-advantage2-quantum-computer-its-most-advanced-and-performant-system/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-05-20",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-advantage2-datasheet",
+      "title": "Advantage2 quantum computer datasheet",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/media/3ikjqkyw/d-wave-advantage2-data-sheet-final.pdf",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-03-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-flux-noise-2022",
+      "title": "Early Progress on Lower-Noise Fabrication Development for the Future, Full-Scale Advantage2 Quantum Computer",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/media/h0ylnsvg/2022-ac1-bb1-stack-comparison-v11.pdf",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2022-06",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:science-ado6285",
+      "title": "Beyond-classical computation in quantum simulation",
+      "publisher": "Science",
+      "url": "https://arxiv.org/abs/2403.00910",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-04-11",
+      "doi": "10.1126/science.ado6285",
+      "arxiv": "2403.00910",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:qb-qdk2-pr",
+      "title": "Quantum Brilliance announces first purchase of a room-temperature quantum accelerator in Europe, powered by Nvidia CUDA-Q",
+      "publisher": "Quantum Brilliance",
+      "url": "https://quantumbrilliance.com/news/quantum-brilliance-announces-first-purchase-of-a-room-temperature-quantum-accelerator-in-europe-powered-by-nvidia-cuda-q/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-11-18",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:qb-computing-page",
+      "title": "Quantum computing",
+      "publisher": "Quantum Brilliance",
+      "url": "https://quantumbrilliance.com/quantum-computing/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    }
+  ],
+  "orgs": [
+    {
+      "name": "Intel Corporation",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "precision": "city"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ],
+      "sec_cik": "0000050863",
+      "website": "https://www.intel.com",
+      "evidence": [
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "SANTA CLARA, Calif.",
+          "locator": "Dateline",
+          "supports": "hq"
+        },
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "Intel (Nasdaq: INTC) is an industry leader",
+          "locator": "About Intel",
+          "supports": "existence, ticker"
+        },
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "In silicon spin qubits, information (the 0/1) is encoded in the spin (up/down) of a single electron.",
+          "locator": "About Tunnel Falls",
+          "supports": "modality"
+        }
+      ],
+      "id": "co:intel"
+    },
+    {
+      "name": "Diraq",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "AU",
+      "hq": {
+        "lat": -33.8688,
+        "lon": 151.2093,
+        "precision": "city"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "website": "https://www.diraq.com",
+      "evidence": [
+        {
+          "source": "src:diraq-about",
+          "quote": "Founded by world-leading researchers and engineers in Sydney, Australia",
+          "locator": "About",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:diraq-about",
+          "quote": "Sydney, NSW Australia Head Office",
+          "locator": "Global locations",
+          "supports": "hq"
+        },
+        {
+          "source": "src:diraq-about",
+          "quote": "silicon-based quantum computing",
+          "locator": "Leadership biography",
+          "supports": "modality"
+        },
+        {
+          "source": "src:nature-s41467-026-74597-6",
+          "quote": "Diraq, Sydney, NSW, Australia",
+          "locator": "Author affiliations",
+          "supports": "hq"
+        }
+      ],
+      "id": "co:diraq"
+    },
+    {
+      "name": "Quantum Motion",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.5572,
+        "lon": -0.1165,
+        "precision": "site",
+        "address": "9 Sterling Way, London N7 9HJ, UK"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "website": "https://quantummotion.com",
+      "evidence": [
+        {
+          "source": "src:qm-about",
+          "quote": "9 Sterling Way London N7 9HJ UK",
+          "locator": "Office list",
+          "supports": "hq"
+        },
+        {
+          "source": "src:qm-about",
+          "quote": "Quantum Motion opens lab and headquarters in central London",
+          "locator": "Timeline, February 2022",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:qm-bloomsbury-2022",
+          "quote": "London, UK, 26 October 2022",
+          "locator": "Dateline",
+          "supports": "hq"
+        }
+      ],
+      "id": "co:quantum-motion"
+    },
+    {
+      "name": "Microsoft Corporation",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 47.6396,
+        "lon": -122.1284,
+        "precision": "site",
+        "address": "One Microsoft Way, Redmond, Washington 98052-6399"
+      },
+      "modalities": [
+        "topological"
+      ],
+      "tickers": [
+        "NASDAQ:MSFT"
+      ],
+      "sec_cik": "0000789019",
+      "website": "https://www.microsoft.com",
+      "evidence": [
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "ONE MICROSOFT WAY , REDMOND , Washington 98052-6399",
+          "locator": "Cover page, principal executive offices",
+          "supports": "hq"
+        },
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "Our corporate headquarters are located in Redmond, Washington.",
+          "locator": "Item 2. Properties",
+          "supports": "hq"
+        },
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "MSFT Nasdaq",
+          "locator": "Cover page, securities registered",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:ms-majorana1-blog",
+          "quote": "Microsoft unveils Majorana 1, the world's first quantum processor powered by topological qubits",
+          "locator": "Title",
+          "supports": "modality"
+        }
+      ],
+      "id": "co:microsoft"
+    },
+    {
+      "name": "Photonic Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CA",
+      "hq": {
+        "lat": 49.2827,
+        "lon": -123.1207,
+        "precision": "city"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "website": "https://photonic.com",
+      "evidence": [
+        {
+          "source": "src:photonic-ms-2023",
+          "quote": "Headquartered in Vancouver, Canada",
+          "locator": "Company boilerplate",
+          "supports": "hq"
+        },
+        {
+          "source": "src:photonic-ms-2023",
+          "quote": "based on photonically linked silicon spin qubits, today announced a strategic collaboration with Microsoft.",
+          "locator": "Opening paragraph",
+          "supports": "existence, modality"
+        }
+      ],
+      "id": "co:photonic-inc"
+    },
+    {
+      "name": "D-Wave Quantum Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.4565,
+        "lon": -122.114,
+        "precision": "site",
+        "address": "2650 East Bayshore Road, Palo Alto, California 94303"
+      },
+      "modalities": [
+        "quantum_annealing"
+      ],
+      "tickers": [
+        "NYSE:QBTS"
+      ],
+      "sec_cik": "0001907982",
+      "website": "https://www.dwavequantum.com",
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "2650 East Bayshore Road , Palo Alto , California 94303",
+          "locator": "Cover page, principal executive offices",
+          "supports": "hq"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "QBTS New York Stock Exchange",
+          "locator": "Cover page, securities registered",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "Advantage TM and Advantage2 systems are available via our Leap service",
+          "locator": "Annealing quantum computers",
+          "supports": "modality, cloud"
+        },
+        {
+          "source": "src:dwave-advantage2-pr",
+          "quote": "D-Wave Quantum Inc. (NYSE: QBTS)",
+          "locator": "Dateline",
+          "supports": "ticker"
+        }
+      ],
+      "id": "co:d-wave"
+    },
+    {
+      "name": "Quantum Brilliance",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "AU",
+      "hq": {
+        "lat": -35.2809,
+        "lon": 149.13,
+        "precision": "city"
+      },
+      "modalities": [
+        "nv_other"
+      ],
+      "website": "https://quantumbrilliance.com",
+      "evidence": [
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "Canberra, Australia and Stuttgart, Germany – November 18, 2024",
+          "locator": "Dateline",
+          "supports": "hq, date"
+        },
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "founded in Australia in 2019",
+          "locator": "Company boilerplate",
+          "supports": "existence"
+        },
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "nitrogen-vacancy centres in diamond",
+          "locator": "QB-QDK2.0 description",
+          "supports": "modality"
+        }
+      ],
+      "id": "co:quantum-brilliance"
+    }
+  ],
+  "sites": [
+    {
+      "id": "site:diraq-unsw-sydney",
+      "name": "Diraq commercial laboratory, UNSW campus, Sydney",
+      "operator": "co:diraq",
+      "kind": "lab",
+      "country": "AU",
+      "status": "operational",
+      "location": {
+        "lat": -33.9173,
+        "lon": 151.2313,
+        "precision": "site",
+        "address": "campus of UNSW, Sydney, Australia"
+      },
+      "evidence": [
+        {
+          "source": "src:diraq-lab-2024",
+          "quote": "commercial quantum computing laboratory located on the campus of UNSW in Sydney, Australia",
+          "locator": "Opening paragraph",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:qm-london",
+      "name": "Quantum Motion, 9 Sterling Way, London",
+      "operator": "co:quantum-motion",
+      "kind": "headquarters",
+      "country": "GB",
+      "status": "operational",
+      "location": {
+        "lat": 51.5572,
+        "lon": -0.1165,
+        "precision": "site",
+        "address": "9 Sterling Way, London N7 9HJ, UK"
+      },
+      "evidence": [
+        {
+          "source": "src:qm-about",
+          "quote": "9 Sterling Way London N7 9HJ UK",
+          "locator": "Office list, London",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:qm-about",
+          "quote": "Quantum Motion opens lab and headquarters in central London",
+          "locator": "Timeline, February 2022",
+          "supports": "kind"
+        }
+      ]
+    },
+    {
+      "id": "site:microsoft-redmond",
+      "name": "Microsoft corporate headquarters, Redmond",
+      "operator": "co:microsoft",
+      "kind": "headquarters",
+      "country": "US",
+      "status": "operational",
+      "location": {
+        "lat": 47.6396,
+        "lon": -122.1284,
+        "precision": "site",
+        "address": "One Microsoft Way, Redmond, Washington 98052-6399"
+      },
+      "evidence": [
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "ONE MICROSOFT WAY , REDMOND , Washington 98052-6399",
+          "locator": "Cover page",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "Our corporate headquarters are located in Redmond, Washington.",
+          "locator": "Item 2. Properties",
+          "supports": "kind"
+        }
+      ]
+    },
+    {
+      "id": "site:d-wave-palo-alto",
+      "name": "D-Wave Quantum principal executive offices, Palo Alto",
+      "operator": "co:d-wave",
+      "kind": "headquarters",
+      "country": "US",
+      "status": "operational",
+      "location": {
+        "lat": 37.4565,
+        "lon": -122.114,
+        "precision": "site",
+        "address": "2650 East Bayshore Road, Palo Alto, California 94303"
+      },
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "2650 East Bayshore Road , Palo Alto , California 94303",
+          "locator": "Cover page, principal executive offices",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:dwave-advantage2-pr",
+          "quote": "PALO ALTO, Calif. – May 20, 2025",
+          "locator": "Dateline",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:d-wave-burnaby",
+      "name": "D-Wave Burnaby facility, British Columbia",
+      "operator": "co:d-wave",
+      "kind": "manufacturing",
+      "country": "CA",
+      "status": "operational",
+      "location": {
+        "lat": 49.2488,
+        "lon": -122.9805,
+        "precision": "city"
+      },
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "Our Burnaby facility in British Columbia, Canada, hosts system development and manufacturing",
+          "locator": "Manufacturing discussion",
+          "supports": "existence, location, kind"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "Quantum Center of Excellence in Burnaby, British Columbia",
+          "locator": "Physical systems locations",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "site:d-wave-huntsville",
+      "name": "Davidson Technologies, Huntsville, Alabama",
+      "operator": "co:d-wave",
+      "kind": "qpu_installation",
+      "country": "US",
+      "status": "operational",
+      "location": {
+        "lat": 34.7304,
+        "lon": -86.5861,
+        "precision": "city",
+        "address": "Huntsville, Alabama"
+      },
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "making an Advantage2 system operational in Huntsville, Alabama at Davidson Technologies",
+          "locator": "U.S. government customers",
+          "supports": "existence, location, system"
+        }
+      ]
+    },
+    {
+      "id": "site:d-wave-boca-raton",
+      "name": "D-Wave planned R&D center, Boca Raton, Florida",
+      "operator": "co:d-wave",
+      "kind": "lab",
+      "country": "US",
+      "status": "announced",
+      "location": {
+        "lat": 26.3683,
+        "lon": -80.1289,
+        "precision": "city",
+        "address": "Boca Raton, Florida"
+      },
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "in January 2026, we announced plans to open an additional R&D center in Boca Raton, Florida",
+          "locator": "Facilities",
+          "supports": "existence, location, status"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "sys:intel-tunnel-falls",
+      "name": "Tunnel Falls",
+      "operator": "co:intel",
+      "modality": "spin_silicon",
+      "submodality": "silicon_germanium",
+      "status": "announced",
+      "announced": "2023-06-15",
+      "physical_qubits": {
+        "value": 12,
+        "as_of": "2023-06-15",
+        "evidence": [
+          {
+            "source": "src:intel-tunnel-falls-pr",
+            "quote": "Tunnel Falls, a 12-qubit silicon chip",
+            "locator": "What's New",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:intel-tunnel-falls-pr",
+            "quote": "These 12-dot chips can form between four to 12 qubits that can be isolated and used in operations simultaneously",
+            "locator": "Yield paragraph",
+            "supports": "qubits"
+          }
+        ],
+        "note": "The release also says these 12-dot chips can form between four and 12 qubits depending on operation."
+      },
+      "evidence": [
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "Today, Intel announced the release of its newest quantum research chip, Tunnel Falls, a 12-qubit silicon chip",
+          "locator": "What's New",
+          "supports": "existence, status, date"
+        },
+        {
+          "source": "src:nano-letters-tunnel-falls",
+          "quote": "planar Si/SiGe technology",
+          "locator": "Introduction",
+          "supports": "submodality"
+        },
+        {
+          "source": "src:nano-letters-tunnel-falls",
+          "quote": "12-quantum-dot spin-qubit linear arrays, code named Tunnel Falls",
+          "locator": "Abstract",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "sys:diraq-simos-8",
+      "name": "300 mm SiMOS eight-qubit foundry device",
+      "operator": "co:diraq",
+      "modality": "spin_silicon",
+      "submodality": "silicon_mos",
+      "status": "announced",
+      "announced": "2026-07-09",
+      "physical_qubits": {
+        "value": 8,
+        "as_of": "2026-07-09",
+        "evidence": [
+          {
+            "source": "src:nature-s41467-026-74597-6",
+            "quote": "All eight qubits are successfully tuned and characterized",
+            "locator": "Abstract",
+            "supports": "qubits"
+          }
+        ],
+        "note": "The paper reports an eight-dot linear array in which all eight qubits were tuned."
+      },
+      "evidence": [
+        {
+          "source": "src:nature-s41467-026-74597-6",
+          "quote": "Eight-qubit operation of a 300 mm SiMOS foundry-fabricated device",
+          "locator": "Title",
+          "supports": "existence, submodality"
+        },
+        {
+          "source": "src:nature-s41467-026-74597-6",
+          "quote": "eight-dot linear array of silicon spin qubits fabricated in a 300 mm CMOS-compatible foundry process",
+          "locator": "Abstract",
+          "supports": "modality, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:qm-bloomsbury",
+      "name": "Bloomsbury",
+      "operator": "co:quantum-motion",
+      "modality": "spin_silicon",
+      "submodality": "silicon_mos",
+      "status": "announced",
+      "announced": "2022-10-26",
+      "evidence": [
+        {
+          "source": "src:qm-bloomsbury-2022",
+          "quote": "Quantum Motion's latest chip – called Bloomsbury",
+          "locator": "Body",
+          "supports": "existence, name"
+        },
+        {
+          "source": "src:qm-bloomsbury-2022",
+          "quote": "1024 quantum dots",
+          "locator": "Characterisation result",
+          "supports": "device"
+        },
+        {
+          "source": "src:nature-s41928-024-01304-y",
+          "quote": "metal-oxide-semiconductor (CMOS)",
+          "locator": "Article text",
+          "supports": "submodality"
+        },
+        {
+          "source": "src:nature-s41928-024-01304-y",
+          "quote": "1,024 integrated silicon quantum dot devices",
+          "locator": "Title",
+          "supports": "device"
+        }
+      ]
+    },
+    {
+      "id": "sys:qm-nqcc-cmos",
+      "name": "Full-stack silicon CMOS quantum computer",
+      "operator": "co:quantum-motion",
+      "modality": "spin_silicon",
+      "submodality": "silicon_mos",
+      "status": "online",
+      "announced": "2025-09-15",
+      "online_since": "2025-09-15",
+      "evidence": [
+        {
+          "source": "src:qm-nqcc-2025",
+          "quote": "Deployed at the UK National Quantum Computing Centre (NQCC)",
+          "locator": "Opening paragraph",
+          "supports": "existence, status, location-name"
+        },
+        {
+          "source": "src:qm-nqcc-2025",
+          "quote": "standard silicon CMOS chip fabrication process",
+          "locator": "Opening paragraph",
+          "supports": "modality, submodality"
+        },
+        {
+          "source": "src:qm-nqcc-2025",
+          "quote": "15 September 2025, London, UK",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "sys:microsoft-majorana-1",
+      "name": "Majorana 1",
+      "operator": "co:microsoft",
+      "modality": "topological",
+      "submodality": "majorana",
+      "status": "announced",
+      "announced": "2025-02-19",
+      "physical_qubits": {
+        "value": 8,
+        "as_of": "2025-02-19",
+        "evidence": [
+          {
+            "source": "src:ms-majorana1-blog",
+            "quote": "placed eight topological qubits on a chip designed to house one million",
+            "locator": "Roadmap paragraph",
+            "supports": "qubits"
+          }
+        ],
+        "note": "Microsoft calls these topological qubits. The count is not recorded as encoded qubits."
+      },
+      "evidence": [
+        {
+          "source": "src:ms-majorana1-blog",
+          "quote": "Microsoft unveils Majorana 1, the world's first quantum processor powered by topological qubits",
+          "locator": "Title",
+          "supports": "existence, modality, submodality"
+        },
+        {
+          "source": "src:ms-majorana1-blog",
+          "quote": "February 19, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "sys:d-wave-advantage2",
+      "name": "Advantage2",
+      "operator": "co:d-wave",
+      "modality": "quantum_annealing",
+      "submodality": "superconducting_flux",
+      "status": "online",
+      "announced": "2025-05-20",
+      "online_since": "2025-05-20",
+      "physical_qubits": {
+        "value": 4400,
+        "as_of": "2025-05-20",
+        "evidence": [
+          {
+            "source": "src:dwave-advantage2-datasheet",
+            "quote": "4,400+ qubits, 20-way connectivity",
+            "locator": "Product summary",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:dwave-10k-2025",
+            "quote": "4400+ qubits",
+            "locator": "Advantage2 description",
+            "supports": "qubits"
+          }
+        ],
+        "note": "Stated as 4,400+ qubits on the product sheet and 4400+ qubits in the annual report."
+      },
+      "metrics": [
+        {
+          "name": "qubit connectivity",
+          "value": 20,
+          "unit": "",
+          "definition": "20-way qubit connectivity, as stated for the Advantage2 processor.",
+          "as_of": "2025-05-20",
+          "evidence": [
+            {
+              "source": "src:dwave-advantage2-pr",
+              "quote": "20-way connectivity",
+              "locator": "Advantage2 processor features",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:dwave-advantage2-pr",
+          "quote": "May 20, 2025",
+          "locator": "Dateline",
+          "supports": "date, status"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "sixth-generation annealing quantum computing system",
+          "locator": "Product overview",
+          "supports": "modality, existence"
+        },
+        {
+          "source": "src:dwave-flux-noise-2022",
+          "quote": "superconducting flux qubits",
+          "locator": "Summary",
+          "supports": "submodality"
+        },
+        {
+          "source": "src:dwave-advantage2-datasheet",
+          "quote": "sixth-generation annealing quantum computer",
+          "locator": "Body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "sys:d-wave-advantage",
+      "name": "Advantage",
+      "operator": "co:d-wave",
+      "modality": "quantum_annealing",
+      "submodality": "superconducting_flux",
+      "status": "online",
+      "announced": "2020",
+      "physical_qubits": {
+        "value": 5000,
+        "as_of": "2020",
+        "evidence": [
+          {
+            "source": "src:dwave-10k-2025",
+            "quote": "5,000+-qubit system",
+            "locator": "Company history",
+            "supports": "qubits"
+          }
+        ],
+        "note": "Stated as a 5,000+-qubit annealing system."
+      },
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "we released the Advantage annealing quantum computer, a 5,000+-qubit system",
+          "locator": "Company history",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "Advantage TM and Advantage2 systems are available via our Leap service",
+          "locator": "Annealing quantum computers",
+          "supports": "status"
+        },
+        {
+          "source": "src:dwave-flux-noise-2022",
+          "quote": "Advantage QPUs",
+          "locator": "Flux-noise comparison",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "sys:qb-qdk2",
+      "name": "QB-QDK2.0",
+      "operator": "co:quantum-brilliance",
+      "modality": "nv_other",
+      "submodality": "nv_diamond",
+      "status": "announced",
+      "announced": "2024-11-18",
+      "evidence": [
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "second-generation Quantum Development Kit (QB-QDK2.0)",
+          "locator": "Body",
+          "supports": "existence, name"
+        },
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "nitrogen-vacancy centres in diamond",
+          "locator": "QB-QDK2.0 description",
+          "supports": "modality, submodality"
+        },
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "November 18, 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "sys:qb-pawsey",
+      "name": "Pawsey diamond quantum accelerator",
+      "operator": "co:quantum-brilliance",
+      "modality": "nv_other",
+      "submodality": "nv_diamond",
+      "status": "online",
+      "online_since": "2022",
+      "evidence": [
+        {
+          "source": "src:qb-computing-page",
+          "quote": "In 2022, we installed the world's first diamond quantum accelerator at the Pawsey Supercomputing Centre",
+          "locator": "Deployments",
+          "supports": "existence, date, status"
+        },
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "nitrogen-vacancy centres in diamond",
+          "locator": "Product description",
+          "supports": "submodality"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms:intel-tunnel-falls-2023",
+      "orgs": [
+        "co:intel"
+      ],
+      "systems": [
+        "sys:intel-tunnel-falls"
+      ],
+      "date": "2023-06-15",
+      "category": "system_launch",
+      "peer_review": "company_claim",
+      "claim": "Intel reports the release of Tunnel Falls, a 12-qubit silicon spin-qubit research chip.",
+      "evidence": [
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "Today, Intel announced the release of its newest quantum research chip, Tunnel Falls, a 12-qubit silicon chip",
+          "locator": "What's New",
+          "supports": "claim"
+        },
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "Jun 15, 2023",
+          "locator": "Release header",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:intel-tunnel-falls-2024",
+      "orgs": [
+        "co:intel"
+      ],
+      "systems": [
+        "sys:intel-tunnel-falls"
+      ],
+      "date": "2024-12-25",
+      "category": "qubit_count",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1021/acs.nanolett.4c05205",
+      "claim": "A Nano Letters paper reports a 12-quantum-dot spin-qubit array, code named Tunnel Falls, in a planar Si/SiGe process, and states the devices enable up to 12 qubits.",
+      "evidence": [
+        {
+          "source": "src:nano-letters-tunnel-falls",
+          "quote": "12-quantum-dot spin-qubit linear arrays, code named Tunnel Falls",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nano-letters-tunnel-falls",
+          "quote": "enabling up to 12 qubits, which is the largest number of qubits reported in a single device in Si/SiGe",
+          "locator": "Conclusion",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:nano-letters-tunnel-falls",
+          "quote": "Si quantum wells in a SiGe heterostructure",
+          "locator": "Conclusion",
+          "supports": "submodality"
+        }
+      ]
+    },
+    {
+      "id": "ms:diraq-fidelity-2025",
+      "orgs": [
+        "co:diraq"
+      ],
+      "date": "2025-09-24",
+      "category": "fidelity",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-09531-9",
+      "claim": "A Nature paper reports silicon two-qubit devices designed by Diraq, made in a 300 mm foundry, with single- and two-qubit control fidelities above 99% on all four devices and state-preparation and measurement fidelities up to 99.9%.",
+      "evidence": [
+        {
+          "source": "src:nature-s41586-025-09531-9",
+          "quote": "single- and two-qubit control fidelities exceed 99% for all four devices, and the state preparation and measurement fidelities reach up to 99.9%",
+          "locator": "Abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:nature-s41586-025-09531-9",
+          "quote": "The qubit devices were designed by Diraq and fabricated at imec in a 300-mm spin-qubit process",
+          "locator": "Device operation",
+          "supports": "org, fabrication"
+        },
+        {
+          "source": "src:nature-s41586-025-09531-9",
+          "quote": "Published: 24 September 2025",
+          "locator": "Article header",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:diraq-eight-2026",
+      "orgs": [
+        "co:diraq"
+      ],
+      "systems": [
+        "sys:diraq-simos-8"
+      ],
+      "date": "2026-07-09",
+      "category": "qubit_count",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41467-026-74597-6",
+      "claim": "A Nature Communications paper reports coherent control of an eight-dot linear array of silicon spin qubits fabricated in a 300 mm foundry process, with all eight qubits tuned.",
+      "evidence": [
+        {
+          "source": "src:nature-s41467-026-74597-6",
+          "quote": "eight-dot linear array of silicon spin qubits fabricated in a 300 mm CMOS-compatible foundry process",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-s41467-026-74597-6",
+          "quote": "All eight qubits are successfully tuned and characterized",
+          "locator": "Abstract",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:nature-s41467-026-74597-6",
+          "quote": "Published: 09 July 2026",
+          "locator": "Article header",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:qm-bloomsbury-2022",
+      "orgs": [
+        "co:quantum-motion"
+      ],
+      "systems": [
+        "sys:qm-bloomsbury"
+      ],
+      "date": "2022-10-26",
+      "category": "manufacturing",
+      "peer_review": "company_claim",
+      "claim": "Quantum Motion reports a silicon chip it calls Bloomsbury, and states that 1024 quantum dots on it were measured.",
+      "evidence": [
+        {
+          "source": "src:qm-bloomsbury-2022",
+          "quote": "Quantum Motion's latest chip – called Bloomsbury",
+          "locator": "Body",
+          "supports": "name"
+        },
+        {
+          "source": "src:qm-bloomsbury-2022",
+          "quote": "1024 quantum dots",
+          "locator": "Characterisation result",
+          "supports": "count"
+        },
+        {
+          "source": "src:qm-bloomsbury-2022",
+          "quote": "London, UK, 26 October 2022",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:qm-1024-2025",
+      "orgs": [
+        "co:quantum-motion"
+      ],
+      "systems": [
+        "sys:qm-bloomsbury"
+      ],
+      "date": "2025-01-03",
+      "category": "manufacturing",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41928-024-01304-y",
+      "claim": "A Nature Electronics paper from Quantum Motion reports characterization of 1,024 integrated silicon quantum-dot devices.",
+      "evidence": [
+        {
+          "source": "src:nature-s41928-024-01304-y",
+          "quote": "1,024 integrated silicon quantum dot devices",
+          "locator": "Title",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-s41928-024-01304-y",
+          "quote": "Quantum Motion, London, UK",
+          "locator": "Affiliations",
+          "supports": "org"
+        },
+        {
+          "source": "src:nature-s41928-024-01304-y",
+          "quote": "Published online: 3 January 2025",
+          "locator": "Article header",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:qm-nqcc-2025",
+      "orgs": [
+        "co:quantum-motion"
+      ],
+      "systems": [
+        "sys:qm-nqcc-cmos"
+      ],
+      "date": "2025-09-15",
+      "category": "system_launch",
+      "peer_review": "company_claim",
+      "claim": "Quantum Motion reports delivery of a full-stack silicon CMOS quantum computer deployed at the UK National Quantum Computing Centre.",
+      "evidence": [
+        {
+          "source": "src:qm-nqcc-2025",
+          "quote": "Deployed at the UK National Quantum Computing Centre (NQCC)",
+          "locator": "Opening paragraph",
+          "supports": "claim"
+        },
+        {
+          "source": "src:qm-nqcc-2025",
+          "quote": "standard silicon CMOS chip fabrication process",
+          "locator": "Opening paragraph",
+          "supports": "modality"
+        },
+        {
+          "source": "src:qm-nqcc-2025",
+          "quote": "15 September 2025, London, UK",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:microsoft-majorana1-2025",
+      "orgs": [
+        "co:microsoft"
+      ],
+      "systems": [
+        "sys:microsoft-majorana-1"
+      ],
+      "date": "2025-02-19",
+      "category": "system_launch",
+      "peer_review": "company_claim",
+      "claim": "Microsoft states it has “placed eight topological qubits on a chip designed to house one million,” and calls the chip Majorana 1.",
+      "evidence": [
+        {
+          "source": "src:ms-majorana1-blog",
+          "quote": "placed eight topological qubits on a chip designed to house one million",
+          "locator": "Roadmap paragraph",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:ms-majorana1-blog",
+          "quote": "Microsoft unveils Majorana 1, the world's first quantum processor powered by topological qubits",
+          "locator": "Title",
+          "supports": "name"
+        }
+      ]
+    },
+    {
+      "id": "ms:microsoft-parity-2025",
+      "orgs": [
+        "co:microsoft"
+      ],
+      "date": "2025-02-19",
+      "category": "other",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-024-08445-2",
+      "claim": "A Nature paper reports an interferometric single-shot parity measurement in InAs-Al hybrid devices and states that the measurements “do not, by themselves, determine whether the low-energy states detected by interferometry are topological.”",
+      "evidence": [
+        {
+          "source": "src:nature-s41586-024-08445-2",
+          "quote": "These measurements do not, by themselves, determine whether the low-energy states detected by interferometry are topological.",
+          "locator": "Conclusion",
+          "supports": "claim"
+        },
+        {
+          "source": "src:nature-s41586-024-08445-2",
+          "quote": "Majorana zero modes (MZMs)",
+          "locator": "Introduction",
+          "supports": "subject"
+        },
+        {
+          "source": "src:nature-s41586-024-08445-2",
+          "quote": "Published: 19 February 2025",
+          "locator": "Article header",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:photonic-microsoft-2023",
+      "orgs": [
+        "co:photonic-inc",
+        "co:microsoft"
+      ],
+      "date": "2023-11-08",
+      "category": "networking",
+      "peer_review": "company_claim",
+      "claim": "Photonic states that it announced a collaboration with Microsoft on a platform based on photonically linked silicon spin qubits.",
+      "evidence": [
+        {
+          "source": "src:photonic-ms-2023",
+          "quote": "based on photonically linked silicon spin qubits, today announced a strategic collaboration with Microsoft.",
+          "locator": "Opening paragraph",
+          "supports": "claim"
+        },
+        {
+          "source": "src:photonic-ms-2023",
+          "quote": "Nov 8, 2023",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:photonic-entanglement-2024",
+      "orgs": [
+        "co:photonic-inc",
+        "co:microsoft"
+      ],
+      "date": "2024-06-03",
+      "category": "networking",
+      "peer_review": "preprint",
+      "arxiv": "2406.01704",
+      "claim": "A Photonic preprint reports distribution of entanglement between silicon T centre modules separated by about 40 meters of fibre, including a teleported gate sequence. Microsoft reports a related demonstration over a 40-meter fiber-optic cable.",
+      "evidence": [
+        {
+          "source": "src:arxiv-2406.01704",
+          "quote": "distribution of entanglement between modules",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:arxiv-2406.01704",
+          "quote": "40 meters of fibre",
+          "locator": "Figure description",
+          "supports": "distance"
+        },
+        {
+          "source": "src:arxiv-2406.01704",
+          "quote": "arXiv:2406.01704",
+          "locator": "Header",
+          "supports": "identifier"
+        },
+        {
+          "source": "src:ms-photonic-entanglement-2024",
+          "quote": "40-meter fiber-optic cable",
+          "locator": "Body",
+          "supports": "distance"
+        },
+        {
+          "source": "src:ms-photonic-entanglement-2024",
+          "quote": "teleported CNOT",
+          "locator": "Body",
+          "supports": "gate"
+        }
+      ]
+    },
+    {
+      "id": "ms:d-wave-advantage-2020",
+      "orgs": [
+        "co:d-wave"
+      ],
+      "systems": [
+        "sys:d-wave-advantage"
+      ],
+      "date": "2020",
+      "category": "system_launch",
+      "peer_review": "company_claim",
+      "claim": "D-Wave reports that a year after 2019 it released an annealing quantum computer, a 5,000+-qubit system it calls “Advantage”.",
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "In 2019, our customers began to put application pilots into production.",
+          "locator": "Company history",
+          "supports": "date context"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "A year later, we released the Advantage annealing quantum computer, a 5,000+-qubit system",
+          "locator": "Company history",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:d-wave-advantage2-2025",
+      "orgs": [
+        "co:d-wave"
+      ],
+      "systems": [
+        "sys:d-wave-advantage2"
+      ],
+      "date": "2025-05-20",
+      "category": "system_launch",
+      "peer_review": "company_claim",
+      "claim": "D-Wave reports general availability of its sixth-generation annealing system, Advantage2, and states a count of 4,400+ qubits.",
+      "evidence": [
+        {
+          "source": "src:dwave-advantage2-pr",
+          "quote": "4,400+ Qubit Annealing Quantum Computer",
+          "locator": "Subheading",
+          "supports": "qubits, modality"
+        },
+        {
+          "source": "src:dwave-advantage2-pr",
+          "quote": "May 20, 2025",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "In May 2025, we launched our sixth-generation annealing quantum computing system, Advantage2",
+          "locator": "Product overview",
+          "supports": "launch"
+        }
+      ]
+    },
+    {
+      "id": "ms:d-wave-simulation-2025",
+      "orgs": [
+        "co:d-wave"
+      ],
+      "date": "2025-04-11",
+      "category": "computational_task",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1126/science.ado6285",
+      "claim": "A D-Wave paper reports that superconducting quantum annealing processors generated samples in close agreement with solutions of the Schrödinger equation. The arXiv record lists the journal reference “Science 388, 199-204 (2025)”.",
+      "evidence": [
+        {
+          "source": "src:science-ado6285",
+          "quote": "superconducting quantum annealing processors can rapidly generate samples in close agreement with solutions of the Schrödinger equation",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:science-ado6285",
+          "quote": "Journal reference: Science 388, 199-204 (2025)",
+          "locator": "arXiv record",
+          "supports": "journal"
+        },
+        {
+          "source": "src:science-ado6285",
+          "quote": "10.1126/science.ado6285",
+          "locator": "Related DOI",
+          "supports": "doi"
+        }
+      ]
+    },
+    {
+      "id": "ms:qb-pawsey-2022",
+      "orgs": [
+        "co:quantum-brilliance"
+      ],
+      "systems": [
+        "sys:qb-pawsey"
+      ],
+      "date": "2022",
+      "category": "system_launch",
+      "peer_review": "company_claim",
+      "claim": "Quantum Brilliance states that in 2022 it installed a diamond quantum accelerator at the Pawsey Supercomputing Centre.",
+      "evidence": [
+        {
+          "source": "src:qb-computing-page",
+          "quote": "In 2022, we installed the world's first diamond quantum accelerator at the Pawsey Supercomputing Centre",
+          "locator": "Deployments",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:qb-qdk2-2024",
+      "orgs": [
+        "co:quantum-brilliance"
+      ],
+      "systems": [
+        "sys:qb-qdk2"
+      ],
+      "date": "2024-11-18",
+      "category": "system_launch",
+      "peer_review": "company_claim",
+      "claim": "Quantum Brilliance reports a purchase of its QB-QDK2.0 accelerator and states that it features “nitrogen-vacancy centres in diamond.”",
+      "evidence": [
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "second-generation Quantum Development Kit (QB-QDK2.0)",
+          "locator": "Body",
+          "supports": "name"
+        },
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "nitrogen-vacancy centres in diamond",
+          "locator": "Description",
+          "supports": "modality"
+        },
+        {
+          "source": "src:qb-qdk2-pr",
+          "quote": "November 18, 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:intel-next-chip-2024",
+      "org": "co:intel",
+      "system": "sys:intel-tunnel-falls",
+      "target_date": "2024",
+      "stated_on": "2023-06-15",
+      "status": "missed",
+      "statement": "Intel targets release of its next-generation quantum chip based on Tunnel Falls by 2024.",
+      "evidence": [
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "Intel is already developing its next-generation quantum chip based on Tunnel Falls; it is expected to be released in 2024.",
+          "locator": "What's Next",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:diraq-2029",
+      "org": "co:diraq",
+      "target_date": "2029",
+      "stated_on": "2026-08-27",
+      "status": "open",
+      "statement": "Diraq targets a system with 150,000 physical qubits and “up to 1,000 logical qubits” by 2029.",
+      "evidence": [
+        {
+          "source": "src:diraq-roadmap-2026",
+          "quote": "Diraq is targeting a system with 150,000 physical qubits and up to 1,000 logical qubits by 2029, followed by more than 2 million physical qubits and more than 10,000 logical qubits by 2031.",
+          "locator": "Roadmap paragraph",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:diraq-2031",
+      "org": "co:diraq",
+      "target_date": "2031",
+      "stated_on": "2026-08-27",
+      "status": "open",
+      "statement": "Diraq targets “more than 2 million physical qubits” and “more than 10,000 logical qubits” by 2031.",
+      "evidence": [
+        {
+          "source": "src:diraq-roadmap-2026",
+          "quote": "more than 2 million physical qubits and more than 10,000 logical qubits by 2031",
+          "locator": "Roadmap paragraph",
+          "supports": "statement"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "gaps": [
+    {
+      "topic": "Intel D1 fab city",
+      "why": "The Tunnel Falls release says the chip was fabricated in the D1 fabrication facility and does not name the city. newsroom.intel.com returned 403; the Intel IR copy of the release was used.",
+      "would_need": "A primary document that names the city or street of the D1 facility that ran this process."
+    },
+    {
+      "topic": "Intel next-generation chip after Tunnel Falls",
+      "why": "The June 2023 release says a next-generation chip based on Tunnel Falls was expected in 2024. No later primary document in this file shows a release or a revised date, so the target is marked missed as an inference from the passed date.",
+      "would_need": "A 2024–2026 Intel primary document that either announces the successor chip or withdraws the date."
+    },
+    {
+      "topic": "Intel headquarters street",
+      "why": "The release dateline gives Santa Clara only. SEC submissions list 2200 Mission College Blvd, but that JSON was not cited as a filing exhibit.",
+      "would_need": "The Intel Form 10-K cover page, which sec.gov refused under the declared user-agent."
+    },
+    {
+      "topic": "Diraq named product system",
+      "why": "The fetched papers describe foundry devices (two-qubit unit cells and an eight-qubit SiMOS array) and do not give a product name. The eight-qubit device is not placed at the UNSW laboratory; the lab opening release does not say this device was measured there.",
+      "would_need": "A Diraq document naming a system and the facility where that device was measured."
+    },
+    {
+      "topic": "Quantum Motion live site and NQCC address",
+      "why": "quantummotion.com returned 403. Quotes are from Wayback copies. The September 2025 release says the full-stack computer was deployed at the UK National Quantum Computing Centre and does not name Harwell, Didcot, or a street. No qubit count is stated for that system. No dated qubit roadmap was found.",
+      "would_need": "A reachable Quantum Motion or NQCC page that names the testbed address and the system's qubit count, plus a dated roadmap."
+    },
+    {
+      "topic": "Bloomsbury name in the journal article",
+      "why": "The Nature Electronics paper reports 1,024 silicon quantum-dot devices from Quantum Motion and does not use the name Bloomsbury. The system link uses the 2022 press, which names Bloomsbury and 1024 quantum dots. Those dots are not recorded as qubits.",
+      "would_need": "A sentence in the paper, or a later primary document, that uses the name Bloomsbury for this device."
+    },
+    {
+      "topic": "Microsoft topological roadmap date",
+      "why": "The July 2025 roadmap preprint describes device generations and does not give a calendar year for a qubit-count target. Majorana 1 is a company announcement. The Nature paper states that the parity measurements do not, by themselves, determine that the low-energy states are topological. science-style journal HTML was fetched from nature.com for that paper.",
+      "would_need": "A Microsoft roadmap document that states a year for a named topological-qubit target."
+    },
+    {
+      "topic": "Photonic named QPU",
+      "why": "Fetched pages describe T centres and a spin-photon architecture. They do not name a product processor. The June 2024 result is a preprint (arXiv:2406.01704) hosted as a PDF on photonic.com; no journal version was fetched.",
+      "would_need": "A Photonic document naming a system, and a journal version of 2406.01704 if one exists."
+    },
+    {
+      "topic": "D-Wave Science full text and Germany site",
+      "why": "science.org returned 403 for DOI 10.1126/science.ado6285. Peer-review status uses the arXiv journal-reference line (Science 388, 199-204, 2025) and Crossref; the abstract quotes are from the arXiv record. sec.gov/Archives returned 403; the FY2025 10-K was read from a Wayback copy. The 10-K says Advantage2 systems were operational in Canada, the United States, and Germany and names Huntsville, but it does not name the German facility. The product record is therefore not pinned to one site.",
+      "would_need": "The Science PDF or HTML, and a primary sentence naming the German installation site."
+    },
+    {
+      "topic": "D-Wave listing venue",
+      "why": "The 26 February 2026 Form 10-K and the 20 May 2025 release say New York Stock Exchange and NYSE: QBTS. data.sec.gov submissions fetched on 2026-10-02 list the exchange as Nasdaq.",
+      "would_need": "A filing or exchange notice after February 2026 if the listing changed."
+    },
+    {
+      "topic": "D-Wave gate-model program",
+      "why": "The FY2025 10-K discusses a gate-model effort, including fluxonium control and the Quantum Circuits acquisition. Those are not annealing systems and are not recorded in this file. No dated annealing qubit-count roadmap beyond the systems already launched was found.",
+      "would_need": "A superconducting-modality file for the gate-model program, and an annealing roadmap if D-Wave publishes qubit-count dates."
+    },
+    {
+      "topic": "Quantum Brilliance sites and qubit counts",
+      "why": "The purchase release names QB-QDK2.0 and Fraunhofer IAF without a city. The company page names the Pawsey Supercomputing Centre and Oak Ridge National Laboratory without cities. No qubit count is stated for either machine. Canberra is taken from the dateline, which also lists Stuttgart.",
+      "would_need": "A primary sentence with the installation city and the vendor's qubit count."
+    },
+    {
+      "topic": "Silicon Quantum Computing not included",
+      "why": "Optional for this file. A primary page names a 14|15 platform, but it was not fetched and quoted in this pass.",
+      "would_need": "A fetched SQC primary document if a later pass adds the donor platform."
+    }
+  ]
+}

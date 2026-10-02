@@ -1,0 +1,1493 @@
+{
+  "topic": "superconducting_a",
+  "verifier": "cursor-gpt-counsel-superconducting_a",
+  "verified_at": "2026-10-01",
+  "source_checks": [
+    {
+      "source": "src:ibm-pr-2025-06-10-starling",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-pr-2025-11-12-nighthawk-loon",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Live roadmap is undated; the research date is the access date."
+    },
+    {
+      "source": "src:ibm-blog-2022-05-10-roadmap",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-pr-2023-12-04-heron-system-two",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-pr-2025-06-23-riken",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-pr-2025-10-14-basque",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-pr-2024-10-01-ehningen",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-pr-2026-06-02-10b",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-pr-2026-07-30-uchicago",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2607.25941",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nature-kim-2023-utility",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    },
+    {
+      "source": "src:nature-bravyi-2024-bb",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    },
+    {
+      "source": "src:nature-arute-2019-sycamore",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    },
+    {
+      "source": "src:nature-gqai-2023-surface-code",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    },
+    {
+      "source": "src:nature-gqai-2024-below-threshold",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    },
+    {
+      "source": "src:nature-gqai-2025-otoc",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    },
+    {
+      "source": "src:google-blog-2024-12-09-willow",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:google-willow-spec-sheet",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:google-blog-2025-10-22-echoes",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:google-quantum-ai-about-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:google-locations",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Locations page is current but does not establish a publication date."
+    },
+    {
+      "source": "src:rigetti-pr-2024-12-23-ankaa3",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:rigetti-pr-2025-03-05-q4-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:rigetti-pr-2025-08-12-q2-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:rigetti-pr-2025-11-10-q3-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:rigetti-pr-2026-01-09-108q-update",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:rigetti-pr-2026-03-04-q4-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:rigetti-pr-2026-04-07-108q-ga",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:rigetti-pr-2026-08-06-q2-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:nature-putterman-2025-ocelot",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    },
+    {
+      "source": "src:amazon-news-2025-02-27-ocelot",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:amazon-science-2025-02-27-ocelot",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:aws-blog-2021-10-26-cqc",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:amazon-hq-seattle-tour",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Research used the access date rather than the article publication date."
+    },
+    {
+      "source": "src:alicebob-pr-2024-12-04-roadmap",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:alicebob-pr-2025-09-25-bitflip",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:alicebob-pr-2025-05-14-lab",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:alicebob-pr-2023-12-19-helium1",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:alicebob-boson4-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture. Archived product page does not establish the asserted document date."
+    },
+    {
+      "source": "src:alicebob-pr-2024-03-13-proqcima",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live source refused or failed; official-page/press-release body was fetched from the cited Wayback capture."
+    },
+    {
+      "source": "src:nature-reglade-2024-cat",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Nature article and DOI metadata resolved; peer-reviewed classification confirmed."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:ibm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:ibm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:riken",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:aws",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:aws",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:aws",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:alice-bob",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "co:alice-bob",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:ibm-yorktown-heights",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:riken-kobe-r-ccs",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:riken-kobe-r-ccs",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:ibm-san-sebastian",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:ibm-san-sebastian",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:ibm-ehningen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:ibm-poughkeepsie",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:google-santa-barbara-fab",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:aws-cqc-pasadena",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:aws-cqc-pasadena",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "site:alice-bob-paris-lab",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-heron",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-heron",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-heron",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-heron",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-heron",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-nighthawk",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-nighthawk",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-loon",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-system-two-riken",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-system-two-riken",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-system-two-riken",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-system-two-riken",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "does_not_support",
+      "notes": "The stored quote stops at “3x10” and omits the superscript exponent. It is a substring, but does not itself support the transcribed 0.003 value; the metric is removed."
+    },
+    {
+      "entity": "sys:ibm-system-two-basque",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-system-two-basque",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-system-two-basque",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:ibm-system-two-yorktown",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-sycamore",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-sycamore",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-sycamore",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-willow",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-willow",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-willow",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-willow",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-willow",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:google-willow",
+      "evidence_index": 1,
+      "path": "metrics.1",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-ankaa-3",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-ankaa-3",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-ankaa-3",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-36q",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-36q",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-36q",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-108q",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-108q",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-108q",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-108q",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:aws-ocelot",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:aws-ocelot",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:aws-ocelot",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:aws-ocelot",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified_with_correction",
+      "notes": "The quote names five data qubits plus four error-detecting qubits and five buffer circuits; recording physical_qubits.value=5 as a total is misleading. Remove physical_qubits."
+    },
+    {
+      "entity": "sys:aws-ocelot",
+      "evidence_index": 0,
+      "path": "logical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:alice-bob-boson-4",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:alice-bob-boson-4",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:alice-bob-boson-4",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:alice-bob-boson-4",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:alice-bob-helium-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "sys:alice-bob-helium-1",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-127q-expectation-values-2023",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-127q-expectation-values-2023",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-bb-qldpc-memory-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-bb-qldpc-memory-2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-heron-system-two-2023",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-heron-system-two-2023",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-system-two-riken-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-system-two-riken-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-system-two-riken-2025",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-system-two-riken-2025",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-loon-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-loon-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-uchicago-encoded-sampling-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:ibm-uchicago-encoded-sampling-2026",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-sycamore-rcs-2019",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-sycamore-rcs-2019",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-surface-code-d5-2023",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-surface-code-d5-2023",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-willow-below-threshold-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-willow-below-threshold-2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-willow-rcs-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-willow-rcs-2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-quantum-echoes-otoc-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-quantum-echoes-otoc-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-quantum-echoes-otoc-2025",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:google-quantum-echoes-otoc-2025",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:rigetti-ankaa-3-launch-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:rigetti-ankaa-3-launch-2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:rigetti-cepheus-36q-ga-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:rigetti-cepheus-36q-ga-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:rigetti-cepheus-108q-ga-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:rigetti-cepheus-108q-ga-2026",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:rigetti-adiabatic-cz-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:aws-ocelot-cat-repetition-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:aws-ocelot-cat-repetition-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:aws-ocelot-cat-repetition-2025",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:aws-ocelot-cat-repetition-2025",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:alice-bob-cat-bitflip-10s-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:alice-bob-cat-bitflip-10s-2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:alice-bob-bitflip-hour-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:alice-bob-bitflip-hour-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "ms:alice-bob-bitflip-hour-2025",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-kookaburra-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-kookaburra-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-kookaburra-2026",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-loon-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-starling-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-starling-2029",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-starling-2029",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-blue-jay-2033",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-blue-jay-2033",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-advantage-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-advantage-2026",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:ibm-nighthawk-7500-gates-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:rigetti-100q-2025-march",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:rigetti-100q-995-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:rigetti-108q-ga-q1-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:rigetti-108q-995-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:rigetti-150q-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:rigetti-1000q-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:rigetti-1000q-3yr-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:alice-bob-graphene-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:alice-bob-graphene-2030",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:alice-bob-lithium",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found after normalized whitespace/typography comparison and supports the stated field."
+    },
+    {
+      "entity": "tgt:alice-bob-lithium",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "The 2030 date belongs to the overall roadmap goal, not specifically to the Lithium intermediate step."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:ibm",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:riken",
+      "verdict": "publish_flagged",
+      "reasons": "The IBM release supports RIKEN's existence and Japan country-level location, but it is indirect headquarters evidence and does not identify a headquarters."
+    },
+    {
+      "entity": "co:google",
+      "verdict": "publish_flagged",
+      "reasons": "Google's Mountain View coordinates are supported indirectly by an official Googleplex office listing, not an explicit corporate-headquarters statement."
+    },
+    {
+      "entity": "co:rigetti",
+      "verdict": "publish_flagged",
+      "reasons": "Berkeley and the ticker appear in an official release dateline/header, but the evidence does not explicitly call Berkeley the headquarters."
+    },
+    {
+      "entity": "co:aws",
+      "verdict": "publish_flagged",
+      "reasons": "The Seattle location is Amazon-parent headquarters evidence, not a direct statement of a separate AWS headquarters."
+    },
+    {
+      "entity": "co:alice-bob",
+      "verdict": "publish_flagged",
+      "reasons": "The official archived release says the company is based in both Paris and Boston; selecting Paris as the single displayed HQ is a schema simplification."
+    },
+    {
+      "entity": "site:ibm-yorktown-heights",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:riken-kobe-r-ccs",
+      "verdict": "publish",
+      "reasons": "The installation is inside RIKEN Center for Computational Science in Kobe; RIKEN is therefore the site operator, while IBM remains the system operator."
+    },
+    {
+      "entity": "site:ibm-san-sebastian",
+      "verdict": "publish_flagged",
+      "reasons": "The facility and city are verified. The IBM-Euskadi center is joint; the single operator field records IBM but should not imply sole operation."
+    },
+    {
+      "entity": "site:ibm-ehningen",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:ibm-poughkeepsie",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:google-santa-barbara-fab",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:aws-cqc-pasadena",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:alice-bob-paris-lab",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:ibm-heron",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:ibm-nighthawk",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:ibm-loon",
+      "verdict": "publish",
+      "reasons": "The source announces Loon as an experimental processor; announced status is retained because no delivery or public availability is claimed."
+    },
+    {
+      "entity": "sys:ibm-system-two-riken",
+      "verdict": "publish_flagged",
+      "reasons": "System, site, status and 156-qubit processor are verified. The 0.003 metric is removed because the evidence quote omits the superscript exponent.",
+      "corrections": {
+        "metrics": null
+      }
+    },
+    {
+      "entity": "sys:ibm-system-two-basque",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:ibm-system-two-yorktown",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:google-sycamore",
+      "verdict": "publish_flagged",
+      "reasons": "The processor and qubit figures are peer-reviewed. No retirement notice was found, but the evidence does not independently establish present-day availability; online status is retained with this stale-status caveat."
+    },
+    {
+      "entity": "sys:google-willow",
+      "verdict": "publish",
+      "reasons": "The updated Nature paper and official spec sheet support the system and figures. In the PDF rows, the trailing “2” after µs is a footnote marker, not part of the T1 values."
+    },
+    {
+      "entity": "sys:rigetti-ankaa-3",
+      "verdict": "publish_flagged",
+      "reasons": "Launch, availability and metric were verified from the archived official release. No retirement notice was found; current online status is therefore stale rather than newly confirmed."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-36q",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:rigetti-cepheus-1-108q",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:aws-ocelot",
+      "verdict": "publish_flagged",
+      "reasons": "The operating prototype and named code are peer-reviewed/officially supported, so online denotes an operating research prototype rather than public availability. Remove physical_qubits=5 because the source also names four error-detecting qubits, so five is only the data-qubit count.",
+      "corrections": {
+        "physical_qubits": null
+      }
+    },
+    {
+      "entity": "sys:alice-bob-boson-4",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:alice-bob-helium-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ibm-127q-expectation-values-2023",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ibm-bb-qldpc-memory-2024",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ibm-heron-system-two-2023",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ibm-system-two-riken-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ibm-loon-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ibm-uchicago-encoded-sampling-2026",
+      "verdict": "publish",
+      "reasons": "The numerical claim uses the re-fetched arXiv v3 figures (64 circuit qubits, depth 73, 314 T gates, 76 physical qubits, 0.349 lower bound), not IBM's differing release figures; IBM's “quantum advantage” wording remains attributed company framing."
+    },
+    {
+      "entity": "ms:google-sycamore-rcs-2019",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:google-surface-code-d5-2023",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:google-willow-below-threshold-2024",
+      "verdict": "publish",
+      "reasons": "The updated Nature article supports the quoted result. The 28 April 2026 Author Correction was separately fetched (DOI 10.1038/s41586-026-10559-8) and only fixes Fig. 3a labels/keys, not the milestone figures."
+    },
+    {
+      "entity": "ms:google-willow-rcs-2024",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:google-quantum-echoes-otoc-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:rigetti-ankaa-3-launch-2024",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:rigetti-cepheus-36q-ga-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:rigetti-cepheus-108q-ga-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:rigetti-adiabatic-cz-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:aws-ocelot-cat-repetition-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:alice-bob-cat-bitflip-10s-2024",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:alice-bob-bitflip-hour-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-kookaburra-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The 2022 target is verified, but the 2026 Kookaburra goal differs materially (an encoded-information module rather than the promised 1,386/4,158-qubit configuration). Remove the revision link and record the expired 2025 target as missed.",
+      "corrections": {
+        "status": "missed",
+        "superseded_by": null
+      }
+    },
+    {
+      "entity": "tgt:ibm-kookaburra-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-loon-2025",
+      "verdict": "publish",
+      "reasons": "The 2025 target and the later Loon announcement are verified; the announcement demonstrates the architecture-component objective stated by the target."
+    },
+    {
+      "entity": "tgt:ibm-starling-2029",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-blue-jay-2033",
+      "verdict": "publish_flagged",
+      "reasons": "IBM's dated release says 2,000 logical qubits, while the undated live roadmap says 2000 qubits. Use the dated, attributed wording and retain 2033+ only with an undated-roadmap caveat.",
+      "corrections": {
+        "statement": "IBM targets Blue Jay, which IBM says will be capable of executing “1 billion quantum operations over 2,000 logical qubits”, by 2033 or later (“2033+”)."
+      }
+    },
+    {
+      "entity": "tgt:ibm-advantage-2026",
+      "verdict": "publish",
+      "reasons": "Keep open: IBM's July 2026 supporting results are preprints/company framing, while the target expressly requires confirmation by the wider community by the end of 2026."
+    },
+    {
+      "entity": "tgt:ibm-nighthawk-7500-gates-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:rigetti-100q-2025-march",
+      "verdict": "publish_flagged",
+      "reasons": "The target was later revised to 108-qubit general availability. Its separate error-reduction component was not shown met by the April 2026 launch and must not be inferred from the count milestone."
+    },
+    {
+      "entity": "tgt:rigetti-100q-995-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The missed 2025 99.5% fidelity objective is substantively continued by the later 2026 99.5% target, not by the general-availability target. Correct the revision chain.",
+      "corrections": {
+        "superseded_by": "tgt:rigetti-108q-995-2026"
+      }
+    },
+    {
+      "entity": "tgt:rigetti-108q-ga-q1-2026",
+      "verdict": "publish",
+      "reasons": "The official target said “around the end of” Q1; general availability on 7 April 2026 is close enough to that expressly approximate timing. The separate 99.5% fidelity objective remains open."
+    },
+    {
+      "entity": "tgt:rigetti-108q-995-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:rigetti-150q-2026",
+      "verdict": "publish",
+      "reasons": "Keep open: no fetched document explicitly revises, withdraws, or meets the 150+ qubit end-2026 target; omission from the August update is not a withdrawal."
+    },
+    {
+      "entity": "tgt:rigetti-1000q-2027",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:rigetti-1000q-3yr-2026",
+      "verdict": "reject",
+      "reasons": "The source says only “roughly a three-year time horizon.” The 2029 calendar date is analyst arithmetic, not a date stated by the source, and Target requires a source-matched target_date."
+    },
+    {
+      "entity": "tgt:alice-bob-graphene-2030",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by re-fetched Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:alice-bob-lithium",
+      "verdict": "reject",
+      "reasons": "The official roadmap gives Lithium no separate date. Assigning the overall 2030 Graphene/universal-computer horizon to this intermediate Lithium step is unsupported."
+    }
+  ],
+  "summary": "46 publish, 14 publish_flagged, 2 reject. Systemic issues: several HQ fields rely on indirect location evidence; current-status claims lack retirement/availability updates; an undated roadmap conflicts with a dated IBM release; and two targets manufacture calendar dates from broader horizons. Rejected: tgt:rigetti-1000q-3yr-2026; tgt:alice-bob-lithium. Scrutiny resolutions: IBM/UChicago uses arXiv v3 numbers and the advantage target stays open; Rigetti 108Q GA is met while its 99.5% and 150Q targets stay open; the inferred 2029 Rigetti target is rejected; Blue Jay uses the dated release's attributed 2,000-logical-qubit wording with the undated-roadmap date flagged; the materially different Kookaburra goals are not linked as a revision; Loon remains announced, Ocelot is an operating prototype, and Sycamore/Ankaa-3 retain flagged online status absent retirement evidence; the RIKEN 0.003 metric is removed because the quote omits the exponent, while Willow PDF footnote markers were checked; Google/AWS/Rigetti/RIKEN HQ evidence is flagged as indirect; Kobe is treated as a RIKEN-operated site and San Sebastián as a joint center represented by IBM in the single-operator schema; the Willow Author Correction only changes Fig. 3a labels. All 42 sources and 135 evidence items were re-fetched/rechecked; live refusals were handled only through cited Wayback captures. No RIKEN 3x10 item exists outside this file: it is the IBM-at-RIKEN system metric reviewed here."
+}

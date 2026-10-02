@@ -1,0 +1,1540 @@
+{
+  "topic": "photonic",
+  "verifier": "cursor-gpt-counsel-photonic",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:psiq-nature-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2404.17570",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:psiq-omega-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:psiq-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Living facilities page has no stable publication date; 2026-10-01 is an access-date surrogate."
+    },
+    {
+      "source": "src:psiq-australia-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:au-pm-psiq-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:qld-psiq-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:il-gov-psiq-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:psiq-illinois-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:psiq-chicago-groundbreaking",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:psiq-moreton-bay-site",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:psiq-au-groundbreaking",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:psiq-griffith-lab",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-borealis-nature-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-aurora-nature-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-gkp-nature-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-borealis-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-aurora-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-packaging-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-spac-pr-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-closing-pr-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:xanadu-roadmap-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live investor page refused; the research file's timestamped Wayback copy and a fresh web.archive.org/web/2026 fetch were used."
+    },
+    {
+      "source": "src:braket-sf-plugin-readme",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Living repository README has no stable publication date; 2026-10-01 is an access-date surrogate."
+    },
+    {
+      "source": "src:quandela-nature-ascella-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-cloud-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-factory-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-ovh-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-pilot-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-roadmap-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The body dateline is 11 October 2024; page metadata says datePublished 17 October 2024. The body date is retained."
+    },
+    {
+      "source": "src:quandela-belenos-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-lucy-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-mosaiq",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-canopus",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quandela-ascella-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:orca-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:orca-pt2-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:orca-pt1-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:orca-pt2-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:orca-realty-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:orca-toyota-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:sci-jiuzhang-2020",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Live DOI/Science request returned 403. Fetched the article HTML from the permitted Wayback copy at web.archive.org/web/2021id_/https://science.sciencemag.org/content/370/6523/1460; it contains the quoted abstract and affiliations."
+    },
+    {
+      "source": "src:arxiv-2106.15534",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2304.12240",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:psiquantum",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:psiquantum",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quandela",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quandela",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:orca",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:orca",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:orca",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ustc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ustc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-palo-alto",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-milpitas",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-daresbury",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-daresbury",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-iqmp-chicago",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-iqmp-chicago",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-iqmp-chicago",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-moreton-bay-central",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-moreton-bay-central",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-moreton-bay-central",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:psiquantum-griffith-nathan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:xanadu-toronto-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:xanadu-toronto-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:xanadu-inception-toronto",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quandela-massy-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quandela-massy-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quandela-massy-factory",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quandela-massy-factory",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quandela-ipvf-palaiseau",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quandela-ipvf-palaiseau",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:orca-london-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:orca-dril-london",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:orca-dril-london",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-omega",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-omega",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-omega",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-omega",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-omega",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-omega",
+      "evidence_index": 0,
+      "path": "metrics.2",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-brisbane-utility-scale",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-brisbane-utility-scale",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-brisbane-utility-scale",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-brisbane-utility-scale",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-brisbane-utility-scale",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-chicago-utility-scale",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:psiquantum-chicago-utility-scale",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-borealis",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-borealis",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "The README establishes withdrawal from Amazon Braket, not retirement of the hardware from every route."
+    },
+    {
+      "entity": "sys:xanadu-borealis",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-borealis",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-aurora",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-aurora",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-aurora",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-aurora",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:xanadu-aurora",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "This quote describes Quandela's Massy-hosted cloud service but does not name Ascella. Ascella remains supported by the product page and Nature Photonics article."
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "evidence_index": 0,
+      "path": "metrics.2",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-belenos",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-belenos",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-belenos",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-belenos",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-lucy",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-lucy",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "The quote says Lucy was in acceptance before opening; it does not support status online. Corrected status to announced."
+    },
+    {
+      "entity": "sys:quandela-lucy",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-canopus",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-canopus",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quandela-canopus",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "does_not_support",
+      "notes": "“MosaiQ 24” is a product label, not a sentence stating that Canopus has 24 physical qubits."
+    },
+    {
+      "entity": "sys:quandela-canopus",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "does_not_support",
+      "notes": "A general 6-to-24-qubit product range does not assign 24 qubits to Canopus."
+    },
+    {
+      "entity": "sys:quandela-canopus",
+      "evidence_index": 2,
+      "path": "physical_qubits",
+      "verdict": "does_not_support",
+      "notes": "Deriving 24 from “double” the 12-qubit generation is analyst inference; the source does not directly state Canopus's count."
+    },
+    {
+      "entity": "sys:orca-pt-1",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:orca-pt-1",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:orca-pt-1",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:orca-pt-2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:orca-pt-2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:orca-pt-2",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:orca-pt-3",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-2-0",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-2-0",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-2-0",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-2-0",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-3-0",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-3-0",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-3-0",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-3-0",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-omega-nature-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-omega-nature-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-omega-nature-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-chicago-groundbreaking",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-chicago-groundbreaking",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-chicago-groundbreaking",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-moreton-bay-groundbreaking",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:psiquantum-moreton-bay-groundbreaking",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-borealis-gbs-2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-borealis-gbs-2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-borealis-gbs-2022",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-aurora-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-aurora-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-aurora-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-gkp-on-chip-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-gkp-on-chip-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-gkp-on-chip-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-packaging-facility-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:xanadu-packaging-facility-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-cloud-2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-cloud-2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-ovh-mosaiq-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-ascella-nature-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-ascella-nature-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-belenos-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-belenos-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-belenos-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-lucy-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quandela-lucy-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:orca-pt1-demo-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:orca-pt2-unveil-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:orca-pt2-unveil-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:orca-dril-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:orca-dril-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:orca-japan-pt2-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:orca-japan-pt2-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2020",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2020",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2020",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2-2021",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-3-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-3-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-3-2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-3-2023",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-brisbane-operational-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-brisbane-operational-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-qld-cryoplant-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-qld-cryoplant-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-qld-cryoplant-2027",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-groundbreak-chicago-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-groundbreak-brisbane-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-1000-logical-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-200-logical-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-200-logical-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-1000-logical-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-1000-logical-2031",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-fault-tolerance-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-fault-tolerance-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-loss-indicator-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quandela-12-qubits-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quandela-12-qubits-2023",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "The 2025 Belenos count does not establish that Quandela formally marked its 2023 target missed."
+    },
+    {
+      "entity": "tgt:quandela-logical-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quandela-50-logical-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quandela-hundreds-logical-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quandela-fault-tolerant-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:orca-nqcc-testbed-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:orca-pt3-2026-10",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:psiquantum",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:xanadu",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:quandela",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:orca",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:ustc",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:psiquantum-palo-alto",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:psiquantum-milpitas",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:psiquantum-daresbury",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:psiquantum-iqmp-chicago",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:psiquantum-moreton-bay-central",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:psiquantum-griffith-nathan",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:xanadu-toronto-hq",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:xanadu-inception-toronto",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:quandela-massy-hq",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:quandela-massy-factory",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:quandela-ipvf-palaiseau",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:orca-london-hq",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:orca-dril-london",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:psiquantum-omega",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:psiquantum-brisbane-utility-scale",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:psiquantum-chicago-utility-scale",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:xanadu-borealis",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, 216 squeezed modes, and 2022 availability are verified. The cited README only proves Borealis left Amazon Braket; it does not prove global hardware retirement."
+    },
+    {
+      "entity": "sys:xanadu-aurora",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:quandela-ascella",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:quandela-belenos",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:quandela-lucy",
+      "verdict": "publish_flagged",
+      "reasons": "Delivery and the 12-qubit count are verified. The release says Lucy was in acceptance before opening, so online is not supported.",
+      "corrections": {
+        "status": "announced"
+      }
+    },
+    {
+      "entity": "sys:quandela-canopus",
+      "verdict": "publish_flagged",
+      "reasons": "Canopus and its planned 2026 cloud availability are verified, but 24 is only a MosaiQ product label/range and an inferred doubling result.",
+      "corrections": {
+        "physical_qubits": null
+      }
+    },
+    {
+      "entity": "sys:orca-pt-1",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:orca-pt-2",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:orca-pt-3",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:ustc-jiuzhang",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-2-0",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:ustc-jiuzhang-3-0",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:psiquantum-omega-nature-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:psiquantum-chicago-groundbreaking",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:psiquantum-moreton-bay-groundbreaking",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:xanadu-borealis-gbs-2022",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:xanadu-aurora-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:xanadu-gkp-on-chip-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:xanadu-packaging-facility-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quandela-cloud-2022",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quandela-ovh-mosaiq-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quandela-ascella-nature-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quandela-belenos-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quandela-lucy-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:orca-pt1-demo-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:orca-pt2-unveil-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:orca-dril-2026",
+      "verdict": "publish_flagged",
+      "reasons": "The London DRIL participation is documented, but the cited operational sentence is forward-looking (“will operate”); this must not imply the PT systems were already operating there."
+    },
+    {
+      "entity": "ms:orca-japan-pt2-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2020",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-2-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ustc-jiuzhang-3-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:psiquantum-brisbane-operational-2027",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:psiquantum-qld-cryoplant-2027",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:psiquantum-groundbreak-chicago-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:psiquantum-groundbreak-brisbane-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:xanadu-1000-logical-2029",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:xanadu-200-logical-2029",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:xanadu-1000-logical-2031",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:xanadu-fault-tolerance-2029",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:xanadu-loss-indicator-2030",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:quandela-12-qubits-2023",
+      "verdict": "publish_flagged",
+      "reasons": "The target itself is verified. No Quandela document says it was missed; the later Belenos release is insufficient to assign missed status.",
+      "corrections": {
+        "status": "open"
+      }
+    },
+    {
+      "entity": "tgt:quandela-logical-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap target is verified and remains open because no result document was found. The hype term is corrected into a verbatim attributed quotation; no code is named.",
+      "corrections": {
+        "statement": "Quandela targets the first “logical (error-free) qubits” by 2025."
+      }
+    },
+    {
+      "entity": "tgt:quandela-50-logical-2028",
+      "verdict": "publish_flagged",
+      "reasons": "The target is verified, but the original statement asserted a hype term outside quotation marks. It is corrected to track the source wording without implying a named code.",
+      "corrections": {
+        "statement": "Quandela targets the first “logical (error-free) qubits” in 2025 and 50 of them by 2028."
+      }
+    },
+    {
+      "entity": "tgt:quandela-hundreds-logical-2030",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:quandela-fault-tolerant-2030",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:orca-nqcc-testbed-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:orca-pt3-2026-10",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by freshly fetched Tier 1 or Tier 2 evidence."
+    }
+  ],
+  "summary": "Verdicts: 61 publish, 7 publish_flagged, 0 reject across 68 entities. All 45 source URLs were freshly fetched with the required declared counsel User-Agent. Science refused live access, so its article HTML was fetched from the permitted Wayback copy; Xanadu's Gatsby press pages were also checked through their official page-data payloads. 0 evidence quote(s) remain not found. Systemic issues: product labels and arithmetic inference were presented as Canopus's qubit count; delivery/acceptance was presented as Lucy being online; Borealis's departure from Amazon Braket was treated as global retirement; expired roadmap dates lacked documents establishing met/missed status; some site coordinates are map placements for documented addresses rather than surveyed coordinates. Corrections: delete Canopus physical_qubits; change Lucy status to announced; change Quandela's 2023 12-qubit target from missed to open; quote the hype language in the 2025 and 2028 Quandela target statements. Location cautions: OVHcloud, TGCC, NQCC and the Japanese PT-2 customer are not pinned because the evidence does not name the city/site. Massy, Palaiseau and Eastbourne Terrace use documented addresses; DRIL is London city precision. Jiuzhang 2.0 and 3.0 remain preprints because only arXiv text was fetched. The USTC organization is also defined in superconducting_b; the build must union modalities rather than overwrite one with the other."
+}

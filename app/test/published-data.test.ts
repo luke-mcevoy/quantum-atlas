@@ -41,7 +41,9 @@ describe("published atlas", () => {
     for (const m of atlas.milestones) {
       expect(m.date <= atlas.built_at.slice(0, 10), m.id).toBe(true);
       const implied = impliedPeerReview(m.evidence.map((e) => idx.source.get(e.source)?.doc_type));
-      expect(m.peer_review, m.id).toBe(implied);
+      // A launch can stay a company claim while also citing a paper. It cannot be rated above its sources.
+      const rank = { company_claim: 0, preprint: 1, peer_reviewed: 2 };
+      expect(rank[m.peer_review], `${m.id}: ${m.peer_review} vs sources ${implied}`).toBeLessThanOrEqual(rank[implied]);
     }
   });
   test("every access route has official docs; every snippet has a source URL and a recorded check", () => {

@@ -47,8 +47,12 @@ export function Rail({ idx }: { idx: Index }) {
     for (const y of idx.atlas.systems) m.set(y.modality, (m.get(y.modality) ?? 0) + 1);
     return m;
   }, [idx]);
-  const largest = useMemo(() => [...idx.atlas.systems].filter((y) => y.physical_qubits && s.modalities.has(y.modality))
-    .sort((a, b) => b.physical_qubits!.value - a.physical_qubits!.value), [idx, s.modalities]);
+  const largest = useMemo(() => MODALITIES.flatMap((m) => {
+    if (!s.modalities.has(m)) return [];
+    const top = idx.atlas.systems.filter((y) => y.modality === m && y.physical_qubits)
+      .sort((a, b) => b.physical_qubits!.value - a.physical_qubits!.value)[0];
+    return top ? [top] : [];
+  }), [idx, s.modalities]);
   if (!s.railOpen) return <button className="rail-toggle" onClick={() => s.set({ railOpen: true })} aria-label="Open panel">☰</button>;
   return (
     <aside className="panel rail">
@@ -88,8 +92,8 @@ export function Rail({ idx }: { idx: Index }) {
         </>
       )}
 
-      <h3 title="Physical qubit counts as each vendor states them. Counts measure size, not capability; qubit quality differs by orders of magnitude between machines and modalities.">Largest stated qubit counts</h3>
-      <div className="muted small spof-note">As stated by each source. A qubit count is not a measure of capability, and counts are not comparable across modalities.</div>
+      <h3 title="The largest count each modality states for itself. These numbers are not comparable across modalities.">Largest stated count in each modality</h3>
+      <div className="muted small spof-note">One machine per modality, using that source’s own count. A qubit count is not a measure of capability, and these numbers are not comparable with each other.</div>
       <ol className="choke">
         {largest.slice(0, 10).map((y) => {
           const p = locateAny(idx, y.id);
@@ -97,7 +101,7 @@ export function Rail({ idx }: { idx: Index }) {
             <li key={y.id}>
               <button onClick={() => { s.select(y.id); if (p) s.focus(p[0], p[1], 2.8); }}>
                 <i className="dot" style={{ background: css(MODALITY_COLOR[y.modality]) }} />
-                <span className="choke-name">{y.name}<span className="muted small"> · {nodeName(idx, y.operator)}{y.status !== "online" ? ` · ${y.status}` : ""}</span></span>
+                <span className="choke-name">{y.name}<span className="muted small"> · {MODALITY_LABEL[y.modality]} · {nodeName(idx, y.operator)}{y.status !== "online" ? ` · ${y.status}` : ""}</span></span>
                 <span className="mono choke-n">{y.physical_qubits!.value.toLocaleString()}</span>
               </button>
             </li>

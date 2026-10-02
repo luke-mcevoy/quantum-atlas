@@ -1,0 +1,2491 @@
+{
+  "topic": "neutral_atom",
+  "verifier": "cursor-gpt-counsel-neutral_atom",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:ac-1000-qubits-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-ac1000-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-microsoft-collab-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-denmark-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-qunorth-magne-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-logical-blog-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-toric-pr-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-colorado-pr-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-2026-preview",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ac-darpa-qbi-b-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ms-azure-blog-atom-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ms-facts",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:arxiv-2411.11822",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:arxiv-2401.16177",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:prxq-5-030316",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "APS/DOI and 2026 Wayback fetches were unreachable; Crossref metadata independently confirms the journal title, DOI, and 2024-07-25 publication date. The matching arXiv record is reachable."
+    },
+    {
+      "source": "src:prxq-6-020334",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "APS refused the declared counsel user agent (403) and the 2026 Wayback lookup returned 404. A saved arXiv copy (2411.11708) provides the exact article text, and Crossref confirms the journal title, DOI, and 2025-05-21 publication date."
+    },
+    {
+      "source": "src:arxiv-2305.19119",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:prx-13-041034",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "APS/DOI and 2026 Wayback fetches were unreachable; Crossref confirms the journal title, DOI, and 2023-11-22 date, while the cited arXiv record supplies the claim and DOI link."
+    },
+    {
+      "source": "src:prx-15-041040",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "APS refused the declared counsel user agent (403) and the 2026 Wayback lookup returned 404. A saved arXiv copy (2506.09936) provides the exact article text, and Crossref confirms the journal title, DOI, and 2025-12-04 publication date."
+    },
+    {
+      "source": "src:arxiv-2606.04079",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:ncomms-13-2779",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-roadmap-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-libra-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-gigaquop-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-2025-review",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-aquila-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-gemini-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-braket-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-aist-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-aist-mou-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-nqcc-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-magic-pr-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:quera-48lq-pr-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:nqcc-testbeds",
+      "reachable": true,
+      "doc_type_ok": false,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Reachable official NQCC programme webpage, not a dated government press release. Reassigned Tier 2 official material; 2026-10-01 is the access date because the page is undated."
+    },
+    {
+      "source": "src:nature-626-58",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:nature-622-268",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:nature-magic-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:nature-3000-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:nature-ftarch-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-340m-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-bc-complete-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-h1-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-1000-atoms-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-genci-delivery-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-hpcqs-inauguration-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-hpcqs-selection-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-hybrid-milestone-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-roadmap-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-roadmap-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-cineca-sol-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-logical-de-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-aramco-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-aramco-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pasqal-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Official vendor roadmap page is undated. Per the agreed convention, 2026-10-01 is treated as the access-date stated_on value, not a publication date."
+    },
+    {
+      "source": "src:arxiv-2405.19503",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:pr-applied-22-024073",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "APS refused access and the 2026 Wayback lookup did not provide the article. Crossref confirms the journal article, DOI, title, and 2024-08-29 date; the cited arXiv record supplies the result and journal reference."
+    },
+    {
+      "source": "src:arxiv-2605.21276",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:infleqtion-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:infleqtion-30lq-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:infleqtion-matdesign-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:infleqtion-qc-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:infleqtion-japan-operational",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:arxiv-2408.08288",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:prxq-6-030334",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Live APS access refused, but a 2026 Wayback copy of the full APS article page was fetched and saved. It confirms the DOI, publication date, and both CZ fidelity definitions."
+    },
+    {
+      "source": "src:planqc-maqcs-hw-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:planqc-maqcs-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:planqc-dlr-contract",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The fetched page itself displays 2022-05-04. The research source's document_date '2023' is wrong; no entity depends on that date."
+    },
+    {
+      "source": "src:planqc-hq-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:planqc-logiqc-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:planqc-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:planqc-products",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:planqc-maqcs-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    },
+    {
+      "source": "src:nature-6100-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the required declared counsel user agent."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:atom-computing",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:atom-computing",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:atom-computing",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:qunorth",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:qunorth",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:qunorth",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:harvard-university",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:mit",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:aist",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "gov:fr-genci",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "gov:fr-cea",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:fzj",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:cineca",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:aramco",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:infleqtion",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:infleqtion",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:infleqtion",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:planqc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:planqc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:planqc",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:lrz",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "gov:de-dlr",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "co:caltech",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:atom-computing-boulder",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:atom-computing-boulder",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:atom-computing-berkeley",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:atom-computing-berkeley",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:atom-computing-copenhagen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:qunorth-copenhagen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:qunorth-copenhagen",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:aist-abci-q",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:nqcc-harwell",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:nqcc-harwell",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:pasqal-massy",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:cea-tgcc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:cea-tgcc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:fzj-jsc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:cineca-bologna",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:cineca-bologna",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:aramco-dhahran-dc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:infleqtion-boulder",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:infleqtion-oxford",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:infleqtion-chicago",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:infleqtion-madison",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:ims-japan",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "The quote places a delivered processor at IMS, but does not establish that Infleqtion operates the IMS site or identify its city."
+    },
+    {
+      "entity": "site:ims-japan",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "Participation in Japan's Quantum Moonshot program does not establish the IMS site's operator or precise location."
+    },
+    {
+      "entity": "site:planqc-garching",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:planqc-garching",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:lrz-garching",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:lrz-garching",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:dlr-qci-ulm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "site:dlr-qci-ulm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "Quote is exact, but it says AC1000 can be installed; it does not establish online status. Correct status to announced."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "This refers generically to second-generation systems and does not name AC1000."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 3,
+      "verdict": "does_not_support",
+      "notes": "This refers generically to Atom Computing systems and does not name AC1000."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Exact table text verified after decoding the fetched page's &gt; HTML entity."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "does_not_support",
+      "notes": "The 2023 release calls this a next-generation platform but does not identify it as AC1000; do not conflate the 1,180 populated array with the AC1000 product specification."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Exact table text verified after decoding the fetched page's &gt; HTML entity."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified",
+      "notes": "Exact table text verified after decoding the fetched page's &gt; HTML entity."
+    },
+    {
+      "entity": "sys:qunorth-magne",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:qunorth-magne",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:qunorth-magne",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-aquila",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-aquila",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-aquila",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-aquila",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini-aist",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini-aist",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-gemini-aist",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-nqcc-testbed",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-nqcc-testbed",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:quera-libra",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-ruby",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-ruby",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-ruby",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-ruby",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-jade",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-jade",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-sol",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-sol",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-sol",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-aramco-qpu",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-aramco-qpu",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-aramco-qpu",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:pasqal-orion-gamma",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-sqale",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-sqale",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-sqale",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-sqale",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified_with_correction",
+      "notes": "Fetched APS text reads 'CZ fidelity'; correct the quote to include the gate name."
+    },
+    {
+      "entity": "sys:infleqtion-sqale",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified_with_correction",
+      "notes": "Fetched APS text reads 'CZ fidelity'; correct the quote to include the gate name."
+    },
+    {
+      "entity": "sys:infleqtion-sqale-nqcc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-sqale-nqcc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-ims-japan",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-ims-japan",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:infleqtion-ims-japan",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:planqc-maqcs",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:planqc-maqcs",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:planqc-maqcs",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:planqc-dlr-dinaqc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:planqc-dlr-dinaqc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "sys:planqc-dlr-dinaqc",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-1225-site-array",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-1225-site-array",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Exact quote verified in the saved arXiv version of the same article; Crossref confirms the cited PRX Quantum DOI/title/date."
+    },
+    {
+      "entity": "ms:atom-computing-1225-site-array",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-sr87-coherence-2022",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-sr87-coherence-2022",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-sr87-coherence-2022",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-mid-circuit-measurement",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Article title verified in the saved Crossref record; the saved arXiv version supplies the article text and DOI link."
+    },
+    {
+      "entity": "ms:atom-computing-mid-circuit-measurement",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-mid-circuit-measurement",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-microsoft-24-encoded-qubits",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-microsoft-24-encoded-qubits",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-microsoft-24-encoded-qubits",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-microsoft-24-encoded-qubits",
+      "evidence_index": 3,
+      "verdict": "verified_with_correction",
+      "notes": "The fetched PDF and arXiv TeX source confirm the rendered ⟦4,2,2⟧ code. pdftotext emitted the brackets as J/K; correct the stored quote to the rendered notation."
+    },
+    {
+      "entity": "ms:atom-computing-microsoft-24-encoded-qubits",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-yb-gate-fidelity",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Exact fidelity quote verified in the saved arXiv 2411.11708 abstract/PDF; Crossref confirms the cited PRX Quantum DOI/title/date."
+    },
+    {
+      "entity": "ms:atom-computing-yb-gate-fidelity",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Exact qubit-description text verified in saved arXiv 2411.11708, allowing the permitted hyphenation/whitespace normalization; Crossref confirms the journal article."
+    },
+    {
+      "entity": "ms:atom-computing-yb-gate-fidelity",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-ancilla-reuse",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Exact 41-round quote verified in the saved arXiv 2506.09936 PDF; Crossref confirms the cited Phys. Rev. X DOI/title/date."
+    },
+    {
+      "entity": "ms:atom-computing-ancilla-reuse",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Exact measurement/reinitialization/replacement quote verified in the saved arXiv 2506.09936 PDF; Crossref confirms the journal article."
+    },
+    {
+      "entity": "ms:atom-computing-toric-code",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-toric-code",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:atom-computing-toric-code",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:quera-aquila-braket-launch",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:quera-aquila-braket-launch",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-parallel-gates-99-5",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-parallel-gates-99-5",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-48-encoded-qubits",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-48-encoded-qubits",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-48-encoded-qubits",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-48-encoded-qubits",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:quera-logical-magic-state-distillation",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:quera-logical-magic-state-distillation",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:quera-logical-magic-state-distillation",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-mit-continuous-3000-atoms",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-mit-continuous-3000-atoms",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-mit-continuous-3000-atoms",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-448-atom-qec-architecture",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-448-atom-qec-architecture",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-448-atom-qec-architecture",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:harvard-quera-448-atom-qec-architecture",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:quera-aist-installation",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-2088-site-cryogenic-array",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-2088-site-cryogenic-array",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-2088-site-cryogenic-array",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-2088-site-cryogenic-array",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Article title verified in the saved Crossref record; the saved arXiv version supplies the result and journal reference."
+    },
+    {
+      "entity": "ms:pasqal-2088-site-cryogenic-array",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-first-qpu-delivery-genci",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-first-qpu-delivery-genci",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-hpcqs-inauguration",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-hpcqs-inauguration",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-aramco-deployment",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-aramco-deployment",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-cineca-sol-inauguration",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-cineca-sol-inauguration",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-cineca-sol-inauguration",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-encoded-kernel-differential-equations",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-encoded-kernel-differential-equations",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:pasqal-1024-atom-register",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:infleqtion-cz-99-73",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "Fetched APS text reads 'We achieve CZ fidelity...'; correct the omitted gate name."
+    },
+    {
+      "entity": "ms:infleqtion-cz-99-73",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "Fetched APS text reads 'state-of-the-art CZ fidelity...'; correct the omitted gate name."
+    },
+    {
+      "entity": "ms:infleqtion-cz-99-73",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:infleqtion-nvidia-materials-encoded",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:infleqtion-nvidia-materials-encoded",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:infleqtion-12-encoded-qubits-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:infleqtion-30-entangled-encoded",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:planqc-maqcs-first-hardware-lrz",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:planqc-maqcs-first-hardware-lrz",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:caltech-6100-atom-tweezer-array",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "ms:caltech-6100-atom-tweezer-array",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:qunorth-magne-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:qunorth-magne-2027",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:atom-computing-systems-available-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-2024-10-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-2025-30-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-2026-third-gen-100-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-third-gen-2026-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-libra-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-libra-2028",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-gigaquop-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-aist-install-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:quera-nqcc-testbed-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-hpcqs-install-h2-2023",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-hpcqs-install-h2-2023",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "A June 2024 delivery dateline does not itself state that the 2023 target was missed. Analyst inference is not a status source."
+    },
+    {
+      "entity": "tgt:pasqal-10000-qubits-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-10000-qubits-2026-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-10000-qubits-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-logical-20-by-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-200-logical-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-200-logical-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-advantage-demo-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-advantage-demo-2026",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-orion-gamma-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:pasqal-vela-centaurus-lyra",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:infleqtion-30-logical-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:infleqtion-100-logical-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:infleqtion-100-logical-2028",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:infleqtion-1000-logical-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:planqc-maqcs-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:planqc-maqcs-2027",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    },
+    {
+      "entity": "tgt:planqc-qcc-entry-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Normalized quote is a substring of the saved fetched text and supports the listed field."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:atom-computing",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:microsoft",
+      "verdict": "publish_flagged",
+      "reasons": "Existence and Redmond headquarters are verified, but this file provides no evidence for the NASDAQ ticker; delete that unsupported field.",
+      "corrections": {
+        "tickers": null
+      }
+    },
+    {
+      "entity": "co:qunorth",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:quera",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:harvard-university",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:mit",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:aist",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:pasqal",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, Palaiseau headquarters and neutral-atom modality are verified. The cited closing release only said NASDAQ trading was expected to begin the following day, so it does not establish actual listing; delete the ticker.",
+      "corrections": {
+        "tickers": null
+      }
+    },
+    {
+      "entity": "gov:fr-genci",
+      "verdict": "publish_flagged",
+      "reasons": "GENCI's existence is verified, but this topic's evidence does not independently establish a headquarters location beyond France; retain only with the country-level location caveat."
+    },
+    {
+      "entity": "gov:fr-cea",
+      "verdict": "publish_flagged",
+      "reasons": "CEA's identity is verified in the Pasqal release, but this topic supplies no independent headquarters source; retain only with the country-level location caveat."
+    },
+    {
+      "entity": "co:fzj",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:cineca",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:aramco",
+      "verdict": "publish_flagged",
+      "reasons": "Aramco's existence is verified. Dhahran appears in the release dateline and as the quantum-computer site, but the quote is not an explicit headquarters statement; flag the HQ placement."
+    },
+    {
+      "entity": "co:infleqtion",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:planqc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:lrz",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "gov:de-dlr",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "co:caltech",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:atom-computing-boulder",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:atom-computing-berkeley",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:atom-computing-copenhagen",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:qunorth-copenhagen",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:aist-abci-q",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:nqcc-harwell",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:pasqal-massy",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:cea-tgcc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:fzj-jsc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:cineca-bologna",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:aramco-dhahran-dc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:infleqtion-boulder",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:infleqtion-oxford",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:infleqtion-chicago",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:infleqtion-madison",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:ims-japan",
+      "verdict": "reject",
+      "reasons": "The filing verifies delivery to the Institute for Molecular Sciences, but the research record incorrectly makes Infleqtion the operator of the IMS site and infers Japan from programme context. A required operator cannot be corrected without adding an unresearched org."
+    },
+    {
+      "entity": "site:planqc-garching",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:lrz-garching",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "site:dlr-qci-ulm",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:atom-computing-ac1000",
+      "verdict": "publish_flagged",
+      "reasons": "The AC1000 product, ytterbium modality, >1,200 physical-qubit specification and gate-fidelity specifications are verified. No fetched source establishes that AC1000 itself is online, and generic second-generation/Atom-system evidence cannot identify it with the 1,180-qubit array; correct status to announced and remove that conflation from the note.",
+      "corrections": {
+        "status": "announced",
+        "physical_qubits.note": "Product page states '> 1,200' physical qubits as a lower-bound specification; the page was accessed 2026-10-01."
+      }
+    },
+    {
+      "entity": "sys:qunorth-magne",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:quera-aquila",
+      "verdict": "publish_flagged",
+      "reasons": "Aquila's launch, live Braket status, analog modality and 256-qubit count are verified. The draft's 2026-10-01 as_of date was only an access date; replace it with the dated 2026-06-15 QuEra source that expressly calls Aquila a live 256-physical-qubit system.",
+      "corrections": {
+        "physical_qubits.as_of": "2026-06-15"
+      }
+    },
+    {
+      "entity": "sys:quera-gemini",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:quera-gemini-aist",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:quera-nqcc-testbed",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:quera-libra",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:pasqal-ruby",
+      "verdict": "publish",
+      "reasons": "Ruby's name, GENCI acquisition, analog modality, CEA/TGCC placement, inauguration and >100-qubit lower bound are verified. GENCI is treated as operator because the source says it acquired Ruby; the site evidence separately places the machine at CEA."
+    },
+    {
+      "entity": "sys:pasqal-jade",
+      "verdict": "publish_flagged",
+      "reasons": "Jade's existence, inauguration, >100-qubit lower bound and Jülich placement are verified. FZJ is the documented institutional host ('situated at' FZJ), but the source does not use the word operator; flag that operator interpretation."
+    },
+    {
+      "entity": "sys:pasqal-sol",
+      "verdict": "publish",
+      "reasons": "SOL's inauguration, 140-qubit count, CINECA/Bologna placement and CINECA operation are all explicit. The operator choice is directly supported by 'It will be operated by CINECA'."
+    },
+    {
+      "entity": "sys:pasqal-aramco-qpu",
+      "verdict": "publish_flagged",
+      "reasons": "The 200-qubit Pasqal system, active-operation status and Aramco Dhahran data-centre placement are verified. Aramco is the documented customer/host rather than explicitly called the technical operator, so flag that schema interpretation."
+    },
+    {
+      "entity": "sys:pasqal-orion-gamma",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:infleqtion-sqale",
+      "verdict": "publish_flagged",
+      "reasons": "Sqale's existence, neutral-atom modality, cloud availability and CZ metric definitions are verified. The filing says arrays of up to 1,600 trapped atoms, not 1,600 physical qubits; delete the physical_qubits field rather than equating atoms with qubits.",
+      "corrections": {
+        "physical_qubits": null,
+        "metrics.0.evidence.0.quote": "This technique also enables us to measure a state-of-the-art CZ fidelity of 99.73(3)% when excluding atom-loss events",
+        "metrics.0.evidence.1.quote": "We achieve CZ fidelity of 99.35(4)% and local single-qubit R Z gate fidelity of 99.902(8)%",
+        "metrics.0.definition": "Two-qubit CZ fidelity of 99.73(3)% measured \"when excluding atom-loss events\" (PRX Quantum 6, 030334); the same paper reports 99.35(4)% CZ fidelity without that exclusion. The filing cites 99.73% without the qualifier."
+      }
+    },
+    {
+      "entity": "sys:infleqtion-sqale-nqcc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:infleqtion-ims-japan",
+      "verdict": "publish_flagged",
+      "reasons": "Delivery of a processor designed for 529 physical qubits to IMS and the later operational statement are verified. Because the separate IMS site record has an unsupported operator and is rejected, remove this system's site and fall back to Infleqtion HQ.",
+      "corrections": {
+        "site": null
+      }
+    },
+    {
+      "entity": "sys:planqc-maqcs",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "sys:planqc-dlr-dinaqc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:atom-computing-1225-site-array",
+      "verdict": "publish",
+      "reasons": "The 1,225-site/1,180-qubit company announcement and the 99% filling result are verified from live company and arXiv text. APS was unreachable, but Crossref plus the arXiv record establish the cited PRX Quantum publication."
+    },
+    {
+      "entity": "ms:atom-computing-sr87-coherence-2022",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:atom-computing-mid-circuit-measurement",
+      "verdict": "publish",
+      "reasons": "The claim is verified from the fetched arXiv record, which also links the Phys. Rev. X DOI; Crossref confirms the publication metadata. The APS page itself was unreachable."
+    },
+    {
+      "entity": "ms:atom-computing-microsoft-24-encoded-qubits",
+      "verdict": "publish_flagged",
+      "reasons": "The processor size, encoded-qubit counts and Bernstein–Vazirani result are verified. The fetched TeX source proves the code is ⟦4,2,2⟧; pdftotext's 'J4, 2, 2K' is an extraction artifact, so correct the stored evidence quote.",
+      "corrections": {
+        "evidence.3.quote": "The logical qubits are encoded with the ⟦4, 2, 2⟧ code into 48 physical qubits."
+      }
+    },
+    {
+      "entity": "ms:atom-computing-yb-gate-fidelity",
+      "verdict": "publish",
+      "reasons": "APS refused the cited journal page, but the matching arXiv article text and Crossref journal record were fetched and saved. They verify 99.72(3)% with postselection and 99.40(3)% without; the Atom blog's 99.56(5)% is a different company-framed benchmark and is not substituted for the paper result."
+    },
+    {
+      "entity": "ms:atom-computing-ancilla-reuse",
+      "verdict": "publish",
+      "reasons": "APS refused the cited journal page, but the matching arXiv 2506.09936 paper was fetched and contains both quotes verbatim. Crossref confirms the Phys. Rev. X DOI, title and 2025-12-04 publication date."
+    },
+    {
+      "entity": "ms:atom-computing-toric-code",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:quera-aquila-braket-launch",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:harvard-quera-parallel-gates-99-5",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:harvard-quera-48-encoded-qubits",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:quera-logical-magic-state-distillation",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:harvard-mit-continuous-3000-atoms",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:harvard-quera-448-atom-qec-architecture",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:quera-aist-installation",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:pasqal-2088-site-cryogenic-array",
+      "verdict": "publish",
+      "reasons": "The 2,088-site, 6 K, 828-atom rearrangement and company-framed 1,110-atom statements are verified. APS was unreachable, but the fetched arXiv record supplies the result and explicit Phys. Rev. Applied journal reference; Crossref confirms DOI/title/date."
+    },
+    {
+      "entity": "ms:pasqal-first-qpu-delivery-genci",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:pasqal-hpcqs-inauguration",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:pasqal-aramco-deployment",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel.",
+      "corrections": {
+        "claim": "Aramco and Pasqal announced deployment of a Pasqal neutral-atom system controlling 200 qubits at Aramco’s data center in Dhahran; it was formally inaugurated."
+      }
+    },
+    {
+      "entity": "ms:pasqal-cineca-sol-inauguration",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:pasqal-encoded-kernel-differential-equations",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:pasqal-1024-atom-register",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:infleqtion-cz-99-73",
+      "verdict": "publish_flagged",
+      "reasons": "The archived APS article verifies 99.35(4)% CZ fidelity and 99.73(3)% when excluding atom-loss events; the arXiv record independently names CZ. Correct two analyst quotes that omitted 'CZ'. These definitions are vendor/paper-specific and are not comparable to other vendors' metrics.",
+      "corrections": {
+        "evidence.0.quote": "We achieve CZ fidelity of 99.35(4)% and local single-qubit R Z gate fidelity of 99.902(8)%",
+        "evidence.1.quote": "This technique also enables us to measure a state-of-the-art CZ fidelity of 99.73(3)% when excluding atom-loss events"
+      }
+    },
+    {
+      "entity": "ms:infleqtion-nvidia-materials-encoded",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:infleqtion-12-encoded-qubits-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel.",
+      "corrections": {
+        "claim": "Infleqtion states in its filing that, as of December 31, 2025, it had “achieved 12 logical qubits” on Sqale; the filing does not state the code used."
+      }
+    },
+    {
+      "entity": "ms:infleqtion-30-entangled-encoded",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:planqc-maqcs-first-hardware-lrz",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "ms:caltech-6100-atom-tweezer-array",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:qunorth-magne-2027",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:atom-computing-systems-available-2024",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel.",
+      "corrections": {
+        "statement": "Atom Computing targets availability of its next-generation systems in 2024."
+      }
+    },
+    {
+      "entity": "tgt:quera-2024-10-logical",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:quera-2025-30-logical",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:quera-2026-third-gen-100-logical",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:quera-third-gen-2026-2027",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:quera-libra-2028",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:quera-gigaquop-2029",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:quera-aist-install-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:quera-nqcc-testbed-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-hpcqs-install-h2-2023",
+      "verdict": "publish_flagged",
+      "reasons": "The 2023 installation target is verified, but the later 2024 delivery dateline does not say the target was missed. Correct status from missed to open; counsel will not infer target status.",
+      "corrections": {
+        "status": "open"
+      }
+    },
+    {
+      "entity": "tgt:pasqal-10000-qubits-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-10000-qubits-2026-2027",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-10000-qubits-2028",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-logical-20-by-2027",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-200-logical-2030",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-200-logical-2029",
+      "verdict": "publish_flagged",
+      "reasons": "The 200+ target and 2029 date are verified on Pasqal's official roadmap. The page is undated, so stated_on=2026-10-01 is explicitly the access date, not a publication date; the earlier 2030 target remains a revision-chain predecessor."
+    },
+    {
+      "entity": "tgt:pasqal-advantage-demo-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-orion-gamma-2025",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:pasqal-vela-centaurus-lyra",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:infleqtion-30-logical-2026",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:infleqtion-100-logical-2028",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:infleqtion-1000-logical-2030",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    },
+    {
+      "entity": "tgt:planqc-maqcs-2027",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel.",
+      "corrections": {
+        "statement": "planqc targets the MAQCS system going live in 2027 and operating as a quantum co-processor within LRZ’s HPC infrastructure by the end of 2027."
+      }
+    },
+    {
+      "entity": "tgt:planqc-qcc-entry-2027",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by at least one verified Tier 1 or Tier 2 evidence item fetched and checked by counsel."
+    }
+  ],
+  "summary": "91 publish, 15 publish_flagged, 1 reject across 107 entities. Rejected: site:ims-japan. Systemic issues: five APS citations refused access; undated live product/roadmap pages use access dates; several operator fields describe an owner or institutional host rather than an explicitly named technical operator; vendor fidelity figures require definition-specific treatment; and target outcomes cannot be inferred from later dates. Corrections remove unsupported tickers and Sqale's 1,600-atom-to-qubit equivalence, change AC1000 to announced, date Aquila's 256-qubit figure to the dated 2026 source, detach the IMS system from the invalid site record, repair mathematical/CZ quote extraction, and return Pasqal's HPCQS target from missed to open."
+}

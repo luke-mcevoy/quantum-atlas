@@ -1,0 +1,1764 @@
+{
+  "topic": "superconducting_b",
+  "verifier": "cursor-gpt-counsel-superconducting_b",
+  "verified_at": "2026-10-01",
+  "source_checks": [
+    {
+      "source": "src:iqm-pr-2024-07-15-cz-9991",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2024-02-20-20q-benchmarks",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-radiance-product-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2024-11-13-roadmap",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2025-11-13-halocene",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2026-09-10-lumi-iq",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2026-06-16-ornl-pathfinder",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2026-06-11-cineca",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-release-2026-07-01-nasdaq",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2026-06-23-directional-tile-codes",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-blog-2025-08-05-emerald",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:aws-blog-2025-07-21-iqm-emerald",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2508.16437",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:prxquantum-marxer-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI identity checked via redirect/Crossref metadata; quotations require fetched article text, not metadata. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source."
+    },
+    {
+      "source": "src:vtt-2025-03-04-50-qubit",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:lrz-2026-02-11-euro-q-exa",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:eurohpc-2026-02-12-euro-q-exa",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2023-11-27-toshiko",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The page is undated. Per project convention, document_date is the 2026-10-01 access date; roadmap years are taken from the page's timeline tab labels. The page is undated. Per project convention, document_date is the 2026-10-01 access date; roadmap years are taken from the page's timeline tab labels."
+    },
+    {
+      "source": "src:oqc-tech-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-devices-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2025-06-19-dual-rail-dimon",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-blog-2025-06-19-ddq",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2506.15420",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2025-09-16-nyc-quantum-ai-dc",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2026-02-16-wafer-scale",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2602.12773",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2025-01-20-sapphire",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:advmat-through-sapphire-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI identity checked via redirect/Crossref metadata; quotations require fetched article text, not metadata. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source."
+    },
+    {
+      "source": "src:oqc-pr-2026-06-03-series-c",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2023-03-14-equinix-ty11",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2022-09-28-cyxtera-lhr3",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-pr-2023-04-21-cesga",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:fujitsu-pr-2025-04-22-256q",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:riken-2025-04-22-256q",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:fujitsu-pr-2023-10-05-64q",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:fujitsu-pr-2023-03-24-japan-first-sc-qc",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:fujitsu-pr-2021-04-01-collab-center",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:fujitsu-pr-2025-08-01-10000q",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched successfully from Nasdaq's JCN Newswire distribution copy. It is issuer-authored release text but not hosted on Fujitsu's domain; reliance is visibly flagged on affected claims. Fetched successfully from Nasdaq's JCN Newswire distribution copy. It is issuer-authored release text but not hosted on Fujitsu's domain; reliance is visibly flagged on affected claims."
+    },
+    {
+      "source": "src:prl-127-180501-zuchongzhi-2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI identity checked via redirect/Crossref metadata; quotations require fetched article text, not metadata. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source."
+    },
+    {
+      "source": "src:arxiv-2106.14734",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:scibull-67-240-zuchongzhi-2-1",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI identity checked via redirect/Crossref metadata; quotations require fetched article text, not metadata. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source."
+    },
+    {
+      "source": "src:arxiv-2109.03494",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:prl-129-030501-surface-code",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI identity checked via redirect/Crossref metadata; quotations require fetched article text, not metadata. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source."
+    },
+    {
+      "source": "src:arxiv-2112.13505",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:prl-134-090601-zuchongzhi-3",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI identity checked via redirect/Crossref metadata; quotations require fetched article text, not metadata. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source."
+    },
+    {
+      "source": "src:arxiv-2412.11924",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:prl-135-260601-zuchongzhi-3-2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI identity checked via redirect/Crossref metadata; quotations require fetched article text, not metadata. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source. The publisher/DOI landing response was unavailable or insufficient for full-text checking; Crossref metadata established journal identity and peer-review status. Only text present in the fetched metadata is treated as verified against this source."
+    },
+    {
+      "source": "src:ustc-news-2025-12-zuchongzhi-3-2-qec",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:origin-wukong-180-product-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The page is undated. Per project convention, document_date is the 2026-10-01 access date. The page is undated. Per project convention, document_date is the 2026-10-01 access date."
+    },
+    {
+      "source": "src:origin-blog-2026-china-quantum-computers",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:origin-home-zh",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:govcn-2025-02-16-origin-wukong",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 3,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2512.10504",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantware-homepage",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The page is undated. Per project convention, document_date is the 2026-10-01 access date. The page is undated. Per project convention, document_date is the 2026-10-01 access date."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:iqm",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:vtt",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:lrz",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ornl",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ornl",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cineca",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "gov:eu-eurohpc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oqc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oqc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:fujitsu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:fujitsu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:riken",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:riken",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:riken",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ustc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ustc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:origin-quantum",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Confirmed verbatim in the fetched homepage meta-description attribute (original Chinese)."
+    },
+    {
+      "entity": "co:origin-quantum",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:china-telecom-quantum",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:china-telecom-quantum",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantware",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantware",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:vtt-micronova-espoo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:lrz-garching",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:lrz-garching",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:ornl-oak-ridge",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:ornl-oak-ridge",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:cineca-bologna-tecnopolo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:digital-realty-jfk10-nyc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:digital-realty-jfk10-nyc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:equinix-ty11-tokyo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:equinix-ty11-tokyo",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:cyxtera-lhr3-reading",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:riken-wako-rqc-fujitsu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:riken-wako-rqc-fujitsu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-garnet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-garnet",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-garnet",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-emerald",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-emerald",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-emerald",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-emerald",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-emerald",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-emerald",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:vtt-50-qubit",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:vtt-50-qubit",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:vtt-50-qubit",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:vtt-50-qubit",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:lrz-euro-q-exa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:lrz-euro-q-exa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:lrz-euro-q-exa",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:lrz-euro-q-exa",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ornl-pathfinder",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ornl-pathfinder",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ornl-pathfinder",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:cineca-nox",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:cineca-nox",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:cineca-nox",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:cineca-nox",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-halocene-150",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:iqm-halocene-150",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-toshiko",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-toshiko",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-toshiko",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-toshiko",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-genesis",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-genesis",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-genesis",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oqc-genesis",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-japan-first-64q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-japan-first-64q",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-fujitsu-64q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-fujitsu-64q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-fujitsu-64q",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-fujitsu-256q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-fujitsu-256q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-fujitsu-256q",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:riken-fujitsu-256q",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "quote_not_found",
+      "notes": "The detailed sentence was not found programmatically in the counsel-fetched arXiv v1 PDF text. The abstract independently confirms the displayed 99.62% value, so the unsupported definition detail is removed."
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "evidence_index": 1,
+      "path": "metrics.1",
+      "verdict": "quote_not_found",
+      "notes": "The detailed sentence was not found programmatically in the counsel-fetched arXiv v1 PDF text. The abstract independently confirms the displayed 99.18% value, so the unsupported definition detail is removed."
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-2",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-180",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-180",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-180",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-180",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-180",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-180",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-72",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:origin-wukong-72",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Confirmed verbatim in the fetched homepage meta-description attribute (original Chinese)."
+    },
+    {
+      "entity": "sys:origin-wukong-72",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:china-telecom-tianyan-287",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:china-telecom-tianyan-287",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:china-telecom-tianyan-287",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:china-telecom-tianyan-287",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified",
+      "notes": "Confirmed in counsel-fetched arXiv PDF text after dehyphenating the line break in 'respectively'."
+    },
+    {
+      "entity": "ms:iqm-cz-9991-test-device",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:iqm-cz-9991-test-device",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:iqm-prxq-999-single-device",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:iqm-prxq-999-single-device",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:iqm-prxq-999-single-device",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:iqm-20q-median-cz-9951",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:vtt-iqm-50-qubit-launch",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:vtt-iqm-50-qubit-launch",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:lrz-euro-q-exa-inauguration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:lrz-euro-q-exa-inauguration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:lrz-euro-q-exa-inauguration",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ornl-iqm-pathfinder-launch",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ornl-iqm-pathfinder-launch",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-toshiko-launch",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-toshiko-launch",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-dual-rail-dimon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-dual-rail-dimon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-dual-rail-dimon",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-through-sapphire-machining",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Confirmed in the fetched Crossref abstract after decoding JSON Unicode escapes; the metadata identifies the journal article and DOI."
+    },
+    {
+      "entity": "ms:oqc-through-sapphire-machining",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-wafer-scale-500-package",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-wafer-scale-500-package",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-genesis-nyc-install",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oqc-genesis-nyc-install",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-japan-first-sc-qc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-japan-first-sc-qc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-japan-first-sc-qc",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-fujitsu-64q-platform",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-fujitsu-64q-platform",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-fujitsu-256q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-fujitsu-256q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:riken-fujitsu-256q",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-rcs-56q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-rcs-56q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-rcs-56q",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-1-rcs-60q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-1-rcs-60q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-1-rcs-60q",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-1-rcs-60q",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-surface-code-d3",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-surface-code-d3",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-surface-code-d3",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-rcs-83q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-rcs-83q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-rcs-83q",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-2-surface-code-d7",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-2-surface-code-d7",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-2-surface-code-d7",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-2-surface-code-d7",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:origin-wukong-180-launch",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:origin-wukong-180-launch",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:china-telecom-tianyan-rcs-74q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:china-telecom-tianyan-rcs-74q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:china-telecom-tianyan-rcs-74q",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-fault-tolerance-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-fault-tolerance-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-halocene-150-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-halocene-150-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-lumi-iq-halocene-h4-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-lumi-iq-halocene-h4-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-lumi-iq-halocene-h5-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-lumi-iq-halocene-h5-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:eurohpc-euro-q-exa-150-upgrade",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:eurohpc-euro-q-exa-150-upgrade",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:eurohpc-euro-q-exa-150-upgrade",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-megaquop-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-titan-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-titan-2028",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-athena-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-athena-2031",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-athena-2031",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-atlas-2034",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-atlas-2034",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-atlas-2034",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:riken-fujitsu-industrial-fy2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:fujitsu-riken-1000q-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:fujitsu-riken-1000q-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:fujitsu-riken-1000q-2026",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:fujitsu-10000q-fy2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:fujitsu-10000q-fy2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:fujitsu-1000-logical-fy2035",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantware-vio-10000q-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:iqm",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:vtt",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:lrz",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:ornl",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:cineca",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "gov:eu-eurohpc",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:oqc",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, headquarters and superconducting-hardware activity are verified. The entity's own evidence does not establish a cloud-platform role, so that role is removed.",
+      "corrections": {
+        "roles": [
+          "hardware"
+        ]
+      }
+    },
+    {
+      "entity": "co:fujitsu",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, headquarters, ticker and superconducting-hardware activity are verified, including issuer-authored text carried by JCN/Nasdaq. The entity's evidence does not establish a cloud-platform role.",
+      "corrections": {
+        "roles": [
+          "hardware"
+        ]
+      }
+    },
+    {
+      "entity": "co:riken",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:ustc",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:origin-quantum",
+      "verdict": "publish_flagged",
+      "reasons": "Original-language homepage metadata and Origin's own technical blog verify the company, Hefei and superconducting hardware. The entity's evidence does not independently establish the cloud-platform role.",
+      "corrections": {
+        "roles": [
+          "hardware"
+        ]
+      }
+    },
+    {
+      "entity": "co:china-telecom-quantum",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "co:quantware",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:vtt-micronova-espoo",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:lrz-garching",
+      "verdict": "publish",
+      "reasons": "Existence and Garching location are verified. Coordinates (48.2626, 11.6679) exactly match data/research/trapped_ion.json; that file gives the more precise Boltzmannstraße 1 address."
+    },
+    {
+      "entity": "site:ornl-oak-ridge",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:cineca-bologna-tecnopolo",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:digital-realty-jfk10-nyc",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "site:equinix-ty11-tokyo",
+      "verdict": "publish_flagged",
+      "reasons": "The 2023 OQC release verifies an announced TY11 installation, not completion. It remains an announced, stale plan."
+    },
+    {
+      "entity": "site:cyxtera-lhr3-reading",
+      "verdict": "publish_flagged",
+      "reasons": "The 2022 OQC release verifies an announced LHR3 service, not completion. It remains an announced, stale plan."
+    },
+    {
+      "entity": "site:riken-wako-rqc-fujitsu",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:iqm-garnet",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:iqm-emerald",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:vtt-50-qubit",
+      "verdict": "publish_flagged",
+      "reasons": "The system, VTT Micronova location and launch are verified. VTT is used as operator because it is the documented host and co-launching institution; the fetched quote does not explicitly use the word 'operates'."
+    },
+    {
+      "entity": "sys:lrz-euro-q-exa",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence.",
+      "corrections": {
+        "physical_qubits.note": null
+      }
+    },
+    {
+      "entity": "sys:ornl-pathfinder",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:cineca-nox",
+      "verdict": "publish_flagged",
+      "reasons": "The live system and CINECA DAMA Tecnopolo installation are verified. CINECA is used as operator as the documented host/integration institution; the fetched quote does not expressly define operator ownership."
+    },
+    {
+      "entity": "sys:iqm-halocene-150",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:oqc-toshiko",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:oqc-genesis",
+      "verdict": "publish_flagged",
+      "reasons": "OQC says GENESIS was installed at JFK10, but its device page uses future tense for the 16-DDQ configuration and the roadmap says commercial availability from 2026. Status remains announced; installation alone is not proof of operation."
+    },
+    {
+      "entity": "sys:riken-japan-first-64q",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:riken-fujitsu-64q",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:riken-fujitsu-256q",
+      "verdict": "publish_flagged",
+      "reasons": "Development and location are verified, but the cited April 2025 release only promises availability starting in FY2025 Q1 rather than confirming service began. Status is corrected from online to announced.",
+      "corrections": {
+        "status": "announced"
+      }
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-0",
+      "verdict": "publish_flagged",
+      "reasons": "The 105-qubit system and headline fidelity values are verified against arXiv v1, and the DOI/Crossref record establishes the journal article. Detailed metric-definition sentences were not found in fetched text and are narrowed; 99.18% is retained as the arXiv-v1 value, not the conflicting 99.13% repost figure.",
+      "corrections": {
+        "metrics.0.definition": "Two-qubit gate fidelity stated in the arXiv v1 abstract; the abstract does not establish the averaging method or qubit subset.",
+        "metrics.1.name": "readout fidelity (as stated)",
+        "metrics.1.definition": "Readout fidelity as stated in the arXiv v1 abstract. A separate repost states 99.13%; counsel could not fetch journal full text to resolve the discrepancy."
+      }
+    },
+    {
+      "entity": "sys:ustc-zuchongzhi-3-2",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:origin-wukong-180",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "sys:origin-wukong-72",
+      "verdict": "publish_flagged",
+      "reasons": "Existence is corroborated by Origin homepage metadata, but the 72-qubit count, operational date and task claim depend on a Tier 3 gov.cn report. No fetchable Origin primary release states those fields."
+    },
+    {
+      "entity": "sys:china-telecom-tianyan-287",
+      "verdict": "publish",
+      "reasons": "The system, cloud-accessible status, qubit count and as-defined simultaneous two-qubit metric are verified against the fetched arXiv preprint. It remains a preprint result and no physical facility is named."
+    },
+    {
+      "entity": "ms:iqm-cz-9991-test-device",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:iqm-prxq-999-single-device",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:iqm-20q-median-cz-9951",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:vtt-iqm-50-qubit-launch",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:lrz-euro-q-exa-inauguration",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ornl-iqm-pathfinder-launch",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:oqc-toshiko-launch",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:oqc-dual-rail-dimon",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:oqc-through-sapphire-machining",
+      "verdict": "publish",
+      "reasons": "The DOI/Crossref record identifies the peer-reviewed article and supplies the quoted abstract; OQC's release independently supports the stated Toshiko manufacturing demonstration."
+    },
+    {
+      "entity": "ms:oqc-wafer-scale-500-package",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:oqc-genesis-nyc-install",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:riken-japan-first-sc-qc",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:riken-fujitsu-64q-platform",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:riken-fujitsu-256q",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-rcs-56q",
+      "verdict": "publish_flagged",
+      "reasons": "Crossref/DOI metadata establishes that the matching article was peer reviewed; numerical/result quotes were verified against the corresponding arXiv version because publisher full text was not fetched. They are not represented as journal-full-text quotations."
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-2-1-rcs-60q",
+      "verdict": "publish_flagged",
+      "reasons": "Crossref/DOI metadata establishes that the matching article was peer reviewed; numerical/result quotes were verified against the corresponding arXiv version because publisher full text was not fetched. They are not represented as journal-full-text quotations."
+    },
+    {
+      "entity": "ms:ustc-surface-code-d3",
+      "verdict": "publish_flagged",
+      "reasons": "Crossref/DOI metadata establishes that the matching article was peer reviewed; numerical/result quotes were verified against the corresponding arXiv version because publisher full text was not fetched. They are not represented as journal-full-text quotations."
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-rcs-83q",
+      "verdict": "publish_flagged",
+      "reasons": "Crossref/DOI metadata establishes that the matching article was peer reviewed; numerical/result quotes were verified against the corresponding arXiv version because publisher full text was not fetched. They are not represented as journal-full-text quotations."
+    },
+    {
+      "entity": "ms:ustc-zuchongzhi-3-2-surface-code-d7",
+      "verdict": "publish_flagged",
+      "reasons": "The PRL DOI/title establishes peer review, while result details and the 107-qubit Zuchongzhi 3.2 identity are verified from USTC's original Chinese release. arXiv:2505.01978 is a different paper and was not used. Journal full text was not fetched."
+    },
+    {
+      "entity": "ms:origin-wukong-180-launch",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "ms:china-telecom-tianyan-rcs-74q",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:iqm-fault-tolerance-2030",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:iqm-halocene-150-2026",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:iqm-lumi-iq-halocene-h4-2027",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:iqm-lumi-iq-halocene-h5-2029",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:eurohpc-euro-q-exa-150-upgrade",
+      "verdict": "publish_flagged",
+      "reasons": "The formal release text and LRZ say end-2026, while a quoted official in the same EuroHPC release says early 2027. The target retains 2026-12 but displays this internal date conflict."
+    },
+    {
+      "entity": "tgt:oqc-megaquop-2028",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:oqc-titan-2028",
+      "verdict": "publish_flagged",
+      "reasons": "The target and year are verbatim on OQC's roadmap page, including the timeline tab label. The page is undated, so stated_on is the 2026-10-01 access date rather than a publication date."
+    },
+    {
+      "entity": "tgt:oqc-athena-2031",
+      "verdict": "publish_flagged",
+      "reasons": "The target and year are verbatim on OQC's roadmap page, including the timeline tab label. The page is undated, so stated_on is the 2026-10-01 access date rather than a publication date."
+    },
+    {
+      "entity": "tgt:oqc-atlas-2034",
+      "verdict": "publish_flagged",
+      "reasons": "The target and year are verbatim on OQC's roadmap page, including the timeline tab label. The page is undated, so stated_on is the 2026-10-01 access date rather than a publication date."
+    },
+    {
+      "entity": "tgt:riken-fujitsu-industrial-fy2023",
+      "verdict": "publish_flagged",
+      "reasons": "The target is treated as met because the October 2023 milestone says the new platform would be provided to companies and research institutions conducting joint research. This is a narrow judgement: it does not establish unrestricted commercial availability."
+    },
+    {
+      "entity": "tgt:fujitsu-riken-1000q-2026",
+      "verdict": "publish",
+      "reasons": "Material fields supported by counsel-confirmed Tier 1/2 evidence."
+    },
+    {
+      "entity": "tgt:fujitsu-10000q-fy2030",
+      "verdict": "publish_flagged",
+      "reasons": "The target is verified from Fujitsu-authored release text distributed by JCN Newswire on Nasdaq. Fujitsu's own live newsroom refused the analyst; the non-Fujitsu hosting is disclosed."
+    },
+    {
+      "entity": "tgt:fujitsu-1000-logical-fy2035",
+      "verdict": "publish_flagged",
+      "reasons": "The target is verified from Fujitsu-authored release text distributed by JCN Newswire on Nasdaq. Fujitsu's own live newsroom refused the analyst; the non-Fujitsu hosting is disclosed."
+    },
+    {
+      "entity": "tgt:quantware-vio-10000q-2028",
+      "verdict": "publish_flagged",
+      "reasons": "The target is verbatim on QuantWare's own homepage, but the page is undated; stated_on is the 2026-10-01 access date."
+    }
+  ],
+  "summary": "49 publish, 24 publish_flagged, 0 reject. All 56 sources and all 185 evidence items, including nested figures and metrics, were re-fetched and checked. Systemic caveats: publisher full text for APS/Elsevier/Wiley articles was often unavailable, so Crossref establishes peer review while result numbers remain tied to fetched arXiv versions; undated roadmap/product pages use the 2026-10-01 access date; Wukong-72's material specifications remain Tier 3; several installed systems use the documented host as operator; and no named facility supports Garnet/Emerald, Toshiko, Zuchongzhi, Wukong or Tianyan. Rejected ids: none. LRZ coordinates agree exactly with trapped_ion.json."
+}

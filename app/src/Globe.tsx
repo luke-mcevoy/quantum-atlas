@@ -29,6 +29,20 @@ const REGIONS: [string, number, number, number][] = [
 ];
 const DASH = new PathStyleExtension({ dash: true, highPrecisionDash: true });
 
+/** Short name for a map label. The inspector still shows the full legal name. */
+function mapName(name: string): string {
+  const cut = name
+    .replace(/\s*\([^)]*\)/g, "")
+    .replace(/,?\s+\b(Inc\.?|Incorporated|Corporation|Corp\.?|Ltd\.?|Limited|GmbH|LLC|S\.A\.|SAS)\b\.?/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const short = cut
+    .replace(/\s+(Quantum Technologies|Quantum Computers|Quantum Computing Technology|Quantum Computing|Quantum Inc\.?)$/i, "")
+    .trim();
+  const out = short.length >= 3 ? short : cut || name;
+  return out.length > 26 ? `${out.slice(0, 24).trimEnd()}…` : out;
+}
+
 interface ArcDatum { id: string; path: [number, number, number][]; ts: number[]; color: RGB; dashed: boolean }
 
 const pathCache = new Map<string, { path: [number, number, number][]; ts: number[] }>();
@@ -246,10 +260,10 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
 
   // HTML label overlay: org names at HQ by default; system names once zoomed in (and always for the selection).
   const overlay = useMemo(() => {
-    type L = { id: string; text: string; lon: number; lat: number; dx: number; strong: boolean; rank: number };
+    type L = { id: string; text: string; full: string; lon: number; lat: number; dx: number; strong: boolean; rank: number };
     const out: L[] = [];
     const add = (id: string, text: string, p: [number, number] | undefined, dx: number, rank: number) => {
-      if (p) out.push({ id, text, lon: p[0], lat: p[1], dx, strong: id === s.selected, rank: id === s.selected ? 1e9 : id === hoverId ? 1e8 : rank });
+      if (p) out.push({ id, text: mapName(text), full: text, lon: p[0], lat: p[1], dx, strong: id === s.selected, rank: id === s.selected ? 1e9 : id === hoverId ? 1e8 : rank });
     };
     if (mode === "modality") {
       const byOrg = new Map<string, number>();
@@ -408,7 +422,9 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       const els = box.children as HTMLCollectionOf<HTMLElement>;
       // Greedy de-overlap in priority order (selection, hover, then rank); colliding labels are hidden.
       const placed: [number, number, number, number][] = [];
-      const cw = window.innerWidth < 700 ? 6.2 : 6.9;
+      const rail = document.querySelector(".rail")?.getBoundingClientRect();
+      const topbar = document.querySelector(".topbar")?.getBoundingClientRect();
+      const pad = 5;
       overlayRef.current.forEach((l, i) => {
         const el = els[i];
         if (!el) return;
@@ -416,9 +432,13 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         const d = angularDist(l.lon, l.lat, lon0, lat0);
         if (d > 80) return hide();
         const [px, py] = vp.project([l.lon, l.lat, 40_000]);
-        const x = px + l.dx, w = Math.min(window.innerWidth < 700 ? 150 : 240, l.text.length * cw + 10), h = 17;
-        const b: [number, number, number, number] = [x, py - h / 2, x + w, py + h / 2];
-        if (!l.strong && placed.some((q) => b[0] < q[2] && b[2] > q[0] && b[1] < q[3] && b[3] > q[1])) return hide();
+        const x = px + l.dx;
+        const w = el.offsetWidth || 80;
+        const h = el.offsetHeight || 17;
+        const b: [number, number, number, number] = [x - pad, py - h / 2 - pad, x + w + pad, py + h / 2 + pad];
+        const hitsRail = !!rail && b[0] < rail.right && b[2] > rail.left && b[1] < rail.bottom && b[3] > rail.top;
+        const hitsTop = !!topbar && b[1] < topbar.bottom;
+        if (!l.strong && (hitsRail || hitsTop || placed.some((q) => b[0] < q[2] && b[2] > q[0] && b[1] < q[3] && b[3] > q[1]))) return hide();
         placed.push(b);
         el.style.transform = `translate(${x}px, ${py}px) translateY(-50%)`;
         el.style.opacity = d > 70 ? String((80 - d) / 10) : "1";
@@ -442,9 +462,12 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     <div className="globe-wrap" onPointerDown={onPointerDown} onPointerMove={onPointerMove}
       onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onPointerLeave={onPointerUp} onWheel={stopSpin}>
       <div className="halo" ref={haloRef} />
+      {mode === "access" && idx.atlas.access.length === 0 && (
+        <div className="empty-banner">No verified access routes yet. A route is drawn only after the platform’s own documentation has been checked.</div>
+      )}
       <div className="labels" ref={labelsRef} aria-hidden="true">
         {overlay.map((l) => (
-          <button key={l.id} className={`glabel${l.strong ? " strong" : ""}${l.id.startsWith("sys:") ? " sys" : ""}`} tabIndex={-1}
+          <button key={l.id} className={`glabel${l.strong ? " strong" : ""}${l.id.startsWith("sys:") ? " sys" : ""}`} tabIndex={-1} title={l.full}
             onClick={() => { stopSpin(); s.select(l.id); }} onPointerEnter={() => s.set({ hover: null })}>{l.text}</button>
         ))}
       </div>

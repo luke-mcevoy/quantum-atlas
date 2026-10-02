@@ -1,0 +1,1517 @@
+{
+  "topic": "relationships",
+  "verifier": "cursor-gpt-counsel-relationships",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:honeywell-qtm-combination-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:quantinuum-intro-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:quantinuum-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. No publication date was found, so the 2026-10-01 access date is an acceptable document_date."
+    },
+    {
+      "source": "src:ionq-oxford-ionics-close-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:ionq-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. No publication date was found, so the 2026-10-01 access date is an acceptable document_date."
+    },
+    {
+      "source": "src:darpa-qbi-stage-b-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:darpa-qbi-stage-a-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:govuk-testbeds-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:nqcc-testbeds-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body. JSON-LD datePublished is 2024-02-05T07:53:59+00:00."
+    },
+    {
+      "source": "src:au-pm-psiq-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:psiq-griffith",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body. HTML datePublished metadata is 2026-05-26T15:01:11-0700."
+    },
+    {
+      "source": "src:ibm-riken-system-two-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:ibm-armonk-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:planqc-dlr-contract",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body. The page time element has datetime 2022-05-04 12:10:00."
+    },
+    {
+      "source": "src:eurohpc-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. No publication date was found, so the 2026-10-01 access date is an acceptable document_date."
+    },
+    {
+      "source": "src:eurohpc-lumiq-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:eurohpc-euroqexa-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:eurohpc-italy-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:eurohpc-lucy-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:eurohpc-poland-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:eurohpc-hpcqs-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. Document type, tier, and stated publication date were confirmed in the saved raw body."
+    },
+    {
+      "source": "src:aqt-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. No publication date was found, so the 2026-10-01 access date is an acceptable document_date."
+    },
+    {
+      "source": "src:google-locations",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. No publication date was found, so the 2026-10-01 access date is an acceptable document_date."
+    },
+    {
+      "source": "src:quandela-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. No publication date was found, so the 2026-10-01 access date is an acceptable document_date."
+    },
+    {
+      "source": "src:quandela-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Re-fetched with the required declared User-Agent; HTTP 200. No publication date was found, so the 2026-10-01 access date is an acceptable document_date."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:honeywell",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The quote is verbatim and supports existence/ticker, but a press-release dateline is not proof of headquarters; HQ is reduced to country precision."
+    },
+    {
+      "entity": "co:honeywell",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:cambridge-quantum",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:cambridge-quantum",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The quote is verbatim in a Broomfield office-location card, but that page does not label the address headquarters; HQ is reduced to city precision."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "The majority-stake sentence does not support the evidence item's claimed modality field."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "Verbatim text is present after permitted whitespace normalization, but the page labels it a mailing address, not headquarters; HQ precision is reduced to city."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:oxford-ionics",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:oxford-ionics",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "The quote names Oxford and Boulder operations and the trapped-ion approach, but does not establish Oxford as headquarters; HQ is reduced to country precision."
+    },
+    {
+      "entity": "gov:us-darpa",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:us-darpa",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:atom-computing",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:diraq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:ibm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:ibm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:photonic-inc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quantum-motion",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:alice-bob",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:gb-ukri",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:gb-ukri",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:orca",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:orca",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:eu-eurohpc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:eu-eurohpc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The quoted 1-3 address is the page's Experience Center; the same page separately lists Alpine Quantum Technologies GmbH at Technikerstrasse 17/1. The unsupported street-level HQ is reduced to Innsbruck city."
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quandela",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quandela",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quandela",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:quandela",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:au-gov",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:au-gov",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:psiquantum",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:psiquantum",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:riken",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "gov:de-dlr",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:planqc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "co:planqc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:honeywell-cambridge-quantum-combination",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:honeywell-cambridge-quantum-combination",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:honeywell-cambridge-quantum-combination",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:honeywell-cambridge-quantum-combination",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:honeywell-quantinuum-majority",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:honeywell-quantinuum-majority",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:honeywell-quantinuum-majority",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:ionq-acquires-oxford-ionics",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:ibm-quantinuum-shareholder",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:ibm-quantinuum-shareholder",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-atom-computing",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-atom-computing",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-atom-computing",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-diraq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-diraq",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-diraq",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ibm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ibm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ibm",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ionq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ionq",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ionq",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-photonic-inc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-photonic-inc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-photonic-inc",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantinuum",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantinuum",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantinuum",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantum-motion",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantum-motion",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantum-motion",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quera",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quera",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quera",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-xanadu",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-xanadu",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-xanadu",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-alice-bob",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-alice-bob",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-alice-bob",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-alice-bob",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-oxford-ionics",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-oxford-ionics",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-oxford-ionics",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-oxford-ionics",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-rigetti",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-rigetti",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-rigetti",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-rigetti",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-google",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "The original April 3 publication date does not support this relationship's September 9 date; the editor's note at evidence index 3 does."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-google",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-google",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-google",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-google",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-orca",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-orca",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-orca",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-orca",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-orca",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-oxford-ionics",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-oxford-ionics",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-oxford-ionics",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-oxford-ionics",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-oxford-ionics",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quantum-motion",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quantum-motion",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quantum-motion",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quantum-motion",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quantum-motion",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quera",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quera",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quera",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quera",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-quera",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-rigetti",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-rigetti",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-rigetti",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-rigetti",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:uk-testbed-rigetti",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-iqm-lumiq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-iqm-lumiq",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-iqm-euro-q-exa",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-iqm-euro-q-exa",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-italy",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-italy",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-hpcqs",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-hpcqs",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-hpcqs",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-hpcqs",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-hpcqs",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-hpcqs",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-aqt-poland",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-aqt-poland",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-aqt-poland",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-quandela-lucy",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:eurohpc-quandela-lucy",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:australia-psiquantum-investment",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:australia-psiquantum-investment",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:australia-psiquantum-investment",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:australia-psiquantum-investment",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:riken-hosts-ibm-system-two",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:riken-hosts-ibm-system-two",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:riken-hosts-ibm-system-two",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:riken-hosts-ibm-system-two",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:dlr-planqc-contract",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    },
+    {
+      "entity": "rel:dlr-planqc-contract",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized verbatim match in re-fetched raw body."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:honeywell",
+      "verdict": "publish_flagged",
+      "reasons": "Official release verifies Honeywell and the 2021 ownership relationship, but its Charlotte dateline is not independent headquarters evidence.",
+      "corrections": {
+        "hq": {
+          "lat": 39.8283,
+          "lon": -98.5795,
+          "precision": "country"
+        }
+      }
+    },
+    {
+      "entity": "co:cambridge-quantum",
+      "verdict": "publish_flagged",
+      "reasons": "The release verifies Cambridge Quantum and associates it with Cambridge, UK; the cited excerpt does not explicitly call that city its headquarters."
+    },
+    {
+      "entity": "co:quantinuum",
+      "verdict": "publish_flagged",
+      "reasons": "The official locations page verifies the Broomfield office and address but does not label it headquarters; published HQ is conservatively city-level. A separate modality quote survives.",
+      "corrections": {
+        "hq": {
+          "lat": 39.928,
+          "lon": -105.131,
+          "precision": "city",
+          "address": "Broomfield, Colorado, USA"
+        }
+      }
+    },
+    {
+      "entity": "co:ionq",
+      "verdict": "publish_flagged",
+      "reasons": "IonQ's official page calls the street a mailing address, not headquarters; the acquisition release independently uses a College Park dateline, so HQ is conservatively city-level.",
+      "corrections": {
+        "hq": {
+          "lat": 38.9897,
+          "lon": -76.9378,
+          "precision": "city",
+          "address": "College Park, Maryland"
+        }
+      }
+    },
+    {
+      "entity": "co:oxford-ionics",
+      "verdict": "publish_flagged",
+      "reasons": "The sources establish a UK company and Oxford operations, but not the OX5 affiliation or Oxford city as corporate headquarters; published HQ is country-level.",
+      "corrections": {
+        "hq": {
+          "lat": 55.3781,
+          "lon": -3.436,
+          "precision": "country"
+        }
+      }
+    },
+    {
+      "entity": "gov:us-darpa",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:atom-computing",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:diraq",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:ibm",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:photonic-inc",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:quantum-motion",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:quera",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:xanadu",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:alice-bob",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:google",
+      "verdict": "publish_flagged",
+      "reasons": "Google's official locations page verifies the Googleplex street, but does not explicitly label the entry corporate headquarters; precision is reduced to city.",
+      "corrections": {
+        "hq.precision": "city",
+        "hq.address": "Mountain View, CA"
+      }
+    },
+    {
+      "entity": "co:rigetti",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "gov:gb-ukri",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "verdict": "publish_flagged",
+      "reasons": "The source places NQCC facilities in Oxfordshire but does not explicitly identify the organization's headquarters there."
+    },
+    {
+      "entity": "co:orca",
+      "verdict": "publish_flagged",
+      "reasons": "The official winner table associates ORCA Computing with London but does not explicitly label London its headquarters."
+    },
+    {
+      "entity": "gov:eu-eurohpc",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:iqm",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:pasqal",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:aqt",
+      "verdict": "publish_flagged",
+      "reasons": "The cited 1-3 street is identified on the live page as an Experience Center, while the company legal address shown elsewhere on that page is 17/1. Because the latter was not quoted in the research entity, publish only Innsbruck city.",
+      "corrections": {
+        "hq": {
+          "lat": 47.2692,
+          "lon": 11.4041,
+          "precision": "city",
+          "address": "Innsbruck, Austria"
+        }
+      }
+    },
+    {
+      "entity": "co:quandela",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "gov:au-gov",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:psiquantum",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:riken",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "gov:de-dlr",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "co:planqc",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:honeywell-cambridge-quantum-combination",
+      "verdict": "reject",
+      "reasons": "Both official releases describe a completed business combination that formed Quantinuum; neither says Honeywell acquired Cambridge Quantum. The schema has no merger/business-combination kind, so the material acquisition classification cannot be corrected without inventing a different relationship."
+    },
+    {
+      "entity": "rel:honeywell-quantinuum-majority",
+      "verdict": "publish_flagged",
+      "reasons": "Verified only as a November 2021 majority stake: approximately 54 percent and nearly $300 million. It is not evidence of Honeywell's post-IPO ownership in 2026."
+    },
+    {
+      "entity": "rel:ionq-acquires-oxford-ionics",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:ibm-quantinuum-shareholder",
+      "verdict": "publish_flagged",
+      "reasons": "The official release says only that IBM was among the other shareholders as of November 2021; it gives no percentage or consideration.",
+      "corrections": {
+        "status": null
+      }
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-atom-computing",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-diraq",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ibm",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-ionq",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-photonic-inc",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantinuum",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quantum-motion",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-quera",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-b-xanadu",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-alice-bob",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-oxford-ionics",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-rigetti",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:darpa-qbi-stage-a-google",
+      "verdict": "publish_flagged",
+      "reasons": "DARPA's official page verifies selection into the stated QBI stage, not a signed contract, and states no per-company amount. The description is limited to selection."
+    },
+    {
+      "entity": "rel:uk-testbed-orca",
+      "verdict": "publish",
+      "reasons": "The official UK government and NQCC pages jointly identify the named recipient and awarded testbed contracts. The £30 million mentioned in the description is explicitly the overall programme funding, not a per-company amount."
+    },
+    {
+      "entity": "rel:uk-testbed-oxford-ionics",
+      "verdict": "publish",
+      "reasons": "The official UK government and NQCC pages jointly identify the named recipient and awarded testbed contracts. The £30 million mentioned in the description is explicitly the overall programme funding, not a per-company amount."
+    },
+    {
+      "entity": "rel:uk-testbed-quantum-motion",
+      "verdict": "publish",
+      "reasons": "The official UK government and NQCC pages jointly identify the named recipient and awarded testbed contracts. The £30 million mentioned in the description is explicitly the overall programme funding, not a per-company amount."
+    },
+    {
+      "entity": "rel:uk-testbed-quera",
+      "verdict": "reject",
+      "reasons": "The government table names QuEra UK Ltd, but the cited evidence does not establish that legal entity as the canonical co:quera organization. The £30 million is a programme total, not a QuEra contract amount."
+    },
+    {
+      "entity": "rel:uk-testbed-rigetti",
+      "verdict": "reject",
+      "reasons": "The government table names Rigetti UK, but the cited evidence does not establish that legal entity as the canonical co:rigetti organization. The £30 million is a programme total, not a Rigetti contract amount."
+    },
+    {
+      "entity": "rel:eurohpc-iqm-lumiq",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:eurohpc-iqm-euro-q-exa",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-italy",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:eurohpc-pasqal-hpcqs",
+      "verdict": "publish",
+      "reasons": "The EuroHPC release supports a procurement win to supply the two machines; the record does not treat the 2022 procurement announcement as proof that installation had already occurred."
+    },
+    {
+      "entity": "rel:eurohpc-aqt-poland",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:eurohpc-quandela-lucy",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:australia-psiquantum-investment",
+      "verdict": "publish_flagged",
+      "reasons": "The official release verifies an announced future investment and says approximately $470 million from each government. AUD is inferred from the Australian government context because the release uses only the '$' symbol; the note preserves 'approximately'."
+    },
+    {
+      "entity": "rel:riken-hosts-ibm-system-two",
+      "verdict": "publish",
+      "reasons": "Counsel re-fetched the cited primary source and checked each evidence quote programmatically."
+    },
+    {
+      "entity": "rel:dlr-planqc-contract",
+      "verdict": "publish",
+      "reasons": "The official planqc release names both parties, states the 29 million EUR award, and exposes 2022-05-04 in the page's time element."
+    }
+  ],
+  "summary": "32 publish, 25 publish_flagged, 3 reject across 29 orgs and 31 relationships. All 25 sources were independently re-fetched and all 160 evidence items checked against saved raw bodies. Systemic issues: several organization records infer headquarters from datelines, contact/mailing addresses, or office listings; QBI records prove selection rather than signed contracts; two UK awards name local legal entities without evidence mapping them to canonical parents; one business combination was misclassified as an acquisition. Rejected: rel:honeywell-cambridge-quantum-combination, rel:uk-testbed-quera, rel:uk-testbed-rigetti. Honeywell's 2021 majority stake does not establish post-IPO ownership, and because build.mjs fills missing scalar fields from later files, trapped_ion.json can still publish co:quantinuum.parent as co:honeywell. Because neutral_atom.json sorts before this topic, its Berkeley headquarters for Atom Computing, Palaiseau headquarters for Pasqal, and Garching street headquarters for planqc remain the build winners despite conflicts or lower-precision values in this file; counsel did not alter those other topics."
+}

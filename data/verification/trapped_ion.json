@@ -1,0 +1,1638 @@
+{
+  "topic": "trapped_ion",
+  "verifier": "cursor-gpt-counsel-trapped_ion",
+  "verified_at": "2026-10-01",
+  "source_checks": [
+    {
+      "source": "src:quantinuum-helios-launch-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-helios-blog",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2511.05465",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2602.22211",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-h1-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:quantinuum-h2-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:quantinuum-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:quantinuum-piper-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-h2-56-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:prx-15-021052",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI redirected to the matching APS article but the APS landing page returned 403; the cited harvest.aps.org full text was fetched and contains the quotations."
+    },
+    {
+      "source": "src:arxiv-2404.02280",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-microsoft-apr2024-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nature-s41586-025-08737-1",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:prx-dck4-x9c2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI redirected to the matching APS article but the APS landing page returned 403; the cited harvest.aps.org full text was fetched and contains the quotations."
+    },
+    {
+      "source": "src:arxiv-2506.14688",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nature-s41586-026-10445-3",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-roadmap-pr-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-tech-perspective-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-2029-blog",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-q2-2026-results",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-singapore-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:quantinuum-broomfield-lab-blog",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-company",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-superion-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-bothell-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-accel-roadmap-pr-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-europe-aq36-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-fe-tempo-unveil-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-forte-aq29-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-aq64-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-analyst-day-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-glossary",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-9999-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:arxiv-2510.17286",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:prxquantum-h4wk-v31j",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "DOI redirected to the matching APS article but the APS landing page returned 403; the cited harvest.aps.org full text was fetched and contains the quotations."
+    },
+    {
+      "source": "src:arxiv-2606.06455",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-oi-complete-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-accel-roadmap-blog-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ionq-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date. The roadmap page is undated and was evaluated only as an accessed-current restatement, not as evidence of when the roadmap was first issued."
+    },
+    {
+      "source": "src:ionq-aria-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-forte-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-forte-enterprise-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-tempo-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-harmony-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-compare-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:ionq-q2-2026-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:harwell-quartet",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nqcc-testbeds",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:aqt-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:aqt-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:aqt-marmot",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Page is undated; document_date records the 2026-10-01 access date, not a demonstrated publication date."
+    },
+    {
+      "source": "src:aqt-lynx-news",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:aqt-lynx-qv32768",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:lrz-aqt-operational",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:aqt-lrz-news",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:aqt-psnc-tender",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:aqt-piast-q",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 4,
+      "verdict": "verified_with_correction",
+      "notes": "The June 2024 quote is verbatim but cannot establish current majority ownership after Quantinuum's June 2026 IPO; parent is deleted."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oxford-ionics",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oxford-ionics",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oxford-ionics",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:lrz",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:pcss",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:pcss",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quantinuum-broomfield",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quantinuum-broomfield",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quantinuum-broomfield",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:quantinuum-cambridge-uk",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:ionq-college-park",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:ionq-college-park",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:ionq-bothell",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:ionq-bothell",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:ionq-arlesheim-uptownbasel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:nqcc-harwell",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:aqt-innsbruck",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:aqt-innsbruck",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:lrz-garching",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:lrz-garching",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:pcss-poznan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "site:pcss-poznan",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h1",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h1",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h1",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h1",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h1",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h2",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h2",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h2",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-h2",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "evidence_index": 1,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-harmony",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-harmony",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-aria",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-aria",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-aria",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-aria",
+      "evidence_index": 2,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte-enterprise-quantumbasel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte-enterprise-quantumbasel",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte-enterprise-quantumbasel",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified_with_correction",
+      "notes": "The quote describes the Forte Enterprise product line, not this installed Arlesheim unit; the unit's physical_qubits field is deleted."
+    },
+    {
+      "entity": "sys:ionq-forte-enterprise-quantumbasel",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte-enterprise-quantumbasel",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-forte-enterprise-quantumbasel",
+      "evidence_index": 2,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "The quote says deployments drove revenue but does not establish that the commercial Tempo product was online; IonQ's comparison page says Late 2026."
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 2,
+      "verdict": "verified_with_correction",
+      "notes": "The quote says Tempo was deployed but does not overcome IonQ's current comparison page, which labels product availability Late 2026."
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified_with_correction",
+      "notes": "The score is reported for a Tempo system, but the investor deck identifies the tested machine as a Tempo Prototype; the product-system metric is deleted."
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 1,
+      "path": "metrics.0",
+      "verdict": "verified_with_correction",
+      "notes": "This quote establishes that the benchmark machine was a prototype; the metric cannot be assigned to the announced product system."
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 2,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "evidence_index": 3,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-superion-256",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:ionq-superion-256",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oxford-ionics-quartet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oxford-ionics-quartet",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:oxford-ionics-quartet",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-marmot",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-marmot",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-marmot",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-marmot",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-marmot",
+      "evidence_index": 0,
+      "path": "metrics.1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-lynx",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-lynx",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-lynx",
+      "evidence_index": 0,
+      "path": "metrics.0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-lrz-20q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-lrz-20q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-lrz-20q",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:aqt-lrz-20q",
+      "evidence_index": 0,
+      "path": "physical_qubits",
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:pcss-piast-q",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "sys:pcss-piast-q",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-h2-56-qubit-rcs",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-h2-56-qubit-rcs",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-h2-56-qubit-rcs",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-microsoft-encoded-qubits-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-microsoft-encoded-qubits-2024",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "The joint-team quote is verbatim and the source names Microsoft; Microsoft is added to orgs, although co:microsoft is not defined in this topic file."
+    },
+    {
+      "entity": "ms:quantinuum-certified-randomness-h2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-certified-randomness-h2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-magic-state-code-switching",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-magic-state-code-switching",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-magic-state-code-switching",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-magic-state-code-switching",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-digital-magnetism-h2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-digital-magnetism-h2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-launch",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-launch",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-launch",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-launch",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-iceberg-encoded",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim after allowed PDF line-end hyphenation normalization."
+    },
+    {
+      "entity": "ms:quantinuum-helios-iceberg-encoded",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-iceberg-encoded",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-iceberg-encoded",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-iceberg-encoded",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:quantinuum-helios-iceberg-encoded",
+      "evidence_index": 5,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-forte-enterprise-basel-aq36",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-forte-enterprise-basel-aq36",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-tempo-aq64",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-tempo-aq64",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oxford-ionics-electronic-gates-9997",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oxford-ionics-electronic-gates-9997",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oxford-ionics-electronic-gates-9997",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-eqc-two-qubit-9999",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-eqc-two-qubit-9999",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-eqc-two-qubit-9999",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-eqc-two-qubit-9999",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oxford-ionics-quartet-installed",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:oxford-ionics-quartet-installed",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-qldpc-codes-breakeven",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim after allowed PDF line-end hyphenation normalization."
+    },
+    {
+      "entity": "ms:ionq-qldpc-codes-breakeven",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-qldpc-codes-breakeven",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-qldpc-codes-breakeven",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-superion-first-ions",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ionq-superion-first-ions",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:aqt-lrz-system-operational",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:aqt-lrz-system-operational",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:aqt-piast-q-inaugurated",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:aqt-piast-q-inaugurated",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:aqt-lynx-qv-32768",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:aqt-lynx-qv-32768",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-ft-by-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-ft-by-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-apollo-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-apollo-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-helios-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-sol-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-sol-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-sol-2027",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:quantinuum-helios-singapore-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-2m-qubits-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-2m-qubits-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-10k-qubits-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-10k-qubits-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-20k-qubits-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-256-qubit-demo-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-superion-256-deliveries-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-logical-2q-five-nines-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ionq-native-2q-three-nines-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:aqt-psnc-installation-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:aqt-psnc-installation-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:quantinuum",
+      "verdict": "publish_flagged",
+      "reasons": "Publishable after deleting the stale, pre-IPO parent field. The cited June 2024 release cannot establish Honeywell's post-IPO ownership, and co:honeywell is undefined in the research corpus.",
+      "corrections": {
+        "parent": null
+      }
+    },
+    {
+      "entity": "co:ionq",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:oxford-ionics",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "gov:gb-nqcc",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:aqt",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:lrz",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "co:pcss",
+      "verdict": "publish_flagged",
+      "reasons": "PCSS's existence and Poznań association are supported, but the cited inauguration text does not explicitly call Poznań its headquarters; retain with a location caveat."
+    },
+    {
+      "entity": "site:quantinuum-broomfield",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:quantinuum-cambridge-uk",
+      "verdict": "publish_flagged",
+      "reasons": "The address and Quantinuum presence are verified, but the entity's own evidence identifies an office location and does not expressly establish the site kind as a lab."
+    },
+    {
+      "entity": "site:ionq-college-park",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:ionq-bothell",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:ionq-arlesheim-uptownbasel",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:nqcc-harwell",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:aqt-innsbruck",
+      "verdict": "publish_flagged",
+      "reasons": "The research record merged AQT's headquarters and a distinct Experience Center address into one site. Publish the headquarters only.",
+      "corrections": {
+        "name": "AQT headquarters, Innsbruck",
+        "location.address": "Technikerstrasse 17/1, 6020 Innsbruck, Austria"
+      }
+    },
+    {
+      "entity": "site:lrz-garching",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "site:pcss-poznan",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:quantinuum-h1",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:quantinuum-h2",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:quantinuum-helios",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:ionq-harmony",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:ionq-aria",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:ionq-forte",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:ionq-forte-enterprise-quantumbasel",
+      "verdict": "publish_flagged",
+      "reasons": "The installed system and site are verified, but the 36-qubit quote describes the product line rather than this specific unit; physical_qubits is deleted.",
+      "corrections": {
+        "physical_qubits": null
+      }
+    },
+    {
+      "entity": "sys:ionq-tempo",
+      "verdict": "publish_flagged",
+      "reasons": "IonQ's current comparison page says Tempo is due in Late 2026, while #AQ 64 was measured on a Tempo Prototype. Publish as announced and remove the prototype-derived product metric.",
+      "corrections": {
+        "status": "announced",
+        "metrics": null
+      }
+    },
+    {
+      "entity": "sys:ionq-superion-256",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:oxford-ionics-quartet",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:aqt-marmot",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:aqt-lynx",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:aqt-lrz-20q",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "sys:pcss-piast-q",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quantinuum-h2-56-qubit-rcs",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quantinuum-microsoft-encoded-qubits-2024",
+      "verdict": "publish_flagged",
+      "reasons": "The result and codes are supported, but the analyst omitted Microsoft from orgs even though the claim and source identify a joint team; corrected. co:microsoft is not locally defined in this topic.",
+      "corrections": {
+        "orgs": [
+          "co:quantinuum",
+          "co:microsoft"
+        ]
+      }
+    },
+    {
+      "entity": "ms:quantinuum-certified-randomness-h2",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quantinuum-magic-state-code-switching",
+      "verdict": "publish_flagged",
+      "reasons": "The analyst combined a peer-reviewed H2-1 result with a separate H1-1 preprint under one peer-reviewed milestone. The claim is narrowed to the journal result and dated to journal publication.",
+      "corrections": {
+        "date": "2025-10-14",
+        "claim": "A peer-reviewed PRX paper reports preparing an encoded magic state in the Steane code by code switching from the fifteen-qubit quantum Reed-Muller code on H2-1.",
+        "arxiv": null
+      }
+    },
+    {
+      "entity": "ms:quantinuum-digital-magnetism-h2",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:quantinuum-helios-launch",
+      "verdict": "publish_flagged",
+      "reasons": "Commercial launch and availability are established by Quantinuum, while the preprint supports the processor architecture but not the commercial launch. Peer-review status is corrected to company_claim.",
+      "corrections": {
+        "peer_review": "company_claim",
+        "arxiv": null
+      }
+    },
+    {
+      "entity": "ms:quantinuum-helios-iceberg-encoded",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ionq-forte-enterprise-basel-aq36",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ionq-tempo-aq64",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:oxford-ionics-electronic-gates-9997",
+      "verdict": "publish",
+      "reasons": "Publish after correcting the milestone date from the preprint date to the cited journal publication date.",
+      "corrections": {
+        "date": "2025-10-20"
+      }
+    },
+    {
+      "entity": "ms:ionq-eqc-two-qubit-9999",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:oxford-ionics-quartet-installed",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ionq-qldpc-codes-breakeven",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ionq-superion-first-ions",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:aqt-lrz-system-operational",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:aqt-piast-q-inaugurated",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:aqt-lynx-qv-32768",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:quantinuum-ft-by-2030",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:quantinuum-apollo-2029",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:quantinuum-helios-2025",
+      "verdict": "publish_flagged",
+      "reasons": "Helios launched in 2025 with 98 qubits, but the later preprint reports 7.9(2)x10^-4 average two-qubit infidelity, not the roadmap's below-5x10^-4 target. The compound target is therefore not met.",
+      "corrections": {
+        "status": "missed",
+        "met_by": null
+      }
+    },
+    {
+      "entity": "tgt:quantinuum-sol-2027",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:quantinuum-helios-singapore-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ionq-2m-qubits-2030",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ionq-10k-qubits-2027",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ionq-20k-qubits-2028",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ionq-256-qubit-demo-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ionq-superion-256-deliveries-2027",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ionq-logical-2q-five-nines-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ionq-native-2q-three-nines-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:aqt-psnc-installation-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by re-fetched Tier 1 or Tier 2 evidence."
+    }
+  ],
+  "summary": "50 publish, 10 publish_flagged, 0 reject. All 58 sources were re-fetched with the required declared User-Agent and all 165 evidence items were checked; 163 matched after ordinary Unicode/whitespace normalization and the remaining two matched after allowed PDF line-end hyphenation normalization. Systemic issues: undated current web pages were recorded with access dates as document dates; several company metrics required prototype-versus-product or metric-definition care; Quantinuum's current parent is unsourced after its 2026 IPO; and one milestone improperly combined a journal result with a separate preprint. No entities were rejected."
+}

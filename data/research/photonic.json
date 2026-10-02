@@ -1,0 +1,2651 @@
+{
+  "topic": "photonic",
+  "analyst": "Claude Opus 5.5 (research analyst agent)",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:psiq-nature-2025",
+      "title": "A manufacturable platform for photonic quantum computing",
+      "publisher": "Nature",
+      "url": "https://doi.org/10.1038/s41586-025-08820-7",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-02-26",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-08820-7"
+    },
+    {
+      "id": "src:arxiv-2404.17570",
+      "title": "A manufacturable platform for photonic quantum computing (arXiv preprint)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2404.17570",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-04-26",
+      "accessed": "2026-10-01",
+      "arxiv": "2404.17570"
+    },
+    {
+      "id": "src:psiq-omega-pr",
+      "title": "PsiQuantum Announces Omega, a Manufacturable Chipset for Photonic Quantum Computing",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/omega",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-02-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-about",
+      "title": "About — PsiQuantum",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/about",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-australia-2024",
+      "title": "PsiQuantum to Build World's First Utility-Scale, Fault-Tolerant Quantum Computer in Australia",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-to-build-worlds-first-utility-scale-fault-tolerant-quantum-computer-in-australia",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:au-pm-psiq-2024",
+      "title": "Delivering a Future Made in Australia with 400 new technology jobs in Brisbane",
+      "publisher": "Prime Minister of Australia",
+      "url": "https://www.pm.gov.au/media/delivering-future-made-australia-400-new-technology-jobs-brisbane",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-04-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:qld-psiq-2024",
+      "title": "Delivering a Future Made in Australia with 400 New Technology Jobs in Brisbane",
+      "publisher": "Queensland Government Ministerial Media Statements",
+      "url": "https://statements.qld.gov.au/statements/100208",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-04-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:il-gov-psiq-2024",
+      "title": "Gov. Pritzker Announces Location and PsiQuantum as Anchor Tenant of New Quantum Park",
+      "publisher": "Office of the Governor of Illinois",
+      "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-announces-location-and-psiquantum-as-anchor-tenant-of-new-quantum-park",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-07-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-illinois-2024",
+      "title": "PsiQuantum To Build First US-Based Utility-Scale Quantum Computer in Chicago, Illinois",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/illinois-iqmp",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-07-25",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-chicago-groundbreaking",
+      "title": "PsiQuantum Breaks Ground on America's Largest Quantum Computing Project in Chicago",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-breaks-ground-chicago",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-30",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-moreton-bay-site",
+      "title": "PsiQuantum Unveils New Australian Site at Moreton Bay Central",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-unveils-new-australian-site-at-moreton-bay-central",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-21",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-au-groundbreaking",
+      "title": "PsiQuantum Breaks Ground in Australia on Site of World's First Utility-Scale Quantum Computer",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-breaks-ground-in-australia-on-site-of-worlds-first-utility-scale-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-18",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:psiq-griffith-lab",
+      "title": "PsiQuantum Opens Test & Validation Lab at Griffith University",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-opens-test-validation-lab-at-griffith-university",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:xanadu-borealis-nature-2022",
+      "title": "Quantum computational advantage with a programmable photonic processor",
+      "publisher": "Nature",
+      "url": "https://doi.org/10.1038/s41586-022-04725-x",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2022-06-01",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-022-04725-x"
+    },
+    {
+      "id": "src:xanadu-aurora-nature-2025",
+      "title": "Scaling and networking a modular photonic quantum computer",
+      "publisher": "Nature",
+      "url": "https://doi.org/10.1038/s41586-024-08406-9",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-01-22",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-024-08406-9"
+    },
+    {
+      "id": "src:xanadu-gkp-nature-2025",
+      "title": "Integrated photonic source of Gottesman–Kitaev–Preskill qubits",
+      "publisher": "Nature",
+      "url": "https://doi.org/10.1038/s41586-025-09044-5",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2025-06-04",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-025-09044-5"
+    },
+    {
+      "id": "src:xanadu-borealis-pr",
+      "title": "Xanadu launches first public cloud-deployed computer with quantum computational advantage",
+      "publisher": "Xanadu",
+      "url": "https://www.xanadu.ai/press/xanadu-launches-first-public-cloud-deployed-computer-with-quantum-computational-advantage",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-06-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:xanadu-aurora-pr",
+      "title": "Xanadu introduces Aurora: world's first scalable, networked and modular quantum computer",
+      "publisher": "Xanadu",
+      "url": "https://www.xanadu.ai/press/xanadu-introduces-aurora-worlds-first-scalable-networked-and-modular-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-01-22",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:xanadu-packaging-pr",
+      "title": "Xanadu Opens $10M Advanced Photonic Packaging Facility in Ontario",
+      "publisher": "Xanadu",
+      "url": "https://www.xanadu.ai/press/xanadu-opens-10m-advanced-photonic-packaging-facility-in-ontario",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-23",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:xanadu-spac-pr-2025",
+      "title": "Xanadu Expected to Become the First and Only Publicly Traded Pure-Play Photonic Quantum Computing Company via Business Combination with Crane Harbor Acquisition Corp.",
+      "publisher": "Xanadu",
+      "url": "https://www.xanadu.ai/press/xanadu-expected-to-become-the-first-and-only-publicly-traded-pure-play-photonic-quantum-computing-company-via-business-combination-with-crane-harbor-acquisition-corp",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-03",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:xanadu-closing-pr-2026",
+      "title": "Xanadu Quantum Technologies Limited Announces Closing of Business Combination with Crane Harbor Acquisition Corp. and Xanadu Quantum Technologies Inc.",
+      "publisher": "Xanadu",
+      "url": "https://www.xanadu.ai/press/xanadu-quantum-technologies-limited-announces-closing-of-business-combination-with-crane-harbor-acquisition-corp-and-xanadu-quantum-technologies-inc",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-03-26",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:xanadu-roadmap-2026",
+      "title": "Xanadu Charts Path to Over 1,000 Logical Qubits by 2031",
+      "publisher": "Xanadu Quantum Technologies Limited",
+      "url": "https://investors.xanadu.ai/news-releases/news-release-details/xanadu-charts-path-over-1000-logical-qubits-2031",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-31",
+      "accessed": "2026-10-01",
+      "archived_url": "https://web.archive.org/web/20260903175945/https://investors.xanadu.ai/news-releases/news-release-details/xanadu-charts-path-over-1000-logical-qubits-2031"
+    },
+    {
+      "id": "src:braket-sf-plugin-readme",
+      "title": "Amazon Braket Strawberry Fields Plugin (README)",
+      "publisher": "Amazon Web Services (amazon-braket GitHub organization)",
+      "url": "https://github.com/amazon-braket/amazon-braket-strawberryfields-plugin-python",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:quandela-nature-ascella-2024",
+      "title": "A versatile single-photon-based quantum computing platform",
+      "publisher": "Nature Photonics",
+      "url": "https://www.nature.com/articles/s41566-024-01403-4",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-03-26",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41566-024-01403-4"
+    },
+    {
+      "id": "src:quandela-cloud-2022",
+      "title": "The first European quantum computer in the cloud, developed by Quandela",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/about-us/newsroom/the-first-european-quantum-computer-in-the-cloud-developed-by-quandela/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-11-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-factory-2023",
+      "title": "Quandela's first quantum computer manufacturing facility",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/about-us/newsroom/quandelas-first-quantum-computer-manufacturing-facility/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-06-26",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-ovh-2023",
+      "title": "First Quandela quantum computer delivered and installed in an OVHcloud datacenter",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/about-us/newsroom/first-quandela-quantum-computer-delivered-and-installed-in-ovhcloud-datacenter/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-10-23",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-pilot-2024",
+      "title": "Quandela's pilot line launch: a new semiconductor manufacturing site",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/newsroom-posts/quandelas-pilot-line-launch-a-new-semiconductor-manufacturing-site/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-06-05",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-roadmap-2024",
+      "title": "Quandela unveils its 2024-2030 roadmap",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/newsroom-posts/quandela-unveils-its-2024-2030-roadmap/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-11",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-belenos-2025",
+      "title": "Belenos, a photonic quantum computer, launched by Quandela",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/newsroom-posts/belenos-the-worlds-most-powerful-photonic-quantum-computer-launched-by-quandela/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-05-22",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-lucy-2025",
+      "title": "Quandela delivers Lucy to EuroHPC and GENCI at CEA's TGCC",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/newsroom-posts/quandela-delivers-lucy-the-most-advanced-photonic-quantum-computer-worldwide-to-eurohpc-and-genci-at-ceas-tgcc/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-23",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-contact",
+      "title": "Contact us — Quandela locations",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/about-us/contact-us/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024-09-12",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-about",
+      "title": "About Quandela",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/about-us/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024-09-12",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-mosaiq",
+      "title": "MosaiQ — Quandela photonic quantum computer",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/products-and-services/mosaiq/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024-09-12",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-canopus",
+      "title": "Canopus — Quandela",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/products-and-services/canopus/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-08-08",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quandela-ascella-page",
+      "title": "Ascella — Quandela",
+      "publisher": "Quandela",
+      "url": "https://www.quandela.com/products-and-services/ascella/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-06-11",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:orca-contact",
+      "title": "ORCA Computing contact and offices",
+      "publisher": "ORCA Computing",
+      "url": "https://orcacomputing.com/contact/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-28",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:orca-pt2-pr",
+      "title": "ORCA Computing unveils the PT-2",
+      "publisher": "ORCA Computing",
+      "url": "https://orcacomputing.com/orca-computing-unveils-the-pt-2-delivering-quantum-enhanced-generative-ai-capabilities/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-29",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:orca-pt1-pr",
+      "title": "ORCA Computing demonstration using the PT-1 and NVIDIA CUDA Quantum",
+      "publisher": "ORCA Computing",
+      "url": "https://orcacomputing.com/orca-computing-unveils-first-demonstration-of-a-hybrid-algorithm-utilizing-the-orca-pt-1-photonic-quantum-processor-and-nvidia-cuda-quantum/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-03-18",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:orca-pt2-page",
+      "title": "ORCA PT-2 product page",
+      "publisher": "ORCA Computing",
+      "url": "https://orcacomputing.com/orca-pt-2/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024-10-25",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:orca-realty-2026",
+      "title": "ORCA Computing expands presence through the Digital Realty Innovation Lab in London",
+      "publisher": "ORCA Computing",
+      "url": "https://orcacomputing.com/orca-computing-expands-presence-through-digital-realty/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-26",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:orca-toyota-2026",
+      "title": "ORCA Computing and Toyota Tsusho deploy a photonic quantum system to an enterprise customer in Japan",
+      "publisher": "ORCA Computing",
+      "url": "https://orcacomputing.com/orca-toyota-tsusho-deploy-to-enterprise-customer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-16",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:sci-jiuzhang-2020",
+      "title": "Quantum computational advantage using photons",
+      "publisher": "Science",
+      "url": "https://doi.org/10.1126/science.abe8770",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2020-12-18",
+      "accessed": "2026-10-02",
+      "doi": "10.1126/science.abe8770",
+      "archived_url": "https://web.archive.org/web/2021id_/https://science.sciencemag.org/content/370/6523/1460"
+    },
+    {
+      "id": "src:arxiv-2106.15534",
+      "title": "Phase-Programmable Gaussian Boson Sampling Using Stimulated Squeezed Light",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2106.15534",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2021-07-05",
+      "accessed": "2026-10-02",
+      "arxiv": "2106.15534"
+    },
+    {
+      "id": "src:arxiv-2304.12240",
+      "title": "Gaussian Boson Sampling with Pseudo-Photon-Number Resolving Detectors and Quantum Computational Advantage",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2304.12240",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2023-09-01",
+      "accessed": "2026-10-02",
+      "arxiv": "2304.12240"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:psiquantum",
+      "name": "PsiQuantum",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.4419,
+        "lon": -122.143,
+        "precision": "city",
+        "address": "Palo Alto, California"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "website": "https://www.psiquantum.com",
+      "evidence": [
+        {
+          "source": "src:psiq-griffith-lab",
+          "quote": "PsiQuantum was founded by four world leaders in quantum computing in 2016 and is headquartered in Palo Alto, California.",
+          "locator": "boilerplate",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:psiq-omega-pr",
+          "quote": "PsiQuantum’s approach is based on using single photons – particles of light – which are then manipulated using silicon photonic chip technology originally developed for telecom and datacenter networking applications.",
+          "locator": "body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:xanadu",
+      "name": "Xanadu Quantum Technologies",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CA",
+      "hq": {
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "precision": "city",
+        "address": "Toronto, Ontario"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "tickers": [
+        "NASDAQ:XNDU",
+        "TSX:XNDU"
+      ],
+      "sec_cik": "0002097163",
+      "website": "https://www.xanadu.ai",
+      "evidence": [
+        {
+          "source": "src:xanadu-packaging-pr",
+          "quote": "officially opened the new facility at the company's Toronto headquarters.",
+          "locator": "paragraph 3",
+          "supports": "hq"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Founded in 2016, Xanadu is a Canadian photonic quantum computing company with the mission to build quantum computers that are useful and available to people everywhere.",
+          "locator": "About Xanadu",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:xanadu-closing-pr-2026",
+          "quote": "The Class B Subordinate Voting Shares of Xanadu are expected to trade on Nasdaq and the Toronto Stock Exchange under the ticker symbol “XNDU” starting on March 27, 2026.",
+          "locator": "paragraph 2",
+          "supports": "tickers"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Xanadu Quantum Technologies Limited (“Xanadu” or the “Company”) (NASDAQ: XNDU) (TSX: XNDU)",
+          "locator": "dateline paragraph",
+          "supports": "tickers (listed)"
+        }
+      ]
+    },
+    {
+      "id": "co:quandela",
+      "name": "Quandela",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.7262,
+        "lon": 2.2713,
+        "precision": "site",
+        "address": "7 Rue Léonard de Vinci, 91300 Massy, France"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "website": "https://www.quandela.com",
+      "evidence": [
+        {
+          "source": "src:quandela-about",
+          "quote": "Founded in 2017, Quandela is a world leader in full-stack photonic quantum computing.",
+          "locator": "About page, opening paragraph",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:quandela-contact",
+          "quote": "Headquarter – Eiffel Campus 7 Rue Léonard de Vinci, 91300 Massy",
+          "locator": "Contact page, Locations",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "co:orca",
+      "name": "ORCA Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.5158,
+        "lon": -0.1762,
+        "precision": "site",
+        "address": "LG, 30 Eastbourne Terrace, London W2 6LA, United Kingdom"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "website": "https://orcacomputing.com",
+      "evidence": [
+        {
+          "source": "src:orca-contact",
+          "quote": "GLOBAL HQ ORCA Computing LG, 30 Eastbourne Terrace London W2 6LA UK",
+          "locator": "Contact page, addresses",
+          "supports": "location"
+        },
+        {
+          "source": "src:orca-pt2-pr",
+          "quote": "announced the unveiling of the PT-2, the latest advancement in its PT Series of photonic quantum systems.",
+          "locator": "Opening paragraph, 29 Oct 2024",
+          "supports": "existence, modality, date"
+        },
+        {
+          "source": "src:orca-realty-2026",
+          "quote": "As a London-based quantum company",
+          "locator": "CEO quotation, 26 May 2026",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "co:ustc",
+      "name": "University of Science and Technology of China (USTC)",
+      "kind": "research_institution",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CN",
+      "hq": {
+        "lat": 31.8206,
+        "lon": 117.2272,
+        "precision": "city",
+        "address": "Hefei, Anhui, China"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "website": "https://www.ustc.edu.cn",
+      "evidence": [
+        {
+          "source": "src:sci-jiuzhang-2020",
+          "quote": "University of Science and Technology of China, Hefei, Anhui 230026, China",
+          "locator": "Author affiliations",
+          "supports": "location"
+        },
+        {
+          "source": "src:sci-jiuzhang-2020",
+          "quote": "The photonic quantum computer, Jiuzhang, generates up to 76 output photon clicks",
+          "locator": "Abstract",
+          "supports": "existence, metric"
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "site:psiquantum-palo-alto",
+      "name": "PsiQuantum headquarters, Palo Alto",
+      "operator": "co:psiquantum",
+      "kind": "headquarters",
+      "location": {
+        "lat": 37.4419,
+        "lon": -122.143,
+        "precision": "city",
+        "address": "Palo Alto, CA"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:psiq-about",
+          "quote": "PALO ALTO, CA\n HQ\n Our headquarters where we develop and test silicon photonic chips to pre-alpha systems.",
+          "locator": "Facilities slider",
+          "supports": "existence, location, kind"
+        }
+      ]
+    },
+    {
+      "id": "site:psiquantum-milpitas",
+      "name": "PsiFactory, Milpitas",
+      "operator": "co:psiquantum",
+      "kind": "manufacturing",
+      "location": {
+        "lat": 37.4323,
+        "lon": -121.8996,
+        "precision": "city",
+        "address": "Milpitas, CA"
+      },
+      "country": "US",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:psiq-about",
+          "quote": "MILPITAS, CA\n PsiFactory\n Expanding our operations to scale-up BTO manufacturing, edge coupling, and assembling our largest intermediate scale test systems yet.",
+          "locator": "Facilities slider",
+          "supports": "existence, location, kind"
+        }
+      ]
+    },
+    {
+      "id": "site:psiquantum-daresbury",
+      "name": "PsiLabs at STFC Daresbury Laboratory",
+      "operator": "co:psiquantum",
+      "kind": "lab",
+      "location": {
+        "lat": 53.3439,
+        "lon": -2.64,
+        "precision": "site",
+        "address": "STFC Daresbury Laboratories, Daresbury, UK"
+      },
+      "country": "GB",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:psiq-about",
+          "quote": "DARESBURY, UK\n PsiLabs\n R&D center where we leverage the unique cryogenic infrastructure of the STFC Daresbury Laboratories to test our prototype cryogenic cabinets.",
+          "locator": "Facilities slider",
+          "supports": "existence, location, kind"
+        },
+        {
+          "source": "src:psiq-omega-pr",
+          "quote": "The Nature paper shares some details on this new approach to cooling, which is now deployed at PsiQuantum’s UK facility and was used for many of the performance results described.",
+          "locator": "body",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "site:psiquantum-iqmp-chicago",
+      "name": "PsiQuantum site at the Illinois Quantum and Microelectronics Park (former U.S. Steel South Works), Chicago",
+      "operator": "co:psiquantum",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": 41.744,
+        "lon": -87.538,
+        "precision": "site",
+        "address": "former U.S. Steel South Works site, South Side of Chicago, Illinois"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "evidence": [
+        {
+          "source": "src:il-gov-psiq-2024",
+          "quote": "Governor JB Pritzker was joined by federal, state, and local leaders and partners to reveal the Illinois Quantum and Microelectronics Park’s (IQMP) location at USX on the South Side of Chicago and announce the quantum campus’ first anchor tenant – PsiQuantum.",
+          "locator": "paragraph 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:psiq-illinois-2024",
+          "quote": "PsiQuantum today announced a far-reaching partnership with the State of Illinois, Cook County, and the City of Chicago to build the first US-based utility-scale, fault-tolerant quantum computer at the former US Steel South Works property in the City of Chicago.",
+          "locator": "paragraph 1",
+          "supports": "location, kind"
+        },
+        {
+          "source": "src:psiq-chicago-groundbreaking",
+          "quote": "PsiQuantum today broke ground on the company’s site at the Illinois Quantum and Microelectronics Park (IQMP) in Chicago, where America’s first million-qubit scale, fault-tolerant quantum computer will be built and deployed.",
+          "locator": "paragraph 1",
+          "supports": "status (under construction)"
+        }
+      ]
+    },
+    {
+      "id": "site:psiquantum-moreton-bay-central",
+      "name": "PsiQuantum facility at Moreton Bay Central, Queensland",
+      "operator": "co:psiquantum",
+      "kind": "qpu_installation",
+      "location": {
+        "lat": -27.265,
+        "lon": 152.987,
+        "precision": "site",
+        "address": "Moreton Bay Central Innovation Precinct (former Petrie Paper Mill site), City of Moreton Bay, Queensland"
+      },
+      "country": "AU",
+      "status": "under_construction",
+      "evidence": [
+        {
+          "source": "src:psiq-moreton-bay-site",
+          "quote": "PsiQuantum announced today that the company will anchor its project to build the world’s first utility-scale quantum computer at Moreton Bay Central.",
+          "locator": "paragraph 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:psiq-moreton-bay-site",
+          "quote": "The precinct sits on the site of the former Petrie Paper Mill, which was equipped to support large-scale industrial operations, and has the power and utility infrastructure needed for complex manufacturing.",
+          "locator": "paragraph 4",
+          "supports": "location"
+        },
+        {
+          "source": "src:psiq-au-groundbreaking",
+          "quote": "PsiQuantum today broke ground and started construction on its facility at Moreton Bay Central, where the company will build and deploy the world's first utility-scale, fault-tolerant quantum computer.",
+          "locator": "paragraph 1",
+          "supports": "status (under construction)"
+        }
+      ]
+    },
+    {
+      "id": "site:psiquantum-griffith-nathan",
+      "name": "PsiQuantum Test & Validation Lab, Griffith University Nathan Campus, Brisbane",
+      "operator": "co:psiquantum",
+      "kind": "lab",
+      "location": {
+        "lat": -27.553,
+        "lon": 153.053,
+        "precision": "site",
+        "address": "Griffith University Nathan Campus, Brisbane, Queensland"
+      },
+      "country": "AU",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:psiq-griffith-lab",
+          "quote": "PsiQuantum today announced the official opening of its Test & Validation Lab at Griffith University’s Nathan Campus in Brisbane South",
+          "locator": "paragraph 1",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "site:xanadu-toronto-hq",
+      "name": "Xanadu headquarters and advanced photonic packaging facility, Toronto",
+      "operator": "co:xanadu",
+      "kind": "headquarters",
+      "location": {
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "precision": "city",
+        "address": "Toronto, Ontario"
+      },
+      "country": "CA",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:xanadu-packaging-pr",
+          "quote": "Xanadu, a world leader in photonic quantum computing, has opened a $10M world-leading advanced photonic packaging facility in Toronto.",
+          "locator": "paragraph 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:xanadu-packaging-pr",
+          "quote": "officially opened the new facility at the company's Toronto headquarters.",
+          "locator": "paragraph 3",
+          "supports": "kind"
+        }
+      ]
+    },
+    {
+      "id": "site:xanadu-inception-toronto",
+      "name": "Inception manufacturing facility, Toronto",
+      "operator": "co:xanadu",
+      "kind": "manufacturing",
+      "location": {
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "precision": "city",
+        "address": "Toronto, Ontario"
+      },
+      "country": "CA",
+      "status": "under_construction",
+      "evidence": [
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "The Company is also building out its 158,000-square-foot Toronto manufacturing facility, Inception, to support testing, heterogeneous integration, photonic integrated circuit packaging and rack-level module assembly.",
+          "locator": "Hardware section",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "site:quandela-massy-hq",
+      "name": "Quandela headquarters, Eiffel Campus, Massy",
+      "operator": "co:quandela",
+      "kind": "headquarters",
+      "location": {
+        "lat": 48.7262,
+        "lon": 2.2713,
+        "precision": "site",
+        "address": "7 Rue Léonard de Vinci, 91300 Massy, France"
+      },
+      "country": "FR",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:quandela-contact",
+          "quote": "Headquarter – Eiffel Campus 7 Rue Léonard de Vinci, 91300 Massy",
+          "locator": "Contact page, Locations",
+          "supports": "location"
+        },
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "Based at Quandela’s headquarters in Massy near Paris, Belenos is now available in the cloud",
+          "locator": "Body, location and access",
+          "supports": "location, status"
+        }
+      ]
+    },
+    {
+      "id": "site:quandela-massy-factory",
+      "name": "Quandela quantum-computer factory, Ampère Building, Massy",
+      "operator": "co:quandela",
+      "kind": "manufacturing",
+      "location": {
+        "lat": 48.7245,
+        "lon": 2.2688,
+        "precision": "site",
+        "address": "15 rue Ampère, 91300 Massy, France"
+      },
+      "country": "FR",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:quandela-factory-2023",
+          "quote": "inaugurated its first factory for manufacturing quantum computers in Massy (Essonne, France).",
+          "locator": "Dateline paragraph, 26 June 2023",
+          "supports": "existence, location, date"
+        },
+        {
+          "source": "src:quandela-contact",
+          "quote": "Factory – Ampère Building 15 rue Ampère, 91300 Massy FRANCE",
+          "locator": "Contact page, Locations",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:quandela-ipvf-palaiseau",
+      "name": "Quandela pilot line, IPVF, Palaiseau",
+      "operator": "co:quandela",
+      "kind": "manufacturing",
+      "location": {
+        "lat": 48.713,
+        "lon": 2.204,
+        "precision": "site",
+        "address": "18 Bd Thomas Gobert, 91120 Palaiseau, France"
+      },
+      "country": "FR",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:quandela-pilot-2024",
+          "quote": "located at The Photovoltaic Institute of Île-de-France (IPVF), at the heart of the innovation hub of Paris-Saclay (FR)",
+          "locator": "Body, pilot-line location",
+          "supports": "location"
+        },
+        {
+          "source": "src:quandela-contact",
+          "quote": "Cleanroom – IPVF 18 Bd Thomas Gobert, 91120 Palaiseau, FRANCE",
+          "locator": "Contact page, Locations",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:orca-london-hq",
+      "name": "ORCA Computing global headquarters, Eastbourne Terrace, London",
+      "operator": "co:orca",
+      "kind": "headquarters",
+      "location": {
+        "lat": 51.5158,
+        "lon": -0.1762,
+        "precision": "site",
+        "address": "LG, 30 Eastbourne Terrace, London W2 6LA, United Kingdom"
+      },
+      "country": "GB",
+      "status": "operational",
+      "evidence": [
+        {
+          "source": "src:orca-contact",
+          "quote": "GLOBAL HQ ORCA Computing LG, 30 Eastbourne Terrace London W2 6LA UK",
+          "locator": "Contact page, addresses",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "site:orca-dril-london",
+      "name": "Digital Realty Innovation Lab, London",
+      "operator": "co:orca",
+      "kind": "datacenter",
+      "location": {
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "precision": "city",
+        "address": "London, United Kingdom"
+      },
+      "country": "GB",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:orca-realty-2026",
+          "quote": "Digital Realty Innovation Lab (DRIL) in London",
+          "locator": "Opening paragraph, 26 May 2026",
+          "supports": "location"
+        },
+        {
+          "source": "src:orca-realty-2026",
+          "quote": "PT Series photonic quantum systems will operate",
+          "locator": "Body, PT Series at DRIL",
+          "supports": "status"
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "id": "sys:psiquantum-omega",
+      "name": "Omega (chipset)",
+      "operator": "co:psiquantum",
+      "modality": "photonic",
+      "submodality": "discrete_variable",
+      "status": "announced",
+      "announced": "2025-02-26",
+      "metrics": [
+        {
+          "name": "state preparation and measurement (SPAM) fidelity, dual-rail qubit",
+          "value": 99.98,
+          "unit": "%",
+          "definition": "Nature 2025: dual-rail photonic qubit SPAM fidelity 99.98% ± 0.01%, conditional on photon detection and not accounting for loss.",
+          "as_of": "2025-02-26",
+          "evidence": [
+            {
+              "source": "src:psiq-nature-2025",
+              "quote": "demonstrating dual-rail photonic qubits with 99.98% ± 0.01% state preparation and measurement fidelity",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "two-qubit fusion fidelity",
+          "value": 99.22,
+          "unit": "%",
+          "definition": "Nature 2025: two-qubit fusion fidelity 99.22% ± 0.12%, conditional on photon detection and not accounting for loss.",
+          "as_of": "2025-02-26",
+          "evidence": [
+            {
+              "source": "src:psiq-nature-2025",
+              "quote": "two-qubit fusion with 99.22% ± 0.12% fidelity and a chip-to-chip qubit interconnect with 99.72% ± 0.04% fidelity, conditional on photon detection and not accounting for loss",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "chip-to-chip qubit interconnect fidelity",
+          "value": 99.72,
+          "unit": "%",
+          "definition": "Nature 2025: chip-to-chip qubit interconnect fidelity 99.72% ± 0.04%, conditional on photon detection and not accounting for loss.",
+          "as_of": "2025-02-26",
+          "evidence": [
+            {
+              "source": "src:psiq-nature-2025",
+              "quote": "two-qubit fusion with 99.22% ± 0.12% fidelity and a chip-to-chip qubit interconnect with 99.72% ± 0.04% fidelity, conditional on photon detection and not accounting for loss",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:psiq-omega-pr",
+          "quote": "PsiQuantum today announces Omega, a quantum photonic chipset purpose-built for utility-scale quantum computing.",
+          "locator": "paragraph 1",
+          "supports": "existence, date"
+        },
+        {
+          "source": "src:psiq-omega-pr",
+          "quote": "Designed by PsiQuantum and manufactured at GlobalFoundries in New York, the new chipset integrates these advances into high-volume, industrially-proven processes",
+          "locator": "body",
+          "supports": "existence"
+        },
+        {
+          "source": "src:psiq-nature-2025",
+          "quote": "We benchmark a set of monolithically integrated silicon-photonics-based modules to generate, manipulate, network and detect heralded photonic qubits",
+          "locator": "Abstract",
+          "supports": "modality (dual-rail photonic qubits)"
+        }
+      ]
+    },
+    {
+      "id": "sys:psiquantum-brisbane-utility-scale",
+      "name": "PsiQuantum Queensland system (Moreton Bay Central)",
+      "operator": "co:psiquantum",
+      "modality": "photonic",
+      "status": "announced",
+      "announced": "2024-04-30",
+      "site": "site:psiquantum-moreton-bay-central",
+      "evidence": [
+        {
+          "source": "src:psiq-australia-2024",
+          "quote": "PsiQuantum today announced it will build the world’s first utility-scale quantum computer at a strategically located site near Brisbane Airport in Brisbane, Australia.",
+          "locator": "paragraph 1",
+          "supports": "existence, announced (original site)"
+        },
+        {
+          "source": "src:au-pm-psiq-2024",
+          "quote": "The Australian and Queensland Governments will invest almost $1 billion into frontier technology company PsiQuantum to build the world’s first fault tolerant quantum computer in Brisbane.",
+          "locator": "paragraph 2",
+          "supports": "existence (government release)"
+        },
+        {
+          "source": "src:qld-psiq-2024",
+          "quote": "build and operate successive generations of its Fault Tolerant Quantum Computer (FTQC) in Brisbane",
+          "locator": "list of commitments",
+          "supports": "existence (government release)"
+        },
+        {
+          "source": "src:psiq-moreton-bay-site",
+          "quote": "PsiQuantum announced today that the company will anchor its project to build the world’s first utility-scale quantum computer at Moreton Bay Central.",
+          "locator": "paragraph 1",
+          "supports": "site (relocated 2026)"
+        },
+        {
+          "source": "src:psiq-au-groundbreaking",
+          "quote": "PsiQuantum will then proceed with commissioning the cryoplant and site before then beginning to accept cryogenic cabinets, which will be filled with photonic quantum chips and networked together with standard optical fiber.",
+          "locator": "paragraph 4",
+          "supports": "status (not yet installed)"
+        }
+      ]
+    },
+    {
+      "id": "sys:psiquantum-chicago-utility-scale",
+      "name": "PsiQuantum Chicago system (IQMP)",
+      "operator": "co:psiquantum",
+      "modality": "photonic",
+      "status": "announced",
+      "announced": "2024-07-25",
+      "site": "site:psiquantum-iqmp-chicago",
+      "evidence": [
+        {
+          "source": "src:psiq-illinois-2024",
+          "quote": "PsiQuantum today announced a far-reaching partnership with the State of Illinois, Cook County, and the City of Chicago to build the first US-based utility-scale, fault-tolerant quantum computer at the former US Steel South Works property in the City of Chicago.",
+          "locator": "paragraph 1",
+          "supports": "existence, site"
+        },
+        {
+          "source": "src:psiq-chicago-groundbreaking",
+          "quote": "During the initial construction phase at the IQMP—alongside development partners Related Midwest and CRG, construction partner Clayco, lead designer Lamar Johnson Collaborative, advisor Croke Fairchild, and financing provided by Blue Owl Capital funds—PsiQuantum will build its largest intermediate-scale test system.",
+          "locator": "paragraph 2",
+          "supports": "status (construction phase)"
+        }
+      ]
+    },
+    {
+      "id": "sys:xanadu-borealis",
+      "name": "Borealis",
+      "operator": "co:xanadu",
+      "modality": "photonic",
+      "submodality": "boson_sampling",
+      "status": "retired",
+      "announced": "2022-06-01",
+      "online_since": "2022-06-01",
+      "physical_qubits": {
+        "value": 216,
+        "as_of": "2022-06-01",
+        "note": "Xanadu counts 216 squeezed-state qubits (Nature: 216 squeezed modes); these are modes of a Gaussian boson sampler, not gate-model qubits.",
+        "evidence": [
+          {
+            "source": "src:xanadu-borealis-pr",
+            "quote": "Xanadu has made Borealis, a programmable photonic quantum computer with 216 squeezed-state qubits that outperforms the best classical supercomputers at a specific task, available to people everywhere via Xanadu Cloud and Amazon Braket.",
+            "locator": "paragraph 1",
+            "supports": "qubits, existence"
+          },
+          {
+            "source": "src:xanadu-borealis-nature-2022",
+            "quote": "We carry out Gaussian boson sampling 4 (GBS) on 216 squeezed modes entangled with three-dimensional connectivity 5 , using a time-multiplexed and photon-number-resolving architecture.",
+            "locator": "Abstract",
+            "supports": "qubits (as modes)"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:xanadu-borealis-pr",
+          "quote": "Xanadu has made Borealis, a programmable photonic quantum computer with 216 squeezed-state qubits that outperforms the best classical supercomputers at a specific task, available to people everywhere via Xanadu Cloud and Amazon Braket.",
+          "locator": "paragraph 1",
+          "supports": "existence, status (2022)"
+        },
+        {
+          "source": "src:braket-sf-plugin-readme",
+          "quote": "As of 06/02/2023, Xanadu's Borealis device is no longer available on Amazon Braket.",
+          "locator": "README banner",
+          "supports": "status (withdrawn from Amazon Braket)"
+        }
+      ]
+    },
+    {
+      "id": "sys:xanadu-aurora",
+      "name": "Aurora",
+      "operator": "co:xanadu",
+      "modality": "photonic",
+      "submodality": "continuous_variable",
+      "status": "online",
+      "announced": "2025-01-22",
+      "physical_qubits": {
+        "value": 12,
+        "as_of": "2025-01-22",
+        "note": "Nature: 12 physical qubit modes at each clock cycle; Xanadu describes it as a 12 qubit machine built from 35 photonic chips across four server racks, and the paper calls it a (sub-performant) scale model.",
+        "evidence": [
+          {
+            "source": "src:xanadu-aurora-nature-2025",
+            "quote": "including 84 squeezers 6 and 36 photon-number-resolving detectors furnishing 12 physical qubit modes at each clock cycle",
+            "locator": "Abstract",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:xanadu-aurora-pr",
+            "quote": "This 12 qubit machine, known as Aurora, consists of 35 photonic chips and a combined 13 km of fiber optics all operating at room temperature.",
+            "locator": "paragraph 1",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:xanadu-aurora-pr",
+          "quote": "Xanadu has achieved a world-first in the quantum computing industry by successfully building a universal photonic quantum computer consisting of four modular and independent server racks that are photonically interconnected and networked together.",
+          "locator": "paragraph 1",
+          "supports": "existence, status (built)"
+        },
+        {
+          "source": "src:xanadu-aurora-nature-2025",
+          "quote": "Here we construct a (sub-performant) scale model of a quantum computer using 35 photonic chips to demonstrate its functionality and feasibility.",
+          "locator": "Abstract",
+          "supports": "existence, peer review"
+        },
+        {
+          "source": "src:xanadu-aurora-nature-2025",
+          "quote": "We use this machine, which we name Aurora, to synthesize a cluster state 7 entangled across separate chips with 86.4 billion modes",
+          "locator": "Abstract",
+          "supports": "modality (cluster state)"
+        }
+      ]
+    },
+    {
+      "id": "sys:quandela-ascella",
+      "name": "Ascella",
+      "operator": "co:quandela",
+      "modality": "photonic",
+      "status": "online",
+      "announced": "2022-11-15",
+      "physical_qubits": {
+        "value": 6,
+        "as_of": "2024-03-26",
+        "note": "Nature Photonics states six photonic qubits; the MosaiQ page labels this configuration MosaiQ 6.",
+        "evidence": [
+          {
+            "source": "src:quandela-nature-ascella-2024",
+            "quote": "Ascella, which is based on six photonic qubits generated by an on-demand quantum dot source.",
+            "locator": "Article body",
+            "supports": "qubits, modality"
+          },
+          {
+            "source": "src:quandela-mosaiq",
+            "quote": "Ascella – MosaiQ 6 Belenos – mosaiQ 12 Canopus – MosaiQ 24",
+            "locator": "MosaiQ product page, configurations",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "metrics": [
+        {
+          "name": "one-qubit gate fidelity",
+          "value": 99.6,
+          "unit": "%",
+          "definition": "Nature Photonics 2024 abstract: one-qubit gate fidelity on the Ascella prototype, stated together with the two- and three-qubit figures as 99.6 ± 0.1%.",
+          "as_of": "2024-03-26",
+          "evidence": [
+            {
+              "source": "src:quandela-nature-ascella-2024",
+              "quote": "we benchmark one-, two- and three-qubit gates with state-of-the art fidelities of 99.6 ± 0.1%, 93.8 ± 0.6% and 86 ± 1.2%, respectively.",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "two-qubit gate fidelity",
+          "value": 93.8,
+          "unit": "%",
+          "definition": "Nature Photonics 2024 abstract: two-qubit gate fidelity on the Ascella prototype, stated as 93.8 ± 0.6%.",
+          "as_of": "2024-03-26",
+          "evidence": [
+            {
+              "source": "src:quandela-nature-ascella-2024",
+              "quote": "we benchmark one-, two- and three-qubit gates with state-of-the art fidelities of 99.6 ± 0.1%, 93.8 ± 0.6% and 86 ± 1.2%, respectively.",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "three-qubit gate fidelity",
+          "value": 86,
+          "unit": "%",
+          "definition": "Nature Photonics 2024 abstract: three-qubit gate fidelity on the Ascella prototype, stated as 86 ± 1.2%.",
+          "as_of": "2024-03-26",
+          "evidence": [
+            {
+              "source": "src:quandela-nature-ascella-2024",
+              "quote": "we benchmark one-, two- and three-qubit gates with state-of-the art fidelities of 99.6 ± 0.1%, 93.8 ± 0.6% and 86 ± 1.2%, respectively.",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:quandela-ascella-page",
+          "quote": "The first functional Photonic Quantum computer, delivered in 2022",
+          "locator": "Ascella product page",
+          "supports": "existence, date"
+        },
+        {
+          "source": "src:quandela-nature-ascella-2024",
+          "quote": "Ascella, which is based on six photonic qubits generated by an on-demand quantum dot source.",
+          "locator": "Article body",
+          "supports": "qubits, modality"
+        },
+        {
+          "source": "src:quandela-cloud-2022",
+          "quote": "Quandela launches the first European online service giving access to its quantum computers assembled and hosted in its Massy premises.",
+          "locator": "Dateline paragraph, 15 November 2022",
+          "supports": "existence, location, date"
+        }
+      ]
+    },
+    {
+      "id": "sys:quandela-belenos",
+      "name": "Belenos",
+      "operator": "co:quandela",
+      "modality": "photonic",
+      "status": "online",
+      "announced": "2025-05-22",
+      "online_since": "2025-05-22",
+      "site": "site:quandela-massy-hq",
+      "physical_qubits": {
+        "value": 12,
+        "as_of": "2025-05-22",
+        "note": "Quandela's 22 May 2025 release: 12 photonic qubits.",
+        "evidence": [
+          {
+            "source": "src:quandela-belenos-2025",
+            "quote": "with its 12 photonic qubits, represents a major technological advance compared with the previous 6-qubit version launched at the end of 2022.",
+            "locator": "Body, qubit count",
+            "supports": "qubits"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "Paris, May 22nd 2025 – Quandela, the leader in quantum computing, announces the launch of Belenos, the world’s most powerful photonic quantum computer. This is a key milestone in the company’s Roadmap 2030",
+          "locator": "Dateline paragraph, 22 May 2025",
+          "supports": "existence, date"
+        },
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "Based at Quandela’s headquarters in Massy near Paris, Belenos is now available in the cloud",
+          "locator": "Body, location and access",
+          "supports": "location, status"
+        },
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "with its 12 photonic qubits, represents a major technological advance compared with the previous 6-qubit version launched at the end of 2022.",
+          "locator": "Body, qubit count",
+          "supports": "qubits"
+        }
+      ]
+    },
+    {
+      "id": "sys:quandela-lucy",
+      "name": "Lucy",
+      "operator": "co:quandela",
+      "modality": "photonic",
+      "status": "online",
+      "announced": "2025-10-23",
+      "physical_qubits": {
+        "value": 12,
+        "as_of": "2025-10-23",
+        "note": "Delivery release: 12-qubit universal digital photonic quantum computer. The same release said the system was in acceptance before an opening at the beginning of 2026; no later opening notice was fetched.",
+        "evidence": [
+          {
+            "source": "src:quandela-lucy-2025",
+            "quote": "today announced the delivery of Lucy, a 12-qubit universal digital photonic quantum computer, to the Très Grand Centre de calcul (TGCC) of CEA.",
+            "locator": "Dateline paragraph, 23 October 2025",
+            "supports": "existence, qubits, date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:quandela-lucy-2025",
+          "quote": "today announced the delivery of Lucy, a 12-qubit universal digital photonic quantum computer, to the Très Grand Centre de calcul (TGCC) of CEA.",
+          "locator": "Dateline paragraph, 23 October 2025",
+          "supports": "existence, qubits, date"
+        },
+        {
+          "source": "src:quandela-lucy-2025",
+          "quote": "The system has entered an acceptance phase before its opening to European researchers at the beginning of 2026.",
+          "locator": "Body, acceptance",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "sys:quandela-canopus",
+      "name": "Canopus",
+      "operator": "co:quandela",
+      "modality": "photonic",
+      "status": "announced",
+      "announced": "2025-05-22",
+      "physical_qubits": {
+        "value": 24,
+        "as_of": "2024-09-12",
+        "note": "MosaiQ page labels Canopus as MosaiQ 24, in a list that also offers machines from 6 up to 24 qubits. The May 2025 Belenos release says Canopus will double the qubit count of the 12-qubit generation.",
+        "evidence": [
+          {
+            "source": "src:quandela-mosaiq",
+            "quote": "Ascella – MosaiQ 6 Belenos – mosaiQ 12 Canopus – MosaiQ 24",
+            "locator": "MosaiQ product page, configurations",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:quandela-mosaiq",
+            "quote": "Order quantum computers from 6 up to 24 qubits now",
+            "locator": "MosaiQ product page",
+            "supports": "qubits"
+          },
+          {
+            "source": "src:quandela-belenos-2025",
+            "quote": "The next generation, called Canopus, expected in just one year’s time, will double the number of qubits once more",
+            "locator": "Body, next generation",
+            "supports": "existence"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:quandela-canopus",
+          "quote": "Canopus will be available to our Premium customers and partners through Quandela cloud platform in 2026.",
+          "locator": "Canopus product page",
+          "supports": "status, date"
+        },
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "The next generation, called Canopus, expected in just one year’s time, will double the number of qubits once more",
+          "locator": "Body, next generation",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "sys:orca-pt-1",
+      "name": "PT-1",
+      "operator": "co:orca",
+      "modality": "photonic",
+      "status": "online",
+      "announced": "2024-03-18",
+      "evidence": [
+        {
+          "source": "src:orca-pt1-pr",
+          "quote": "the ORCA PT-1 photonic quantum processor, which provides unique capabilities for hybrid quantum/classical algorithms.",
+          "locator": "Body, 18 Mar 2024",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:orca-pt2-pr",
+          "quote": "the PT-1, which has deployed seven on-premises systems",
+          "locator": "Opening paragraph, 29 Oct 2024",
+          "supports": "status"
+        },
+        {
+          "source": "src:orca-pt2-page",
+          "quote": "Following the successful delivery of the PT-1 system to the NQCC, ORCA will next deliver the NQCC Photonic Testbed system in Q1 2025.",
+          "locator": "PT-2 product page, NQCC testbed",
+          "supports": "target, status"
+        }
+      ]
+    },
+    {
+      "id": "sys:orca-pt-2",
+      "name": "PT-2",
+      "operator": "co:orca",
+      "modality": "photonic",
+      "status": "online",
+      "announced": "2024-10-29",
+      "evidence": [
+        {
+          "source": "src:orca-pt2-pr",
+          "quote": "announced the unveiling of the PT-2, the latest advancement in its PT Series of photonic quantum systems.",
+          "locator": "Opening paragraph, 29 Oct 2024",
+          "supports": "existence, modality, date"
+        },
+        {
+          "source": "src:orca-toyota-2026",
+          "quote": "deployment of its PT Series photonic quantum computer to a major enterprise customer in Japan",
+          "locator": "Opening paragraph, 16 June 2026",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:orca-toyota-2026",
+          "quote": "ORCA PT-2 system",
+          "locator": "Body, system name",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "sys:orca-pt-3",
+      "name": "PT-3",
+      "operator": "co:orca",
+      "modality": "photonic",
+      "status": "announced",
+      "evidence": [
+        {
+          "source": "src:orca-contact",
+          "quote": "Be first in line for PT-3 Register your interest for the October 2026 launch",
+          "locator": "Contact page",
+          "supports": "existence, date"
+        }
+      ]
+    },
+    {
+      "id": "sys:ustc-jiuzhang",
+      "name": "Jiuzhang",
+      "operator": "co:ustc",
+      "modality": "photonic",
+      "submodality": "boson_sampling",
+      "status": "online",
+      "announced": "2020-12-18",
+      "metrics": [
+        {
+          "name": "output photon clicks (maximum)",
+          "value": 76,
+          "unit": "",
+          "definition": "Science 2020 abstract: maximum output photon clicks generated by the photonic quantum computer Jiuzhang.",
+          "as_of": "2020-12-18",
+          "evidence": [
+            {
+              "source": "src:sci-jiuzhang-2020",
+              "quote": "The photonic quantum computer, Jiuzhang, generates up to 76 output photon clicks",
+              "locator": "Abstract",
+              "supports": "existence, metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:sci-jiuzhang-2020",
+          "quote": "The photonic quantum computer, Jiuzhang, generates up to 76 output photon clicks",
+          "locator": "Abstract",
+          "supports": "existence, metric"
+        },
+        {
+          "source": "src:sci-jiuzhang-2020",
+          "quote": "We performed Gaussian boson sampling by sending 50 indistinguishable single-mode squeezed states into a 100-mode",
+          "locator": "Abstract",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "sys:ustc-jiuzhang-2-0",
+      "name": "Jiuzhang 2.0",
+      "operator": "co:ustc",
+      "modality": "photonic",
+      "submodality": "boson_sampling",
+      "status": "online",
+      "announced": "2021-07-05",
+      "metrics": [
+        {
+          "name": "detection events (maximum)",
+          "value": 113,
+          "unit": "",
+          "definition": "Preprint abstract: maximum detection events in the Jiuzhang 2.0 Gaussian boson sampling experiment.",
+          "as_of": "2021-07-05",
+          "evidence": [
+            {
+              "source": "src:arxiv-2106.15534",
+              "quote": "up to 113 detection events out of a 144-mode photonic circuit",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        },
+        {
+          "name": "photonic circuit modes",
+          "value": 144,
+          "unit": "",
+          "definition": "Preprint abstract: mode count of the photonic circuit in the Jiuzhang 2.0 experiment.",
+          "as_of": "2021-07-05",
+          "evidence": [
+            {
+              "source": "src:arxiv-2106.15534",
+              "quote": "up to 113 detection events out of a 144-mode photonic circuit",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:arxiv-2106.15534",
+          "quote": "The photonic quantum computer, Jiuzhang 2.0",
+          "locator": "Abstract",
+          "supports": "existence"
+        },
+        {
+          "source": "src:arxiv-2106.15534",
+          "quote": "up to 113 detection events out of a 144-mode photonic circuit",
+          "locator": "Abstract",
+          "supports": "metric"
+        }
+      ]
+    },
+    {
+      "id": "sys:ustc-jiuzhang-3-0",
+      "name": "Jiuzhang 3.0",
+      "operator": "co:ustc",
+      "modality": "photonic",
+      "submodality": "boson_sampling",
+      "status": "online",
+      "announced": "2023-09-01",
+      "metrics": [
+        {
+          "name": "photon-click events (maximum)",
+          "value": 255,
+          "unit": "",
+          "definition": "Preprint abstract: maximum photon-click events registered by Jiuzhang 3.0 with pseudo-photon-number-resolving detection.",
+          "as_of": "2023-09-01",
+          "evidence": [
+            {
+              "source": "src:arxiv-2304.12240",
+              "quote": "register up to 255 photon-click events",
+              "locator": "Abstract",
+              "supports": "metric"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "src:arxiv-2304.12240",
+          "quote": "our quantum computer, Jiuzhang 3.0, takes only 1.27 us",
+          "locator": "Abstract",
+          "supports": "existence, metric"
+        },
+        {
+          "source": "src:arxiv-2304.12240",
+          "quote": "register up to 255 photon-click events",
+          "locator": "Abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:arxiv-2304.12240",
+          "quote": "In the quantum computational advantage",
+          "locator": "Abstract",
+          "supports": "claim"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms:psiquantum-omega-nature-2025",
+      "orgs": [
+        "co:psiquantum"
+      ],
+      "systems": [
+        "sys:psiquantum-omega"
+      ],
+      "date": "2025-02-26",
+      "category": "fidelity",
+      "claim": "PsiQuantum reports silicon-photonics modules made in a 300-mm foundry flow with dual-rail qubit SPAM fidelity of 99.98%, Hong–Ou–Mandel visibility of 99.50%, two-qubit fusion fidelity of 99.22% and chip-to-chip interconnect fidelity of 99.72%, conditional on photon detection and not accounting for loss.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-08820-7",
+      "arxiv": "2404.17570",
+      "evidence": [
+        {
+          "source": "src:psiq-nature-2025",
+          "quote": "demonstrating dual-rail photonic qubits with 99.98% ± 0.01% state preparation and measurement fidelity, Hong–Ou–Mandel (HOM) quantum interference between independent photon sources with 99.50% ± 0.25% visibility, two-qubit fusion with 99.22% ± 0.12% fidelity and a chip-to-chip qubit interconnect with 99.72% ± 0.04% fidelity, conditional on photon detection and not accounting for loss.",
+          "locator": "Abstract",
+          "supports": "metrics, peer review"
+        },
+        {
+          "source": "src:psiq-nature-2025",
+          "quote": "Our baseline quantum photonic technology stack was developed in partnership with GlobalFoundries and is fabricated in their 300-mm, state-of-the-art, high-volume semiconductor foundry.",
+          "locator": "Technology stack and building blocks",
+          "supports": "manufacturing"
+        },
+        {
+          "source": "src:arxiv-2404.17570",
+          "quote": "Here we introduce a manufacturable platform for quantum computing with photons.",
+          "locator": "arXiv abstract",
+          "supports": "preprint"
+        }
+      ]
+    },
+    {
+      "id": "ms:psiquantum-chicago-groundbreaking",
+      "orgs": [
+        "co:psiquantum"
+      ],
+      "systems": [
+        "sys:psiquantum-chicago-utility-scale"
+      ],
+      "date": "2025-09-30",
+      "category": "other",
+      "claim": "PsiQuantum broke ground on its site at the Illinois Quantum and Microelectronics Park in Chicago; the company describes an initial construction phase that includes its largest intermediate-scale test system.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:psiq-chicago-groundbreaking",
+          "quote": "PsiQuantum today broke ground on the company’s site at the Illinois Quantum and Microelectronics Park (IQMP) in Chicago, where America’s first million-qubit scale, fault-tolerant quantum computer will be built and deployed.",
+          "locator": "paragraph 1",
+          "supports": "event"
+        },
+        {
+          "source": "src:psiq-chicago-groundbreaking",
+          "quote": "September 30, 2025",
+          "locator": "dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:psiq-chicago-groundbreaking",
+          "quote": "PsiQuantum will build its largest intermediate-scale test system.",
+          "locator": "paragraph 2",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:psiquantum-moreton-bay-groundbreaking",
+      "orgs": [
+        "co:psiquantum"
+      ],
+      "systems": [
+        "sys:psiquantum-brisbane-utility-scale"
+      ],
+      "date": "2026-06-18",
+      "category": "other",
+      "claim": "PsiQuantum broke ground and started construction on its facility at Moreton Bay Central, Queensland, after announcing in May 2026 that it had moved the project there from the site near Brisbane Airport named in 2024.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:psiq-au-groundbreaking",
+          "quote": "MORETON BAY, QUEENSLAND — 18 June 2026 — PsiQuantum today broke ground and started construction on its facility at Moreton Bay Central",
+          "locator": "dateline, paragraph 1",
+          "supports": "event, date"
+        },
+        {
+          "source": "src:psiq-moreton-bay-site",
+          "quote": "PsiQuantum appreciates the collaboration and partnership with the Brisbane Airport Corporation following the company’s 2024 announcement that it would build the world’s first utility-scale quantum computer in Brisbane.",
+          "locator": "body",
+          "supports": "site change"
+        }
+      ]
+    },
+    {
+      "id": "ms:xanadu-borealis-gbs-2022",
+      "orgs": [
+        "co:xanadu"
+      ],
+      "systems": [
+        "sys:xanadu-borealis"
+      ],
+      "date": "2022-06-01",
+      "category": "computational_task",
+      "claim": "Xanadu reports Gaussian boson sampling on 216 squeezed modes with Borealis, estimating that the best available algorithms and supercomputers would need more than 9,000 years per sample versus 36 μs on Borealis, and states this is “quantum computational advantage”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-022-04725-x",
+      "evidence": [
+        {
+          "source": "src:xanadu-borealis-nature-2022",
+          "quote": "Here we report quantum computational advantage using Borealis, a photonic processor offering dynamic programmability on all gates implemented.",
+          "locator": "Abstract",
+          "supports": "claim, peer review"
+        },
+        {
+          "source": "src:xanadu-borealis-nature-2022",
+          "quote": "We carry out Gaussian boson sampling 4 (GBS) on 216 squeezed modes entangled with three-dimensional connectivity 5 , using a time-multiplexed and photon-number-resolving architecture.",
+          "locator": "Abstract",
+          "supports": "task"
+        },
+        {
+          "source": "src:xanadu-borealis-nature-2022",
+          "quote": "On average, it would take more than 9,000 years for the best available algorithms and supercomputers to produce, using exact methods, a single sample from the programmed distribution, whereas Borealis requires only 36 μs.",
+          "locator": "Abstract",
+          "supports": "numbers"
+        }
+      ]
+    },
+    {
+      "id": "ms:xanadu-aurora-2025",
+      "orgs": [
+        "co:xanadu"
+      ],
+      "systems": [
+        "sys:xanadu-aurora"
+      ],
+      "date": "2025-01-22",
+      "category": "networking",
+      "claim": "Xanadu reports Aurora, a rack-based scale model built from 35 photonic chips networked over fibre that furnishes 12 physical qubit modes per clock cycle, synthesizes a cluster state across chips with 86.4 billion modes, and implements a distance-2 repetition code with real-time decoding.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-024-08406-9",
+      "evidence": [
+        {
+          "source": "src:xanadu-aurora-nature-2025",
+          "quote": "Here we construct a (sub-performant) scale model of a quantum computer using 35 photonic chips to demonstrate its functionality and feasibility.",
+          "locator": "Abstract",
+          "supports": "claim, peer review"
+        },
+        {
+          "source": "src:xanadu-aurora-nature-2025",
+          "quote": "including 84 squeezers 6 and 36 photon-number-resolving detectors furnishing 12 physical qubit modes at each clock cycle",
+          "locator": "Abstract",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:xanadu-aurora-nature-2025",
+          "quote": "We use this machine, which we name Aurora, to synthesize a cluster state 7 entangled across separate chips with 86.4 billion modes, and demonstrate its capability of implementing the foliated distance-2 repetition code with real-time decoding.",
+          "locator": "Abstract",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:xanadu-gkp-on-chip-2025",
+      "orgs": [
+        "co:xanadu"
+      ],
+      "date": "2025-06-04",
+      "category": "other",
+      "claim": "Xanadu reports generating Gottesman–Kitaev–Preskill (GKP) qubit states from an integrated silicon nitride chip on a 300-mm wafer platform, with at least four resolvable peaks in both quadratures and a 3 × 3 grid of negative Wigner function regions; the paper states further loss reduction is needed for the target regime.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41586-025-09044-5",
+      "evidence": [
+        {
+          "source": "src:xanadu-gkp-nature-2025",
+          "quote": "Here we use an ultra-low-loss integrated photonic chip fabricated on a customized multilayer silicon nitride 300-mm wafer platform, coupled over fibre with high-efficiency photon number resolving detectors, to generate GKP qubit states.",
+          "locator": "Abstract",
+          "supports": "claim, peer review"
+        },
+        {
+          "source": "src:xanadu-gkp-nature-2025",
+          "quote": "including at least four resolvable peaks in both p and q quadratures, and a clear lattice structure of negative Wigner function regions, in this case a 3 × 3 grid.",
+          "locator": "Abstract",
+          "supports": "numbers"
+        },
+        {
+          "source": "src:xanadu-gkp-nature-2025",
+          "quote": "We also show that our GKP states show sufficient structure to indicate that the devices used to make them could, after further reduction in optical losses, yield states for the fault-tolerant regime.",
+          "locator": "Abstract",
+          "supports": "caveat"
+        }
+      ]
+    },
+    {
+      "id": "ms:xanadu-packaging-facility-2025",
+      "orgs": [
+        "co:xanadu"
+      ],
+      "date": "2025-06-23",
+      "category": "manufacturing",
+      "claim": "Xanadu opened a $10M advanced photonic packaging facility at its Toronto headquarters, which it states is also open to external customers.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:xanadu-packaging-pr",
+          "quote": "Xanadu, a world leader in photonic quantum computing, has opened a $10M world-leading advanced photonic packaging facility in Toronto.",
+          "locator": "paragraph 1",
+          "supports": "claim"
+        },
+        {
+          "source": "src:xanadu-packaging-pr",
+          "quote": "now open to external customers including academic institutions, startups, and industry leaders developing next-generation photonic and quantum devices.",
+          "locator": "paragraph 2",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:quandela-cloud-2022",
+      "orgs": [
+        "co:quandela"
+      ],
+      "date": "2022-11-15",
+      "category": "system_launch",
+      "claim": "Quandela reports an online service giving access to photonic processors, assembled and hosted in its Massy premises, for calculations of up to 5 photonic qubits.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:quandela-cloud-2022",
+          "quote": "Quandela launches the first European online service giving access to its quantum computers assembled and hosted in its Massy premises.",
+          "locator": "Dateline paragraph, 15 November 2022",
+          "supports": "existence, location, date"
+        },
+        {
+          "source": "src:quandela-cloud-2022",
+          "quote": "access several photonic processors for calculations of up to 5 photonic qubits.",
+          "locator": "Dateline paragraph, 15 November 2022",
+          "supports": "qubits"
+        }
+      ]
+    },
+    {
+      "id": "ms:quandela-ovh-mosaiq-2023",
+      "orgs": [
+        "co:quandela"
+      ],
+      "date": "2023-10-23",
+      "category": "system_launch",
+      "claim": "Quandela reports delivery of its first quantum computer, MosaiQ, to an OVHcloud datacenter.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:quandela-ovh-2023",
+          "quote": "has delivered its first quantum computer, MosaiQ, to one of OVHcloud datacenters.",
+          "locator": "Dateline paragraph, 23 October 2023",
+          "supports": "existence, date"
+        }
+      ]
+    },
+    {
+      "id": "ms:quandela-ascella-nature-2024",
+      "orgs": [
+        "co:quandela"
+      ],
+      "systems": [
+        "sys:quandela-ascella"
+      ],
+      "date": "2024-03-26",
+      "category": "fidelity",
+      "claim": "Quandela reports Ascella, a prototype based on six photonic qubits, and the Nature Photonics paper states one-, two- and three-qubit gate fidelities of 99.6 ± 0.1%, 93.8 ± 0.6% and 86 ± 1.2%.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1038/s41566-024-01403-4",
+      "evidence": [
+        {
+          "source": "src:quandela-nature-ascella-2024",
+          "quote": "Ascella, which is based on six photonic qubits generated by an on-demand quantum dot source.",
+          "locator": "Article body",
+          "supports": "qubits, modality"
+        },
+        {
+          "source": "src:quandela-nature-ascella-2024",
+          "quote": "we benchmark one-, two- and three-qubit gates with state-of-the art fidelities of 99.6 ± 0.1%, 93.8 ± 0.6% and 86 ± 1.2%, respectively.",
+          "locator": "Abstract",
+          "supports": "metric"
+        }
+      ]
+    },
+    {
+      "id": "ms:quandela-belenos-2025",
+      "orgs": [
+        "co:quandela"
+      ],
+      "systems": [
+        "sys:quandela-belenos"
+      ],
+      "date": "2025-05-22",
+      "category": "qubit_count",
+      "claim": "Quandela reports the launch of Belenos, a photonic quantum computer with 12 photonic qubits, based at its Massy headquarters and available in the cloud.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "Paris, May 22nd 2025 – Quandela, the leader in quantum computing, announces the launch of Belenos, the world’s most powerful photonic quantum computer. This is a key milestone in the company’s Roadmap 2030",
+          "locator": "Dateline paragraph, 22 May 2025",
+          "supports": "existence, date"
+        },
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "with its 12 photonic qubits, represents a major technological advance compared with the previous 6-qubit version launched at the end of 2022.",
+          "locator": "Body, qubit count",
+          "supports": "qubits"
+        },
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "Based at Quandela’s headquarters in Massy near Paris, Belenos is now available in the cloud",
+          "locator": "Body, location and access",
+          "supports": "location, status"
+        }
+      ]
+    },
+    {
+      "id": "ms:quandela-lucy-2025",
+      "orgs": [
+        "co:quandela"
+      ],
+      "systems": [
+        "sys:quandela-lucy"
+      ],
+      "date": "2025-10-23",
+      "category": "system_launch",
+      "claim": "Quandela reports delivery of Lucy, a 12-qubit universal digital photonic quantum computer, to CEA's TGCC, and states the system had entered an acceptance phase before an opening at the beginning of 2026.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:quandela-lucy-2025",
+          "quote": "today announced the delivery of Lucy, a 12-qubit universal digital photonic quantum computer, to the Très Grand Centre de calcul (TGCC) of CEA.",
+          "locator": "Dateline paragraph, 23 October 2025",
+          "supports": "existence, qubits, date"
+        },
+        {
+          "source": "src:quandela-lucy-2025",
+          "quote": "The system has entered an acceptance phase before its opening to European researchers at the beginning of 2026.",
+          "locator": "Body, acceptance",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "ms:orca-pt1-demo-2024",
+      "orgs": [
+        "co:orca"
+      ],
+      "systems": [
+        "sys:orca-pt-1"
+      ],
+      "date": "2024-03-18",
+      "category": "computational_task",
+      "claim": "ORCA Computing reports a hybrid quantum/classical demonstration using the PT-1 photonic quantum processor.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:orca-pt1-pr",
+          "quote": "the ORCA PT-1 photonic quantum processor, which provides unique capabilities for hybrid quantum/classical algorithms.",
+          "locator": "Body, 18 Mar 2024",
+          "supports": "existence, modality"
+        }
+      ]
+    },
+    {
+      "id": "ms:orca-pt2-unveil-2024",
+      "orgs": [
+        "co:orca"
+      ],
+      "systems": [
+        "sys:orca-pt-2",
+        "sys:orca-pt-1"
+      ],
+      "date": "2024-10-29",
+      "category": "system_launch",
+      "claim": "ORCA Computing reports unveiling the PT-2 photonic quantum system and states that the PT-1 has deployed seven on-premises systems.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:orca-pt2-pr",
+          "quote": "announced the unveiling of the PT-2, the latest advancement in its PT Series of photonic quantum systems.",
+          "locator": "Opening paragraph, 29 Oct 2024",
+          "supports": "existence, modality, date"
+        },
+        {
+          "source": "src:orca-pt2-pr",
+          "quote": "the PT-1, which has deployed seven on-premises systems",
+          "locator": "Opening paragraph, 29 Oct 2024",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "ms:orca-dril-2026",
+      "orgs": [
+        "co:orca"
+      ],
+      "date": "2026-05-26",
+      "category": "system_launch",
+      "claim": "ORCA Computing reports participation in the Digital Realty Innovation Lab in London for its PT Series photonic quantum systems.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:orca-realty-2026",
+          "quote": "Digital Realty Innovation Lab (DRIL) in London",
+          "locator": "Opening paragraph, 26 May 2026",
+          "supports": "location"
+        },
+        {
+          "source": "src:orca-realty-2026",
+          "quote": "PT Series photonic quantum systems will operate",
+          "locator": "Body, PT Series at DRIL",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "ms:orca-japan-pt2-2026",
+      "orgs": [
+        "co:orca"
+      ],
+      "systems": [
+        "sys:orca-pt-2"
+      ],
+      "date": "2026-06-16",
+      "category": "system_launch",
+      "claim": "ORCA Computing reports deployment of a PT Series photonic quantum computer, identified in the release as a PT-2, to an enterprise customer in Japan with Toyota Tsusho.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:orca-toyota-2026",
+          "quote": "deployment of its PT Series photonic quantum computer to a major enterprise customer in Japan",
+          "locator": "Opening paragraph, 16 June 2026",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:orca-toyota-2026",
+          "quote": "ORCA PT-2 system",
+          "locator": "Body, system name",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-jiuzhang-2020",
+      "orgs": [
+        "co:ustc"
+      ],
+      "systems": [
+        "sys:ustc-jiuzhang"
+      ],
+      "date": "2020-12-18",
+      "category": "computational_task",
+      "claim": "The Science article reports the photonic quantum computer Jiuzhang, which it states generates up to 76 output photon clicks, and describes the sampling task as a candidate to demonstrate “quantum computational advantage”.",
+      "peer_review": "peer_reviewed",
+      "doi": "10.1126/science.abe8770",
+      "evidence": [
+        {
+          "source": "src:sci-jiuzhang-2020",
+          "quote": "The photonic quantum computer, Jiuzhang, generates up to 76 output photon clicks",
+          "locator": "Abstract",
+          "supports": "existence, metric"
+        },
+        {
+          "source": "src:sci-jiuzhang-2020",
+          "quote": "demonstrate the quantum computational advantage",
+          "locator": "Abstract",
+          "supports": "claim"
+        },
+        {
+          "source": "src:sci-jiuzhang-2020",
+          "quote": "We performed Gaussian boson sampling by sending 50 indistinguishable single-mode squeezed states into a 100-mode",
+          "locator": "Abstract",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-jiuzhang-2-2021",
+      "orgs": [
+        "co:ustc"
+      ],
+      "systems": [
+        "sys:ustc-jiuzhang-2-0"
+      ],
+      "date": "2021-07-05",
+      "category": "computational_task",
+      "claim": "USTC reports a Gaussian boson sampling experiment on the photonic quantum computer Jiuzhang 2.0 with up to 113 detection events from a 144-mode circuit, and the preprint refers to “quantum computational advantage” tests.",
+      "peer_review": "preprint",
+      "arxiv": "2106.15534",
+      "evidence": [
+        {
+          "source": "src:arxiv-2106.15534",
+          "quote": "up to 113 detection events out of a 144-mode photonic circuit",
+          "locator": "Abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:arxiv-2106.15534",
+          "quote": "The photonic quantum computer, Jiuzhang 2.0",
+          "locator": "Abstract",
+          "supports": "existence"
+        },
+        {
+          "source": "src:arxiv-2106.15534",
+          "quote": "quantum computational advantage",
+          "locator": "Abstract",
+          "supports": "claim"
+        }
+      ]
+    },
+    {
+      "id": "ms:ustc-jiuzhang-3-2023",
+      "orgs": [
+        "co:ustc"
+      ],
+      "systems": [
+        "sys:ustc-jiuzhang-3-0"
+      ],
+      "date": "2023-09-01",
+      "category": "computational_task",
+      "claim": "USTC reports Gaussian boson sampling on Jiuzhang 3.0 registering up to 255 photon-click events, and states that one ideal sample would take Frontier ~ 600 years while Jiuzhang 3.0 takes 1.27 us, in what the preprint calls the “quantum computational advantage” regime.",
+      "peer_review": "preprint",
+      "arxiv": "2304.12240",
+      "evidence": [
+        {
+          "source": "src:arxiv-2304.12240",
+          "quote": "register up to 255 photon-click events",
+          "locator": "Abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:arxiv-2304.12240",
+          "quote": "our quantum computer, Jiuzhang 3.0, takes only 1.27 us",
+          "locator": "Abstract",
+          "supports": "existence, metric"
+        },
+        {
+          "source": "src:arxiv-2304.12240",
+          "quote": "take ~ 600 years",
+          "locator": "Abstract",
+          "supports": "metric"
+        },
+        {
+          "source": "src:arxiv-2304.12240",
+          "quote": "In the quantum computational advantage",
+          "locator": "Abstract",
+          "supports": "claim"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:psiquantum-brisbane-operational-2027",
+      "org": "co:psiquantum",
+      "system": "sys:psiquantum-brisbane-utility-scale",
+      "target_date": "2027-12",
+      "statement": "PsiQuantum targets having its first “utility-scale” quantum computer site, then located near Brisbane Airport, operational by the end of 2027.",
+      "stated_on": "2024-04-30",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:psiq-australia-2024",
+          "quote": "PsiQuantum is on an aggressive plan to have the site operational by the end of 2027.",
+          "locator": "paragraph 1",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:psiq-australia-2024",
+          "quote": "PsiQuantum today announced it will build the world’s first utility-scale quantum computer at a strategically located site near Brisbane Airport in Brisbane, Australia.",
+          "locator": "paragraph 1",
+          "supports": "system, site"
+        }
+      ]
+    },
+    {
+      "id": "tgt:psiquantum-qld-cryoplant-2027",
+      "org": "co:psiquantum",
+      "system": "sys:psiquantum-brisbane-utility-scale",
+      "target_date": "2027-12",
+      "statement": "PsiQuantum targets delivery of the Linde-built cryoplant for its Moreton Bay Central site in the second half of 2027, after which it states it will commission the cryoplant and site before accepting cryogenic cabinets.",
+      "stated_on": "2026-06-18",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:psiq-au-groundbreaking",
+          "quote": "Ordered by PsiQuantum in late 2024, the cryoplant will be one of the largest ever built for quantum computing and is set to be delivered in the second half of 2027.",
+          "locator": "paragraph 4",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:psiq-au-groundbreaking",
+          "quote": "PsiQuantum will then proceed with commissioning the cryoplant and site before then beginning to accept cryogenic cabinets, which will be filled with photonic quantum chips and networked together with standard optical fiber.",
+          "locator": "paragraph 4",
+          "supports": "sequence"
+        },
+        {
+          "source": "src:psiq-au-groundbreaking",
+          "quote": "manufactured by Linde Engineering",
+          "locator": "paragraph 4",
+          "supports": "supplier"
+        }
+      ]
+    },
+    {
+      "id": "tgt:psiquantum-groundbreak-chicago-2025",
+      "org": "co:psiquantum",
+      "system": "sys:psiquantum-chicago-utility-scale",
+      "target_date": "2025-12",
+      "statement": "PsiQuantum targets breaking ground in 2025 on Quantum Compute Centers in Brisbane and Chicago (this entry tracks Chicago).",
+      "stated_on": "2025-02-26",
+      "status": "met",
+      "met_by": "ms:psiquantum-chicago-groundbreaking",
+      "evidence": [
+        {
+          "source": "src:psiq-omega-pr",
+          "quote": "Later this year, PsiQuantum will break ground on Quantum Compute Centers at both sites, where the first utility-scale, million-qubit systems will be deployed.",
+          "locator": "body",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:psiquantum-groundbreak-brisbane-2025",
+      "org": "co:psiquantum",
+      "system": "sys:psiquantum-brisbane-utility-scale",
+      "target_date": "2025-12",
+      "statement": "PsiQuantum targets breaking ground in 2025 on Quantum Compute Centers in Brisbane and Chicago (this entry tracks the Australian site).",
+      "stated_on": "2025-02-26",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:psiq-omega-pr",
+          "quote": "Later this year, PsiQuantum will break ground on Quantum Compute Centers at both sites, where the first utility-scale, million-qubit systems will be deployed.",
+          "locator": "body",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-1000-logical-2029",
+      "org": "co:xanadu",
+      "target_date": "2029",
+      "statement": "Xanadu targets up to 100,000 physical qubits and up to 1,000 “logical qubits” in its “fault-tolerant computer” by 2029.",
+      "stated_on": "2025-11-03",
+      "status": "revised",
+      "superseded_by": "tgt:xanadu-200-logical-2029",
+      "evidence": [
+        {
+          "source": "src:xanadu-spac-pr-2025",
+          "quote": "Xanadu is expected to have up to 100,000 physical qubits and up to 1,000 logical qubits in its fault-tolerant computer by 2029.",
+          "locator": "body",
+          "supports": "target, date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-200-logical-2029",
+      "org": "co:xanadu",
+      "target_date": "2029",
+      "statement": "Xanadu targets up to 200 “logical qubits” by 2029, using a concatenated scheme combining GKP encoding with qLDPC codes.",
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Up to 200 logical qubits by 2029, scaling to up to 500 by 2030 and 1,000+ by 2031",
+          "locator": "Scaling toward fault tolerance list",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Xanadu’s fault-tolerant architecture is built around a concatenated error-correction approach that combines GKP encoding with quantum low-density parity-check (qLDPC) codes.",
+          "locator": "Advancing error correction",
+          "supports": "code"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-1000-logical-2031",
+      "org": "co:xanadu",
+      "target_date": "2031",
+      "statement": "Xanadu targets up to 500 “logical qubits” by 2030 and 1,000+ by 2031.",
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Up to 200 logical qubits by 2029, scaling to up to 500 by 2030 and 1,000+ by 2031",
+          "locator": "Scaling toward fault tolerance list",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Xanadu’s fault-tolerant architecture is built around a concatenated error-correction approach that combines GKP encoding with quantum low-density parity-check (qLDPC) codes.",
+          "locator": "Advancing error correction",
+          "supports": "code"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-fault-tolerance-2029",
+      "org": "co:xanadu",
+      "target_date": "2029",
+      "statement": "Xanadu targets reaching “fault tolerance in 2028-2029” and a networked quantum data center by the end of the decade.",
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "that progress is what gives us confidence in reaching fault tolerance in 2028-2029,” said Christian Weedbrook, Founder and CEO of Xanadu.",
+          "locator": "CEO quote",
+          "supports": "target, date"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "as we scale from fault tolerance to a networked quantum data center by the end of the decade.",
+          "locator": "CEO quote",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-loss-indicator-2030",
+      "org": "co:xanadu",
+      "target_date": "2030",
+      "statement": "Xanadu targets reducing its key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+          "locator": "Reducing loss",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quandela-12-qubits-2023",
+      "org": "co:quandela",
+      "target_date": "2023-12-31",
+      "statement": "Quandela targets 12 qubits available online by the end of 2023.",
+      "stated_on": "2022-11-15",
+      "status": "missed",
+      "evidence": [
+        {
+          "source": "src:quandela-cloud-2022",
+          "quote": "Quandela is aiming for 12 qubits available online by the end of 2023",
+          "locator": "Dateline paragraph, 15 November 2022",
+          "supports": "target"
+        },
+        {
+          "source": "src:quandela-belenos-2025",
+          "quote": "with its 12 photonic qubits, represents a major technological advance compared with the previous 6-qubit version launched at the end of 2022.",
+          "locator": "Body, qubit count",
+          "supports": "qubits"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quandela-logical-2025",
+      "org": "co:quandela",
+      "target_date": "2025",
+      "statement": "Quandela targets the first logical (error-free) qubits by 2025.",
+      "stated_on": "2024-10-11",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quandela-roadmap-2024",
+          "quote": "aims to achieve the first logical (error-free) qubits in 2025, should obtain 50 of them by 2028.",
+          "locator": "Roadmap body, qubit targets",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quandela-50-logical-2028",
+      "org": "co:quandela",
+      "target_date": "2028",
+      "statement": "Quandela targets 50 logical (error-free) qubits by 2028.",
+      "stated_on": "2024-10-11",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quandela-roadmap-2024",
+          "quote": "aims to achieve the first logical (error-free) qubits in 2025, should obtain 50 of them by 2028.",
+          "locator": "Roadmap body, qubit targets",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quandela-hundreds-logical-2030",
+      "org": "co:quandela",
+      "target_date": "2030",
+      "statement": "Quandela targets operating at the scale of hundreds of “logical qubits” by 2030.",
+      "stated_on": "2024-10-11",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quandela-roadmap-2024",
+          "quote": "By 2030, Quandela aims to operate at the scale of hundreds of logical qubits.",
+          "locator": "Roadmap body, qubit targets",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quandela-fault-tolerant-2030",
+      "org": "co:quandela",
+      "target_date": "2030",
+      "statement": "Quandela targets “fault-tolerant” quantum computing by 2030.",
+      "stated_on": "2024-10-11",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:quandela-roadmap-2024",
+          "quote": "The company aims to achieve fault-tolerant quantum computing by 2030.",
+          "locator": "Dateline paragraph, 11 October 2024",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "tgt:orca-nqcc-testbed-2025",
+      "org": "co:orca",
+      "system_name": "NQCC Photonic Testbed",
+      "target_date": "2025-03",
+      "statement": "ORCA Computing targets delivery of the NQCC Photonic Testbed system by the first quarter of 2025.",
+      "stated_on": "2024-10-25",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:orca-pt2-page",
+          "quote": "Following the successful delivery of the PT-1 system to the NQCC, ORCA will next deliver the NQCC Photonic Testbed system in Q1 2025.",
+          "locator": "PT-2 product page, NQCC testbed",
+          "supports": "target, status"
+        }
+      ]
+    },
+    {
+      "id": "tgt:orca-pt3-2026-10",
+      "org": "co:orca",
+      "system": "sys:orca-pt-3",
+      "target_date": "2026-10",
+      "statement": "ORCA Computing targets the PT-3 launch by October 2026.",
+      "stated_on": "2026-09-28",
+      "status": "open",
+      "evidence": [
+        {
+          "source": "src:orca-contact",
+          "quote": "Be first in line for PT-3 Register your interest for the October 2026 launch",
+          "locator": "Contact page",
+          "supports": "existence, date"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "gaps": [
+    {
+      "topic": "PsiQuantum: current operational date for the Queensland utility-scale system",
+      "why": "The 2024 'operational by the end of 2027' statement referred to a site near Brisbane Airport. The May 2026 relocation release and the June 2026 Moreton Bay groundbreaking release give no updated operational date (only cryoplant delivery in H2 2027 followed by commissioning). No document states the 2027 target was revised or missed, so it is left 'open'.",
+      "would_need": "A PsiQuantum or Australian/Queensland government document restating the operational date for the Moreton Bay Central system."
+    },
+    {
+      "topic": "PsiQuantum: Australian groundbreaking target for 2025",
+      "why": "The February 2025 Omega release targeted groundbreaking at both sites 'later this year'; the Australian groundbreaking took place on 18 June 2026. No document explicitly calls the 2025 target missed or revised, so status is left 'open'.",
+      "would_need": "A PsiQuantum statement revising the Australian groundbreaking date."
+    },
+    {
+      "topic": "PsiQuantum: physical-qubit counts and dates for the Chicago system and intermediate-scale test systems",
+      "why": "Releases describe a 'million-qubit scale' system and an 'intermediate-scale test system' without a dated qubit count or completion date.",
+      "would_need": "A dated PsiQuantum roadmap with system sizes."
+    },
+    {
+      "topic": "PsiQuantum: Omega chipset photon loss figures as a system-level metric",
+      "why": "Nature 2025 fidelities are conditional on photon detection and do not account for loss; no system-level loss budget is published for a deployed machine.",
+      "would_need": "Published end-to-end loss / logical performance for a multi-chip system."
+    },
+    {
+      "topic": "Xanadu: SEC filings (20-F, 6-K) not quoted",
+      "why": "Xanadu (CIK 0002097163) files 20-F/6-K with the SEC, but www.sec.gov/Archives refused the declared User-Agent (HTTP 403) and the IR site investors.xanadu.ai refused/timed out. The roadmap release was read from a Wayback copy of the IR page.",
+      "would_need": "An accessible copy of the FY2025 20-F (filed 2026-04-01 / 2026-04-09) to source risk-factor and facility statements."
+    },
+    {
+      "topic": "Xanadu Borealis current status",
+      "why": "AWS documents that Borealis has not been available on Amazon Braket since 2023-06-02; no Xanadu document found stating whether Borealis was retired outright or remains on Xanadu Cloud. Status recorded as 'retired' on the basis of the Braket withdrawal.",
+      "would_need": "A Xanadu statement on Borealis retirement or current availability."
+    },
+    {
+      "topic": "Xanadu Aurora availability",
+      "why": "Aurora is described as built and operated in the Nature paper, but no document states it is available to external users or where (beyond Toronto HQ) it is installed.",
+      "would_need": "Xanadu documentation of Aurora's location and access."
+    },
+    {
+      "topic": "Xanadu: 'Qubit Factory' 2026-2027 milestone",
+      "why": "Coverage of the 31 Aug 2026 roadmap mentions a Qubit Factory built 2026-2027, but the release text retrieved only names it in the forward-looking-statement list without a date; the investor presentation was not reachable.",
+      "would_need": "The 31 Aug 2026 Technology Roadmap presentation slides."
+    },
+    {
+      "topic": "Resume",
+      "why": "On 2026-10-02 the file was resumed (cursor-grok-photonic-resume). PsiQuantum and Xanadu entries written on 2026-10-01 were kept. This pass added Quandela, ORCA Computing and USTC Jiuzhang. The analyst field was left as the original string.",
+      "would_need": "Counsel re-fetches every source, including the 2026-10-01 documents, which were not re-downloaded in this scratch folder."
+    },
+    {
+      "topic": "Photonic Inc.",
+      "why": "Photonic Inc. (spin-photon, Microsoft-related) is out of scope for this file and belongs in spin_topo_anneal.",
+      "would_need": "No photonic.json entry."
+    },
+    {
+      "topic": "Quandela: 12-qubit cloud target dated end of 2023",
+      "why": "The 15 November 2022 release aimed for 12 qubits online by the end of 2023. The 22 May 2025 Belenos release describes that machine as 12 photonic qubits and the end-of-2022 generation as 6-qubit. Status is recorded as missed on that basis; no Quandela document uses the word missed.",
+      "would_need": "A Quandela note if a 12-qubit processor was online before 2024."
+    },
+    {
+      "topic": "Quandela: 2025 logical (error-free) qubit target",
+      "why": "The 11 October 2024 roadmap aims for the first logical (error-free) qubits in 2025. No later Quandela document fetched reports that result, so the target stays open.",
+      "would_need": "A Quandela or journal paper naming the code and stating the result."
+    },
+    {
+      "topic": "Quandela: Canopus delivery",
+      "why": "The Canopus page fetched on 2026-10-02 still says Canopus will be available on the cloud in 2026. No launch release was found. Qubit count 24 is the MosaiQ page label 'MosaiQ 24' plus a May 2025 statement that Canopus will double the 12-qubit count, not a sentence that says 'Canopus has 24 qubits'.",
+      "would_need": "A dated Canopus launch release."
+    },
+    {
+      "topic": "Quandela: Lucy user opening and TGCC town",
+      "why": "The 23 October 2025 release delivers Lucy to CEA's TGCC and says opening to European researchers was planned for the beginning of 2026. It does not name the town. The system is not pinned to a TGCC street or town. Status is recorded online because the machine was delivered; public opening was not re-confirmed.",
+      "would_need": "A 2026 CEA, GENCI or Quandela notice that names the TGCC town and states whether Lucy is open to users."
+    },
+    {
+      "topic": "Quandela: OVHcloud datacenter city",
+      "why": "The October 2023 release says MosaiQ was delivered to one of OVHcloud's datacenters and does not name the city.",
+      "would_need": "A document naming the datacenter."
+    },
+    {
+      "topic": "ORCA: NQCC Photonic Testbed delivery",
+      "why": "The PT-2 product page, published 25 October 2024 and still containing the sentence when fetched on 2026-10-02, says ORCA will deliver the NQCC Photonic Testbed in Q1 2025 after delivering a PT-1 to the NQCC. No later document confirming delivery or a new date was found. The page does not name the NQCC town, so no Harwell pin was drawn.",
+      "would_need": "An ORCA or NQCC document on delivery, and a sentence naming the site town if a pin is required."
+    },
+    {
+      "topic": "ORCA: PT-2 photon or qumode count, and the PT Series '128 qumodes' line",
+      "why": "The PT Series page lists a system size of 128 qumodes without stating which generation it describes. No fetched ORCA page states a photon count for PT-1 or PT-2.",
+      "would_need": "A specification that ties a photon or qumode count to a named PT generation."
+    },
+    {
+      "topic": "ORCA: Japan customer site",
+      "why": "The 16 June 2026 release says a PT-2 was deployed to an enterprise customer in Japan with Toyota Tsusho and does not name the customer or the city.",
+      "would_need": "A document naming the facility."
+    },
+    {
+      "topic": "ORCA: peer-reviewed machine paper",
+      "why": "PT-1 and PT-2 milestones in this file are company releases. A cavity-memory research post was seen but not used, because no journal article for the PT systems was fetched.",
+      "would_need": "The journal or arXiv paper ORCA cites for a PT-series experiment."
+    },
+    {
+      "topic": "USTC Jiuzhang 2.0 and 3.0 peer-review copies",
+      "why": "Crossref lists Phys. Rev. Lett. 127, 180502 (2021-10-25) for arXiv:2106.15534 and Phys. Rev. Lett. 131, 150601 (2023-10-10) for arXiv:2304.12240. journals.aps.org and doi.org returned HTTP 403 to the declared User-Agent, and harvest.aps.org returned HTTP 401. Milestones are therefore labelled preprint. Quotes are from the arXiv abstract pages.",
+      "would_need": "A fetched PRL abstract or PDF so the milestones can be labelled peer_reviewed."
+    },
+    {
+      "topic": "USTC Jiuzhang operating status and facility address",
+      "why": "The papers name Jiuzhang, Jiuzhang 2.0 and Jiuzhang 3.0 and give a Hefei affiliation. They do not say whether the earlier devices remain in operation or give a street address for the optical setup. All three are marked online, and they are drawn at the Hefei headquarters rather than at a separate lab pin. Jiuzhang 1.0's name and 76-click sentence are taken from the Science article HTML; a direct request to science.org returned HTTP 403 and a later request via a Wayback URL returned the article.",
+      "would_need": "A USTC statement on which Jiuzhang devices still run, and a sentence placing the apparatus in a named building."
+    },
+    {
+      "topic": "Other photonic organisations",
+      "why": "QuiX Quantum and other photonic-modality companies were not added in this pass. A named machine was recorded only for Quandela, ORCA Computing and USTC Jiuzhang, on top of the PsiQuantum and Xanadu entries already in the file.",
+      "would_need": "A later pass if a primary document names a machine that is not already in another topic file."
+    }
+  ]
+}

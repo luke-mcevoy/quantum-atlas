@@ -47,14 +47,23 @@ test("roadmap timeline: achievements and targets are drawn in separate lanes and
   expect(await tg.count()).toBe(atlas.targets.length);
   // No target is ever rendered with the "achieved" class.
   expect(await page.locator(".tl-tick.tgt.achieved").count()).toBe(0);
-  await tg.first().click();
+  // Several targets share a year, so earlier diamonds sit under later ones. Click the topmost.
+  const top = await page.evaluate(() => {
+    const ticks = [...document.querySelectorAll<HTMLElement>(".tl-tick.tgt")];
+    const hit = ticks.findLast((el) => {
+      const r = el.getBoundingClientRect();
+      return document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2) === el;
+    });
+    return hit ? ticks.indexOf(hit) : -1;
+  });
+  await tg.nth(top).click();
   await expect(page.locator(".inspector .tgt-flag")).toHaveText(/TARGET · NOT AN ACHIEVEMENT/);
 });
 
 test("a revised target shows its revision history", async ({ page }) => {
   test.skip(!revised, "no revised target published");
   await page.goto(`/#mode=roadmap&sel=${revised.id}`);
-  expect(await page.locator(".inspector .revisions li").count()).toBeGreaterThan(1);
+  await expect(page.locator(".inspector .revisions li").nth(1)).toBeVisible();
 });
 
 test("data table lists rows, filters, and exports CSV", async ({ page }) => {

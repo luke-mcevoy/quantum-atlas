@@ -9,7 +9,8 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { proseNumbers } from "./lib/rules.mjs";
 
 const a = JSON.parse(readFileSync(new URL("../data/build/atlas.json", import.meta.url)));
-const norm = (s) => s.replace(/(\d),(?=\d{3})/g, "$1");
+// Thousands separators drop out ("1,000" → "1000"). A remaining comma is a decimal comma ("98,47" → "98.47").
+const norm = (s) => s.replace(/(\d),(?=\d{3})/g, "$1").replace(/(\d),(?=\d{1,2}(?!\d))/g, "$1.");
 const BASELINE = new URL("../data/audit-baseline.json", import.meta.url);
 const baseline = existsSync(BASELINE) ? new Set(JSON.parse(readFileSync(BASELINE, "utf8"))) : new Set();
 const found = [];
