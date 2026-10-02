@@ -1,0 +1,2218 @@
+{
+  "topic": "access",
+  "verifier": "GPT-5.6 Sol independent counsel",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:acc-braket-devices",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-braket-enable",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-braket-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-aws-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-amazon-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-azure-overview",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-azure-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-azure-targets",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ms-facts",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ibm-plans",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ibm-computers",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ibm-hello",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ibm-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ionq-backends",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ionq-cost",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ionq-llms",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-ionq-company",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-iqm-resonance",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-iqm-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-pasqal-qpu",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-pasqal-billing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-pasqal-start",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-pasqal-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-oqc-cloud",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-oqc-seriesc",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-dwave-cloud",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-dwave-index",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-dwave-leap",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-dwave-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-qh-access",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-qh-signup",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-qh-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-quera-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-rigetti-site",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-rigetti-systems",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:acc-aqt-products",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:aws",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:aws",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "The quote locates Amazon's Seattle headquarters, not Amazon Web Services, Inc.'s headquarters. The AWS city placement therefore remains visibly flagged."
+    },
+    {
+      "entity": "co:aws",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:ibm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:ibm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:ibm",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:oqc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:oqc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:oqc",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "co:aqt",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The long embedded device-record quote is stale because IBM's live queue and performance fields changed. The current raw page still states the backend name and online/available status; the correction replaces the volatile record with that exact stable fragment."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The long embedded device-record quote is stale because IBM's live queue and performance fields changed. The current raw page still states the backend name and online/available status; the correction replaces the volatile record with that exact stable fragment."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The long embedded device-record quote is stale because IBM's live queue and performance fields changed. The current raw page still states the backend name and online/available status; the correction replaces the volatile record with that exact stable fragment."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The long embedded device-record quote is stale because IBM's live queue and performance fields changed. The current raw page still states the backend name and online/available status; the correction replaces the volatile record with that exact stable fragment."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "The long embedded device-record quote is stale because IBM's live queue and performance fields changed. The current raw page still states the backend name and online/available status; the correction replaces the volatile record with that exact stable fragment."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "This quote describes IBM plans or the us-east Open Plan restriction generally, but does not say this eu-de backend is available through a paid plan."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "This quote describes IBM plans or the us-east Open Plan restriction generally, but does not say this eu-de backend is available through a paid plan."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 3,
+      "verdict": "does_not_support",
+      "notes": "This quote describes IBM plans or the us-east Open Plan restriction generally, but does not say this eu-de backend is available through a paid plan."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "The analyst's long dynamic IBM device record is no longer verbatim in the current page."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "This quote describes IBM plans or the us-east Open Plan restriction generally, but does not say this eu-de backend is available through a paid plan."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "This quote describes IBM plans or the us-east Open Plan restriction generally, but does not say this eu-de backend is available through a paid plan."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 3,
+      "verdict": "does_not_support",
+      "notes": "This quote describes IBM plans or the us-east Open Plan restriction generally, but does not say this eu-de backend is available through a paid plan."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 2,
+      "verdict": "verified_with_correction",
+      "notes": "The selected fragment names credit pools but is not explicit enough by itself to establish paid access. The correction substitutes the source's exact phrase that Pasqal Cloud projects are billed through contracts."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 2,
+      "verdict": "verified_with_correction",
+      "notes": "The selected fragment names credit pools but is not explicit enough by itself to establish paid access. The correction substitutes the source's exact phrase that Pasqal Cloud projects are billed through contracts."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 2,
+      "verdict": "verified_with_correction",
+      "notes": "The selected fragment names credit pools but is not explicit enough by itself to establish paid access. The correction substitutes the source's exact phrase that Pasqal Cloud projects are billed through contracts."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:oqc-cloud-toshiko",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:oqc-cloud-toshiko",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed against the saved raw source and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 0,
+      "path": "snippet",
+      "verdict": "verified",
+      "notes": "Snippet code appears verbatim at source_url; local-simulator status was independently re-run."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 0,
+      "path": "snippet",
+      "verdict": "verified",
+      "notes": "Snippet code appears verbatim at source_url; local-simulator status was independently re-run."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 0,
+      "path": "snippet",
+      "verdict": "verified",
+      "notes": "Snippet code appears verbatim at source_url; local-simulator status was independently re-run."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 0,
+      "path": "snippet",
+      "verdict": "verified",
+      "notes": "Snippet code appears verbatim at source_url; local-simulator status was independently re-run."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:aws",
+      "verdict": "publish_flagged",
+      "reasons": "Amazon's page says \u201cSeattle headquarters,\u201d but that supports the parent Amazon rather than AWS, Inc.; the AWS city placement is retained only as a visible location caveat."
+    },
+    {
+      "entity": "co:microsoft",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "co:ibm",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "co:ionq",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "co:iqm",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "co:quera",
+      "verdict": "publish_flagged",
+      "reasons": "The official page gives this Boston office address but does not expressly call it headquarters."
+    },
+    {
+      "entity": "co:rigetti",
+      "verdict": "publish_flagged",
+      "reasons": "The official footer lists Berkeley and Fremont; it does not identify which location is headquarters. The Berkeley HQ point is therefore visibly caveated."
+    },
+    {
+      "entity": "co:pasqal",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "co:quantinuum",
+      "verdict": "publish_flagged",
+      "reasons": "The official page lists the Broomfield office and exact address but does not expressly label it headquarters."
+    },
+    {
+      "entity": "co:d-wave",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "co:oqc",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "co:aqt",
+      "verdict": "publish_flagged",
+      "reasons": "The official page gives the Innsbruck address but does not expressly label it headquarters."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "verdict": "publish_flagged",
+      "reasons": "Azure still lists and prices Aria 1, but IonQ's current backend page marks Aria 1 retired. The Azure-specific route is published with that cross-platform conflict visible."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "verdict": "publish_flagged",
+      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "corrections": {
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_boston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+      }
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "verdict": "publish_flagged",
+      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "corrections": {
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_pittsburgh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+      }
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "verdict": "publish_flagged",
+      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "corrections": {
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_fez\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+      }
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "verdict": "publish_flagged",
+      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "corrections": {
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_marrakesh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+      }
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "verdict": "publish_flagged",
+      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "corrections": {
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_phoenix\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+      }
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "verdict": "reject",
+      "reasons": "Rejected: IBM lists this backend online in eu-de and says Open Plan instances are us-east only, but no cited source links this backend to a paid plan. Paid access cannot be inferred by exclusion."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "verdict": "reject",
+      "reasons": "Rejected: no cited source links this eu-de backend to a paid plan, and the analyst's volatile device-record quote is no longer verbatim. Paid access cannot be inferred by exclusion."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "verdict": "publish_flagged",
+      "reasons": "The page separately lists Crystal 54 as available and a free Starter allowance, but does not explicitly allocate that QPU to Starter rather than pay-as-you-go."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "verdict": "publish_flagged",
+      "reasons": "The page separately lists Crystal 20 as available and a free Starter allowance, but does not explicitly allocate that QPU to Starter rather than pay-as-you-go."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "verdict": "publish_flagged",
+      "reasons": "Star 24 is stated to be available only in beta, and the page does not explicitly allocate it to the free Starter allowance rather than pay-as-you-go."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "verdict": "publish_flagged",
+      "reasons": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+      "corrections": {
+        "evidence.2.quote": "Pasqal Cloud projects are billed through contracts"
+      }
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "verdict": "publish_flagged",
+      "reasons": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+      "corrections": {
+        "evidence.2.quote": "Pasqal Cloud projects are billed through contracts"
+      }
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "verdict": "publish_flagged",
+      "reasons": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+      "corrections": {
+        "evidence.2.quote": "Pasqal Cloud projects are billed through contracts"
+      }
+    },
+    {
+      "entity": "acc:oqc-cloud-toshiko",
+      "verdict": "publish_flagged",
+      "reasons": "OQC documents on-demand Toshiko access and a \u201cGET IN TOUCH\u201d path, but does not publish a self-serve plan, approval rule, or price; \u201capplication\u201d is the closest available tier."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "verdict": "publish",
+      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+    }
+  ],
+  "snippet_checks": [
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "verbatim": true,
+      "rerun_status": "passed",
+      "notes": "Verbatim source confirmed; Braket LocalSimulator rerun passed without AWS credentials or QPU access."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "verbatim": true,
+      "rerun_status": "passed",
+      "notes": "Verbatim Markdown block confirmed; FakeBelemV2 rerun passed without IBM credentials or QPU access."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "verbatim": true,
+      "rerun_status": "passed",
+      "notes": "Verbatim RST block confirmed; dimod.ExactSolver rerun passed without a Leap token or QPU access."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "verbatim": true,
+      "rerun_status": "not_run",
+      "notes": "Verbatim source confirmed. The no-token rerun reproduced IonQCredentialsError; no account was created and no token was supplied, so the hosted IonQ simulator was not run."
+    }
+  ],
+  "summary": "Reviewed 36 sources, 269 evidence/snippet items, and 50 entities: 30 publish, 18 publish_flagged, 2 reject. Rejected IBM Aachen and Berlin because the cited plan pages never link those eu-de backends to paid access. Corrected five stale volatile IBM backend quotes and three under-specific Pasqal billing quotes. Flagged Azure's still-listed Aria 1 against IonQ's retired status; IQM's device-to-free-plan ambiguity; OQC's contact-only tier inference; and several HQ designations not expressly stated by their address pages. All four snippets were verbatim; three local checks passed and IonQ remained not_run because a token is required."
+}

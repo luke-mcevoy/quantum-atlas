@@ -165,4 +165,38 @@ export const STORIES: Story[] = [
       },
     ],
   },
+  {
+    id: "first-program",
+    title: "How to run your first program",
+    dek: "What the platform's own pages say about submitting a job, and which of those pages include a code sample.",
+    steps: [
+      {
+        title: "Braket names the machines",
+        caption: "Amazon's Braket page says the service provides access to QPU devices from AQT, IonQ, IQM, QuEra, and Rigetti.",
+        mode: "access",
+        focus: ["acc:aws-braket-quera-aquila", "sys:quera-aquila"],
+        quotes: [{ entity: "acc:aws-braket-quera-aquila", ev: 4 }],
+        select: "acc:aws-braket-quera-aquila",
+      },
+      {
+        title: "A free window at IBM",
+        caption: "IBM's plan page says you can run circuits on its QPUs for free, up to 10 minutes per 28-day rolling window.",
+        mode: "access",
+        focus: ["acc:ibm-quantum-ibm-fez", "co:ibm"],
+        quotes: [{ entity: "acc:ibm-quantum-ibm-fez", ev: 2 }],
+        select: "acc:ibm-quantum-ibm-fez",
+      },
+      {
+        title: "D-Wave asks you to apply",
+        caption: "D-Wave's cloud page says customers can access the “Advantage2™ and Advantage™” annealing systems, and the same page says “Apply for Free Trial”.",
+        mode: "access",
+        focus: ["acc:d-wave-leap-advantage2", "sys:d-wave-advantage2"],
+        quotes: [
+          { entity: "acc:d-wave-leap-advantage2", ev: 0 },
+          { entity: "acc:d-wave-leap-advantage2", ev: 1 },
+        ],
+        select: "acc:d-wave-leap-advantage2",
+      },
+    ],
+  },
 ];

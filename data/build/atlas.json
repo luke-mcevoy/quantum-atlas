@@ -1,9 +1,9 @@
 {
- "built_at": "2026-10-02T04:44:55.648Z",
+ "built_at": "2026-10-02T05:08:51.120Z",
  "draft": false,
  "stats": {
   "topics": {
-   "access": "skipped (not yet verified)",
+   "access": "36 published (verified)",
    "neutral_atom": "87 published (verified)",
    "photonic": "63 published (verified)",
    "relationships": "28 published (verified)",
@@ -12,22 +12,22 @@
    "superconducting_b": "60 published (verified)",
    "trapped_ion": "53 published (verified)"
   },
-  "withheld": 6,
-  "droppedEvidence": 19,
+  "withheld": 8,
+  "droppedEvidence": 20,
   "hypeWithheld": [],
   "peerReviewDowngraded": [],
   "nestedDropped": 0,
   "accessHintsResolved": 0,
   "counts": {
-   "sources": 302,
+   "sources": 337,
    "orgs": 55,
    "sites": 60,
    "systems": 86,
    "milestones": 118,
    "targets": 85,
-   "access": 0,
+   "access": 36,
    "relationships": 28,
-   "gaps": 116
+   "gaps": 126
   }
  },
  "sources": [
@@ -107,6 +107,391 @@
    "document_date": "2026-06-03",
    "accessed": "2026-10-01",
    "topic": "neutral_atom"
+  },
+  {
+   "id": "src:acc-aqt-products",
+   "title": "AQT products",
+   "publisher": "Alpine Quantum Technologies",
+   "url": "https://www.aqt.eu/products/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-aws-about",
+   "title": "About AWS",
+   "publisher": "Amazon Web Services",
+   "url": "https://aws.amazon.com/about-aws/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-09-25",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-azure-overview",
+   "title": "What is Azure Quantum?",
+   "publisher": "Microsoft",
+   "url": "https://learn.microsoft.com/en-us/azure/quantum/overview-azure-quantum",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-azure-pricing",
+   "title": "Pricing plans for Azure Quantum providers",
+   "publisher": "Microsoft",
+   "url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2025-12-23",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-azure-targets",
+   "title": "Azure Quantum target list",
+   "publisher": "Microsoft",
+   "url": "https://learn.microsoft.com/en-us/azure/quantum/qc-target-list",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-04-23",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-braket-devices",
+   "title": "Amazon Braket devices",
+   "publisher": "Amazon Web Services",
+   "url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-braket-enable",
+   "title": "Enable Amazon Braket",
+   "publisher": "Amazon Web Services",
+   "url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-enable-overview.html",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-braket-pricing",
+   "title": "Amazon Braket pricing",
+   "publisher": "Amazon Web Services",
+   "url": "https://aws.amazon.com/braket/pricing/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-dwave-about",
+   "title": "D-Wave company",
+   "publisher": "D-Wave Quantum",
+   "url": "https://www.dwavequantum.com/company/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-dwave-cloud",
+   "title": "D-Wave cloud platform",
+   "publisher": "D-Wave Quantum",
+   "url": "https://www.dwavesys.com/solutions-and-products/cloud-platform/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-dwave-index",
+   "title": "D-Wave documentation",
+   "publisher": "D-Wave Quantum",
+   "url": "https://docs.dwavequantum.com/en/latest/index.html",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-dwave-leap",
+   "title": "Leap service",
+   "publisher": "D-Wave Quantum",
+   "url": "https://docs.dwavequantum.com/en/latest/leap_sapi/index.html",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ibm-computers",
+   "title": "IBM Quantum computers",
+   "publisher": "IBM",
+   "url": "https://quantum.cloud.ibm.com/computers",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ibm-contact",
+   "title": "Contact IBM",
+   "publisher": "IBM",
+   "url": "https://www.ibm.com/contact",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ibm-hello",
+   "title": "Hello world",
+   "publisher": "IBM",
+   "url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world.md",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ibm-plans",
+   "title": "Plans overview",
+   "publisher": "IBM",
+   "url": "https://quantum.cloud.ibm.com/docs/en/guides/plans-overview.md",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ionq-backends",
+   "title": "IonQ backends",
+   "publisher": "IonQ",
+   "url": "https://docs.ionq.com/user-manual/backends.md",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ionq-company",
+   "title": "IonQ company",
+   "publisher": "IonQ",
+   "url": "https://ionq.com/company",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ionq-cost",
+   "title": "Job cost and usage",
+   "publisher": "IonQ",
+   "url": "https://docs.ionq.com/guides/job-cost-and-usage.md",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ionq-llms",
+   "title": "IonQ Quantum Cloud documentation index",
+   "publisher": "IonQ",
+   "url": "https://docs.ionq.com/llms.txt",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-iqm-contact",
+   "title": "IQM contact",
+   "publisher": "IQM",
+   "url": "https://iqm.tech/company/contact/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-iqm-resonance",
+   "title": "IQM Resonance",
+   "publisher": "IQM",
+   "url": "https://www.meetiqm.com/products/iqm-resonance/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-ms-facts",
+   "title": "Facts about Microsoft",
+   "publisher": "Microsoft",
+   "url": "https://news.microsoft.com/facts-about-microsoft/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-oqc-cloud",
+   "title": "OQC Cloud",
+   "publisher": "OQC",
+   "url": "https://oqc.tech/access/oqc-cloud/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-oqc-seriesc",
+   "title": "OQC Series C announcement",
+   "publisher": "OQC",
+   "url": "https://oqc.tech/company/newsroom/series-c",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2026-06-03",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-pasqal-about",
+   "title": "About Pasqal",
+   "publisher": "Pasqal",
+   "url": "https://www.pasqal.com/about-us/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-pasqal-billing",
+   "title": "Pasqal Cloud billing",
+   "publisher": "Pasqal",
+   "url": "https://docs.pasqal.com/cloud/billing/",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-pasqal-qpu",
+   "title": "Pasqal QPUs and emulators",
+   "publisher": "Pasqal",
+   "url": "https://docs.pasqal.com/qpu-emulators/",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-pasqal-start",
+   "title": "Get started with Pasqal Cloud",
+   "publisher": "Pasqal",
+   "url": "https://docs.pasqal.com/cloud/pasqal-cloud/getting-started/",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-qh-about",
+   "title": "About Quantinuum",
+   "publisher": "Quantinuum",
+   "url": "https://www.quantinuum.com/company/about",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-qh-access",
+   "title": "Quantinuum system access",
+   "publisher": "Quantinuum",
+   "url": "https://docs.quantinuum.com/systems/user_guide/hardware_user_guide/access.html",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-qh-signup",
+   "title": "Signing up for Quantinuum Nexus",
+   "publisher": "Quantinuum",
+   "url": "https://docs.quantinuum.com/nexus/user_guide/sign_up.html",
+   "doc_type": "official_docs",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-quera-about",
+   "title": "About QuEra",
+   "publisher": "QuEra Computing",
+   "url": "https://www.quera.com/about",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-rigetti-site",
+   "title": "Rigetti Computing",
+   "publisher": "Rigetti Computing",
+   "url": "https://www.rigetti.com/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
+  },
+  {
+   "id": "src:acc-rigetti-systems",
+   "title": "What we build",
+   "publisher": "Rigetti Computing",
+   "url": "https://www.rigetti.com/what-we-build",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026-10-02",
+   "accessed": "2026-10-02",
+   "topic": "access"
   },
   {
    "id": "src:advmat-through-sapphire-2025",
@@ -3515,7 +3900,7 @@
   },
   {
    "id": "co:aqt",
-   "name": "Alpine Quantum Technologies (AQT)",
+   "name": "Alpine Quantum Technologies",
    "kind": "company",
    "roles": [
     "hardware",
@@ -3523,15 +3908,34 @@
    ],
    "country": "AT",
    "hq": {
-    "lat": 47.2692,
-    "lon": 11.4041,
-    "precision": "city",
-    "address": "Innsbruck, Austria"
+    "lat": 47.2643,
+    "lon": 11.3446,
+    "precision": "site",
+    "address": "Technikerstrasse 17 / 1, 6020 Innsbruck, Austria"
    },
    "modalities": [
     "trapped_ion"
    ],
+   "website": "https://www.aqt.eu",
    "evidence": [
+    {
+     "source": "src:acc-aqt-products",
+     "quote": "Alpine Quantum Technologies",
+     "locator": "Products page metadata",
+     "supports": "existence"
+    },
+    {
+     "source": "src:acc-aqt-products",
+     "quote": "Technikerstrasse 17 / 1 · 6020 Innsbruck · Austria",
+     "locator": "Products page address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-aqt-products",
+     "quote": "The home of ion trap quantum computing",
+     "locator": "Products page description",
+     "supports": "modality"
+    },
     {
      "source": "src:aqt-contact",
      "quote": "Technikerstrasse 1-3 6020 Innsbruck, Austria",
@@ -3562,8 +3966,7 @@
      "locator": "AQT Milestones",
      "supports": "existence, modality"
     }
-   ],
-   "website": "https://www.aqt.eu"
+   ]
   },
   {
    "id": "co:aramco",
@@ -3634,24 +4037,35 @@
   },
   {
    "id": "co:aws",
-   "name": "Amazon Web Services (AWS)",
+   "name": "Amazon Web Services",
    "kind": "company",
    "roles": [
-    "hardware",
-    "cloud_platform"
+    "cloud_platform",
+    "hardware"
    ],
    "country": "US",
    "hq": {
     "lat": 47.6062,
     "lon": -122.3321,
-    "precision": "city",
-    "address": "Seattle, WA (Amazon headquarters)"
+    "precision": "city"
    },
    "modalities": [
     "superconducting"
    ],
-   "website": "https://aws.amazon.com/quantum-technologies/",
+   "website": "https://aws.amazon.com",
    "evidence": [
+    {
+     "source": "src:acc-aws-about",
+     "quote": "Amazon Web Services, Inc.",
+     "locator": "About AWS page metadata",
+     "supports": "existence"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "existence"
+    },
     {
      "source": "src:amazon-hq-seattle-tour",
      "quote": "25 exclusive photos from inside Amazon’s headquarters in Seattle",
@@ -3788,7 +4202,8 @@
    ]
   },
   {
-   "name": "D-Wave Quantum Inc.",
+   "id": "co:d-wave",
+   "name": "D-Wave Quantum",
    "kind": "company",
    "roles": [
     "hardware",
@@ -3796,17 +4211,33 @@
    ],
    "country": "US",
    "hq": {
-    "lat": 37.4565,
-    "lon": -122.114,
-    "precision": "site",
-    "address": "2650 East Bayshore Road, Palo Alto, California 94303"
+    "lat": 37.4419,
+    "lon": -122.143,
+    "precision": "city"
    },
    "modalities": [
     "quantum_annealing"
    ],
-   "sec_cik": "0001907982",
    "website": "https://www.dwavequantum.com",
    "evidence": [
+    {
+     "source": "src:acc-dwave-about",
+     "quote": "D-Wave Quantum Inc.",
+     "locator": "Company page structured data",
+     "supports": "existence"
+    },
+    {
+     "source": "src:acc-dwave-about",
+     "quote": "\"addressLocality\": \"Palo Alto\",\n      \"addressRegion\": \"CA\",\n      \"addressCountry\": \"US\",\n      \"telephone\": \"+16502852881\",\n      \"description\": \"Corporate Headquarters\"",
+     "locator": "Company page structured data, Palo Alto address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-dwave-cloud",
+     "quote": "Customers can access the Advantage2™ and Advantage™ annealing quantum computing systems",
+     "locator": "Cloud platform page",
+     "supports": "modality"
+    },
     {
      "source": "src:dwave-10k-2025",
      "quote": "2650 East Bayshore Road , Palo Alto , California 94303",
@@ -3820,7 +4251,7 @@
      "supports": "modality, cloud"
     }
    ],
-   "id": "co:d-wave"
+   "sec_cik": "0001907982"
   },
   {
    "id": "co:diraq",
@@ -4053,13 +4484,32 @@
    "hq": {
     "lat": 41.1265,
     "lon": -73.714,
-    "precision": "city",
-    "address": "Armonk, N.Y."
+    "precision": "site",
+    "address": "1 New Orchard Road, Armonk, New York 10504-1722"
    },
    "modalities": [
     "superconducting"
    ],
+   "website": "https://www.ibm.com",
    "evidence": [
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "existence"
+    },
+    {
+     "source": "src:acc-ibm-contact",
+     "quote": "1 New Orchard Road",
+     "locator": "Contact IBM",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-ibm-contact",
+     "quote": "Armonk, New York 10504-1722",
+     "locator": "Contact IBM",
+     "supports": "location"
+    },
     {
      "source": "src:ibm-armonk-2026",
      "quote": "ARMONK, N.Y., June 2, 2026 — IBM (NYSE: IBM)",
@@ -4088,7 +4538,6 @@
    "tickers": [
     "NYSE:IBM"
    ],
-   "website": "https://www.ibm.com/quantum",
    "sec_cik": "0000051143"
   },
   {
@@ -4172,7 +4621,7 @@
   },
   {
    "id": "co:ionq",
-   "name": "IonQ, Inc.",
+   "name": "IonQ",
    "kind": "company",
    "roles": [
     "hardware",
@@ -4182,13 +4631,31 @@
    "hq": {
     "lat": 38.9897,
     "lon": -76.9378,
-    "precision": "city",
-    "address": "College Park, Maryland"
+    "precision": "city"
    },
    "modalities": [
     "trapped_ion"
    ],
+   "website": "https://ionq.com",
    "evidence": [
+    {
+     "source": "src:acc-ionq-company",
+     "quote": "College Park, MD",
+     "locator": "Company page, headquartered",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-ionq-company",
+     "quote": "trapped ion technology",
+     "locator": "Company page navigation",
+     "supports": "modality"
+    },
+    {
+     "source": "src:acc-ionq-llms",
+     "quote": "IonQ Quantum Cloud Documentation",
+     "locator": "Documentation index title",
+     "supports": "existence"
+    },
     {
      "source": "src:ionq-contact",
      "quote": "Our mailing address: IonQ, Inc. 4505 Campus Drive College Park, MD 20740",
@@ -4235,12 +4702,11 @@
    "tickers": [
     "NYSE:IONQ"
    ],
-   "website": "https://ionq.com",
    "sec_cik": "0001824920"
   },
   {
    "id": "co:iqm",
-   "name": "IQM Quantum Computers",
+   "name": "IQM",
    "kind": "company",
    "roles": [
     "hardware",
@@ -4250,13 +4716,38 @@
    "hq": {
     "lat": 60.2055,
     "lon": 24.6559,
-    "precision": "city",
-    "address": "Espoo, Finland"
+    "precision": "site",
+    "address": "Keilaranta 19, 02150 Espoo, Finland"
    },
    "modalities": [
     "superconducting"
    ],
+   "website": "https://www.meetiqm.com",
    "evidence": [
+    {
+     "source": "src:acc-iqm-contact",
+     "quote": "HQ: Finland",
+     "locator": "Contact page location menu",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-iqm-contact",
+     "quote": "Keilaranta 19",
+     "locator": "Finland address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-iqm-contact",
+     "quote": "02150 Espoo,Finland",
+     "locator": "Finland address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "QPU based on superconducting transmon qubits.",
+     "locator": "IQM Resonance QPU description",
+     "supports": "modality"
+    },
     {
      "source": "src:eurohpc-lumiq-2024",
      "quote": "LUMI-Q consortium’s quantum computer, the EuroHPC quantum computer to be located in Czechia, has been signed by the EuroHPC JU and the selected Finland-based vendor IQM Quantum Computers.",
@@ -4303,8 +4794,7 @@
    "tickers": [
     "NASDAQ:IQMX"
    ],
-   "sec_cik": "0002113060",
-   "website": "https://iqm.tech"
+   "sec_cik": "0002113060"
   },
   {
    "id": "co:lrz",
@@ -4342,7 +4832,7 @@
   },
   {
    "id": "co:microsoft",
-   "name": "Microsoft",
+   "name": "Microsoft Corporation",
    "kind": "company",
    "roles": [
     "cloud_platform",
@@ -4353,13 +4843,37 @@
     "lat": 47.6396,
     "lon": -122.1283,
     "precision": "site",
-    "address": "One Microsoft Way, Redmond, WA 98052-7329"
+    "address": "One Microsoft Way, Redmond, WA 98052"
    },
    "modalities": [
     "topological"
    ],
    "website": "https://www.microsoft.com",
    "evidence": [
+    {
+     "source": "src:acc-ms-facts",
+     "quote": "Microsoft Corporation",
+     "locator": "Facts about Microsoft",
+     "supports": "existence"
+    },
+    {
+     "source": "src:acc-ms-facts",
+     "quote": "One Microsoft Way",
+     "locator": "Corporate address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-ms-facts",
+     "quote": "Redmond, WA 98052",
+     "locator": "Corporate address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "existence"
+    },
     {
      "source": "src:ms-facts",
      "quote": "Microsoft Corporation\nOne Microsoft Way\nRedmond, WA 98052-7329",
@@ -4424,23 +4938,41 @@
   },
   {
    "id": "co:oqc",
-   "name": "Oxford Quantum Circuits (OQC)",
+   "name": "OQC",
    "kind": "company",
    "roles": [
-    "hardware"
+    "hardware",
+    "cloud_platform"
    ],
    "country": "GB",
    "hq": {
-    "lat": 51.4543,
-    "lon": -0.9781,
-    "precision": "city",
-    "address": "Reading, UK"
+    "lat": 54,
+    "lon": -2.5,
+    "precision": "country"
    },
    "modalities": [
     "superconducting"
    ],
    "website": "https://oqc.tech",
    "evidence": [
+    {
+     "source": "src:acc-oqc-seriesc",
+     "quote": "OQC is a UK-headquartered company",
+     "locator": "Series C announcement",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-oqc-seriesc",
+     "quote": "Founded in the UK, OQC develops and operates superconducting quantum computers",
+     "locator": "Series C announcement",
+     "supports": "modality"
+    },
+    {
+     "source": "src:acc-oqc-cloud",
+     "quote": "OQC Cloud offers reliable, on-demand access to our 32-qubit quantum computer, OQC Toshiko",
+     "locator": "OQC Cloud page",
+     "supports": "existence"
+    },
     {
      "source": "src:oqc-pr-2025-06-19-dual-rail-dimon",
      "quote": "READING, UK – June 19, 2025 – Oxford Quantum Circuits (OQC) , a global leader in quantum computing solutions spun out from Oxford University",
@@ -4622,21 +5154,45 @@
    "name": "Pasqal",
    "kind": "company",
    "roles": [
-    "hardware"
+    "hardware",
+    "cloud_platform"
    ],
    "country": "FR",
    "hq": {
     "lat": 48.7146,
     "lon": 2.2453,
-    "precision": "city",
-    "address": "Palaiseau, France"
+    "precision": "site",
+    "address": "24 rue Emile Baudot, 91120 Palaiseau"
    },
    "modalities": [
     "neutral_atom"
    ],
-   "sec_cik": "0002119292",
    "website": "https://www.pasqal.com",
    "evidence": [
+    {
+     "source": "src:acc-pasqal-about",
+     "quote": "Global HQ",
+     "locator": "About page",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-pasqal-about",
+     "quote": "24 rue Emile Baudot",
+     "locator": "Global HQ address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-pasqal-about",
+     "quote": "91120 Palaiseau",
+     "locator": "Global HQ address",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-pasqal-qpu",
+     "quote": "neutral-atom analog quantum processor.",
+     "locator": "QPU page",
+     "supports": "modality"
+    },
     {
      "source": "src:pasqal-340m-2026",
      "quote": "The company is expected to remain a French legal entity, with its headquarters in Palaiseau.",
@@ -4667,7 +5223,8 @@
      "locator": "Lead",
      "supports": "existence"
     }
-   ]
+   ],
+   "sec_cik": "0002119292"
   },
   {
    "id": "co:pcss",
@@ -4902,13 +5459,38 @@
    "hq": {
     "lat": 39.928,
     "lon": -105.131,
-    "precision": "city",
-    "address": "Broomfield, Colorado, USA"
+    "precision": "site",
+    "address": "303 S Technology Court, Broomfield, CO 80021"
    },
    "modalities": [
     "trapped_ion"
    ],
+   "website": "https://www.quantinuum.com",
    "evidence": [
+    {
+     "source": "src:acc-qh-about",
+     "quote": "Broomfield, Colorado, USA",
+     "locator": "About page",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-qh-about",
+     "quote": "303 S Technology Court",
+     "locator": "Broomfield office",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-qh-about",
+     "quote": "Broomfield, CO 80021",
+     "locator": "Broomfield office",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "Trapped ion quantum computers are available to users utilizing the Quantinuum Helios and System Model H2 generation of quantum computers",
+     "locator": "System access",
+     "supports": "modality"
+    },
     {
      "source": "src:quantinuum-about",
      "quote": "303 S Technology Court Broomfield, CO 80021",
@@ -4958,7 +5540,6 @@
      "supports": "parent"
     }
    ],
-   "website": "https://www.quantinuum.com",
    "tickers": [
     "NASDAQ:QNT"
    ],
@@ -5079,20 +5660,45 @@
    "name": "QuEra Computing",
    "kind": "company",
    "roles": [
-    "hardware"
+    "hardware",
+    "cloud_platform"
    ],
    "country": "US",
    "hq": {
     "lat": 42.3601,
     "lon": -71.0589,
-    "precision": "city",
-    "address": "Boston, Massachusetts"
+    "precision": "site",
+    "address": "1380 Soldiers Field Road, Boston, MA 02135, USA"
    },
    "modalities": [
     "neutral_atom"
    ],
    "website": "https://www.quera.com",
    "evidence": [
+    {
+     "source": "src:acc-quera-about",
+     "quote": "QuEra Computing",
+     "locator": "About page",
+     "supports": "existence"
+    },
+    {
+     "source": "src:acc-quera-about",
+     "quote": "1380 Soldiers Field Road,",
+     "locator": "Office location",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-quera-about",
+     "quote": "Boston, MA 02135, USA",
+     "locator": "Office location",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-quera-about",
+     "quote": "provider of quantum computers based on neutral atoms.",
+     "locator": "About page",
+     "supports": "modality"
+    },
     {
      "source": "src:quera-aist-2024",
      "quote": "Based in Boston and built on pioneering research from nearby Harvard University and MIT, QuEra operates the world’s largest publicly accessible quantum computer",
@@ -5159,13 +5765,31 @@
    "hq": {
     "lat": 37.8716,
     "lon": -122.2727,
-    "precision": "city",
-    "address": "Berkeley, California"
+    "precision": "city"
    },
    "modalities": [
     "superconducting"
    ],
+   "website": "https://www.rigetti.com",
    "evidence": [
+    {
+     "source": "src:acc-rigetti-site",
+     "quote": "Rigetti Computing",
+     "locator": "Company site",
+     "supports": "existence"
+    },
+    {
+     "source": "src:acc-rigetti-site",
+     "quote": "Berkeley, CA &amp; Fremont, CA",
+     "locator": "Locations",
+     "supports": "location"
+    },
+    {
+     "source": "src:acc-rigetti-systems",
+     "quote": "superconducting microwave devices",
+     "locator": "What we build",
+     "supports": "modality"
+    },
     {
      "source": "src:darpa-qbi-stage-a-2025",
      "quote": "Rigetti Computing — Berkeley, California (superconducting tunable transmon qubits)",
@@ -5185,7 +5809,6 @@
      "supports": "modality"
     }
    ],
-   "website": "https://www.rigetti.com",
    "tickers": [
     "NASDAQ:RGTI"
    ],
@@ -7624,10 +8247,10 @@
    "best_tier": 2,
    "topic": "trapped_ion",
    "location": {
-    "lat": 47.2692,
-    "lon": 11.4041,
-    "precision": "city",
-    "address": "Innsbruck, Austria"
+    "lat": 47.2643,
+    "lon": 11.3446,
+    "precision": "site",
+    "address": "Technikerstrasse 17 / 1, 6020 Innsbruck, Austria"
    },
    "country": "AT",
    "location_basis": "hq"
@@ -7702,10 +8325,10 @@
    "best_tier": 2,
    "topic": "trapped_ion",
    "location": {
-    "lat": 47.2692,
-    "lon": 11.4041,
-    "precision": "city",
-    "address": "Innsbruck, Austria"
+    "lat": 47.2643,
+    "lon": 11.3446,
+    "precision": "site",
+    "address": "Technikerstrasse 17 / 1, 6020 Innsbruck, Austria"
    },
    "country": "AT",
    "location_basis": "hq"
@@ -7838,8 +8461,7 @@
    "location": {
     "lat": 47.6062,
     "lon": -122.3321,
-    "precision": "city",
-    "address": "Seattle, WA (Amazon headquarters)"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8006,10 +8628,9 @@
    "best_tier": 1,
    "topic": "spin_topo_anneal",
    "location": {
-    "lat": 37.4565,
-    "lon": -122.114,
-    "precision": "site",
-    "address": "2650 East Bayshore Road, Palo Alto, California 94303"
+    "lat": 37.4419,
+    "lon": -122.143,
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8090,10 +8711,9 @@
    "best_tier": 1,
    "topic": "spin_topo_anneal",
    "location": {
-    "lat": 37.4565,
-    "lon": -122.114,
-    "precision": "site",
-    "address": "2650 East Bayshore Road, Palo Alto, California 94303"
+    "lat": 37.4419,
+    "lon": -122.143,
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8342,8 +8962,8 @@
    "location": {
     "lat": 41.1265,
     "lon": -73.714,
-    "precision": "city",
-    "address": "Armonk, N.Y."
+    "precision": "site",
+    "address": "1 New Orchard Road, Armonk, New York 10504-1722"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8370,8 +8990,8 @@
    "location": {
     "lat": 41.1265,
     "lon": -73.714,
-    "precision": "city",
-    "address": "Armonk, N.Y."
+    "precision": "site",
+    "address": "1 New Orchard Road, Armonk, New York 10504-1722"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8410,8 +9030,8 @@
    "location": {
     "lat": 41.1265,
     "lon": -73.714,
-    "precision": "city",
-    "address": "Armonk, N.Y."
+    "precision": "site",
+    "address": "1 New Orchard Road, Armonk, New York 10504-1722"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8787,8 +9407,7 @@
    "location": {
     "lat": 38.9897,
     "lon": -76.9378,
-    "precision": "city",
-    "address": "College Park, Maryland"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8851,8 +9470,7 @@
    "location": {
     "lat": 38.9897,
     "lon": -76.9378,
-    "precision": "city",
-    "address": "College Park, Maryland"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8949,8 +9567,7 @@
    "location": {
     "lat": 38.9897,
     "lon": -76.9378,
-    "precision": "city",
-    "address": "College Park, Maryland"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -8984,8 +9601,7 @@
    "location": {
     "lat": 38.9897,
     "lon": -76.9378,
-    "precision": "city",
-    "address": "College Park, Maryland"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -9030,8 +9646,7 @@
    "location": {
     "lat": 38.9897,
     "lon": -76.9378,
-    "precision": "city",
-    "address": "College Park, Maryland"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -9115,8 +9730,8 @@
    "location": {
     "lat": 60.2055,
     "lon": 24.6559,
-    "precision": "city",
-    "address": "Espoo, Finland"
+    "precision": "site",
+    "address": "Keilaranta 19, 02150 Espoo, Finland"
    },
    "country": "FI",
    "location_basis": "hq"
@@ -9160,8 +9775,8 @@
    "location": {
     "lat": 60.2055,
     "lon": 24.6559,
-    "precision": "city",
-    "address": "Espoo, Finland"
+    "precision": "site",
+    "address": "Keilaranta 19, 02150 Espoo, Finland"
    },
    "country": "FI",
    "location_basis": "hq"
@@ -9201,8 +9816,8 @@
    "location": {
     "lat": 60.2055,
     "lon": 24.6559,
-    "precision": "city",
-    "address": "Espoo, Finland"
+    "precision": "site",
+    "address": "Keilaranta 19, 02150 Espoo, Finland"
    },
    "country": "FI",
    "location_basis": "hq"
@@ -9303,7 +9918,7 @@
     "lat": 47.6396,
     "lon": -122.1283,
     "precision": "site",
-    "address": "One Microsoft Way, Redmond, WA 98052-7329"
+    "address": "One Microsoft Way, Redmond, WA 98052"
    },
    "country": "US",
    "location_basis": "hq"
@@ -9408,10 +10023,9 @@
    "best_tier": 2,
    "topic": "superconducting_b",
    "location": {
-    "lat": 51.4543,
-    "lon": -0.9781,
-    "precision": "city",
-    "address": "Reading, UK"
+    "lat": 54,
+    "lon": -2.5,
+    "precision": "country"
    },
    "country": "GB",
    "location_basis": "hq"
@@ -9855,8 +10469,8 @@
    "location": {
     "lat": 48.7146,
     "lon": 2.2453,
-    "precision": "city",
-    "address": "Palaiseau, France"
+    "precision": "site",
+    "address": "24 rue Emile Baudot, 91120 Palaiseau"
    },
    "country": "FR",
    "location_basis": "hq"
@@ -10723,8 +11337,8 @@
    "location": {
     "lat": 39.928,
     "lon": -105.131,
-    "precision": "city",
-    "address": "Broomfield, Colorado, USA"
+    "precision": "site",
+    "address": "303 S Technology Court, Broomfield, CO 80021"
    },
    "country": "US",
    "location_basis": "hq"
@@ -10807,8 +11421,8 @@
    "location": {
     "lat": 39.928,
     "lon": -105.131,
-    "precision": "city",
-    "address": "Broomfield, Colorado, USA"
+    "precision": "site",
+    "address": "303 S Technology Court, Broomfield, CO 80021"
    },
    "country": "US",
    "location_basis": "hq"
@@ -10898,8 +11512,8 @@
    "location": {
     "lat": 39.928,
     "lon": -105.131,
-    "precision": "city",
-    "address": "Broomfield, Colorado, USA"
+    "precision": "site",
+    "address": "303 S Technology Court, Broomfield, CO 80021"
    },
    "country": "US",
    "location_basis": "hq"
@@ -10951,8 +11565,8 @@
    "location": {
     "lat": 42.3601,
     "lon": -71.0589,
-    "precision": "city",
-    "address": "Boston, Massachusetts"
+    "precision": "site",
+    "address": "1380 Soldiers Field Road, Boston, MA 02135, USA"
    },
    "country": "US",
    "location_basis": "hq"
@@ -11029,8 +11643,8 @@
    "location": {
     "lat": 42.3601,
     "lon": -71.0589,
-    "precision": "city",
-    "address": "Boston, Massachusetts"
+    "precision": "site",
+    "address": "1380 Soldiers Field Road, Boston, MA 02135, USA"
    },
    "country": "US",
    "location_basis": "hq"
@@ -11099,8 +11713,8 @@
    "location": {
     "lat": 42.3601,
     "lon": -71.0589,
-    "precision": "city",
-    "address": "Boston, Massachusetts"
+    "precision": "site",
+    "address": "1380 Soldiers Field Road, Boston, MA 02135, USA"
    },
    "country": "US",
    "location_basis": "hq"
@@ -11233,8 +11847,7 @@
    "location": {
     "lat": 37.8716,
     "lon": -122.2727,
-    "precision": "city",
-    "address": "Berkeley, California"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -11297,8 +11910,7 @@
    "location": {
     "lat": 37.8716,
     "lon": -122.2727,
-    "precision": "city",
-    "address": "Berkeley, California"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -11355,8 +11967,7 @@
    "location": {
     "lat": 37.8716,
     "lon": -122.2727,
-    "precision": "city",
-    "address": "Berkeley, California"
+    "precision": "city"
    },
    "country": "US",
    "location_basis": "hq"
@@ -18046,7 +18657,2147 @@
    "topic": "photonic"
   }
  ],
- "access": [],
+ "access": [
+  {
+   "id": "acc:aws-braket-aqt-ibex-q1",
+   "target_org": "co:aqt",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "AQT IBEX-Q1",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system_hint": "IBEX-Q1",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:aws-braket-ionq-forte-1",
+   "target_org": "co:ionq",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "IonQ Forte-1",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system": "sys:ionq-forte",
+   "snippet": {
+    "code": "import boto3\nfrom braket.aws import AwsDevice\nfrom braket.circuits import Circuit\nfrom braket.devices import Devices\n\ndevice = AwsDevice(Devices.Amazon.SV1)\n\nbell = Circuit().h(0).cnot(0, 1)\ntask = device.run(bell, shots=100)\nprint(task.result().measurement_counts)",
+    "source_url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-sdk-python/main/README.md",
+    "language": "python",
+    "sdk": "amazon-braket-sdk",
+    "sim_check": {
+     "status": "passed",
+     "simulator": "braket.devices.LocalSimulator",
+     "substitution": "device = LocalSimulator() instead of AwsDevice(Devices.Amazon.SV1); the test imports LocalSimulator and does not import boto3 or AwsDevice.",
+     "sdk_version": "amazon-braket-sdk 1.127.3.post0",
+     "python_version": "3.12.13",
+     "ran_at": "2026-10-02",
+     "output_excerpt": "Counter({'11': 50, '00': 50})",
+     "notes": "The README sample targets SV1, Amazon Braket's simulator. LocalSimulator was used so the run did not need an AWS account. Shot counts are sampled."
+    }
+   },
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:aws-braket-ionq-forte-enterprise-1",
+   "target_org": "co:ionq",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "IonQ Forte-Enterprise-1",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system": "sys:ionq-forte-enterprise-quantumbasel",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:aws-braket-iqm-emerald",
+   "target_org": "co:iqm",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "IQM Emerald",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system": "sys:iqm-emerald",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:aws-braket-iqm-garnet",
+   "target_org": "co:iqm",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "IQM Garnet",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system": "sys:iqm-garnet",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:aws-braket-quera-aquila",
+   "target_org": "co:quera",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "QuEra Aquila",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system": "sys:quera-aquila",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:aws-braket-rigetti-ankaa-3",
+   "target_org": "co:rigetti",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Rigetti Ankaa-3",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system": "sys:rigetti-ankaa-3",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:aws-braket-rigetti-cepheus-1-108q",
+   "target_org": "co:rigetti",
+   "platform": "co:aws",
+   "platform_name": "Amazon Braket",
+   "route": "aws_braket",
+   "sdks": [
+    "Amazon Braket SDK"
+   ],
+   "auth_model": "AWS account",
+   "tier": "paid",
+   "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
+   "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+   "evidence": [
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Rigetti Cepheus-1-108Q",
+     "locator": "QPU table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-braket-pricing",
+     "quote": "Amazon Braket offers three pricing components for on-demand use of a quantum computer (QPU): a per-shot fee and a per-task fee or a single hourly reservation fee.",
+     "locator": "Amazon Braket pricing",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-braket-enable",
+     "quote": "You can enable Amazon Braket in your account through the AWS console.",
+     "locator": "Enable Amazon Braket",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "When using the Amazon Braket SDK",
+     "locator": "Devices, Amazon Braket SDK",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-braket-devices",
+     "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
+     "locator": "Devices",
+     "supports": "availability"
+    }
+   ],
+   "system": "sys:rigetti-cepheus-1-108q",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-ionq-aria-1",
+   "target_org": "co:ionq",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Pay-as-you-go plan includes IonQ Aria 1, IonQ Forte 1, and Forte Enterprise 1.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "access to the IonQ Aria 1 25-qubit, IonQ Forte 1 and Forte Enterprise 1 36-qubit quantum computers, and the IonQ simulator.",
+     "locator": "IonQ pricing table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pay-as-you-go plan consists of",
+     "locator": "IonQ pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system": "sys:ionq-aria",
+   "review": "flagged",
+   "review_note": "Azure still lists and prices Aria 1, but IonQ's current backend page marks Aria 1 retired. The Azure-specific route is published with that cross-platform conflict visible.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-ionq-forte-1",
+   "target_org": "co:ionq",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Pay-as-you-go plan includes IonQ Aria 1, IonQ Forte 1, and Forte Enterprise 1.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "access to the IonQ Aria 1 25-qubit, IonQ Forte 1 and Forte Enterprise 1 36-qubit quantum computers, and the IonQ simulator.",
+     "locator": "IonQ pricing table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pay-as-you-go plan consists of",
+     "locator": "IonQ pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system": "sys:ionq-forte",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-ionq-forte-enterprise-1",
+   "target_org": "co:ionq",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Pay-as-you-go plan includes IonQ Aria 1, IonQ Forte 1, and Forte Enterprise 1.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "access to the IonQ Aria 1 25-qubit, IonQ Forte 1 and Forte Enterprise 1 36-qubit quantum computers, and the IonQ simulator.",
+     "locator": "IonQ pricing table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pay-as-you-go plan consists of",
+     "locator": "IonQ pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system": "sys:ionq-forte-enterprise-quantumbasel",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-pasqal-fresnel",
+   "target_org": "co:pasqal",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Pay-as-you-go plan. Usage is charged based on the job execution time only.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pasqal FRESNEL, FRESNEL_CAN1 QPUs",
+     "locator": "Pasqal pricing table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pay-as-you-go plan the usage is charged based on the job execution time only.",
+     "locator": "Pasqal pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system_hint": "FRESNEL",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-pasqal-fresnel-can1",
+   "target_org": "co:pasqal",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Pay-as-you-go plan. Usage is charged based on the job execution time only.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pasqal FRESNEL, FRESNEL_CAN1 QPUs",
+     "locator": "Pasqal pricing table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pay-as-you-go plan the usage is charged based on the job execution time only.",
+     "locator": "Pasqal pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system_hint": "FRESNEL_CAN1",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-quantinuum-h2-1",
+   "target_org": "co:quantinuum",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Standard, Premium, and Pay as You Go plans include System Model H2.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-targets",
+     "quote": "Quantinuum H2-1",
+     "locator": "Target list",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "10k HQCs for use on Quantinuum System Model H2",
+     "locator": "Quantinuum Standard Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "The Pay as You Go plan provides queued access to the H2 series quantum computers",
+     "locator": "Quantinuum Pay as You Go",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Standard Plan",
+     "locator": "Quantinuum plans",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Premium Plan",
+     "locator": "Quantinuum plans",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system_hint": "Quantinuum H2-1",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-quantinuum-h2-2",
+   "target_org": "co:quantinuum",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Standard, Premium, and Pay as You Go plans include System Model H2.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-targets",
+     "quote": "Quantinuum H2-2",
+     "locator": "Target list",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "10k HQCs for use on Quantinuum System Model H2",
+     "locator": "Quantinuum Standard Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "The Pay as You Go plan provides queued access to the H2 series quantum computers",
+     "locator": "Quantinuum Pay as You Go",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Standard Plan",
+     "locator": "Quantinuum plans",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Premium Plan",
+     "locator": "Quantinuum plans",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system_hint": "Quantinuum H2-2",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:azure-rigetti-cepheus-1-108q",
+   "target_org": "co:rigetti",
+   "platform": "co:microsoft",
+   "platform_name": "Azure Quantum",
+   "route": "azure_quantum",
+   "sdks": [
+    "Q#",
+    "Qiskit",
+    "Cirq",
+    "OpenQASM"
+   ],
+   "auth_model": "Azure account and an Azure Quantum workspace",
+   "tier": "paid",
+   "tier_note": "Pay-as-you-go plan includes access to Rigetti QPUs.",
+   "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+   "evidence": [
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Rigetti Cepheus-1-108Q",
+     "locator": "Rigetti pricing table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "access to Rigetti QPUs.",
+     "locator": "Rigetti pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-pricing",
+     "quote": "Pay-as-you-go plan consists of",
+     "locator": "Rigetti pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+     "locator": "What is Azure Quantum?",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-azure-overview",
+     "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
+     "locator": "What is Azure Quantum?",
+     "supports": "sdk"
+    }
+   ],
+   "system": "sys:rigetti-cepheus-1-108q",
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:d-wave-leap-advantage",
+   "system": "sys:d-wave-advantage",
+   "target_org": "co:d-wave",
+   "platform": "co:d-wave",
+   "platform_name": "D-Wave Leap",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Ocean SDK"
+   ],
+   "auth_model": "Leap project API token",
+   "tier": "application",
+   "tier_note": "The cloud page says customers can access these systems and offers Apply for Free Trial.",
+   "docs_url": "https://www.dwavesys.com/solutions-and-products/cloud-platform/",
+   "evidence": [
+    {
+     "source": "src:acc-dwave-cloud",
+     "quote": "Customers can access the Advantage2™ and Advantage™ annealing quantum computing systems",
+     "locator": "Cloud platform page",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-dwave-cloud",
+     "quote": "Apply for Free Trial",
+     "locator": "Cloud platform page",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-dwave-index",
+     "quote": "Advantage™ and Advantage2™ systems",
+     "locator": "Documentation index",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-dwave-index",
+     "quote": "Ocean SDK",
+     "locator": "Documentation index",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-dwave-leap",
+     "quote": "Your active project and its associated API token",
+     "locator": "Leap service page",
+     "supports": "auth"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:d-wave-leap-advantage2",
+   "system": "sys:d-wave-advantage2",
+   "target_org": "co:d-wave",
+   "platform": "co:d-wave",
+   "platform_name": "D-Wave Leap",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Ocean SDK"
+   ],
+   "auth_model": "Leap project API token",
+   "tier": "application",
+   "tier_note": "The cloud page says customers can access these systems and offers Apply for Free Trial.",
+   "docs_url": "https://www.dwavesys.com/solutions-and-products/cloud-platform/",
+   "evidence": [
+    {
+     "source": "src:acc-dwave-cloud",
+     "quote": "Customers can access the Advantage2™ and Advantage™ annealing quantum computing systems",
+     "locator": "Cloud platform page",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-dwave-cloud",
+     "quote": "Apply for Free Trial",
+     "locator": "Cloud platform page",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-dwave-index",
+     "quote": "Advantage™ and Advantage2™ systems",
+     "locator": "Documentation index",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-dwave-index",
+     "quote": "Ocean SDK",
+     "locator": "Documentation index",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-dwave-leap",
+     "quote": "Your active project and its associated API token",
+     "locator": "Leap service page",
+     "supports": "auth"
+    }
+   ],
+   "snippet": {
+    "code": "from dwave.system import DWaveSampler, EmbeddingComposite\n    sampler = EmbeddingComposite(DWaveSampler())\n    Q = {('a', 'a'): -1, ('b', 'b'): -1, ('c', 'c'): -1,\n         ('a', 'b'): 2, ('b', 'c'): 2, ('a', 'c'): 2}\n    sampleset = sampler.sample_qubo(Q)",
+    "source_url": "https://docs.dwavequantum.com/en/latest/_sources/quantum_research/basic_config.rst.txt",
+    "language": "python",
+    "sdk": "dwave-ocean-sdk",
+    "sim_check": {
+     "status": "passed",
+     "simulator": "dimod.ExactSolver",
+     "substitution": "sampler = dimod.ExactSolver() instead of EmbeddingComposite(DWaveSampler()). The dwave.system import was not executed. The four-space RST indent was removed.",
+     "sdk_version": "dimod 0.12.22",
+     "python_version": "3.12.13",
+     "ran_at": "2026-10-02",
+     "output_excerpt": "a b c energy num_oc. / 1 1 0 0 -1.0 1 / 3 0 1 0 -1.0 1 / 7 0 0 1 -1.0 1",
+     "notes": "ExactSolver enumerates the QUBO locally. DWaveSampler was not called and no Leap token was used."
+    }
+   },
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ibm-quantum-ibm-boston",
+   "system_hint": "ibm_boston",
+   "target_org": "co:ibm",
+   "platform": "co:ibm",
+   "platform_name": "IBM Quantum Platform",
+   "route": "ibm_quantum_platform",
+   "sdks": [
+    "Qiskit",
+    "qiskit-ibm-runtime"
+   ],
+   "auth_model": "IBM Quantum Platform API key (also called an API token)",
+   "tier": "open_free",
+   "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
+   "docs_url": "https://quantum.cloud.ibm.com/computers",
+   "evidence": [
+    {
+     "source": "src:acc-ibm-computers",
+     "quote": "\\\"name\\\":\\\"ibm_boston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+     "locator": "Computers page, public device record",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Run your quantum circuits on the world's best QPUs for free (up to 10 minutes per 28-day rolling window).",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Open Plan instances can only be created in the us-east region",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "Generate your API key (also called an *API token*)",
+     "locator": "Hello world, set up your account",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "qiskit-ibm-runtime",
+     "locator": "Hello world requirements",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "QiskitRuntimeService",
+     "locator": "Plans overview",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ibm-quantum-ibm-fez",
+   "system_hint": "ibm_fez",
+   "target_org": "co:ibm",
+   "platform": "co:ibm",
+   "platform_name": "IBM Quantum Platform",
+   "route": "ibm_quantum_platform",
+   "sdks": [
+    "Qiskit",
+    "qiskit-ibm-runtime"
+   ],
+   "auth_model": "IBM Quantum Platform API key (also called an API token)",
+   "tier": "open_free",
+   "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
+   "docs_url": "https://quantum.cloud.ibm.com/computers",
+   "evidence": [
+    {
+     "source": "src:acc-ibm-computers",
+     "quote": "\\\"name\\\":\\\"ibm_fez\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+     "locator": "Computers page, public device record",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Run your quantum circuits on the world's best QPUs for free (up to 10 minutes per 28-day rolling window).",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Open Plan instances can only be created in the us-east region",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "Generate your API key (also called an *API token*)",
+     "locator": "Hello world, set up your account",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "qiskit-ibm-runtime",
+     "locator": "Hello world requirements",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "QiskitRuntimeService",
+     "locator": "Plans overview",
+     "supports": "sdk"
+    }
+   ],
+   "snippet": {
+    "code": "> from qiskit_ibm_runtime.fake_provider import FakeBelemV2\n> backend = FakeBelemV2()\n> estimator = Estimator(backend)\n>\n> # Convert to an ISA circuit and layout-mapped observables.\n>\n> pm = generate_preset_pass_manager(backend=backend, optimization_level=1)\n> isa_circuit = pm.run(qc)\n> mapped_observables = [\n>     observable.apply_layout(isa_circuit.layout) for observable in observables\n> ]\n>\n> job = estimator.run([(isa_circuit, mapped_observables)])\n> result = job.result()\n>\n> # This is the result of the entire submission. You submitted one Pub,\n> # so this contains one inner result (and some metadata of its own).\n>\n> job_result = job.result()\n>\n> # This is the result from our single pub, which had five observables,\n> # so contains information on all five.\n>\n> pub_result = job.result()[0]",
+    "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world.md",
+    "language": "python",
+    "sdk": "qiskit-ibm-runtime",
+    "sim_check": {
+     "status": "passed",
+     "simulator": "qiskit_ibm_runtime.fake_provider.FakeBelemV2",
+     "substitution": "The documented simulator block already uses FakeBelemV2. The Markdown source prefixes each line with '> '. The test removed only those prefixes and defined qc and observables from the earlier cells on the same page. QiskitRuntimeService was not called.",
+     "sdk_version": "qiskit 2.5.2, qiskit-ibm-runtime 0.50.0, qiskit-aer 0.17.2",
+     "python_version": "3.12.13",
+     "ran_at": "2026-10-02",
+     "output_excerpt": "[0.031363182534959524, -0.018073698409976677, 0.02892447805237474, -0.015251088427615772, 0.9813224291121257, 0.9715893595118305]",
+     "notes": "The page pins qiskit-ibm-runtime~=0.47.0. This run used 0.50.0, which still provides FakeBelemV2 and Estimator(backend). qiskit-aer was installed because Estimator.run on FakeBelemV2 requires it. No IBM account was used."
+    }
+   },
+   "review": "flagged",
+   "review_note": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ibm-quantum-ibm-kingston",
+   "system_hint": "ibm_kingston",
+   "target_org": "co:ibm",
+   "platform": "co:ibm",
+   "platform_name": "IBM Quantum Platform",
+   "route": "ibm_quantum_platform",
+   "sdks": [
+    "Qiskit",
+    "qiskit-ibm-runtime"
+   ],
+   "auth_model": "IBM Quantum Platform API key (also called an API token)",
+   "tier": "open_free",
+   "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
+   "docs_url": "https://quantum.cloud.ibm.com/computers",
+   "evidence": [
+    {
+     "source": "src:acc-ibm-computers",
+     "quote": "\\\"name\\\":\\\"ibm_kingston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156,\\\"physical_qubits\\\":332,\\\"clops\\\":{\\\"type\\\":\\\"hardware\\\",\\\"value\\\":340000},\\\"mcps\\\":3829,\\\"processor_type\\\":{\\\"family\\\":\\\"Heron\\\",\\\"revision\\\":\\\"2\\\"},\\\"queue_length\\\":0,\\\"performance_metrics\\\":{\\\"two_q_error_best\\\":{\\\"gate\\\":\\\"cz\\\",\\\"qubits\\\":[1,2],\\\"unit\\\":\\\"\\\",\\\"value\\\":0.0007856136},\\\"two_q_error_layered\\\":{\\\"unit\\\":\\\"\\\",\\\"value\\\":0.0036569952},\\\"two_q_error_median\\\":{\\\"unit\\\":\\\"\\\",\\\"value\\\":0.0019219926},\\\"readout_error_median\\\":{\\\"unit\\\":\\\"\\\",\\\"value\\\":0.008666992}},\\\"region\\\":\\\"us-east\\\",\\\"isPublic\\\":true",
+     "locator": "Computers page, public device record",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Run your quantum circuits on the world's best QPUs for free (up to 10 minutes per 28-day rolling window).",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Open Plan instances can only be created in the us-east region",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "Generate your API key (also called an *API token*)",
+     "locator": "Hello world, set up your account",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "qiskit-ibm-runtime",
+     "locator": "Hello world requirements",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "QiskitRuntimeService",
+     "locator": "Plans overview",
+     "supports": "sdk"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ibm-quantum-ibm-marrakesh",
+   "system_hint": "ibm_marrakesh",
+   "target_org": "co:ibm",
+   "platform": "co:ibm",
+   "platform_name": "IBM Quantum Platform",
+   "route": "ibm_quantum_platform",
+   "sdks": [
+    "Qiskit",
+    "qiskit-ibm-runtime"
+   ],
+   "auth_model": "IBM Quantum Platform API key (also called an API token)",
+   "tier": "open_free",
+   "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
+   "docs_url": "https://quantum.cloud.ibm.com/computers",
+   "evidence": [
+    {
+     "source": "src:acc-ibm-computers",
+     "quote": "\\\"name\\\":\\\"ibm_marrakesh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+     "locator": "Computers page, public device record",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Run your quantum circuits on the world's best QPUs for free (up to 10 minutes per 28-day rolling window).",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Open Plan instances can only be created in the us-east region",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "Generate your API key (also called an *API token*)",
+     "locator": "Hello world, set up your account",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "qiskit-ibm-runtime",
+     "locator": "Hello world requirements",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "QiskitRuntimeService",
+     "locator": "Plans overview",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ibm-quantum-ibm-miami",
+   "system_hint": "ibm_miami",
+   "target_org": "co:ibm",
+   "platform": "co:ibm",
+   "platform_name": "IBM Quantum Platform",
+   "route": "ibm_quantum_platform",
+   "sdks": [
+    "Qiskit",
+    "qiskit-ibm-runtime"
+   ],
+   "auth_model": "IBM Quantum Platform API key (also called an API token)",
+   "tier": "open_free",
+   "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
+   "docs_url": "https://quantum.cloud.ibm.com/computers",
+   "evidence": [
+    {
+     "source": "src:acc-ibm-computers",
+     "quote": "\\\"name\\\":\\\"ibm_miami\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":120,\\\"physical_qubits\\\":338,\\\"clops\\\":{\\\"type\\\":\\\"hardware\\\",\\\"value\\\":24000},\\\"mcps\\\":250,\\\"processor_type\\\":{\\\"family\\\":\\\"Nighthawk\\\",\\\"revision\\\":\\\"1\\\"},\\\"queue_length\\\":0,\\\"performance_metrics\\\":{\\\"two_q_error_best\\\":{\\\"gate\\\":\\\"cz\\\",\\\"qubits\\\":[98,99],\\\"unit\\\":\\\"\\\",\\\"value\\\":0.00093601644},\\\"two_q_error_layered\\\":{\\\"unit\\\":\\\"\\\",\\\"value\\\":0.0093395915},\\\"two_q_error_median\\\":{\\\"unit\\\":\\\"\\\",\\\"value\\\":0.0029214532},\\\"readout_error_median\\\":{\\\"unit\\\":\\\"\\\",\\\"value\\\":0.020263672}},\\\"region\\\":\\\"us-east\\\",\\\"isPublic\\\":true",
+     "locator": "Computers page, public device record",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Run your quantum circuits on the world's best QPUs for free (up to 10 minutes per 28-day rolling window).",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Open Plan instances can only be created in the us-east region",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "Generate your API key (also called an *API token*)",
+     "locator": "Hello world, set up your account",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "qiskit-ibm-runtime",
+     "locator": "Hello world requirements",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "QiskitRuntimeService",
+     "locator": "Plans overview",
+     "supports": "sdk"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ibm-quantum-ibm-phoenix",
+   "system_hint": "ibm_phoenix",
+   "target_org": "co:ibm",
+   "platform": "co:ibm",
+   "platform_name": "IBM Quantum Platform",
+   "route": "ibm_quantum_platform",
+   "sdks": [
+    "Qiskit",
+    "qiskit-ibm-runtime"
+   ],
+   "auth_model": "IBM Quantum Platform API key (also called an API token)",
+   "tier": "open_free",
+   "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
+   "docs_url": "https://quantum.cloud.ibm.com/computers",
+   "evidence": [
+    {
+     "source": "src:acc-ibm-computers",
+     "quote": "\\\"name\\\":\\\"ibm_phoenix\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+     "locator": "Computers page, public device record",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Run your quantum circuits on the world's best QPUs for free (up to 10 minutes per 28-day rolling window).",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Open Plan instances can only be created in the us-east region",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "Generate your API key (also called an *API token*)",
+     "locator": "Hello world, set up your account",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "qiskit-ibm-runtime",
+     "locator": "Hello world requirements",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "QiskitRuntimeService",
+     "locator": "Plans overview",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ibm-quantum-ibm-pittsburgh",
+   "system_hint": "ibm_pittsburgh",
+   "target_org": "co:ibm",
+   "platform": "co:ibm",
+   "platform_name": "IBM Quantum Platform",
+   "route": "ibm_quantum_platform",
+   "sdks": [
+    "Qiskit",
+    "qiskit-ibm-runtime"
+   ],
+   "auth_model": "IBM Quantum Platform API key (also called an API token)",
+   "tier": "open_free",
+   "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
+   "docs_url": "https://quantum.cloud.ibm.com/computers",
+   "evidence": [
+    {
+     "source": "src:acc-ibm-computers",
+     "quote": "\\\"name\\\":\\\"ibm_pittsburgh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+     "locator": "Computers page, public device record",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+     "locator": "Plans overview",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Run your quantum circuits on the world's best QPUs for free (up to 10 minutes per 28-day rolling window).",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "Open Plan instances can only be created in the us-east region",
+     "locator": "Open Plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "Generate your API key (also called an *API token*)",
+     "locator": "Hello world, set up your account",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ibm-hello",
+     "quote": "qiskit-ibm-runtime",
+     "locator": "Hello world requirements",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ibm-plans",
+     "quote": "QiskitRuntimeService",
+     "locator": "Plans overview",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ionq-cloud-forte-1",
+   "system": "sys:ionq-forte",
+   "target_org": "co:ionq",
+   "platform": "co:ionq",
+   "platform_name": "IonQ Quantum Cloud",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Qiskit",
+    "Cirq",
+    "PennyLane",
+    "qBraid"
+   ],
+   "auth_model": "IonQ API key",
+   "tier": "paid",
+   "tier_note": "Jobs on IonQ QPUs consume compute credit. Rates depend on the access agreement with IonQ.",
+   "docs_url": "https://docs.ionq.com/user-manual/backends.md",
+   "evidence": [
+    {
+     "source": "src:acc-ionq-backends",
+     "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+     "locator": "Backends table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ionq-llms",
+     "quote": "IonQ Quantum Cloud Documentation",
+     "locator": "Documentation index",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ionq-llms",
+     "quote": "IonQ API keys",
+     "locator": "Documentation index, managing API keys",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ionq-llms",
+     "quote": "Getting started with Qiskit",
+     "locator": "Documentation index",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ionq-cost",
+     "quote": "commercially available quantum computers, including Forte and Forte Enterprise systems",
+     "locator": "Job cost and usage",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ionq-cost",
+     "quote": "Jobs run on IonQ QPUs consume **compute credit**",
+     "locator": "Job cost and usage",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ionq-cost",
+     "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
+     "locator": "Job cost and usage",
+     "supports": "tier"
+    }
+   ],
+   "snippet": {
+    "code": "from qiskit import QuantumCircuit\nfrom qiskit_ionq import IonQProvider\n\nprovider = IonQProvider()\nsimulator_backend = provider.get_backend(\"simulator\")\n\n# Create a basic Bell State circuit:\nqc = QuantumCircuit(2, name=\"IonQ Qiskit guide - simulator example\")\nqc.h(0)\nqc.cx(0, 1)\nqc.measure_all()\n\n# Run the circuit on IonQ's platform:\njob = simulator_backend.run(qc, shots=10000)\n\n# Print the counts\nprint(job.get_counts())",
+    "source_url": "https://docs.ionq.com/sdks/qiskit/index.md",
+    "language": "python",
+    "sdk": "qiskit-ionq",
+    "sim_check": {
+     "status": "not_run",
+     "sdk_version": "qiskit-ionq 1.1.1",
+     "python_version": "3.12.13",
+     "ran_at": "2026-10-02",
+     "output_excerpt": "IonQCredentialsError: Credentials `token` may not be None!",
+     "notes": "IonQProvider() constructs without a token, and get_backend('simulator') returns. simulator_backend.run then raises IonQCredentialsError. The page says the job runs on IonQ's platform. No account was created and no token was supplied."
+    }
+   },
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:ionq-cloud-forte-enterprise-1",
+   "system": "sys:ionq-forte-enterprise-quantumbasel",
+   "target_org": "co:ionq",
+   "platform": "co:ionq",
+   "platform_name": "IonQ Quantum Cloud",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Qiskit",
+    "Cirq",
+    "PennyLane",
+    "qBraid"
+   ],
+   "auth_model": "IonQ API key",
+   "tier": "paid",
+   "tier_note": "Jobs on IonQ QPUs consume compute credit. Rates depend on the access agreement with IonQ.",
+   "docs_url": "https://docs.ionq.com/user-manual/backends.md",
+   "evidence": [
+    {
+     "source": "src:acc-ionq-backends",
+     "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+     "locator": "Backends table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ionq-llms",
+     "quote": "IonQ Quantum Cloud Documentation",
+     "locator": "Documentation index",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ionq-llms",
+     "quote": "IonQ API keys",
+     "locator": "Documentation index, managing API keys",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-ionq-llms",
+     "quote": "Getting started with Qiskit",
+     "locator": "Documentation index",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-ionq-cost",
+     "quote": "commercially available quantum computers, including Forte and Forte Enterprise systems",
+     "locator": "Job cost and usage",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-ionq-cost",
+     "quote": "Jobs run on IonQ QPUs consume **compute credit**",
+     "locator": "Job cost and usage",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-ionq-cost",
+     "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
+     "locator": "Job cost and usage",
+     "supports": "tier"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:iqm-resonance-crystal-20",
+   "system_hint": "IQM Crystal 20",
+   "target_org": "co:iqm",
+   "platform": "co:iqm",
+   "platform_name": "IQM Resonance",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Qrisp",
+    "Qiskit",
+    "Cirq",
+    "Cuda Quantum",
+    "TKET"
+   ],
+   "auth_model": "Free sign up",
+   "tier": "open_free",
+   "tier_note": "Starter plan is for free, up to 30 credits per month, based on availability. A pay-as-you-go plan is also listed.",
+   "docs_url": "https://www.meetiqm.com/products/iqm-resonance/",
+   "evidence": [
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "IQM Crystal 20",
+     "locator": "QPU name",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "QPU based on superconducting transmon qubits.",
+     "locator": "QPU description",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Available QPUs",
+     "locator": "Available QPUs",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "for free. Up to 30 credits per month, based on availability",
+     "locator": "Starter plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Free sign up",
+     "locator": "Free sign up",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Pay-as-you-go",
+     "locator": "Pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "size-default\">Qrisp",
+     "locator": "SDK list",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Also compatible with Qiskit, Cirq, Cuda Quantum, and TKET ensuring flexibility for all development needs.",
+     "locator": "SDK list",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "The page separately lists Crystal 20 as available and a free Starter allowance, but does not explicitly allocate that QPU to Starter rather than pay-as-you-go.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:iqm-resonance-crystal-54",
+   "system_hint": "IQM Crystal 54",
+   "target_org": "co:iqm",
+   "platform": "co:iqm",
+   "platform_name": "IQM Resonance",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Qrisp",
+    "Qiskit",
+    "Cirq",
+    "Cuda Quantum",
+    "TKET"
+   ],
+   "auth_model": "Free sign up",
+   "tier": "open_free",
+   "tier_note": "Starter plan is for free, up to 30 credits per month, based on availability. A pay-as-you-go plan is also listed.",
+   "docs_url": "https://www.meetiqm.com/products/iqm-resonance/",
+   "evidence": [
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "IQM Crystal 54",
+     "locator": "QPU name",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "QPU based on superconducting transmon qubits.",
+     "locator": "QPU description",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Available QPUs",
+     "locator": "Available QPUs",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "for free. Up to 30 credits per month, based on availability",
+     "locator": "Starter plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Free sign up",
+     "locator": "Free sign up",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Pay-as-you-go",
+     "locator": "Pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "size-default\">Qrisp",
+     "locator": "SDK list",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Also compatible with Qiskit, Cirq, Cuda Quantum, and TKET ensuring flexibility for all development needs.",
+     "locator": "SDK list",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "The page separately lists Crystal 54 as available and a free Starter allowance, but does not explicitly allocate that QPU to Starter rather than pay-as-you-go.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:iqm-resonance-star-24",
+   "system_hint": "IQM Star 24",
+   "target_org": "co:iqm",
+   "platform": "co:iqm",
+   "platform_name": "IQM Resonance",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Qrisp",
+    "Qiskit",
+    "Cirq",
+    "Cuda Quantum",
+    "TKET"
+   ],
+   "auth_model": "Free sign up",
+   "tier": "open_free",
+   "tier_note": "Starter plan is for free, up to 30 credits per month, based on availability. A pay-as-you-go plan is also listed.",
+   "docs_url": "https://www.meetiqm.com/products/iqm-resonance/",
+   "evidence": [
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "IQM Star 24 is now available in beta, with full deployment in the coming months.",
+     "locator": "Star 24 beta",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Available QPUs",
+     "locator": "Available QPUs",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "for free. Up to 30 credits per month, based on availability",
+     "locator": "Starter plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Free sign up",
+     "locator": "Free sign up",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Pay-as-you-go",
+     "locator": "Pay-as-you-go plan",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "size-default\">Qrisp",
+     "locator": "SDK list",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-iqm-resonance",
+     "quote": "Also compatible with Qiskit, Cirq, Cuda Quantum, and TKET ensuring flexibility for all development needs.",
+     "locator": "SDK list",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "Star 24 is stated to be available only in beta, and the page does not explicitly allocate it to the free Starter allowance rather than pay-as-you-go.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:oqc-cloud-toshiko",
+   "system": "sys:oqc-toshiko",
+   "target_org": "co:oqc",
+   "platform": "co:oqc",
+   "platform_name": "OQC Cloud",
+   "route": "vendor_cloud",
+   "sdks": [],
+   "auth_model": "GET IN TOUCH",
+   "tier": "application",
+   "tier_note": "The page states on-demand access. The call to action is GET IN TOUCH.",
+   "docs_url": "https://oqc.tech/access/oqc-cloud/",
+   "evidence": [
+    {
+     "source": "src:acc-oqc-cloud",
+     "quote": "OQC Cloud offers reliable, on-demand access to our 32-qubit quantum computer, OQC Toshiko",
+     "locator": "OQC Cloud page",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-oqc-cloud",
+     "quote": "GET IN TOUCH",
+     "locator": "OQC Cloud page",
+     "supports": "tier"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "OQC documents on-demand Toshiko access and a “GET IN TOUCH” path, but does not publish a self-serve plan, approval rule, or price; “application” is the closest available tier.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:pasqal-cloud-fresnel",
+   "system_hint": "FRESNEL",
+   "target_org": "co:pasqal",
+   "platform": "co:pasqal",
+   "platform_name": "Pasqal Cloud",
+   "route": "vendor_cloud",
+   "sdks": [
+    "pasqal_cloud"
+   ],
+   "auth_model": "Pasqal platform email, password, and project ID",
+   "tier": "paid",
+   "tier_note": "Direct Pasqal Cloud access uses credit pools.",
+   "docs_url": "https://docs.pasqal.com/qpu-emulators/",
+   "evidence": [
+    {
+     "source": "src:acc-pasqal-qpu",
+     "quote": ">FRESNEL</span></div></th><td><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+     "locator": "QPU availability table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-pasqal-qpu",
+     "quote": "Run on Fresnel, Pasqal",
+     "locator": "QPU page",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-pasqal-billing",
+     "quote": "Pasqal Cloud projects are billed through contracts",
+     "locator": "Billing models",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your Pasqal platform email",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your Pasqal platform password",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your project ID from the portal",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "from pasqal_cloud import PasqalCloudConnection",
+     "locator": "Getting started",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:pasqal-cloud-fresnel-can1",
+   "system_hint": "FRESNEL_CAN1",
+   "target_org": "co:pasqal",
+   "platform": "co:pasqal",
+   "platform_name": "Pasqal Cloud",
+   "route": "vendor_cloud",
+   "sdks": [
+    "pasqal_cloud"
+   ],
+   "auth_model": "Pasqal platform email, password, and project ID",
+   "tier": "paid",
+   "tier_note": "Direct Pasqal Cloud access uses credit pools.",
+   "docs_url": "https://docs.pasqal.com/qpu-emulators/",
+   "evidence": [
+    {
+     "source": "src:acc-pasqal-qpu",
+     "quote": ">FRESNEL_CAN1</span></div></th><td><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+     "locator": "QPU availability table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-pasqal-qpu",
+     "quote": "Run on Fresnel, Pasqal",
+     "locator": "QPU page",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-pasqal-billing",
+     "quote": "Pasqal Cloud projects are billed through contracts",
+     "locator": "Billing models",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your Pasqal platform email",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your Pasqal platform password",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your project ID from the portal",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "from pasqal_cloud import PasqalCloudConnection",
+     "locator": "Getting started",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:pasqal-cloud-fresnel-sa1",
+   "system_hint": "FRESNEL_SA1",
+   "target_org": "co:pasqal",
+   "platform": "co:pasqal",
+   "platform_name": "Pasqal Cloud",
+   "route": "vendor_cloud",
+   "sdks": [
+    "pasqal_cloud"
+   ],
+   "auth_model": "Pasqal platform email, password, and project ID",
+   "tier": "paid",
+   "tier_note": "Direct Pasqal Cloud access uses credit pools.",
+   "docs_url": "https://docs.pasqal.com/qpu-emulators/",
+   "evidence": [
+    {
+     "source": "src:acc-pasqal-qpu",
+     "quote": ">FRESNEL_SA1</span></div></th><td><div class=\"Stack Stack--columnScreenXs Stack--columnScreenSm Stack--columnScreenMd Stack--columnScreenLg Stack--spacing25\"><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+     "locator": "QPU availability table",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-pasqal-qpu",
+     "quote": "Run on Fresnel, Pasqal",
+     "locator": "QPU page",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-pasqal-billing",
+     "quote": "Pasqal Cloud projects are billed through contracts",
+     "locator": "Billing models",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your Pasqal platform email",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your Pasqal platform password",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "Your project ID from the portal",
+     "locator": "Getting started",
+     "supports": "auth"
+    },
+    {
+     "source": "src:acc-pasqal-start",
+     "quote": "from pasqal_cloud import PasqalCloudConnection",
+     "locator": "Getting started",
+     "supports": "sdk"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:quantinuum-nexus-h2",
+   "system": "sys:quantinuum-h2",
+   "target_org": "co:quantinuum",
+   "platform": "co:quantinuum",
+   "platform_name": "Quantinuum Nexus",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Pytket",
+    "qnexus"
+   ],
+   "auth_model": "Register interest in Quantinuum Nexus",
+   "tier": "application",
+   "tier_note": "Register interest in Quantinuum Nexus. Not everyone is granted access. Subscription users can access Quantinuum hardware.",
+   "docs_url": "https://docs.quantinuum.com/nexus/user_guide/sign_up.html",
+   "evidence": [
+    {
+     "source": "src:acc-qh-access",
+     "quote": "Trapped ion quantum computers are available to users utilizing the Quantinuum Helios and System Model H2 generation of quantum computers",
+     "locator": "System access",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "Subscription users can access the following targets:",
+     "locator": "System access",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "Quantinuum hardware",
+     "locator": "Subscription targets",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-qh-signup",
+     "quote": "You can register your interest in Quantinuum Nexus by visiting",
+     "locator": "Signing up",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-qh-signup",
+     "quote": "Unfortunately, not everyone will be able to access Nexus during this time, but everyone who registers their interest will be kept informed on when they can expect to be granted access.",
+     "locator": "Signing up",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "https://docs.quantinuum.com/tket/\">Pytket</a>",
+     "locator": "Documentation navigation",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "class=\"pre\">qnexus</span>",
+     "locator": "System access",
+     "supports": "sdk"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  },
+  {
+   "id": "acc:quantinuum-nexus-helios",
+   "system": "sys:quantinuum-helios",
+   "target_org": "co:quantinuum",
+   "platform": "co:quantinuum",
+   "platform_name": "Quantinuum Nexus",
+   "route": "vendor_cloud",
+   "sdks": [
+    "Pytket",
+    "qnexus"
+   ],
+   "auth_model": "Register interest in Quantinuum Nexus",
+   "tier": "application",
+   "tier_note": "Register interest in Quantinuum Nexus. Not everyone is granted access. Subscription users can access Quantinuum hardware.",
+   "docs_url": "https://docs.quantinuum.com/nexus/user_guide/sign_up.html",
+   "evidence": [
+    {
+     "source": "src:acc-qh-access",
+     "quote": "Trapped ion quantum computers are available to users utilizing the Quantinuum Helios and System Model H2 generation of quantum computers",
+     "locator": "System access",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "Subscription users can access the following targets:",
+     "locator": "System access",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "Quantinuum hardware",
+     "locator": "Subscription targets",
+     "supports": "availability"
+    },
+    {
+     "source": "src:acc-qh-signup",
+     "quote": "You can register your interest in Quantinuum Nexus by visiting",
+     "locator": "Signing up",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-qh-signup",
+     "quote": "Unfortunately, not everyone will be able to access Nexus during this time, but everyone who registers their interest will be kept informed on when they can expect to be granted access.",
+     "locator": "Signing up",
+     "supports": "tier"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "https://docs.quantinuum.com/tket/\">Pytket</a>",
+     "locator": "Documentation navigation",
+     "supports": "sdk"
+    },
+    {
+     "source": "src:acc-qh-access",
+     "quote": "class=\"pre\">qnexus</span>",
+     "locator": "System access",
+     "supports": "sdk"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All material fields are supported by independently fetched Tier 2 official evidence.",
+   "best_tier": 2,
+   "topic": "access"
+  }
+ ],
  "relationships": [
   {
    "id": "rel:australia-psiquantum-investment",
@@ -19052,6 +21803,56 @@
   }
  ],
  "gaps": [
+  {
+   "topic": "access",
+   "why": "The Quantum Computing Service concepts page says access is granted only to an approved list and that no public access is available. The Quantum Engine page says the API is not open for public access. Neither fetched page names a processor.",
+   "would_need": "A Google page that names the processor currently offered through the Quantum Computing Service and states its access tier."
+  },
+  {
+   "topic": "access",
+   "why": "https://alice-bob.com/ and https://www.alice-bob.com/ returned Forbidden. https://docs.alice-bob.com/ did not resolve. No device or tier was recorded.",
+   "would_need": "An official page, fetched with the declared user agent, that names a bookable device and its access tier."
+  },
+  {
+   "topic": "access",
+   "why": "https://www.fujitsu.com/global/about/research/technology/quantum/ and https://global.fujitsu/en-global returned Too Many Requests. The fetches were not retried.",
+   "would_need": "An official Fujitsu cloud page that names the device offered today and its access tier."
+  },
+  {
+   "topic": "access",
+   "why": "The fetched xanadu.ai page is a JavaScript shell and does not name a cloud QPU or a tier. https://cloud.xanadu.ai/ did not resolve.",
+   "would_need": "Xanadu cloud documentation that names a QPU available today and states the access tier."
+  },
+  {
+   "topic": "access",
+   "why": "The fetched Quandela cloud page does not name a specific QPU as available today and does not state an access tier.",
+   "would_need": "A Quandela device list that marks a named QPU available and states the tier."
+  },
+  {
+   "topic": "access",
+   "why": "The fetched qcs.rigetti.com page does not name a QPU. PyQuil docs say programs can run on QCS but do not name the current devices. Rigetti QPUs are recorded here only where Braket or Azure name them.",
+   "would_need": "A Rigetti QCS page that lists the QPUs accepting jobs and states the access tier."
+  },
+  {
+   "topic": "access",
+   "why": "The AQT products page says ARNICA is remote access to IBEX quantum computers and does not state a tier. The IBEX device Braket lists is recorded on Amazon Braket, where a price is published.",
+   "would_need": "An ARNICA pricing or signup page that states the access tier for IBEX."
+  },
+  {
+   "topic": "access",
+   "why": "The Chinese cloud homepage offers Origin Wukong and describes free real-machine time to claim. The fetched Origin pages do not state a headquarters address, so this file does not define the operator or a route.",
+   "would_need": "An official address for the operator, plus the ordinary access terms for the physical machine."
+  },
+  {
+   "topic": "access",
+   "why": "Pasqal's QPU page names Google Cloud, Azure, OVHCloud, and Scaleway. Azure's tier is recorded from Microsoft's pricing page. The fetched Pasqal pages do not state the access tier on Google Cloud, OVHCloud, or Scaleway.",
+   "would_need": "A Pasqal or host-cloud page that states the tier for FRESNEL on Google Cloud, OVHCloud, and Scaleway."
+  },
+  {
+   "topic": "access",
+   "why": "Superstaq documents a Sqale QPU target and says a Superstaq API key can be obtained from superstaq.infleqtion.com. The fetched pages do not say whether that key is free, paid, or approved.",
+   "would_need": "A Superstaq or Infleqtion page that states the access tier for the Sqale QPU."
+  },
   {
    "topic": "neutral_atom",
    "why": "No primary document found stating the date the AC1000 / second-generation system became available to external users; target left \"open\".",

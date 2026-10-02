@@ -108,3 +108,10 @@
   fetch as a journal article is published as a preprint.
 - Unit tests and the browser smoke suite passed on the verified build. The user asked to
   publish the app and add it to luke-mcevoy.github.io.
+
+## 2026-10-02 01:08 ET — Cursor coordinator: access counsel done
+- data/verification/access.json: 30 publish, 18 publish_flagged, 2 reject
+  (acc:ibm-quantum-ibm-aachen, acc:ibm-quantum-ibm-berlin). 36 sources, 269 evidence checks,
+  50 entities. validate: 0 errors. Research file not edited.
+- Rebuilt the verified atlas: 36 access routes. Added the story "How to run your first program".
+  Unit tests 50 passed. Playwright 8 passed, including the snippet smoke test.
