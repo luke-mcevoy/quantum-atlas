@@ -65,13 +65,13 @@ articles".
 
 | Topic file | Analyst | Counsel | Contents |
 |---|---|---|---|
-| `neutral_atom.json` | **done** | was running (check `data/verification/`) | 74 sources, 17 systems, 27 milestones (16 peer-reviewed), 25 targets |
+| `neutral_atom.json` | **done** | **running** (Claude Sonnet, launched ~10:35) | 74 sources, 17 systems, 27 milestones (16 peer-reviewed), 25 targets |
 | `superconducting_a.json` | **done** | not started; give it the notes in `docs/handoff/counsel-superconducting_a.md` | IBM, Google, Rigetti, AWS, Alice & Bob: 14 systems, 18 milestones, 16 targets |
 | `superconducting_b.json` | **done** | not started; notes in `docs/handoff/counsel-superconducting_b.md` | IQM, OQC, Fujitsu/RIKEN, USTC, Origin: 17 systems, 21 milestones, 14 targets |
 | `trapped_ion.json` | **done** | not started; notes in `docs/handoff/counsel-trapped_ion.md` | Quantinuum, IonQ, Oxford Ionics, AQT: 14 systems, 17 milestones, 13 targets |
-| `photonic.json` | was just launched | not started | may not exist yet |
-| `spin_topo_anneal.json` | **not started** | — | spin/silicon (Intel, Diraq, Quantum Motion), topological (Microsoft), annealing (D-Wave), NV/other |
-| `access.json` | **not started** | — | per `docs/ACCESS.md`: cloud routes, SDKs, tiers, verbatim official snippets, each run against the SDK's **local simulator** in a scratch venv. Never call real or paid hardware; never create accounts. |
+| `photonic.json` | **running** (Claude, launched ~10:35) | not started | may be partial |
+| `spin_topo_anneal.json` | **running** (Claude, launched ~11:00) | — | spin/silicon (Intel, Diraq, Quantum Motion), topological (Microsoft), annealing (D-Wave), NV/other |
+| `access.json` | **running** (Claude, launched ~11:00) | — | per `docs/ACCESS.md`: cloud routes, SDKs, tiers, verbatim official snippets, each run against the SDK's **local simulator** in a scratch venv. Never call real or paid hardware; never create accounts. |
 | `relationships.json` | **not started** | — | acquisitions, partnerships, government contracts and awards (DARPA QBI, DOE, national programs), funding only from primary sources |
 
 **Before you start:** a Claude agent may still be writing `photonic.json`, and a Claude reviewer `data/verification/neutral_atom.json`.
