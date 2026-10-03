@@ -10,6 +10,11 @@ There are two repos:
 > **Next feature (2026-10-02):** "Run it today", a buyer's guide covering which machines a company can submit work to now,
 > which problem types fit, tested examples, pricing and an honesty panel. The full plan is in **`docs/RUN-TODAY-PLAN.md`**.
 > Start there.
+>
+> **Second feature: "Track record".** How well each company's past roadmaps and investor projections held up
+> (whole-document ledgers, outcomes, slips, SPAC projections vs 10-K actuals, retractions), shown next to every
+> future target. The plan is in **`docs/TRACK-RECORD-PLAN.md`**. It can run in parallel with Run-today; one engineer
+> owns the shared schema and validator files at a time.
 
 ---|---|---|
 | **AI Supply Chain Atlas** | `~/Develop/Code/ai-supply-chain` | **Live and stable.** Fully verified, on GitHub, deployed. Maintenance only. |
