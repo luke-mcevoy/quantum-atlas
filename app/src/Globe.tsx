@@ -20,7 +20,7 @@ const rgba = (c: RGB, a: number): RGBA => [c[0], c[1], c[2], Math.round(a)];
 const isTouch = typeof window !== "undefined" && matchMedia("(pointer: coarse)").matches;
 const VIEW = new GlobeView({ id: "globe", resolution: 5 });
 const fitZoom = () => 1.05 + Math.log2((0.4 * Math.min(window.innerWidth, window.innerHeight - 90)) / 170);
-const INITIAL = { longitude: -40, latitude: 38, zoom: fitZoom(), minZoom: 0.4, maxZoom: 9 };
+const INITIAL = { longitude: -40, latitude: 38, zoom: fitZoom(), minZoom: 0.4, maxZoom: 9, bearing: 0 };
 const OCEAN_MESH = new SphereGeometry({ radius: 6.36e6, nlat: 48, nlong: 96 });
 const GRATICULE = graticule(20);
 /** One-tap camera presets: [label, lon, lat, zoom]. */
@@ -75,6 +75,8 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   const [time, setTime] = useState(0);
   const idleSpin = useRef(true);
   const drag = useRef<{ x: number; y: number; t: number } | null>(null);
+  /** True from pointer-down through the coast, so deck's pan cannot rewrite the camera. */
+  const turning = useRef(false);
   const vel = useRef<[number, number]>([0, 0]);
   const radiusPx = useRef(300);
   const touches = useRef(new Set<number>());
@@ -93,12 +95,13 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       const dt = (now - last) / 1000;
       last = now;
       setTime((now / 1000) % 3.2);
-      if (idleSpin.current) setViewState((v) => ({ ...v, longitude: ((v.longitude as number) + dt * 2.2 + 540) % 360 - 180, transitionDuration: 0 }));
+      if (idleSpin.current) setViewState((v) => ({ ...v, bearing: 0, longitude: ((v.longitude as number) + dt * 2.2 + 540) % 360 - 180, transitionDuration: 0 }));
       else if (!drag.current && (Math.abs(vel.current[0]) > 0.02 || Math.abs(vel.current[1]) > 0.02)) {
         const [vx, vy] = vel.current;
         vel.current = [vx * 0.9, vy * 0.9];
+        if (Math.abs(vel.current[0]) <= 0.02 && Math.abs(vel.current[1]) <= 0.02) turning.current = false;
         setViewState((v) => rotate(v, vx, vy));
-      }
+      } else if (!drag.current) turning.current = false;
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
@@ -114,7 +117,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       let lon = s.flyTo!.lon;
       while (lon - cur > 180) lon -= 360;
       while (lon - cur < -180) lon += 360;
-      return { ...v, longitude: lon, latitude: s.flyTo!.lat, zoom: s.flyTo!.zoom ?? Math.max(v.zoom as number, 2.2),
+      return { ...v, bearing: 0, longitude: lon, latitude: s.flyTo!.lat, zoom: s.flyTo!.zoom ?? Math.max(v.zoom as number, 2.2),
         transitionDuration: 1400, transitionInterpolator: new LinearInterpolator(["longitude", "latitude", "zoom"]) };
     });
   }, [s.flyTo]);
@@ -415,6 +418,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         window.removeEventListener("pointermove", move);
         window.removeEventListener("pointerup", up);
         window.removeEventListener("pointercancel", up);
+        if (Math.abs(vel.current[0]) <= 0.02 && Math.abs(vel.current[1]) <= 0.02) turning.current = false;
       }
     };
     return { move, up };
@@ -428,15 +432,10 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     stopSpin();
     // Real controls keep their own behaviour; site labels do not block a drag.
     if ((e.target as HTMLElement).closest("button:not(.glabel), a, input, select, textarea")) return;
-    // GlobeController turns the earth on dragPan, not dragRotate. A drag that starts on the
-    // canvas belongs to that controller. Adding a second rotation here fights it: the move is
-    // ignored by the controller, then pointer-up writes the start orientation back.
-    if (!(e.target as HTMLElement).closest(".glabel")) {
-      vel.current = [0, 0];
-      drag.current = null;
-      setViewState((v) => (v.transitionDuration ? { ...v, transitionDuration: 0 } : v));
-      return;
-    }
+    // North stays up. Deck's globe pan rolls the camera (bearing), which tips the poles,
+    // so this handler owns the turn and deck is not allowed to write it back.
+    turning.current = true;
+    setViewState((v) => ({ ...v, bearing: 0, transitionDuration: 0 }));
     touches.current.add(e.pointerId);
     window.addEventListener("pointermove", win.move);
     window.addEventListener("pointerup", win.up);
@@ -486,7 +485,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     const r = Math.hypot(e[0] - c[0], e[1] - c[1]);
     el.style.setProperty("--r", `${r}px`);
     radiusPx.current = r;
-    el.dataset.view = `${lon.toFixed(2)},${lat.toFixed(2)}`;
+    el.dataset.view = `${lon.toFixed(2)},${lat.toFixed(2)},${Number(viewState.bearing ?? 0).toFixed(2)}`;
     el.style.setProperty("--cx", `${c[0]}px`);
     el.style.setProperty("--cy", `${c[1]}px`);
   };
@@ -519,18 +518,25 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         ref={deckRef}
         views={VIEW}
         viewState={viewState as unknown as GlobeViewState}
-        controller={{ dragPan: true, dragRotate: false, inertia: 400, scrollZoom: { speed: 0.012, smooth: false },
+        controller={{ dragPan: false, dragRotate: false, inertia: false, scrollZoom: { speed: 0.012, smooth: false },
           touchZoom: true, touchRotate: false, doubleClickZoom: true, keyboard: true }}
         pickingRadius={isTouch ? 14 : 6}
         onViewStateChange={({ viewState: v, interactionState }) => {
           if (interactionState?.isDragging || interactionState?.isZooming || interactionState?.isPanning) idleSpin.current = false;
-          // A finger on the globe cancels a fly-to. Otherwise the transition keeps writing
-          // the old camera and the earth feels stuck under the pointer.
-          if (interactionState?.isDragging) {
-            setViewState({ ...(v as Record<string, unknown>), transitionDuration: 0 });
+          const deckTurn = !!(interactionState?.isDragging || interactionState?.isPanning || interactionState?.isRotating);
+          // Pan start/end still fire with dragPan off, and they carry a rolled bearing.
+          // Keep longitude, latitude, and north-up; zoom is the part deck may change.
+          if (deckTurn || turning.current) {
+            const zoom = (v as { zoom?: number }).zoom;
+            setViewState((cur) => ({
+              ...cur,
+              bearing: 0,
+              transitionDuration: 0,
+              ...(typeof zoom === "number" && interactionState?.isZooming ? { zoom } : {}),
+            }));
             return;
           }
-          setViewState(v as Record<string, unknown>);
+          setViewState({ ...(v as Record<string, unknown>), bearing: 0 });
         }}
         layers={layers}
         onAfterRender={onAfterRender}
@@ -542,11 +548,18 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   );
 }
 
-/** Apply a trackball rotation; latitude is clamped so the globe never flips over a pole. */
+/**
+ * North-up turn. Horizontal drag spins about the polar axis; vertical drag
+ * changes latitude. Longitude is scaled by 1/cos(lat) so the point at the
+ * middle of the screen keeps up with the pointer. Bearing stays 0: a rolled
+ * camera tips the meridians.
+ */
 function rotate(v: Record<string, unknown>, dLon: number, dLat: number) {
-  return { ...v, transitionDuration: 0,
-    longitude: (((v.longitude as number) + dLon + 540) % 360) - 180,
-    latitude: Math.max(-80, Math.min(80, (v.latitude as number) + dLat)) };
+  const lat = v.latitude as number;
+  const cos = Math.max(0.2, Math.cos(lat * Math.PI / 180));
+  return { ...v, bearing: 0, transitionDuration: 0,
+    longitude: (((v.longitude as number) + dLon / cos + 540) % 360) - 180,
+    latitude: Math.max(-80, Math.min(80, lat + dLat)) };
 }
 
 /** Great-circle angle between two lon/lat points, degrees. */

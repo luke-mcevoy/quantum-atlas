@@ -24,20 +24,23 @@ test("dragging the globe turns it and the turn stays after release", async ({ pa
   await page.mouse.down();
   await page.waitForTimeout(40);
   const before = await page.locator(".halo").getAttribute("data-view");
-  await page.mouse.move(x - 220, y + 40, { steps: 16 });
+  await page.mouse.move(x - 180, y + 120, { steps: 16 });
   const mid = await page.locator(".halo").getAttribute("data-view");
   await page.mouse.up();
   await page.waitForTimeout(250);
   const after = await page.locator(".halo").getAttribute("data-view");
-  const lon = (s: string | null) => Number(s!.split(",")[0]);
+  const part = (s: string | null, i: number) => Number(s!.split(",")[i]);
   const gap = (a: string | null, b: string | null) => {
-    let d = lon(a) - lon(b);
+    let d = part(a, 0) - part(b, 0);
     while (d > 180) d -= 360;
     while (d < -180) d += 360;
     return Math.abs(d);
   };
   expect(gap(mid, before)).toBeGreaterThan(8);
+  expect(part(mid, 1) - part(before, 1)).toBeGreaterThan(4);
+  expect(Math.abs(part(mid, 2))).toBeLessThan(0.05);
   expect(gap(after, before)).toBeGreaterThan(8);
+  expect(Math.abs(part(after, 2))).toBeLessThan(0.05);
 });
 
 test("globe loads the verified atlas with labels and no errors", async ({ page }) => {
