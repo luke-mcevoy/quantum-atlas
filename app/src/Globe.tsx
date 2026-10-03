@@ -428,6 +428,15 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     stopSpin();
     // Real controls keep their own behaviour; site labels do not block a drag.
     if ((e.target as HTMLElement).closest("button:not(.glabel), a, input, select, textarea")) return;
+    // GlobeController turns the earth on dragPan, not dragRotate. A drag that starts on the
+    // canvas belongs to that controller. Adding a second rotation here fights it: the move is
+    // ignored by the controller, then pointer-up writes the start orientation back.
+    if (!(e.target as HTMLElement).closest(".glabel")) {
+      vel.current = [0, 0];
+      drag.current = null;
+      setViewState((v) => (v.transitionDuration ? { ...v, transitionDuration: 0 } : v));
+      return;
+    }
     touches.current.add(e.pointerId);
     window.addEventListener("pointermove", win.move);
     window.addEventListener("pointerup", win.up);
@@ -510,11 +519,17 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         ref={deckRef}
         views={VIEW}
         viewState={viewState as unknown as GlobeViewState}
-        controller={{ dragPan: false, dragRotate: false, inertia: false, scrollZoom: { speed: 0.012, smooth: false },
+        controller={{ dragPan: true, dragRotate: false, inertia: 400, scrollZoom: { speed: 0.012, smooth: false },
           touchZoom: true, touchRotate: false, doubleClickZoom: true, keyboard: true }}
         pickingRadius={isTouch ? 14 : 6}
         onViewStateChange={({ viewState: v, interactionState }) => {
           if (interactionState?.isDragging || interactionState?.isZooming || interactionState?.isPanning) idleSpin.current = false;
+          // A finger on the globe cancels a fly-to. Otherwise the transition keeps writing
+          // the old camera and the earth feels stuck under the pointer.
+          if (interactionState?.isDragging) {
+            setViewState({ ...(v as Record<string, unknown>), transitionDuration: 0 });
+            return;
+          }
           setViewState(v as Record<string, unknown>);
         }}
         layers={layers}

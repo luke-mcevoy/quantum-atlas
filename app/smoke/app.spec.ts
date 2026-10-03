@@ -13,6 +13,33 @@ function watchErrors(page: Page) {
   return errors;
 }
 
+test("dragging the globe turns it and the turn stays after release", async ({ page }) => {
+  await page.goto("/");
+  const canvas = page.locator("canvas").first();
+  await expect(canvas).toBeVisible();
+  const box = await canvas.boundingBox();
+  const x = box!.x + box!.width * 0.62;
+  const y = box!.y + box!.height * 0.55;
+  await page.mouse.move(x, y);
+  await page.mouse.down();
+  await page.waitForTimeout(40);
+  const before = await page.locator(".halo").getAttribute("data-view");
+  await page.mouse.move(x - 220, y + 40, { steps: 16 });
+  const mid = await page.locator(".halo").getAttribute("data-view");
+  await page.mouse.up();
+  await page.waitForTimeout(250);
+  const after = await page.locator(".halo").getAttribute("data-view");
+  const lon = (s: string | null) => Number(s!.split(",")[0]);
+  const gap = (a: string | null, b: string | null) => {
+    let d = lon(a) - lon(b);
+    while (d > 180) d -= 360;
+    while (d < -180) d += 360;
+    return Math.abs(d);
+  };
+  expect(gap(mid, before)).toBeGreaterThan(8);
+  expect(gap(after, before)).toBeGreaterThan(8);
+});
+
 test("globe loads the verified atlas with labels and no errors", async ({ page }) => {
   const errors = watchErrors(page);
   await page.goto("/");
