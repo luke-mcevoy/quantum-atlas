@@ -18,8 +18,8 @@ There are two repos:
 >
 > **Third feature, after Run-today: "Problem Lab".** A company describes a problem. The Lab produces a classical baseline,
 > AI-written quantum formulations verified by code, simulated trials on vendors' own simulators and noise models, feasibility
-> against the atlas, and an evidence-backed verdict. The plan is in **`docs/PROBLEM-LAB-PLAN.md`**. It needs user decisions
-> (§10) before its AI and web phases.
+> against the atlas, and an evidence-backed verdict. The plan is in **`docs/PROBLEM-LAB-PLAN.md`**. The user's decisions are recorded in §10:
+> a local small model, local-only hosting, no data retention, free solvers only, and no real hardware yet.
 
 ---|---|---|
 | **AI Supply Chain Atlas** | `~/Develop/Code/ai-supply-chain` | **Live and stable.** Fully verified, on GitHub, deployed. Maintenance only. |

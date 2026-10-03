@@ -39,9 +39,9 @@ The honest answer will often be "classical is better today". The product must sa
    **resource estimate** (qubits, depth, error-rate needs) from an established estimator, not a projected result.
 7. **Fixed verdict vocabulary** (§5). It is computed from the numbers by deterministic rules, never written freely by an
    AI. The AI may write an explanation, but a test checks that every number in it appears in the trial data.
-8. **User data stays private.** Problem data is processed in the user's own deployment. Record exactly which model provider
-   receives problem text, ask the user to approve that provider before launch, keep nothing beyond the session by default,
-   and offer a "describe without data" mode.
+8. **User data stays private.** With the local model, problem text and data never leave the user's machine. The Lab
+   **keeps nothing beyond the session** (user decision: no retention). If a hosted model is ever added, it needs the user's
+   explicit approval, and every report must record which provider saw the problem text.
 
 ---
 
@@ -64,12 +64,25 @@ lab/
   schema/                 JSON Schemas for ProblemSpec, Formulation, Trial, Baseline, Feasibility, Report
 ```
 
-- **LLM provider:** default to the latest Claude models via the Anthropic API, with the key held as a server-side secret
-  (**the user must supply and approve it**). Use structured tool-calling with JSON-Schema outputs, and never parse free text
-  for data. Keep a model-agnostic interface so Cursor/OpenAI models can be swapped in.
+- **LLM: a local small model** (user decision, 2026-10-02). Run it on the user's Mac through **Ollama** or **llama.cpp**
+  (MLX is fine too) behind one small interface, `lab/agents/llm.py`: `complete(messages, json_schema) -> object`.
+  - Choose the model by measurement in P1: start with 2–3 instruct models in the **~7–14B** range that run comfortably in
+    local memory and support **JSON-schema-constrained output**, and keep whichever scores best on `lab/bench` (§8).
+    Record the model name, quantisation and runtime version in every report.
+  - **Always constrain output with the JSON schema** (Ollama `format` with a schema, or llama.cpp grammars); never parse free
+    text for data.
+  - Keep the interface model-agnostic, so a larger local model, or a hosted API if the user later approves one, can be swapped in.
+- **Designed for a small model.** Small models are unreliable at writing quantum programs from scratch, so the AI's job in
+  P1 is narrowed to **classify the problem, choose a template, and fill its parameters**: slot-filling against the template's
+  JSON schema. Free-form code generation is **disabled** in P1 and can be revisited later with a stronger model and stricter
+  verification. The deterministic verifier (§4.3) catches any wrong parameters.
 - **Jobs:** a simple queue (Redis or SQLite-backed) with per-job CPU, memory and time limits. Containers run with
   `--network none` and a read-only filesystem except a scratch dir.
-- **Hosting** (the user decides; §10): a Fly app for the API and an autoscaled worker that scales to zero, or local-only to start.
+- **Hosting: local only for now** (user decision). The Lab runs on the user's machine with `docker compose`: API, worker,
+  sandbox images and the model runtime. The public atlas site stays static. Its Problem Lab tab either links to
+  "run the Lab locally" instructions or talks to `http://localhost` when the Lab is running. No public Lab deployment
+  until the user decides otherwise.
+- **Sandbox runtime:** Docker Desktop, or Podman/Colima on macOS. The no-network rule is enforced with `--network none`.
 
 ---
 
@@ -99,7 +112,7 @@ Formulation {
   qubits_needed: number; depth?: number; two_qubit_gates?: number;          // computed, not claimed
 }
 
-Baseline { id; spec; instance; solver: "ortools_cp_sat" | "gurobi" | "highs" | "exact_bruteforce" | "simulated_annealing"
+Baseline { id; spec; instance; solver: "ortools_cp_sat" | "highs" | "scip" | "exact_bruteforce" | "simulated_annealing"
           | "pyscf_fci" | "pyscf_ccsd" | ...; settings; objective_value; optimality: "proven" | "best_found";
           runtime_s; hardware: string }
 
@@ -122,14 +135,18 @@ Report { spec; baselines: Baseline[]; formulations: Formulation[]; trials: Trial
 ## 4. Pipeline (each stage is a deterministic gate; AI only where marked 🤖)
 
 ### 4.1 Intake 🤖 → user confirmation
-- The LLM, via structured output, maps the description to a `ProblemSpec`, asking up to 5 clarifying questions.
+- The local model, using schema-constrained output, maps the description to a `ProblemSpec`. To help a small model it works
+  in steps: (1) pick a `problem_class` and `subtype` from a fixed list, (2) fill that subtype's parameter schema,
+  (3) ask up to 5 clarifying questions chosen from that subtype's question bank. If it can't map the problem to any subtype,
+  it says so and offers the closest templates. It never invents a new formulation.
 - The UI shows the spec in plain language **and** as a formal objective with constraints. The user edits or confirms it,
   and **nothing runs until it's confirmed**.
 - A small-instance generator: real data is downsized to n = 4…12, or synthetic instances with the same structure are
   generated, so exact answers exist for verification.
 
 ### 4.2 Template library (curated, human-reviewed, unit-tested)
-The AI adapts templates; free-form generation is a fallback, and gets stricter verification when used. Start with:
+With the small local model, the AI **only selects and parameterises** templates (free-form generation is off in P1), so
+template coverage defines what the Lab can handle. Start with:
 
 | Class | Templates |
 |---|---|
@@ -150,7 +167,8 @@ Where possible, each template cites an **official vendor tutorial** from the Run
   diagonalisation of the qubit Hamiltonian must match PySCF FCI within 1e-6 Ha on the small molecule.
 - **Analog AHS / Pulser:** validate against the device's published constraints (from the SDK's device spec objects: minimum atom
   spacing, field limits). Emulated results on small graphs must match exact MIS.
-- Failures go back to the 🤖 formulation step with the failing check's details, up to 3 attempts, then a "could not formulate" result.
+- Failures go back to the 🤖 parameter-filling step with the failing check's details, up to 3 attempts, then a "could not
+  formulate" result.
 
 ### 4.4 Feasibility (deterministic, atlas-driven)
 For each formulation × atlas machine: is the program model accepted, are there enough qubits, does a minor-embedding exist
@@ -233,8 +251,9 @@ The look matches the atlas (dark, dense, sourced). On phones, the report becomes
   knapsack instances, H₂/LiH energies, MIS on unit-disk graphs.
 - **Golden tests:** for each benchmark, the pipeline in **template-only mode (no LLM)** must produce verified formulations,
   correct baselines and the expected verdict.
-- **LLM evals** (nightly, budgeted, opt-in): intake accuracy (spec matches the gold spec), formulation pass rate after verification,
-  explanation number-grounding (0 ungrounded numbers allowed).
+- **LLM evals** (local, no API cost, run on the user's machine; CI runs the template-only path): subtype-classification
+  accuracy, parameter-filling accuracy (spec matches the gold spec), verified-formulation rate, and explanation
+  number-grounding (0 ungrounded numbers allowed). The same evals pick the local model in P1.
 - **Unit tests:** every verification check, the verdict rules, feasibility logic, and sandbox network blocking (a job that opens a socket
   must fail).
 
@@ -245,20 +264,22 @@ The look matches the atlas (dark, dense, sourced). On phones, the report becomes
 | Phase | Scope | Exit criteria |
 |---|---|---|
 | **P0: offline core, no LLM** | templates, baselines, verification, simulated trials, scaling, verdict rules, a CLI `lab run spec.json` | all bench golden tests pass; reports reproducible |
-| **P1: AI formulation and intake** | 🤖 intake + formulation adapting templates, retry loop on verification failures, explanation writer | LLM evals meet targets: ≥90% intake accuracy on bench, ≥80% verified formulations, 0 ungrounded numbers |
-| **P2: web Lab** | FastAPI + worker + sandbox images, Problem Lab UI, atlas-linked feasibility, deployment (after user approval) | end-to-end demo on 3 problem types; Playwright tests; load and budget limits |
-| **P3: optional real-hardware pilot** | **only with explicit user approval**: user-supplied credentials, per-job cost cap shown up front, dry-run quote first | out of scope until the user asks |
+| **P1: local-model intake and template selection** | 🤖 classify → choose template → fill parameters (schema-constrained), clarifying questions, retry loop on verification failures, explanation writer; model chosen by evals | ≥90% subtype classification and ≥80% verified formulations on bench; 0 ungrounded numbers; everything runs offline on the user's Mac |
+| **P2: local web Lab** | FastAPI + worker + sandbox images via `docker compose`, Problem Lab UI (talks to localhost), atlas-linked feasibility | end-to-end demo on 3 problem types run entirely locally; Playwright tests against the local stack |
+| **P3: real hardware** | **not now** (user decision 2026-10-02) | do not build |
 
 ---
 
-## 10. Decisions the user must make before P1/P2 (ask; don't assume)
-1. **The LLM provider and API key** for intake and formulation (default: Anthropic, latest Claude), and the monthly budget cap.
-2. **Hosting** for the API and worker (Fly scale-to-zero vs local-only), and the monthly cost ceiling.
-3. **Data retention:** none (default), or encrypted storage of reports.
-4. **Commercial solvers:** whether to use Gurobi (licence) or stick to OR-Tools/HiGHS (default).
-5. Whether P3 (real hardware) should ever be enabled.
+## 10. Decisions (recorded 2026-10-02 by the user)
 
----
+1. **LLM:** a **local model first**, specifically a **small** one (see §2). No hosted API and no API keys.
+2. **Hosting:** **local only** (`docker compose` on the user's machine). No public Lab deployment for now.
+3. **Data retention:** **none.** Nothing is kept beyond the session.
+4. **Solvers:** **free only:** OR-Tools (CP-SAT), HiGHS, SCIP, PySCF. No Gurobi. Gurobi is a commercial solver that is often
+   faster on large optimisation problems but needs a paid licence; it can be revisited later as an optional baseline.
+5. **Real hardware:** **not yet.** Don't build P3.
+
+Ask the user before changing any of these.
 
 ## 11. Suggested Cursor agent roster (after Run-today ships; at most 3–4 at once)
 
@@ -268,10 +289,11 @@ The look matches the atlas (dark, dense, sourced). On phones, the report becomes
 | 1 | **Engineer: templates** (§4.2), each with tests and the official tutorial it adapts | `lab/templates` |
 | 2 | **Engineer: trials & estimates** (§4.5–4.6), reusing Run-today's per-SDK environments | `lab/worker`, `lab/images`, `lab/estimates` |
 | 2 | **Engineer: bench & CI** (§8) | `lab/bench`, CI jobs |
-| 3 | **Engineer: AI orchestration** (P1): intake, formulation, explanation, evals | `lab/agents` |
-| 4 | **Engineer: API + UI** (P2) | `lab/api`, Problem Lab mode |
+| 3 | **Engineer: AI orchestration** (P1): local-model runtime (Ollama/llama.cpp), schema-constrained intake and template selection, explanation, evals and model selection | `lab/agents` |
+| 4 | **Engineer: API + UI** (P2, local `docker compose`) | `lab/api`, Problem Lab mode |
 | any | **Reviewer** (a different model from the authors): reviews verification and verdict code and the sandbox. It must try to make a wrong formulation pass verification, and a misleading explanation pass the grounding test. | review notes + fixes |
 
 **Prompt pattern:** "You are <role> for the Problem Lab in `~/Develop/Code/quantum-atlas`. Read `HANDOFF.md` §1, `AGENTS.md`,
-`docs/RUN-TODAY-PLAN.md` and `docs/PROBLEM-LAB-PLAN.md` (your section: §N). AI proposes, code verifies. Classical baseline first.
+`docs/RUN-TODAY-PLAN.md` and `docs/PROBLEM-LAB-PLAN.md` (your section: §N; decisions in §10). Local small model only; free
+solvers only. AI proposes, code verifies. Classical baseline first.
 No real hardware, no credentials, no network in trials. Save often; end with a report. Don't deploy."
