@@ -15,6 +15,11 @@ There are two repos:
 > (whole-document ledgers, outcomes, slips, SPAC projections vs 10-K actuals, retractions), shown next to every
 > future target. The plan is in **`docs/TRACK-RECORD-PLAN.md`**. It can run in parallel with Run-today; one engineer
 > owns the shared schema and validator files at a time.
+>
+> **Third feature, after Run-today: "Problem Lab".** A company describes a problem. The Lab produces a classical baseline,
+> AI-written quantum formulations verified by code, simulated trials on vendors' own simulators and noise models, feasibility
+> against the atlas, and an evidence-backed verdict. The plan is in **`docs/PROBLEM-LAB-PLAN.md`**. It needs user decisions
+> (§10) before its AI and web phases.
 
 ---|---|---|
 | **AI Supply Chain Atlas** | `~/Develop/Code/ai-supply-chain` | **Live and stable.** Fully verified, on GitHub, deployed. Maintenance only. |
