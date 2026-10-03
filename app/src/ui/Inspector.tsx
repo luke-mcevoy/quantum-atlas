@@ -10,6 +10,8 @@ import { EvidenceList, ReviewBadge, TierBadge, PeerBadge } from "./Evidence";
 export default function Inspector({ idx }: { idx: Index }) {
   const selected = useStore((s) => s.selected);
   const select = useStore((s) => s.select);
+  const trailLen = useStore((s) => s.trail.length);
+  const back = useStore((s) => s.back);
   const [peek, setPeek] = useState(false);
   useEffect(() => setPeek(false), [selected]);
   if (!selected) return null;
@@ -26,6 +28,9 @@ export default function Inspector({ idx }: { idx: Index }) {
   return (
     <aside className={`panel inspector${peek ? " peek" : ""}`} key={selected}>
       <button className="sheet-handle" onClick={() => setPeek((p) => !p)} aria-label={peek ? "Expand details" : "Collapse details"} />
+      {trailLen > 0 && (
+        <button className="back-btn" onClick={back} aria-label="Back to the previous item">← Back</button>
+      )}
       <button className="close" onClick={() => select(null)} aria-label="Close inspector">✕</button>
       {body}
     </aside>

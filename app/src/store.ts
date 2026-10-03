@@ -31,6 +31,9 @@ interface State {
   soloModality: (m: Modality) => void;
   set: (p: Partial<State>) => void;
   select: (id: string | null) => void;
+  /** Previously selected items, most recent last (inspector Back button). */
+  trail: string[];
+  back: () => void;
   focus: (lon: number, lat: number, zoom?: number) => void;
 }
 
@@ -46,6 +49,7 @@ export const useStore = create<State>((set, get) => ({
   showRelationships: true,
   accessTiers: new Set(["open_free", "paid", "application", "restricted"]),
   selected: readHash().get("sel"),
+  trail: [],
   hover: null,
   roadmapDate: Date.now(),
   paletteOpen: false,
@@ -67,15 +71,39 @@ export const useStore = create<State>((set, get) => ({
     set({ modalities: cur.size === 1 && cur.has(m) ? new Set(MODALITIES) : new Set([m]) });
   },
   set: (p) => set(p),
-  select: (selected) => set({ selected }),
+  select: (selected) => {
+    const cur = get().selected;
+    const trail = !selected ? [] : cur && cur !== selected ? [...get().trail, cur].slice(-50) : get().trail;
+    set({ selected , trail });
+  },
+  back: () => {
+    const trail = [...get().trail];
+    const prev = trail.pop();
+    if (prev) set({ selected: prev, trail });
+  },
   focus: (lon, lat, zoom) => set({ flyTo: { lon, lat, zoom, t: Date.now() } }),
 }));
 
 // Shareable URLs: mode and selection live in the hash.
+let lastSel: string | null = useStore.getState().selected;
+let fromPopstate = false;
+// Browser Back/Forward restores the selection recorded in the URL.
+if (typeof window !== "undefined") window.addEventListener("popstate", () => {
+  const sel = new URLSearchParams(location.hash.slice(1)).get("sel");
+  const st = useStore.getState();
+  fromPopstate = true;
+  const trail = st.trail.at(-1) === sel ? st.trail.slice(0, -1) : st.trail;
+  useStore.setState({ selected: sel, trail });
+  lastSel = sel;
+  fromPopstate = false;
+});
 useStore.subscribe((s) => {
   const p = new URLSearchParams();
   if (s.mode !== "modality") p.set("mode", s.mode);
   if (s.selected) p.set("sel", s.selected);
   const h = p.toString();
-  if (h !== location.hash.slice(1)) history.replaceState(null, "", h ? `#${h}` : location.pathname);
+  if (h === location.hash.slice(1)) return;
+  const url = h ? `#${h}` : location.pathname;
+  if (s.selected !== lastSel && !fromPopstate) history.pushState(null, "", url); else history.replaceState(null, "", url);
+  lastSel = s.selected;
 });
