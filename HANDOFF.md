@@ -7,10 +7,10 @@ There are two repos:
 
 | Repo | Path | State |
 |
-> **Status (2026-10-02 23:47 ET):** Run today and Track record are implemented locally and reviewed.
+> **Status (2026-10-03):** Run today and Track record are deployed at https://quantum-computing-atlas.fly.dev/.
 > The verified atlas has 37 access routes, 37 use cases, 3 tested examples, 27 roadmap documents,
 > 78 outcomes, 18 projections, and 10 claim revisions. Track-record rates stay hidden (fewer than
-> 3 resolved items from fully captured documents). Not deployed. Problem Lab has not started.
+> 3 resolved items from fully captured documents). Problem Lab has not started.
 >
 > **Run today** (`docs/RUN-TODAY-PLAN.md`): availability board, machine pages, tested-example badges,
 > and the honesty panel are in the app. Gaps that remain: many live devices have no atlas system id,
@@ -26,7 +26,7 @@ There are two repos:
 
 ---|---|---|
 | **AI Supply Chain Atlas** | `~/Develop/Code/ai-supply-chain` | **Live and stable.** Fully verified, on GitHub, deployed. Maintenance only. |
-| **Quantum Computing Atlas** | `~/Develop/Code/quantum-atlas` | **Run today and Track record are in the local app.** Research for both is counsel-reviewed. Live at https://quantum-computing-atlas.fly.dev/ from the last deploy, which does not include these two tabs yet. Problem Lab is next. |
+| **Quantum Computing Atlas** | `~/Develop/Code/quantum-atlas` | **Live** at https://quantum-computing-atlas.fly.dev/ with Run today and Track record. Problem Lab has not started. |
 
 The quantum repo is a fork of the supply-chain repo's architecture. When unsure how something should work,
 read how the supply-chain repo does it.
