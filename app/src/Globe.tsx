@@ -72,6 +72,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   const deckRef = useRef<DeckGLRef>(null);
   const haloRef = useRef<HTMLDivElement>(null);
   const [viewState, setViewState] = useState<Record<string, unknown>>(INITIAL);
+  const zoomRef = useRef(INITIAL.zoom as number);
   const [time, setTime] = useState(0);
   const idleSpin = useRef(true);
   const drag = useRef<{ x: number; y: number; t: number } | null>(null);
@@ -83,9 +84,31 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   const stopSpin = () => { idleSpin.current = false; };
   const zoomBy = (dz: number) => {
     stopSpin();
-    setViewState((v) => ({ ...v, zoom: Math.max(0.4, Math.min(9, (v.zoom as number) + dz)),
+    zoomRef.current = Math.max(0.4, Math.min(9, zoomRef.current + dz));
+    setViewState((v) => ({ ...v, bearing: 0, zoom: zoomRef.current,
       transitionDuration: 300, transitionInterpolator: new LinearInterpolator(["zoom"]) }));
   };
+  const wrapRef = useRef<HTMLDivElement>(null);
+  // Native capture runs before deck's listener. React's onWheel is too late:
+  // deck has already treated the wheel as a pan and the zoom never lands.
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      e.stopPropagation();
+      stopSpin();
+      const px = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 800 : e.deltaY;
+      if (!px) return;
+      const speed = 0.012;
+      let scale = 2 / (1 + Math.exp(-Math.abs(px * speed)));
+      if (px > 0) scale = 1 / scale;
+      zoomRef.current = Math.max(0.4, Math.min(9, zoomRef.current + Math.log2(scale)));
+      setViewState((v) => ({ ...v, bearing: 0, transitionDuration: 0, zoom: zoomRef.current }));
+    };
+    el.addEventListener("wheel", onWheel, { capture: true, passive: false });
+    return () => el.removeEventListener("wheel", onWheel, { capture: true });
+  }, []);
 
   // ── animation clock (pulses + idle rotation) ──
   useEffect(() => {
@@ -95,12 +118,12 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       const dt = (now - last) / 1000;
       last = now;
       setTime((now / 1000) % 3.2);
-      if (idleSpin.current) setViewState((v) => ({ ...v, bearing: 0, longitude: ((v.longitude as number) + dt * 2.2 + 540) % 360 - 180, transitionDuration: 0 }));
+      if (idleSpin.current) setViewState((v) => ({ ...v, bearing: 0, zoom: zoomRef.current, longitude: ((v.longitude as number) + dt * 2.2 + 540) % 360 - 180, transitionDuration: 0 }));
       else if (!drag.current && (Math.abs(vel.current[0]) > 0.02 || Math.abs(vel.current[1]) > 0.02)) {
         const [vx, vy] = vel.current;
         vel.current = [vx * 0.9, vy * 0.9];
         if (Math.abs(vel.current[0]) <= 0.02 && Math.abs(vel.current[1]) <= 0.02) turning.current = false;
-        setViewState((v) => rotate(v, vx, vy));
+        setViewState((v) => ({ ...rotate(v, vx, vy), zoom: zoomRef.current }));
       } else if (!drag.current) turning.current = false;
       raf = requestAnimationFrame(tick);
     };
@@ -117,7 +140,9 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       let lon = s.flyTo!.lon;
       while (lon - cur > 180) lon -= 360;
       while (lon - cur < -180) lon += 360;
-      return { ...v, bearing: 0, longitude: lon, latitude: s.flyTo!.lat, zoom: s.flyTo!.zoom ?? Math.max(v.zoom as number, 2.2),
+      const zoom = s.flyTo!.zoom ?? Math.max(zoomRef.current, 2.2);
+      zoomRef.current = zoom;
+      return { ...v, bearing: 0, longitude: lon, latitude: s.flyTo!.lat, zoom,
         transitionDuration: 1400, transitionInterpolator: new LinearInterpolator(["longitude", "latitude", "zoom"]) };
     });
   }, [s.flyTo]);
@@ -408,7 +433,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       const now = performance.now(), dt = Math.max(1, now - d.t);
       vel.current = [dLon * 16 / dt, dLat * 16 / dt];
       drag.current = { x: e.clientX, y: e.clientY, t: now };
-      setViewState((v) => rotate(v, dLon, dLat));
+      setViewState((v) => ({ ...rotate(v, dLon, dLat), zoom: zoomRef.current }));
     };
     const up = (e: PointerEvent) => {
       touches.current.delete(e.pointerId);
@@ -435,7 +460,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     // North stays up. Deck's globe pan rolls the camera (bearing), which tips the poles,
     // so this handler owns the turn and deck is not allowed to write it back.
     turning.current = true;
-    setViewState((v) => ({ ...v, bearing: 0, transitionDuration: 0 }));
+    setViewState((v) => ({ ...v, bearing: 0, zoom: zoomRef.current, transitionDuration: 0 }));
     touches.current.add(e.pointerId);
     window.addEventListener("pointermove", win.move);
     window.addEventListener("pointerup", win.up);
@@ -485,13 +510,22 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     const r = Math.hypot(e[0] - c[0], e[1] - c[1]);
     el.style.setProperty("--r", `${r}px`);
     radiusPx.current = r;
-    el.dataset.view = `${lon.toFixed(2)},${lat.toFixed(2)},${Number(viewState.bearing ?? 0).toFixed(2)}`;
+    const camZoom = (vp as { zoom?: number }).zoom ?? (viewState.zoom as number);
+    el.dataset.view = `${lon.toFixed(2)},${lat.toFixed(2)},${Number(viewState.bearing ?? 0).toFixed(2)},${Number(camZoom).toFixed(3)}`;
     el.style.setProperty("--cx", `${c[0]}px`);
     el.style.setProperty("--cy", `${c[1]}px`);
   };
 
+  // Deck's WebGL path defers a draw until something else dirties the canvas.
+  // A zoom that also stops the idle spin never gets that second frame, so ask
+  // for one once the new zoom has committed.
+  useEffect(() => {
+    const deck = deckRef.current?.deck;
+    if (!deck?.isInitialized) return;
+    deck.redraw("zoom");
+  }, [viewState.zoom]);
   return (
-    <div className="globe-wrap" onPointerDown={onPointerDown} onWheel={stopSpin}>
+    <div className="globe-wrap" ref={wrapRef} onPointerDown={onPointerDown}>
       <div className="halo" ref={haloRef} />
       {(mode === "access" || mode === "today") && idx.atlas.access.length === 0 && (
         <div className="empty-banner">No verified access routes yet. A route is drawn only after the platform’s own documentation has been checked.</div>
@@ -511,32 +545,36 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         <div className="cam-zoom">
           <button aria-label="Zoom in" onClick={() => zoomBy(0.6)}>+</button>
           <button aria-label="Zoom out" onClick={() => zoomBy(-0.6)}>−</button>
-          <button aria-label="Reset view" title="Reset view" onClick={() => { stopSpin(); setViewState((v) => ({ ...v, ...INITIAL, transitionDuration: 900, transitionInterpolator: new LinearInterpolator(["longitude", "latitude", "zoom"]) })); }}>⟲</button>
+          <button aria-label="Reset view" title="Reset view" onClick={() => { stopSpin(); zoomRef.current = INITIAL.zoom as number; setViewState((v) => ({ ...v, ...INITIAL, zoom: zoomRef.current, transitionDuration: 900, transitionInterpolator: new LinearInterpolator(["longitude", "latitude", "zoom"]) })); }}>⟲</button>
         </div>
       </div>
       <DeckGL
         ref={deckRef}
         views={VIEW}
         viewState={viewState as unknown as GlobeViewState}
-        controller={{ dragPan: false, dragRotate: false, inertia: false, scrollZoom: { speed: 0.012, smooth: false },
+        controller={{ dragPan: false, dragRotate: false, inertia: false, scrollZoom: false,
           touchZoom: true, touchRotate: false, doubleClickZoom: true, keyboard: true }}
         pickingRadius={isTouch ? 14 : 6}
         onViewStateChange={({ viewState: v, interactionState }) => {
           if (interactionState?.isDragging || interactionState?.isZooming || interactionState?.isPanning) idleSpin.current = false;
-          const deckTurn = !!(interactionState?.isDragging || interactionState?.isPanning || interactionState?.isRotating);
-          // Pan start/end still fire with dragPan off, and they carry a rolled bearing.
-          // Keep longitude, latitude, and north-up; zoom is the part deck may change.
-          if (deckTurn || turning.current) {
-            const zoom = (v as { zoom?: number }).zoom;
-            setViewState((cur) => ({
-              ...cur,
-              bearing: 0,
-              transitionDuration: 0,
-              ...(typeof zoom === "number" && interactionState?.isZooming ? { zoom } : {}),
-            }));
-            return;
+          const next = v as { zoom?: number; longitude?: number; latitude?: number; transitionDuration?: number };
+          // Pinch, double-click, and keys still zoom through deck. Scroll does not:
+          // its callback reports the previous level and was snapping the camera back.
+          if (interactionState?.isZooming && !interactionState.isPanning && typeof next.zoom === "number") {
+            zoomRef.current = Math.max(0.4, Math.min(9, next.zoom));
           }
-          setViewState({ ...(v as Record<string, unknown>), bearing: 0 });
+          setViewState((cur) => {
+            const rolling = !!interactionState?.isDragging || !!interactionState?.isRotating || turning.current;
+            return {
+              ...cur,
+              ...next,
+              bearing: 0,
+              zoom: zoomRef.current,
+              longitude: rolling ? (cur.longitude as number) : (next.longitude ?? (cur.longitude as number)),
+              latitude: rolling ? (cur.latitude as number) : (next.latitude ?? (cur.latitude as number)),
+              transitionDuration: rolling ? 0 : next.transitionDuration,
+            };
+          });
         }}
         layers={layers}
         onAfterRender={onAfterRender}
@@ -557,7 +595,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
 function rotate(v: Record<string, unknown>, dLon: number, dLat: number) {
   const lat = v.latitude as number;
   const cos = Math.max(0.2, Math.cos(lat * Math.PI / 180));
-  return { ...v, bearing: 0, transitionDuration: 0,
+  return { ...v, bearing: 0, zoom: (v.zoom as number), transitionDuration: 0,
     longitude: (((v.longitude as number) + dLon / cos + 540) % 360) - 180,
     latitude: Math.max(-80, Math.min(80, lat + dLat)) };
 }

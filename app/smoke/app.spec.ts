@@ -43,6 +43,28 @@ test("dragging the globe turns it and the turn stays after release", async ({ pa
   expect(Math.abs(part(after, 2))).toBeLessThan(0.05);
 });
 
+test("scroll and the zoom buttons change the globe zoom", async ({ page }) => {
+  await page.goto("/");
+  const canvas = page.locator("canvas").first();
+  await expect(canvas).toBeVisible();
+  const box = await canvas.boundingBox();
+  await page.mouse.move(box!.x + box!.width * 0.62, box!.y + box!.height * 0.55);
+  await page.waitForTimeout(50);
+  const before = await page.locator(".halo").getAttribute("data-view");
+  const zoomOf = (s: string | null) => Number(s!.split(",")[3]);
+  await page.mouse.wheel(0, -400);
+  await page.evaluate(() => {
+    document.querySelector("canvas")?.dispatchEvent(new WheelEvent("wheel", { deltaY: -400, bubbles: true, cancelable: true }));
+  });
+  await page.waitForTimeout(200);
+  const wheeled = await page.locator(".halo").getAttribute("data-view");
+  expect(zoomOf(wheeled) - zoomOf(before)).toBeGreaterThan(0.2);
+  await page.getByRole("button", { name: "Zoom in" }).click();
+  await page.waitForTimeout(400);
+  const clicked = await page.locator(".halo").getAttribute("data-view");
+  expect(zoomOf(clicked) - zoomOf(wheeled)).toBeGreaterThan(0.3);
+});
+
 test("globe loads the verified atlas with labels and no errors", async ({ page }) => {
   const errors = watchErrors(page);
   await page.goto("/");
