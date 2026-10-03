@@ -8,13 +8,29 @@ Every claim on the globe is tied to a verbatim quote from a primary source: a pe
 
 Drag to turn the globe. Scroll or pinch to zoom.
 
-Three views sit at the top:
+Five views sit at the top:
 
 - **Modality** shows machines coloured by qubit technology: superconducting, trapped ion, neutral atom, photonic, spin/silicon, topological, quantum annealing and NV/other. A solid dot sits at a documented site. A fainter dot is drawn at the company's headquarters because no document places the machine anywhere more specific. Hollow dots are announced machines. Arcs show acquisitions, partnerships and government awards.
 - **Roadmap** puts achievements and targets on one timeline. Filled dots are things a document says have been done, each labelled peer-reviewed, preprint or company claim. Hollow diamonds are targets ("IBM targets … by 2029"). When a later document moved a target, both versions are kept and linked with a dotted line. Drag the timeline to see the field at any date.
 - **Access** draws arcs from cloud platforms to the machines they offer. Click an arc to see the SDKs, the authentication model, the access tier (free, paid, by application or restricted) as the platform's docs state it, a minimal official code example copied verbatim, and whether that example ran on the SDK's local simulator.
+- **Run today** is the board of machines a company can submit work to, with the vendor's price, limits, and program model. A row older than 45 days says "last confirmed" and does not say available.
+- **Track record** sets a past roadmap date against what was later announced. It shows counts, not a score. A rate appears only when at least three items from a fully captured document are resolved.
 
 Click anything for its quotes and links. **Stories** gives guided walks. **Data** opens every table with CSV export. **Method** explains the evidence rules and lists the known gaps. Search with **⌘K** (Ctrl+K on Windows and Linux).
+
+## Demos
+
+The live app is [quantum-computing-atlas.fly.dev](https://quantum-computing-atlas.fly.dev/). The three "Tested here" programs ran on local simulators, with networking blocked. None of them ran on a QPU.
+
+| Demo | Link |
+| --- | --- |
+| Which machines can take a job now | [Run today](https://quantum-computing-atlas.fly.dev/#mode=today) |
+| Phase estimation, tested on Braket's local simulator | [Phase estimation](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:amazon-braket-qpe) |
+| Hydrogen potential-energy surface, same local simulator | [Hydrogen](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:amazon-braket-vqe-hydrogen) |
+| A Pulser QUBO sequence, tested on Pasqal's local emulator | [Pulser QUBO](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:pulser-qubo) |
+| An annealing machine with no local-simulator badge | [D-Wave Advantage2](https://quantum-computing-atlas.fly.dev/#mode=today&sel=acc:d-wave-leap-advantage2) |
+| Promised dates against later announcements | [Track record](https://quantum-computing-atlas.fly.dev/#mode=track) |
+| Only sourced statements on whether a machine beats a laptop | [Aquila on Braket](https://quantum-computing-atlas.fly.dev/#mode=today&sel=acc:aws-braket-quera-aquila) |
 
 ## Rules the data follows
 
