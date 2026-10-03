@@ -6,7 +6,12 @@ coordinator (Claude Opus 5.5 in Claude Code). Read all of this before touching a
 There are two repos:
 
 | Repo | Path | State |
-|---|---|---|
+|
+> **Next feature (2026-10-02):** "Run it today", a buyer's guide covering which machines a company can submit work to now,
+> which problem types fit, tested examples, pricing and an honesty panel. The full plan is in **`docs/RUN-TODAY-PLAN.md`**.
+> Start there.
+
+---|---|---|
 | **AI Supply Chain Atlas** | `~/Develop/Code/ai-supply-chain` | **Live and stable.** Fully verified, on GitHub, deployed. Maintenance only. |
 | **Quantum Computing Atlas** | `~/Develop/Code/quantum-atlas` | **In progress.** About a third of the research is done, nothing is verified, no GitHub repo, not deployed. **This is the work to continue.** |
 
