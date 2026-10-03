@@ -20,17 +20,43 @@ Click anything for its quotes and links. **Stories** gives guided walks. **Data*
 
 ## Demos
 
-The live app is [quantum-computing-atlas.fly.dev](https://quantum-computing-atlas.fly.dev/). The three "Tested here" programs ran on local simulators, with networking blocked. None of them ran on a QPU.
+The live app is [quantum-computing-atlas.fly.dev](https://quantum-computing-atlas.fly.dev/). The three "Tested here" programs ran on local simulators, with networking blocked. None of them ran on a QPU. A row older than 45 days says "last confirmed".
 
-| Demo | Link |
-| --- | --- |
-| Which machines can take a job now | [Run today](https://quantum-computing-atlas.fly.dev/#mode=today) |
-| Phase estimation, tested on Braket's local simulator | [Phase estimation](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:amazon-braket-qpe) |
-| Hydrogen potential-energy surface, same local simulator | [Hydrogen](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:amazon-braket-vqe-hydrogen) |
-| A Pulser QUBO sequence, tested on Pasqal's local emulator | [Pulser QUBO](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:pulser-qubo) |
-| An annealing machine with no local-simulator badge | [D-Wave Advantage2](https://quantum-computing-atlas.fly.dev/#mode=today&sel=acc:d-wave-leap-advantage2) |
-| Promised dates against later announcements | [Track record](https://quantum-computing-atlas.fly.dev/#mode=track) |
-| Only sourced statements on whether a machine beats a laptop | [Aquila on Braket](https://quantum-computing-atlas.fly.dev/#mode=today&sel=acc:aws-braket-quera-aquila) |
+### Which machines can take a job now
+
+[Open Run today](https://quantum-computing-atlas.fly.dev/#mode=today). Advantage2 is the annealing machine on this board; it has a program model and no local-simulator badge. [Open that row](https://quantum-computing-atlas.fly.dev/#mode=today&sel=acc:d-wave-leap-advantage2).
+
+![Run today board listing machines, availability, program model, platform, SDK and limits](docs/screenshots/run-today.png)
+
+### Phase estimation, tested on Braket's local simulator
+
+[Open the example](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:amazon-braket-qpe). The green line is the CI result for `amazon-braket-sdk==1.127.3.post0` on 3 October 2026.
+
+![Phase estimation example with a Tested here badge for the Amazon Braket local simulator](docs/screenshots/phase-estimation.png)
+
+### Hydrogen potential-energy surface, same local simulator
+
+[Open the example](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:amazon-braket-vqe-hydrogen).
+
+![Hydrogen potential-energy surface example with a Tested here badge](docs/screenshots/hydrogen.png)
+
+### A Pulser QUBO sequence, tested on Pasqal's local emulator
+
+[Open the example](https://quantum-computing-atlas.fly.dev/#mode=today&sel=ex:pulser-qubo). The harness matches the official tutorial. The badge names `pulser-core==1.9.1` and `pulser-simulation==1.9.1`.
+
+![Pulser QUBO example with a Tested here badge for the local emulator](docs/screenshots/pulser.png)
+
+### Promised dates against later announcements
+
+[Open Track record](https://quantum-computing-atlas.fly.dev/#mode=track), on D-Wave. The Clarity roadmap is marked partial, so those items stay out of the counts. The card says there is not enough resolved history to summarise.
+
+![Track record for D-Wave, with the promise ledger and the promised-date versus actual-date plot](docs/screenshots/track-record.png)
+
+### Whether a cited source claims this beats a laptop
+
+[Open Aquila on Braket](https://quantum-computing-atlas.fly.dev/#mode=today&sel=acc:aws-braket-quera-aquila). The inspector states that no source cited there claims an advantage over classical methods for this problem class. The price line is the vendor's text.
+
+![Aquila on Amazon Braket, with the honesty panel and the quoted device price](docs/screenshots/honesty.png)
 
 ## Rules the data follows
 
