@@ -5,3 +5,5 @@ app/dist
 app/test-results
 app/playwright-report
 **/.DS_Store
+examples/.venvs
+examples/_sandbox
