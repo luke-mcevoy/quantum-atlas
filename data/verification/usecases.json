@@ -1,0 +1,981 @@
+{
+  "topic": "usecases",
+  "verifier": "gpt-5.6-sol independent counsel",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:ibm-qaoa-tutorial",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The only matching year on the fetched page is the IBM copyright year; no printed publication day was found."
+    },
+    {
+      "source": "src:ibm-sqd-tutorial",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The only matching year on the fetched page is the IBM copyright year; no printed publication day was found."
+    },
+    {
+      "source": "src:ibm-heisenberg-vqe",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The only matching year on the fetched page is the IBM copyright year; no printed publication day was found."
+    },
+    {
+      "source": "src:ibm-quantum-kernel",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The only matching year on the fetched page is the IBM copyright year; no printed publication day was found."
+    },
+    {
+      "source": "src:ibm-grover",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The only matching year on the fetched page is the IBM copyright year; no printed publication day was found."
+    },
+    {
+      "source": "src:braket-qaoa",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the notebook as its publication date."
+    },
+    {
+      "source": "src:braket-vqe-hydrogen",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the notebook as its publication date."
+    },
+    {
+      "source": "src:braket-rydberg-phases",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the notebook as its publication date."
+    },
+    {
+      "source": "src:braket-qml-generative",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the notebook as its publication date."
+    },
+    {
+      "source": "src:braket-qpe",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the notebook as its publication date."
+    },
+    {
+      "source": "src:braket-pulse-bell",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the notebook as its publication date."
+    },
+    {
+      "source": "src:pennylane-qubo",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded month is not printed in the fetched notebook as its publication date."
+    },
+    {
+      "source": "src:pennylane-vibronic",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded month is not printed in the fetched notebook as its publication date."
+    },
+    {
+      "source": "src:pennylane-regression",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded month is not printed in the fetched notebook as its publication date."
+    },
+    {
+      "source": "src:pulser-qubo",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The fetched page supplies 2022 only as a copyright year, not a publication date."
+    },
+    {
+      "source": "src:pulser-xy",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The fetched page supplies 2022 only as a copyright year, not a publication date."
+    },
+    {
+      "source": "src:perceval-boson",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The fetched page supplies 2026 only as a copyright year, not a publication date."
+    },
+    {
+      "source": "src:perceval-vqe",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The fetched page supplies 2026 only as a copyright year, not a publication date."
+    },
+    {
+      "source": "src:perceval-shortest-path",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The fetched page supplies 2026 only as a copyright year, not a publication date."
+    },
+    {
+      "source": "src:perceval-differential",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The fetched page supplies 2026 only as a copyright year, not a publication date."
+    },
+    {
+      "source": "src:dwave-job-shop",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the README as its publication date."
+    },
+    {
+      "source": "src:dwave-portfolio",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the README as its publication date."
+    },
+    {
+      "source": "src:dwave-kibble-zurek",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the README as its publication date."
+    },
+    {
+      "source": "src:dwave-feature-selection",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded date is a GitHub commit date and is not printed in the README as its publication date."
+    },
+    {
+      "source": "src:azure-grover",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The page labels this as a calculated last-update time backed by MicrosoftDocs Git metadata, not a printed publication day."
+    },
+    {
+      "source": "src:inquanto-vqe-h2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The matching year is a copyright year (and appears in generated timer output), not a printed publication date."
+    },
+    {
+      "source": "src:dwave-docomo-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The year is available through PDF creation/metadata and copyright material, not as a printed publication day."
+    },
+    {
+      "source": "src:dwave-groovenauts-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The year is available through PDF metadata/copyright material, not as a printed publication day."
+    },
+    {
+      "source": "src:dwave-denso-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The year is available through PDF metadata/copyright material, not as a printed publication day."
+    },
+    {
+      "source": "src:dwave-featured-apps",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page has no printed publication date; 2026 appears in generated/current-page material."
+    },
+    {
+      "source": "src:pasqal-bmw-story",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded 2025-04-15 is article:modified_time; JSON-LD gives datePublished 2024-10-27."
+    },
+    {
+      "source": "src:pasqal-basf-story",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The page body prints the dateline Paris, July 20, 2022."
+    },
+    {
+      "source": "src:pasqal-thales-story",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded 2025-04-10 is article:modified_time; JSON-LD gives datePublished 2025-02-04."
+    },
+    {
+      "source": "src:pasqal-cib-story",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded 2025-03-11 is article:modified_time; JSON-LD gives datePublished 2024-06-20."
+    },
+    {
+      "source": "src:quantinuum-bmw-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The release body visibly prints May 5, 2026."
+    },
+    {
+      "source": "src:quantinuum-randomness-blog",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The article visibly prints March 26, 2025."
+    },
+    {
+      "source": "src:npj-orr-platinum",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "The journal article and metadata identify publication on 2024-12-19 and resolve to the cited DOI."
+    },
+    {
+      "source": "src:docomo-overview",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The mutable overview contains 2026 as dates for current management and organization data, not as the page publication date."
+    },
+    {
+      "source": "src:groovenauts-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The recorded year comes from dateModified/current company data, not the printed publication date (JSON-LD datePublished is 2022-03-25)."
+    },
+    {
+      "source": "src:sec-jpm-submissions",
+      "reachable": true,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": false,
+      "notes": "The recorded day is a filing date inside the mutable submissions feed, not the feed's publication date. The official SEC submissions feed is regulatory primary material (Tier 1), not Tier-3 'other'."
+    },
+    {
+      "source": "src:pulser-qubo-notebook",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The pinned official Pulser notebook was fetched successfully. The recorded date is not printed in the notebook as its publication date."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "uc:ibm-qaoa-max-cut",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:ibm-sqd-chemistry",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:ibm-heisenberg-vqe",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:ibm-quantum-kernel",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:ibm-grover-search",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:aws-qaoa",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:aws-vqe-hydrogen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:aws-rydberg-ordered-phases",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:aws-qml-generative",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:aws-phase-estimation",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:aws-pulse-bell",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:xanadu-knapsack-qaoa",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:xanadu-knapsack-qaoa",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:xanadu-vibronic-dynamics",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:xanadu-vibronic-dynamics",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:xanadu-variational-regression",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-pulser-qubo",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-pulser-xy",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quandela-boson-sampling",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quandela-photonic-vqe",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quandela-shortest-path",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quandela-differential-equation",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-job-shop",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-job-shop",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-portfolio",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-portfolio",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-kibble-zurek",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-kibble-zurek",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-feature-selection",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:microsoft-grover-qsharp",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-vqe-hydrogen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-vqe-hydrogen",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-docomo-paging",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-docomo-paging",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-docomo-paging",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found programmatically using raw-order PDF extraction and supports the quoted outcome."
+    },
+    {
+      "entity": "uc:d-wave-groovenauts-waste",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically using raw-order PDF extraction and supports the problem, annealing model, and quoted outcome."
+    },
+    {
+      "entity": "uc:d-wave-groovenauts-waste",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-denso-agv",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-denso-agv",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-denso-agv",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-japan-tobacco-molecules",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:d-wave-japan-tobacco-molecules",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-bmw-metal-forming",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-bmw-metal-forming",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-bmw-metal-forming",
+      "evidence_index": 2,
+      "verdict": "verified_with_correction",
+      "notes": "Quote is verbatim, but 'digital-analog implementation' does not establish the assigned analog_hamiltonian model."
+    },
+    {
+      "entity": "uc:pasqal-basf-weather",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-basf-weather",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "Quote is verbatim and supports the weather/QNN project, but neutral-atom processors do not by themselves establish analog_hamiltonian."
+    },
+    {
+      "entity": "uc:pasqal-basf-weather",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "Quote is verbatim but is an aspiration to go beyond classical HPC, not an achieved outcome."
+    },
+    {
+      "entity": "uc:pasqal-thales-satellite-mis",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-thales-satellite-mis",
+      "evidence_index": 1,
+      "verdict": "verified_with_correction",
+      "notes": "Quote is verbatim and supports the MIS project, but does not identify an analog Hamiltonian program model."
+    },
+    {
+      "entity": "uc:pasqal-cib-credit-ratings",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:pasqal-cib-credit-ratings",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-bmw-fuel-cells",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-bmw-fuel-cells",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim navigation chrome, not article-body support for this BMW use case's program model or SDK."
+    },
+    {
+      "entity": "uc:quantinuum-jpmorgan-randomness",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-jpmorgan-randomness",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-jpmorgan-randomness",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-orr-platinum",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-orr-platinum",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-orr-platinum",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-orr-platinum",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "uc:quantinuum-orr-platinum",
+      "evidence_index": 4,
+      "verdict": "verified_with_correction",
+      "notes": "The affiliation is verbatim and names BMW Group, but an author affiliation does not establish BMW as a customer."
+    },
+    {
+      "entity": "uc:quantinuum-orr-platinum",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote found programmatically in the saved fetched document and supports the stated field."
+    },
+    {
+      "entity": "ex:amazon-braket-qpe",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "The quote appears in the freshly fetched official notebook. Example.code and official.py exactly equal the notebook's code cells joined in order; the notebook itself selects LocalSimulator."
+    },
+    {
+      "entity": "ex:amazon-braket-vqe-hydrogen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "The quote appears in the freshly fetched official notebook. Example.code and official.py exactly equal the notebook's code cells joined in order; the notebook itself selects LocalSimulator."
+    },
+    {
+      "entity": "ex:pulser-qubo",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "The quote appears in the freshly fetched pinned official notebook. Example.code and official.py exactly equal its code cells joined in order, and the tutorial directly calls QutipBackendV2."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "uc:ibm-qaoa-max-cut",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:ibm-sqd-chemistry",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:ibm-heisenberg-vqe",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:ibm-quantum-kernel",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:ibm-grover-search",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:aws-qaoa",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:aws-vqe-hydrogen",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:aws-rydberg-ordered-phases",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:aws-qml-generative",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:aws-phase-estimation",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:aws-pulse-bell",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:xanadu-knapsack-qaoa",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:xanadu-vibronic-dynamics",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:xanadu-variational-regression",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:pasqal-pulser-qubo",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:pasqal-pulser-xy",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:quandela-boson-sampling",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:quandela-photonic-vqe",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:quandela-shortest-path",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:quandela-differential-equation",
+      "verdict": "publish_flagged",
+      "reasons": "The source explicitly describes a quantum machine-learning algorithm for differential equations; correct problem_class from physics_simulation to machine_learning.",
+      "corrections": {
+        "problem_class": "machine_learning"
+      }
+    },
+    {
+      "entity": "uc:d-wave-job-shop",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:d-wave-portfolio",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:d-wave-kibble-zurek",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:d-wave-feature-selection",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:microsoft-grover-qsharp",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:quantinuum-vqe-hydrogen",
+      "verdict": "publish",
+      "reasons": "The official primary source or journal article was fetched, its quoted evidence was found programmatically, and the material use-case fields are supported."
+    },
+    {
+      "entity": "uc:d-wave-docomo-paging",
+      "verdict": "publish_flagged",
+      "reasons": "The PDF supports NTT DOCOMO, CQM hybrid processing, and the quoted result, but does not name the Ocean SDK. The linked customer location is only city-level and its coordinates are an approximation.",
+      "corrections": {
+        "sdk": null
+      }
+    },
+    {
+      "entity": "uc:d-wave-groovenauts-waste",
+      "verdict": "publish_flagged",
+      "reasons": "The PDF supports Groovenauts, Mitsubishi Estate, quantum annealing, and the quoted routing result, but does not name the Ocean SDK.",
+      "corrections": {
+        "sdk": null
+      }
+    },
+    {
+      "entity": "uc:d-wave-denso-agv",
+      "verdict": "publish_flagged",
+      "reasons": "The PDF supports DENSO, the AGV routing proof of concept, the D-Wave annealer, and the quoted result, but does not name the Ocean SDK.",
+      "corrections": {
+        "sdk": null
+      }
+    },
+    {
+      "entity": "uc:d-wave-japan-tobacco-molecules",
+      "verdict": "publish_flagged",
+      "reasons": "The application card names Japan Tobacco and D-Wave annealing solutions, but the page's Ocean SDK references are global page/navigation metadata and are not tied to this application.",
+      "corrections": {
+        "sdk": null
+      }
+    },
+    {
+      "entity": "uc:pasqal-bmw-metal-forming",
+      "verdict": "publish_flagged",
+      "reasons": "The article body documents the BMW project and calls the implementation digital-analog, not analog_hamiltonian; it names no SDK. BMW's linked city coordinates are only an approximation.",
+      "corrections": {
+        "program_model": null,
+        "sdk": null,
+        "statement": "Pasqal documents an example of metal-sheet stamping simulation with BMW Group."
+      }
+    },
+    {
+      "entity": "uc:pasqal-basf-weather",
+      "verdict": "publish_flagged",
+      "reasons": "The article documents the BASF weather/QNN project but does not establish analog_hamiltonian or an SDK. The quoted language is an aspiration to exceed classical HPC, not a reported outcome, so outcome_quote is removed.",
+      "corrections": {
+        "program_model": null,
+        "sdk": null,
+        "statement": "Pasqal documents an example of weather modelling with quantum neural networks with BASF.",
+        "outcome_quote": null
+      }
+    },
+    {
+      "entity": "uc:pasqal-thales-satellite-mis",
+      "verdict": "publish_flagged",
+      "reasons": "The article documents the Thales MIS project but identifies neither an analog Hamiltonian program nor an SDK.",
+      "corrections": {
+        "program_model": null,
+        "sdk": null,
+        "statement": "Pasqal documents an example of satellite mission planning as a maximum independent set with Thales."
+      }
+    },
+    {
+      "entity": "uc:pasqal-cib-credit-ratings",
+      "verdict": "publish_flagged",
+      "reasons": "The article body supports an analog-computer project and the comparison is kept only as a verbatim quote, but it does not name an SDK.",
+      "corrections": {
+        "sdk": null
+      }
+    },
+    {
+      "entity": "uc:quantinuum-bmw-fuel-cells",
+      "verdict": "publish_flagged",
+      "reasons": "The body documents BMW molecular simulation on Quantinuum trapped-ion hardware, but gate-level TKET appears only in navigation chrome; neither gate_circuit nor tket is supported for this use case. BMW's linked city coordinates are approximate.",
+      "corrections": {
+        "program_model": null,
+        "sdk": null,
+        "statement": "Quantinuum documents an example of molecular simulation for fuel-cell electrochemistry with BMW Group."
+      }
+    },
+    {
+      "entity": "uc:quantinuum-jpmorgan-randomness",
+      "verdict": "publish_flagged",
+      "reasons": "The body supports random circuit sampling with JPMorganChase and Quantinuum H2, but does not name an SDK; generic Quantinuum navigation does not establish one.",
+      "corrections": {
+        "sdk": null
+      }
+    },
+    {
+      "entity": "uc:quantinuum-orr-platinum",
+      "verdict": "publish_flagged",
+      "reasons": "The journal article directly supports the application, H1-series hardware, circuits, InQuanto and PyTKET. BMW is an author affiliation, not identified as a customer, so customer is removed; the advantage wording remains only in the verbatim future-looking quote.",
+      "corrections": {
+        "customer": null
+      }
+    },
+    {
+      "entity": "ex:amazon-braket-qpe",
+      "verdict": "publish",
+      "reasons": "The official notebook was freshly fetched and compared programmatically: Example.code and official.py are verbatim code cells in notebook order. The gate-circuit model matches the Braket Circuit program, and the tutorial itself selects LocalSimulator. harness.py changes only the three notebook magics to comments, exactly as substitution.diff records. sim_check remains not_run; examples/results.json separately reports passed."
+    },
+    {
+      "entity": "ex:amazon-braket-vqe-hydrogen",
+      "verdict": "publish",
+      "reasons": "The official notebook was freshly fetched and compared programmatically: Example.code and official.py are verbatim code cells in notebook order. The gate-circuit model matches the Braket Circuit VQE program, and the tutorial itself selects LocalSimulator. harness.py only replaces the notebook's mkdir shell magic with os.makedirs, exactly as substitution.diff records. sim_check remains not_run; examples/results.json separately reports passed."
+    },
+    {
+      "entity": "ex:pulser-qubo",
+      "verdict": "publish",
+      "reasons": "The pinned official notebook was freshly fetched and compared programmatically: Example.code and official.py are verbatim code cells in notebook order. The analog-Hamiltonian model matches its DigitalAnalogDevice Rydberg pulse sequence. harness.py is byte-for-byte identical to official.py, and the tutorial itself directly calls QutipBackendV2. sim_check remains not_run; examples/results.json separately reports passed."
+    }
+  ],
+  "summary": "28 publish, 12 publish_flagged, 0 reject. All 41 live sources were fetched with the required counsel user agent and all 66 evidence quotes were checked programmatically against saved pages; PDF raw reading order was required for two multi-column case-study quotes. The three new examples exactly match the fetched official notebooks' code cells, their harness differences match substitution.diff, and their sim_check statuses remain not_run; examples/results.json separately reports all three passed. Worst problems in the earlier use cases remain: ten customer studies assign SDKs their article bodies do not name; three Pasqal stories and the Quantinuum BMW release do not support the assigned program model; the Quantinuum TKET support is navigation chrome; one Pasqal aspiration was mislabelled as an outcome; the platinum paper names BMW only as an author affiliation, not a customer; and most source dates are copyright years, Git commit/update metadata, or article:modified_time rather than printed publication dates. One differential-equation tutorial is corrected from physics_simulation to machine_learning. Customer city coordinates remain approximations and are flagged where linked. Rejected ids: none."
+}

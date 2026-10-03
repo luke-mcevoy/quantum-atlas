@@ -39,16 +39,69 @@ export interface Milestone extends Reviewed {
 export interface Target extends Reviewed {
   id: string; org: string; system?: string; system_name?: string; target_date: string; statement: string;
   stated_on: string; status: "open" | "met" | "missed" | "revised" | "withdrawn"; superseded_by?: string; met_by?: string;
+  roadmap_doc?: string;
+  metric_kind?: "physical_qubits" | "logical_qubits" | "fidelity" | "error_rate" | "system_availability"
+    | "product_launch" | "customer_access" | "error_correction_demo" | "other";
+  target_value?: Figure;
+  due?: { by: string; precision: "year" | "half" | "quarter" | "month" | "day" };
+  /** Counts already computed by the build. The UI does not recompute them. */
+  track_record?: TrackCounts;
 }
 export interface Snippet {
   code: string; source_url: string; language: string; sdk: string;
   sim_check: { status: "passed" | "failed" | "not_run"; simulator?: string; substitution?: string; sdk_version?: string;
     python_version?: string; ran_at?: string; output_excerpt?: string; notes?: string };
 }
+export type ProgramModel = "gate_circuit" | "annealing_qubo" | "analog_hamiltonian" | "photonic_circuit" | "pulse";
+export type ProblemClass = "optimization" | "chemistry" | "physics_simulation" | "machine_learning" | "sampling" | "linear_algebra" | "other";
+export type AvailabilityStatus = "available" | "limited" | "unavailable" | "unknown";
+
 export interface AccessRoute extends Reviewed {
   id: string; system?: string; system_hint?: string; target_org: string; platform: string; platform_name: string;
   route: string; sdks: string[]; auth_model: string; tier: "open_free" | "paid" | "application" | "restricted";
   tier_note?: string; docs_url: string; snippet?: Snippet;
+  program_models?: ProgramModel[];
+  availability?: { status: AvailabilityStatus; as_of: string; windows?: string; stale?: boolean };
+  pricing?: { quote: string; unit?: string; source: string };
+  limits?: { max_qubits?: Figure; max_shots?: Figure; notes?: string };
+  to_hardware?: { code_or_step: string; source_url: string };
+}
+export interface UseCase extends Reviewed {
+  id: string; problem_class: ProblemClass; title: string; program_model?: ProgramModel; platform: string;
+  sdk?: string; kind: "official_tutorial" | "customer_case_study" | "peer_reviewed_application";
+  customer?: string; statement: string; outcome_quote?: string; example?: string;
+}
+export interface Example extends Reviewed {
+  id: string; title: string; program_model: ProgramModel; sdk: string; source_url: string; code: string;
+  harness_path: string; substitution?: string; sim_check: Snippet["sim_check"]; routes: string[];
+}
+export interface RoadmapDocument extends Reviewed {
+  id: string; org: string; title: string; published: string;
+  kind: "roadmap_page" | "blog" | "investor_presentation" | "sec_exhibit" | "keynote" | "press_release" | "paper";
+  url: string; archived_url?: string; completeness: "all_items" | "partial"; items: string[];
+}
+export interface Outcome extends Reviewed {
+  id: string; target: string;
+  result: "met_on_time" | "met_early" | "met_late" | "partially_met" | "revised_before_due"
+    | "acknowledged_missed" | "no_delivery_found" | "pending";
+  resolved_on?: string; delivered_value?: Figure; delivered_by?: string; slip_months?: number;
+  search_log?: { checked: string[]; queries: string[]; as_of: string };
+  statement: string;
+}
+export interface Projection extends Reviewed {
+  id: string; org: string; roadmap_doc: string;
+  metric: "revenue" | "bookings" | "gross_margin" | "ebitda" | "customers" | "qubits" | "other";
+  period: string; projected: Figure; actual?: Figure;
+}
+export interface ClaimRevision extends Reviewed {
+  id: string; subject: string; kind: "retraction" | "correction" | "expression_of_concern" | "published_rebuttal";
+  date: string; statement: string;
+}
+/** Descriptive counts from the build. Never a score. */
+export interface TrackCounts {
+  n: number; show_rates: boolean;
+  on_time_or_early: number; late: number; partial: number; revised_before_due: number;
+  acknowledged_missed: number; no_delivery_found: number; pending?: number; items: string[];
 }
 export interface Relationship extends Reviewed {
   id: string; from: string; to: string; kind: string; date: string; program?: string;
@@ -61,6 +114,9 @@ export interface Atlas {
   stats: { counts: Record<string, number>; topics: Record<string, string> };
   sources: Source[]; orgs: Org[]; sites: Site[]; systems: System[]; milestones: Milestone[]; targets: Target[];
   access: AccessRoute[]; relationships: Relationship[]; gaps: Gap[];
+  use_cases?: UseCase[]; examples?: Example[]; roadmap_docs?: RoadmapDocument[]; outcomes?: Outcome[];
+  projections?: Projection[]; claim_revisions?: ClaimRevision[];
+  track_record?: { companies: Record<string, TrackCounts>; industry?: TrackCounts };
 }
 
 export interface Index {
@@ -73,6 +129,13 @@ export interface Index {
   target: Map<string, Target>;
   access: Map<string, AccessRoute>;
   rel: Map<string, Relationship>;
+  useCase: Map<string, UseCase>;
+  example: Map<string, Example>;
+  roadmapDoc: Map<string, RoadmapDocument>;
+  outcome: Map<string, Outcome>;
+  projection: Map<string, Projection>;
+  claimRevision: Map<string, ClaimRevision>;
+  outcomeByTarget: Map<string, Outcome>;
   systemsByOrg: Map<string, System[]>;
   sitesByOrg: Map<string, Site[]>;
   msByOrg: Map<string, Milestone[]>;
@@ -98,6 +161,13 @@ export function buildIndex(atlas: Atlas): Index {
     target: new Map(atlas.targets.map((t) => [t.id, t])),
     access: new Map(atlas.access.map((a) => [a.id, a])),
     rel: new Map(atlas.relationships.map((r) => [r.id, r])),
+    useCase: new Map((atlas.use_cases ?? []).map((u) => [u.id, u])),
+    example: new Map((atlas.examples ?? []).map((e) => [e.id, e])),
+    roadmapDoc: new Map((atlas.roadmap_docs ?? []).map((d) => [d.id, d])),
+    outcome: new Map((atlas.outcomes ?? []).map((o) => [o.id, o])),
+    projection: new Map((atlas.projections ?? []).map((p) => [p.id, p])),
+    claimRevision: new Map((atlas.claim_revisions ?? []).map((c) => [c.id, c])),
+    outcomeByTarget: new Map((atlas.outcomes ?? []).map((o) => [o.target, o])),
     systemsByOrg: new Map(), sitesByOrg: new Map(), msByOrg: new Map(), msBySystem: new Map(), tgtByOrg: new Map(),
     accessBySystem: new Map(), accessByOrg: new Map(), relsByOrg: new Map(), pos: new Map(),
   };
@@ -131,7 +201,8 @@ export function buildIndex(atlas: Atlas): Index {
 }
 
 export function nodeName(idx: Index, id: string): string {
-  return idx.org.get(id)?.name ?? idx.system.get(id)?.name ?? idx.site.get(id)?.name ?? id;
+  return idx.org.get(id)?.name ?? idx.system.get(id)?.name ?? idx.site.get(id)?.name
+    ?? idx.useCase.get(id)?.title ?? idx.example.get(id)?.title ?? idx.roadmapDoc.get(id)?.title ?? id;
 }
 
 /** Where to draw an org, site or system ([lon, lat]). */
@@ -194,7 +265,8 @@ export function formatMoney(a?: { value: number; currency: string }) {
 /** Entity lookup by id across every published collection. */
 export function entityOf(idx: Index, id: string) {
   return idx.system.get(id) ?? idx.milestone.get(id) ?? idx.target.get(id) ?? idx.access.get(id) ?? idx.rel.get(id)
-    ?? idx.site.get(id) ?? idx.org.get(id);
+    ?? idx.site.get(id) ?? idx.org.get(id) ?? idx.useCase.get(id) ?? idx.example.get(id)
+    ?? idx.roadmapDoc.get(id) ?? idx.outcome.get(id) ?? idx.projection.get(id) ?? idx.claimRevision.get(id);
 }
 
 /** Every evidence item on an entity, including nested (qubit counts, metrics). */

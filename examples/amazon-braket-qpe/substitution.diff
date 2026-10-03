@@ -1,0 +1,27 @@
+# The tutorial already sets the device with this line:
+#   device = LocalSimulator()
+# under the comment "set up device: local simulator or the on-demand simulator".
+# AwsDevice(Devices.Amazon.SV1) appears only in a comment and is left commented.
+# The harness comments the notebook magics (%matplotlib, %load_ext, %autoreload)
+# so those same cells run as a script. Circuits, shots, and the device line are unchanged.
+--- official.py	2026-10-02 23:08:44
++++ harness.py	2026-10-02 23:08:44
+@@ -7,15 +7,15 @@
+ import numpy as np
+ 
+ # magic word for producing visualizations in notebook
+-%matplotlib inline
++# %matplotlib inline
+ # AWS imports: Import Amazon Braket SDK modules
+ from braket.circuits import Circuit
+ from braket.devices import LocalSimulator
+ # local imports
+ from utils_qpe import run_qpe
+ 
+-%load_ext autoreload
+-%autoreload 2
++# %load_ext autoreload
++# %autoreload 2
+ # set up device: local simulator or the on-demand simulator
+ device = LocalSimulator()
+ # device = AwsDevice(Devices.Amazon.SV1)

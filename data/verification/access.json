@@ -290,6 +290,198 @@
       "tier_assigned": 2,
       "date_ok": true,
       "notes": "Fetched independently with the required counsel User-Agent; HTTP 200. The live page or document type matches the analyst's classification. For undated live documentation, document_date is treated as the review snapshot date."
+    },
+    {
+      "source": "src:today-braket-devices",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-braket-submit",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-braket-to-qpu",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-braket-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-ionq-backends",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-azure-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-azure-ionq",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-azure-targets",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-pasqal-qpu",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-azure-pasqal",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-azure-quantinuum",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-azure-rigetti",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-ibm-computers",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-ibm-hello",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-ibm-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-ibm-plans",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-ionq-qiskit",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-ionq-cost",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-iqm-resonance",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The page states dateModified 2026-06-18, not the analyst's 2026-10-02 snapshot date."
+    },
+    {
+      "source": "src:today-pasqal-billing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-pasqal-start",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-oqc-cloud",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-dwave-cloud",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
+    },
+    {
+      "source": "src:today-qh-access",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched independently with curl using the required counsel User-Agent; HTTP 200. The official first-party page and Tier 2 classification are appropriate. The stated date was confirmed, or the undated live page is treated as a review snapshot for source metadata only."
     }
   ],
   "evidence_checks": [
@@ -1910,6 +2102,888 @@
       "path": "snippet",
       "verdict": "verified",
       "notes": "Snippet code appears verbatim at source_url; local-simulator status was independently re-run."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-aqt-ibex-q1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-1",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-ionq-forte-enterprise-1",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-garnet",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-iqm-emerald",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-quera-aquila",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-ankaa-3",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 5,
+      "verdict": "quote_not_found",
+      "notes": "The saved official HTML and its stripped text contain the device and program type in separate table cells, but not the analyst's pipe-delimited quote verbatim."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-aria-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 6,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim but is only a target identifier, backend-option statement, or generic device-discovery call; it is not a step that points this sample at the named device."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 6,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim but is only a target identifier, backend-option statement, or generic device-discovery call; it is not a step that points this sample at the named device."
+    },
+    {
+      "entity": "acc:azure-ionq-forte-enterprise-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-pasqal-fresnel-can1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-1",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-quantinuum-h2-2",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 6,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim but is only a target identifier, backend-option statement, or generic device-discovery call; it is not a step that points this sample at the named device."
+    },
+    {
+      "entity": "acc:azure-rigetti-cepheus-1-108q",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-boston",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-kingston",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-pittsburgh",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-fez",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-marrakesh",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-miami",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-phoenix",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 7,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-aachen",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 7,
+      "verdict": "does_not_support",
+      "notes": "The line is verbatim, but least_busy(simulator=False, operational=True) selects some operational backend and does not name this route's device."
+    },
+    {
+      "entity": "acc:ibm-quantum-ibm-berlin",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-1",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 8,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim but is only a target identifier, backend-option statement, or generic device-discovery call; it is not a step that points this sample at the named device."
+    },
+    {
+      "entity": "acc:ionq-cloud-forte-enterprise-1",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 11,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-54",
+      "evidence_index": 12,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 11,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-crystal-20",
+      "evidence_index": 12,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:iqm-resonance-star-24",
+      "evidence_index": 11,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel",
+      "evidence_index": 10,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim but is only a target identifier, backend-option statement, or generic device-discovery call; it is not a step that points this sample at the named device."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-can1",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:pasqal-cloud-fresnel-sa1",
+      "evidence_index": 10,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim but is only a target identifier, backend-option statement, or generic device-discovery call; it is not a step that points this sample at the named device."
+    },
+    {
+      "entity": "acc:oqc-cloud-toshiko",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:oqc-cloud-toshiko",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:oqc-cloud-toshiko",
+      "evidence_index": 4,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim but describes emulators used for circuit development, not the program model accepted by the Toshiko QPU."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage2",
+      "evidence_index": 6,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim and identifies annealing hardware, but does not state that the route accepts QUBO, Ising, BQM, or CQM programs."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:d-wave-leap-advantage",
+      "evidence_index": 6,
+      "verdict": "does_not_support",
+      "notes": "The quote is verbatim and identifies annealing hardware, but does not state that the route accepts QUBO, Ising, BQM, or CQM programs."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-h2",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
+    },
+    {
+      "entity": "acc:quantinuum-nexus-helios",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote independently confirmed programmatically against the saved official page and supports the cited field."
     }
   ],
   "entity_verdicts": [
@@ -1975,175 +3049,267 @@
     },
     {
       "entity": "acc:aws-braket-aqt-ibex-q1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null
+      }
     },
     {
       "entity": "acc:aws-braket-ionq-forte-1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null,
+        "availability": null
+      }
     },
     {
       "entity": "acc:aws-braket-ionq-forte-enterprise-1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null
+      }
     },
     {
       "entity": "acc:aws-braket-iqm-garnet",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null,
+        "availability": null
+      }
     },
     {
       "entity": "acc:aws-braket-iqm-emerald",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null,
+        "availability": null
+      }
     },
     {
       "entity": "acc:aws-braket-quera-aquila",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null,
+        "availability": null
+      }
     },
     {
       "entity": "acc:aws-braket-rigetti-ankaa-3",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null,
+        "availability": null
+      }
     },
     {
       "entity": "acc:aws-braket-rigetti-cepheus-1-108q",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The new program-model quote is not verbatim: its pipe-delimited text does not occur in the cited HTML page. The unsupported model was removed. Availability was also removed where required because an available route must retain a supported non-empty program_models list. Any Braket price retained here is an official family-row quote, not a computed device cost.",
+      "corrections": {
+        "program_models": null,
+        "availability": null
+      }
     },
     {
       "entity": "acc:azure-ionq-aria-1",
       "verdict": "publish_flagged",
-      "reasons": "Azure still lists and prices Aria 1, but IonQ's current backend page marks Aria 1 retired. The Azure-specific route is published with that cross-platform conflict visible."
+      "reasons": "IonQ's live table calls Aria 1 retired while Microsoft's 2026-04-23 target list still names it. Because the retirement table states no as-of date, the dated availability object was removed; the conflict remains visible.",
+      "corrections": {
+        "availability": null
+      }
     },
     {
       "entity": "acc:azure-ionq-forte-1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "Microsoft's dated page supports the route but is stale for a current-availability display. The bare target identifier is not a verbatim execution step that points a sample at hardware, so to_hardware was removed.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:azure-ionq-forte-enterprise-1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "Microsoft's dated page supports the route but is stale for a current-availability display. The bare target identifier is not a verbatim execution step that points a sample at hardware, so to_hardware was removed.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:azure-pasqal-fresnel",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The official pricing, analog program model, and qubit limit are supported, but the stored to_hardware value is a target-table row rather than a step that sends a sample to the real device. The unresolved system_hint is intentionally retained.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:azure-pasqal-fresnel-can1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The official pricing, analog program model, and qubit limit are supported, but the stored to_hardware value is a target-table row rather than a step that sends a sample to the real device. The unresolved system_hint is intentionally retained.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:azure-quantinuum-h2-1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "Microsoft's 2026-05-15 provider page states 56 qubits and queued subscription access, but that date is stale for a current-availability display. The stored target-table row is not a hardware execution step, so to_hardware was removed; the unresolved H2 system_hint is retained.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:azure-quantinuum-h2-2",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "Microsoft's 2026-05-15 provider page states 56 qubits and queued subscription access, but that date is stale for a current-availability display. The stored target-table row is not a hardware execution step, so to_hardware was removed; the unresolved H2 system_hint is retained.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:azure-rigetti-cepheus-1-108q",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "The Microsoft provider page is dated 2026-04-10 and therefore stale for current availability. Its bare target identifier is not a verbatim execution step, so to_hardware was removed.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:ibm-quantum-ibm-boston",
       "verdict": "publish_flagged",
-      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "reasons": "IBM's live payload names this backend and states 156 programmable qubits, but the least_busy line selects an arbitrary operational backend rather than this named device; to_hardware was removed. IBM's pricing page says \u201cper month\u201d while its plan documentation specifies a 28-day rolling window. Named Nighthawk-family backends remain unresolved hints and are not mapped to sys:ibm-nighthawk.",
       "corrections": {
-        "evidence.0.quote": "\\\"name\\\":\\\"ibm_boston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_boston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+        "to_hardware": null
       }
     },
     {
       "entity": "acc:ibm-quantum-ibm-kingston",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "IBM's live payload names this backend and states 156 programmable qubits, but the least_busy line selects an arbitrary operational backend rather than this named device; to_hardware was removed. IBM's pricing page says \u201cper month\u201d while its plan documentation specifies a 28-day rolling window. Named Nighthawk-family backends remain unresolved hints and are not mapped to sys:ibm-nighthawk.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:ibm-quantum-ibm-pittsburgh",
       "verdict": "publish_flagged",
-      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "reasons": "IBM's live payload names this backend and states 156 programmable qubits, but the least_busy line selects an arbitrary operational backend rather than this named device; to_hardware was removed. IBM's pricing page says \u201cper month\u201d while its plan documentation specifies a 28-day rolling window. Named Nighthawk-family backends remain unresolved hints and are not mapped to sys:ibm-nighthawk.",
       "corrections": {
-        "evidence.0.quote": "\\\"name\\\":\\\"ibm_pittsburgh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_pittsburgh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+        "to_hardware": null,
+        "availability": null
       }
     },
     {
       "entity": "acc:ibm-quantum-ibm-fez",
       "verdict": "publish_flagged",
-      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "reasons": "IBM's live payload names this backend and states 156 programmable qubits, but the least_busy line selects an arbitrary operational backend rather than this named device; to_hardware was removed. IBM's pricing page says \u201cper month\u201d while its plan documentation specifies a 28-day rolling window. Named Nighthawk-family backends remain unresolved hints and are not mapped to sys:ibm-nighthawk.",
       "corrections": {
-        "evidence.0.quote": "\\\"name\\\":\\\"ibm_fez\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_fez\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+        "to_hardware": null
       }
     },
     {
       "entity": "acc:ibm-quantum-ibm-marrakesh",
       "verdict": "publish_flagged",
-      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "reasons": "IBM's live payload names this backend and states 156 programmable qubits, but the least_busy line selects an arbitrary operational backend rather than this named device; to_hardware was removed. IBM's pricing page says \u201cper month\u201d while its plan documentation specifies a 28-day rolling window. Named Nighthawk-family backends remain unresolved hints and are not mapped to sys:ibm-nighthawk.",
       "corrections": {
-        "evidence.0.quote": "\\\"name\\\":\\\"ibm_marrakesh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_marrakesh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+        "to_hardware": null
       }
     },
     {
       "entity": "acc:ibm-quantum-ibm-miami",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "IBM's live payload names this backend and states 120 programmable qubits, but the least_busy line selects an arbitrary operational backend rather than this named device; to_hardware was removed. IBM's pricing page says \u201cper month\u201d while its plan documentation specifies a 28-day rolling window. Named Nighthawk-family backends remain unresolved hints and are not mapped to sys:ibm-nighthawk.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:ibm-quantum-ibm-phoenix",
       "verdict": "publish_flagged",
-      "reasons": "IBM's live embedded backend record changed after research. Availability remains current, but the volatile long quote was corrected to the exact backend name and online/available status.",
+      "reasons": "IBM's live payload names this backend and states 120 programmable qubits, but the least_busy line selects an arbitrary operational backend rather than this named device; to_hardware was removed. IBM's pricing page says \u201cper month\u201d while its plan documentation specifies a 28-day rolling window. Named Nighthawk-family backends remain unresolved hints and are not mapped to sys:ibm-nighthawk.",
       "corrections": {
-        "evidence.0.quote": "\\\"name\\\":\\\"ibm_phoenix\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}"
+        "evidence.0.quote": "\\\"name\\\":\\\"ibm_phoenix\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"}",
+        "to_hardware": null
       }
     },
     {
       "entity": "acc:ibm-quantum-ibm-aachen",
       "verdict": "reject",
-      "reasons": "Rejected: IBM lists this backend online in eu-de and says Open Plan instances are us-east only, but no cited source links this backend to a paid plan. Paid access cannot be inferred by exclusion."
+      "reasons": "Rejected: IBM lists this backend online in eu-de and says Open Plan instances are us-east only, but no cited source links this backend to a paid plan. Paid access cannot be inferred by exclusion. The generic least_busy line also fails the named-device to_hardware rule and was removed.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:ibm-quantum-ibm-berlin",
       "verdict": "reject",
-      "reasons": "Rejected: no cited source links this eu-de backend to a paid plan, and the analyst's volatile device-record quote is no longer verbatim. Paid access cannot be inferred by exclusion."
+      "reasons": "Rejected: no cited source links this eu-de backend to a paid plan, and the analyst's volatile device-record quote is no longer verbatim. Paid access cannot be inferred by exclusion. The generic least_busy line also fails the named-device to_hardware rule and was removed.",
+      "corrections": {
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:ionq-cloud-forte-1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "IonQ's live backend table says Forte 1 is available and states 36 qubits, but supplies no page date; the fetch date cannot be used as as_of, so availability was removed. The named Qiskit backend step remains.",
+      "corrections": {
+        "availability": null
+      }
     },
     {
       "entity": "acc:ionq-cloud-forte-enterprise-1",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "IonQ's live table supplies no page date, so availability was removed rather than assigning the fetch date. The backend-options sentence names the device but is not a step that points a sample at it, so to_hardware was removed.",
+      "corrections": {
+        "availability": null,
+        "to_hardware": null
+      }
     },
     {
       "entity": "acc:iqm-resonance-crystal-54",
       "verdict": "publish_flagged",
-      "reasons": "The page separately lists Crystal 54 as available and a free Starter allowance, but does not explicitly allocate that QPU to Starter rather than pay-as-you-go."
+      "reasons": "IQM's page identifies this Crystal or Star device separately, so it was not collapsed onto Emerald or Garnet. The page states dateModified 2026-06-18, replacing the unsupported fetch-date as_of; the resulting availability is stale, and access remains limited/beta as quoted.",
+      "corrections": {
+        "availability.as_of": "2026-06-18",
+        "limits.max_qubits.as_of": "2026-06-18"
+      }
     },
     {
       "entity": "acc:iqm-resonance-crystal-20",
       "verdict": "publish_flagged",
-      "reasons": "The page separately lists Crystal 20 as available and a free Starter allowance, but does not explicitly allocate that QPU to Starter rather than pay-as-you-go."
+      "reasons": "IQM's page identifies this Crystal or Star device separately, so it was not collapsed onto Emerald or Garnet. The page states dateModified 2026-06-18, replacing the unsupported fetch-date as_of; the resulting availability is stale, and access remains limited/beta as quoted.",
+      "corrections": {
+        "availability.as_of": "2026-06-18",
+        "limits.max_qubits.as_of": "2026-06-18"
+      }
     },
     {
       "entity": "acc:iqm-resonance-star-24",
       "verdict": "publish_flagged",
-      "reasons": "Star 24 is stated to be available only in beta, and the page does not explicitly allocate it to the free Starter allowance rather than pay-as-you-go."
+      "reasons": "IQM's page identifies this Crystal or Star device separately, so it was not collapsed onto Emerald or Garnet. The page states dateModified 2026-06-18, replacing the unsupported fetch-date as_of; the resulting availability is stale, and access remains limited/beta as quoted.",
+      "corrections": {
+        "availability.as_of": "2026-06-18",
+        "limits.max_qubits.as_of": "2026-06-18"
+      }
     },
     {
       "entity": "acc:pasqal-cloud-fresnel",
       "verdict": "publish_flagged",
-      "reasons": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+      "reasons": "Pasqal's availability aria-label, analog model, and contract billing text are supported, but fetch_available_devices() only discovers operational backends and does not name this device. The generic to_hardware field was removed and the unresolved system_hint retained.",
       "corrections": {
-        "evidence.2.quote": "Pasqal Cloud projects are billed through contracts"
+        "evidence.2.quote": "Pasqal Cloud projects are billed through contracts",
+        "to_hardware": null
       }
     },
     {
@@ -2157,35 +3323,53 @@
     {
       "entity": "acc:pasqal-cloud-fresnel-sa1",
       "verdict": "publish_flagged",
-      "reasons": "The analyst's tier quote was too terse to establish paid access by itself; it was corrected to the source's exact phrase that Pasqal Cloud projects are billed through contracts.",
+      "reasons": "Pasqal's availability aria-label, analog model, and contract billing text are supported, but fetch_available_devices() only discovers operational backends and does not name this device. The generic to_hardware field was removed and the unresolved system_hint retained.",
       "corrections": {
-        "evidence.2.quote": "Pasqal Cloud projects are billed through contracts"
+        "evidence.2.quote": "Pasqal Cloud projects are billed through contracts",
+        "to_hardware": null
       }
     },
     {
       "entity": "acc:oqc-cloud-toshiko",
       "verdict": "publish_flagged",
-      "reasons": "OQC documents on-demand Toshiko access and a \u201cGET IN TOUCH\u201d path, but does not publish a self-serve plan, approval rule, or price; \u201capplication\u201d is the closest available tier."
+      "reasons": "OQC states on-demand Toshiko access and scheduled windows, but gives no page date for as_of. Its circuit-development quote describes emulators rather than the Toshiko QPU. Availability and program_models were therefore removed.",
+      "corrections": {
+        "program_models": null,
+        "availability": null
+      }
     },
     {
       "entity": "acc:d-wave-leap-advantage2",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "D-Wave says customers can access Advantage2, but the undated page cannot support the stored as_of. Availability was removed. The QUBO model remains independently supported by the verified official sample_qubo snippet; no unit price was asserted.",
+      "corrections": {
+        "availability": null
+      }
     },
     {
       "entity": "acc:d-wave-leap-advantage",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "D-Wave says customers can access Advantage, but the undated page cannot support the stored as_of. The cited quote identifies annealing hardware without stating a QUBO/Ising/BQM/CQM input model. Availability and program_models were removed; no unit price was asserted.",
+      "corrections": {
+        "availability": null,
+        "program_models": null
+      }
     },
     {
       "entity": "acc:quantinuum-nexus-h2",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "Quantinuum states that users can access this hardware generation and its documentation discusses submitting quantum circuits, but the page states no as-of date. The fetch date was not substituted, so availability was removed.",
+      "corrections": {
+        "availability": null
+      }
     },
     {
       "entity": "acc:quantinuum-nexus-helios",
-      "verdict": "publish",
-      "reasons": "All material fields are supported by independently fetched Tier 2 official evidence."
+      "verdict": "publish_flagged",
+      "reasons": "Quantinuum states that users can access this hardware generation and its documentation discusses submitting quantum circuits, but the page states no as-of date. The fetch date was not substituted, so availability was removed.",
+      "corrections": {
+        "availability": null
+      }
     }
   ],
   "snippet_checks": [
@@ -2214,5 +3398,5 @@
       "notes": "Verbatim source confirmed. The no-token rerun reproduced IonQCredentialsError; no account was created and no token was supplied, so the hosted IonQ simulator was not run."
     }
   ],
-  "summary": "Reviewed 36 sources, 269 evidence/snippet items, and 50 entities: 30 publish, 18 publish_flagged, 2 reject. Rejected IBM Aachen and Berlin because the cited plan pages never link those eu-de backends to paid access. Corrected five stale volatile IBM backend quotes and three under-specific Pasqal billing quotes. Flagged Azure's still-listed Aria 1 against IonQ's retired status; IQM's device-to-free-plan ambiguity; OQC's contact-only tier inference; and several HQ designations not expressly stated by their address pages. All four snippets were verbatim; three local checks passed and IonQ remained not_run because a token is required."
+  "summary": "Delta review added 147 evidence checks from 24 independently fetched official sources; 26 new checks failed (8 quote_not_found and 18 does_not_support). Final entity counts are 7 publish, 41 publish_flagged, and 2 reject. Corrections remove unsupported program_models, availability objects whose as_of was only a fetch date, and to_hardware values that do not name and select the route's real device. IQM as_of dates were corrected to the page's stated 2026-06-18 modification date. Existing source checks, evidence checks, verdict records, and the two prior IBM rejects were preserved."
 }

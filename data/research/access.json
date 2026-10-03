@@ -881,6 +881,17 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:eu-north-1::device/qpu/aqt/Ibex-Q1')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "pricing": {
+        "quote": ">IBEX-Q1</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.02350",
+        "source": "src:today-braket-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -911,6 +922,30 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "IBEX-Q1  | gate-based | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "AQT IBEX-Q1",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": ">IBEX-Q1</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.02350",
+          "locator": "Quantum computers table",
+          "supports": "pricing"
         }
       ],
       "system_hint": "IBEX-Q1"
@@ -928,6 +963,37 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:us-east-1::device/qpu/ionq/Forte-1')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02",
+        "windows": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)"
+      },
+      "pricing": {
+        "quote": ">Forte</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.08000",
+        "source": "src:today-braket-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 36,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ionq-backends",
+              "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+              "locator": "IonQ backends table",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "IonQ QPUs require a minimum of 2,500 shots per task when using error mitigation."
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -958,6 +1024,42 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "Forte-1  | gate-based | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "IonQ Forte-1",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": ">Forte</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.08000",
+          "locator": "Quantum computers table",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+          "locator": "IonQ backends table",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": "IonQ QPUs require a minimum of 2,500 shots per task when using error mitigation.",
+          "locator": "Limits",
+          "supports": "limits"
         }
       ],
       "system": "sys:ionq-forte",
@@ -991,6 +1093,33 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:us-east-1::device/qpu/ionq/Forte-Enterprise-1')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02",
+        "windows": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 36,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ionq-backends",
+              "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+              "locator": "IonQ backends table",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "IonQ QPUs require a minimum of 2,500 shots per task when using error mitigation."
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -1021,6 +1150,36 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "Forte-Enterprise-1  | gate-based | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "IonQ Forte-Enterprise-1",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+          "locator": "IonQ backends table",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": "IonQ QPUs require a minimum of 2,500 shots per task when using error mitigation.",
+          "locator": "Limits",
+          "supports": "limits"
         }
       ],
       "system": "sys:ionq-forte-enterprise-quantumbasel"
@@ -1038,6 +1197,36 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:eu-north-1::device/qpu/iqm/Garnet')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02",
+        "windows": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)"
+      },
+      "pricing": {
+        "quote": ">Garnet</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.00145",
+        "source": "src:today-braket-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 20,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-braket-submit",
+              "quote": "The IQM Garnet is a 20-qubit device, while IQM Emerald is a 54-qubit device.",
+              "locator": "IQM section",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -1068,6 +1257,36 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "Garnet  | gate-based | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "IQM Garnet",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": ">Garnet</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.00145",
+          "locator": "Quantum computers table",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "The IQM Garnet is a 20-qubit device, while IQM Emerald is a 54-qubit device.",
+          "locator": "IQM section",
+          "supports": "limits"
         }
       ],
       "system": "sys:iqm-garnet"
@@ -1085,6 +1304,36 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:eu-north-1::device/qpu/iqm/Emerald')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02",
+        "windows": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)"
+      },
+      "pricing": {
+        "quote": ">Emerald</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.00160",
+        "source": "src:today-braket-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 54,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-braket-submit",
+              "quote": "The IQM Garnet is a 20-qubit device, while IQM Emerald is a 54-qubit device.",
+              "locator": "IQM section",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -1115,6 +1364,36 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "Emerald  | gate-based | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "IQM Emerald",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": ">Emerald</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.00160",
+          "locator": "Quantum computers table",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "The IQM Garnet is a 20-qubit device, while IQM Emerald is a 54-qubit device.",
+          "locator": "IQM section",
+          "supports": "limits"
         }
       ],
       "system": "sys:iqm-emerald"
@@ -1132,6 +1411,22 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "analog_hamiltonian"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:us-east-1::device/qpu/quera/Aquila')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02",
+        "windows": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)"
+      },
+      "pricing": {
+        "quote": ">Aquila</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.01000",
+        "source": "src:today-braket-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -1162,6 +1457,30 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "Aquila  | Analog Hamiltonian Simulation | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "QuEra Aquila",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": ">Aquila</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.01000",
+          "locator": "Quantum computers table",
+          "supports": "pricing"
         }
       ],
       "system": "sys:quera-aquila"
@@ -1179,6 +1498,34 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "gate_circuit",
+        "pulse"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:us-west-1::device/qpu/rigetti/Ankaa-3')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02",
+        "windows": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 84,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-braket-submit",
+              "quote": "The Ankaa-3 system is an 84-qubit device that utilizes scalable multi-chip technology.",
+              "locator": "Rigetti section",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "The Ankaa-3 device has a maximum limit of 20,000 gates per circuit."
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -1209,6 +1556,42 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "Ankaa-3  | gate-based | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "Rigetti Ankaa-3",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "The Ankaa-3 system is an 84-qubit device that utilizes scalable multi-chip technology.",
+          "locator": "Rigetti section",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "The Ankaa-3 device has a maximum limit of 20,000 gates per circuit.",
+          "locator": "Limits",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "Pulse-level control is available on the Rigetti devices",
+          "locator": "Rigetti section",
+          "supports": "program_models"
         }
       ],
       "system": "sys:rigetti-ankaa-3"
@@ -1226,6 +1609,37 @@
       "tier": "paid",
       "tier_note": "On-demand use of a QPU has a per-shot fee and a per-task fee, or a single hourly reservation fee.",
       "docs_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "program_models": [
+        "gate_circuit",
+        "pulse"
+      ],
+      "to_hardware": {
+        "code_or_step": "device = AwsDevice('arn:aws:braket:us-west-1::device/qpu/rigetti/Cepheus-1-108Q')",
+        "source_url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html"
+      },
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02",
+        "windows": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)"
+      },
+      "pricing": {
+        "quote": ">Cepheus</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.000425",
+        "source": "src:today-braket-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 108,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-braket-submit",
+              "quote": "The Cepheus-1-108Q system is a 108-qubit device that utilizes scalable multi-chip technology.",
+              "locator": "Rigetti section",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
       "evidence": [
         {
           "source": "src:acc-braket-devices",
@@ -1256,6 +1670,42 @@
           "quote": "Amazon Braket provides access to QPU devices from AQT, IonQ, IQM, \n         QuEra, and Rigetti.",
           "locator": "Devices",
           "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-devices",
+          "quote": "Cepheus-1-108Q  | gate-based | QPU",
+          "locator": "Devices table",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "Rigetti Cepheus-1-108Q",
+          "locator": "QPU list",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-to-qpu",
+          "quote": "Amazon Braket can run QPU quantum tasks within certain availability windows, but you can still submit quantum tasks any time (24/7)",
+          "locator": "Availability windows",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-braket-pricing",
+          "quote": ">Cepheus</td>\n                    <td style=\"text-align: center;\">$0.30000</td>\n                    <td style=\"text-align: center;\">$0.000425",
+          "locator": "Quantum computers table",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "The Cepheus-1-108Q system is a 108-qubit device that utilizes scalable multi-chip technology.",
+          "locator": "Rigetti section",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-braket-submit",
+          "quote": "Pulse-level control is available on the Rigetti devices",
+          "locator": "Rigetti section",
+          "supports": "program_models"
         }
       ],
       "system": "sys:rigetti-cepheus-1-108q"
@@ -1276,6 +1726,36 @@
       "tier": "paid",
       "tier_note": "Pay-as-you-go plan includes IonQ Aria 1, IonQ Forte 1, and Forte Enterprise 1.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "unavailable",
+        "as_of": "2026-10-02",
+        "windows": "| Hardware | Aria 1 | Retired | `qpu.aria-1` | 25 | College Park, MD |"
+      },
+      "pricing": {
+        "quote": ">IonQ Aria 1</td>\n<td><ul><li>USD0.000220 / 1-qubit-gate shot</li><li>USD0.000975 / 2-qubit-gate shot",
+        "source": "src:today-azure-pricing"
+      },
+      "to_hardware": {
+        "code_or_step": "MyTarget = MyWorkspace.get_targets(\"ionq.qpu.aria-1\")",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-ionq"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 25,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ionq-backends",
+              "quote": "| Hardware | Aria 1 | Retired | `qpu.aria-1` | 25 | College Park, MD |",
+              "locator": "QPU hardware table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
       "evidence": [
         {
           "source": "src:acc-azure-pricing",
@@ -1300,6 +1780,30 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Aria 1 | Retired | `qpu.aria-1` | 25 | College Park, MD |",
+          "locator": "QPU hardware table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": ">IonQ Aria 1</td>\n<td><ul><li>USD0.000220 / 1-qubit-gate shot</li><li>USD0.000975 / 2-qubit-gate shot",
+          "locator": "IonQ pricing table",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-azure-ionq",
+          "quote": "MyTarget = MyWorkspace.get_targets(\"ionq.qpu.aria-1\")",
+          "locator": "Submit a job",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-azure-targets",
+          "quote": "IonQ Aria 1",
+          "locator": "Qubit availability table",
+          "supports": "availability"
         }
       ],
       "system": "sys:ionq-aria"
@@ -1320,6 +1824,35 @@
       "tier": "paid",
       "tier_note": "Pay-as-you-go plan includes IonQ Aria 1, IonQ Forte 1, and Forte Enterprise 1.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-04-23"
+      },
+      "pricing": {
+        "quote": ">IonQ Forte 1</td>\n<td><ul><li>USD0.0001645 / 1-qubit-gate shot</li><li>USD0.001121 / 2-qubit-gate shot",
+        "source": "src:today-azure-pricing"
+      },
+      "to_hardware": {
+        "code_or_step": "ionq.qpu.forte-1",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-ionq"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 36,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ionq-backends",
+              "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+              "locator": "QPU hardware table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
       "evidence": [
         {
           "source": "src:acc-azure-pricing",
@@ -1344,6 +1877,36 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+          "locator": "QPU hardware table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": ">IonQ Forte 1</td>\n<td><ul><li>USD0.0001645 / 1-qubit-gate shot</li><li>USD0.001121 / 2-qubit-gate shot",
+          "locator": "IonQ pricing table",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-azure-ionq",
+          "quote": "ionq.qpu.forte-1",
+          "locator": "Submit a job",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-azure-targets",
+          "quote": "IonQ Forte 1",
+          "locator": "Qubit availability table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+          "locator": "QPU hardware table",
+          "supports": "availability"
         }
       ],
       "system": "sys:ionq-forte"
@@ -1364,6 +1927,35 @@
       "tier": "paid",
       "tier_note": "Pay-as-you-go plan includes IonQ Aria 1, IonQ Forte 1, and Forte Enterprise 1.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-04-23"
+      },
+      "pricing": {
+        "quote": ">IonQ Forte Enterprise 1</td>\n<td><ul><li>USD0.0001645 / 1-qubit-gate shot</li><li>USD0.001121 / 2-qubit-gate shot",
+        "source": "src:today-azure-pricing"
+      },
+      "to_hardware": {
+        "code_or_step": "ionq.qpu.forte-enterprise-1",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-ionq"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 36,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ionq-backends",
+              "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+              "locator": "QPU hardware table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
       "evidence": [
         {
           "source": "src:acc-azure-pricing",
@@ -1388,6 +1980,30 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+          "locator": "QPU hardware table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": ">IonQ Forte Enterprise 1</td>\n<td><ul><li>USD0.0001645 / 1-qubit-gate shot</li><li>USD0.001121 / 2-qubit-gate shot",
+          "locator": "IonQ pricing table",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-azure-ionq",
+          "quote": "ionq.qpu.forte-enterprise-1",
+          "locator": "Submit a job",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+          "locator": "QPU hardware table",
+          "supports": "availability"
         }
       ],
       "system": "sys:ionq-forte-enterprise-quantumbasel"
@@ -1408,6 +2024,31 @@
       "tier": "paid",
       "tier_note": "Pay-as-you-go plan. Usage is charged based on the job execution time only.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "analog_hamiltonian"
+      ],
+      "pricing": {
+        "quote": "EUR 3,000 per QPU-hour + Azure infrastructure costs</li><li>EUR 15 per emulator-hour + Azure infrastructure costs </li></ul></td>\n<td><ul><li>Pasqal FRESNEL, FRESNEL_CAN1 QPUs",
+        "source": "src:today-azure-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 100,
+          "as_of": "2026-04-23",
+          "evidence": [
+            {
+              "source": "src:today-azure-pasqal",
+              "quote": "pasqal.qpu.fresnel</td>\n<td>100 qubits</td>",
+              "locator": "Targets table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "to_hardware": {
+        "code_or_step": "pasqal.qpu.fresnel</td>\n<td>100 qubits</td>",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-pasqal"
+      },
       "evidence": [
         {
           "source": "src:acc-azure-pricing",
@@ -1432,6 +2073,30 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "neutral-atom analog quantum processor",
+          "locator": "QPUs",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "FRESNEL</span></div></th><td><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+          "locator": "Availability table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": "EUR 3,000 per QPU-hour + Azure infrastructure costs</li><li>EUR 15 per emulator-hour + Azure infrastructure costs </li></ul></td>\n<td><ul><li>Pasqal FRESNEL, FRESNEL_CAN1 QPUs",
+          "locator": "Pasqal pricing",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-azure-pasqal",
+          "quote": "pasqal.qpu.fresnel</td>\n<td>100 qubits</td>",
+          "locator": "Targets table",
+          "supports": "limits"
         }
       ],
       "system_hint": "FRESNEL"
@@ -1452,6 +2117,31 @@
       "tier": "paid",
       "tier_note": "Pay-as-you-go plan. Usage is charged based on the job execution time only.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "analog_hamiltonian"
+      ],
+      "pricing": {
+        "quote": "EUR 3,000 per QPU-hour + Azure infrastructure costs</li><li>EUR 15 per emulator-hour + Azure infrastructure costs </li></ul></td>\n<td><ul><li>Pasqal FRESNEL, FRESNEL_CAN1 QPUs",
+        "source": "src:today-azure-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 100,
+          "as_of": "2026-04-23",
+          "evidence": [
+            {
+              "source": "src:today-azure-pasqal",
+              "quote": "pasqal.qpu.fresnel-can1</td>\n<td>100 qubits</td>",
+              "locator": "Targets table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "to_hardware": {
+        "code_or_step": "pasqal.qpu.fresnel-can1</td>\n<td>100 qubits</td>",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-pasqal"
+      },
       "evidence": [
         {
           "source": "src:acc-azure-pricing",
@@ -1476,6 +2166,30 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "neutral-atom analog quantum processor",
+          "locator": "QPUs",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "FRESNEL_CAN1</span></div></th><td><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+          "locator": "Availability table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": "EUR 3,000 per QPU-hour + Azure infrastructure costs</li><li>EUR 15 per emulator-hour + Azure infrastructure costs </li></ul></td>\n<td><ul><li>Pasqal FRESNEL, FRESNEL_CAN1 QPUs",
+          "locator": "Pasqal pricing",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-azure-pasqal",
+          "quote": "pasqal.qpu.fresnel-can1</td>\n<td>100 qubits</td>",
+          "locator": "Targets table",
+          "supports": "limits"
         }
       ],
       "system_hint": "FRESNEL_CAN1"
@@ -1496,6 +2210,36 @@
       "tier": "paid",
       "tier_note": "Standard, Premium, and Pay as You Go plans include System Model H2.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "limited",
+        "as_of": "2026-05-15",
+        "windows": "Subscriptions are monthly subscription plans available through queued access."
+      },
+      "pricing": {
+        "quote": "Standard Plan</strong>: USD125,000/Month + Azure infrastructure costs",
+        "source": "src:today-azure-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 56,
+          "as_of": "2026-05-15",
+          "evidence": [
+            {
+              "source": "src:today-azure-quantinuum",
+              "quote": "quantinuum.qpu.h2-1</td>\n<td>56 qubits</td>",
+              "locator": "Targets table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "to_hardware": {
+        "code_or_step": "quantinuum.qpu.h2-1</td>\n<td>56 qubits</td>",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-quantinuum"
+      },
       "evidence": [
         {
           "source": "src:acc-azure-targets",
@@ -1538,6 +2282,24 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-azure-quantinuum",
+          "quote": "quantinuum.qpu.h2-1</td>\n<td>56 qubits</td>",
+          "locator": "Targets table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": "Subscriptions are monthly subscription plans available through queued access.",
+          "locator": "Quantinuum subscriptions",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": "Standard Plan</strong>: USD125,000/Month + Azure infrastructure costs",
+          "locator": "Quantinuum plans",
+          "supports": "pricing"
         }
       ],
       "system_hint": "Quantinuum H2-1"
@@ -1558,6 +2320,36 @@
       "tier": "paid",
       "tier_note": "Standard, Premium, and Pay as You Go plans include System Model H2.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "limited",
+        "as_of": "2026-05-15",
+        "windows": "Subscriptions are monthly subscription plans available through queued access."
+      },
+      "pricing": {
+        "quote": "Standard Plan</strong>: USD125,000/Month + Azure infrastructure costs",
+        "source": "src:today-azure-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 56,
+          "as_of": "2026-05-15",
+          "evidence": [
+            {
+              "source": "src:today-azure-quantinuum",
+              "quote": "quantinuum.qpu.h2-2</td>\n<td>56 qubits</td>",
+              "locator": "Targets table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "to_hardware": {
+        "code_or_step": "quantinuum.qpu.h2-2</td>\n<td>56 qubits</td>",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-quantinuum"
+      },
       "evidence": [
         {
           "source": "src:acc-azure-targets",
@@ -1600,6 +2392,24 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-azure-quantinuum",
+          "quote": "quantinuum.qpu.h2-2</td>\n<td>56 qubits</td>",
+          "locator": "Targets table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": "Subscriptions are monthly subscription plans available through queued access.",
+          "locator": "Quantinuum subscriptions",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": "Standard Plan</strong>: USD125,000/Month + Azure infrastructure costs",
+          "locator": "Quantinuum plans",
+          "supports": "pricing"
         }
       ],
       "system_hint": "Quantinuum H2-2"
@@ -1620,6 +2430,35 @@
       "tier": "paid",
       "tier_note": "Pay-as-you-go plan includes access to Rigetti QPUs.",
       "docs_url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-04-10"
+      },
+      "pricing": {
+        "quote": "USD 0.02 per 10-millisecond increment of job execution time</td>\n<td>Rigetti Cepheus-1-108Q",
+        "source": "src:today-azure-pricing"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 108,
+          "as_of": "2026-04-10",
+          "evidence": [
+            {
+              "source": "src:today-azure-rigetti",
+              "quote": "rigetti.qpu.cepheus-1-108q</td>\n<td>108 qubits</td>",
+              "locator": "Targets table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "to_hardware": {
+        "code_or_step": "rigetti.qpu.cepheus-1-108q",
+        "source_url": "https://learn.microsoft.com/en-us/azure/quantum/provider-rigetti"
+      },
       "evidence": [
         {
           "source": "src:acc-azure-pricing",
@@ -1650,6 +2489,24 @@
           "quote": "The QDK supports Microsoft's Q# programming language, along with other languages like Qiskit, Cirq, and OpenQASM.",
           "locator": "What is Azure Quantum?",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-azure-rigetti",
+          "quote": "The Rigetti provider makes the following targets available:",
+          "locator": "Targets",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-azure-rigetti",
+          "quote": "rigetti.qpu.cepheus-1-108q",
+          "locator": "Targets table",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-azure-pricing",
+          "quote": "USD 0.02 per 10-millisecond increment of job execution time</td>\n<td>Rigetti Cepheus-1-108Q",
+          "locator": "Rigetti pricing",
+          "supports": "pricing"
         }
       ],
       "system": "sys:rigetti-cepheus-1-108q"
@@ -1669,6 +2526,32 @@
       "tier": "open_free",
       "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 156,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_boston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "up to 10 minutes per 28-day rolling window"
+      },
+      "pricing": {
+        "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -1711,6 +2594,30 @@
           "quote": "QiskitRuntimeService",
           "locator": "Plans overview",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_boston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+          "locator": "Open Plan",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ibm-plans",
+          "quote": "up to 10 minutes per 28-day rolling window",
+          "locator": "Open Plan",
+          "supports": "limits"
         }
       ]
     },
@@ -1729,6 +2636,32 @@
       "tier": "open_free",
       "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 156,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_kingston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "up to 10 minutes per 28-day rolling window"
+      },
+      "pricing": {
+        "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -1771,6 +2704,30 @@
           "quote": "QiskitRuntimeService",
           "locator": "Plans overview",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_kingston\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+          "locator": "Open Plan",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ibm-plans",
+          "quote": "up to 10 minutes per 28-day rolling window",
+          "locator": "Open Plan",
+          "supports": "limits"
         }
       ]
     },
@@ -1789,6 +2746,37 @@
       "tier": "open_free",
       "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 156,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_pittsburgh\\\",\\\"status\\\":{\\\"name\\\":\\\"paused\\\",\\\"reason\\\":\\\"maintenance\\\"},\\\"qubits\\\":156",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "up to 10 minutes per 28-day rolling window"
+      },
+      "availability": {
+        "status": "unavailable",
+        "as_of": "2026-10-02",
+        "windows": "\\\"name\\\":\\\"ibm_pittsburgh\\\",\\\"status\\\":{\\\"name\\\":\\\"paused\\\",\\\"reason\\\":\\\"maintenance\\\"},\\\"qubits\\\":156"
+      },
+      "pricing": {
+        "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -1831,6 +2819,30 @@
           "quote": "QiskitRuntimeService",
           "locator": "Plans overview",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_pittsburgh\\\",\\\"status\\\":{\\\"name\\\":\\\"paused\\\",\\\"reason\\\":\\\"maintenance\\\"},\\\"qubits\\\":156",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+          "locator": "Open Plan",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ibm-plans",
+          "quote": "up to 10 minutes per 28-day rolling window",
+          "locator": "Open Plan",
+          "supports": "limits"
         }
       ]
     },
@@ -1849,6 +2861,32 @@
       "tier": "open_free",
       "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 156,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_fez\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "up to 10 minutes per 28-day rolling window"
+      },
+      "pricing": {
+        "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -1891,6 +2929,30 @@
           "quote": "QiskitRuntimeService",
           "locator": "Plans overview",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_fez\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+          "locator": "Open Plan",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ibm-plans",
+          "quote": "up to 10 minutes per 28-day rolling window",
+          "locator": "Open Plan",
+          "supports": "limits"
         }
       ],
       "snippet": {
@@ -1925,6 +2987,32 @@
       "tier": "open_free",
       "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 156,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_marrakesh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "up to 10 minutes per 28-day rolling window"
+      },
+      "pricing": {
+        "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -1967,6 +3055,30 @@
           "quote": "QiskitRuntimeService",
           "locator": "Plans overview",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_marrakesh\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+          "locator": "Open Plan",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ibm-plans",
+          "quote": "up to 10 minutes per 28-day rolling window",
+          "locator": "Open Plan",
+          "supports": "limits"
         }
       ]
     },
@@ -1985,6 +3097,32 @@
       "tier": "open_free",
       "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 120,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_miami\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":120",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "up to 10 minutes per 28-day rolling window"
+      },
+      "pricing": {
+        "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -2027,6 +3165,30 @@
           "quote": "QiskitRuntimeService",
           "locator": "Plans overview",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_miami\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":120",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+          "locator": "Open Plan",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ibm-plans",
+          "quote": "up to 10 minutes per 28-day rolling window",
+          "locator": "Open Plan",
+          "supports": "limits"
         }
       ]
     },
@@ -2045,6 +3207,32 @@
       "tier": "open_free",
       "tier_note": "Open Plan: free, up to 10 minutes per 28-day rolling window. Open Plan instances can only be created in the us-east region.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 120,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_phoenix\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":120",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "up to 10 minutes per 28-day rolling window"
+      },
+      "pricing": {
+        "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -2087,6 +3275,30 @@
           "quote": "QiskitRuntimeService",
           "locator": "Plans overview",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_phoenix\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":120",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Access quantum computers for up to 10 minutes of runtime per month.",
+          "locator": "Open Plan",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-ibm-plans",
+          "quote": "up to 10 minutes per 28-day rolling window",
+          "locator": "Open Plan",
+          "supports": "limits"
         }
       ]
     },
@@ -2105,6 +3317,31 @@
       "tier": "paid",
       "tier_note": "Open Plan instances can only be created in the us-east region. Paid plans pay only for the QPU consumption you use.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 156,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_aachen\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "pricing": {
+        "quote": "Pay-As-You-Go Plan</h3></header><p class=\"plan-card-module-scss-module__flGyLW__plan-card__description\">Pay for the quantum computer access you use. Billed per second of usage.</p></div><footer><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer\"><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer__price\">Starts at $96 USD / minute",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -2141,6 +3378,24 @@
           "quote": "qiskit-ibm-runtime",
           "locator": "Hello world requirements",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_aachen\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":156",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Pay-As-You-Go Plan</h3></header><p class=\"plan-card-module-scss-module__flGyLW__plan-card__description\">Pay for the quantum computer access you use. Billed per second of usage.</p></div><footer><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer\"><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer__price\">Starts at $96 USD / minute",
+          "locator": "Pay-As-You-Go Plan",
+          "supports": "pricing"
         }
       ]
     },
@@ -2159,6 +3414,31 @@
       "tier": "paid",
       "tier_note": "Open Plan instances can only be created in the us-east region. Paid plans pay only for the QPU consumption you use.",
       "docs_url": "https://quantum.cloud.ibm.com/computers",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "to_hardware": {
+        "code_or_step": "backend = service.least_busy(simulator=False, operational=True)",
+        "source_url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 120,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ibm-computers",
+              "quote": "\\\"name\\\":\\\"ibm_berlin\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":120",
+              "locator": "Compute resources payload",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "pricing": {
+        "quote": "Pay-As-You-Go Plan</h3></header><p class=\"plan-card-module-scss-module__flGyLW__plan-card__description\">Pay for the quantum computer access you use. Billed per second of usage.</p></div><footer><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer\"><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer__price\">Starts at $96 USD / minute",
+        "source": "src:today-ibm-pricing"
+      },
       "evidence": [
         {
           "source": "src:acc-ibm-computers",
@@ -2195,6 +3475,24 @@
           "quote": "qiskit-ibm-runtime",
           "locator": "Hello world requirements",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-ibm-computers",
+          "quote": "\\\"name\\\":\\\"ibm_berlin\\\",\\\"status\\\":{\\\"name\\\":\\\"online\\\",\\\"reason\\\":\\\"available\\\"},\\\"qubits\\\":120",
+          "locator": "Compute resources payload",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ibm-hello",
+          "quote": "backend = service.least_busy(simulator=False, operational=True)",
+          "locator": "Step 2",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ibm-pricing",
+          "quote": "Pay-As-You-Go Plan</h3></header><p class=\"plan-card-module-scss-module__flGyLW__plan-card__description\">Pay for the quantum computer access you use. Billed per second of usage.</p></div><footer><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer\"><div class=\"access-plans-module-scss-module__IDyyxq__access-plans__card-footer__price\">Starts at $96 USD / minute",
+          "locator": "Pay-As-You-Go Plan",
+          "supports": "pricing"
         }
       ]
     },
@@ -2215,6 +3513,35 @@
       "tier": "paid",
       "tier_note": "Jobs on IonQ QPUs consume compute credit. Rates depend on the access agreement with IonQ.",
       "docs_url": "https://docs.ionq.com/user-manual/backends.md",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02"
+      },
+      "pricing": {
+        "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
+        "source": "src:today-ionq-cost"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 36,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ionq-backends",
+              "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+              "locator": "QPU hardware table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "to_hardware": {
+        "code_or_step": "qpu_backend = provider.get_backend(\"qpu.forte-1\")",
+        "source_url": "https://docs.ionq.com/sdks/qiskit/index.md"
+      },
       "evidence": [
         {
           "source": "src:acc-ionq-backends",
@@ -2257,6 +3584,24 @@
           "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
           "locator": "Job cost and usage",
           "supports": "tier"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte 1 | Available | `qpu.forte-1` | 36 | College Park, MD |",
+          "locator": "QPU hardware table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ionq-qiskit",
+          "quote": "qpu_backend = provider.get_backend(\"qpu.forte-1\")",
+          "locator": "Submit a circuit to a QPU",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ionq-cost",
+          "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
+          "locator": "Estimating job cost",
+          "supports": "pricing"
         }
       ],
       "snippet": {
@@ -2291,6 +3636,35 @@
       "tier": "paid",
       "tier_note": "Jobs on IonQ QPUs consume compute credit. Rates depend on the access agreement with IonQ.",
       "docs_url": "https://docs.ionq.com/user-manual/backends.md",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02"
+      },
+      "pricing": {
+        "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
+        "source": "src:today-ionq-cost"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 36,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-ionq-backends",
+              "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+              "locator": "QPU hardware table",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
+      "to_hardware": {
+        "code_or_step": "Available QPU backend options may include `ionq_qpu.forte-1` or `ionq_qpu.forte-enterprise-1`.",
+        "source_url": "https://docs.ionq.com/sdks/qiskit/index.md"
+      },
       "evidence": [
         {
           "source": "src:acc-ionq-backends",
@@ -2333,6 +3707,24 @@
           "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
           "locator": "Job cost and usage",
           "supports": "tier"
+        },
+        {
+          "source": "src:today-ionq-backends",
+          "quote": "| Hardware | Forte Enterprise 1 | Available | `qpu.forte-enterprise-1` | 36 | Basel, Switzerland |",
+          "locator": "QPU hardware table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-ionq-qiskit",
+          "quote": "Available QPU backend options may include `ionq_qpu.forte-1` or `ionq_qpu.forte-enterprise-1`.",
+          "locator": "Submit a circuit to a QPU",
+          "supports": "to_hardware"
+        },
+        {
+          "source": "src:today-ionq-cost",
+          "quote": "Your particular rates, credit units, and cost model may vary depending on your access agreement with IonQ",
+          "locator": "Estimating job cost",
+          "supports": "pricing"
         }
       ]
     },
@@ -2354,6 +3746,34 @@
       "tier": "open_free",
       "tier_note": "Starter plan is for free, up to 30 credits per month, based on availability. A pay-as-you-go plan is also listed.",
       "docs_url": "https://www.meetiqm.com/products/iqm-resonance/",
+      "program_models": [
+        "gate_circuit",
+        "pulse"
+      ],
+      "availability": {
+        "status": "limited",
+        "as_of": "2026-10-02",
+        "windows": "Up to 30 credits per month, based on availability"
+      },
+      "pricing": {
+        "quote": "starting at $0.30/sec",
+        "source": "src:today-iqm-resonance"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 54,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-iqm-resonance",
+              "quote": "IQM Crystal 54</span> is a <span>54-qubit</span> QPU",
+              "locator": "Available QPUs",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "Up to 30 credits per month, based on availability"
+      },
       "evidence": [
         {
           "source": "src:acc-iqm-resonance",
@@ -2402,6 +3822,36 @@
           "quote": "Also compatible with Qiskit, Cirq, Cuda Quantum, and TKET ensuring flexibility for all development needs.",
           "locator": "SDK list",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "Available QPUs",
+          "locator": "Available QPUs",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "IQM Crystal 54</span> is a <span>54-qubit</span> QPU",
+          "locator": "QPU description",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "Up to 30 credits per month, based on availability",
+          "locator": "Plans",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "starting at $0.30/sec",
+          "locator": "Pricing",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "pulse-level access",
+          "locator": "Platform description",
+          "supports": "program_models"
         }
       ]
     },
@@ -2423,6 +3873,34 @@
       "tier": "open_free",
       "tier_note": "Starter plan is for free, up to 30 credits per month, based on availability. A pay-as-you-go plan is also listed.",
       "docs_url": "https://www.meetiqm.com/products/iqm-resonance/",
+      "program_models": [
+        "gate_circuit",
+        "pulse"
+      ],
+      "availability": {
+        "status": "limited",
+        "as_of": "2026-10-02",
+        "windows": "Up to 30 credits per month, based on availability"
+      },
+      "pricing": {
+        "quote": "starting at $0.30/sec",
+        "source": "src:today-iqm-resonance"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 20,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-iqm-resonance",
+              "quote": "A 20-qubit QPU based on superconducting transmon qubits",
+              "locator": "Available QPUs",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "Up to 30 credits per month, based on availability"
+      },
       "evidence": [
         {
           "source": "src:acc-iqm-resonance",
@@ -2471,6 +3949,36 @@
           "quote": "Also compatible with Qiskit, Cirq, Cuda Quantum, and TKET ensuring flexibility for all development needs.",
           "locator": "SDK list",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "Available QPUs",
+          "locator": "Available QPUs",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "A 20-qubit QPU based on superconducting transmon qubits",
+          "locator": "QPU description",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "Up to 30 credits per month, based on availability",
+          "locator": "Plans",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "starting at $0.30/sec",
+          "locator": "Pricing",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "pulse-level access",
+          "locator": "Platform description",
+          "supports": "program_models"
         }
       ]
     },
@@ -2492,6 +4000,34 @@
       "tier": "open_free",
       "tier_note": "Starter plan is for free, up to 30 credits per month, based on availability. A pay-as-you-go plan is also listed.",
       "docs_url": "https://www.meetiqm.com/products/iqm-resonance/",
+      "program_models": [
+        "gate_circuit",
+        "pulse"
+      ],
+      "availability": {
+        "status": "limited",
+        "as_of": "2026-10-02",
+        "windows": "IQM Star 24 is now available in beta, with full deployment in the coming months."
+      },
+      "pricing": {
+        "quote": "starting at $0.30/sec",
+        "source": "src:today-iqm-resonance"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 24,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-iqm-resonance",
+              "quote": "IQM Star 24</span> is a <span>24-qubit</span> QPU",
+              "locator": "Available QPUs",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "Up to 30 credits per month, based on availability"
+      },
       "evidence": [
         {
           "source": "src:acc-iqm-resonance",
@@ -2534,6 +4070,36 @@
           "quote": "Also compatible with Qiskit, Cirq, Cuda Quantum, and TKET ensuring flexibility for all development needs.",
           "locator": "SDK list",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "Available QPUs",
+          "locator": "Available QPUs",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "IQM Star 24</span> is a <span>24-qubit</span> QPU",
+          "locator": "QPU description",
+          "supports": "limits"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "IQM Star 24 is now available in beta, with full deployment in the coming months.",
+          "locator": "Plans",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "starting at $0.30/sec",
+          "locator": "Pricing",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-iqm-resonance",
+          "quote": "pulse-level access",
+          "locator": "Platform description",
+          "supports": "program_models"
         }
       ]
     },
@@ -2551,6 +4117,17 @@
       "tier": "paid",
       "tier_note": "Direct Pasqal Cloud access uses credit pools.",
       "docs_url": "https://docs.pasqal.com/qpu-emulators/",
+      "program_models": [
+        "analog_hamiltonian"
+      ],
+      "pricing": {
+        "quote": "Pasqal Cloud projects are billed through <strong>contracts</strong>, with separate pricing for <strong>QPU</strong> and <strong>emulator</strong> backends.",
+        "source": "src:today-pasqal-billing"
+      },
+      "to_hardware": {
+        "code_or_step": "devices = connection.fetch_available_devices()",
+        "source_url": "https://docs.pasqal.com/cloud/pasqal-cloud/getting-started/"
+      },
       "evidence": [
         {
           "source": "src:acc-pasqal-qpu",
@@ -2593,6 +4170,30 @@
           "quote": "from pasqal_cloud import PasqalCloudConnection",
           "locator": "Getting started",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "neutral-atom analog quantum processor",
+          "locator": "QPUs",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "FRESNEL</span></div></th><td><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+          "locator": "Availability table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-pasqal-billing",
+          "quote": "Pasqal Cloud projects are billed through <strong>contracts</strong>, with separate pricing for <strong>QPU</strong> and <strong>emulator</strong> backends.",
+          "locator": "Credit pool model",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-pasqal-start",
+          "quote": "devices = connection.fetch_available_devices()",
+          "locator": "Running a sequence on a QPU",
+          "supports": "to_hardware"
         }
       ]
     },
@@ -2610,6 +4211,17 @@
       "tier": "paid",
       "tier_note": "Direct Pasqal Cloud access uses credit pools.",
       "docs_url": "https://docs.pasqal.com/qpu-emulators/",
+      "program_models": [
+        "analog_hamiltonian"
+      ],
+      "pricing": {
+        "quote": "Pasqal Cloud projects are billed through <strong>contracts</strong>, with separate pricing for <strong>QPU</strong> and <strong>emulator</strong> backends.",
+        "source": "src:today-pasqal-billing"
+      },
+      "to_hardware": {
+        "code_or_step": "device = devices[&#x22;FRESNEL_CAN1&#x22;]",
+        "source_url": "https://docs.pasqal.com/cloud/pasqal-cloud/getting-started/"
+      },
       "evidence": [
         {
           "source": "src:acc-pasqal-qpu",
@@ -2652,6 +4264,30 @@
           "quote": "from pasqal_cloud import PasqalCloudConnection",
           "locator": "Getting started",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "neutral-atom analog quantum processor",
+          "locator": "QPUs",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "FRESNEL_CAN1</span></div></th><td><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+          "locator": "Availability table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-pasqal-billing",
+          "quote": "Pasqal Cloud projects are billed through <strong>contracts</strong>, with separate pricing for <strong>QPU</strong> and <strong>emulator</strong> backends.",
+          "locator": "Credit pool model",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-pasqal-start",
+          "quote": "device = devices[&#x22;FRESNEL_CAN1&#x22;]",
+          "locator": "Running a sequence on a QPU",
+          "supports": "to_hardware"
         }
       ]
     },
@@ -2669,6 +4305,17 @@
       "tier": "paid",
       "tier_note": "Direct Pasqal Cloud access uses credit pools.",
       "docs_url": "https://docs.pasqal.com/qpu-emulators/",
+      "program_models": [
+        "analog_hamiltonian"
+      ],
+      "pricing": {
+        "quote": "Pasqal Cloud projects are billed through <strong>contracts</strong>, with separate pricing for <strong>QPU</strong> and <strong>emulator</strong> backends.",
+        "source": "src:today-pasqal-billing"
+      },
+      "to_hardware": {
+        "code_or_step": "devices = connection.fetch_available_devices()",
+        "source_url": "https://docs.pasqal.com/cloud/pasqal-cloud/getting-started/"
+      },
       "evidence": [
         {
           "source": "src:acc-pasqal-qpu",
@@ -2711,6 +4358,30 @@
           "quote": "from pasqal_cloud import PasqalCloudConnection",
           "locator": "Getting started",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "neutral-atom analog quantum processor",
+          "locator": "QPUs",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-pasqal-qpu",
+          "quote": "FRESNEL_SA1</span></div></th><td><div class=\"Stack Stack--columnScreenXs Stack--columnScreenSm Stack--columnScreenMd Stack--columnScreenLg Stack--spacing25\"><span class=\"Stack Stack--rowScreenXs Stack--rowScreenSm Stack--rowScreenMd Stack--rowScreenLg Stack--alignYCenterScreenXs Stack--alignYCenterScreenSm Stack--alignYCenterScreenMd Stack--alignYCenterScreenLg Stack--spacing75 DocTableStatusCell DocTableStatusCell--available\" aria-label=\"Available\"",
+          "locator": "Availability table",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-pasqal-billing",
+          "quote": "Pasqal Cloud projects are billed through <strong>contracts</strong>, with separate pricing for <strong>QPU</strong> and <strong>emulator</strong> backends.",
+          "locator": "Credit pool model",
+          "supports": "pricing"
+        },
+        {
+          "source": "src:today-pasqal-start",
+          "quote": "devices = connection.fetch_available_devices()",
+          "locator": "Running a sequence on a QPU",
+          "supports": "to_hardware"
         }
       ]
     },
@@ -2726,6 +4397,28 @@
       "tier": "application",
       "tier_note": "The page states on-demand access. The call to action is GET IN TOUCH.",
       "docs_url": "https://oqc.tech/access/oqc-cloud/",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "limited",
+        "as_of": "2026-10-02",
+        "windows": "scheduled access windows designed to serve every time zone"
+      },
+      "limits": {
+        "max_qubits": {
+          "value": 32,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-oqc-cloud",
+              "quote": "on-demand access to our 32-qubit quantum computer, OQC Toshiko",
+              "locator": "OQC Cloud",
+              "supports": "limits"
+            }
+          ]
+        }
+      },
       "evidence": [
         {
           "source": "src:acc-oqc-cloud",
@@ -2738,6 +4431,24 @@
           "quote": "GET IN TOUCH",
           "locator": "OQC Cloud page",
           "supports": "tier"
+        },
+        {
+          "source": "src:today-oqc-cloud",
+          "quote": "on-demand access to our 32-qubit quantum computer, OQC Toshiko",
+          "locator": "OQC Cloud",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-oqc-cloud",
+          "quote": "scheduled access windows designed to serve every time zone",
+          "locator": "Access",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-oqc-cloud",
+          "quote": "high-fidelity emulators for circuit development",
+          "locator": "OQC Cloud",
+          "supports": "program_models"
         }
       ]
     },
@@ -2755,6 +4466,13 @@
       "tier": "application",
       "tier_note": "The cloud page says customers can access these systems and offers Apply for Free Trial.",
       "docs_url": "https://www.dwavesys.com/solutions-and-products/cloud-platform/",
+      "program_models": [
+        "annealing_qubo"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02"
+      },
       "evidence": [
         {
           "source": "src:acc-dwave-cloud",
@@ -2785,6 +4503,18 @@
           "quote": "Your active project and its associated API token",
           "locator": "Leap service page",
           "supports": "auth"
+        },
+        {
+          "source": "src:today-dwave-cloud",
+          "quote": "Customers can access the Advantage2™ and Advantage™ annealing quantum computing systems",
+          "locator": "Cloud platform",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-dwave-cloud",
+          "quote": "Customers can access the Advantage2™ and Advantage™ annealing quantum computing systems",
+          "locator": "Cloud platform",
+          "supports": "program_models"
         }
       ],
       "snippet": {
@@ -2818,6 +4548,13 @@
       "tier": "application",
       "tier_note": "The cloud page says customers can access these systems and offers Apply for Free Trial.",
       "docs_url": "https://www.dwavesys.com/solutions-and-products/cloud-platform/",
+      "program_models": [
+        "annealing_qubo"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02"
+      },
       "evidence": [
         {
           "source": "src:acc-dwave-cloud",
@@ -2848,6 +4585,18 @@
           "quote": "Your active project and its associated API token",
           "locator": "Leap service page",
           "supports": "auth"
+        },
+        {
+          "source": "src:today-dwave-cloud",
+          "quote": "Customers can access the Advantage2™ and Advantage™ annealing quantum computing systems",
+          "locator": "Cloud platform",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-dwave-cloud",
+          "quote": "Customers can access the Advantage2™ and Advantage™ annealing quantum computing systems",
+          "locator": "Cloud platform",
+          "supports": "program_models"
         }
       ]
     },
@@ -2866,6 +4615,13 @@
       "tier": "application",
       "tier_note": "Register interest in Quantinuum Nexus. Not everyone is granted access. Subscription users can access Quantinuum hardware.",
       "docs_url": "https://docs.quantinuum.com/nexus/user_guide/sign_up.html",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02"
+      },
       "evidence": [
         {
           "source": "src:acc-qh-access",
@@ -2908,6 +4664,12 @@
           "quote": "class=\"pre\">qnexus</span>",
           "locator": "System access",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-qh-access",
+          "quote": "Trapped ion quantum computers are available to users utilizing the Quantinuum Helios and System Model H2 generation of quantum computers",
+          "locator": "Quantum computers",
+          "supports": "availability"
         }
       ]
     },
@@ -2926,6 +4688,13 @@
       "tier": "application",
       "tier_note": "Register interest in Quantinuum Nexus. Not everyone is granted access. Subscription users can access Quantinuum hardware.",
       "docs_url": "https://docs.quantinuum.com/nexus/user_guide/sign_up.html",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "available",
+        "as_of": "2026-10-02"
+      },
       "evidence": [
         {
           "source": "src:acc-qh-access",
@@ -2968,6 +4737,12 @@
           "quote": "class=\"pre\">qnexus</span>",
           "locator": "System access",
           "supports": "sdk"
+        },
+        {
+          "source": "src:today-qh-access",
+          "quote": "Trapped ion quantum computers are available to users utilizing the Quantinuum Helios and System Model H2 generation of quantum computers",
+          "locator": "Quantum computers",
+          "supports": "availability"
         }
       ]
     }

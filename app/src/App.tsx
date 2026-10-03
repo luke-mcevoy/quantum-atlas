@@ -6,6 +6,16 @@ import Inspector from "./ui/Inspector";
 import { TopBar, Rail, Tooltip, Bottom, Palette, About } from "./ui/Chrome";
 import DataTable from "./ui/DataTable";
 import StoryPanel, { StoryPicker } from "./ui/Story";
+import RunToday from "./ui/RunToday";
+import TrackRecord from "./ui/TrackRecord";
+import { useStore } from "./store";
+
+function ModePanels({ idx }: { idx: Index }) {
+  const mode = useStore((s) => s.mode);
+  if (mode === "today") return <RunToday idx={idx} />;
+  if (mode === "track") return <TrackRecord idx={idx} />;
+  return null;
+}
 
 export default function App() {
   const [idx, setIdx] = useState<Index | null>(null);
@@ -29,6 +39,7 @@ export default function App() {
       <Globe idx={idx} world={world} />
       <TopBar idx={idx} />
       <Rail idx={idx} />
+      <ModePanels idx={idx} />
       <Inspector idx={idx} />
       <Bottom idx={idx} />
       <StoryPanel idx={idx} />

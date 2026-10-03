@@ -1,0 +1,1231 @@
+{
+  "topic": "history_other",
+  "verifier": "independent counsel",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:hist-dwave-s4-20220315",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Accession and filing date confirmed through data.sec.gov; filing text fetched once from the cited Wayback capture. The projection table labels dollars in millions. Revenue actuals in later 10-Ks are in thousands and the stored 2023-2025 values correctly divide by 1,000."
+    },
+    {
+      "source": "src:hist-dwave-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Accession and filing date confirmed through data.sec.gov; filing text fetched from the cited Wayback capture. The revenue table is explicitly in thousands."
+    },
+    {
+      "source": "src:hist-dwave-10k-fy2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Accession and filing date confirmed through data.sec.gov; filing text fetched from the cited Wayback year-gate capture. The revenue table is explicitly in thousands."
+    },
+    {
+      "source": "src:hist-dwave-clarity-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live PDF fetched and converted to text. It contains additional dated solver, Leap and regional items, an open-ended 2025+ line, and five undated gate-model phases; the research document correctly remains partial."
+    },
+    {
+      "source": "src:hist-dwave-pr-2021-10",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live D-Wave release fetched; date and quoted publication wording matched."
+    },
+    {
+      "source": "src:hist-dwave-pr-2024-advantage2-proto",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live D-Wave release fetched; it still says Advantage2 is expected to feature 7,000 qubits."
+    },
+    {
+      "source": "src:hist-dwave-pr-2025-advantage2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live D-Wave release fetched; it announces general availability and describes a 4,400+ qubit system."
+    },
+    {
+      "source": "src:hist-dwave-pr-2026-simulator",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live D-Wave release fetched; it supports an Oct. 1, 2026 beta for select customers and says general availability remains ahead."
+    },
+    {
+      "source": "src:hist-intel-tunnel-falls-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live Intel investor-relations release fetched and quoted text matched."
+    },
+    {
+      "source": "src:hist-intel-spin-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live Intel investor-relations release fetched and quoted text matched."
+    },
+    {
+      "source": "src:hist-psiquantum-australia-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live PsiQuantum release fetched and quoted text matched."
+    },
+    {
+      "source": "src:hist-xanadu-roadmap-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "The live request ended with an HTTP/2 transport error, not a 403/429. The cited Wayback capture was then fetched once and all quoted roadmap text matched it."
+    },
+    {
+      "source": "src:hist-nature-majorana-2018",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Live Nature article fetched; DOI, date, affiliations, acknowledgement and quoted sentence matched."
+    },
+    {
+      "source": "src:hist-nature-retraction-2021",
+      "reachable": true,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Live Nature retraction notice fetched; DOI, date, affiliation and retraction sentence matched. The notice is an authoritative journal retraction with a DOI, but it is a retraction notice rather than a peer-reviewed research article."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:d-wave",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:psiquantum",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:psiquantum",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "The cited live page was fetched with the declared counsel user-agent, but this quote did not appear in the saved response."
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 2,
+      "verdict": "quote_not_found",
+      "notes": "The cited live page was fetched with the declared counsel user-agent, but this quote did not appear in the saved response."
+    },
+    {
+      "entity": "co:xanadu",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alice-bob",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alice-bob",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-hist-gate-sim-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-hist-gate-sim-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:d-wave-hist-gate-sim-2026",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "target_value"
+    },
+    {
+      "entity": "tgt:d-wave-hist-gate-sim-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:d-wave-hist-gate-sim-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:d-wave-hist-gate-qpu-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:d-wave-hist-gate-qpu-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:intel-hist-next-chip-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:intel-hist-next-chip-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-hist-brisbane-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-hist-brisbane-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:psiquantum-hist-brisbane-2027",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "target_value"
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "target_value"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-200-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-200-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-200-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "target_value"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-500-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-500-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-500-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "target_value"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-1000-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-1000-2031",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-1000-2031",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "target_value"
+    },
+    {
+      "entity": "tgt:xanadu-hist-factory-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-factory-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-ft-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-ft-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-error-rate-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-error-rate-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-datacenter-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-datacenter-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-commercial-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:xanadu-hist-commercial-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:d-wave-2021-clarity",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:d-wave-2021-clarity",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:d-wave-2022-s4-projections",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:d-wave-2022-s4-projections",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:intel-2023-tunnel-falls",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:intel-2023-tunnel-falls",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:psiquantum-2024-australia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:psiquantum-2024-australia",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:xanadu-2026-roadmap",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:xanadu-2026-roadmap",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 5,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 6,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 7,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "delivered_value"
+    },
+    {
+      "entity": "out:d-wave-hist-gate-sim-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-gate-sim-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-gate-sim-2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-gate-sim-2023",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-gate-qpu-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-gate-qpu-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:d-wave-hist-gate-qpu-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:intel-hist-next-chip-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:intel-hist-next-chip-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:intel-hist-next-chip-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:intel-hist-next-chip-2024",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:psiquantum-hist-brisbane-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:psiquantum-hist-brisbane-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:psiquantum-hist-brisbane-2027",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-loss-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-loss-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-loss-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-loss-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-logical-200-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-logical-200-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-logical-500-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-logical-500-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-logical-1000-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-logical-1000-2031",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-factory-2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-factory-2027",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-ft-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-ft-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-error-rate-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-error-rate-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-datacenter-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-datacenter-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-commercial-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:xanadu-hist-commercial-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2022",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2023",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2023",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "actual"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2023",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "path": "actual"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "actual"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "path": "actual"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "actual"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "path": "actual"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2022",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2023",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "path": "projected"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 5,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 6,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 7,
+      "verdict": "verified"
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "evidence_index": 8,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "ms:d-wave-hist-gate-sim-2026",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:d-wave-hist-advantage2-7000-2024",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:d-wave-hist-gate-sim-2023",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:d-wave-hist-gate-qpu-2024",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:intel-hist-next-chip-2024",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:psiquantum-hist-brisbane-2027",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2026",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-loss-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-200-2029",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-500-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-logical-1000-2031",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-factory-2027",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-ft-2029",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-error-rate-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-datacenter-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "tgt:xanadu-hist-commercial-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "rd:d-wave-2021-clarity",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "rd:d-wave-2022-s4-projections",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "rd:intel-2023-tunnel-falls",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "rd:psiquantum-2024-australia",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "rd:xanadu-2026-roadmap",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:d-wave-hist-advantage2-7000-2024",
+      "verdict": "publish",
+      "reasons": "Both the 7,000+ qubit target and 20-way-connectivity condition match the roadmap. The Jan. 23, 2024 release still expected 7,000 qubits; the May 20, 2025 release announced general availability at 4,400+ qubits and 20-way connectivity. Partially_met is the supported classification."
+    },
+    {
+      "entity": "out:d-wave-hist-gate-sim-2023",
+      "verdict": "publish",
+      "reasons": "The roadmap target and Oct. 1, 2026 beta launch are verbatim. The outcome accurately states that access is limited to select customers and that general availability remains ahead."
+    },
+    {
+      "entity": "out:d-wave-hist-gate-qpu-2024",
+      "verdict": "publish",
+      "reasons": "The target quote and later 'forthcoming' wording match. The search log checks the roadmap, the later simulator and Advantage2 releases, and D-Wave newsroom year pages through 2025."
+    },
+    {
+      "entity": "out:intel-hist-next-chip-2024",
+      "verdict": "reject",
+      "reasons": "The quoted target and May 2024 follow-up are genuine, but the no_delivery_found search is not credible enough: it checks only two releases and one research page, and the analyst's own gap states that a full later-newsroom search was not completed."
+    },
+    {
+      "entity": "out:psiquantum-hist-brisbane-2027",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-loss-2026",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-loss-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-logical-200-2029",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-logical-500-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-logical-1000-2031",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-factory-2027",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-ft-2029",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-error-rate-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-datacenter-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "out:xanadu-hist-commercial-2030",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2022",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2023",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2024",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2025",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-revenue-fy2026",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2022",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2023",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2024",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2025",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-gross-profit-fy2026",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2025",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "prj:d-wave-hist-ebitda-fy2026",
+      "verdict": "publish",
+      "reasons": "All material quoted fields were matched programmatically to reachable Tier 1 or Tier 2 primary sources."
+    },
+    {
+      "entity": "cr:nature-majorana-2018",
+      "verdict": "publish_flagged",
+      "reasons": "The original sentence, retraction sentence, dates, Microsoft Station Q Delft affiliation and Microsoft Corporation Station-Q acknowledgement all match the saved Nature pages. Caveat: the source taxonomy calls the formal DOI-issued retraction notice 'peer_reviewed', although it is a journal retraction notice rather than a peer-reviewed research article."
+    }
+  ],
+  "summary": "47 pass, 1 flag, 1 reject across 49 non-organization entities. The D-Wave Clarity and S-4 roadmap documents correctly remain partial: the PDF has omitted dated solver and Leap items, a 2025+ line, and undated gate-model phases, while the S-4 has additional forward-looking content. The Advantage2 outcome is correctly partially_met: D-Wave still expected 7,000 qubits in January 2024 and announced a 4,400+ qubit generally available system in May 2025. D-Wave revenue actuals correctly convert the 10-K tables from thousands to millions (8,758 to 8.758; 8,827 to 8.827; 24,587 to 24.587); no FY2022 actual was invented, gross-profit projections use the table row, and only positive Adjusted EBITDA projections were stored with their non-GAAP character disclosed. The Nature record preserves verbatim original and retraction sentences and records both the Delft affiliation and Microsoft Corporation Station-Q acknowledgement; it is flagged only because the schema labels the formal retraction notice peer_reviewed. Worst problem: Intel's no_delivery_found search was incomplete. Rejected id: out:intel-hist-next-chip-2024."
+}

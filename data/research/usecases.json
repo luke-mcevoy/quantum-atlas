@@ -1,0 +1,1843 @@
+{
+  "topic": "usecases",
+  "analyst": "Analyst B",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:ibm-qaoa-tutorial",
+      "title": "Quantum approximate optimization algorithm",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/docs/en/tutorials/quantum-approximate-optimization-algorithm",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-sqd-tutorial",
+      "title": "Sample-based quantum diagonalization of a chemistry Hamiltonian",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/docs/en/tutorials/sample-based-quantum-diagonalization",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-heisenberg-vqe",
+      "title": "Ground-state energy estimation of the Heisenberg chain with VQE",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/docs/en/tutorials/spin-chain-vqe",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-quantum-kernel",
+      "title": "Quantum kernel training",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/docs/en/tutorials/quantum-kernel-training",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-grover",
+      "title": "Grover's algorithm",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/docs/en/tutorials/grovers-algorithm",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:braket-qaoa",
+      "title": "Quantum approximate optimization algorithm (QAOA)",
+      "publisher": "Amazon Web Services",
+      "url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/hybrid_quantum_algorithms/QAOA/QAOA_braket.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-06-16",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:braket-vqe-hydrogen",
+      "title": "VQE chemistry: hydrogen potential energy surface",
+      "publisher": "Amazon Web Services",
+      "url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/hybrid_quantum_algorithms/VQE_Chemistry/VQE_chemistry_braket.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-07-17",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:braket-rydberg-phases",
+      "title": "Ordered phases in Rydberg systems",
+      "publisher": "Amazon Web Services",
+      "url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/analog_hamiltonian_simulation/02_Ordered_phases_in_Rydberg_systems.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2025-03-24",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:braket-qml-generative",
+      "title": "Quantum machine learning in Amazon Braket Hybrid Jobs",
+      "publisher": "Amazon Web Services",
+      "url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/hybrid_jobs/1_Quantum_machine_learning_in_Amazon_Braket_Hybrid_Jobs/Quantum_machine_learning_in_Amazon_Braket_Hybrid_Jobs.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-06-16",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:braket-qpe",
+      "title": "Quantum Phase Estimation",
+      "publisher": "Amazon Web Services",
+      "url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/advanced_circuits_algorithms/Quantum_Phase_Estimation/Quantum_Phase_Estimation.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-06-16",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:braket-pulse-bell",
+      "title": "Creating a Bell state with pulses on Rigetti",
+      "publisher": "Amazon Web Services",
+      "url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/pulse_control/3_Bell_pair_with_pulses_Rigetti.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-07-17",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pennylane-qubo",
+      "title": "Quadratic Unconstrained Binary Optimization",
+      "publisher": "Xanadu",
+      "url": "https://blog-assets.cloud.pennylane.ai/demos/tutorial_QUBO/main/demo.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2024-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pennylane-vibronic",
+      "title": "A quantum algorithm for vibronic dynamics",
+      "publisher": "Xanadu",
+      "url": "https://blog-assets.cloud.pennylane.ai/demos/simulating_vibronic_dynamics/main/demo.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-08",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pennylane-regression",
+      "title": "Multidimensional regression with a variational quantum circuit",
+      "publisher": "Xanadu",
+      "url": "https://blog-assets.cloud.pennylane.ai/demos/tutorial_qnn_multivariate_regression/main/demo.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2024-10",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pulser-qubo",
+      "title": "QAA to solve a QUBO problem",
+      "publisher": "Pasqal",
+      "url": "https://pulser.readthedocs.io/en/stable/tutorials/qubo.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2022",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pulser-xy",
+      "title": "XY spin chain tutorial",
+      "publisher": "Pasqal",
+      "url": "https://pulser.readthedocs.io/en/stable/tutorials/xy_spin_chain.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2022",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:perceval-boson",
+      "title": "Boson sampling",
+      "publisher": "Quandela",
+      "url": "https://perceval.quandela.net/docs/v1.3/notebooks/Boson_sampling.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:perceval-vqe",
+      "title": "Variational Quantum Eigensolver",
+      "publisher": "Quandela",
+      "url": "https://perceval.quandela.net/docs/v1.3/notebooks/Variational_Quantum_Eigensolver.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:perceval-shortest-path",
+      "title": "The shortest path problem using QUBO",
+      "publisher": "Quandela",
+      "url": "https://perceval.quandela.net/docs/v1.3/notebooks/QUBO.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:perceval-differential",
+      "title": "Differential equation resolution",
+      "publisher": "Quandela",
+      "url": "https://perceval.quandela.net/docs/v1.3/notebooks/Differential_equation_resolution.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-job-shop",
+      "title": "Job Shop Scheduling",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://raw.githubusercontent.com/dwave-examples/job-shop-scheduling/main/README.md",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-08-18",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-portfolio",
+      "title": "Portfolio Optimization",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://raw.githubusercontent.com/dwave-examples/portfolio-optimization/main/README.md",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2025-07-18",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-kibble-zurek",
+      "title": "Coherent Annealing: Kibble-Zurek Simulation on a QPU",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://raw.githubusercontent.com/dwave-examples/kibble-zurek/main/README.md",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-05-25",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-feature-selection",
+      "title": "Feature Selection Using Hybrid Quantum Solvers",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://raw.githubusercontent.com/dwave-examples/feature-selection/main/README.md",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-03-11",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:azure-grover",
+      "title": "Tutorial: Implement Grover's Algorithm in Q#",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/tutorial-qdk-grovers-search",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-05-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:inquanto-vqe-h2",
+      "title": "VQE simulation",
+      "publisher": "Quantinuum",
+      "url": "https://docs.quantinuum.com/inquanto/tutorials/InQ_tut_vqe_1.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2025",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-docomo-pdf",
+      "title": "Quantum Optimization Fuels Greater Mobile Network Performance",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/media/wagd4haj/ntt-docomo-case-studyv3f.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-groovenauts-pdf",
+      "title": "Groovenauts and Mitsubishi Estate: Creating Sustainable Cities through Waste Collection Optimization",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/media/bq5kh520/dwave_groovenauts_case_study_v3.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2021",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-denso-pdf",
+      "title": "DENSO: Imagining An Optimized Future with Quantum Computing",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/media/rhelg04q/dwave_denso_case_story_v6.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2021",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:dwave-featured-apps",
+      "title": "Featured Applications",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/learn/featured-applications/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pasqal-bmw-story",
+      "title": "BMW Group customer story",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/success-story/bmw-group/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-04-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pasqal-basf-story",
+      "title": "BASF customer story",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/success-story/basf/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2022-07-20",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pasqal-thales-story",
+      "title": "Thales customer story",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/success-story/thales/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-04-10",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pasqal-cib-story",
+      "title": "Crédit Agricole CIB customer story",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/success-story/ca-cib/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-03-11",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quantinuum-bmw-pr",
+      "title": "Quantinuum and BMW Group expand collaboration",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-and-bmw-group-expand-landmark-quantum-computing-collaboration-with-new-multi-year-partnership",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-05-05",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quantinuum-randomness-blog",
+      "title": "Quantinuum introduces first commercial application for quantum computers",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/blog/quantinuum-introduces-first-commercial-application-for-quantum-computers",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-03-26",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:npj-orr-platinum",
+      "title": "Platinum-based catalysts for oxygen reduction reaction simulated with a quantum computer",
+      "publisher": "npj Computational Materials",
+      "url": "https://www.nature.com/articles/s41524-024-01460-x",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-12-19",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41524-024-01460-x"
+    },
+    {
+      "id": "src:docomo-overview",
+      "title": "Overview of NTT DOCOMO",
+      "publisher": "NTT DOCOMO",
+      "url": "https://www.docomo.ne.jp/english/corporate/about/outline/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:groovenauts-about",
+      "title": "Company overview",
+      "publisher": "Groovenauts, Inc.",
+      "url": "https://www.groovenauts.jp/about/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:sec-jpm-submissions",
+      "title": "SEC submissions: JPMorgan Chase & Co.",
+      "publisher": "U.S. SEC (filer: JPMorgan Chase & Co.)",
+      "url": "https://data.sec.gov/submissions/CIK0000019617.json",
+      "doc_type": "other",
+      "tier": 3,
+      "document_date": "2026-02-13",
+      "accessed": "2026-10-02",
+      "identifier": "CIK0000019617"
+    },
+    {
+      "id": "src:pulser-qubo-notebook",
+      "title": "QAA to solve a QUBO problem",
+      "publisher": "Pasqal",
+      "url": "https://raw.githubusercontent.com/pasqal-io/pulser/v1.9.1/tutorials/applications/QAA%20to%20solve%20a%20QUBO%20problem.ipynb",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-09-08",
+      "accessed": "2026-10-02"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:ibm",
+      "name": "IBM",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 41.1265,
+        "lon": -73.714,
+        "precision": "site",
+        "address": "1 New Orchard Road, Armonk, New York 10504-1722"
+      },
+      "modalities": [],
+      "website": "https://www.ibm.com",
+      "evidence": [
+        {
+          "source": "src:acc-ibm-plans",
+          "quote": "IBM Quantum Platform has Open (free access) and paid plans, as described below.",
+          "locator": "Plans overview",
+          "supports": "existence"
+        },
+        {
+          "source": "src:acc-ibm-contact",
+          "quote": "1 New Orchard Road",
+          "locator": "Contact IBM",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-ibm-contact",
+          "quote": "Armonk, New York 10504-1722",
+          "locator": "Contact IBM",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "co:aws",
+      "name": "Amazon Web Services",
+      "kind": "company",
+      "roles": [
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "precision": "city"
+      },
+      "modalities": [],
+      "website": "https://aws.amazon.com",
+      "evidence": [
+        {
+          "source": "src:acc-aws-about",
+          "quote": "Amazon Web Services, Inc.",
+          "locator": "About AWS page metadata",
+          "supports": "existence"
+        },
+        {
+          "source": "src:acc-amazon-about",
+          "quote": "Seattle headquarters",
+          "locator": "About Amazon image description",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-braket-enable",
+          "quote": "You can enable Amazon Braket in your account through the AWS console.",
+          "locator": "Enable Amazon Braket",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:microsoft",
+      "name": "Microsoft Corporation",
+      "kind": "company",
+      "roles": [
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 47.6396,
+        "lon": -122.1283,
+        "precision": "site",
+        "address": "One Microsoft Way, Redmond, WA 98052"
+      },
+      "modalities": [],
+      "website": "https://www.microsoft.com",
+      "evidence": [
+        {
+          "source": "src:acc-ms-facts",
+          "quote": "Microsoft Corporation",
+          "locator": "Facts about Microsoft",
+          "supports": "existence"
+        },
+        {
+          "source": "src:acc-ms-facts",
+          "quote": "One Microsoft Way",
+          "locator": "Corporate address",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-ms-facts",
+          "quote": "Redmond, WA 98052",
+          "locator": "Corporate address",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-azure-overview",
+          "quote": "To use Azure Quantum, you need to have an Azure account and an Azure Quantum workspace.",
+          "locator": "What is Azure Quantum?",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:xanadu",
+      "name": "Xanadu Quantum Technologies",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CA",
+      "hq": {
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "precision": "city",
+        "address": "Toronto, Ontario"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "tickers": [
+        "NASDAQ:XNDU",
+        "TSX:XNDU"
+      ],
+      "sec_cik": "0002097163",
+      "website": "https://www.xanadu.ai",
+      "evidence": [
+        {
+          "source": "src:xanadu-packaging-pr",
+          "quote": "officially opened the new facility at the company's Toronto headquarters.",
+          "locator": "paragraph 3",
+          "supports": "hq"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Founded in 2016, Xanadu is a Canadian photonic quantum computing company with the mission to build quantum computers that are useful and available to people everywhere.",
+          "locator": "About Xanadu",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:xanadu-closing-pr-2026",
+          "quote": "The Class B Subordinate Voting Shares of Xanadu are expected to trade on Nasdaq and the Toronto Stock Exchange under the ticker symbol “XNDU” starting on March 27, 2026.",
+          "locator": "paragraph 2",
+          "supports": "tickers"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Xanadu Quantum Technologies Limited (“Xanadu” or the “Company”) (NASDAQ: XNDU) (TSX: XNDU)",
+          "locator": "dateline paragraph",
+          "supports": "tickers (listed)"
+        }
+      ]
+    },
+    {
+      "id": "co:pasqal",
+      "name": "Pasqal",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.7146,
+        "lon": 2.2453,
+        "precision": "site",
+        "address": "24 rue Emile Baudot, 91120 Palaiseau"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "website": "https://www.pasqal.com",
+      "evidence": [
+        {
+          "source": "src:acc-pasqal-about",
+          "quote": "Global HQ",
+          "locator": "About page",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-pasqal-about",
+          "quote": "24 rue Emile Baudot",
+          "locator": "Global HQ address",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-pasqal-about",
+          "quote": "91120 Palaiseau",
+          "locator": "Global HQ address",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-pasqal-qpu",
+          "quote": "neutral-atom analog quantum processor.",
+          "locator": "QPU page",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:quandela",
+      "name": "Quandela",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.7262,
+        "lon": 2.2713,
+        "precision": "site",
+        "address": "7 Rue Léonard de Vinci, 91300 Massy, France"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "website": "https://www.quandela.com",
+      "evidence": [
+        {
+          "source": "src:quandela-about",
+          "quote": "Founded in 2017, Quandela is a world leader in full-stack photonic quantum computing.",
+          "locator": "About page, opening paragraph",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:quandela-contact",
+          "quote": "Headquarter – Eiffel Campus 7 Rue Léonard de Vinci, 91300 Massy",
+          "locator": "Contact page, Locations",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "name": "D-Wave Quantum Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.4565,
+        "lon": -122.114,
+        "precision": "site",
+        "address": "2650 East Bayshore Road, Palo Alto, California 94303"
+      },
+      "modalities": [
+        "quantum_annealing"
+      ],
+      "tickers": [
+        "NYSE:QBTS"
+      ],
+      "sec_cik": "0001907982",
+      "website": "https://www.dwavequantum.com",
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "2650 East Bayshore Road , Palo Alto , California 94303",
+          "locator": "Cover page, principal executive offices",
+          "supports": "hq"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "QBTS New York Stock Exchange",
+          "locator": "Cover page, securities registered",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "Advantage TM and Advantage2 systems are available via our Leap service",
+          "locator": "Annealing quantum computers",
+          "supports": "modality, cloud"
+        },
+        {
+          "source": "src:dwave-advantage2-pr",
+          "quote": "D-Wave Quantum Inc. (NYSE: QBTS)",
+          "locator": "Dateline",
+          "supports": "ticker"
+        }
+      ],
+      "id": "co:d-wave"
+    },
+    {
+      "id": "co:quantinuum",
+      "name": "Quantinuum",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 39.928,
+        "lon": -105.131,
+        "precision": "site",
+        "address": "303 S Technology Court, Broomfield, CO 80021"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "website": "https://www.quantinuum.com",
+      "evidence": [
+        {
+          "source": "src:acc-qh-about",
+          "quote": "Broomfield, Colorado, USA",
+          "locator": "About page",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-qh-about",
+          "quote": "303 S Technology Court",
+          "locator": "Broomfield office",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-qh-about",
+          "quote": "Broomfield, CO 80021",
+          "locator": "Broomfield office",
+          "supports": "location"
+        },
+        {
+          "source": "src:acc-qh-access",
+          "quote": "Trapped ion quantum computers are available to users utilizing the Quantinuum Helios and System Model H2 generation of quantum computers",
+          "locator": "System access",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:ntt-docomo",
+      "name": "NTT DOCOMO",
+      "kind": "company",
+      "roles": [],
+      "country": "JP",
+      "hq": {
+        "lat": 35.6812,
+        "lon": 139.7671,
+        "precision": "city"
+      },
+      "modalities": [],
+      "website": "https://www.docomo.ne.jp/english/",
+      "evidence": [
+        {
+          "source": "src:docomo-overview",
+          "quote": "is based in central in Tokyo",
+          "locator": "Company overview",
+          "supports": "hq"
+        }
+      ]
+    },
+    {
+      "id": "co:groovenauts",
+      "name": "Groovenauts, Inc.",
+      "kind": "company",
+      "roles": [],
+      "country": "JP",
+      "hq": {
+        "lat": 33.5904,
+        "lon": 130.3995,
+        "precision": "site",
+        "address": "ONE FUKUOKA BLDG. 7F CIC Fukuoka, 1-11-1 Tenjin, Chuo-ku, Fukuoka 810-0001, Japan"
+      },
+      "modalities": [],
+      "website": "https://www.groovenauts.jp/",
+      "evidence": [
+        {
+          "source": "src:groovenauts-about",
+          "quote": "英文表記 Groovenauts, Inc.",
+          "locator": "Company overview, English name",
+          "supports": "existence"
+        },
+        {
+          "source": "src:groovenauts-about",
+          "quote": "本社 〒810-0001 福岡県福岡市中央区天神1-11-1 ONE FUKUOKA BLDG. 7F CIC Fukuoka",
+          "locator": "Company overview, head office",
+          "supports": "hq"
+        }
+      ]
+    },
+    {
+      "id": "co:bmw-group",
+      "name": "BMW Group",
+      "kind": "company",
+      "roles": [],
+      "country": "DE",
+      "hq": {
+        "lat": 48.1351,
+        "lon": 11.582,
+        "precision": "city"
+      },
+      "modalities": [],
+      "evidence": [
+        {
+          "source": "src:npj-orr-platinum",
+          "quote": "BMW Group, Munich, Germany",
+          "locator": "Author affiliations",
+          "supports": "hq"
+        }
+      ]
+    },
+    {
+      "id": "co:jpmorgan",
+      "name": "JPMorgan Chase & Co.",
+      "kind": "company",
+      "roles": [],
+      "country": "US",
+      "hq": {
+        "lat": 40.7557,
+        "lon": -73.9754,
+        "precision": "site",
+        "address": "270 Park Avenue, New York, NY 10017"
+      },
+      "modalities": [],
+      "tickers": [
+        "NYSE:JPM"
+      ],
+      "sec_cik": "0000019617",
+      "evidence": [
+        {
+          "source": "src:sec-jpm-submissions",
+          "quote": "JPMORGAN CHASE & CO",
+          "locator": "submissions JSON, name",
+          "supports": "existence"
+        },
+        {
+          "source": "src:sec-jpm-submissions",
+          "quote": "270 PARK AVENUE",
+          "locator": "submissions JSON, business address street",
+          "supports": "hq"
+        },
+        {
+          "source": "src:sec-jpm-submissions",
+          "quote": "\"city\":\"NEW YORK",
+          "locator": "submissions JSON, business address city",
+          "supports": "hq"
+        },
+        {
+          "source": "src:sec-jpm-submissions",
+          "quote": "\"zipCode\":\"10017",
+          "locator": "submissions JSON, business address postal code",
+          "supports": "hq"
+        }
+      ]
+    }
+  ],
+  "sites": [],
+  "systems": [],
+  "milestones": [],
+  "targets": [],
+  "access": [],
+  "relationships": [],
+  "use_cases": [
+    {
+      "id": "uc:ibm-qaoa-max-cut",
+      "problem_class": "optimization",
+      "title": "Maximum cut with QAOA",
+      "program_model": "gate_circuit",
+      "platform": "co:ibm",
+      "sdk": "qiskit",
+      "kind": "official_tutorial",
+      "statement": "IBM documents an example of the maximum-cut problem with the quantum approximate optimization algorithm on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:ibm-qaoa-tutorial",
+          "quote": "The Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical iterative method for solving combinatorial optimization problems.",
+          "locator": "Tutorial introduction",
+          "supports": "problem, program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:ibm-sqd-chemistry",
+      "problem_class": "chemistry",
+      "title": "Molecular ground-state energy by sample-based diagonalization",
+      "program_model": "gate_circuit",
+      "platform": "co:ibm",
+      "sdk": "qiskit",
+      "kind": "official_tutorial",
+      "statement": "IBM documents an example of a molecular ground-state energy on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:ibm-sqd-tutorial",
+          "quote": "How to use the SQD Qiskit addon to approximate the ground state energy of a molecular system using bitstrings sampled from a quantum processing unit (QPU).",
+          "locator": "Learning outcomes",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:ibm-heisenberg-vqe",
+      "problem_class": "physics_simulation",
+      "title": "Heisenberg spin-chain ground-state energy",
+      "program_model": "gate_circuit",
+      "platform": "co:ibm",
+      "sdk": "qiskit",
+      "kind": "official_tutorial",
+      "statement": "IBM documents an example of a Heisenberg spin chain on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:ibm-heisenberg-vqe",
+          "quote": "The Heisenberg spin chain is one of the most widely studied models in condensed matter physics and quantum magnetism.",
+          "locator": "Background",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:ibm-quantum-kernel",
+      "problem_class": "machine_learning",
+      "title": "Quantum kernel for classification",
+      "program_model": "gate_circuit",
+      "platform": "co:ibm",
+      "sdk": "qiskit",
+      "kind": "official_tutorial",
+      "statement": "IBM documents an example of a quantum kernel for classification on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:ibm-quantum-kernel",
+          "quote": "In general, a kernel is a similarity measure between data encoded in a high-dimensional feature space and can be utilized, for example, in classification tasks with support vector machines.",
+          "locator": "Tutorial introduction",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:ibm-grover-search",
+      "problem_class": "other",
+      "title": "Unstructured search with Grover's algorithm",
+      "program_model": "gate_circuit",
+      "platform": "co:ibm",
+      "sdk": "qiskit",
+      "kind": "official_tutorial",
+      "statement": "IBM documents an example of unstructured search with Grover's algorithm on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:ibm-grover",
+          "quote": "Grover's algorithm was the first to demonstrate this speedup on unstructured search problems.",
+          "locator": "Tutorial introduction",
+          "supports": "problem"
+        }
+      ],
+      "outcome_quote": "Grover's algorithm was the first to demonstrate this speedup on unstructured search problems."
+    },
+    {
+      "id": "uc:aws-qaoa",
+      "problem_class": "optimization",
+      "title": "Binary combinatorial optimization with QAOA",
+      "program_model": "gate_circuit",
+      "platform": "co:aws",
+      "sdk": "amazon-braket-sdk",
+      "kind": "official_tutorial",
+      "statement": "Amazon Braket documents an example of binary combinatorial optimization with QAOA on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:braket-qaoa",
+          "quote": "In this tutorial we show how to (approximately) solve binary combinatorial optimization problems, using the __Quantum Approximate Optimization Algorithm (QAOA)__, as introduced in Ref.[1].",
+          "locator": "Notebook introduction",
+          "supports": "problem, program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:aws-vqe-hydrogen",
+      "problem_class": "chemistry",
+      "title": "Hydrogen potential-energy surface with VQE",
+      "program_model": "gate_circuit",
+      "platform": "co:aws",
+      "sdk": "amazon-braket-sdk",
+      "kind": "official_tutorial",
+      "statement": "Amazon Braket documents an example of a hydrogen-molecule potential-energy surface on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:braket-vqe-hydrogen",
+          "quote": "we illustrate how to implement the Variational Quantum Eigensolver (VQE) algorithm in Amazon Braket SDK to compute the potential energy surface (PES) for the Hydrogen molecule.",
+          "locator": "Notebook introduction",
+          "supports": "problem, sdk"
+        }
+      ],
+      "example": "ex:amazon-braket-vqe-hydrogen"
+    },
+    {
+      "id": "uc:aws-rydberg-ordered-phases",
+      "problem_class": "physics_simulation",
+      "title": "Ordered phases in a Rydberg array",
+      "program_model": "analog_hamiltonian",
+      "platform": "co:aws",
+      "sdk": "amazon-braket-sdk",
+      "kind": "official_tutorial",
+      "statement": "Amazon Braket documents an example of ordered phases in a Rydberg system on an analog Hamiltonian program.",
+      "evidence": [
+        {
+          "source": "src:braket-rydberg-phases",
+          "quote": "In this example notebook, we show how one can prepare ordered phases in Rydberg systems, focusing on the 1D $Z_2$ phase and the 2D checkerboard phase.",
+          "locator": "Notebook introduction",
+          "supports": "problem, program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:aws-qml-generative",
+      "problem_class": "machine_learning",
+      "title": "Unsupervised generative modelling",
+      "program_model": "gate_circuit",
+      "platform": "co:aws",
+      "sdk": "amazon-braket-sdk",
+      "kind": "official_tutorial",
+      "statement": "Amazon Braket documents an example of unsupervised generative modelling on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:braket-qml-generative",
+          "quote": "This notebook demonstrates a typical quantum machine learning workflow, including uploading data, monitoring training, and tuning hyperparameters. We focus on training a parameterized quantum circuit for an unsupervised generative modelling task.",
+          "locator": "Notebook introduction",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:aws-phase-estimation",
+      "problem_class": "linear_algebra",
+      "title": "Eigenvalues of a unitary operator",
+      "program_model": "gate_circuit",
+      "platform": "co:aws",
+      "sdk": "amazon-braket-sdk",
+      "kind": "official_tutorial",
+      "statement": "Amazon Braket documents an example of estimating eigenvalues of a unitary operator on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:braket-qpe",
+          "quote": "The QPE algorithm is designed to estimate the eigenvalues of a unitary operator $U$ [1, 2]; it is a very important subroutine to many quantum algorithms, most famously Shor's algorithm for factoring and the HHL algorithm",
+          "locator": "Notebook introduction",
+          "supports": "problem"
+        }
+      ],
+      "example": "ex:amazon-braket-qpe"
+    },
+    {
+      "id": "uc:aws-pulse-bell",
+      "problem_class": "other",
+      "title": "Bell state prepared with pulses",
+      "program_model": "pulse",
+      "platform": "co:aws",
+      "sdk": "amazon-braket-sdk",
+      "kind": "official_tutorial",
+      "statement": "Amazon Braket documents an example of a Bell state prepared with pulses on a pulse-level program.",
+      "evidence": [
+        {
+          "source": "src:braket-pulse-bell",
+          "quote": "Let's create a Bell state program, the `Hello world!` example in quantum computing, with pulses on a Rigetti's device.",
+          "locator": "Notebook introduction",
+          "supports": "program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:xanadu-knapsack-qaoa",
+      "problem_class": "optimization",
+      "title": "Knapsack problem as a QUBO with QAOA",
+      "program_model": "gate_circuit",
+      "platform": "co:xanadu",
+      "sdk": "pennylane",
+      "kind": "official_tutorial",
+      "statement": "PennyLane documents an example of a knapsack problem, written as a QUBO and run with QAOA, on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:pennylane-qubo",
+          "quote": "In this demo, we will be using the quantum approximate optimization algorithm (QAOA) and quantum annealing (QA) to solve a combinatorial optimization problem.",
+          "locator": "Demo introduction",
+          "supports": "program model"
+        },
+        {
+          "source": "src:pennylane-qubo",
+          "quote": "we will show how to encode the Knapsack problem as a target Hamiltonian",
+          "locator": "Demo introduction",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:xanadu-vibronic-dynamics",
+      "problem_class": "chemistry",
+      "title": "Vibronic dynamics",
+      "program_model": "gate_circuit",
+      "platform": "co:xanadu",
+      "sdk": "pennylane",
+      "kind": "official_tutorial",
+      "statement": "PennyLane documents an example of vibronic dynamics on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:pennylane-vibronic",
+          "quote": "Simulating Vibronic Dynamics",
+          "locator": "Demo title",
+          "supports": "problem"
+        },
+        {
+          "source": "src:pennylane-vibronic",
+          "quote": "advanced materials discovery are dynamical in nature.",
+          "locator": "Demo introduction",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:xanadu-variational-regression",
+      "problem_class": "machine_learning",
+      "title": "Multivariate regression with a variational circuit",
+      "program_model": "gate_circuit",
+      "platform": "co:xanadu",
+      "sdk": "pennylane",
+      "kind": "official_tutorial",
+      "statement": "PennyLane documents an example of multivariate regression with a variational quantum circuit on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:pennylane-regression",
+          "quote": "In this tutorial, we show how to use a variational quantum circuit",
+          "locator": "Demo introduction",
+          "supports": "problem, program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:pasqal-pulser-qubo",
+      "problem_class": "optimization",
+      "title": "QUBO with Rydberg atoms in analog mode",
+      "program_model": "analog_hamiltonian",
+      "platform": "co:pasqal",
+      "sdk": "pulser",
+      "kind": "official_tutorial",
+      "statement": "Pasqal documents an example of a QUBO instance on an analog Hamiltonian program.",
+      "evidence": [
+        {
+          "source": "src:pulser-qubo",
+          "quote": "In this tutorial, we illustrate how to solve a Quadratic Unconstrained Binary Optimization (QUBO) instance using an ensemble of Rydberg atoms in analog mode.",
+          "locator": "Tutorial introduction",
+          "supports": "problem, program model"
+        }
+      ],
+      "example": "ex:pulser-qubo"
+    },
+    {
+      "id": "uc:pasqal-pulser-xy",
+      "problem_class": "physics_simulation",
+      "title": "XY interaction Hamiltonian",
+      "program_model": "analog_hamiltonian",
+      "platform": "co:pasqal",
+      "sdk": "pulser",
+      "kind": "official_tutorial",
+      "statement": "Pasqal documents an example of an XY interaction Hamiltonian on an analog Hamiltonian program.",
+      "evidence": [
+        {
+          "source": "src:pulser-xy",
+          "quote": "The XY Hamiltonian arises when the basis states are the \\(|0\\rangle\\) and \\(|1\\rangle\\) state of the XY basis, which is addressed by the Microwave channel . When a Microwave channel is declared, the Sequence is immediately assumed to be in the so-called XY mode",
+          "locator": "Tutorial introduction",
+          "supports": "problem, program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:quandela-boson-sampling",
+      "problem_class": "sampling",
+      "title": "Boson sampling",
+      "program_model": "photonic_circuit",
+      "platform": "co:quandela",
+      "sdk": "perceval",
+      "kind": "official_tutorial",
+      "statement": "Quandela documents an example of boson sampling on a photonic-circuit program.",
+      "evidence": [
+        {
+          "source": "src:perceval-boson",
+          "quote": "We are interested to simulate a boson sample with 14 photons and 60 modes",
+          "locator": "Perfect boson sampling",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:quandela-photonic-vqe",
+      "problem_class": "chemistry",
+      "title": "Photonic variational eigensolver for molecular energies",
+      "program_model": "photonic_circuit",
+      "platform": "co:quandela",
+      "sdk": "perceval",
+      "kind": "official_tutorial",
+      "statement": "Quandela documents an example of ground-state molecular energies on a photonic-circuit program.",
+      "evidence": [
+        {
+          "source": "src:perceval-vqe",
+          "quote": "We provide a Perceval implementation of original photonic Variational Quantum Eigensolver (VQE) from Peruzzo, A. et al. in [1]. This notebook provides computations of ground-state molecular energies",
+          "locator": "Notebook introduction",
+          "supports": "problem, program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:quandela-shortest-path",
+      "problem_class": "optimization",
+      "title": "Shortest path as a QUBO",
+      "program_model": "photonic_circuit",
+      "platform": "co:quandela",
+      "sdk": "perceval",
+      "kind": "official_tutorial",
+      "statement": "Quandela documents an example of a shortest-path problem on a photonic-circuit program.",
+      "evidence": [
+        {
+          "source": "src:perceval-shortest-path",
+          "quote": "This notebook implements a Perceval code for finding the shortest path on a directed, weighted graph using the Quadratic Unconstrained Binary Optimization (QUBO) model.",
+          "locator": "Notebook introduction",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:quandela-differential-equation",
+      "problem_class": "physics_simulation",
+      "title": "A differential equation on a photonic circuit",
+      "program_model": "photonic_circuit",
+      "platform": "co:quandela",
+      "sdk": "perceval",
+      "kind": "official_tutorial",
+      "statement": "Quandela documents an example of a differential equation on a photonic-circuit program.",
+      "evidence": [
+        {
+          "source": "src:perceval-differential",
+          "quote": "We present here a Perceval implementation of a Quantum Machine Learning algorithm for solving differential equations.",
+          "locator": "Notebook introduction",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:d-wave-job-shop",
+      "problem_class": "optimization",
+      "title": "Job-shop scheduling as a constrained quadratic model",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "official_tutorial",
+      "statement": "D-Wave documents an example of job-shop scheduling on an annealing QUBO program.",
+      "evidence": [
+        {
+          "source": "src:dwave-job-shop",
+          "quote": "Job shop scheduling (JSS) is an optimization problem with the goal of scheduling jobs on a variety of machines, where jobs are processed on machines in different orders. The objective is to minimize the time it takes to complete all jobs, also known as the \"makespan\". This example demonstrates two means of formulating and optimizing job shop scheduling (JSS): a nonlinear model solved with the Leap&trade; Stride&trade; hybrid solver and a [constrained quadratic model",
+          "locator": "README, opening",
+          "supports": "problem"
+        },
+        {
+          "source": "src:dwave-job-shop",
+          "quote": "solved using the Leap CQM hybrid solver.",
+          "locator": "README, model",
+          "supports": "program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:d-wave-portfolio",
+      "problem_class": "optimization",
+      "title": "Stock portfolio selection as a constrained quadratic model",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "official_tutorial",
+      "statement": "D-Wave documents an example of stock-portfolio selection on an annealing QUBO program.",
+      "evidence": [
+        {
+          "source": "src:dwave-portfolio",
+          "quote": "Optimizing a portfolio of stocks is a challenging problem that looks to identify the optimal number of shares of each stock to purchase in order to minimize risk",
+          "locator": "README, opening",
+          "supports": "problem"
+        },
+        {
+          "source": "src:dwave-portfolio",
+          "quote": "builds the constrained quadratic model (CQM), and runs the CQM on D-Wave's hybrid solver.",
+          "locator": "README, usage",
+          "supports": "program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:d-wave-kibble-zurek",
+      "problem_class": "physics_simulation",
+      "title": "Kibble-Zurek mechanism on an annealer",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "official_tutorial",
+      "statement": "D-Wave documents an example of the Kibble-Zurek mechanism in an Ising chain on an annealing program.",
+      "evidence": [
+        {
+          "source": "src:dwave-kibble-zurek",
+          "quote": "simulate the formation of topological defects in a 1D ring of spins undergoing a phase transition",
+          "locator": "README title and opening",
+          "supports": "problem, program model"
+        },
+        {
+          "source": "src:dwave-kibble-zurek",
+          "quote": "1D transverse-field Ising chain.",
+          "locator": "README, description",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:d-wave-feature-selection",
+      "problem_class": "machine_learning",
+      "title": "Feature selection with a constrained quadratic model",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "official_tutorial",
+      "statement": "D-Wave documents an example of feature selection on an annealing QUBO program.",
+      "evidence": [
+        {
+          "source": "src:dwave-feature-selection",
+          "quote": "This demo showcases feature selection using D-Wave's Stride&trade; hybrid solver or a constrained quadratic model (CQM) solver",
+          "locator": "README, opening",
+          "supports": "problem, program model"
+        }
+      ]
+    },
+    {
+      "id": "uc:microsoft-grover-qsharp",
+      "problem_class": "other",
+      "title": "Grover's search algorithm in Q#",
+      "program_model": "gate_circuit",
+      "platform": "co:microsoft",
+      "sdk": "qsharp",
+      "kind": "official_tutorial",
+      "statement": "Microsoft documents an example of Grover's search algorithm on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:azure-grover",
+          "quote": "In this tutorial, you implement Grover's algorithm in Q# to solve search-based problems.",
+          "locator": "Tutorial introduction",
+          "supports": "problem, sdk"
+        }
+      ]
+    },
+    {
+      "id": "uc:quantinuum-vqe-hydrogen",
+      "problem_class": "chemistry",
+      "title": "Hydrogen ground-state energy with VQE",
+      "program_model": "gate_circuit",
+      "platform": "co:quantinuum",
+      "sdk": "inquanto",
+      "kind": "official_tutorial",
+      "statement": "Quantinuum documents an example of the ground-state electronic energy of a hydrogen molecule on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:inquanto-vqe-h2",
+          "quote": "This file will introduce the basic methodology of performing quantum chemistry calculations on quantum computers using InQuanto.",
+          "locator": "Tutorial introduction",
+          "supports": "sdk"
+        },
+        {
+          "source": "src:inquanto-vqe-h2",
+          "quote": "For this example, we will consider the calculation of the ground state electronic energy of the hydrogen molecule in a single geometric configuration, using a standard VQE methodology.",
+          "locator": "Tutorial introduction",
+          "supports": "problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:d-wave-docomo-paging",
+      "problem_class": "optimization",
+      "title": "Base-station grouping for paging traffic",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "customer_case_study",
+      "statement": "D-Wave documents an example of grouping mobile base stations for paging-signal traffic, with NTT DOCOMO, on an annealing QUBO program.",
+      "evidence": [
+        {
+          "source": "src:dwave-docomo-pdf",
+          "quote": "Japanese telecommunications company NTT DOCOMO demonstrated that quantum computing can help mitigate potential performance issues on mobile networks during periods of heavy use.",
+          "locator": "Opening",
+          "supports": "customer"
+        },
+        {
+          "source": "src:dwave-docomo-pdf",
+          "quote": "constrained quadratic model (CQM) hybrid solver could help reduce unnecessary paging signal traffic.",
+          "locator": "Body",
+          "supports": "program model, problem"
+        },
+        {
+          "source": "src:dwave-docomo-pdf",
+          "quote": "reduce the number of paging signals by roughly 15% during periods of peak network activity.",
+          "locator": "Results",
+          "supports": "outcome"
+        }
+      ],
+      "customer": "co:ntt-docomo",
+      "outcome_quote": "reduce the number of paging signals by roughly 15% during periods of peak network activity."
+    },
+    {
+      "id": "uc:d-wave-groovenauts-waste",
+      "problem_class": "optimization",
+      "title": "Waste-collection routing",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "customer_case_study",
+      "statement": "D-Wave documents an example of waste-collection routing, with Groovenauts and Mitsubishi Estate, on an annealing program.",
+      "evidence": [
+        {
+          "source": "src:dwave-groovenauts-pdf",
+          "quote": "Utilizing quantum annealing, the route for collecting waste, currently requiring a distance of about 2,300 km, was optimized and reduced to just 1,000 km. As a result, CO2 emissions would be reduced by approximately 57%, and the number of vehicles reduced by approximately 59%.",
+          "locator": "Pull quote",
+          "supports": "problem, program model, outcome"
+        },
+        {
+          "source": "src:dwave-groovenauts-pdf",
+          "quote": "Groovenauts put their new service to the test in partnership with Mitsubishi Estate Co., Ltd.",
+          "locator": "Body",
+          "supports": "customer"
+        }
+      ],
+      "customer": "co:groovenauts",
+      "outcome_quote": "CO2 emissions would be reduced by approximately 57%, and the number of vehicles reduced by approximately 59%."
+    },
+    {
+      "id": "uc:d-wave-denso-agv",
+      "problem_class": "optimization",
+      "title": "Automated guided vehicle routing",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "customer_case_study",
+      "statement": "D-Wave documents an example of automated guided vehicle routing, with DENSO, on an annealing program.",
+      "evidence": [
+        {
+          "source": "src:dwave-denso-pdf",
+          "quote": "DENSO recently completed proof-of-concept work aimed at optimizing control of Automated Guided Vehicles (AGVs) on their factory floors.",
+          "locator": "Body, factory vehicles",
+          "supports": "problem, customer"
+        },
+        {
+          "source": "src:dwave-denso-pdf",
+          "quote": "the D-Wave quantum annealer",
+          "locator": "Body, later section of the same case story",
+          "supports": "program model"
+        },
+        {
+          "source": "src:dwave-denso-pdf",
+          "quote": "reduced the amount of time each AGV spent waiting for a clear route to open up by an average of 15%",
+          "locator": "Results",
+          "supports": "outcome"
+        }
+      ],
+      "outcome_quote": "reduced the amount of time each AGV spent waiting for a clear route to open up by an average of 15%"
+    },
+    {
+      "id": "uc:d-wave-japan-tobacco-molecules",
+      "problem_class": "machine_learning",
+      "title": "Molecular-generation model training for drug discovery",
+      "program_model": "annealing_qubo",
+      "platform": "co:d-wave",
+      "sdk": "dwave-ocean-sdk",
+      "kind": "customer_case_study",
+      "statement": "D-Wave documents an example of training a molecular-generation model for drug discovery, with Japan Tobacco, on an annealing program.",
+      "evidence": [
+        {
+          "source": "src:dwave-featured-apps",
+          "quote": "Employing D-Wave's annealing quantum computing solutions as accelerators in the speed and quality of training our generative AI-driven, drug discovery (DD) analysis systems, we constructed a hybrid quantum and classical computer system, aiming to extend the applicable range of molecular-generation AI systems in the DD field (i.e., AI-driven Drug Design).",
+          "locator": "Japan Tobacco application card",
+          "supports": "problem, program model"
+        },
+        {
+          "source": "src:dwave-featured-apps",
+          "quote": "COMPANY : Japan Tobacco",
+          "locator": "Same card, company line",
+          "supports": "customer"
+        }
+      ],
+      "outcome_quote": "accelerators in the speed and quality of training our generative AI-driven, drug discovery (DD) analysis systems"
+    },
+    {
+      "id": "uc:pasqal-bmw-metal-forming",
+      "problem_class": "physics_simulation",
+      "title": "Metal-forming simulation",
+      "program_model": "analog_hamiltonian",
+      "platform": "co:pasqal",
+      "sdk": "pasqal",
+      "kind": "customer_case_study",
+      "statement": "Pasqal documents an example of metal-sheet stamping simulation, with BMW Group, on an analog Hamiltonian program.",
+      "evidence": [
+        {
+          "source": "src:pasqal-bmw-story",
+          "quote": "The first Proof of Concept (PoC) project between Pasqal and the BMW Group focused on optimizing the metal forming process.",
+          "locator": "Proof of concept",
+          "supports": "customer, problem"
+        },
+        {
+          "source": "src:pasqal-bmw-story",
+          "quote": "This involved simulating the stamping of metal sheets to predict material behavior and identify optimal manufacturing parameters.",
+          "locator": "Proof of concept",
+          "supports": "problem"
+        },
+        {
+          "source": "src:pasqal-bmw-story",
+          "quote": "Pasqal’s digital-analog implementation of quantum algorithms, tailored for their neutral-atom quantum processors",
+          "locator": "Collaboration description",
+          "supports": "program model"
+        }
+      ],
+      "customer": "co:bmw-group"
+    },
+    {
+      "id": "uc:pasqal-basf-weather",
+      "problem_class": "physics_simulation",
+      "title": "Weather modelling with quantum neural networks",
+      "program_model": "analog_hamiltonian",
+      "platform": "co:pasqal",
+      "sdk": "pasqal",
+      "kind": "customer_case_study",
+      "statement": "Pasqal documents an example of weather modelling with quantum neural networks, with BASF, on an analog Hamiltonian program.",
+      "evidence": [
+        {
+          "source": "src:pasqal-basf-story",
+          "quote": "focused on weather modeling. BASF uses parameters generated by the weather models to simulate crop yields and growth stages as well as to predict drift when applying crop protection products.",
+          "locator": "Body",
+          "supports": "customer, problem"
+        },
+        {
+          "source": "src:pasqal-basf-story",
+          "quote": "PASQAL aims to solve the underlying complex nonlinear differential equations in a novel and more efficient way by implementing so-called quantum neural networks on its neutral atom quantum processors.",
+          "locator": "Body",
+          "supports": "problem, program model"
+        },
+        {
+          "source": "src:pasqal-basf-story",
+          "quote": "go beyond what can be achieved with classical high-performance computing.",
+          "locator": "Quoted remark",
+          "supports": "outcome"
+        }
+      ],
+      "outcome_quote": "go beyond what can be achieved with classical high-performance computing."
+    },
+    {
+      "id": "uc:pasqal-thales-satellite-mis",
+      "problem_class": "optimization",
+      "title": "Satellite mission planning as a maximum independent set",
+      "program_model": "analog_hamiltonian",
+      "platform": "co:pasqal",
+      "sdk": "pasqal",
+      "kind": "customer_case_study",
+      "statement": "Pasqal documents an example of satellite mission planning as a maximum independent set, with Thales, on an analog Hamiltonian program.",
+      "evidence": [
+        {
+          "source": "src:pasqal-thales-story",
+          "quote": "has introduced extraordinary complexity in mission planning and scheduling.",
+          "locator": "Body",
+          "supports": "problem"
+        },
+        {
+          "source": "src:pasqal-thales-story",
+          "quote": "leveraging Pasqal’s neutral atom quantum processors, which are particularly suited for encoding and solving complex problems like the Maximum Independent Set (MIS).",
+          "locator": "Body",
+          "supports": "program model, problem"
+        }
+      ]
+    },
+    {
+      "id": "uc:pasqal-cib-credit-ratings",
+      "problem_class": "other",
+      "title": "Credit-rating downgrade prediction",
+      "program_model": "analog_hamiltonian",
+      "platform": "co:pasqal",
+      "sdk": "pasqal",
+      "kind": "customer_case_study",
+      "statement": "Pasqal documents an example of credit-rating downgrade prediction, with Crédit Agricole CIB, on an analog Hamiltonian program.",
+      "evidence": [
+        {
+          "source": "src:pasqal-cib-story",
+          "quote": "predicting credit rating downgrades 6 to 15 months in advance , aiming to assess its capability to solve real-world financial problems.",
+          "locator": "Body",
+          "supports": "problem"
+        },
+        {
+          "source": "src:pasqal-cib-story",
+          "quote": "Pasqal’s analog quantum computers are better-suited for handling these complex problems more effectively than traditional methods.",
+          "locator": "Body",
+          "supports": "program model, outcome"
+        }
+      ],
+      "outcome_quote": "Pasqal’s analog quantum computers are better-suited for handling these complex problems more effectively than traditional methods."
+    },
+    {
+      "id": "uc:quantinuum-bmw-fuel-cells",
+      "problem_class": "chemistry",
+      "title": "Fuel-cell electrochemistry",
+      "program_model": "gate_circuit",
+      "platform": "co:quantinuum",
+      "sdk": "tket",
+      "kind": "customer_case_study",
+      "statement": "Quantinuum documents an example of molecular simulation for fuel-cell electrochemistry, with BMW Group, on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-bmw-pr",
+          "quote": "Researchers at BMW Group are utilizing Quantinuum's trapped-ion architecture, which provides the high-fidelity operations necessary to accurately simulate molecular systems, particularly electrochemical processes that play a critical role across a range of technologies relevant to sustainable mobility and the design and optimization of fuel cells.",
+          "locator": "Partnership description",
+          "supports": "customer, problem"
+        },
+        {
+          "source": "src:quantinuum-bmw-pr",
+          "quote": "Python TKET Develop and execute gate-level quantum computation",
+          "locator": "Developer tools navigation on the same page",
+          "supports": "program model"
+        }
+      ],
+      "customer": "co:bmw-group"
+    },
+    {
+      "id": "uc:quantinuum-jpmorgan-randomness",
+      "problem_class": "sampling",
+      "title": "Random circuit sampling for cryptographic random numbers",
+      "program_model": "gate_circuit",
+      "platform": "co:quantinuum",
+      "sdk": "quantinuum",
+      "kind": "customer_case_study",
+      "statement": "Quantinuum documents an example of random circuit sampling for cryptographic random numbers, with JPMorganChase, on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-randomness-blog",
+          "quote": "JPMorganChase, Oak Ridge National Laboratory, Argonne National Laboratory and the University of Texas used quantum computers to solve a known industry challenge, generating the “random seeds” that are essential for the cryptography behind all types of secure communication.",
+          "locator": "Opening",
+          "supports": "customer, problem"
+        },
+        {
+          "source": "src:quantinuum-randomness-blog",
+          "quote": "Quantinuum’s H2 System",
+          "locator": "Body",
+          "supports": "system"
+        },
+        {
+          "source": "src:quantinuum-randomness-blog",
+          "quote": "RCS has been used ever since to demonstrate the performance of quantum computers, including a milestone achievement in June 2024 by Quantinuum and JPMorganChase",
+          "locator": "Body",
+          "supports": "problem, program model"
+        }
+      ],
+      "customer": "co:jpmorgan"
+    },
+    {
+      "id": "uc:quantinuum-orr-platinum",
+      "problem_class": "chemistry",
+      "title": "Oxygen-reduction reaction on platinum",
+      "program_model": "gate_circuit",
+      "platform": "co:quantinuum",
+      "sdk": "inquanto",
+      "kind": "peer_reviewed_application",
+      "statement": "An npj Computational Materials article documents an example of the oxygen-reduction reaction on platinum-based surfaces on a gate-circuit program.",
+      "evidence": [
+        {
+          "source": "src:npj-orr-platinum",
+          "quote": "Here, we present a state-of-the-art study that combines classical and quantum computational approaches to investigate ORR on platinum-based surfaces.",
+          "locator": "Abstract",
+          "supports": "problem"
+        },
+        {
+          "source": "src:npj-orr-platinum",
+          "quote": "implementing this workflow on the H1-series trapped-ion quantum computer",
+          "locator": "Abstract",
+          "supports": "system"
+        },
+        {
+          "source": "src:npj-orr-platinum",
+          "quote": "all the classical and quantum computing simulation were performed inside InQuanto",
+          "locator": "Methods",
+          "supports": "sdk"
+        },
+        {
+          "source": "src:npj-orr-platinum",
+          "quote": "TKET via PyTKET compiler",
+          "locator": "Methods",
+          "supports": "sdk"
+        },
+        {
+          "source": "src:npj-orr-platinum",
+          "quote": "BMW Group, Munich, Germany",
+          "locator": "Author affiliations",
+          "supports": "customer"
+        },
+        {
+          "source": "src:npj-orr-platinum",
+          "quote": "suggest platinum/cobalt as ideal candidate for showcasing quantum advantage in future applications.",
+          "locator": "Abstract",
+          "supports": "outcome"
+        }
+      ],
+      "customer": "co:bmw-group",
+      "outcome_quote": "suggest platinum/cobalt as ideal candidate for showcasing quantum advantage in future applications."
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex:amazon-braket-qpe",
+      "title": "Phase estimation on the local simulator",
+      "program_model": "gate_circuit",
+      "sdk": "amazon-braket-sdk",
+      "source_url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/advanced_circuits_algorithms/Quantum_Phase_Estimation/Quantum_Phase_Estimation.ipynb",
+      "code": "# Use Braket SDK Cost Tracking to estimate the cost to run this example\nfrom braket.tracking import Tracker\n\nt = Tracker().start()\n# general imports\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# magic word for producing visualizations in notebook\n%matplotlib inline\n# AWS imports: Import Amazon Braket SDK modules\nfrom braket.circuits import Circuit\nfrom braket.devices import LocalSimulator\n# local imports\nfrom utils_qpe import run_qpe\n\n%load_ext autoreload\n%autoreload 2\n# set up device: local simulator or the on-demand simulator\ndevice = LocalSimulator()\n# device = AwsDevice(Devices.Amazon.SV1)\n# Define Pauli matrices\nId = np.eye(2)  # Identity matrix\nX = np.array([[0.0, 1.0], [1.0, 0.0]])  # Pauli X\nY = np.array([[0.0, -1.0j], [1.0j, 0.0]])  # Pauli Y\nZ = np.array([[1.0, 0.0], [0.0, -1.0]])  # Pauli Z\n# set total number of qubits\nprecision_qubits = [0, 1]\nquery_qubits = [2]\n\n# prepare query register\nmy_qpe_circ = Circuit().h(query_qubits)\n\n# set unitary\nunitary = X\n\n# show small QPE example circuit\nmy_qpe_circ = my_qpe_circ.qpe(precision_qubits, query_qubits, unitary)\nprint(\"QPE CIRCUIT:\")\nprint(my_qpe_circ)\n# set qubits\nprecision_qubits = [1, 3]\nquery_qubits = [5]\n\n# prepare query register\nmy_qpe_circ = Circuit().i(range(7))\nmy_qpe_circ.h(query_qubits)\n\n# set unitary\nunitary = X\n\n# show small QPE example circuit\nmy_qpe_circ = my_qpe_circ.qpe(precision_qubits, query_qubits, unitary)\nprint(\"QPE CIRCUIT:\")\nprint(my_qpe_circ)\n# set qubits\nprecision_qubits = [1, 3]\nquery_qubits = [5]\n\n# prepare query register\nmy_qpe_circ = Circuit().i(range(7))\nmy_qpe_circ.h(query_qubits)\n\n# set unitary\nunitary = X\n\n# show small QPE example circuit\nmy_qpe_circ = my_qpe_circ.qpe(precision_qubits, query_qubits, unitary, control_unitary=False)\nprint(\"QPE CIRCUIT:\")\nprint(my_qpe_circ)\ndef postprocess_qpe_results(out):\n    \"\"\"Function to postprocess dictionary returned by run_qpe\n\n    Args:\n        out: dictionary containing results/information associated with QPE run as produced by run_qpe\n\n    \"\"\"\n    # unpack results\n    circ = out[\"circuit\"]\n    measurement_counts = out[\"measurement_counts\"]\n    bitstring_keys = out[\"bitstring_keys\"]\n    probs_values = out[\"probs_values\"]\n    precision_results_dic = out[\"precision_results_dic\"]\n    phases_decimal = out[\"phases_decimal\"]\n    eigenvalues = out[\"eigenvalues\"]\n\n    # print the circuit\n    print(\"Printing circuit:\")\n    print(circ)\n\n    # print measurement results\n    print(\"Measurement counts:\", measurement_counts)\n\n    # plot probabalities\n    plt.bar(bitstring_keys, probs_values)\n    plt.xlabel(\"bitstrings\")\n    plt.ylabel(\"probability\")\n    plt.xticks(rotation=90)\n    # print results\n    print(\"Results in precision register:\", precision_results_dic)\n    print(\"QPE phase estimates:\", phases_decimal)\n    print(\"QPE eigenvalue estimates:\", np.round(eigenvalues, 5))\n# Set total number of precision qubits: 2\nnumber_precision_qubits = 2\n\n# Define the set of precision qubits\nprecision_qubits = range(number_precision_qubits)\n\n# Define the query qubits. We'll have them start after the precision qubits\nquery_qubits = [number_precision_qubits]\n\n# State preparation for eigenstate of U=X\nquery = Circuit().h(query_qubits)\n\n# Run the test with U=X\nout = run_qpe(X, precision_qubits, query_qubits, query, device)\n\n# Postprocess results\npostprocess_qpe_results(out)\n# Set total number of precision qubits: 3\nnumber_precision_qubits = 3\n\n# Define the set of precision qubits\nprecision_qubits = range(number_precision_qubits)\n\n# Define the query qubits. We'll have them start after the precision qubits\nquery_qubits = [number_precision_qubits]\n\n# State preparation for eigenstate of U=X\nquery = Circuit().h(query_qubits)\n\n# Run the test with U=X\nout = run_qpe(X, precision_qubits, query_qubits, query, device)\n\n# Postprocess results\npostprocess_qpe_results(out)\n# Set total number of precision qubits: 2\nnumber_precision_qubits = 2\n\n# Define the set of precision qubits\nprecision_qubits = range(number_precision_qubits)\n\n# Define the query qubits. We'll have them start after the precision qubits\nquery_qubits = [number_precision_qubits]\n\n# State preparation for eigenstate of U=X\nquery = Circuit().x(query_qubits).h(query_qubits)\n\n# Run the test with U=X\nout = run_qpe(X, precision_qubits, query_qubits, query, device)\n\n# Postprocess results\npostprocess_qpe_results(out)\n# Set total number of precision qubits: 2\nnumber_precision_qubits = 2\n\n# Define the set of precision qubits\nprecision_qubits = range(number_precision_qubits)\n\n# Define the query qubits. We'll have them start after the precision qubits\nquery_qubits = [number_precision_qubits]\n\n# State preparation for |1>, which is not an eigenstate of U=X\nquery = Circuit().x(query_qubits)\n\n# Run the test with U=X\nout = run_qpe(X, precision_qubits, query_qubits, query, device, items_to_keep=2)\n\n# Postprocess results\npostprocess_qpe_results(out)\n# set unitary matrix U\nu1 = np.kron(X, Id)\nu2 = np.kron(Id, Z)\nunitary = np.dot(u1, u2)\nprint(\"Two-qubit unitary (XZ):\\n\", unitary)\n\n# get example eigensystem\neig_values, eig_vectors = np.linalg.eig(unitary)\nprint(\"Eigenvalues:\", eig_values)\n# print('Eigenvectors:', eig_vectors)\n# Set total number of precision qubits: 2\nnumber_precision_qubits = 2\n\n# Define the set of precision qubits\nprecision_qubits = range(number_precision_qubits)\n\n# Define the query qubits. We'll have them start after the precision qubits\nquery_qubits = [number_precision_qubits, number_precision_qubits + 1]\n\n# State preparation for eigenstate |+,1> of U=X \\otimes Z\nquery = Circuit().h(query_qubits[0]).x(query_qubits[1])\n\n# Run the test with U=X\nout = run_qpe(unitary, precision_qubits, query_qubits, query, device)\n\n# Postprocess results\npostprocess_qpe_results(out)\n# Generate a random 2 qubit unitary matrix:\nfrom scipy.stats import unitary_group\n\n# Fix random seed for reproducibility\nnp.random.seed(seed=42)\n\n# Get random two-qubit unitary\nrandom_unitary = unitary_group.rvs(2**2)\n\n# Let's diagonalize this\nevals = np.linalg.eig(random_unitary)[0]\n\n# Since we want to be able to read off the eigenvalues of the unitary in question\n# let's choose our unitary to be diagonal in this basis\nunitary = np.diag(evals)\n\n# Check that this is indeed unitary, and print it out:\nprint(\"Two-qubit random unitary:\\n\", np.round(unitary, 3))\nprint(\"Check for unitarity: \", np.allclose(np.eye(len(unitary)), unitary.dot(unitary.T.conj())))\n\n# Print eigenvalues\nprint(\"Eigenvalues:\", np.round(evals, 3))\nprint(\"Target eigenvalue:\", np.round(evals[-1], 3))\n# Set total number of precision qubits\nnumber_precision_qubits = 3\n\n# Define the set of precision qubits\nprecision_qubits = range(number_precision_qubits)\n\n# Define the query qubits. We'll have them start after the precision qubits\nquery_qubits = [number_precision_qubits, number_precision_qubits + 1]\n\n# State preparation for eigenstate |1,1> of diagonal U\nquery = Circuit().x(query_qubits[0]).x(query_qubits[1])\n\n# Run the test with U=X\nout = run_qpe(unitary, precision_qubits, query_qubits, query, device)\n\n# Postprocess results\npostprocess_qpe_results(out)\n\n# compare output to exact target values\nprint(\"Target eigenvalue:\", np.round(evals[-1], 3))\n# Set total number of precision qubits\nnumber_precision_qubits = 10\n\n# Define the set of precision qubits\nprecision_qubits = range(number_precision_qubits)\n\n# Define the query qubits. We'll have them start after the precision qubits\nquery_qubits = [number_precision_qubits, number_precision_qubits + 1]\n\n# State preparation for eigenstate |1,1> of diagonal U\nquery = Circuit().x(query_qubits[0]).x(query_qubits[1])\n\n# Run the test with U=X\nout = run_qpe(unitary, precision_qubits, query_qubits, query, device)\n\n# Postprocess results\neigenvalues = out[\"eigenvalues\"]\nprint(\"QPE eigenvalue estimates:\", np.round(eigenvalues, 5))\n\n# compare output to exact target values\nprint(\"Target eigenvalue:\", np.round(evals[-1], 5))\nprint(\"Quantum Task Summary\")\nprint(t.quantum_tasks_statistics())\nprint(\n    \"Note: Charges shown are estimates based on your Amazon Braket simulator and quantum processing unit (QPU) task usage. Estimated charges shown may differ from your actual charges. Estimated charges do not factor in any discounts or credits, and you may experience additional charges based on your use of other services such as Amazon Elastic Compute Cloud (Amazon EC2).\",\n)\nprint(\n    f\"Estimated cost to run this example: {t.qpu_tasks_cost() + t.simulator_tasks_cost():.2f} USD\",\n)\n",
+      "harness_path": "examples/amazon-braket-qpe/harness.py",
+      "substitution": "device = LocalSimulator() is already the tutorial's device line; harness.py only comments the notebook magics",
+      "sim_check": {
+        "status": "not_run",
+        "simulator": "braket.devices.LocalSimulator",
+        "substitution": "device = LocalSimulator() is already the tutorial's device line; harness.py only comments the notebook magics"
+      },
+      "routes": [],
+      "evidence": [
+        {
+          "source": "src:braket-qpe",
+          "quote": "# set up device: local simulator or the on-demand simulator",
+          "locator": "Quantum_Phase_Estimation.ipynb, device setup cell",
+          "supports": "code"
+        }
+      ]
+    },
+    {
+      "id": "ex:amazon-braket-vqe-hydrogen",
+      "title": "Hydrogen potential-energy surface on the local simulator",
+      "program_model": "gate_circuit",
+      "sdk": "amazon-braket-sdk",
+      "source_url": "https://raw.githubusercontent.com/amazon-braket/amazon-braket-examples/main/examples/hybrid_quantum_algorithms/VQE_Chemistry/VQE_chemistry_braket.ipynb",
+      "code": "# create a directory named \"data\" to store intermediate classical computation results from OpenFermion\n!mkdir -p \"data\"\n# import required libraries\nimport os\nimport time\n\nimport numpy as np\nfrom matplotlib import pyplot as plt\nfrom openfermion import MolecularData\nfrom openfermion.transforms import get_fermion_operator, jordan_wigner\nfrom openfermionpyscf import run_pyscf\n\nfrom braket.circuits import Circuit, observables\nfrom braket.devices import LocalSimulator\nfrom braket.parametric import FreeParameter\n# Initialize variable to determine total run-time of the program\nrun_time = time.time()\n# Set parameters that won't change for all simulations\n# total charge\ntot_chg = 0\n# set the multiplicity\n# this parameter specifies how electrons are paired in orbitals\n# spin multiplicity is equal to the number of unpaired electrons plus one\n# e.g., spin multiplicity = 1 implies no unpaired electron, i.e., for every\n# spin-up electron in a spatial orbital there is a spin-down electron,\n# spin-multiplicity = 3 implies 2 unpaired electrons, and so on.\n# See https://en.wikipedia.org/wiki/Multiplicity_(chemistry) for more details\nspin_mult = 1\n# use the minimal basis set (STO-3G)\nbasis_set = \"sto-3g\"\n# number of active electrons and orbitals to consider\n# For H2 as we're consider all electrons and orbitals as active for STO-3G\nocc_ind = act_ind = None\n# bond lengths to simulate ground-state of H2 for (in Angstroms)\nbond_lengths = np.arange(start=0.24, stop=3.00, step=0.1)\n# no. of bond lengths to simulate H2 for\nn_configs = len(bond_lengths)\nprint(f\"INFO: Simulating ground-state of H2 molecule for {n_configs} bond lengths\")\n# no. of VQE parameter values to scan\nn_theta = 24\n# no. of shots: 0 means exact statevector expectation values (no sampling noise)\nn_shots = 0\n# Dictionary to store molecular data and qubit Hamiltonians for each\n# molecular configuration(i.e., bond length)\nmol_configs = {}\n# Store molecular config data and Hamiltonian for each bond length\nfor rr in bond_lengths:\n    # round to 2 digits to get a reasonable-length number for bond-length\n    r = round(rr, 2)\n    print(f\"INFO: Computing Hamiltonian for bond-length {r} A...\")\n    geom = [(\"H\", (0.0, 0.0, -r / 2.0)), (\"H\", (0.0, 0.0, r / 2.0))]\n    # Make sure a directory named 'data' exists in the current folder,\n    # else this statement will throw an error!\n    h2_molecule = MolecularData(\n        geometry=geom,\n        basis=basis_set,\n        multiplicity=spin_mult,\n        description=\"bondlength_\" + str(r) + \"A\",\n        filename=\"\",\n        data_directory=os.getcwd() + \"/data\",\n    )\n    # Run PySCF to get molecular integrals, HF and FCI energies\n    h2_molecule = run_pyscf(\n        molecule=h2_molecule,\n        run_scf=True,\n        run_mp2=False,\n        run_cisd=False,\n        run_ccsd=False,\n        run_fci=True,\n        verbose=False,\n    )\n    # Convert electronic Hamiltonian to qubit operator using JW encoding\n    h2_qubit_hamiltonian = jordan_wigner(\n        get_fermion_operator(\n            h2_molecule.get_molecular_hamiltonian(occupied_indices=occ_ind, active_indices=act_ind),\n        ),\n    )\n    # store molecular data and qubit operator for this config in an ordered list\n    mol_configs[r] = [h2_molecule, h2_qubit_hamiltonian]\nprint(f\"INFO: Computed Hamiltonians for {len(mol_configs)} bond-lengths.\")\n# Construct circuit for UCCSD ansatz parameterized by VQE parameter per McArdle et al.\na_theta = FreeParameter(\"a_theta\")\n# Initialize HF state |0011>\nansatz_uccsd = Circuit().x(2).x(3)\n# Perform initial rotations to measure in Y & X bases\nansatz_uccsd.rx(3, np.pi / 2.0).h(range(3))\n# Entangle with CNOTs\nansatz_uccsd.cnot(3, 2).cnot(2, 1).cnot(1, 0)\n# Perform the rotation in Z-basis\nansatz_uccsd.rz(0, a_theta)\n# Uncompute the rotations\nansatz_uccsd.cnot(1, 0).cnot(2, 1).cnot(3, 2)\nansatz_uccsd.h(range(3))\nansatz_uccsd.rx(3, -np.pi / 2.0)\n\n# initialize quantum device to run VQE over\nlocal_sim = LocalSimulator()\n# verify by running the circuit with no rotation and verifying we get HF state\nprint(ansatz_uccsd)\nn_qubits = ansatz_uccsd.qubit_count\nprint(f\"Total number of qubits in the circuit: {n_qubits}\")\n# We can fix the value of a_theta by calling the circuit with the value filled as follows.\n# print(local_sim.run(ansatz_uccsd(0)).result().state_vector)\nprint(\n    local_sim.run(Circuit().add(ansatz_uccsd(0)).state_vector(), shots=n_shots).result().values[0]\n)\n# We can also fix the value of a_theta by supplying the inputs argument to run\nprint(\n    local_sim.run(\n        Circuit().add(ansatz_uccsd).state_vector(), shots=n_shots, inputs={\"a_theta\": 0.0}\n    )\n    .result()\n    .values[0],\n)\ndef _build_observable(indices_gates):\n    \"\"\"Convert OpenFermion term to a Braket observable.\"\"\"\n    obs_map = {\"X\": observables.X, \"Y\": observables.Y, \"Z\": observables.Z}\n    factors = [obs_map[gate](n_qubits - 1 - ind) for ind, gate in indices_gates]\n    return observables.TensorProduct(factors) if len(factors) > 1 else factors[0]\n\n\ndef H_exp(a_qH, a_ckt, a_dev, a_shots=n_shots):\n    \"\"\"Get expectation value of Hamiltonian for a given circuit result.\n\n    Batches all non-identity Pauli terms into a single circuit run,\n    so the statevector is computed once and all observables are evaluated against it.\n\n    Note: This implementation adds multiple observables to a single circuit, which\n    works for simulators. For QPU execution, non-commuting terms would need to be\n    measured in separate circuit runs.\n\n    Parameters\n    ----------\n        a_qH [OpenFermion QubitHamiltonian.terms]: Dictionary of OpenFermion QubitHamiltonian operator terms\n        a_ckt [Braket Circuit]: Circuit to create the final state\n        a_dev [Braket Device]: Quantum device to run a_ckt on\n        a_shots [int]: No. of shots (0 for exact statevector expectation values)\n    Returns:\n        H_e [float]: Expectation value of a_qH for a_ket\n\n    \"\"\"\n    H_e = 0.0\n    measuring_ckt = Circuit().add(a_ckt)\n    coeffs = []\n    for term in a_qH:\n        coeff = np.real(a_qH[term])\n        if not term:\n            # identity term contributes coeff * 1\n            H_e += coeff\n        else:\n            measuring_ckt.expectation(observable=_build_observable(term))\n            coeffs.append(coeff)\n    # Single simulator run for all non-identity terms\n    result = a_dev.run(measuring_ckt, shots=a_shots).result()\n    for coeff, val in zip(coeffs, result.values):\n        H_e += coeff * val\n    return H_e\n# Loop over all bond lengths\nfor r in mol_configs:\n    print(f\"INFO: Computing ground-state energy for bond-length {r} A...\")\n    # initialize min_energy for this config\n    mol_configs[r].append(np.inf)\n    # Loop over all VQE parameter values\n    for theta in np.linspace(start=-np.pi, stop=np.pi, num=n_theta, endpoint=False):\n        # get expectation value of this config's Hamiltonian for this parameter value\n        exp_H_theta = H_exp(mol_configs[r][1].terms, ansatz_uccsd(theta), local_sim)\n        # if this expectation value is less than min found so far, update it\n        mol_configs[r][2] = min(exp_H_theta, mol_configs[r][2])\n    print(f\"min <H(R={r} A)> = {mol_configs[r][2]:.4f} Ha\")\n# Plot ground-state energy for each configuration vs bond length\nplt.figure(figsize=(8, 6), dpi=700)\nplt.plot(list(mol_configs.keys()), [val[0].hf_energy for val in mol_configs.values()], label=\"HF\")\nplt.plot(list(mol_configs.keys()), [val[0].fci_energy for val in mol_configs.values()], label=\"FCI\")\nplt.plot(list(mol_configs.keys()), [val[2] for val in mol_configs.values()], \"x-\", label=\"VQE\")\nplt.grid()\nplt.xlabel(\"Bond length of H2 [A]\")\nplt.ylabel(\"Ground-state energy for H2 [Ha]\")\nplt.legend()\nplt.title(\"VQE computed ground-state energy of H2 vs bond-length for STO-3G basis vs HF and FCI\")\nplt.savefig(\"H2_PES_byVQE.png\")\nrun_time = time.time() - run_time\nprint(f\"Total running time: {run_time:.2f} s\")\n",
+      "harness_path": "examples/amazon-braket-vqe-hydrogen/harness.py",
+      "substitution": "local_sim = LocalSimulator() is already the tutorial's device line; the notebook shell magic that creates data/ is replaced with os.makedirs",
+      "sim_check": {
+        "status": "not_run",
+        "simulator": "braket.devices.LocalSimulator",
+        "substitution": "local_sim = LocalSimulator() is already the tutorial's device line; the notebook shell magic that creates data/ is replaced with os.makedirs"
+      },
+      "routes": [],
+      "evidence": [
+        {
+          "source": "src:braket-vqe-hydrogen",
+          "quote": "# initialize quantum device to run VQE over",
+          "locator": "VQE_chemistry_braket.ipynb, local simulator cell",
+          "supports": "code"
+        }
+      ]
+    },
+    {
+      "id": "ex:pulser-qubo",
+      "title": "QUBO adiabatic sequence on the local emulator",
+      "program_model": "analog_hamiltonian",
+      "sdk": "pulser",
+      "source_url": "https://raw.githubusercontent.com/pasqal-io/pulser/v1.9.1/tutorials/applications/QAA%20to%20solve%20a%20QUBO%20problem.ipynb",
+      "code": "import numpy as np\nimport matplotlib.pyplot as plt\nimport pulser\nimport pulser_simulation\nfrom scipy.optimize import minimize\nfrom scipy.spatial.distance import pdist, squareform\nQ = np.array(\n    [\n        [-10.0, 19.7365809, 19.7365809, 5.42015853, 5.42015853],\n        [19.7365809, -10.0, 20.67626392, 0.17675796, 0.85604541],\n        [19.7365809, 20.67626392, -10.0, 0.85604541, 0.17675796],\n        [5.42015853, 0.17675796, 0.85604541, -10.0, 0.32306662],\n        [5.42015853, 0.85604541, 0.17675796, 0.32306662, -10.0],\n    ]\n)\nbitstrings = [np.binary_repr(i, len(Q)) for i in range(2 ** len(Q))]\ncosts = []\n# this takes exponential time with the dimension of the QUBO\nfor b in bitstrings:\n    z = np.array(list(b), dtype=int)\n    cost = z.T @ Q @ z\n    costs.append(cost)\nzipped = zip(bitstrings, costs)\nsort_zipped = sorted(zipped, key=lambda x: x[1])\nprint(sort_zipped[:3])\ndevice = pulser.DigitalAnalogDevice\ndevice.print_specs()\ndef evaluate_mapping(\n    new_coords: np.ndarray, Q: np.ndarray, device: pulser.devices.Device\n):\n    \"\"\"Cost function to minimize. Ideally, the pairwise distances are conserved.\"\"\"\n    new_coords = np.reshape(new_coords, (len(Q), 2))\n    # computing the matrix of the distances between all coordinate pairs\n    new_Q = squareform(device.interaction_coeff / pdist(new_coords) ** 6)\n    return np.linalg.norm(new_Q - Q)\ncosts = []\nnp.random.seed(0)\nx0 = np.random.random(len(Q) * 2)\nres = minimize(\n    evaluate_mapping,\n    x0,\n    args=(Q, device),\n    method=\"Nelder-Mead\",\n    tol=1e-6,\n    options={\"maxiter\": 200000, \"maxfev\": None},\n)\ncoords = np.reshape(res.x, (len(Q), 2))\nqubits = {f\"q{i}\": coord for (i, coord) in enumerate(coords)}\nreg = pulser.Register(qubits)\nreg.draw(\n    blockade_radius=device.rydberg_blockade_radius(1.0),\n    draw_graph=False,\n    draw_half_radius=True,\n)\nsequence = pulser.Sequence(reg, device)\nsequence.declare_channel(\"rydberg_global\", \"rydberg_global\")\n# We choose a median value between the min and the max\nOmega = np.median(Q[Q > 0].flatten())\ndelta_0 = -5  # just has to be negative\ndelta_f = -delta_0  # just has to be positive\nT = 4000  # time in ns, we choose a time long enough to ensure the propagation of information in the system\nadiabatic_pulse = pulser.Pulse(\n    pulser.InterpolatedWaveform(T, [1e-9, Omega, 1e-9]),\n    pulser.InterpolatedWaveform(T, [delta_0, 0, delta_f]),\n    0,\n)\nsequence.add(adiabatic_pulse, \"rydberg_global\")\nsequence.draw()\nsimul = pulser_simulation.QutipBackendV2(sequence)\nresults = simul.run()\ncount_dict = results.final_bitstrings\n# Plot the distribution\ncount_dict = dict(\n    sorted(count_dict.items(), key=lambda item: item[1], reverse=True)\n)\nindexes = [\"01011\", \"00111\"]  # QUBO solutions\ncolor_dict = {key: \"r\" if key in indexes else \"g\" for key in count_dict}\nplt.figure(figsize=(12, 6))\nplt.xlabel(\"bitstrings\")\nplt.ylabel(\"counts\")\nplt.bar(\n    count_dict.keys(),\n    count_dict.values(),\n    width=0.5,\n    color=color_dict.values(),\n)\nplt.xticks(rotation=\"vertical\")\nplt.show()\ndef get_cost_colouring(bitstring, Q):\n    z = np.array(list(bitstring), dtype=int)\n    cost = z.T @ Q @ z\n    return cost\n\n\ndef get_cost(counter, Q):\n    cost = sum(counter[key] * get_cost_colouring(key, Q) for key in counter)\n    return cost / sum(counter.values())  # Divide by total samples\ncost = []\nfor T in 1000 * np.linspace(1, 10, 10):\n    seq = pulser.Sequence(reg, pulser.DigitalAnalogDevice)\n    seq.declare_channel(\"ising\", \"rydberg_global\")\n    adiabatic_pulse = pulser.Pulse(\n        pulser.InterpolatedWaveform(T, [1e-9, Omega, 1e-9]),\n        pulser.InterpolatedWaveform(T, [delta_0, 0, delta_f]),\n        0,\n    )\n    seq.add(adiabatic_pulse, \"ising\")\n    simul = pulser_simulation.QutipBackendV2(seq)\n    results = simul.run()\n    count_dict = results.final_bitstrings\n    cost.append(get_cost(count_dict, Q) / 3)\nplt.figure(figsize=(12, 6))\nplt.plot(range(1, 11), np.array(cost), \"--o\")\nplt.xlabel(\"total time evolution (µs)\", fontsize=14)\nplt.ylabel(\"cost\", fontsize=14)\nplt.show()\n",
+      "harness_path": "examples/pulser-qubo/harness.py",
+      "substitution": "The tutorial already calls pulser_simulation.QutipBackendV2; harness.py is identical to official.py",
+      "sim_check": {
+        "status": "not_run",
+        "simulator": "pulser_simulation.QutipBackendV2",
+        "substitution": "The tutorial already calls pulser_simulation.QutipBackendV2; harness.py is identical to official.py"
+      },
+      "routes": [],
+      "evidence": [
+        {
+          "source": "src:pulser-qubo-notebook",
+          "quote": "simul = pulser_simulation.QutipBackendV2(sequence)",
+          "locator": "QAA to solve a QUBO problem.ipynb, QutipBackendV2 cell",
+          "supports": "code"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "linear systems algorithm",
+      "why": "The fetched official galleries (IBM Quantum tutorials, Amazon Braket examples, PennyLane demos, Pulser, Perceval, Azure Quantum's Grover tutorial, InQuanto, D-Wave examples) do not include a worked Harrow-Hassidim-Lloyd linear-systems example. Amazon Braket's quantum phase estimation notebook names that algorithm as a subroutine of eigenvalue estimation, which is recorded as uc:aws-phase-estimation.",
+      "would_need": "An official tutorial whose text walks through solving a linear system."
+    },
+    {
+      "topic": "D-Wave Ocean documentation index",
+      "why": "https://docs.dwavequantum.com/en/latest/examples redirected to a Read the Docs login page, so the hosted examples index was not readable. Official example READMEs were taken from the public dwave-examples GitHub organization instead.",
+      "would_need": "A publicly fetchable copy of the Ocean examples index, or a Read the Docs login the project is not using."
+    },
+    {
+      "topic": "IonQ case-study article bodies",
+      "why": "Fetched IonQ pages for cargo loading (Airbus), battery chemistry, image recognition, and the DESY flight-gate post contained navigation and a short summary. The cargo page says 'No items found' after one sentence and does not state a program model, so those pages were not recorded as use cases.",
+      "would_need": "The article HTML or a PDF that states the problem and the program model."
+    },
+    {
+      "topic": "Pattison Food Group program model",
+      "why": "D-Wave's Pattison Food Group case-story PDF describes e-commerce driver scheduling on the D-Wave platform and does not name annealing, QUBO, CQM, or Ising.",
+      "would_need": "A D-Wave or Pattison document that names the model used for that scheduler."
+    },
+    {
+      "topic": "EDF program model",
+      "why": "Pasqal's EDF success-story body describes a physical simulator for wind farms and photovoltaic plants. The words 'neutral atom' appear in a related-post title on the same page, not in that section.",
+      "would_need": "The body of the EV-charging post, or a sentence in the success story that names the program model."
+    },
+    {
+      "topic": "Customer headquarters not captured",
+      "why": "DENSO's site returned 403. Thales returned an Incapsula interstitial. Fetched EDF, BASF, and Crédit Agricole CIB pages did not state a headquarters address. Japan Tobacco was named on D-Wave's applications page without an address. Those use cases name the customer in the statement and do not set a customer org id.",
+      "would_need": "A company about, imprint, or filing page that states the headquarters city or address."
+    },
+    {
+      "topic": "PennyLane spin-Hamiltonian demo",
+      "why": "The fetched PennyLane notebook 'How to build spin Hamiltonians' constructs Fermi-Hubbard and Heisenberg Hamiltonians and does not mention a circuit, pulse, or anneal. It was not recorded, to avoid assigning a program model the notebook does not state.",
+      "would_need": "A section of that demo that states how the Hamiltonian is run."
+    },
+    {
+      "topic": "Azure Quantum chemistry tutorial",
+      "why": "The fetched Azure Quantum overview lists a Q# Grover tutorial and resource-estimation pages. A chemistry sample was not on that page.",
+      "would_need": "An official Azure Quantum chemistry sample page."
+    }
+  ]
+}

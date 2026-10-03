@@ -1,0 +1,322 @@
+{
+  "topic": "today",
+  "verifier": "gpt-5.6-sol-counsel",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:today-braket-devices",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-braket-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page identifies an update date of 2026-09-25; the research record uses the 2026-10-02 fetch date as document_date."
+    },
+    {
+      "source": "src:today-braket-submit",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-braket-to-qpu",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-ibm-computers",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-ibm-plans",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-ibm-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-ibm-hello",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-ionq-backends",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-ionq-qiskit",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-ionq-cost",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-azure-targets",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-azure-pricing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-azure-ionq",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-azure-pasqal",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-azure-quantinuum",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-azure-rigetti",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-dwave-cloud",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-pasqal-qpu",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page states Last updated Aug 26, 2026; the research record uses the 2026-10-02 fetch date as document_date."
+    },
+    {
+      "source": "src:today-pasqal-start",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-pasqal-billing",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page states Last updated Aug 26, 2026; the research record uses the 2026-10-02 fetch date as document_date."
+    },
+    {
+      "source": "src:today-iqm-resonance",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page metadata gives dateModified 2026-06-18; the research record uses the 2026-10-02 fetch date as document_date."
+    },
+    {
+      "source": "src:today-oqc-cloud",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-qh-access",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:today-google-concepts",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page states Last updated 2026-09-22 UTC; the research record uses the 2026-10-02 fetch date as document_date."
+    },
+    {
+      "source": "src:today-google-engine",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page states Last updated 2026-09-22 UTC; the research record uses the 2026-10-02 fetch date as document_date."
+    },
+    {
+      "source": "src:today-aqt-products",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "The live page metadata gives dateModified 2026-09-23; the research record uses the 2026-10-02 fetch date as document_date."
+    },
+    {
+      "source": "src:nature-gqai-2024-below-threshold",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:google-quantum-ai-about-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    },
+    {
+      "source": "src:google-locations",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched from the cited live URL with the exact declared counsel user agent; the document identity, type, tier, and recorded publication/update date (or undated live-page convention) are consistent."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:google",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Programmatic normalized-text comparison found the quoted Googleplex address in the saved live page; it supports existence and Mountain View city-level headquarters."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Programmatic normalized-text comparison found the sentence verbatim in text extracted from the saved official PDF."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Programmatic normalized-text comparison found the quote in the saved Nature article; it supports superconducting modality."
+    },
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote found programmatically and supports approved-list-only restricted access."
+    },
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote found programmatically and directly supports unavailable public access as of the fetch date."
+    },
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "Quote found verbatim, but it only identifies willow_pink and its Santa Barbara location; it does not support the evidence item's declared availability field. It also does not say willow_pink is sys:google-willow."
+    },
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote found programmatically; the same saved official page explicitly describes Cirq as implementing the quantum circuit model and uploading circuits to Quantum Engine."
+    },
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote found programmatically and independently supports lack of public API access."
+    },
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote found programmatically and directly states the non-reservation runtime and total-shot restrictions."
+    },
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "evidence_index": 0,
+      "path": "limits.max_shots",
+      "verdict": "verified",
+      "notes": "Quote found programmatically and directly supports the 1,500,000 total-shot maximum during non-reservation times."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "acc:google-qai-willow-pink",
+      "verdict": "publish_flagged",
+      "reasons": "Official Google documentation supports a restricted, presently unavailable route, Cirq gate-circuit programs, and the stated non-reservation limits. Keep system_hint willow_pink with no system id: the page does not identify it as sys:google-willow. Remove two misclassified optional fields: the no-public-access sentence is not an availability window, and the processor-identification sentence is not an instruction for switching from a simulator to hardware. The cited Google pages also use fetch dates instead of their stated 2026-09-22 update dates.",
+      "corrections": {
+        "availability.windows": null,
+        "to_hardware": null
+      }
+    }
+  ],
+  "summary": "Counsel fetched all 30 sources from their live URLs with the required declared user agent and programmatically checked all 10 evidence items. Entity verdicts: 0 pass, 1 flag, 0 reject. The route remains unavailable and intentionally unresolved: willow_pink must not be equated with sys:google-willow. Worst issues: one route quote does not support its declared availability label; to_hardware is only a processor-identification sentence; availability.windows is not a window; and seven source records substitute fetch dates for explicit page update dates. Rejected ids: none."
+}

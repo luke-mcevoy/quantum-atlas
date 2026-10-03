@@ -5,3 +5,9 @@ dist/
 app/test-results/
 app/playwright-report/
 scratch/
+examples/.venvs/
+examples/fragments/
+__pycache__/
+examples/**/data/
+examples/**/*.png
+examples/**/*.pkl

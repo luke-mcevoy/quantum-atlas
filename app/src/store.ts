@@ -1,7 +1,8 @@
 import { create } from "zustand";
 import { MODALITIES, type Modality } from "./atlas";
+import type { ProblemPick } from "./display";
 
-export type Mode = "modality" | "roadmap" | "access";
+export type Mode = "modality" | "roadmap" | "access" | "today" | "track";
 
 export interface Hover { id: string; kind: string; x: number; y: number }
 
@@ -25,6 +26,10 @@ interface State {
   flyTo: { lon: number; lat: number; zoom?: number; t: number } | null;
   story: { id: string; step: number } | null;
   storyPicker: boolean;
+  /** Run today: which problem class the board is filtered to. */
+  problem: ProblemPick;
+  /** Track record: which company's ledger is open. */
+  trackOrg: string | null;
 
   setMode: (m: Mode) => void;
   toggleModality: (m: Modality) => void;
@@ -38,7 +43,7 @@ interface State {
 }
 
 const readHash = () => new URLSearchParams(typeof location !== "undefined" ? location.hash.slice(1) : "");
-const MODES: Mode[] = ["modality", "roadmap", "access"];
+const MODES: Mode[] = ["modality", "roadmap", "access", "today", "track"];
 
 export const useStore = create<State>((set, get) => ({
   mode: (MODES.find((m) => m === readHash().get("mode")) ?? "modality"),
@@ -59,6 +64,8 @@ export const useStore = create<State>((set, get) => ({
   flyTo: null,
   story: null,
   storyPicker: false,
+  problem: "all",
+  trackOrg: null,
 
   setMode: (mode) => set({ mode }),
   toggleModality: (m) => {

@@ -1,0 +1,1963 @@
+{
+  "topic": "history_gate_sc",
+  "verifier": "independent counsel",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:ibm-roadmap-blog-2020",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-roadmap-blog-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-osprey-pr-2022",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-utility-blog-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-eagle-pr-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ibm-qdc-blog-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:rigetti-merger-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:rigetti-investor-pdf-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Quote checked against the company-hosted PDF. data.sec.gov confirmed accession 0001193125-21-292696 exists, but efts.sec.gov returned no matching exhibit text and the single Wayback attempt returned 429; this is not verified as the SEC exhibit."
+    },
+    {
+      "source": "src:rigetti-aspen-m-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:iqm-pr-2024-07-15",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-roadmap-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Live page was reachable and quotes matched, but the copyright year does not establish the roadmap's publication date."
+    },
+    {
+      "source": "src:oqc-pr-2025-06-19",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:oqc-series-c-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:google-locations",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Live page was reachable and quote matched, but no publication date was displayed; document_date is the access date."
+    },
+    {
+      "source": "src:google-quantum-hardware",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "Live page was reachable and quote matched, but no publication date was displayed; document_date is the access date."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:ibm",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "The dateline supports IBM's presence and the announcement date, but does not establish Armonk as headquarters."
+    },
+    {
+      "entity": "co:ibm",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "The locations listing supports the Googleplex address, but does not identify it as headquarters."
+    },
+    {
+      "entity": "co:google",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "A Berkeley dateline does not by itself establish headquarters."
+    },
+    {
+      "entity": "co:rigetti",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "The Espoo dateline supports location of the release, not headquarters city; separate evidence supports only headquarters country."
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:iqm",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oqc",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "A Reading dateline does not by itself establish headquarters."
+    },
+    {
+      "entity": "co:oqc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-eagle-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-eagle-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-osprey-2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-osprey-2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-condor-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-condor-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-heron-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-heron-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-serverless-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-serverless-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-system-two-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-system-two-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-heron-5000-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:ibm-hist-heron-5000-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:rigetti-hist-aspen-m-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ms:rigetti-hist-aspen-m-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-eagle-127-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-eagle-127-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-eagle-127-2021",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-eagle-realtime-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-eagle-realtime-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-osprey-433-2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-osprey-433-2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-osprey-433-2022",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-condor-1121-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-condor-1121-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-condor-1121-2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-condor-1121-2023",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-osprey-433",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-osprey-433",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-osprey-433",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-condor-1121",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-condor-1121",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-condor-1121",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-133-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-133-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-133-2023",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-462-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-462-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-462-2024",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-1386-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-1386-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-1386-2024",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-1386-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-1386-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-1386-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-4158-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-4158-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-4158-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-serverless-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-serverless-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-threads-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-threads-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-errmit-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-errmit-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-system-two-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-system-two-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-4000q-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-4000q-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-4000q-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-5000-gates-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-5000-gates-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-5000-gates-2024",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-starling-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-starling-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-starling-2029",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-bluejay-2033",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-bluejay-2033",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-bluejay-2033",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-qiskit10-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-qiskit10-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-prod-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-prod-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-ccoupler-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-ccoupler-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-80q-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-80q-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-80q-2021",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-1000q-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-1000q-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-1000q-2024",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-4000q-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-4000q-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:rigetti-hist-4000q-2026",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-fidelity-9994-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-fidelity-9994-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-fidelity-9994-2026",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-fidelity-9994-2026",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-qec-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-qec-2028",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-qec-2028",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-qec-2028",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-ft-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-ft-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:iqm-hist-ft-2030",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-genesis-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-genesis-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-genesis-2026",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "A copyright year does not establish when the target was stated."
+    },
+    {
+      "entity": "tgt:oqc-hist-genesis-2026",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-titan-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-titan-2028",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-titan-2028",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-athena-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-athena-2031",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-athena-2031",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-athena-2031",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-atlas-2034",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-atlas-2034",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-atlas-2034",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "tgt:oqc-hist-atlas-2034",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2020-scaling",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2020-scaling",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2022-qcs",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2022-qcs",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2022-osprey-pr",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2022-osprey-pr",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2023-utility",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2023-utility",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2024-qdc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:ibm-2024-qdc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:rigetti-2021-merger",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:rigetti-2021-merger",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:rigetti-2021-deck",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:rigetti-2021-deck",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:rigetti-2021-deck",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:iqm-2026-roadmap",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:iqm-2026-roadmap",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "rd:oqc-2026-roadmap",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "A copyright year does not establish publication date."
+    },
+    {
+      "entity": "rd:oqc-2026-roadmap",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-eagle-127-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-eagle-127-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-eagle-127-2021",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-eagle-realtime-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-eagle-realtime-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-osprey-433-2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-osprey-433-2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-osprey-433-2022",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-condor-1121-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-condor-1121-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-condor-1121-2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-2022-osprey-433",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-2022-osprey-433",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-2022-osprey-433",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-2022-condor-1121",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-2022-condor-1121",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-2022-condor-1121",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-heron-133-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-heron-133-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-heron-133-2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-462-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-462-2024",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "A two-chip Heron proof-of-concept does not establish delivery of the targeted 462-qubit Flamingo processor."
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-462-2024",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "A CNOT error benchmark does not establish delivery of the targeted 462-qubit Flamingo processor."
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-462-2024",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-462-2024",
+      "evidence_index": 0,
+      "path": "delivered_value",
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-1386-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-1386-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-1386-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-1386-2025",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "A hoped-for 2026 c-coupler demonstration is not the same metric as a 1,386-qubit multi-chip processor."
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-1386-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-4158-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-4158-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-serverless-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-serverless-2023",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "Deployment as beta does not establish integration into the core software stack, the target's stated condition."
+    },
+    {
+      "entity": "out:ibm-hist-serverless-2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-threads-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-errmit-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-errmit-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-errmit-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-system-two-2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-system-two-2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-system-two-2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-4000q-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-4000q-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-heron-5000-gates-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-heron-5000-gates-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-heron-5000-gates-2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-starling-2029",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-starling-2029",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-bluejay-2033",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-bluejay-2033",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-qiskit10-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-prod-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-ccoupler-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-ccoupler-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:rigetti-hist-80q-2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:rigetti-hist-80q-2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:rigetti-hist-80q-2021",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:rigetti-hist-1000q-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:rigetti-hist-1000q-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:rigetti-hist-4000q-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:rigetti-hist-4000q-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:iqm-hist-fidelity-9994-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:iqm-hist-fidelity-9994-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:iqm-hist-qec-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:iqm-hist-qec-2028",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:iqm-hist-ft-2030",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:iqm-hist-ft-2030",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-genesis-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-genesis-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-titan-2028",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-titan-2028",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-athena-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-athena-2031",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-atlas-2034",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "out:oqc-hist-atlas-2034",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2021",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2021",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2021",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2021",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2021",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2022",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2022",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2022",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2022",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2022",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2023",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2023",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2023",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2023",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2023",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2024",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2024",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2024",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2025",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2025",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2026",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2026",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "verified"
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2026",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "ms:ibm-hist-eagle-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ibm-hist-osprey-2022",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ibm-hist-condor-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ibm-hist-heron-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ibm-hist-serverless-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ibm-hist-system-two-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:ibm-hist-heron-5000-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "ms:rigetti-hist-aspen-m-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-eagle-127-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-eagle-realtime-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-osprey-433-2022",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-condor-1121-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-osprey-433",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-2022-condor-1121",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-133-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-462-2024",
+      "verdict": "publish_flagged",
+      "reasons": "The target is verified; no matching 462-qubit delivery was established."
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-1386-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-1386-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The 1,386-qubit target is verified, but the linked 2026 c-coupler demonstration is a different metric and does not establish a revision of this target.",
+      "corrections": {
+        "status": "open",
+        "superseded_by": null
+      }
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-4158-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-serverless-2023",
+      "verdict": "publish_flagged",
+      "reasons": "The target is verified, but beta deployment did not establish the target's stated core-stack integration condition.",
+      "corrections": {
+        "status": "open",
+        "met_by": null
+      }
+    },
+    {
+      "entity": "tgt:ibm-hist-threads-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-errmit-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-system-two-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-4000q-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-heron-5000-gates-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-starling-2029",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-bluejay-2033",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-qiskit10-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-flamingo-prod-2025",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:ibm-hist-kookaburra-ccoupler-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:rigetti-hist-80q-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:rigetti-hist-1000q-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:rigetti-hist-4000q-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:iqm-hist-fidelity-9994-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:iqm-hist-qec-2028",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "tgt:iqm-hist-ft-2030",
+      "verdict": "reject",
+      "reasons": "The source says “2030+”, not a deadline of 31 Dec 2030, and does not identify the one-million-qubit figure as logical qubits. The due date and metric cannot be published as written."
+    },
+    {
+      "entity": "tgt:oqc-hist-genesis-2026",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "tgt:oqc-hist-titan-2028",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "tgt:oqc-hist-athena-2031",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "tgt:oqc-hist-atlas-2034",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "rd:ibm-2020-scaling",
+      "verdict": "publish_flagged",
+      "reasons": "The cited document and listed items are verified, but completeness remains partial; counsel did not find a basis to upgrade it to all_items."
+    },
+    {
+      "entity": "rd:ibm-2022-qcs",
+      "verdict": "publish_flagged",
+      "reasons": "The cited document and listed items are verified, but completeness remains partial; counsel did not find a basis to upgrade it to all_items."
+    },
+    {
+      "entity": "rd:ibm-2022-osprey-pr",
+      "verdict": "publish_flagged",
+      "reasons": "The cited document and listed items are verified, but completeness remains partial; counsel did not find a basis to upgrade it to all_items."
+    },
+    {
+      "entity": "rd:ibm-2023-utility",
+      "verdict": "publish_flagged",
+      "reasons": "The cited document and listed items are verified, but completeness remains partial; counsel did not find a basis to upgrade it to all_items."
+    },
+    {
+      "entity": "rd:ibm-2024-qdc",
+      "verdict": "publish_flagged",
+      "reasons": "The cited document and listed items are verified, but completeness remains partial; counsel did not find a basis to upgrade it to all_items."
+    },
+    {
+      "entity": "rd:rigetti-2021-merger",
+      "verdict": "publish_flagged",
+      "reasons": "The cited document and listed items are verified, but completeness remains partial; counsel did not find a basis to upgrade it to all_items."
+    },
+    {
+      "entity": "rd:rigetti-2021-deck",
+      "verdict": "publish_flagged",
+      "reasons": "Partial document. Forecast quotes match the company-hosted PDF, but the allowed SEC endpoints did not expose the exhibit text and Wayback returned 429; do not describe this copy as the SEC exhibit."
+    },
+    {
+      "entity": "rd:iqm-2026-roadmap",
+      "verdict": "publish_flagged",
+      "reasons": "The cited document and listed items are verified, but completeness remains partial; counsel did not find a basis to upgrade it to all_items."
+    },
+    {
+      "entity": "rd:oqc-2026-roadmap",
+      "verdict": "publish_flagged",
+      "reasons": "The page content is verified, but the roadmap is partial and its publication date is unsupported: the page supplies only a copyright year."
+    },
+    {
+      "entity": "out:ibm-hist-eagle-127-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-eagle-realtime-2021",
+      "verdict": "publish_flagged",
+      "reasons": "This is an absence finding, not an acknowledged miss. Publish only with the search-log caveat."
+    },
+    {
+      "entity": "out:ibm-hist-osprey-433-2022",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-condor-1121-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-2022-osprey-433",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-2022-condor-1121",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-heron-133-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-462-2024",
+      "verdict": "publish_flagged",
+      "reasons": "The cited proof-of-concept used two Heron R2 chips and did not match the 462-qubit target. Publish only as no delivery found with the checked-source caveat.",
+      "corrections": {
+        "result": "no_delivery_found",
+        "delivered_value": null,
+        "statement": "IBM's 10 May 2022 roadmap targeted a 462-qubit Flamingo processor in 2024; IBM's 13 Nov 2024 post instead described a proof-of-concept connecting two Heron R2 chips, and no matching 462-qubit delivery was found in the sources checked.",
+        "search_log": {
+          "checked": [
+            "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+            "https://www.ibm.com/quantum/blog/qdc-2024",
+            "https://www.ibm.com/roadmaps/quantum/"
+          ],
+          "queries": [
+            "Flamingo 462 qubits",
+            "462-qubit Flamingo delivery"
+          ],
+          "as_of": "2026-10-02"
+        }
+      }
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-1386-2024",
+      "verdict": "publish_flagged",
+      "reasons": "This is an absence finding, not an acknowledged miss. Publish only with the search-log caveat."
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-1386-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The later c-coupler statement is not the same 1,386-qubit commitment. Publish only as no delivery found with the checked-source caveat.",
+      "corrections": {
+        "result": "no_delivery_found",
+        "resolved_on": null,
+        "statement": "IBM's 10 May 2022 roadmap targeted a 1,386-qubit Kookaburra processor in 2025; later IBM roadmap material describes different Kookaburra demonstrations, and no matching 1,386-qubit delivery was found in the sources checked.",
+        "search_log": {
+          "checked": [
+            "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+            "https://www.ibm.com/quantum/blog/qdc-2024",
+            "https://www.ibm.com/roadmaps/quantum/"
+          ],
+          "queries": [
+            "Kookaburra 1,386 qubits",
+            "1386-qubit Kookaburra delivery"
+          ],
+          "as_of": "2026-10-02"
+        }
+      }
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-4158-2025",
+      "verdict": "publish_flagged",
+      "reasons": "No matching delivery was found; publish only with the search-log caveat.",
+      "corrections": {
+        "search_log": {
+          "checked": [
+            "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+            "https://www.ibm.com/quantum/blog/qdc-2024",
+            "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+            "https://www.ibm.com/roadmaps/quantum/"
+          ],
+          "queries": [
+            "Kookaburra 4,158 qubits",
+            "4158-qubit Kookaburra",
+            "three Kookaburra processors"
+          ],
+          "as_of": "2026-10-02"
+        }
+      }
+    },
+    {
+      "entity": "out:ibm-hist-serverless-2023",
+      "verdict": "publish_flagged",
+      "reasons": "Beta deployment is narrower than integration into IBM's core software stack. Publish only as no delivery found with the checked-source caveat.",
+      "corrections": {
+        "result": "no_delivery_found",
+        "resolved_on": null,
+        "delivered_by": null,
+        "statement": "IBM's 10 May 2022 roadmap targeted integrating Quantum Serverless into its core software stack in 2023; IBM's 4 Dec 2023 post announced deployment as beta, which does not establish that integration.",
+        "search_log": {
+          "checked": [
+            "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+            "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+            "https://www.ibm.com/roadmaps/quantum/"
+          ],
+          "queries": [
+            "Quantum Serverless core software stack integration",
+            "Quantum Serverless beta"
+          ],
+          "as_of": "2026-10-02"
+        }
+      }
+    },
+    {
+      "entity": "out:ibm-hist-threads-2023",
+      "verdict": "publish_flagged",
+      "reasons": "This is an absence finding, not an acknowledged miss. Publish only with the search-log caveat."
+    },
+    {
+      "entity": "out:ibm-hist-errmit-2025",
+      "verdict": "reject",
+      "reasons": "The search log does not check post-due 2025-2026 product documentation, while the entity's own evidence describes related mitigation functionality. The absence finding is not sufficiently supported."
+    },
+    {
+      "entity": "out:ibm-hist-system-two-2023",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-4000q-2025",
+      "verdict": "publish_flagged",
+      "reasons": "No matching delivery was found; publish only with the search-log caveat.",
+      "corrections": {
+        "search_log": {
+          "checked": [
+            "https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two",
+            "https://www.ibm.com/quantum/blog/qdc-2024",
+            "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+            "https://www.ibm.com/roadmaps/quantum/"
+          ],
+          "queries": [
+            "IBM 4,000 qubits 2025",
+            "4000-qubit system delivery"
+          ],
+          "as_of": "2026-10-02"
+        }
+      }
+    },
+    {
+      "entity": "out:ibm-hist-heron-5000-gates-2024",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-starling-2029",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-bluejay-2033",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:ibm-hist-qiskit10-2024",
+      "verdict": "reject",
+      "reasons": "The no-delivery finding is contradicted by IBM's fetched Qiskit 1.0 release summary, which states the full SDK release was available as of February 15, 2024. That source is not present in the research file, so counsel cannot repair the evidence chain."
+    },
+    {
+      "entity": "out:ibm-hist-flamingo-prod-2025",
+      "verdict": "publish_flagged",
+      "reasons": "No matching delivery was found; publish only with the search-log caveat.",
+      "corrections": {
+        "search_log": {
+          "checked": [
+            "https://www.ibm.com/quantum/blog/qdc-2024",
+            "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap",
+            "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+            "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+            "https://www.ibm.com/roadmaps/quantum/"
+          ],
+          "queries": [
+            "production-ready Flamingo 2025",
+            "Flamingo-based system clients"
+          ],
+          "as_of": "2026-10-02"
+        }
+      }
+    },
+    {
+      "entity": "out:ibm-hist-kookaburra-ccoupler-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:rigetti-hist-80q-2021",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:rigetti-hist-1000q-2024",
+      "verdict": "publish_flagged",
+      "reasons": "No matching delivery was found; publish only with the search-log caveat.",
+      "corrections": {
+        "search_log": {
+          "checked": [
+            "https://www.rigetti.com/merger-announcement",
+            "https://www.rigetti.com/uploads/Rigetti-Investor-Presentation.pdf",
+            "https://www.rigetti.com/news/rigetti-computing-announces-next-generation-40q-and-80q-quantum-systems",
+            "https://www.rigetti.com/news"
+          ],
+          "queries": [
+            "Rigetti 1,000 qubits 2024",
+            "Rigetti 1000-qubit system"
+          ],
+          "as_of": "2026-10-02"
+        }
+      }
+    },
+    {
+      "entity": "out:rigetti-hist-4000q-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:iqm-hist-fidelity-9994-2026",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:iqm-hist-qec-2028",
+      "verdict": "publish",
+      "reasons": "Material fields are supported by verified Tier 1 or Tier 2 evidence."
+    },
+    {
+      "entity": "out:iqm-hist-ft-2030",
+      "verdict": "reject",
+      "reasons": "The pending outcome inherits an unsupported 31 Dec 2030 deadline from wording that says “2030+”."
+    },
+    {
+      "entity": "out:oqc-hist-genesis-2026",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "out:oqc-hist-titan-2028",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "out:oqc-hist-athena-2031",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "out:oqc-hist-atlas-2034",
+      "verdict": "publish_flagged",
+      "reasons": "The roadmap wording and target year are verified, but the live page does not provide a publication date; its copyright year is not a publication date."
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2021",
+      "verdict": "publish_flagged",
+      "reasons": "Projected revenue is verified against the company-hosted investor PDF. No same-period GAAP revenue actual is present, and the PDF was not independently confirmed as the SEC-filed exhibit."
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2022",
+      "verdict": "publish_flagged",
+      "reasons": "Projected revenue is verified against the company-hosted investor PDF. No same-period GAAP revenue actual is present, and the PDF was not independently confirmed as the SEC-filed exhibit."
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2023",
+      "verdict": "publish_flagged",
+      "reasons": "Projected revenue is verified against the company-hosted investor PDF. No same-period GAAP revenue actual is present, and the PDF was not independently confirmed as the SEC-filed exhibit."
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2024",
+      "verdict": "publish_flagged",
+      "reasons": "Projected revenue is verified against the company-hosted investor PDF. No same-period GAAP revenue actual is present, and the PDF was not independently confirmed as the SEC-filed exhibit."
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2025",
+      "verdict": "publish_flagged",
+      "reasons": "Projected revenue is verified against the company-hosted investor PDF. No same-period GAAP revenue actual is present, and the PDF was not independently confirmed as the SEC-filed exhibit."
+    },
+    {
+      "entity": "prj:rigetti-revenue-cy2026",
+      "verdict": "publish_flagged",
+      "reasons": "Projected revenue is verified against the company-hosted investor PDF. No same-period GAAP revenue actual is present, and the PDF was not independently confirmed as the SEC-filed exhibit."
+    }
+  ],
+  "summary": "47 publish, 36 publish_flagged, 4 reject. Material problems: Flamingo's two-chip proof-of-concept did not meet the 462-qubit wording; Quantum Serverless beta did not establish core-stack integration; Kookaburra's later coupler work was not the same 1,386-qubit target; IQM's “2030+” phase was converted incorrectly to a 2030 deadline and the one-million-qubit figure was misclassified; IBM's Qiskit release contradicts a no-delivery outcome; the error-mitigation absence search was not credible; OQC's roadmap has no publication date; and Rigetti projections have no actuals and were verified only against the company PDF, not the SEC exhibit. Rejected ids: tgt:iqm-hist-ft-2030, out:ibm-hist-errmit-2025, out:ibm-hist-qiskit10-2024, out:iqm-hist-ft-2030."
+}

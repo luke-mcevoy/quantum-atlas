@@ -1,0 +1,16 @@
+# The tutorial already sets the device with this line:
+#   local_sim = LocalSimulator()
+# and sets n_shots = 0, which the same cell describes as exact statevector expectation values.
+# That device line is unchanged.
+# The notebook shell magic `!mkdir -p "data"` is replaced with os.makedirs, because the
+# following cell says a directory named data must exist for MolecularData.
+--- official.py	2026-10-02 23:08:44
++++ harness.py	2026-10-02 23:08:44
+@@ -1,5 +1,6 @@
+ # create a directory named "data" to store intermediate classical computation results from OpenFermion
+-!mkdir -p "data"
++import os
++os.makedirs("data", exist_ok=True)
+ # import required libraries
+ import os
+ import time

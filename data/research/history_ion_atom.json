@@ -1,0 +1,3659 @@
+{
+  "topic": "history_ion_atom",
+  "analyst": "history ion-atom analyst",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:ionq-edgar-ex992-index",
+      "title": "EDGAR full-text search hit for dMY Technology Group, Inc. III Form 8-K Exhibit 99.2",
+      "publisher": "U.S. SEC (filer: dMY Technology Group, Inc. III)",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22algorithmic%20qubits%22&forms=8-K&dateRange=custom&startdt=2021-01-01&enddt=2022-06-30",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2021-03-08",
+      "accessed": "2026-10-02",
+      "identifier": "0001193125-21-072373"
+    },
+    {
+      "id": "src:ionq-spac-ex992",
+      "title": "Exhibit 99.2 to Form 8-K: Investor Presentation (IonQ / dMY Technology Group, Inc. III)",
+      "publisher": "U.S. SEC (filer: dMY Technology Group, Inc. III)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312521072373/d142872dex992.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2021-03-08",
+      "accessed": "2026-10-02",
+      "identifier": "0001193125-21-072373",
+      "archived_url": "https://web.archive.org/web/20260928011238id_/https://www.sec.gov/Archives/edgar/data/1824920/000119312521072373/d142872dex992.htm"
+    },
+    {
+      "id": "src:ionq-10k-fy2021",
+      "title": "IonQ, Inc. Form 10-K for the year ended December 31, 2021",
+      "publisher": "U.S. SEC (filer: IonQ, Inc.)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312522086738/d257705d10k.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2022-03-28",
+      "accessed": "2026-10-02",
+      "identifier": "0001193125-22-086738",
+      "archived_url": "https://web.archive.org/web/20220415000000id_/https://www.sec.gov/Archives/edgar/data/1824920/000119312522086738/d257705d10k.htm"
+    },
+    {
+      "id": "src:ionq-10k-fy2024",
+      "title": "IonQ, Inc. Form 10-K for the year ended December 31, 2024",
+      "publisher": "U.S. SEC (filer: IonQ, Inc.)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824920/000095017025027722/ionq-20241231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-02-26",
+      "accessed": "2026-10-02",
+      "identifier": "0000950170-25-027722",
+      "archived_url": "https://web.archive.org/web/20250315000000id_/https://www.sec.gov/Archives/edgar/data/1824920/000095017025027722/ionq-20241231.htm"
+    },
+    {
+      "id": "src:ionq-10k-fy2025",
+      "title": "IonQ, Inc. Form 10-K for the year ended December 31, 2025",
+      "publisher": "U.S. SEC (filer: IonQ, Inc.)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526071562/ionq-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-10-02",
+      "identifier": "0001193125-26-071562",
+      "archived_url": "https://web.archive.org/web/20260301000000id_/https://www.sec.gov/Archives/edgar/data/1824920/000119312526071562/ionq-20251231.htm"
+    },
+    {
+      "id": "src:ionq-q2-2023",
+      "title": "IonQ announces second quarter 2023 financial results",
+      "publisher": "IonQ, Inc.",
+      "url": "https://www.ionq.com/news/ionq-announces-second-quarter-2023-financial-results",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-08-10",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ionq-aq64-2025",
+      "title": "IonQ achieves #AQ 64",
+      "publisher": "IonQ, Inc.",
+      "url": "https://www.ionq.com/news/ionq-achieves-record-breaking-quantum-performance-milestone-of-aq-64",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-25",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ionq-roadmap-2024-07",
+      "title": "IonQ unveils accelerated roadmap and new technical milestones",
+      "publisher": "IonQ, Inc.",
+      "url": "https://ionq.com/news/ionq-unveils-accelerated-roadmap-and-new-technical-milestones-to-propel",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-07-22",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ionq-roadmap-2025-06",
+      "title": "IonQ's accelerated roadmap: turning quantum ambition into reality",
+      "publisher": "IonQ, Inc.",
+      "url": "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2025-06-13",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:honeywell-qv-2020-03",
+      "title": "Honeywell achieves breakthrough that will enable the world's most powerful quantum computer",
+      "publisher": "Honeywell",
+      "url": "https://www.honeywell.com/us/en/news/press-releases/2020/03/honeywell-achieves-breakthrough-that-will-enable-the-worlds-most-powerful-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2020-03-03",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:honeywell-h1-2020-10",
+      "title": "Honeywell releases next generation of quantum computer",
+      "publisher": "Honeywell",
+      "url": "https://www.honeywell.com/us/en/news/press-releases/2020/10/honeywell-releases-next-generation-of-quantum-computer",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2020-10-29",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quantinuum-qv-2021-11",
+      "title": "Quantum milestone: 16-fold increase in performance in a year",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/blog/quantum-milestone-16-fold-increase-in-performance-in-a-year",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2021-11-29",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quantinuum-roadmap-pr-2024",
+      "title": "Quantinuum unveils accelerated roadmap to universal, fully fault-tolerant quantum computing by 2030",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-unveils-accelerated-roadmap-to-achieve-universal-fault-tolerant-quantum-computing-by-2030",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-09-10",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quantinuum-tech-2024-09",
+      "title": "Technical perspective: by the end of the decade, we will deliver universal, fully fault-tolerant quantum computing",
+      "publisher": "Quantinuum",
+      "url": "https://www.quantinuum.com/blog/technical-perspective-by-the-end-of-the-decade-we-will-deliver-universal-fault-tolerant-quantum-computing",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-09-17",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:quera-roadmap-2024-01",
+      "title": "QuEra Computing releases a roadmap for advanced error-corrected quantum computers",
+      "publisher": "QuEra Computing",
+      "url": "https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-01-09",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pasqal-roadmap-2024-03",
+      "title": "Pasqal announces new roadmap focused on business utility and scaling beyond 1,000 qubits",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-announces-new-roadmap-focused-on-business-utility-and-scaling-beyond-1000-qubits-towards-fault-tolerance-era/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-03-12",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pasqal-1000-atoms-2024-06",
+      "title": "Pasqal exceeds 1,000 atoms in quantum processor",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-exceeds-1000-atoms-in-quantum-processor/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-06-25",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:pasqal-roadmap-2025-06",
+      "title": "Pasqal releases 2025 roadmap",
+      "publisher": "Pasqal",
+      "url": "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-12",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:atom-1000-qubits-2023-10",
+      "title": "Atom Computing first to exceed 1,000 qubits",
+      "publisher": "Atom Computing",
+      "url": "https://atom-computing.com/quantum-startup-atom-computing-first-to-exceed-1000-qubits/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-10-24",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:infleqtion-sqale-30-2026-09",
+      "title": "Infleqtion achieves 30 entangled logical qubits on its Sqale quantum computer",
+      "publisher": "Infleqtion",
+      "url": "https://infleqtion.com/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-09-24",
+      "accessed": "2026-10-02"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:ionq",
+      "name": "IonQ, Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 38.9897,
+        "lon": -76.9378,
+        "precision": "site",
+        "address": "4505 Campus Drive, College Park, MD 20740, USA"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "tickers": [
+        "NYSE:IONQ"
+      ],
+      "sec_cik": "0001824920",
+      "website": "https://ionq.com",
+      "evidence": [
+        {
+          "source": "src:ionq-10k-fy2025",
+          "quote": "4505 Campus Drive College Park , MD 20740",
+          "locator": "Form 10-K cover, address of principal executive offices",
+          "supports": "location"
+        },
+        {
+          "source": "src:ionq-aq64-2025",
+          "quote": "COLLEGE PARK, MD - September 25, 2025 - IonQ (NYSE: IONQ)",
+          "locator": "Dateline",
+          "supports": "existence"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "IonQ’s trapped ion technology underpins our architectural advantage.",
+          "locator": "Section: The Power of Trapped Ions",
+          "supports": "modality"
+        },
+        {
+          "source": "src:ionq-edgar-ex992-index",
+          "quote": "\"ciks\":[\"0001824920\"]",
+          "locator": "EDGAR hit for Exhibit 99.2",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:honeywell",
+      "name": "Honeywell",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 35.2271,
+        "lon": -80.8431,
+        "precision": "city",
+        "address": "Charlotte, N.C."
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "tickers": [
+        "NYSE:HON"
+      ],
+      "website": "https://www.honeywell.com",
+      "evidence": [
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "CHARLOTTE, N.C., March 3, 2020 -- Honeywell (NYSE: HON)",
+          "locator": "Dateline",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "Honeywell’s quantum computer uses trapped-ion technology",
+          "locator": "Body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:quantinuum",
+      "name": "Quantinuum",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 39.928,
+        "lon": -105.131,
+        "precision": "city",
+        "address": "Broomfield, Colorado"
+      },
+      "modalities": [
+        "trapped_ion"
+      ],
+      "website": "https://www.quantinuum.com",
+      "evidence": [
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "Broomfield, Colorado and London, UK, September 10 th , 2024 — Today, Quantinuum",
+          "locator": "Dateline",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "trapped-ion based quantum systems",
+          "locator": "Body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:quera",
+      "name": "QuEra Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "precision": "city",
+        "address": "Boston, Massachusetts"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "website": "https://www.quera.com",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "BOSTON, MASSACHUSETTS, January 9, 2024 – QuEra Computing",
+          "locator": "Dateline",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "quantum computers using neutral atoms",
+          "locator": "Body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:pasqal",
+      "name": "Pasqal",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.7146,
+        "lon": 2.2453,
+        "precision": "city",
+        "address": "Palaiseau, France"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "tickers": [
+        "NASDAQ:PSQL"
+      ],
+      "sec_cik": "0002119292",
+      "website": "https://www.pasqal.com",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "Paris, France – June 12, 2025 – Pasqal",
+          "locator": "Dateline",
+          "supports": "existence"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "Headquartered in France",
+          "locator": "About Pasqal",
+          "supports": "location"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "Pasqal (Nasdaq: PSQL)",
+          "locator": "About Pasqal",
+          "supports": "existence"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "neutral-atom quantum computing",
+          "locator": "Dateline",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:atom-computing",
+      "name": "Atom Computing",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.8695,
+        "lon": -122.301,
+        "precision": "site",
+        "address": "1901 Fourth St. Suite 200, Berkeley CA 94710"
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "website": "https://atom-computing.com",
+      "evidence": [
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "1901 Fourth St. Suite 200, Berkeley CA 94710",
+          "locator": "Page footer",
+          "supports": "location"
+        },
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "October 24, 2023 - Boulder, CO - Atom Computing announced",
+          "locator": "Dateline",
+          "supports": "existence"
+        },
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "arrays of optically trapped neutral atoms",
+          "locator": "About Atom Computing",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:infleqtion",
+      "name": "Infleqtion",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 39.9568,
+        "lon": -105.153,
+        "precision": "city",
+        "address": "Louisville, Colo."
+      },
+      "modalities": [
+        "neutral_atom"
+      ],
+      "tickers": [
+        "NYSE:INFQ"
+      ],
+      "sec_cik": "0002007825",
+      "website": "https://infleqtion.com",
+      "evidence": [
+        {
+          "source": "src:infleqtion-sqale-30-2026-09",
+          "quote": "LOUISVILLE, Colo. – September 24, 2026 – Infleqtion (NYSE: INFQ), a global leader in quantum computing and quantum sensing powered by neutral-atom technology",
+          "locator": "Dateline",
+          "supports": "existence, location, modality"
+        }
+      ]
+    }
+  ],
+  "sites": [],
+  "systems": [],
+  "milestones": [
+    {
+      "id": "ms:honeywell-h0-qv64",
+      "orgs": [
+        "co:honeywell"
+      ],
+      "date": "2020-06",
+      "category": "system_launch",
+      "claim": "A Quantinuum post dated 29 November 2021 states that Honeywell’s System Model H0 was released in June 2020 and debuted with a quantum volume of 64.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "November 29, 2021",
+          "locator": "Byline",
+          "supports": "date"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "The System Model H0 was released in June 2020",
+          "locator": "Body, accomplishments list",
+          "supports": "date, status"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "The System Model H0 debuted with a then-record quantum volume of 64",
+          "locator": "Body, accomplishments list",
+          "supports": "metric"
+        }
+      ]
+    },
+    {
+      "id": "ms:pasqal-community-2025",
+      "orgs": [
+        "co:pasqal"
+      ],
+      "date": "2025-06-12",
+      "category": "other",
+      "claim": "Pasqal’s 12 June 2025 roadmap states that 2025 marked the launch of the Pasqal Community.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "12 June 2025",
+          "locator": "Article date",
+          "supports": "date"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "2025 has also marked the launch of the Pasqal Community",
+          "locator": "Section: Empowering the Ecosystem",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "ms:ionq-aq64-2025",
+      "orgs": [
+        "co:ionq"
+      ],
+      "date": "2025-09-25",
+      "category": "other",
+      "claim": "On 25 September 2025 IonQ states that an IonQ Tempo system achieved an algorithmic qubit score of “#AQ 64”, and states this was “three months ahead of schedule.”",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ionq-aq64-2025",
+          "quote": "COLLEGE PARK, MD - September 25, 2025 - IonQ (NYSE: IONQ)",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:ionq-aq64-2025",
+          "quote": "today announced it has achieved a record algorithmic qubit score of #AQ 64",
+          "locator": "Lead",
+          "supports": "metric"
+        },
+        {
+          "source": "src:ionq-aq64-2025",
+          "quote": "three months ahead of schedule",
+          "locator": "Subhead",
+          "supports": "timing"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:honeywell-qv64-2020-06",
+      "org": "co:honeywell",
+      "target_date": "2020-06",
+      "stated_on": "2020-03-03",
+      "status": "met",
+      "met_by": "ms:honeywell-h0-qv64",
+      "roadmap_doc": "rd:honeywell-2020-03-qv",
+      "metric_kind": "other",
+      "target_value": {
+        "value": 64,
+        "as_of": "2020-03-03",
+        "note": "Quantum volume stated as at least 64 at release.",
+        "evidence": [
+          {
+            "source": "src:honeywell-qv-2020-03",
+            "quote": "When released, Honeywell’s quantum computer will have a quantum volume of at least 64",
+            "locator": "Body",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2020-06-30",
+        "precision": "month"
+      },
+      "statement": "Honeywell targets bringing to market, within three months of 3 March 2020, a quantum computer with a quantum volume of at least 64, by June 2020.",
+      "evidence": [
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "Within the next three months, Honeywell will bring to market the world’s most powerful quantum computer in terms of quantum volume",
+          "locator": "Body",
+          "supports": "date"
+        },
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "When released, Honeywell’s quantum computer will have a quantum volume of at least 64",
+          "locator": "Body",
+          "supports": "target_value"
+        }
+      ]
+    },
+    {
+      "id": "tgt:honeywell-qv-10x-2020-03",
+      "org": "co:honeywell",
+      "target_date": "2025",
+      "stated_on": "2020-03-03",
+      "status": "open",
+      "roadmap_doc": "rd:honeywell-2020-03-qv",
+      "metric_kind": "other",
+      "due": {
+        "by": "2025-03-03",
+        "precision": "day"
+      },
+      "statement": "Honeywell targets increasing its computer’s quantum volume by “an order of magnitude” each year for the next five years, by 2025.",
+      "evidence": [
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "it is on a trajectory to increase its computer’s quantum volume by an order of magnitude each year for the next five years",
+          "locator": "Body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:honeywell-qv-10x-2020-10",
+      "org": "co:honeywell",
+      "target_date": "2025",
+      "stated_on": "2020-10-29",
+      "status": "open",
+      "roadmap_doc": "rd:honeywell-2020-10-h1",
+      "metric_kind": "other",
+      "due": {
+        "by": "2025-10-29",
+        "precision": "day"
+      },
+      "statement": "Honeywell targets increasing quantum volume by at least “an order of magnitude” annually for the next five years, by 2025.",
+      "evidence": [
+        {
+          "source": "src:honeywell-h1-2020-10",
+          "quote": "This announcement further affirms the company's commitment to rapidly increase quantum volume by at least an order of magnitude annually for the next five years",
+          "locator": "Body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-rd2024-ten-logical",
+      "org": "co:quera",
+      "target_date": "2024",
+      "stated_on": "2024-01-09",
+      "status": "open",
+      "roadmap_doc": "rd:quera-2024-01",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "statement": "QuEra Computing targets launching in 2024 a quantum computer with “ten logical qubits”, transversal gate capability, and over 256 physical qubits, by 2024.",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "2024: Launching a quantum computer with ten logical qubits, unique transversal gate capability, and over 256 physical qubits.",
+          "locator": "Roadmap list",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 10,
+        "as_of": "2024-01-09",
+        "note": "The release says ten.",
+        "evidence": [
+          {
+            "source": "src:quera-roadmap-2024-01",
+            "quote": "2024: Launching a quantum computer with ten logical qubits, unique transversal gate capability, and over 256 physical qubits.",
+            "locator": "Roadmap list",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:quera-2024-simulator",
+      "org": "co:quera",
+      "target_date": "2024",
+      "stated_on": "2024-01-09",
+      "status": "open",
+      "roadmap_doc": "rd:quera-2024-01",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2024-06-30",
+        "precision": "half"
+      },
+      "statement": "QuEra Computing targets release of a “logical qubit simulator” in the first half of 2024, by June 2024.",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "QuEra will release a logical qubit simulator in the first half of 2024.",
+          "locator": "Roadmap list",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quera-rd2024-30-logical",
+      "org": "co:quera",
+      "target_date": "2025",
+      "stated_on": "2024-01-09",
+      "status": "open",
+      "roadmap_doc": "rd:quera-2024-01",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "QuEra Computing targets in 2025 a model with “30 logical error-corrected qubits” and over 3,000 physical qubits, by 2025.",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "2025: An enhanced model with 30 logical error-corrected qubits with magic state distillation, supported by over 3,000 physical qubits.",
+          "locator": "Roadmap list",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 30,
+        "as_of": "2024-01-09",
+        "note": "Logical-qubit count in the 2025 sentence.",
+        "evidence": [
+          {
+            "source": "src:quera-roadmap-2024-01",
+            "quote": "2025: An enhanced model with 30 logical error-corrected qubits with magic state distillation, supported by over 3,000 physical qubits.",
+            "locator": "Roadmap list",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:quera-2026-100-logical",
+      "org": "co:quera",
+      "target_date": "2026",
+      "stated_on": "2024-01-09",
+      "status": "open",
+      "roadmap_doc": "rd:quera-2024-01",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2026-12-31",
+        "precision": "year"
+      },
+      "statement": "QuEra Computing targets in 2026 a model with “100 logical qubits” and over 10,000 physical qubits, by 2026.",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "2026: Introduction of a third-generation quantum error-corrected model with 100 logical qubits and over 10,000 physical qubits.",
+          "locator": "Roadmap list",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 100,
+        "as_of": "2024-01-09",
+        "note": "Logical-qubit count in the 2026 sentence.",
+        "evidence": [
+          {
+            "source": "src:quera-roadmap-2024-01",
+            "quote": "2026: Introduction of a third-generation quantum error-corrected model with 100 logical qubits and over 10,000 physical qubits.",
+            "locator": "Roadmap list",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-prod-use-2025",
+      "org": "co:pasqal",
+      "target_date": "2025",
+      "stated_on": "2024-03-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2024-03",
+      "metric_kind": "customer_access",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets possible production-environment use of identified algorithms starting in 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "These algorithms are moving beyond the blueprint phase and into development with possible production environment use starting in 2025.",
+          "locator": "Body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-10000-2026",
+      "org": "co:pasqal",
+      "target_date": "2026",
+      "stated_on": "2024-03-12",
+      "status": "revised",
+      "superseded_by": "tgt:pasqal-10000-2026-2027",
+      "roadmap_doc": "rd:pasqal-2024-03",
+      "metric_kind": "physical_qubits",
+      "target_value": {
+        "value": 10000,
+        "as_of": "2024-03-12",
+        "note": "Qubit count in the 2026 sentence.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2024-03",
+            "quote": "Pasqal’s roadmap points to 10,000 qubits in 2026 with scalable logical qubits architecture.",
+            "locator": "Body",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2026-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets 10,000 qubits in 2026, with what it calls a “scalable logical qubits architecture”, by 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "Pasqal’s roadmap points to 10,000 qubits in 2026 with scalable logical qubits architecture.",
+          "locator": "Body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-community-2024",
+      "org": "co:pasqal",
+      "target_date": "2024",
+      "stated_on": "2024-03-12",
+      "status": "met",
+      "met_by": "ms:pasqal-community-2025",
+      "roadmap_doc": "rd:pasqal-2024-03",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets launching its Quantum Community in 2024, by 2024.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "Pasqal is launching its Quantum Community this year",
+          "locator": "Body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-10000-2026-2027",
+      "org": "co:pasqal",
+      "target_date": "2027",
+      "stated_on": "2024-06-25",
+      "status": "revised",
+      "superseded_by": "tgt:pasqal-10000-2028",
+      "roadmap_doc": "rd:pasqal-2024-06",
+      "metric_kind": "physical_qubits",
+      "target_value": {
+        "value": 10000,
+        "as_of": "2024-06-25",
+        "note": "Qubit count named for the 2026-2027 horizon.",
+        "evidence": [
+          {
+            "source": "src:pasqal-1000-atoms-2024-06",
+            "quote": "progressing towards 10,000 qubits by the 2026-2027 horizon",
+            "locator": "Body",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2027-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets 10,000 qubits by the 2026-2027 horizon, by 2027.",
+      "evidence": [
+        {
+          "source": "src:pasqal-1000-atoms-2024-06",
+          "quote": "progressing towards 10,000 qubits by the 2026-2027 horizon",
+          "locator": "Body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-qa-demo-2026",
+      "org": "co:pasqal",
+      "target_date": "2026-06",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "other",
+      "due": {
+        "by": "2026-06-30",
+        "precision": "half"
+      },
+      "statement": "Pasqal targets demonstrating in the first part of 2026 a 250-qubit QPU for what it calls “quantum advantage” on an industry-relevant problem, by June 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "Pasqal is developing a 250-qubit QPU specifically optimized for achieving quantum advantage (where quantum outperforms classical computers in real-world tasks) on an industry-relevant problem, targeted for demonstration in the first part of 2026.",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 250,
+        "as_of": "2025-06-12",
+        "note": "Qubit count on the QPU named for the demonstration.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "Pasqal is developing a 250-qubit QPU specifically optimized for achieving quantum advantage (where quantum outperforms classical computers in real-world tasks) on an industry-relevant problem, targeted for demonstration in the first part of 2026.",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-1000-physical-2025",
+      "org": "co:pasqal",
+      "target_date": "2025",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets reaching 1,000 physical qubits by the end of 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 1000,
+        "as_of": "2025-06-12",
+        "note": "Physical-qubit count in the same sentence as the 2028 figure.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-10000-2028",
+      "org": "co:pasqal",
+      "target_date": "2028",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets 10,000 qubits by 2028, by 2028.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 10000,
+        "as_of": "2025-06-12",
+        "note": "Qubit count named for 2028.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-2-logical-2025",
+      "org": "co:pasqal",
+      "target_date": "2025",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets 2 “logical qubits” in 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 2,
+        "as_of": "2025-06-12",
+        "note": "First figure in the logical-qubit sentence.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-20-logical-2027",
+      "org": "co:pasqal",
+      "target_date": "2027",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2027-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets 20 “logical qubits” by 2027, by 2027.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 20,
+        "as_of": "2025-06-12",
+        "note": "Figure named for 2027.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-100-logical-2029",
+      "org": "co:pasqal",
+      "target_date": "2029",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2029-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets 100 high-fidelity “logical qubits” by 2029, by 2029.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 100,
+        "as_of": "2025-06-12",
+        "note": "Figure named for 2029.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-rd2025-200-logical",
+      "org": "co:pasqal",
+      "target_date": "2030",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets 200 “logical qubits” in 2030, by 2030.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 200,
+        "as_of": "2025-06-12",
+        "note": "Figure named for 2030.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-rd2025-orion-gamma",
+      "org": "co:pasqal",
+      "target_date": "2025",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets delivering Orion Gamma, with over 140 physical qubits, by the end of 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "by the end of 2025, the company will deliver Orion Gamma, the third version of its Orion QPU platform, featuring over 140 physical qubits",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 140,
+        "as_of": "2025-06-12",
+        "note": "Physical-qubit count named for Orion Gamma.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "by the end of 2025, the company will deliver Orion Gamma, the third version of its Orion QPU platform, featuring over 140 physical qubits",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-vela-2027",
+      "org": "co:pasqal",
+      "target_date": "2027",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2027-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets Vela in 2027 with 200+ physical qubits, by 2027.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ],
+      "target_value": {
+        "value": 200,
+        "as_of": "2025-06-12",
+        "note": "Physical-qubit count named for Vela.",
+        "evidence": [
+          {
+            "source": "src:pasqal-roadmap-2025-06",
+            "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+            "locator": "2025 roadmap",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:pasqal-centaurus-2028",
+      "org": "co:pasqal",
+      "target_date": "2028",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets Centaurus in 2028, which it describes as “apt for early FTQC”, by 2028.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-lyra-2029",
+      "org": "co:pasqal",
+      "target_date": "2029",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2029-12-31",
+        "precision": "year"
+      },
+      "statement": "Pasqal targets Lyra in 2029, by 2029.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:pasqal-five-year-fields",
+      "org": "co:pasqal",
+      "target_date": "2030-06",
+      "stated_on": "2025-06-12",
+      "status": "open",
+      "roadmap_doc": "rd:pasqal-2025-06",
+      "metric_kind": "other",
+      "due": {
+        "by": "2030-06-12",
+        "precision": "day"
+      },
+      "statement": "Pasqal targets, over the next five years from 12 June 2025, that its QPUs change work in materials sciences or pharmaceutical drug discovery, by 2030.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "In the next five years, Pasqal’s QPUs are expected to revolutionize fields like materials sciences or pharmaceutical drug discovery",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-edge-2022",
+      "org": "co:ionq",
+      "target_date": "2022-09",
+      "stated_on": "2021-03-08",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2021-spac",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2022-09-08",
+        "precision": "day"
+      },
+      "statement": "IonQ targets delivery of its first edge-deployed quantum computer within 18 months of the 8 March 2021 presentation, by 2022.",
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "IonQ expects to deliver its first edge-deployed quantum computer within the next 18 months.",
+          "locator": "Slide: Quantum Computing at The Edge",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-aq64-2025",
+      "org": "co:ionq",
+      "target_date": "2025",
+      "stated_on": "2023-08-10",
+      "status": "met",
+      "met_by": "ms:ionq-aq64-2025",
+      "roadmap_doc": "rd:ionq-2023-08-q2",
+      "metric_kind": "other",
+      "target_value": {
+        "value": 64,
+        "as_of": "2023-08-10",
+        "note": "Algorithmic qubit figure named for the end of 2025.",
+        "evidence": [
+          {
+            "source": "src:ionq-q2-2023",
+            "quote": "IonQ intends to achieve an #AQ 64 system by the end of 2025.",
+            "locator": "Body",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets an #AQ 64 system by the end of 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:ionq-q2-2023",
+          "quote": "IonQ intends to achieve an #AQ 64 system by the end of 2025.",
+          "locator": "Body",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-q2-2023",
+          "quote": "College Park, MD August 10, 2023",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-native-999-2025",
+      "org": "co:ionq",
+      "target_date": "2025",
+      "stated_on": "2024-07-22",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2024-07",
+      "metric_kind": "fidelity",
+      "target_value": {
+        "value": 99.9,
+        "as_of": "2024-07-22",
+        "note": "Native two-qubit gate performance stated as greater than 99.9 percent.",
+        "evidence": [
+          {
+            "source": "src:ionq-roadmap-2024-07",
+            "quote": "IonQ is driving to improve native two-qubit gate performance to greater than three 9’s (>99.9%) in 2025",
+            "locator": "Performance section",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets native two-qubit gate performance greater than 99.9% in 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "IonQ is driving to improve native two-qubit gate performance to greater than three 9’s (>99.9%) in 2025",
+          "locator": "Performance section",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "COLLEGE PARK, MD - July 22, 2024",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-logical-99999-2025",
+      "org": "co:ionq",
+      "target_date": "2025",
+      "stated_on": "2024-07-22",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2024-07",
+      "metric_kind": "fidelity",
+      "target_value": {
+        "value": 99.999,
+        "as_of": "2024-07-22",
+        "note": "Logical two-qubit gate fidelity stated as 99.999 percent.",
+        "evidence": [
+          {
+            "source": "src:ionq-roadmap-2024-07",
+            "quote": "IonQ expects to reach five 9’s (99.999%) in logical two-qubit gate fidelity by the end of 2025",
+            "locator": "Performance section",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets logical two-qubit gate fidelity of 99.999% by the end of 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "IonQ expects to reach five 9’s (99.999%) in logical two-qubit gate fidelity by the end of 2025",
+          "locator": "Performance section",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-basel-2024",
+      "org": "co:ionq",
+      "target_date": "2024",
+      "stated_on": "2024-07-22",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2024-07",
+      "metric_kind": "customer_access",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets bringing its quantum data center in Basel, Switzerland, online later in 2024, by 2024.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "Later this year, IonQ will expand its footprint by bringing its quantum data center in Basel, Switzerland, online.",
+          "locator": "Enterprise-Grade section",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-tempo-100-2025",
+      "org": "co:ionq",
+      "target_date": "2025",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets development systems supporting 100 physical qubits for Tempo in 2025, by 2025.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "2025: Development systems supporting 100 physical qubits for Tempo",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 100,
+        "as_of": "2025-06-13",
+        "note": "Physical-qubit count named for Tempo development systems.",
+        "evidence": [
+          {
+            "source": "src:ionq-roadmap-2025-06",
+            "quote": "2025: Development systems supporting 100 physical qubits for Tempo",
+            "locator": "Roadmap highlights",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:ionq-10k-2027",
+      "org": "co:ionq",
+      "target_date": "2027",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2027-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets 10,000 physical qubits on a single chip in 2027, by 2027.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "2027: 10,000 physical qubits on a single chip.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 10000,
+        "as_of": "2025-06-13",
+        "note": "Physical-qubit count named for 2027.",
+        "evidence": [
+          {
+            "source": "src:ionq-roadmap-2025-06",
+            "quote": "2027: 10,000 physical qubits on a single chip.",
+            "locator": "Roadmap highlights",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:ionq-20k-2028",
+      "org": "co:ionq",
+      "target_date": "2028",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets two interconnected chips totalling 20,000 physical qubits in one system in 2028, by 2028.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "2028: Two interconnected chips for a total of 20,000 physical qubits in one system, with networking capabilities coming online.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 20000,
+        "as_of": "2025-06-13",
+        "note": "Physical-qubit count named for 2028.",
+        "evidence": [
+          {
+            "source": "src:ionq-roadmap-2025-06",
+            "quote": "2028: Two interconnected chips for a total of 20,000 physical qubits in one system, with networking capabilities coming online.",
+            "locator": "Roadmap highlights",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:ionq-cluster-2028",
+      "org": "co:ionq",
+      "target_date": "2028",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets clustered quantum computing that it says will be commercially ready by 2028, by 2028.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "This makes clustered quantum computing not only feasible, but commercially ready by 2028.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-interconnect-2028",
+      "org": "co:ionq",
+      "target_date": "2028",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "customer_access",
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets offering a commercially available, interconnected system by 2028, by 2028.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2028, IonQ plans to offer a commercially available, interconnected system.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-2m-2030",
+      "org": "co:ionq",
+      "target_date": "2030",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets a system with over 2,000,000 physical qubits by 2030, by 2030.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030: Our rapidly scalable architecture will enable a system with over 2,000,000 physical qubits. These will translate to between 40,000 and 80,000 logical qubits.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 2000000,
+        "as_of": "2025-06-13",
+        "note": "Physical-qubit count in the 2030 sentence.",
+        "evidence": [
+          {
+            "source": "src:ionq-roadmap-2025-06",
+            "quote": "By 2030: Our rapidly scalable architecture will enable a system with over 2,000,000 physical qubits. These will translate to between 40,000 and 80,000 logical qubits.",
+            "locator": "Roadmap highlights",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:ionq-logical-2030",
+      "org": "co:ionq",
+      "target_date": "2030",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets between 40,000 and 80,000 “logical qubits” by 2030, by 2030.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030: Our rapidly scalable architecture will enable a system with over 2,000,000 physical qubits. These will translate to between 40,000 and 80,000 logical qubits.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 40000,
+        "as_of": "2025-06-13",
+        "note": "Lower figure in the 40,000 to 80,000 range. The release also states 80,000.",
+        "evidence": [
+          {
+            "source": "src:ionq-roadmap-2025-06",
+            "quote": "By 2030: Our rapidly scalable architecture will enable a system with over 2,000,000 physical qubits. These will translate to between 40,000 and 80,000 logical qubits.",
+            "locator": "Roadmap highlights",
+            "supports": "target_value"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:ionq-error-2030",
+      "org": "co:ionq",
+      "target_date": "2030",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "error_rate",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets “logical error rates of less than 1E-12” by 2030, by 2030.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030, we expect these logical qubits to achieve incredibly accurate logical error rates of less than 1E-12",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ionq-apps-2030",
+      "org": "co:ionq",
+      "target_date": "2030",
+      "stated_on": "2025-06-13",
+      "status": "open",
+      "roadmap_doc": "rd:ionq-2025-06",
+      "metric_kind": "other",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "statement": "IonQ targets unlocking, by 2030, applications that it says require “massive logical qubit counts”, by 2030.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030, we expect to unlock applications that require massive logical qubit counts",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quantinuum-ft-2030",
+      "org": "co:quantinuum",
+      "target_date": "2030",
+      "stated_on": "2024-09-10",
+      "status": "open",
+      "roadmap_doc": "rd:quantinuum-2024-09-pr",
+      "metric_kind": "other",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "statement": "Quantinuum targets “universal, fully fault-tolerant quantum computing by 2030”, and the same release names Apollo as a computer that “will be a fully fault-tolerant and universal quantum computer”, by 2030.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "unveiled its roadmap to universal, fully fault-tolerant quantum computing by 2030",
+          "locator": "Lead",
+          "supports": "statement"
+        },
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "Apollo, which will be a fully fault-tolerant and universal quantum computer",
+          "locator": "Lead",
+          "supports": "system"
+        }
+      ]
+    },
+    {
+      "id": "tgt:quantinuum-rd2024-helios",
+      "org": "co:quantinuum",
+      "target_date": "2025",
+      "stated_on": "2024-09-17",
+      "status": "open",
+      "roadmap_doc": "rd:quantinuum-2024-09-tech",
+      "metric_kind": "physical_qubits",
+      "target_value": {
+        "value": 100,
+        "as_of": "2024-09-17",
+        "note": "The post says around 100 physical qubits.",
+        "evidence": [
+          {
+            "source": "src:quantinuum-tech-2024-09",
+            "quote": "The Quantinuum Helios™ system, which we are releasing in 2025, will offer around 100 physical qubits with two-qubit gate errors less than 5x10 -4",
+            "locator": "Hardware roadmap section",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "statement": "Quantinuum targets releasing Helios in 2025 with around 100 physical qubits and two-qubit gate errors less than 5x10^-4, by 2025.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-tech-2024-09",
+          "quote": "The Quantinuum Helios™ system, which we are releasing in 2025, will offer around 100 physical qubits with two-qubit gate errors less than 5x10 -4",
+          "locator": "Hardware roadmap section",
+          "supports": "statement"
+        },
+        {
+          "source": "src:quantinuum-tech-2024-09",
+          "quote": "September 17, 2024",
+          "locator": "Byline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:atom-available-2024",
+      "org": "co:atom-computing",
+      "target_date": "2024",
+      "stated_on": "2023-10-24",
+      "status": "open",
+      "roadmap_doc": "rd:atom-2023-10",
+      "metric_kind": "system_availability",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "statement": "Atom Computing targets availability of its next-generation systems in 2024, by 2024.",
+      "evidence": [
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "Atom Computing is working with enterprise, academic, and government users today to develop applications and reserve time on the systems, which will be available in 2024.",
+          "locator": "Body",
+          "supports": "statement"
+        },
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "October 24, 2023 - Boulder, CO - Atom Computing announced",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:atom-ft-decade",
+      "org": "co:atom-computing",
+      "target_date": "2029",
+      "stated_on": "2023-10-24",
+      "status": "open",
+      "roadmap_doc": "rd:atom-2023-10",
+      "metric_kind": "other",
+      "due": {
+        "by": "2029-12-31",
+        "precision": "year"
+      },
+      "statement": "Atom Computing targets what it calls a path to “fault-tolerant quantum computing this decade”, by 2029.",
+      "evidence": [
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "on path to fault-tolerant quantum computing this decade",
+          "locator": "Subhead",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "tgt:infleqtion-rd2026-100-logical",
+      "org": "co:infleqtion",
+      "target_date": "2028",
+      "stated_on": "2026-09-24",
+      "status": "open",
+      "roadmap_doc": "rd:infleqtion-2026-09",
+      "metric_kind": "logical_qubits",
+      "target_value": {
+        "value": 100,
+        "as_of": "2026-09-24",
+        "note": "Logical-qubit count named for 2028.",
+        "evidence": [
+          {
+            "source": "src:infleqtion-sqale-30-2026-09",
+            "quote": "Infleqtion remains firmly on track to deliver 100 logical qubits in 2028 and 1,000 by 2030.",
+            "locator": "Section: The Road to 1,000 Logical Qubits by 2030",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "statement": "Infleqtion targets 100 “logical qubits” in 2028, by 2028.",
+      "evidence": [
+        {
+          "source": "src:infleqtion-sqale-30-2026-09",
+          "quote": "Infleqtion remains firmly on track to deliver 100 logical qubits in 2028 and 1,000 by 2030.",
+          "locator": "Section: The Road to 1,000 Logical Qubits by 2030",
+          "supports": "statement"
+        },
+        {
+          "source": "src:infleqtion-sqale-30-2026-09",
+          "quote": "LOUISVILLE, Colo. – September 24, 2026 – Infleqtion (NYSE: INFQ)",
+          "locator": "Dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:infleqtion-rd2026-1000-logical",
+      "org": "co:infleqtion",
+      "target_date": "2030",
+      "stated_on": "2026-09-24",
+      "status": "open",
+      "roadmap_doc": "rd:infleqtion-2026-09",
+      "metric_kind": "logical_qubits",
+      "target_value": {
+        "value": 1000,
+        "as_of": "2026-09-24",
+        "note": "Logical-qubit count named for 2030.",
+        "evidence": [
+          {
+            "source": "src:infleqtion-sqale-30-2026-09",
+            "quote": "Infleqtion remains firmly on track to deliver 100 logical qubits in 2028 and 1,000 by 2030.",
+            "locator": "Section: The Road to 1,000 Logical Qubits by 2030",
+            "supports": "target_value"
+          }
+        ]
+      },
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "statement": "Infleqtion targets 1,000 “logical qubits” by 2030, by 2030.",
+      "evidence": [
+        {
+          "source": "src:infleqtion-sqale-30-2026-09",
+          "quote": "Infleqtion remains firmly on track to deliver 100 logical qubits in 2028 and 1,000 by 2030.",
+          "locator": "Section: The Road to 1,000 Logical Qubits by 2030",
+          "supports": "statement"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "roadmap_docs": [
+    {
+      "id": "rd:honeywell-2020-03-qv",
+      "org": "co:honeywell",
+      "title": "Honeywell press release, 3 March 2020, on quantum volume and a five-year trajectory",
+      "published": "2020-03-03",
+      "kind": "press_release",
+      "url": "https://www.honeywell.com/us/en/news/press-releases/2020/03/honeywell-achieves-breakthrough-that-will-enable-the-worlds-most-powerful-quantum-computer",
+      "completeness": "partial",
+      "items": [
+        "tgt:honeywell-qv64-2020-06",
+        "tgt:honeywell-qv-10x-2020-03"
+      ],
+      "evidence": [
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "CHARLOTTE, N.C., March 3, 2020 -- Honeywell (NYSE: HON)",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:honeywell-2020-10-h1",
+      "org": "co:honeywell",
+      "title": "Honeywell press release, 29 October 2020, introducing System Model H1",
+      "published": "2020-10-29",
+      "kind": "press_release",
+      "url": "https://www.honeywell.com/us/en/news/press-releases/2020/10/honeywell-releases-next-generation-of-quantum-computer",
+      "completeness": "partial",
+      "items": [
+        "tgt:honeywell-qv-10x-2020-10"
+      ],
+      "evidence": [
+        {
+          "source": "src:honeywell-h1-2020-10",
+          "quote": "BROOMFIELD, Colo. , Oct. 29, 2020 /PRNewswire/ -- Honeywell (NYSE: HON)",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:quera-2024-01",
+      "org": "co:quera",
+      "title": "QuEra Computing roadmap press release, 9 January 2024",
+      "published": "2024-01-09",
+      "kind": "press_release",
+      "url": "https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0",
+      "completeness": "all_items",
+      "items": [
+        "tgt:quera-rd2024-ten-logical",
+        "tgt:quera-2024-simulator",
+        "tgt:quera-rd2024-30-logical",
+        "tgt:quera-2026-100-logical"
+      ],
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "BOSTON, MASSACHUSETTS, January 9, 2024 – QuEra Computing",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:pasqal-2024-03",
+      "org": "co:pasqal",
+      "title": "Pasqal roadmap press release, 12 March 2024",
+      "published": "2024-03-12",
+      "kind": "press_release",
+      "url": "https://www.pasqal.com/newsroom/pasqal-announces-new-roadmap-focused-on-business-utility-and-scaling-beyond-1000-qubits-towards-fault-tolerance-era/",
+      "completeness": "partial",
+      "items": [
+        "tgt:pasqal-prod-use-2025",
+        "tgt:pasqal-10000-2026",
+        "tgt:pasqal-community-2024"
+      ],
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "PARIS, France, March 12, 2024 – Pasqal",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        },
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "12 March 2024",
+          "locator": "Article date",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "rd:pasqal-2024-06",
+      "org": "co:pasqal",
+      "title": "Pasqal press release, 25 June 2024, on exceeding 1,000 atoms",
+      "published": "2024-06-25",
+      "kind": "press_release",
+      "url": "https://www.pasqal.com/newsroom/pasqal-exceeds-1000-atoms-in-quantum-processor/",
+      "completeness": "partial",
+      "items": [
+        "tgt:pasqal-10000-2026-2027"
+      ],
+      "evidence": [
+        {
+          "source": "src:pasqal-1000-atoms-2024-06",
+          "quote": "25 June 2024",
+          "locator": "Article date",
+          "supports": "date"
+        },
+        {
+          "source": "src:pasqal-1000-atoms-2024-06",
+          "quote": "Paris, June 25, 2024 – Pasqal",
+          "locator": "Dateline",
+          "supports": "authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:pasqal-2025-06",
+      "org": "co:pasqal",
+      "title": "Pasqal 2025 product and technology roadmap, 12 June 2025",
+      "published": "2025-06-12",
+      "kind": "press_release",
+      "url": "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/",
+      "completeness": "partial",
+      "items": [
+        "tgt:pasqal-qa-demo-2026",
+        "tgt:pasqal-1000-physical-2025",
+        "tgt:pasqal-10000-2028",
+        "tgt:pasqal-2-logical-2025",
+        "tgt:pasqal-20-logical-2027",
+        "tgt:pasqal-100-logical-2029",
+        "tgt:pasqal-rd2025-200-logical",
+        "tgt:pasqal-rd2025-orion-gamma",
+        "tgt:pasqal-vela-2027",
+        "tgt:pasqal-centaurus-2028",
+        "tgt:pasqal-lyra-2029",
+        "tgt:pasqal-five-year-fields"
+      ],
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "Paris, France – June 12, 2025 – Pasqal",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:ionq-2021-spac",
+      "org": "co:ionq",
+      "title": "IonQ investor presentation, Exhibit 99.2 to dMY Technology Group, Inc. III Form 8-K filed 8 March 2021",
+      "published": "2021-03-08",
+      "kind": "sec_exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312521072373/d142872dex992.htm",
+      "completeness": "partial",
+      "items": [
+        "prj:ionq-revenue-fy2021",
+        "prj:ionq-revenue-fy2022",
+        "prj:ionq-revenue-fy2023",
+        "prj:ionq-revenue-fy2024",
+        "prj:ionq-revenue-fy2025",
+        "prj:ionq-revenue-fy2026",
+        "tgt:ionq-edge-2022"
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-edgar-ex992-index",
+          "quote": "\"file_date\":\"2021-03-08\",\"biz_states\":[\"NV\"],\"sics\":[\"6770\"],\"form\":\"8-K\",\"adsh\":\"0001193125-21-072373\",\"film_num\":[\"21720734\"],\"biz_locations\":[\"Las Vegas, NV\"],\"file_type\":\"EX-99.2\"",
+          "locator": "EDGAR full-text hit",
+          "supports": "date, exhibit"
+        },
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Exhibit 99.2 Investor Presentation 2021",
+          "locator": "Exhibit header",
+          "supports": "title"
+        }
+      ],
+      "archived_url": "https://web.archive.org/web/20260928011238id_/https://www.sec.gov/Archives/edgar/data/1824920/000119312521072373/d142872dex992.htm"
+    },
+    {
+      "id": "rd:ionq-2023-08-q2",
+      "org": "co:ionq",
+      "title": "IonQ second-quarter 2023 financial results, 10 August 2023",
+      "published": "2023-08-10",
+      "kind": "press_release",
+      "url": "https://www.ionq.com/news/ionq-announces-second-quarter-2023-financial-results",
+      "completeness": "partial",
+      "items": [
+        "tgt:ionq-aq64-2025"
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-q2-2023",
+          "quote": "College Park, MD August 10, 2023",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:ionq-q2-2023",
+          "quote": "IonQ (NYSE: IONQ)",
+          "locator": "Lead",
+          "supports": "authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:ionq-2024-07",
+      "org": "co:ionq",
+      "title": "IonQ accelerated-roadmap press release, 22 July 2024",
+      "published": "2024-07-22",
+      "kind": "press_release",
+      "url": "https://ionq.com/news/ionq-unveils-accelerated-roadmap-and-new-technical-milestones-to-propel",
+      "completeness": "partial",
+      "items": [
+        "tgt:ionq-native-999-2025",
+        "tgt:ionq-logical-99999-2025",
+        "tgt:ionq-basel-2024"
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "COLLEGE PARK, MD - July 22, 2024",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:ionq-2025-06",
+      "org": "co:ionq",
+      "title": "IonQ blog, 13 June 2025, accelerated roadmap highlights",
+      "published": "2025-06-13",
+      "kind": "blog",
+      "url": "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+      "completeness": "all_items",
+      "items": [
+        "tgt:ionq-tempo-100-2025",
+        "tgt:ionq-10k-2027",
+        "tgt:ionq-20k-2028",
+        "tgt:ionq-cluster-2028",
+        "tgt:ionq-interconnect-2028",
+        "tgt:ionq-2m-2030",
+        "tgt:ionq-logical-2030",
+        "tgt:ionq-error-2030",
+        "tgt:ionq-apps-2030"
+      ],
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "June 13, 2025",
+          "locator": "Byline",
+          "supports": "date"
+        },
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "IonQ Staff",
+          "locator": "Byline",
+          "supports": "authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:quantinuum-2024-09-pr",
+      "org": "co:quantinuum",
+      "title": "Quantinuum roadmap press release, 10 September 2024",
+      "published": "2024-09-10",
+      "kind": "press_release",
+      "url": "https://www.quantinuum.com/press-releases/quantinuum-unveils-accelerated-roadmap-to-achieve-universal-fault-tolerant-quantum-computing-by-2030",
+      "completeness": "partial",
+      "items": [
+        "tgt:quantinuum-ft-2030"
+      ],
+      "evidence": [
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "Broomfield, Colorado and London, UK, September 10 th , 2024 — Today, Quantinuum",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:quantinuum-2024-09-tech",
+      "org": "co:quantinuum",
+      "title": "Quantinuum technical blog, 17 September 2024",
+      "published": "2024-09-17",
+      "kind": "blog",
+      "url": "https://www.quantinuum.com/blog/technical-perspective-by-the-end-of-the-decade-we-will-deliver-universal-fault-tolerant-quantum-computing",
+      "completeness": "partial",
+      "items": [
+        "tgt:quantinuum-rd2024-helios"
+      ],
+      "evidence": [
+        {
+          "source": "src:quantinuum-tech-2024-09",
+          "quote": "September 17, 2024",
+          "locator": "Byline",
+          "supports": "date"
+        },
+        {
+          "source": "src:quantinuum-tech-2024-09",
+          "quote": "By Dr. Harry Buhrman, Chief Scientist for Algorithms and Innovation",
+          "locator": "Byline",
+          "supports": "authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:atom-2023-10",
+      "org": "co:atom-computing",
+      "title": "Atom Computing press release, 24 October 2023",
+      "published": "2023-10-24",
+      "kind": "press_release",
+      "url": "https://atom-computing.com/quantum-startup-atom-computing-first-to-exceed-1000-qubits/",
+      "completeness": "all_items",
+      "items": [
+        "tgt:atom-available-2024",
+        "tgt:atom-ft-decade"
+      ],
+      "evidence": [
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "October 24, 2023 - Boulder, CO - Atom Computing announced",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "rd:infleqtion-2026-09",
+      "org": "co:infleqtion",
+      "title": "Infleqtion press release, 24 September 2026, on Sqale",
+      "published": "2026-09-24",
+      "kind": "press_release",
+      "url": "https://infleqtion.com/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer/",
+      "completeness": "all_items",
+      "items": [
+        "tgt:infleqtion-rd2026-100-logical",
+        "tgt:infleqtion-rd2026-1000-logical"
+      ],
+      "evidence": [
+        {
+          "source": "src:infleqtion-sqale-30-2026-09",
+          "quote": "LOUISVILLE, Colo. – September 24, 2026 – Infleqtion (NYSE: INFQ)",
+          "locator": "Dateline",
+          "supports": "date, authorship"
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "out:honeywell-qv64-2020-06",
+      "target": "tgt:honeywell-qv64-2020-06",
+      "result": "met_on_time",
+      "resolved_on": "2020-06-30",
+      "delivered_by": "ms:honeywell-h0-qv64",
+      "delivered_value": {
+        "value": 64,
+        "as_of": "2020-06",
+        "note": "Quantum volume stated for the System Model H0 debut.",
+        "evidence": [
+          {
+            "source": "src:quantinuum-qv-2021-11",
+            "quote": "The System Model H0 debuted with a then-record quantum volume of 64",
+            "locator": "Accomplishments list",
+            "supports": "delivered_value"
+          }
+        ]
+      },
+      "statement": "Honeywell’s 3 March 2020 release targets a quantum volume of at least 64 within three months. A 29 November 2021 Quantinuum post states that the System Model H0 was released in June 2020 with a quantum volume of 64.",
+      "evidence": [
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "When released, Honeywell’s quantum computer will have a quantum volume of at least 64",
+          "locator": "Body",
+          "supports": "target"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "The System Model H0 was released in June 2020",
+          "locator": "Accomplishments list",
+          "supports": "date"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "The System Model H0 debuted with a then-record quantum volume of 64",
+          "locator": "Accomplishments list",
+          "supports": "delivered_value"
+        }
+      ]
+    },
+    {
+      "id": "out:honeywell-qv-10x-2020-03",
+      "target": "tgt:honeywell-qv-10x-2020-03",
+      "result": "partially_met",
+      "resolved_on": "2021-07-31",
+      "delivered_value": {
+        "value": 1024,
+        "as_of": "2021-07",
+        "note": "Quantum volume the 29 November 2021 post says was passed in July.",
+        "evidence": [
+          {
+            "source": "src:quantinuum-qv-2021-11",
+            "quote": "passed the quantum volume benchmarks of 512 in March and now 1024 in July",
+            "locator": "Accomplishments list",
+            "supports": "delivered_value"
+          }
+        ]
+      },
+      "statement": "Honeywell’s 3 March 2020 release targets an increase in quantum volume by “an order of magnitude” each year for five years. A 29 November 2021 Quantinuum post states that System Model H1 passed quantum volume 1024 in July and states that this “fulfills a promise” of that annual increase.",
+      "evidence": [
+        {
+          "source": "src:honeywell-qv-2020-03",
+          "quote": "it is on a trajectory to increase its computer’s quantum volume by an order of magnitude each year for the next five years",
+          "locator": "Body",
+          "supports": "target"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "passed the quantum volume benchmarks of 512 in March and now 1024 in July",
+          "locator": "Accomplishments list",
+          "supports": "delivered_value"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "It also fulfills a promise made last summer that Honeywell Quantum Solutions would increase the quantum volume of its commercial offerings by an order of magnitude each year for the next five years",
+          "locator": "Body",
+          "supports": "company wording"
+        }
+      ]
+    },
+    {
+      "id": "out:honeywell-qv-10x-2020-10",
+      "target": "tgt:honeywell-qv-10x-2020-10",
+      "result": "partially_met",
+      "resolved_on": "2021-07-31",
+      "delivered_value": {
+        "value": 1024,
+        "as_of": "2021-07",
+        "note": "Quantum volume the 29 November 2021 post says was passed in July.",
+        "evidence": [
+          {
+            "source": "src:quantinuum-qv-2021-11",
+            "quote": "passed the quantum volume benchmarks of 512 in March and now 1024 in July",
+            "locator": "Accomplishments list",
+            "supports": "delivered_value"
+          }
+        ]
+      },
+      "statement": "Honeywell’s 29 October 2020 release restates a commitment to increase quantum volume by at least “an order of magnitude” annually for five years. A 29 November 2021 Quantinuum post states quantum volume 1024 in July and states that this “fulfills a promise” of that annual increase.",
+      "evidence": [
+        {
+          "source": "src:honeywell-h1-2020-10",
+          "quote": "This announcement further affirms the company's commitment to rapidly increase quantum volume by at least an order of magnitude annually for the next five years",
+          "locator": "Body",
+          "supports": "target"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "passed the quantum volume benchmarks of 512 in March and now 1024 in July",
+          "locator": "Accomplishments list",
+          "supports": "delivered_value"
+        },
+        {
+          "source": "src:quantinuum-qv-2021-11",
+          "quote": "It also fulfills a promise made last summer that Honeywell Quantum Solutions would increase the quantum volume of its commercial offerings by an order of magnitude each year for the next five years",
+          "locator": "Body",
+          "supports": "company wording"
+        }
+      ]
+    },
+    {
+      "id": "out:quera-rd2024-ten-logical",
+      "target": "tgt:quera-rd2024-ten-logical",
+      "result": "no_delivery_found",
+      "statement": "QuEra’s 9 January 2024 release targets a 2024 computer with “ten logical qubits” and over 256 physical qubits. The sources checked as of 2 October 2026 do not contain a later QuEra statement that this computer was launched.",
+      "search_log": {
+        "checked": [
+          "https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0"
+        ],
+        "queries": [
+          "QuEra ten logical qubits 2024 launch"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "2024: Launching a quantum computer with ten logical qubits, unique transversal gate capability, and over 256 physical qubits.",
+          "locator": "Roadmap list",
+          "supports": "target wording"
+        }
+      ]
+    },
+    {
+      "id": "out:quera-2024-simulator",
+      "target": "tgt:quera-2024-simulator",
+      "result": "no_delivery_found",
+      "statement": "QuEra’s 9 January 2024 release targets a “logical qubit simulator” in the first half of 2024. The sources checked as of 2 October 2026 do not contain a QuEra statement that this simulator was released in that half.",
+      "search_log": {
+        "checked": [
+          "https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0"
+        ],
+        "queries": [
+          "QuEra logical qubit simulator first half 2024"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "QuEra will release a logical qubit simulator in the first half of 2024.",
+          "locator": "Roadmap list",
+          "supports": "target wording"
+        }
+      ]
+    },
+    {
+      "id": "out:quera-rd2024-30-logical",
+      "target": "tgt:quera-rd2024-30-logical",
+      "result": "no_delivery_found",
+      "statement": "QuEra’s 9 January 2024 release targets a 2025 model with “30 logical error-corrected qubits” and over 3,000 physical qubits. The sources checked as of 2 October 2026 do not contain a later QuEra statement that this model was introduced.",
+      "search_log": {
+        "checked": [
+          "https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0"
+        ],
+        "queries": [
+          "QuEra 30 logical qubits 2025"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "2025: An enhanced model with 30 logical error-corrected qubits with magic state distillation, supported by over 3,000 physical qubits.",
+          "locator": "Roadmap list",
+          "supports": "target wording"
+        }
+      ]
+    },
+    {
+      "id": "out:quera-2026-100-logical",
+      "target": "tgt:quera-2026-100-logical",
+      "result": "pending",
+      "statement": "QuEra’s 9 January 2024 release targets a 2026 model with “100 logical qubits” and over 10,000 physical qubits. The due date, 31 December 2026, is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:quera-roadmap-2024-01",
+          "quote": "2026: Introduction of a third-generation quantum error-corrected model with 100 logical qubits and over 10,000 physical qubits.",
+          "locator": "Roadmap list",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-prod-use-2025",
+      "target": "tgt:pasqal-prod-use-2025",
+      "result": "no_delivery_found",
+      "statement": "Pasqal’s 12 March 2024 release says algorithm development had possible production-environment use starting in 2025. The 12 June 2025 roadmap does not state that this production use had started.",
+      "search_log": {
+        "checked": [
+          "https://www.pasqal.com/newsroom/pasqal-announces-new-roadmap-focused-on-business-utility-and-scaling-beyond-1000-qubits-towards-fault-tolerance-era/",
+          "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/"
+        ],
+        "queries": [
+          "Pasqal production environment use 2025"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "These algorithms are moving beyond the blueprint phase and into development with possible production environment use starting in 2025.",
+          "locator": "Body",
+          "supports": "target"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "Its machines, operating in analog mode (computing with physical qubits), are already solving real-world problems",
+          "locator": "Body",
+          "supports": "later wording"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-10000-2026",
+      "target": "tgt:pasqal-10000-2026",
+      "result": "revised_before_due",
+      "resolved_on": "2024-06-25",
+      "statement": "Pasqal’s 12 March 2024 release targets 10,000 qubits in 2026. Pasqal’s 25 June 2024 release states the roadmap is “progressing towards 10,000 qubits by the 2026-2027 horizon.”",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "Pasqal’s roadmap points to 10,000 qubits in 2026 with scalable logical qubits architecture.",
+          "locator": "Body",
+          "supports": "earlier"
+        },
+        {
+          "source": "src:pasqal-1000-atoms-2024-06",
+          "quote": "progressing towards 10,000 qubits by the 2026-2027 horizon",
+          "locator": "Body",
+          "supports": "later"
+        },
+        {
+          "source": "src:pasqal-1000-atoms-2024-06",
+          "quote": "25 June 2024",
+          "locator": "Article date",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-community-2024",
+      "target": "tgt:pasqal-community-2024",
+      "result": "met_late",
+      "resolved_on": "2025-06-12",
+      "delivered_by": "ms:pasqal-community-2025",
+      "statement": "Pasqal’s 12 March 2024 release targets launching its Quantum Community that year. Pasqal’s 12 June 2025 roadmap states that 2025 marked the launch of the Pasqal Community.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2024-03",
+          "quote": "Pasqal is launching its Quantum Community this year",
+          "locator": "Body",
+          "supports": "target"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "2025 has also marked the launch of the Pasqal Community",
+          "locator": "Section: Empowering the Ecosystem",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "12 June 2025",
+          "locator": "Article date",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-10000-2026-2027",
+      "target": "tgt:pasqal-10000-2026-2027",
+      "result": "revised_before_due",
+      "resolved_on": "2025-06-12",
+      "statement": "Pasqal’s 25 June 2024 release targets 10,000 qubits by the 2026-2027 horizon. Pasqal’s 12 June 2025 roadmap states the company is “moving towards 10,000 qubits by 2028.”",
+      "evidence": [
+        {
+          "source": "src:pasqal-1000-atoms-2024-06",
+          "quote": "progressing towards 10,000 qubits by the 2026-2027 horizon",
+          "locator": "Body",
+          "supports": "earlier"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+          "locator": "Section: Fault-Tolerant Quantum Computing",
+          "supports": "later"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "12 June 2025",
+          "locator": "Article date",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-qa-demo-2026",
+      "target": "tgt:pasqal-qa-demo-2026",
+      "result": "no_delivery_found",
+      "statement": "Pasqal’s 12 June 2025 roadmap targets a 250-qubit demonstration in the first part of 2026 and states the words “quantum advantage”. The Pasqal pages checked as of 2 October 2026 do not state that this demonstration occurred.",
+      "search_log": {
+        "checked": [
+          "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/",
+          "https://www.pasqal.com/newsroom/pasqal-exceeds-1000-atoms-in-quantum-processor/",
+          "https://www.pasqal.com/technology/roadmap/"
+        ],
+        "queries": [
+          "Pasqal 250-qubit demonstration first part of 2026"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "Pasqal is developing a 250-qubit QPU specifically optimized for achieving quantum advantage (where quantum outperforms classical computers in real-world tasks) on an industry-relevant problem, targeted for demonstration in the first part of 2026.",
+          "locator": "2025 roadmap",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-1000-physical-2025",
+      "target": "tgt:pasqal-1000-physical-2025",
+      "result": "no_delivery_found",
+      "statement": "Pasqal’s 12 June 2025 roadmap targets 1,000 physical qubits by the end of 2025. The same release says over 1,000 neutral atoms had already been trapped, and the pages checked do not state that 1,000 physical qubits were reached by the end of 2025.",
+      "search_log": {
+        "checked": [
+          "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/",
+          "https://www.pasqal.com/newsroom/pasqal-exceeds-1000-atoms-in-quantum-processor/",
+          "https://www.pasqal.com/technology/roadmap/"
+        ],
+        "queries": [
+          "Pasqal 1000 physical qubits end of 2025"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "12 June 2025",
+          "locator": "2025 roadmap",
+          "supports": "dateline"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+          "locator": "2025 roadmap",
+          "supports": "target"
+        },
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "With over 1,000 neutral atoms already successfully trapped in a quantum processor",
+          "locator": "2025 roadmap",
+          "supports": "atoms already trapped"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-2-logical-2025",
+      "target": "tgt:pasqal-2-logical-2025",
+      "result": "no_delivery_found",
+      "statement": "Pasqal’s 12 June 2025 roadmap targets 2 “logical qubits” in 2025. The pages checked as of 2 October 2026 do not state that this count was reached.",
+      "search_log": {
+        "checked": [
+          "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/",
+          "https://www.pasqal.com/newsroom/pasqal-exceeds-1000-atoms-in-quantum-processor/",
+          "https://www.pasqal.com/technology/roadmap/"
+        ],
+        "queries": [
+          "Pasqal 2 logical qubits 2025"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-rd2025-orion-gamma",
+      "target": "tgt:pasqal-rd2025-orion-gamma",
+      "result": "no_delivery_found",
+      "statement": "Pasqal’s 12 June 2025 roadmap targets delivery of Orion Gamma, with over 140 physical qubits, by the end of 2025. The pages checked as of 2 October 2026 do not state that Orion Gamma was delivered.",
+      "search_log": {
+        "checked": [
+          "https://www.pasqal.com/newsroom/pasqal-releases-2025-roadmap/",
+          "https://www.pasqal.com/newsroom/pasqal-exceeds-1000-atoms-in-quantum-processor/",
+          "https://www.pasqal.com/technology/roadmap/"
+        ],
+        "queries": [
+          "Pasqal Orion Gamma delivery 2025"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "by the end of 2025, the company will deliver Orion Gamma, the third version of its Orion QPU platform, featuring over 140 physical qubits",
+          "locator": "2025 roadmap",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-10000-2028",
+      "target": "tgt:pasqal-10000-2028",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "reaching 1,000 physical qubits until the end of the year and moving towards 10,000 qubits by 2028",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-20-logical-2027",
+      "target": "tgt:pasqal-20-logical-2027",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-100-logical-2029",
+      "target": "tgt:pasqal-100-logical-2029",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-rd2025-200-logical",
+      "target": "tgt:pasqal-rd2025-200-logical",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "starting from 2 logical qubits in 2025, moving to 20 by 2027, and reaching 100 high-fidelity logical qubits by 2029 and 200 in 2030",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-vela-2027",
+      "target": "tgt:pasqal-vela-2027",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-centaurus-2028",
+      "target": "tgt:pasqal-centaurus-2028",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-lyra-2029",
+      "target": "tgt:pasqal-lyra-2029",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "With each new generation (Vela in 2027, 200+ physical qubits, Centaurus in 2028, apt for early FTQC, and Lyra in 2029 delivering impactful FTQC)",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:pasqal-five-year-fields",
+      "target": "tgt:pasqal-five-year-fields",
+      "result": "pending",
+      "statement": "The due date on this Pasqal item from the 12 June 2025 roadmap is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:pasqal-roadmap-2025-06",
+          "quote": "In the next five years, Pasqal’s QPUs are expected to revolutionize fields like materials sciences or pharmaceutical drug discovery",
+          "locator": "2025 roadmap",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-edge-2022",
+      "target": "tgt:ionq-edge-2022",
+      "result": "no_delivery_found",
+      "statement": "The 8 March 2021 exhibit says IonQ expects to deliver its first edge-deployed quantum computer within 18 months. The IonQ 10-Ks and later IonQ pages checked as of 2 October 2026 do not use that phrase.",
+      "search_log": {
+        "checked": [
+          "https://www.sec.gov/Archives/edgar/data/1824920/000119312521072373/d142872dex992.htm",
+          "https://ionq.com/news/ionq-achieves-record-breaking-quantum-performance-milestone-of-aq-64",
+          "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality"
+        ],
+        "queries": [
+          "edge-deployed quantum computer",
+          "IonQ edge"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "IonQ expects to deliver its first edge-deployed quantum computer within the next 18 months.",
+          "locator": "Slide: Quantum Computing at The Edge",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-aq64-2025",
+      "target": "tgt:ionq-aq64-2025",
+      "result": "met_early",
+      "resolved_on": "2025-09-25",
+      "delivered_by": "ms:ionq-aq64-2025",
+      "delivered_value": {
+        "value": 64,
+        "as_of": "2025-09-25",
+        "note": "Algorithmic qubit score stated for Tempo.",
+        "evidence": [
+          {
+            "source": "src:ionq-aq64-2025",
+            "quote": "today announced it has achieved a record algorithmic qubit score of #AQ 64",
+            "locator": "Lead",
+            "supports": "delivered_value"
+          }
+        ]
+      },
+      "statement": "IonQ’s 10 August 2023 release states that IonQ intends to achieve an #AQ 64 system by the end of 2025. IonQ’s 25 September 2025 release states that a Tempo system achieved “#AQ 64” and that this was “three months ahead of schedule.”",
+      "evidence": [
+        {
+          "source": "src:ionq-q2-2023",
+          "quote": "IonQ intends to achieve an #AQ 64 system by the end of 2025.",
+          "locator": "Body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ionq-q2-2023",
+          "quote": "College Park, MD August 10, 2023",
+          "locator": "Dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:ionq-aq64-2025",
+          "quote": "today announced it has achieved a record algorithmic qubit score of #AQ 64",
+          "locator": "Lead",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ionq-aq64-2025",
+          "quote": "three months ahead of schedule",
+          "locator": "Subhead",
+          "supports": "timing"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-native-999-2025",
+      "target": "tgt:ionq-native-999-2025",
+      "result": "no_delivery_found",
+      "statement": "IonQ’s 22 July 2024 release targets native two-qubit gate performance greater than 99.9% in 2025. The later IonQ pages and the fiscal-year 2025 Form 10-K checked as of 2 October 2026 do not state that this figure was reached.",
+      "search_log": {
+        "checked": [
+          "https://ionq.com/news/ionq-unveils-accelerated-roadmap-and-new-technical-milestones-to-propel",
+          "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+          "https://www.ionq.com/news/ionq-achieves-record-breaking-quantum-performance-milestone-of-aq-64",
+          "https://www.sec.gov/Archives/edgar/data/1824920/000119312526071562/ionq-20251231.htm"
+        ],
+        "queries": [
+          "IonQ 99.999 logical two-qubit 2025",
+          "IonQ native two-qubit 99.9 2025",
+          "IonQ Basel data center online 2024"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "IonQ is driving to improve native two-qubit gate performance to greater than three 9’s (>99.9%) in 2025",
+          "locator": "22 July 2024 release",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-logical-99999-2025",
+      "target": "tgt:ionq-logical-99999-2025",
+      "result": "no_delivery_found",
+      "statement": "IonQ’s 22 July 2024 release targets logical two-qubit gate fidelity of 99.999% by the end of 2025. The later IonQ pages and the fiscal-year 2025 Form 10-K checked as of 2 October 2026 do not state that this figure was reached.",
+      "search_log": {
+        "checked": [
+          "https://ionq.com/news/ionq-unveils-accelerated-roadmap-and-new-technical-milestones-to-propel",
+          "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+          "https://www.ionq.com/news/ionq-achieves-record-breaking-quantum-performance-milestone-of-aq-64",
+          "https://www.sec.gov/Archives/edgar/data/1824920/000119312526071562/ionq-20251231.htm"
+        ],
+        "queries": [
+          "IonQ 99.999 logical two-qubit 2025",
+          "IonQ native two-qubit 99.9 2025",
+          "IonQ Basel data center online 2024"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "IonQ expects to reach five 9’s (99.999%) in logical two-qubit gate fidelity by the end of 2025",
+          "locator": "22 July 2024 release",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-basel-2024",
+      "target": "tgt:ionq-basel-2024",
+      "result": "no_delivery_found",
+      "statement": "IonQ’s 22 July 2024 release targets bringing its Basel quantum data center online later in 2024. An 10 August 2023 release says a QuantumBasel data center was established. The later pages checked do not state that the Basel center came online in 2024.",
+      "search_log": {
+        "checked": [
+          "https://ionq.com/news/ionq-unveils-accelerated-roadmap-and-new-technical-milestones-to-propel",
+          "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+          "https://www.ionq.com/news/ionq-achieves-record-breaking-quantum-performance-milestone-of-aq-64",
+          "https://www.sec.gov/Archives/edgar/data/1824920/000119312526071562/ionq-20251231.htm"
+        ],
+        "queries": [
+          "IonQ 99.999 logical two-qubit 2025",
+          "IonQ native two-qubit 99.9 2025",
+          "IonQ Basel data center online 2024"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2024-07",
+          "quote": "Later this year, IonQ will expand its footprint by bringing its quantum data center in Basel, Switzerland, online.",
+          "locator": "22 July 2024 release",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-tempo-100-2025",
+      "target": "tgt:ionq-tempo-100-2025",
+      "result": "no_delivery_found",
+      "statement": "IonQ’s 13 June 2025 post targets development systems supporting 100 physical qubits for Tempo in 2025. IonQ’s 25 September 2025 release states that a Tempo system achieved “#AQ 64” and does not state a physical-qubit count of 100.",
+      "search_log": {
+        "checked": [
+          "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+          "https://www.ionq.com/news/ionq-achieves-record-breaking-quantum-performance-milestone-of-aq-64"
+        ],
+        "queries": [
+          "IonQ Tempo 100 physical qubits"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "2025: Development systems supporting 100 physical qubits for Tempo",
+          "locator": "Roadmap highlights",
+          "supports": "target"
+        },
+        {
+          "source": "src:ionq-aq64-2025",
+          "quote": "today announced it has achieved a record algorithmic qubit score of #AQ 64",
+          "locator": "Lead",
+          "supports": "later Tempo statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-10k-2027",
+      "target": "tgt:ionq-10k-2027",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "2027: 10,000 physical qubits on a single chip.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-20k-2028",
+      "target": "tgt:ionq-20k-2028",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "2028: Two interconnected chips for a total of 20,000 physical qubits in one system, with networking capabilities coming online.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-cluster-2028",
+      "target": "tgt:ionq-cluster-2028",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "This makes clustered quantum computing not only feasible, but commercially ready by 2028.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-interconnect-2028",
+      "target": "tgt:ionq-interconnect-2028",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2028, IonQ plans to offer a commercially available, interconnected system.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-2m-2030",
+      "target": "tgt:ionq-2m-2030",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030: Our rapidly scalable architecture will enable a system with over 2,000,000 physical qubits. These will translate to between 40,000 and 80,000 logical qubits.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-logical-2030",
+      "target": "tgt:ionq-logical-2030",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030: Our rapidly scalable architecture will enable a system with over 2,000,000 physical qubits. These will translate to between 40,000 and 80,000 logical qubits.",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-error-2030",
+      "target": "tgt:ionq-error-2030",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030, we expect these logical qubits to achieve incredibly accurate logical error rates of less than 1E-12",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:ionq-apps-2030",
+      "target": "tgt:ionq-apps-2030",
+      "result": "pending",
+      "statement": "The due date on this item from IonQ’s 13 June 2025 post is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:ionq-roadmap-2025-06",
+          "quote": "By 2030, we expect to unlock applications that require massive logical qubit counts",
+          "locator": "Roadmap highlights",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:quantinuum-ft-2030",
+      "target": "tgt:quantinuum-ft-2030",
+      "result": "pending",
+      "statement": "Quantinuum’s 10 September 2024 release targets “universal, fully fault-tolerant quantum computing by 2030”. That due date is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:quantinuum-roadmap-pr-2024",
+          "quote": "unveiled its roadmap to universal, fully fault-tolerant quantum computing by 2030",
+          "locator": "Lead",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:quantinuum-rd2024-helios",
+      "target": "tgt:quantinuum-rd2024-helios",
+      "result": "no_delivery_found",
+      "statement": "Quantinuum’s 17 September 2024 technical post targets releasing Helios in 2025 with around 100 physical qubits. The Quantinuum pages checked as of 2 October 2026 do not state that Helios was released.",
+      "search_log": {
+        "checked": [
+          "https://www.quantinuum.com/blog/technical-perspective-by-the-end-of-the-decade-we-will-deliver-universal-fault-tolerant-quantum-computing",
+          "https://www.quantinuum.com/press-releases/quantinuum-unveils-accelerated-roadmap-to-achieve-universal-fault-tolerant-quantum-computing-by-2030",
+          "https://www.quantinuum.com/blog/quantum-milestone-16-fold-increase-in-performance-in-a-year"
+        ],
+        "queries": [
+          "Quantinuum Helios released 2025"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:quantinuum-tech-2024-09",
+          "quote": "The Quantinuum Helios™ system, which we are releasing in 2025, will offer around 100 physical qubits with two-qubit gate errors less than 5x10 -4",
+          "locator": "Hardware roadmap section",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:atom-available-2024",
+      "target": "tgt:atom-available-2024",
+      "result": "no_delivery_found",
+      "statement": "Atom Computing’s 24 October 2023 release says its systems will be available in 2024. The sources checked as of 2 October 2026 do not contain a later Atom Computing statement that those systems became available in 2024.",
+      "search_log": {
+        "checked": [
+          "https://atom-computing.com/quantum-startup-atom-computing-first-to-exceed-1000-qubits/"
+        ],
+        "queries": [
+          "Atom Computing systems available 2024"
+        ],
+        "as_of": "2026-10-02"
+      },
+      "evidence": [
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "Atom Computing is working with enterprise, academic, and government users today to develop applications and reserve time on the systems, which will be available in 2024.",
+          "locator": "Body",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "out:atom-ft-decade",
+      "target": "tgt:atom-ft-decade",
+      "result": "pending",
+      "statement": "Atom Computing’s 24 October 2023 release states “fault-tolerant quantum computing this decade”. The end of that decade is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:atom-1000-qubits-2023-10",
+          "quote": "on path to fault-tolerant quantum computing this decade",
+          "locator": "Subhead",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:infleqtion-rd2026-100-logical",
+      "target": "tgt:infleqtion-rd2026-100-logical",
+      "result": "pending",
+      "statement": "The due date on this item from Infleqtion’s 24 September 2026 release is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:infleqtion-sqale-30-2026-09",
+          "quote": "Infleqtion remains firmly on track to deliver 100 logical qubits in 2028 and 1,000 by 2030.",
+          "locator": "Section: The Road to 1,000 Logical Qubits by 2030",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "out:infleqtion-rd2026-1000-logical",
+      "target": "tgt:infleqtion-rd2026-1000-logical",
+      "result": "pending",
+      "statement": "The due date on this item from Infleqtion’s 24 September 2026 release is after 2 October 2026.",
+      "evidence": [
+        {
+          "source": "src:infleqtion-sqale-30-2026-09",
+          "quote": "Infleqtion remains firmly on track to deliver 100 logical qubits in 2028 and 1,000 by 2030.",
+          "locator": "Section: The Road to 1,000 Logical Qubits by 2030",
+          "supports": "statement"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "id": "prj:ionq-revenue-fy2021",
+      "org": "co:ionq",
+      "roadmap_doc": "rd:ionq-2021-spac",
+      "metric": "revenue",
+      "period": "FY2021",
+      "projected": {
+        "value": 5000000,
+        "as_of": "2021-03-08",
+        "note": "Exhibit row labeled Revenue, column 2021E, in a table headed $M. The exhibit says this revenue may include prepayments, bookings, and recognized contracts.",
+        "evidence": [
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+            "locator": "Summary Forecasted Financial Data",
+            "supports": "projected"
+          },
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+            "locator": "Footnote 2",
+            "supports": "metric basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+          "locator": "Summary Forecasted Financial Data",
+          "supports": "projected"
+        },
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+          "locator": "Footnote 2",
+          "supports": "metric basis"
+        },
+        {
+          "source": "src:ionq-10k-fy2021",
+          "quote": "Year Ended December 31, 2021 2020 Revenue $ 2,099",
+          "locator": "Consolidated statements of operations",
+          "supports": "actual"
+        }
+      ],
+      "actual": {
+        "value": 2099000,
+        "as_of": "2022-03-28",
+        "note": "Revenue line in the consolidated statements of operations. The statement is labeled in thousands of dollars. This is the GAAP revenue line, not the exhibit’s bookings-inclusive description.",
+        "evidence": [
+          {
+            "source": "src:ionq-10k-fy2021",
+            "quote": "Year Ended December 31, 2021 2020 Revenue $ 2,099",
+            "locator": "Consolidated statements of operations",
+            "supports": "actual"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:ionq-revenue-fy2022",
+      "org": "co:ionq",
+      "roadmap_doc": "rd:ionq-2021-spac",
+      "metric": "revenue",
+      "period": "FY2022",
+      "projected": {
+        "value": 15000000,
+        "as_of": "2021-03-08",
+        "note": "Exhibit row labeled Revenue, column 2022E, in a table headed $M. The exhibit says this revenue may include prepayments, bookings, and recognized contracts.",
+        "evidence": [
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+            "locator": "Summary Forecasted Financial Data",
+            "supports": "projected"
+          },
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+            "locator": "Footnote 2",
+            "supports": "metric basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+          "locator": "Summary Forecasted Financial Data",
+          "supports": "projected"
+        },
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+          "locator": "Footnote 2",
+          "supports": "metric basis"
+        },
+        {
+          "source": "src:ionq-10k-fy2024",
+          "quote": "Year Ended December 31, 2024 2023 2022 Revenue $ 43,073 $ 22,042 $ 11,131",
+          "locator": "Consolidated statements of operations",
+          "supports": "actual"
+        }
+      ],
+      "actual": {
+        "value": 11131000,
+        "as_of": "2025-02-26",
+        "note": "Revenue line in the consolidated statements of operations. The statement is labeled in thousands of dollars. This is the GAAP revenue line, not the exhibit’s bookings-inclusive description.",
+        "evidence": [
+          {
+            "source": "src:ionq-10k-fy2024",
+            "quote": "Year Ended December 31, 2024 2023 2022 Revenue $ 43,073 $ 22,042 $ 11,131",
+            "locator": "Consolidated statements of operations",
+            "supports": "actual"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:ionq-revenue-fy2023",
+      "org": "co:ionq",
+      "roadmap_doc": "rd:ionq-2021-spac",
+      "metric": "revenue",
+      "period": "FY2023",
+      "projected": {
+        "value": 34000000,
+        "as_of": "2021-03-08",
+        "note": "Exhibit row labeled Revenue, column 2023E, in a table headed $M. The exhibit says this revenue may include prepayments, bookings, and recognized contracts.",
+        "evidence": [
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+            "locator": "Summary Forecasted Financial Data",
+            "supports": "projected"
+          },
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+            "locator": "Footnote 2",
+            "supports": "metric basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+          "locator": "Summary Forecasted Financial Data",
+          "supports": "projected"
+        },
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+          "locator": "Footnote 2",
+          "supports": "metric basis"
+        },
+        {
+          "source": "src:ionq-10k-fy2024",
+          "quote": "Year Ended December 31, 2024 2023 2022 Revenue $ 43,073 $ 22,042 $ 11,131",
+          "locator": "Consolidated statements of operations",
+          "supports": "actual"
+        }
+      ],
+      "actual": {
+        "value": 22042000,
+        "as_of": "2025-02-26",
+        "note": "Revenue line in the consolidated statements of operations. The statement is labeled in thousands of dollars. This is the GAAP revenue line, not the exhibit’s bookings-inclusive description.",
+        "evidence": [
+          {
+            "source": "src:ionq-10k-fy2024",
+            "quote": "Year Ended December 31, 2024 2023 2022 Revenue $ 43,073 $ 22,042 $ 11,131",
+            "locator": "Consolidated statements of operations",
+            "supports": "actual"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:ionq-revenue-fy2024",
+      "org": "co:ionq",
+      "roadmap_doc": "rd:ionq-2021-spac",
+      "metric": "revenue",
+      "period": "FY2024",
+      "projected": {
+        "value": 60000000,
+        "as_of": "2021-03-08",
+        "note": "Exhibit row labeled Revenue, column 2024E, in a table headed $M. The exhibit says this revenue may include prepayments, bookings, and recognized contracts.",
+        "evidence": [
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+            "locator": "Summary Forecasted Financial Data",
+            "supports": "projected"
+          },
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+            "locator": "Footnote 2",
+            "supports": "metric basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+          "locator": "Summary Forecasted Financial Data",
+          "supports": "projected"
+        },
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+          "locator": "Footnote 2",
+          "supports": "metric basis"
+        },
+        {
+          "source": "src:ionq-10k-fy2024",
+          "quote": "Year Ended December 31, 2024 2023 2022 Revenue $ 43,073 $ 22,042 $ 11,131",
+          "locator": "Consolidated statements of operations",
+          "supports": "actual"
+        }
+      ],
+      "actual": {
+        "value": 43073000,
+        "as_of": "2025-02-26",
+        "note": "Revenue line in the consolidated statements of operations. The statement is labeled in thousands of dollars. This is the GAAP revenue line, not the exhibit’s bookings-inclusive description.",
+        "evidence": [
+          {
+            "source": "src:ionq-10k-fy2024",
+            "quote": "Year Ended December 31, 2024 2023 2022 Revenue $ 43,073 $ 22,042 $ 11,131",
+            "locator": "Consolidated statements of operations",
+            "supports": "actual"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:ionq-revenue-fy2025",
+      "org": "co:ionq",
+      "roadmap_doc": "rd:ionq-2021-spac",
+      "metric": "revenue",
+      "period": "FY2025",
+      "projected": {
+        "value": 237000000,
+        "as_of": "2021-03-08",
+        "note": "Exhibit row labeled Revenue, column 2025E, in a table headed $M. The exhibit says this revenue may include prepayments, bookings, and recognized contracts.",
+        "evidence": [
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+            "locator": "Summary Forecasted Financial Data",
+            "supports": "projected"
+          },
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+            "locator": "Footnote 2",
+            "supports": "metric basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+          "locator": "Summary Forecasted Financial Data",
+          "supports": "projected"
+        },
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+          "locator": "Footnote 2",
+          "supports": "metric basis"
+        },
+        {
+          "source": "src:ionq-10k-fy2025",
+          "quote": "Year Ended December 31, 2025 2024 2023 Revenue $ 130,016 $ 43,073 $ 22,042",
+          "locator": "Consolidated statements of operations",
+          "supports": "actual"
+        }
+      ],
+      "actual": {
+        "value": 130016000,
+        "as_of": "2026-02-25",
+        "note": "Revenue line in the consolidated statements of operations. The statement is labeled in thousands of dollars. This is the GAAP revenue line, not the exhibit’s bookings-inclusive description.",
+        "evidence": [
+          {
+            "source": "src:ionq-10k-fy2025",
+            "quote": "Year Ended December 31, 2025 2024 2023 Revenue $ 130,016 $ 43,073 $ 22,042",
+            "locator": "Consolidated statements of operations",
+            "supports": "actual"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:ionq-revenue-fy2026",
+      "org": "co:ionq",
+      "roadmap_doc": "rd:ionq-2021-spac",
+      "metric": "revenue",
+      "period": "FY2026",
+      "projected": {
+        "value": 522000000,
+        "as_of": "2021-03-08",
+        "note": "Exhibit row labeled Revenue, column 2026E, in a table headed $M. The exhibit says this revenue may include prepayments, bookings, and recognized contracts.",
+        "evidence": [
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+            "locator": "Summary Forecasted Financial Data",
+            "supports": "projected"
+          },
+          {
+            "source": "src:ionq-spac-ex992",
+            "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+            "locator": "Footnote 2",
+            "supports": "metric basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Summary Forecasted Financial Data $M 2021E 2022E 2023E 2024E 2025E 2026E 1 Systems Online (Year End) 1 1 2 7 17 33 2 Revenue 5 15 34 60 237 522",
+          "locator": "Summary Forecasted Financial Data",
+          "supports": "projected"
+        },
+        {
+          "source": "src:ionq-spac-ex992",
+          "quote": "Revenue channels still being defined; exact nature and accounting recognition of IonQ revenue to be determined. Revenue may include prepayments, bookings, and recognized contracts.",
+          "locator": "Footnote 2",
+          "supports": "metric basis"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "IonQ SPAC exhibit images and #AQ year pairing",
+      "why": "www.sec.gov returned 403 to the declared user agent. The exhibit HTML was read from a Wayback capture dated 2026-09-28. Slide images returned HTTP 429. The exhibit’s hidden text lists algorithmic-qubit figures and the years 2021–2028, but the text order does not pair each figure to a year, so those figures were not split into targets.",
+      "would_need": "The slide images g142872ex99_2p27g1.jpg and g142872ex99_2p44g1.jpg from the same exhibit, or another filing whose sentences pair each #AQ figure with a year."
+    },
+    {
+      "topic": "IonQ exhibit rows other than revenue",
+      "why": "The same Summary Forecasted Financial Data table also lists systems online, costs, gross margin, EBITDA, net income, and free cash flow. Those rows were not entered as separate projections. EBITDA in the exhibit is a non-GAAP measure defined in the deck. Completeness of rd:ionq-2021-spac is partial for that reason, and because illustrative application slides were not itemized.",
+      "would_need": "A decision to add each remaining table row, with 10-K lines only where the metric matches."
+    },
+    {
+      "topic": "GAAP revenue versus the exhibit’s revenue row",
+      "why": "Footnote 2 of the exhibit says revenue channels were still being defined and that revenue may include prepayments, bookings, and recognized contracts. The actuals are the GAAP Revenue line from IonQ Forms 10-K, reported in thousands of dollars. Projected values in this file are the exhibit’s $M cells converted to dollars. Actual values are the thousands cells converted to dollars.",
+      "would_need": "Counsel comparison of those two bases before any ratio is shown."
+    },
+    {
+      "topic": "Honeywell H0 day and later quantum-volume steps",
+      "why": "The March 2021 and July 2021 Honeywell quantum-volume URLs returned a generic Honeywell page, not the articles. June 2020 and July 2021 figures used here come from Quantinuum’s 29 November 2021 post, which gives months but not days. The five-year order-of-magnitude wording runs to 2025; this file records the July 2021 quantum volume of 1024 and does not contain a 2024 or 2025 quantum-volume figure.",
+      "would_need": "The June 2020 H0 release and any 2022–2025 Quantinuum quantum-volume announcements."
+    },
+    {
+      "topic": "Honeywell and Cambridge Quantum combination",
+      "why": "The Honeywell combination press-release URL returned 404, so this file does not record Honeywell as Quantinuum’s parent.",
+      "would_need": "The 2021 combination release or a filing that names both parties and the ownership."
+    },
+    {
+      "topic": "Undated sentences left out of due dates",
+      "why": "The 3 March 2020 Honeywell release says it will work with JPMorgan Chase, without a deadline, and says a paper will be posted later that day. Pasqal’s 12 March 2024 release describes offices still to open, without years. Pasqal’s 12 June 2025 roadmap says deployments are planned in Canada, the Middle East, and at CINECA, without a year. Those sentences are why several documents are marked partial.",
+      "would_need": "A dated document for each of those sentences, if one exists."
+    },
+    {
+      "topic": "Pasqal roadmap page revising 200 logical qubits to 2029",
+      "why": "https://www.pasqal.com/technology/roadmap/ contains the sentence about 200+ logical qubits by 2029 and a targeted demonstration by the end of Q1 2026, and it does not give a publication date. It was not used to revise the 12 June 2025 item.",
+      "would_need": "A dated capture or a press release that states the 2029 figure."
+    },
+    {
+      "topic": "QuEra revision of the 2026 system and Helios delivery",
+      "why": "A later QuEra statement moving the third-generation system, and a Quantinuum statement that Helios shipped, were not in the pages fetched here. The 2026 QuEra item is pending because 31 December 2026 has not passed. The Helios 2025 item is no_delivery_found in the pages checked.",
+      "would_need": "QuEra’s later roadmap release and Quantinuum’s Helios announcement."
+    },
+    {
+      "topic": "Infleqtion street address and the earlier 30-logical-qubit target",
+      "why": "The 24 September 2026 release gives Louisville, Colo., not a street. The 30-logical-qubit result is stated as achieved; the earlier sentence that set 30 as a 2026 target was not re-fetched, so it is not in this file as a target.",
+      "would_need": "Infleqtion’s Form 10-K sentence that set the 30 figure, and a page that states the Louisville street address."
+    },
+    {
+      "topic": "Pasqal city of headquarters",
+      "why": "The Palaiseau coordinates and city precision are copied from the existing neutral-atom record. The 12 June 2025 Pasqal release fetched for this file says “Headquartered in France” and names Paris in the dateline. It does not name Palaiseau.",
+      "would_need": "A Pasqal page fetched in this pass that states Palaiseau or the street address."
+    },
+    {
+      "topic": "SEC archive access",
+      "why": "Direct requests to www.sec.gov returned 403. Exhibit 99.2 and the three IonQ Forms 10-K were read from Wayback Machine captures. IonQ’s investor-relations presentation page also returned 403.",
+      "would_need": "Nothing further if counsel accepts the Wayback copies. The canonical SEC URLs are recorded on the sources."
+    }
+  ]
+}

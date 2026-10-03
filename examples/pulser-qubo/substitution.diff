@@ -1,0 +1,5 @@
+# The tutorial already executes on the local emulator:
+#   simul = pulser_simulation.QutipBackendV2(sequence)
+#   results = simul.run()
+# The later duration sweep uses the same QutipBackendV2. No device, pulse, or duration is changed.
+# harness.py is identical to official.py.

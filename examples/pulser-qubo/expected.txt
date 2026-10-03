@@ -1,0 +1,3 @@
+# The tutorial prints the lowest classical costs first. These two bitstrings are the ones it marks as optimal.
+01011
+00111

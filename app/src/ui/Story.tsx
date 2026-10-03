@@ -23,10 +23,14 @@ export function useStoryFocus(idx: Index) {
     const node = (id: string) => { nodes.add(id); frame.add(id); };
     for (const id of step.focus) {
       const ms = idx.milestone.get(id), tg = idx.target.get(id), ac = idx.access.get(id), r = idx.rel.get(id);
+      const uc = idx.useCase.get(id), out = idx.outcome.get(id), pr = idx.projection.get(id);
       if (ms) { ms.orgs.forEach(node); (ms.systems ?? []).forEach(node); }
       else if (tg) { node(tg.org); if (tg.system) node(tg.system); }
       else if (ac) { access.add(id); nodes.add(ac.platform); node(ac.system ?? ac.target_org); }
       else if (r) { rels.add(id); node(r.from); node(r.to); }
+      else if (uc) node(uc.platform);
+      else if (out) { const host = idx.target.get(out.target); if (host) { node(host.org); if (host.system) node(host.system); } }
+      else if (pr) node(pr.org);
       else if (idx.system.has(id)) { node(id); nodes.add(idx.system.get(id)!.operator); }
       else if (idx.org.has(id) || idx.site.has(id)) node(id);
     }

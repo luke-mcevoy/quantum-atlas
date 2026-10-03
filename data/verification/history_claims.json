@@ -1,0 +1,723 @@
+{
+  "topic": "history_claims",
+  "verifier": "Independent counsel",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:nature-speed-limit-retraction-html",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched publisher HTML (HTTP 200). Title, DOI metadata and 2020-07-22 publication date were present."
+    },
+    {
+      "source": "src:nature-speed-limit-retraction-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched the one-page Nature retraction notice PDF (HTTP 200); text extraction contains the authors' retraction wording."
+    },
+    {
+      "source": "src:nature-epitaxy-retraction-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched the one-page Nature retraction notice PDF (HTTP 200); DOI, date and retraction wording were present."
+    },
+    {
+      "source": "src:nature-willow-author-correction-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched the one-page Nature Author Correction PDF (HTTP 200); DOI, date and Fig. 3a corrections were present."
+    },
+    {
+      "source": "src:nature-cat-author-correction-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched the one-page Nature Author Correction PDF (HTTP 200); DOI, date and axis-unit correction were present."
+    },
+    {
+      "source": "src:nature-sycamore-2019-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched the Nature article PDF (HTTP 200); DOI, publication date and quoted abstract claims were present."
+    },
+    {
+      "source": "src:arxiv-pan-sycamore-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv PDF (HTTP 200). It is revision v2 dated 2022-08-28, not the journal issue; source remains Tier 2 preprint."
+    },
+    {
+      "source": "src:arxiv-pan-sycamore-abs",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv record (HTTP 200). It identifies revision date 2022-08-28 and the PRL journal reference, but is still a preprint source."
+    },
+    {
+      "source": "src:nature-kim-2023-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched the Nature article PDF (HTTP 200); DOI, date and quoted abstract claims were present."
+    },
+    {
+      "source": "src:arxiv-tindall-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv PDF (HTTP 200). It is revision v3 dated 2024-01-26, not the journal issue; source remains Tier 2 preprint."
+    },
+    {
+      "source": "src:arxiv-tindall-abs",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv record (HTTP 200). It identifies revision date 2024-01-26 and the PRX Quantum journal reference."
+    },
+    {
+      "source": "src:arxiv-begusic-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv PDF (HTTP 200). It is revision v3 dated 2024-01-26, not the journal issue; source remains Tier 2 preprint."
+    },
+    {
+      "source": "src:arxiv-begusic-abs",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv record (HTTP 200). It identifies revision date 2024-01-26 and the Science Advances journal reference."
+    },
+    {
+      "source": "src:nature-oh-gbs-html",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched Nature Physics landing page and abstract (HTTP 200). DOI and 2024-06-25 date were present; the full journal body was not available."
+    },
+    {
+      "source": "src:arxiv-oh-gbs-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv PDF (HTTP 200). The quoted dispute wording is in revision v2 dated 2023-12-04."
+    },
+    {
+      "source": "src:nature-borealis-2022-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched the Nature article PDF (HTTP 200); DOI, date and quoted Borealis claim were present."
+    },
+    {
+      "source": "src:arxiv-jiuzhang-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv PDF (HTTP 200); title and author quote were present. This is Tier 2 despite its journal publication."
+    },
+    {
+      "source": "src:arxiv-jiuzhang-abs",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv record (HTTP 200); submission date and Science journal reference were present."
+    },
+    {
+      "source": "src:arxiv-king-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv PDF (HTTP 200); quoted comparison was present. The Science journal body was not fetched."
+    },
+    {
+      "source": "src:arxiv-king-abs",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv record (HTTP 200); revision date and Science journal reference were present."
+    },
+    {
+      "source": "src:arxiv-krinitsin-comment-pdf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched arXiv comment PDF (HTTP 200); it is a Tier 2 preprint comment limited to one comparison."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "cr:sorensen-quantum-speed-limit-retraction",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:sorensen-quantum-speed-limit-retraction",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:sorensen-quantum-speed-limit-retraction",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:sorensen-quantum-speed-limit-retraction",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:sorensen-quantum-speed-limit-retraction",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:google-qai-fig3a-author-correction",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:google-qai-fig3a-author-correction",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:google-qai-fig3a-author-correction",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:google-qai-fig3a-author-correction",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:reglade-fig3d-author-correction",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:reglade-fig3d-author-correction",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:reglade-fig3d-author-correction",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:reglade-fig3d-author-correction",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 11,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "evidence_index": 12,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically in plain pdftotext output; layout extraction interleaved the PDF's columns."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 10,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 11,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 12,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 13,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 14,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 15,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "evidence_index": 16,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 4,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 5,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 6,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 7,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 8,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "evidence_index": 9,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after Unicode and whitespace normalization."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "cr:sorensen-quantum-speed-limit-retraction",
+      "verdict": "publish",
+      "reasons": "Publisher notice, date, authors and verbatim retraction reason were verified. This is the quantum-control paper, not a hardware-vendor claim."
+    },
+    {
+      "entity": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "verdict": "publish",
+      "reasons": "Publisher notice, date, authors and verbatim retraction reasons were verified. This is the epitaxy paper, not the 2018 Majorana paper."
+    },
+    {
+      "entity": "cr:google-qai-fig3a-author-correction",
+      "verdict": "publish",
+      "reasons": "The publisher notice expressly identifies an Author Correction and the Fig. 3a label/key changes; it is not characterized as a retraction."
+    },
+    {
+      "entity": "cr:reglade-fig3d-author-correction",
+      "verdict": "publish",
+      "reasons": "The publisher notice expressly identifies an Author Correction and the μs-to-ms axis-unit change; it is not characterized as a retraction."
+    },
+    {
+      "entity": "cr:pan-sycamore-sampling-preprint",
+      "verdict": "publish_flagged",
+      "reasons": "Publish with a visible caveat: this is a research article reporting a classical simulation, not a journal Comment. The saved scientific text is arXiv v2 and 2022-08-28 is its revision date, not a verified PRL publication date.",
+      "corrections": {
+        "statement": "On 28 August 2022, arXiv recorded revision v2 of a research article by Pan, Chen and Zhang reporting a classical simulation of Sycamore circuits from the 23 October 2019 Nature article by Arute and co-authors. Pan, Chen and Zhang state that those circuits have “been used to demonstrate quantum supremacy.” Arute and co-authors state that the Sycamore result “is an experimental realization of quantum supremacy”. The arXiv record lists the journal reference Physical Review Letters 129, 090502 (2022)."
+      }
+    },
+    {
+      "entity": "cr:tindall-kim-kicked-ising-preprint",
+      "verdict": "publish_flagged",
+      "reasons": "Publish with a visible caveat: this is a research article reporting a classical simulation, not a journal Comment. The saved scientific text is arXiv v3 and 2024-01-26 is its revision date, not a verified PRX Quantum publication date.",
+      "corrections": {
+        "statement": "On 26 January 2024, arXiv recorded revision v3 of a research article by Tindall, Fishman, Stoudenmire and Sels reporting a classical simulation of the kicked Ising experiment in the 14 June 2023 Nature article by Kim and co-authors. Kim and co-authors state that the experiments represent “evidence for the utility of quantum computing in a pre-fault-tolerant era.” Tindall, Fishman, Stoudenmire and Sels state that their classical simulation “is significantly more accurate and precise than the results obtained from the quantum processor.” The arXiv record lists the journal reference PRX Quantum 5, 010308 (2024)."
+      }
+    },
+    {
+      "entity": "cr:begusic-kim-kicked-ising-preprint",
+      "verdict": "publish_flagged",
+      "reasons": "Publish with a visible caveat: this is a research article reporting a classical simulation, not a journal Comment. The saved scientific text is arXiv v3 and 2024-01-26 is its revision date, not a verified Science Advances publication date.",
+      "corrections": {
+        "statement": "On 26 January 2024, arXiv recorded revision v3 of a research article by Begušić, Gray and Chan reporting a classical simulation of the kicked Ising experiment in the 14 June 2023 Nature article by Kim and co-authors. Kim and co-authors state that the experiments represent “evidence for the utility of quantum computing in a pre-fault-tolerant era.” Begušić, Gray and Chan state that approximate classical methods “can simulate these observables orders of magnitude faster than the quantum experiment.” The arXiv record lists the journal reference Sci. Adv. 10, eadk4321 (2024)."
+      }
+    },
+    {
+      "entity": "cr:oh-gaussian-boson-sampling",
+      "verdict": "publish_flagged",
+      "reasons": "Publish with a visible caveat: the Nature Physics landing page supports the 2024-06-25 publication date, but the quoted dispute wording was verified only in arXiv v2 dated 2023-12-04, not in the journal body.",
+      "corrections": {
+        "statement": "On 25 June 2024, Nature Physics published “Classical algorithm for simulating experimental Gaussian boson sampling.” The dispute wording cited here is from arXiv:2306.03709v2, dated 4 December 2023: Oh and co-authors state that they “simulate the largest Borealis, Jiuzhang2.0, and Jiuzhang3.0 experiments, which were used to claim quantum computational advantage” and that the simulation “disputes the experimental quantum advantage claims.” Madsen and co-authors state “Here we report quantum computational advantage using Borealis”. Zhong and co-authors report the title “Quantum computational advantage using photons”."
+      }
+    },
+    {
+      "entity": "cr:krinitsin-king-neural-network-comment",
+      "verdict": "publish",
+      "reasons": "The arXiv comment and original comparison were verified. The statement is limited to the neural-network comparison and does not say that the King article was withdrawn or retracted."
+    }
+  ],
+  "summary": "5 publish, 4 publish_flagged, 0 reject. All 21 sources were fetched and all 81 evidence quotes matched saved publisher/arXiv text. The principal issue is source-version attribution: Pan, Tindall and Begušić use arXiv revision dates and arXiv text although their records list later journal versions; Oh's publication date comes from Nature Physics while the quoted dispute wording comes from the 2023-12-04 preprint. Corrected statements make those distinctions explicit. Both retractions and both publisher corrections are correctly identified. The Krinitsin item is limited to an arXiv comment on one comparison and is not described as a withdrawal. Rejected ids: none."
+}

@@ -1,0 +1,6 @@
+# Pinned for the local-emulator harness. Installed before networking is blocked.
+pulser-core==1.9.1
+pulser-simulation==1.9.1
+qutip==5.3.1
+matplotlib==3.11.2
+scipy==1.18.1

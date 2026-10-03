@@ -1,16 +1,17 @@
 import { useMemo, useState, type ReactNode } from "react";
 import { type Index, type Evidence, nodeName, formatMoney, locateAny, timeOf, allEvidence } from "../atlas";
 import { MODALITY_LABEL, DOC_LABEL, ROUTE_LABEL, TIER_ACCESS_LABEL, REL_LABEL, PEER_LABEL, SIM_LABEL } from "../theme";
+import { PROBLEM_LABEL, availabilityLabel, limitsText, plainQuote, programText, testedHereBadge } from "../display";
 import { useStore, type Mode } from "../store";
 
-type Tab = "systems" | "orgs" | "milestones" | "targets" | "access" | "relationships" | "sources";
+type Tab = "systems" | "orgs" | "milestones" | "targets" | "access" | "routes" | "use_cases" | "examples" | "relationships" | "sources";
 
 interface Col<R> { key: string; label: string; get: (r: R) => string | number; render?: (r: R) => ReactNode; num?: boolean; width?: string }
 interface Spec<R> { rows: R[]; cols: Col<R>[]; id: (r: R) => string; evidence?: (r: R) => Evidence[]; url?: (r: R) => string; mode?: Mode }
 
 const review = (r: { review: string }) => r.review;
 const TABS: [Tab, string][] = [["systems", "Systems"], ["orgs", "Organisations"], ["milestones", "Achieved"], ["targets", "Targets"],
-  ["access", "Access"], ["relationships", "Deals & awards"], ["sources", "Sources"]];
+  ["access", "Access"], ["routes", "Routes"], ["use_cases", "Use cases"], ["examples", "Examples"], ["relationships", "Deals & awards"], ["sources", "Sources"]];
 
 export default function DataTable({ idx }: { idx: Index }) {
   const { dataOpen, set, select, focus } = useStore();
@@ -87,6 +88,38 @@ export default function DataTable({ idx }: { idx: Index }) {
           { key: "sim", label: "Example", get: (r) => (r.snippet ? SIM_LABEL[r.snippet.sim_check.status as keyof typeof SIM_LABEL] : "") },
           { key: "docs", label: "Docs", get: (r) => r.docs_url, render: (r) => <a href={r.docs_url} target="_blank" rel="noreferrer noopener" onClick={(e) => e.stopPropagation()}>docs ↗</a> },
         ] };
+      case "routes": return {
+        rows: a.access, id: (r) => r.id, evidence: (r) => r.evidence, mode: "today",
+        cols: [
+          { key: "sys", label: "Machine", get: (r) => (r.system ? nodeName(idx, r.system) : r.system_hint ?? "") },
+          { key: "plat", label: "Platform", get: (r) => r.platform_name },
+          { key: "avail", label: "Availability", get: (r) => availabilityLabel(r.availability ? { ...r.availability, tier: r.tier } : undefined) },
+          { key: "model", label: "Program model", get: (r) => programText(r.program_models) },
+          { key: "sdk", label: "SDK", get: (r) => r.sdks.join(", ") },
+          { key: "limits", label: "Limits", get: (r) => limitsText(r.limits) },
+          { key: "price", label: "Pricing", get: (r) => (r.pricing ? plainQuote(r.pricing.quote) : "") },
+          { key: "asof", label: "Last confirmed", get: (r) => r.availability?.as_of ?? "" },
+        ] };
+      case "use_cases": return {
+        rows: a.use_cases ?? [], id: (r) => r.id, evidence: (r) => r.evidence, mode: "today",
+        cols: [
+          { key: "title", label: "Use case", get: (r) => r.title, width: "22%" },
+          { key: "class", label: "Problem", get: (r) => PROBLEM_LABEL[r.problem_class as keyof typeof PROBLEM_LABEL] ?? r.problem_class },
+          { key: "plat", label: "Platform", get: (r) => nodeName(idx, r.platform) },
+          { key: "model", label: "Program model", get: (r) => (r.program_model ? programText([r.program_model]) : "") },
+          { key: "sdk", label: "SDK", get: (r) => r.sdk ?? "" },
+          { key: "kind", label: "Kind", get: (r) => r.kind.replaceAll("_", " ") },
+          { key: "stmt", label: "Statement", get: (r) => r.statement, width: "28%" },
+        ] };
+      case "examples": return {
+        rows: a.examples ?? [], id: (r) => r.id, evidence: (r) => r.evidence, mode: "today",
+        cols: [
+          { key: "title", label: "Example", get: (r) => r.title, width: "28%" },
+          { key: "sdk", label: "SDK", get: (r) => r.sdk },
+          { key: "model", label: "Program model", get: (r) => programText([r.program_model]) },
+          { key: "badge", label: "Check", get: (r) => testedHereBadge(r.sim_check).text },
+          { key: "routes", label: "Routes", get: (r) => r.routes.join(", ") },
+        ] };
       case "relationships": return {
         rows: a.relationships, id: (r) => r.id, evidence: (r) => r.evidence, mode: "modality",
         cols: [
@@ -154,7 +187,11 @@ export default function DataTable({ idx }: { idx: Index }) {
     const p = locateAny(idx, anchor);
     if (p) focus(p[0], p[1]);
   };
-  const count = (k: Tab) => (k === "milestones" ? idx.atlas.milestones.length : (idx.atlas as unknown as Record<string, unknown[]>)[k]?.length ?? 0);
+  const count = (k: Tab) => {
+    if (k === "milestones") return idx.atlas.milestones.length;
+    if (k === "routes") return idx.atlas.access.length;
+    return (idx.atlas as unknown as Record<string, unknown[]>)[k]?.length ?? 0;
+  };
 
   return (
     <div className="scrim data-scrim" onClick={() => set({ dataOpen: false })}>

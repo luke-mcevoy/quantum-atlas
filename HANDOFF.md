@@ -7,23 +7,26 @@ There are two repos:
 
 | Repo | Path | State |
 |
-> **Next feature (2026-10-02):** "Run it today", a buyer's guide covering which machines a company can submit work to now,
-> which problem types fit, tested examples, pricing and an honesty panel. The full plan is in **`docs/RUN-TODAY-PLAN.md`**.
-> Start there.
+> **Status (2026-10-02 23:47 ET):** Run today and Track record are implemented locally and reviewed.
+> The verified atlas has 37 access routes, 37 use cases, 3 tested examples, 27 roadmap documents,
+> 78 outcomes, 18 projections, and 10 claim revisions. Track-record rates stay hidden (fewer than
+> 3 resolved items from fully captured documents). Not deployed. Problem Lab has not started.
 >
-> **Second feature: "Track record".** How well each company's past roadmaps and investor projections held up
-> (whole-document ledgers, outcomes, slips, SPAC projections vs 10-K actuals, retractions), shown next to every
-> future target. The plan is in **`docs/TRACK-RECORD-PLAN.md`**. It can run in parallel with Run-today; one engineer
-> owns the shared schema and validator files at a time.
+> **Run today** (`docs/RUN-TODAY-PLAN.md`): availability board, machine pages, tested-example badges,
+> and the honesty panel are in the app. Gaps that remain: many live devices have no atlas system id,
+> and only three program-model cells have an offline tutorial (annealing was skipped because the
+> published D-Wave examples call Leap).
 >
-> **Third feature, after Run-today: "Problem Lab".** A company describes a problem. The Lab produces a classical baseline,
-> AI-written quantum formulations verified by code, simulated trials on vendors' own simulators and noise models, feasibility
-> against the atlas, and an evidence-backed verdict. The plan is in **`docs/PROBLEM-LAB-PLAN.md`**. The user's decisions are recorded in §10:
+> **Track record** (`docs/TRACK-RECORD-PLAN.md`): ledger, slip plot, projection bars, and a card on
+> every open target. Gate-model and other-company documents are partial, so they do not enter rates.
+> IonQ's SPAC revenue row was rejected because it can include bookings.
+>
+> **Problem Lab** (`docs/PROBLEM-LAB-PLAN.md`) starts only after Run today. Decisions in §10:
 > a local small model, local-only hosting, no data retention, free solvers only, and no real hardware yet.
 
 ---|---|---|
 | **AI Supply Chain Atlas** | `~/Develop/Code/ai-supply-chain` | **Live and stable.** Fully verified, on GitHub, deployed. Maintenance only. |
-| **Quantum Computing Atlas** | `~/Develop/Code/quantum-atlas` | **In progress.** About a third of the research is done, nothing is verified, no GitHub repo, not deployed. **This is the work to continue.** |
+| **Quantum Computing Atlas** | `~/Develop/Code/quantum-atlas` | **Run today and Track record are in the local app.** Research for both is counsel-reviewed. Live at https://quantum-computing-atlas.fly.dev/ from the last deploy, which does not include these two tabs yet. Problem Lab is next. |
 
 The quantum repo is a fork of the supply-chain repo's architecture. When unsure how something should work,
 read how the supply-chain repo does it.

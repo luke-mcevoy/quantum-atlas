@@ -3,6 +3,12 @@
 /** Terms that may appear in prose only inside quotation marks, attributed, verbatim from the evidence. */
 export const HYPE = /\b(quantum advantage|advantage|supremacy|logical[- ]qubits?|error[- ]corrected|fault[- ]toleran(?:t|ce)|beyond[- ]classical|quantum utility|utility)\b/gi;
 
+/** Benefit claims, checked on use-case and example prose in addition to HYPE. */
+export const BENEFIT = /\b(solves|faster|speed-?ups?|better than classical)\b/gi;
+
+/** Evaluative words, checked on track-record prose in addition to HYPE. Never "failed" unless the source said it. */
+export const EVALUATIVE = /\b(failed|broke|overpromised|misleading|hype|vaporware)\b/gi;
+
 /** Verbs that attribute a quoted phrase to its source. */
 export const ATTRIBUTION = /\b(states?|stated|says?|said|reports?|reported|describes?|described|calls?|called|claims?|claimed|announce[sd]?|targets?|writes?|wrote|terms?|termed|according to|characteri[sz]es|refers? to|labels?)\b/i;
 
@@ -27,21 +33,33 @@ const QUOTED = /“([^”]+)”|"([^"]+)"/g;
  * @param {string[]} quotes  verbatim evidence quotes the prose may quote from
  * @returns {string[]} problems (empty = OK)
  */
-export function hypeProblems(text, quotes) {
+export function hypeProblems(text, quotes, extra) {
   if (!text) return [];
+  const pattern = extra ? new RegExp(`(?:${HYPE.source})|(?:${extra.source})`, "gi") : new RegExp(HYPE.source, "gi");
   const problems = [];
   const outside = text.replace(QUOTED, " ");
-  for (const m of outside.matchAll(HYPE)) problems.push(`hype term "${m[0]}" outside quotation marks`);
+  for (const m of outside.matchAll(pattern)) problems.push(`hype term "${m[0]}" outside quotation marks`);
   const pool = norm(quotes.join(" \n "));
+  const innerRe = new RegExp(pattern.source, "i");
   let quotedHype = false;
   for (const m of text.matchAll(QUOTED)) {
     const inner = m[1] ?? m[2];
-    if (!new RegExp(HYPE.source, "i").test(inner)) continue;
+    if (!innerRe.test(inner)) continue;
     quotedHype = true;
     if (!pool.includes(norm(inner))) problems.push(`quoted words “${inner}” not found verbatim in the evidence`);
   }
   if (quotedHype && !ATTRIBUTION.test(outside)) problems.push("quoted hype term is not attributed (e.g. \"<Org> states …\")");
   return problems;
+}
+
+/** Use-case and example prose: hype terms plus benefit claims. */
+export function benefitProblems(text, quotes) {
+  return hypeProblems(text, quotes, BENEFIT);
+}
+
+/** Track-record prose: hype terms plus evaluative words such as "failed" and "hype". */
+export function trackProblems(text, quotes) {
+  return hypeProblems(text, quotes, EVALUATIVE);
 }
 
 /** Numbers in prose (years and single digits skipped), normalised "1,000" → "1000". */

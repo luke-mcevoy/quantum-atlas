@@ -6,13 +6,14 @@
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { hypeProblems, impliedPeerReview } from "./lib/rules.mjs";
+import { hypeProblems, benefitProblems, trackProblems, impliedPeerReview, norm } from "./lib/rules.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const RESEARCH = join(ROOT, "data/research");
 const VERIFY = join(ROOT, "data/verification");
 
-const TOPICS = ["superconducting_a", "superconducting_b", "trapped_ion", "neutral_atom", "photonic", "spin_topo_anneal", "access", "relationships", "followup"];
+const TOPICS = ["superconducting_a", "superconducting_b", "trapped_ion", "neutral_atom", "photonic", "spin_topo_anneal", "access", "relationships", "today", "usecases", "history_gate_sc", "history_ion_atom", "history_other", "history_claims", "followup"];
+const HISTORY = new Set(["history_gate_sc", "history_ion_atom", "history_other", "history_claims"]);
 const MODALITIES = {
   superconducting: ["transmon", "fluxonium", "bosonic_cat", "superconducting_other"],
   trapped_ion: ["optical_gates", "microwave_or_electronic_gates", "trapped_ion_other"],
@@ -42,11 +43,21 @@ const ROUTES = ["vendor_cloud", "aws_braket", "azure_quantum", "ibm_quantum_plat
 const TIERS = ["open_free", "paid", "application", "restricted"];
 const SIM = ["passed", "failed", "not_run"];
 const REL_KINDS = ["acquisition", "partnership", "government_award", "government_contract", "investment", "hosting", "subsidiary"];
+const PROGRAMS = ["gate_circuit", "annealing_qubo", "analog_hamiltonian", "photonic_circuit", "pulse"];
+const AVAIL = ["available", "limited", "unavailable", "unknown"];
+const PROBLEMS = ["optimization", "chemistry", "physics_simulation", "machine_learning", "sampling", "linear_algebra", "other"];
+const UC_KINDS = ["official_tutorial", "customer_case_study", "peer_reviewed_application"];
+const METRIC_KINDS = ["physical_qubits", "logical_qubits", "fidelity", "error_rate", "system_availability", "product_launch", "customer_access", "error_correction_demo", "other"];
+const DUE_PRECISION = ["year", "half", "quarter", "month", "day"];
+const RD_KINDS = ["roadmap_page", "blog", "investor_presentation", "sec_exhibit", "keynote", "press_release", "paper"];
+const OUTCOMES = ["met_on_time", "met_early", "met_late", "partially_met", "revised_before_due", "acknowledged_missed", "no_delivery_found", "pending"];
+const PRJ_METRICS = ["revenue", "bookings", "gross_margin", "ebitda", "customers", "qubits", "other"];
+const CR_KINDS = ["retraction", "correction", "expression_of_concern", "published_rebuttal"];
 const VERDICTS = ["verified", "verified_with_correction", "quote_not_found", "does_not_support", "superseded", "insufficient_tier", "unreachable"];
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 const KEYS = ["sources", "orgs", "sites", "systems", "milestones", "targets", "access", "relationships", "gaps"];
-const ENTITY_KEYS = ["orgs", "sites", "systems", "milestones", "targets", "access", "relationships"];
-const PREFIX = { orgs: /^(co|gov):/, sites: /^site:/, systems: /^sys:/, milestones: /^ms:/, targets: /^tgt:/, access: /^acc:/, relationships: /^rel:/ };
+const ENTITY_KEYS = ["orgs", "sites", "systems", "milestones", "targets", "access", "relationships", "use_cases", "examples", "roadmap_docs", "outcomes", "projections", "claim_revisions"];
+const PREFIX = { orgs: /^(co|gov):/, sites: /^site:/, systems: /^sys:/, milestones: /^ms:/, targets: /^tgt:/, access: /^acc:/, relationships: /^rel:/, use_cases: /^uc:/, examples: /^ex:/, roadmap_docs: /^rd:/, outcomes: /^out:/, projections: /^prj:/, claim_revisions: /^cr:/ };
 
 const errors = [];
 const warnings = [];
@@ -106,6 +117,12 @@ const quotesOf = (e) => [
 ].map((x) => x.quote ?? "");
 function checkProse(file, owner, field, text, quotes) {
   for (const p of hypeProblems(text, quotes)) err(file, `${owner}.${field}: ${p}`);
+}
+function checkProseBenefit(file, owner, field, text, quotes) {
+  for (const p of benefitProblems(text, quotes)) err(file, `${owner}.${field}: ${p}`);
+}
+function checkProseTrack(file, owner, field, text, quotes) {
+  for (const p of trackProblems(text, quotes)) err(file, `${owner}.${field}: ${p}`);
 }
 
 // ── Pass 2: research files ──
@@ -174,6 +191,7 @@ for (const [name, d] of Object.entries(all)) {
       if (!DATE.test(m.as_of ?? "")) err(name, `${y.id}.metrics[${i}]: bad as_of`);
       checkEvidence(name, `${y.id}.metrics[${i}]`, m.evidence);
     });
+    if (y.program_models && (!Array.isArray(y.program_models) || y.program_models.some((p) => !PROGRAMS.includes(p)))) err(name, `${y.id}: bad program_models`);
     checkEvidence(name, y.id, y.evidence);
   }
   for (const m of d.milestones ?? []) {
@@ -210,6 +228,17 @@ for (const [name, d] of Object.entries(all)) {
     if (t.status === "revised" && !t.superseded_by) err(name, `${t.id}: revised target needs superseded_by`);
     if (t.met_by && !isKind(t.met_by, "milestones")) err(name, `${t.id}: met_by ${t.met_by} not a defined milestone`);
     if (t.status === "met" && !t.met_by) err(name, `${t.id}: met target needs met_by`);
+    if (HISTORY.has(d.topic)) {
+      if (!t.roadmap_doc) err(name, `${t.id}: history targets need roadmap_doc`);
+      if (!METRIC_KINDS.includes(t.metric_kind)) err(name, `${t.id}: metric_kind required`);
+      if (!t.due || !DUE_PRECISION.includes(t.due.precision) || !/^\d{4}-\d{2}-\d{2}$/.test(t.due.by ?? "")) err(name, `${t.id}: due { by, precision } required`);
+      else if (t.due.precision === "year" && !t.due.by.endsWith("-12-31")) err(name, `${t.id}: a year-precision due date is 31 December`);
+    } else if (t.due) {
+      if (!DUE_PRECISION.includes(t.due.precision) || !/^\d{4}-\d{2}-\d{2}$/.test(t.due.by ?? "")) err(name, `${t.id}: bad due`);
+      else if (t.due.precision === "year" && !t.due.by.endsWith("-12-31")) err(name, `${t.id}: a year-precision due date is 31 December`);
+    }
+    if (t.metric_kind && !METRIC_KINDS.includes(t.metric_kind)) err(name, `${t.id}: bad metric_kind`);
+    if (t.target_value) checkFigure(name, `${t.id}.target_value`, t.target_value);
     checkEvidence(name, t.id, t.evidence);
     checkProse(name, t.id, "statement", t.statement, quotesOf(t));
   }
@@ -234,7 +263,97 @@ for (const [name, d] of Object.entries(all)) {
       if (!SIM.includes(sn.sim_check?.status)) err(name, `${a.id}.snippet: sim_check.status must be passed|failed|not_run`);
       if (sn.sim_check?.status === "passed" && (!sn.sim_check.simulator || !sn.sim_check.substitution)) err(name, `${a.id}.snippet: a passed check must record simulator and substitution`);
     }
+    if (a.program_models && (!Array.isArray(a.program_models) || a.program_models.some((p) => !PROGRAMS.includes(p)))) err(name, `${a.id}: bad program_models`);
+    if (a.availability) {
+      if (!AVAIL.includes(a.availability.status)) err(name, `${a.id}: bad availability.status`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(a.availability.as_of ?? "")) err(name, `${a.id}: availability.as_of must be YYYY-MM-DD`);
+      if (a.availability.status === "available") {
+        if (!a.system) err(name, `${a.id}: an available route needs a resolved system id`);
+        if (!a.program_models?.length) err(name, `${a.id}: an available route needs program_models`);
+      }
+    }
+    if (a.pricing && (!a.pricing.quote || !sources.has(a.pricing.source))) err(name, `${a.id}: pricing needs a verbatim quote and a known source`);
+    if (a.limits?.max_qubits) checkFigure(name, `${a.id}.limits.max_qubits`, a.limits.max_qubits);
+    if (a.limits?.max_shots) checkFigure(name, `${a.id}.limits.max_shots`, a.limits.max_shots);
+    if (a.to_hardware && (!a.to_hardware.code_or_step || !/^https?:\/\//.test(a.to_hardware.source_url ?? ""))) err(name, `${a.id}: to_hardware needs the verbatim step and a source_url`);
     checkEvidence(name, a.id, a.evidence);
+  }
+  for (const u of d.use_cases ?? []) {
+    dup(u.id);
+    if (!PREFIX.use_cases.test(u.id ?? "")) err(name, `use case id ${u.id} must start with uc:`);
+    if (!PROBLEMS.includes(u.problem_class)) err(name, `${u.id}: bad problem_class`);
+    if (!PROGRAMS.includes(u.program_model)) err(name, `${u.id}: bad program_model`);
+    if (!UC_KINDS.includes(u.kind)) err(name, `${u.id}: bad kind`);
+    orgRef(u.id, u.platform);
+    if (u.customer) orgRef(u.id, u.customer);
+    if (u.example && !isKind(u.example, "examples")) err(name, `${u.id}: example ${u.example} is not a defined example`);
+    if (!u.title || !u.statement || !u.sdk) err(name, `${u.id}: title, statement and sdk required`);
+    checkEvidence(name, u.id, u.evidence);
+    const quotes = quotesOf(u);
+    if (u.outcome_quote && !norm(quotes.join(" ")).includes(norm(u.outcome_quote))) err(name, `${u.id}: outcome_quote is not in the evidence`);
+    checkProseBenefit(name, u.id, "statement", u.statement, quotes);
+    checkProseBenefit(name, u.id, "title", u.title, quotes);
+  }
+  for (const x of d.examples ?? []) {
+    dup(x.id);
+    if (!PREFIX.examples.test(x.id ?? "")) err(name, `example id ${x.id} must start with ex:`);
+    if (!PROGRAMS.includes(x.program_model)) err(name, `${x.id}: bad program_model`);
+    if (!x.title || !x.sdk || !x.code || x.code.length < 10) err(name, `${x.id}: title, sdk and verbatim code required`);
+    if (!/^https?:\/\//.test(x.source_url ?? "")) err(name, `${x.id}: source_url required`);
+    if (!x.harness_path) err(name, `${x.id}: harness_path required`);
+    if (!SIM.includes(x.sim_check?.status)) err(name, `${x.id}: sim_check.status must be passed|failed|not_run`);
+    if (!Array.isArray(x.routes)) err(name, `${x.id}: routes must be an array`);
+    checkEvidence(name, x.id, x.evidence);
+    checkProseBenefit(name, x.id, "title", x.title, quotesOf(x));
+  }
+  for (const rd of d.roadmap_docs ?? []) {
+    dup(rd.id);
+    if (!PREFIX.roadmap_docs.test(rd.id ?? "")) err(name, `roadmap doc id ${rd.id} must start with rd:`);
+    orgRef(rd.id, rd.org);
+    if (!rd.title || !/^https?:\/\//.test(rd.url ?? "")) err(name, `${rd.id}: title and url required`);
+    if (!DATE.test(rd.published ?? "")) err(name, `${rd.id}: bad published date`);
+    if (!RD_KINDS.includes(rd.kind)) err(name, `${rd.id}: bad kind`);
+    if (!["all_items", "partial"].includes(rd.completeness)) err(name, `${rd.id}: completeness must be all_items or partial`);
+    if (!Array.isArray(rd.items) || !rd.items.length) err(name, `${rd.id}: items[] must list every captured forward-looking item`);
+    checkEvidence(name, rd.id, rd.evidence);
+  }
+  for (const o of d.outcomes ?? []) {
+    dup(o.id);
+    if (!PREFIX.outcomes.test(o.id ?? "")) err(name, `outcome id ${o.id} must start with out:`);
+    if (!isKind(o.target, "targets") && !(d.targets ?? []).some((t) => t.id === o.target)) err(name, `${o.id}: target ${o.target} is not in this file`);
+    if (!OUTCOMES.includes(o.result)) err(name, `${o.id}: bad result`);
+    if (o.result === "no_delivery_found") {
+      const log = o.search_log;
+      if (!log || !Array.isArray(log.checked) || !log.checked.length || !Array.isArray(log.queries) || !log.queries.length || !DATE.test(log.as_of ?? ""))
+        err(name, `${o.id}: no_delivery_found needs a search_log with checked, queries and as_of`);
+    }
+    if (["met_on_time", "met_early", "met_late"].includes(o.result) && !o.delivered_by && !(o.evidence ?? []).length) err(name, `${o.id}: a met outcome needs delivery evidence`);
+    if (o.result === "partially_met" && !o.delivered_value) err(name, `${o.id}: partially_met needs delivered_value`);
+    if (o.delivered_value) checkFigure(name, `${o.id}.delivered_value`, o.delivered_value);
+    if (!o.statement) err(name, `${o.id}: statement required`);
+    checkEvidence(name, o.id, o.evidence);
+    checkProseTrack(name, o.id, "statement", o.statement, quotesOf(o));
+  }
+  for (const p of d.projections ?? []) {
+    dup(p.id);
+    if (!PREFIX.projections.test(p.id ?? "")) err(name, `projection id ${p.id} must start with prj:`);
+    orgRef(p.id, p.org);
+    if (!p.roadmap_doc) err(name, `${p.id}: roadmap_doc required`);
+    if (!PRJ_METRICS.includes(p.metric)) err(name, `${p.id}: bad metric`);
+    if (!p.period) err(name, `${p.id}: period required`);
+    checkFigure(name, `${p.id}.projected`, p.projected);
+    if (p.actual) checkFigure(name, `${p.id}.actual`, p.actual);
+    checkEvidence(name, p.id, p.evidence);
+    if (p.actual && (p.evidence ?? []).length < 2) err(name, `${p.id}: a projection with an actual needs evidence for both sides`);
+  }
+  for (const c of d.claim_revisions ?? []) {
+    dup(c.id);
+    if (!PREFIX.claim_revisions.test(c.id ?? "")) err(name, `claim revision id ${c.id} must start with cr:`);
+    if (!CR_KINDS.includes(c.kind)) err(name, `${c.id}: bad kind`);
+    if (!DATE.test(c.date ?? "")) err(name, `${c.id}: bad date`);
+    if (!c.subject || !c.statement) err(name, `${c.id}: subject and statement required`);
+    checkEvidence(name, c.id, c.evidence);
+    checkProseTrack(name, c.id, "statement", c.statement, quotesOf(c));
   }
   for (const r of d.relationships ?? []) {
     dup(r.id);

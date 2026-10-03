@@ -11,6 +11,8 @@ export function TopBar({ idx }: { idx: Index }) {
     ["modality", "Modality", "Machines coloured by qubit technology, where they physically are"],
     ["roadmap", "Roadmap", "What has been achieved vs what is targeted, over time"],
     ["access", "Access", "Which cloud platforms reach which machines, and how to submit a program"],
+    ["today", "Run today", "Which machines accept a problem now, with a tested example, pricing and limits"],
+    ["track", "Track record", "What past roadmaps and investor projections delivered"],
   ];
   const peer = idx.atlas.milestones.filter((m) => m.peer_review === "peer_reviewed").length;
   return (
@@ -53,6 +55,7 @@ export function Rail({ idx }: { idx: Index }) {
       .sort((a, b) => b.physical_qubits!.value - a.physical_qubits!.value)[0];
     return top ? [top] : [];
   }), [idx, s.modalities]);
+  if (s.mode === "today" || s.mode === "track") return null;
   if (!s.railOpen) return <button className="rail-toggle" onClick={() => s.set({ railOpen: true })} aria-label="Open panel">☰</button>;
   return (
     <aside className="panel rail">
@@ -157,7 +160,7 @@ export function Tooltip({ idx }: { idx: Index }) {
 export function Bottom({ idx }: { idx: Index }) {
   const mode = useStore((s) => s.mode);
   const story = useStore((s) => !!s.story);
-  if (story) return null;
+  if (story || mode === "today" || mode === "track") return null;
   if (mode === "roadmap") return <Timeline idx={idx} />;
   return (
     <div className="legend">

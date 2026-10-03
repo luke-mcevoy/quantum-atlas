@@ -16,7 +16,8 @@
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { hypeProblems, impliedPeerReview } from "./lib/rules.mjs";
+import { hypeProblems, benefitProblems, trackProblems, impliedPeerReview, norm } from "./lib/rules.mjs";
+import { dueEnd, slipMonths, isStale, aggregate, itemsFromCompleteDocs } from "./lib/track.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DRAFT = process.argv.includes("--draft");
@@ -36,7 +37,8 @@ function setPath(obj, path, value) {
   else o[last] = value;
 }
 
-const KINDS = ["sites", "systems", "milestones", "targets", "access", "relationships"];
+const KINDS = ["sites", "systems", "milestones", "targets", "access", "relationships", "use_cases", "examples", "roadmap_docs", "outcomes", "projections", "claim_revisions"];
+const exampleResults = existsSync(join(ROOT, "examples/results.json")) ? readJson(join(ROOT, "examples/results.json")) : {};
 const sources = new Map();
 const orgs = new Map();
 const pub = Object.fromEntries(KINDS.map((k) => [k, new Map()]));
@@ -92,10 +94,21 @@ for (const [topic, file] of Object.entries(research)) {
     out.best_tier = Math.min(...allEv.map((ev) => sources.get(ev.source)?.tier ?? 3));
     out.topic = topic;
     // Language rule, re-checked after corrections.
-    const prose = out.claim ?? out.statement ?? (out.id.startsWith("rel:") ? out.description : undefined);
+    const quotes = allEv.map((x) => x.quote);
+    const prose = out.claim ?? out.statement ?? (out.id.startsWith("rel:") ? out.description : undefined) ?? (out.id.startsWith("ex:") ? out.title : undefined);
     if (prose !== undefined) {
-      const probs = hypeProblems(prose, allEv.map((x) => x.quote));
+      const probs = out.id.startsWith("uc:") || out.id.startsWith("ex:") ? benefitProblems(prose, quotes)
+        : out.id.startsWith("out:") || out.id.startsWith("cr:") ? trackProblems(prose, quotes)
+        : hypeProblems(prose, quotes);
       if (probs.length) { stats.hypeWithheld.push(`${out.id}: ${probs[0]}`); stats.withheld++; return null; }
+    }
+    if (out.id.startsWith("uc:") && out.outcome_quote && !norm(quotes.join(" ")).includes(norm(out.outcome_quote))) {
+      stats.withheld++; return null;
+    }
+    if (out.availability?.as_of) out.availability.stale = isStale(out.availability.as_of, new Date().toISOString());
+    if (out.id.startsWith("ex:")) {
+      const row = exampleResults[out.id];
+      out.sim_check = row ? { ...(out.sim_check ?? {}), ...row, status: row.status } : { ...(out.sim_check ?? {}), status: "not_run" };
     }
     // Peer-review status follows the surviving evidence.
     if (out.id.startsWith("ms:")) {
@@ -172,6 +185,25 @@ for (const a of access.values()) {
   }
 }
 dropIf(relationships, (r) => !orgs.has(r.from) || !orgs.has(r.to));
+dropIf(pub.use_cases, (u) => !orgs.has(u.platform) || (u.example && !pub.examples.has(u.example)));
+dropIf(pub.roadmap_docs, (d) => !orgs.has(d.org));
+dropIf(pub.outcomes, (o) => !targets.has(o.target));
+dropIf(pub.projections, (p) => !orgs.has(p.org));
+for (const o of pub.outcomes.values()) {
+  const t = targets.get(o.target);
+  const due = t?.due?.by ?? (t?.target_date ? dueEnd(t.target_date) : undefined);
+  if (o.resolved_on && due) o.slip_months = slipMonths(due, o.resolved_on);
+  else delete o.slip_months;
+}
+const ledgerItems = itemsFromCompleteDocs([...pub.roadmap_docs.values()], [...pub.outcomes.values()], targets);
+const byOrg = new Map();
+for (const item of ledgerItems) {
+  if (!byOrg.has(item.org)) byOrg.set(item.org, []);
+  byOrg.get(item.org).push(item);
+}
+const trackRecord = { companies: {}, industry: aggregate(ledgerItems) };
+for (const [org, items] of byOrg) trackRecord.companies[org] = aggregate(items);
+for (const t of targets.values()) if (t.org && trackRecord.companies[t.org]) t.track_record = trackRecord.companies[t.org];
 
 // Publish only the sources that back something published.
 const cited = new Set();
@@ -187,7 +219,10 @@ const atlas = {
     ...stats, accessHintsResolved: hintsResolved,
     counts: {
       sources: sources.size, orgs: orgs.size, sites: sites.size, systems: systems.size, milestones: milestones.size,
-      targets: targets.size, access: access.size, relationships: relationships.size, gaps: gaps.length,
+      targets: targets.size, access: access.size, relationships: relationships.size,
+      use_cases: pub.use_cases.size, examples: pub.examples.size, roadmap_docs: pub.roadmap_docs.size,
+      outcomes: pub.outcomes.size, projections: pub.projections.size, claim_revisions: pub.claim_revisions.size,
+      gaps: gaps.length,
     },
   },
   sources: sortById(sources),
@@ -198,6 +233,13 @@ const atlas = {
   targets: sortById(targets),
   access: sortById(access),
   relationships: sortById(relationships),
+  use_cases: sortById(pub.use_cases),
+  examples: sortById(pub.examples),
+  roadmap_docs: sortById(pub.roadmap_docs),
+  outcomes: sortById(pub.outcomes),
+  projections: sortById(pub.projections),
+  claim_revisions: sortById(pub.claim_revisions),
+  track_record: trackRecord,
   gaps,
 };
 

@@ -1,11 +1,15 @@
 import { useEffect, useState, type ReactNode } from "react";
 import {
   type Index, type Org, type Site, type System, type Milestone, type Target, type AccessRoute, type Relationship, type Figure,
+  type UseCase, type Example, type Outcome, type ClaimRevision,
   nodeName, locateAny, formatMoney, targetChain, orgModality,
 } from "../atlas";
-import { MODALITY_COLOR, MODALITY_LABEL, MODALITY_CODE, SUB_LABEL, ROUTE_LABEL, TIER_ACCESS_LABEL, REL_LABEL, SIM_LABEL, css } from "../theme";
+import { MODALITY_COLOR, MODALITY_LABEL, MODALITY_CODE, SUB_LABEL, ROUTE_LABEL, TIER_ACCESS_LABEL, REL_LABEL, css } from "../theme";
 import { useStore } from "../store";
 import { EvidenceList, ReviewBadge, TierBadge, PeerBadge } from "./Evidence";
+import { HonestyPanel } from "./Honesty";
+import { TrackCard } from "./TrackRecord";
+import { availabilityLabel, limitsText, plainQuote, primaryExample, programText, relatedUseCases, testedHereBadge, outcomeWord, PROBLEM_LABEL } from "../display";
 
 export default function Inspector({ idx }: { idx: Index }) {
   const selected = useStore((s) => s.selected);
@@ -24,6 +28,10 @@ export default function Inspector({ idx }: { idx: Index }) {
   else if (idx.target.has(selected)) body = <TargetView idx={idx} t={idx.target.get(selected)!} />;
   else if (idx.access.has(selected)) body = <AccessView idx={idx} a={idx.access.get(selected)!} />;
   else if (idx.rel.has(selected)) body = <RelView idx={idx} r={idx.rel.get(selected)!} />;
+  else if (idx.useCase.has(selected)) body = <UseCaseView idx={idx} u={idx.useCase.get(selected)!} />;
+  else if (idx.example.has(selected)) body = <ExampleView idx={idx} e={idx.example.get(selected)!} />;
+  else if (idx.outcome.has(selected)) body = <OutcomeView idx={idx} o={idx.outcome.get(selected)!} />;
+  else if (idx.claimRevision.has(selected)) body = <RevisionView idx={idx} c={idx.claimRevision.get(selected)!} />;
 
   return (
     <aside className={`panel inspector${peek ? " peek" : ""}`} key={selected}>
@@ -332,6 +340,10 @@ function TargetView({ idx, t }: { idx: Index; t: Target }) {
       ]} />
       <Counsel review={t.review} note={t.review_note} />
       {chain.length > 1 && (
+        <p className="note small">This is date {chain.findIndex((x) => x.id === t.id) + 1} of {chain.length} given for this goal.</p>
+      )}
+      {t.status === "open" && <TrackCard idx={idx} orgId={t.org} attached={t.track_record} />}
+      {chain.length > 1 && (
         <Section title="Revision history" count={chain.length} note="Each version is a separate statement in a dated document. Later documents revised earlier ones.">
           <ol className="revisions">
             {chain.map((x) => (
@@ -367,29 +379,137 @@ function AccessView({ idx, a }: { idx: Index; a: AccessRoute }) {
         ["SDKs", a.sdks.join(", ")],
         ["Authentication", a.auth_model],
         ["Access tier", a.tier_note ?? TIER_ACCESS_LABEL[a.tier]],
+        ["Availability", availabilityLabel(a.availability ? { ...a.availability, tier: a.tier } : undefined)],
+        ["Program model", programText(a.program_models)],
         ["Get started", <a href={a.docs_url} target="_blank" rel="noreferrer noopener">Official docs ↗</a>],
       ]} />
       <Counsel review={a.review} note={a.review_note} />
-      {a.snippet && (
-        <Section title="Minimal official example" note="Copied verbatim from the official documentation.">
-          <pre className="snippet"><code>{a.snippet.code}</code></pre>
-          <div className="snippet-meta small">
-            <a href={a.snippet.source_url} target="_blank" rel="noreferrer noopener">Source: {a.snippet.source_url.replace(/^https?:\/\//, "").slice(0, 70)} ↗</a>
-            <div className={`sim sim-${a.snippet.sim_check.status}`}>
-              <b>{SIM_LABEL[a.snippet.sim_check.status]}</b>
-              {a.snippet.sim_check.simulator && <> · {a.snippet.sim_check.simulator}</>}
-              {a.snippet.sim_check.sdk_version && <> · {a.snippet.sdk} {a.snippet.sim_check.sdk_version}</>}
-              {a.snippet.sim_check.python_version && <> · Python {a.snippet.sim_check.python_version}</>}
-              {a.snippet.sim_check.ran_at && <> · {a.snippet.sim_check.ran_at.slice(0, 10)}</>}
-            </div>
-            {a.snippet.sim_check.substitution && <div className="muted">Changed to run locally: {a.snippet.sim_check.substitution}</div>}
-            {a.snippet.sim_check.output_excerpt && <pre className="snippet out"><code>{a.snippet.sim_check.output_excerpt}</code></pre>}
-            {a.snippet.sim_check.notes && <div className="muted">{a.snippet.sim_check.notes}</div>}
-            <div className="muted">The check ran the snippet against the SDK's local simulator only. No real or paid QPU was called.</div>
-          </div>
-        </Section>
-      )}
+      {a.availability?.windows && <div className="note small">{a.availability.windows}</div>}
+      <MachineRun idx={idx} a={a} />
+      <HonestyPanel idx={idx} systemId={a.system} orgIds={[a.platform, a.target_org]} includeMilestones />
       <Section title="Evidence" count={a.evidence.length}><EvidenceList idx={idx} evidence={a.evidence} /></Section>
+    </>
+  );
+}
+
+function MachineRun({ idx, a }: { idx: Index; a: AccessRoute }) {
+  const ex = primaryExample(idx, a);
+  const badge = testedHereBadge(ex?.sim);
+  const cases = relatedUseCases(idx, a);
+  const select = useStore((s) => s.select);
+  return (
+    <>
+      <Section title="Tested example" note={ex ? "The code is the published official example. The badge uses only that example’s sim_check." : undefined}>
+        {ex ? (
+          <>
+            <div className="small">{ex.title}</div>
+            <pre className="snippet"><code>{ex.code}</code></pre>
+            <div className="snippet-meta small">
+              <a href={ex.source_url} target="_blank" rel="noreferrer noopener">Source ↗</a>
+              <div className={`sim tested-badge${badge.tested ? " sim-passed" : " sim-not_run"}`} data-tested={badge.tested ? "yes" : "no"}>{badge.text}</div>
+              {ex.harness_path && (
+                <>
+                  <div className="muted">Run locally, against the SDK simulator:</div>
+                  <pre className="snippet"><code>{`pip install ${ex.sdk}\npython ${ex.harness_path}`}</code></pre>
+                </>
+              )}
+            </div>
+          </>
+        ) : (
+          <div className="sim tested-badge sim-not_run" data-tested="no">Not tested</div>
+        )}
+      </Section>
+      <Section title="Send to the device">
+        {a.to_hardware ? (
+          <>
+            <pre className="snippet"><code>{a.to_hardware.code_or_step}</code></pre>
+            <div className="small"><a href={a.to_hardware.source_url} target="_blank" rel="noreferrer noopener">Source of this step ↗</a></div>
+          </>
+        ) : <div className="muted small">No verbatim hardware step is published for this route.</div>}
+        {a.pricing ? (
+          <blockquote className="price-quote">“{plainQuote(a.pricing.quote)}”</blockquote>
+        ) : <div className="muted small">No pricing quote is published for this route.</div>}
+      </Section>
+      <Section title="Limits">
+        <div>{limitsText(a.limits)}</div>
+        {a.limits?.max_qubits?.note && <div className="muted small">{a.limits.max_qubits.note}</div>}
+      </Section>
+      <Section title="Related use cases" count={cases.length}>
+        {cases.length === 0 ? <div className="muted small">None published for this platform.</div> : (
+          <ul className="flowlist">
+            {cases.map((u) => (
+              <li key={u.id}><button className="flowrow" onClick={() => select(u.id)}>
+                <span className="fl-node">{u.title}</span>
+                <span className="fl-comm">{PROBLEM_LABEL[u.problem_class]}</span>
+              </button></li>
+            ))}
+          </ul>
+        )}
+      </Section>
+    </>
+  );
+}
+
+function UseCaseView({ idx, u }: { idx: Index; u: UseCase }) {
+  const select = useStore((s) => s.select);
+  return (
+    <>
+      <Kicker modality={orgModality(idx, u.platform)}>{PROBLEM_LABEL[u.problem_class]} · {u.kind.replaceAll("_", " ")}</Kicker>
+      <h2>{u.title}</h2>
+      <div className="badges"><ReviewBadge review={u.review} note={u.review_note} /><TierBadge tier={u.best_tier} /></div>
+      <p>{u.statement}</p>
+      <Rows rows={[
+        ["Platform", <Link idx={idx} id={u.platform} />],
+        ["Program", u.program_model ? programText([u.program_model]) : undefined],
+        ["SDK", u.sdk],
+        ["Example", u.example ? <button className="link" onClick={() => select(u.example!)}>{idx.example.get(u.example)?.title ?? u.example}</button> : undefined],
+      ]} />
+      {u.outcome_quote && <blockquote className="price-quote">“{u.outcome_quote}”</blockquote>}
+      <Counsel review={u.review} note={u.review_note} />
+      <Section title="Evidence" count={u.evidence.length}><EvidenceList idx={idx} evidence={u.evidence} /></Section>
+    </>
+  );
+}
+
+function ExampleView({ idx, e }: { idx: Index; e: Example }) {
+  const badge = testedHereBadge(e.sim_check);
+  return (
+    <>
+      <Kicker>{e.sdk}</Kicker>
+      <h2>{e.title}</h2>
+      <div className={`sim tested-badge${badge.tested ? " sim-passed" : " sim-not_run"}`}>{badge.text}</div>
+      <pre className="snippet"><code>{e.code}</code></pre>
+      <div className="small"><a href={e.source_url} target="_blank" rel="noreferrer noopener">Source ↗</a></div>
+      <pre className="snippet"><code>{`pip install ${e.sdk}\npython ${e.harness_path}`}</code></pre>
+      <Counsel review={e.review} note={e.review_note} />
+      <Section title="Evidence" count={e.evidence.length}><EvidenceList idx={idx} evidence={e.evidence} /></Section>
+    </>
+  );
+}
+
+function OutcomeView({ idx, o }: { idx: Index; o: Outcome }) {
+  const t = idx.target.get(o.target);
+  return (
+    <>
+      <Kicker modality={t ? orgModality(idx, t.org) : undefined}>{outcomeWord(o.result)}</Kicker>
+      <h2 className="claim">{o.statement}</h2>
+      {o.result === "no_delivery_found" && (
+        <div className="note small">No delivery found in the sources checked{o.search_log?.as_of ? ` as of ${o.search_log.as_of}` : ""}.</div>
+      )}
+      {t && <Rows rows={[["Target", <Link idx={idx} id={t.id}>{t.statement}</Link>]]} />}
+      <Section title="Evidence" count={o.evidence.length}><EvidenceList idx={idx} evidence={o.evidence} /></Section>
+    </>
+  );
+}
+
+function RevisionView({ idx, c }: { idx: Index; c: ClaimRevision }) {
+  void idx;
+  return (
+    <>
+      <Kicker>{c.kind.replaceAll("_", " ")} · {c.date}</Kicker>
+      <h2 className="claim">{c.subject}</h2>
+      <p>{c.statement}</p>
+      <Section title="Evidence" count={c.evidence.length}><EvidenceList idx={idx} evidence={c.evidence} /></Section>
     </>
   );
 }

@@ -1,0 +1,29 @@
+{
+  "ex:amazon-braket-qpe": {
+    "status": "passed",
+    "simulator": "braket.devices.LocalSimulator",
+    "substitution": "device = LocalSimulator() is already the tutorial's device line; harness.py only comments the notebook magics",
+    "sdk_version": "amazon-braket-sdk==1.127.3.post0",
+    "python_version": "3.12.13",
+    "ran_at": "2026-10-03T03:11:09.106Z",
+    "output_excerpt": "imates: [0.74506-0.667j]\nTarget eigenvalue: (0.74699-0.66484j)\nQuantum Task Summary\n{}\nNote: Charges shown are estimates based on your Amazon Braket simulator and quantum processing unit (QPU) task usage. Estimated charges shown may differ from your actual charges. Estimated charges do not factor in any discounts or credits, and you may experience additional charges based on your use of other services such as Amazon Elastic Compute Cloud (Amazon EC2).\nEstimated cost to run this example: 0.00 USD"
+  },
+  "ex:amazon-braket-vqe-hydrogen": {
+    "status": "passed",
+    "simulator": "braket.devices.LocalSimulator",
+    "substitution": "local_sim = LocalSimulator() is already the tutorial's device line; the notebook shell magic that creates data/ is replaced with os.makedirs",
+    "sdk_version": "amazon-braket-sdk==1.127.3.post0",
+    "python_version": "3.12.13",
+    "ran_at": "2026-10-03T03:11:16.672Z",
+    "output_excerpt": "-0.9322 Ha\nINFO: Computing ground-state energy for bond-length 2.84 A...\nmin <H(R=2.84 A)> = -0.9325 Ha\nINFO: Computing ground-state energy for bond-length 2.94 A...\nmin <H(R=2.94 A)> = -0.9327 Ha\nTotal running time: 9.95 s\n/Users/lukemcevoy/Develop/Code/quantum-atlas/examples/.venvs/amazon-braket-sdk/lib/python3.12/site-packages/openfermionpyscf/_pyscf_molecular_data.py:74: SyntaxWarning: invalid escape sequence '\\i'\n  h[p,q,r,s]=\\int \\phi_p(x)* \\phi_q(y)* V_{elec-elec} \\phi_r(y) \\phi_s(x) dxdy"
+  },
+  "ex:pulser-qubo": {
+    "status": "passed",
+    "simulator": "pulser_simulation.QutipBackendV2",
+    "substitution": "The tutorial already calls pulser_simulation.QutipBackendV2; harness.py is identical to official.py",
+    "sdk_version": "pulser-core==1.9.1, pulser-simulation==1.9.1",
+    "python_version": "3.12.13",
+    "ran_at": "2026-10-03T03:11:09.364Z",
+    "output_excerpt": ".venvs/pulser/lib/python3.12/site-packages/pulser/sequence/sequence.py:2095: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.show()\n/Users/lukemcevoy/Develop/Code/quantum-atlas/examples/pulser-qubo/harness.py:88: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.show()\n/Users/lukemcevoy/Develop/Code/quantum-atlas/examples/pulser-qubo/harness.py:116: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown\n  plt.show()"
+  }
+}

@@ -1,0 +1,2165 @@
+{
+  "topic": "history_ion_atom",
+  "verifier": "independent counsel",
+  "verified_at": "2026-10-02",
+  "source_checks": [
+    {
+      "source": "src:ionq-edgar-ex992-index",
+      "reachable": true,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "This is an EDGAR search result, not a Form 8-K document; sec_8k is not the correct document type for the search response."
+    },
+    {
+      "source": "src:ionq-spac-ex992",
+      "reachable": false,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "The permitted SEC endpoint returned filing metadata, not Exhibit 99.2 itself; the exhibit text was not retrievable from data.sec.gov or efts.sec.gov."
+    },
+    {
+      "source": "src:ionq-10k-fy2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "The filing accession, form, period and GAAP Revenue facts were checked through data.sec.gov companyfacts; the rendered table quotation is not present verbatim in that JSON."
+    },
+    {
+      "source": "src:ionq-10k-fy2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "The filing accession, form, period and GAAP Revenue facts were checked through data.sec.gov companyfacts; the rendered table quotation is not present verbatim in that JSON."
+    },
+    {
+      "source": "src:ionq-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "The filing accession, form, period and GAAP Revenue facts were checked through data.sec.gov companyfacts; the rendered table quotation is not present verbatim in that JSON."
+    },
+    {
+      "source": "src:ionq-q2-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:ionq-aq64-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:ionq-roadmap-2024-07",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:ionq-roadmap-2025-06",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:honeywell-qv-2020-03",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:honeywell-h1-2020-10",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:quantinuum-qv-2021-11",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:quantinuum-roadmap-pr-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:quantinuum-tech-2024-09",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:quera-roadmap-2024-01",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:pasqal-roadmap-2024-03",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:pasqal-1000-atoms-2024-06",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:pasqal-roadmap-2025-06",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:atom-1000-qubits-2023-10",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    },
+    {
+      "source": "src:infleqtion-sqale-30-2026-09",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with the required declared counsel User-Agent."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:ionq",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "The rendered cover-page quotation is absent from the saved data.sec.gov companyfacts response."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:ionq",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:honeywell",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:honeywell",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:quantinuum",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:quera",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "The quote supports France-level headquarters only, not the stated Palaiseau city or coordinates."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:pasqal",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:atom-computing",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:atom-computing",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:atom-computing",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "co:infleqtion",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:honeywell-h0-qv64",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:honeywell-h0-qv64",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:honeywell-h0-qv64",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:pasqal-community-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:pasqal-community-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:ionq-aq64-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:ionq-aq64-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "ms:ionq-aq64-2025",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:honeywell-qv64-2020-06",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:honeywell-qv64-2020-06",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:honeywell-qv64-2020-06",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:honeywell-qv-10x-2020-03",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:honeywell-qv-10x-2020-10",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quera-rd2024-ten-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quera-rd2024-ten-logical",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quera-2024-simulator",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quera-rd2024-30-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quera-rd2024-30-logical",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quera-2026-100-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quera-2026-100-logical",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-prod-use-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2026",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-community-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2026-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2026-2027",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-qa-demo-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-qa-demo-2026",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-1000-physical-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-1000-physical-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2028",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-2-logical-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-2-logical-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-20-logical-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-20-logical-2027",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-100-logical-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-100-logical-2029",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-rd2025-200-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-rd2025-200-logical",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-rd2025-orion-gamma",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-rd2025-orion-gamma",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-vela-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-vela-2027",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-centaurus-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-lyra-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:pasqal-five-year-fields",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-edge-2022",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "tgt:ionq-aq64-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-aq64-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-aq64-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-native-999-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-native-999-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-native-999-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-logical-99999-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-logical-99999-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-basel-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-tempo-100-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-tempo-100-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-tempo-100-2025",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-10k-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-10k-2027",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-10k-2027",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-20k-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-20k-2028",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-20k-2028",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-cluster-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-cluster-2028",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-interconnect-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-interconnect-2028",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-2m-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-2m-2030",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-2m-2030",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-logical-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-logical-2030",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-logical-2030",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-error-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-error-2030",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-apps-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:ionq-apps-2030",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quantinuum-ft-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quantinuum-ft-2030",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quantinuum-rd2024-helios",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quantinuum-rd2024-helios",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:quantinuum-rd2024-helios",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:atom-available-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:atom-available-2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:atom-ft-decade",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:infleqtion-rd2026-100-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:infleqtion-rd2026-100-logical",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:infleqtion-rd2026-100-logical",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:infleqtion-rd2026-1000-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "tgt:infleqtion-rd2026-1000-logical",
+      "evidence_index": 0,
+      "path": "target_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:honeywell-2020-03-qv",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:honeywell-2020-10-h1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:quera-2024-01",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:pasqal-2024-03",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:pasqal-2024-03",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:pasqal-2024-06",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:pasqal-2024-06",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:pasqal-2025-06",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:ionq-2021-spac",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:ionq-2021-spac",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "rd:ionq-2023-08-q2",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:ionq-2023-08-q2",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:ionq-2024-07",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:ionq-2025-06",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:ionq-2025-06",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:quantinuum-2024-09-pr",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:quantinuum-2024-09-tech",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:quantinuum-2024-09-tech",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:atom-2023-10",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "rd:infleqtion-2026-09",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv64-2020-06",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv64-2020-06",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv64-2020-06",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv64-2020-06",
+      "evidence_index": 0,
+      "path": "delivered_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-03",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-03",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-03",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-03",
+      "evidence_index": 0,
+      "path": "delivered_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-10",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-10",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-10",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-10",
+      "evidence_index": 0,
+      "path": "delivered_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:quera-rd2024-ten-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:quera-2024-simulator",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:quera-rd2024-30-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:quera-2026-100-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-prod-use-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-prod-use-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-10000-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-10000-2026",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-10000-2026",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-community-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-community-2024",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-community-2024",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-10000-2026-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-10000-2026-2027",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-10000-2026-2027",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-qa-demo-2026",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-1000-physical-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-1000-physical-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-1000-physical-2025",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-2-logical-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-rd2025-orion-gamma",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-10000-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-20-logical-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-100-logical-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-rd2025-200-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-vela-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-centaurus-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-lyra-2029",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:pasqal-five-year-fields",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-edge-2022",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "out:ionq-aq64-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-aq64-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-aq64-2025",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-aq64-2025",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-aq64-2025",
+      "evidence_index": 0,
+      "path": "delivered_value",
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-native-999-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-logical-99999-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-basel-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-tempo-100-2025",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-tempo-100-2025",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-10k-2027",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-20k-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-cluster-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-interconnect-2028",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-2m-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-logical-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-error-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:ionq-apps-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:quantinuum-ft-2030",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:quantinuum-rd2024-helios",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:atom-available-2024",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:atom-ft-decade",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:infleqtion-rd2026-100-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "out:infleqtion-rd2026-1000-logical",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matched programmatically after HTML/entity, Unicode punctuation and whitespace normalization."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2021",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2021",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2021",
+      "evidence_index": 2,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2021",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2021",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2021",
+      "evidence_index": 0,
+      "path": "actual",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2022",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2022",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2022",
+      "evidence_index": 2,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2022",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2022",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2022",
+      "evidence_index": 0,
+      "path": "actual",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2023",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2023",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2023",
+      "evidence_index": 2,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2023",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2023",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2023",
+      "evidence_index": 0,
+      "path": "actual",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2024",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2024",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2024",
+      "evidence_index": 2,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2024",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2024",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2024",
+      "evidence_index": 0,
+      "path": "actual",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2025",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2025",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2025",
+      "evidence_index": 2,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2025",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2025",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2025",
+      "evidence_index": 0,
+      "path": "actual",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2026",
+      "evidence_index": 0,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2026",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2026",
+      "evidence_index": 0,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2026",
+      "evidence_index": 1,
+      "path": "projected",
+      "verdict": "quote_not_found",
+      "notes": "Quote did not appear in the saved response from the permitted endpoint."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "ms:honeywell-h0-qv64",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "ms:pasqal-community-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "ms:ionq-aq64-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:honeywell-qv64-2020-06",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:honeywell-qv-10x-2020-03",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:honeywell-qv-10x-2020-10",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:quera-rd2024-ten-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:quera-2024-simulator",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:quera-rd2024-30-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:quera-2026-100-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-prod-use-2025",
+      "verdict": "reject",
+      "reasons": "The source says production use was possible, not that Pasqal committed to deliver production use by 2025."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2026",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-community-2024",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2026-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-qa-demo-2026",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-1000-physical-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-10000-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-2-logical-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-20-logical-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-100-logical-2029",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-rd2025-200-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-rd2025-orion-gamma",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-vela-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-centaurus-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-lyra-2029",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:pasqal-five-year-fields",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-edge-2022",
+      "verdict": "reject",
+      "reasons": "The only target quote is in Exhibit 99.2, whose text was not retrievable through the permitted SEC endpoints."
+    },
+    {
+      "entity": "tgt:ionq-aq64-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-native-999-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-logical-99999-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-basel-2024",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-tempo-100-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-10k-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-20k-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-cluster-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-interconnect-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-2m-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-logical-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-error-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:ionq-apps-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:quantinuum-ft-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:quantinuum-rd2024-helios",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:atom-available-2024",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:atom-ft-decade",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:infleqtion-rd2026-100-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "tgt:infleqtion-rd2026-1000-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:honeywell-2020-03-qv",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:honeywell-2020-10-h1",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:quera-2024-01",
+      "verdict": "publish",
+      "reasons": "Counsel enumerated the page: the three dated roadmap systems and first-half simulator are all captured."
+    },
+    {
+      "entity": "rd:pasqal-2024-03",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:pasqal-2024-06",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:pasqal-2025-06",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:ionq-2021-spac",
+      "verdict": "reject",
+      "reasons": "EDGAR metadata confirms the filing, but the saved permitted response does not contain the exhibit title or body."
+    },
+    {
+      "entity": "rd:ionq-2023-08-q2",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:ionq-2024-07",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:ionq-2025-06",
+      "verdict": "publish",
+      "reasons": "Counsel enumerated the dated roadmap highlights and commercially available/interconnected statements; all nine captured items cover the page's dated deliverables."
+    },
+    {
+      "entity": "rd:quantinuum-2024-09-pr",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:quantinuum-2024-09-tech",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "rd:atom-2023-10",
+      "verdict": "publish",
+      "reasons": "Counsel enumerated the page: 2024 availability and the page's own “this decade” wording are both captured."
+    },
+    {
+      "entity": "rd:infleqtion-2026-09",
+      "verdict": "publish",
+      "reasons": "Counsel enumerated the page: the 2028 and 2030 forward-looking qubit counts are both captured."
+    },
+    {
+      "entity": "out:honeywell-qv64-2020-06",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-03",
+      "verdict": "reject",
+      "reasons": "Quantum volume 1,024 in July 2021 does not resolve a five-year annual order-of-magnitude trajectory through 2025."
+    },
+    {
+      "entity": "out:honeywell-qv-10x-2020-10",
+      "verdict": "reject",
+      "reasons": "Quantum volume 1,024 in July 2021 does not resolve a five-year annual order-of-magnitude commitment through 2025."
+    },
+    {
+      "entity": "out:quera-rd2024-ten-logical",
+      "verdict": "reject",
+      "reasons": "The no-delivery search log checks only the original target page and is not a credible delivery search."
+    },
+    {
+      "entity": "out:quera-2024-simulator",
+      "verdict": "reject",
+      "reasons": "The no-delivery search log checks only the original target page and is not a credible delivery search."
+    },
+    {
+      "entity": "out:quera-rd2024-30-logical",
+      "verdict": "reject",
+      "reasons": "The no-delivery search log checks only the original target page and is not a credible delivery search."
+    },
+    {
+      "entity": "out:quera-2026-100-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-prod-use-2025",
+      "verdict": "reject",
+      "reasons": "An optional possibility is not a target whose non-delivery can be classified."
+    },
+    {
+      "entity": "out:pasqal-10000-2026",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-community-2024",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-10000-2026-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-qa-demo-2026",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-1000-physical-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-2-logical-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-rd2025-orion-gamma",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-10000-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-20-logical-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-100-logical-2029",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-rd2025-200-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-vela-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-centaurus-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-lyra-2029",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:pasqal-five-year-fields",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-edge-2022",
+      "verdict": "reject",
+      "reasons": "The target quote could not be checked, and the search log does not establish delivery or non-delivery from the inaccessible exhibit."
+    },
+    {
+      "entity": "out:ionq-aq64-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-native-999-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-logical-99999-2025",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-basel-2024",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-tempo-100-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The #AQ 64 announcement does not establish 100 physical qubits. The no-delivery search is limited to two IonQ pages, so the caveat must remain visible."
+    },
+    {
+      "entity": "out:ionq-10k-2027",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-20k-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-cluster-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-interconnect-2028",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-2m-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-logical-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-error-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:ionq-apps-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:quantinuum-ft-2030",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:quantinuum-rd2024-helios",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:atom-available-2024",
+      "verdict": "reject",
+      "reasons": "The no-delivery search log checks only the original target page and is not a credible delivery search."
+    },
+    {
+      "entity": "out:atom-ft-decade",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:infleqtion-rd2026-100-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "out:infleqtion-rd2026-1000-logical",
+      "verdict": "publish",
+      "reasons": "Material wording and dates are supported by programmatically matched Tier 1 or Tier 2 quotations."
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2021",
+      "verdict": "reject",
+      "reasons": "The projected row and footnote could not be checked in Exhibit 99.2 through the permitted SEC endpoints; moreover the row may include prepayments, bookings and recognized contracts, so it is not comparable to GAAP annual revenue.",
+      "corrections": {
+        "actual": null
+      }
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2022",
+      "verdict": "reject",
+      "reasons": "The projected row and footnote could not be checked in Exhibit 99.2 through the permitted SEC endpoints; moreover the row may include prepayments, bookings and recognized contracts, so it is not comparable to GAAP annual revenue.",
+      "corrections": {
+        "actual": null
+      }
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2023",
+      "verdict": "reject",
+      "reasons": "The projected row and footnote could not be checked in Exhibit 99.2 through the permitted SEC endpoints; moreover the row may include prepayments, bookings and recognized contracts, so it is not comparable to GAAP annual revenue.",
+      "corrections": {
+        "actual": null
+      }
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2024",
+      "verdict": "reject",
+      "reasons": "The projected row and footnote could not be checked in Exhibit 99.2 through the permitted SEC endpoints; moreover the row may include prepayments, bookings and recognized contracts, so it is not comparable to GAAP annual revenue.",
+      "corrections": {
+        "actual": null
+      }
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2025",
+      "verdict": "reject",
+      "reasons": "The projected row and footnote could not be checked in Exhibit 99.2 through the permitted SEC endpoints; moreover the row may include prepayments, bookings and recognized contracts, so it is not comparable to GAAP annual revenue.",
+      "corrections": {
+        "actual": null
+      }
+    },
+    {
+      "entity": "prj:ionq-revenue-fy2026",
+      "verdict": "reject",
+      "reasons": "The projected row and footnote could not be checked in Exhibit 99.2 through the permitted SEC endpoints; moreover the row may include prepayments, bookings and recognized contracts, so it is not comparable to GAAP annual revenue."
+    }
+  ],
+  "summary": "91 pass, 1 flag, 17 reject. Worst problems: the SEC-permitted endpoints did not provide the text of IonQ Exhibit 99.2; its forecast row may include prepayments, bookings and recognized contracts and therefore is not comparable to GAAP revenue; Honeywell's five-year annual order-of-magnitude targets were improperly resolved using only the July 2021 quantum-volume result; four no-delivery findings had one-page search logs; and Pasqal's possible production use was treated as a commitment. Rejected ids: tgt:pasqal-prod-use-2025, tgt:ionq-edge-2022, rd:ionq-2021-spac, out:honeywell-qv-10x-2020-03, out:honeywell-qv-10x-2020-10, out:quera-rd2024-ten-logical, out:quera-2024-simulator, out:quera-rd2024-30-logical, out:pasqal-prod-use-2025, out:ionq-edge-2022, out:atom-available-2024, prj:ionq-revenue-fy2021, prj:ionq-revenue-fy2022, prj:ionq-revenue-fy2023, prj:ionq-revenue-fy2024, prj:ionq-revenue-fy2025, prj:ionq-revenue-fy2026."
+}

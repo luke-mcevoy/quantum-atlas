@@ -1,6 +1,6 @@
 // The language rules shared by the validator, the build and these tests (scripts/lib/rules.mjs).
 import { describe, expect, test } from "vitest";
-import { hypeProblems, impliedPeerReview, proseNumbers } from "../../scripts/lib/rules.mjs";
+import { hypeProblems, benefitProblems, trackProblems, impliedPeerReview, proseNumbers } from "../../scripts/lib/rules.mjs";
 
 const Q = ["Willow is the first processor where error-corrected qubits get exponentially better", "demonstrating a beyond-classical computation"];
 
@@ -19,6 +19,12 @@ describe("hype terms", () => {
     expect(hypeProblems("IBM entered the era of utility.", []).length).toBe(1);
     expect(hypeProblems("A fault-tolerant machine.", []).length).toBe(1);
   });
+});
+
+describe("use-case and track-record language", () => {
+  test("a benefit claim must be quoted", () => expect(benefitProblems("This solves scheduling.", []).length).toBeGreaterThan(0));
+  test("an evaluative word must be quoted", () => expect(trackProblems("The roadmap failed.", []).length).toBeGreaterThan(0));
+  test("neutral ledger prose passes", () => expect(trackProblems("IBM announced Condor on 2023-12-04.", [])).toEqual([]));
 });
 
 describe("peer-review status follows the cited documents", () => {

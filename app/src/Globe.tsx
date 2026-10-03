@@ -265,13 +265,13 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     const add = (id: string, text: string, p: [number, number] | undefined, dx: number, rank: number) => {
       if (p) out.push({ id, text: mapName(text), full: text, lon: p[0], lat: p[1], dx, strong: id === s.selected, rank: id === s.selected ? 1e9 : id === hoverId ? 1e8 : rank });
     };
-    if (mode === "modality") {
+    if (mode === "modality" || mode === "track") {
       const byOrg = new Map<string, number>();
       for (const y of systems) byOrg.set(y.operator, Math.max(byOrg.get(y.operator) ?? 0, y.physical_qubits?.value ?? 1));
       for (const [o, q] of byOrg) if (!focus || focus.nodes.has(o) || systems.some((y) => y.operator === o && focus.nodes.has(y.id))) add(o, idx.org.get(o)?.name ?? o, locateAny(idx, o), 10, 1000 + Math.log2(q + 1));
       if (zoomTier >= 3 || focus) for (const y of systems) if (!focus || focus.nodes.has(y.id)) add(y.id, y.name, idx.pos.get(y.id), sysRadius(y) + 5, Math.log2((y.physical_qubits?.value ?? 1) + 1));
       if (s.selected && idx.system.has(s.selected) && !out.some((l) => l.id === s.selected)) add(s.selected, idx.system.get(s.selected)!.name, idx.pos.get(s.selected), 10, 1e9);
-    } else if (mode === "access") {
+    } else if (mode === "access" || mode === "today") {
       for (const p of platforms) add(p.id, idx.org.get(p.id)?.name ?? p.id, p.pos, 12, 2000 + (idx.accessByOrg.get(p.id)?.length ?? 0));
       if (zoomTier >= 3) for (const y of accessSystems) add(y.id, y.name, idx.pos.get(y.id), sysRadius(y) + 5, 10);
     } else {
@@ -320,7 +320,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   const layers = [
     ...base,
     // ─── MODALITY ───
-    ...(mode === "modality" ? [
+    ...(mode === "modality" || mode === "track" ? [
       new PathLayer<ArcDatum, PathStyleExtensionProps<ArcDatum>>({
         id: "rel-arcs", data: relArcs, pickable: true, getPath: (d) => d.path,
         getColor: (d) => rgba(d.color, d.id === s.selected ? 255 : dim(!focus || focus.rels.has(d.id), 120)),
@@ -363,7 +363,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     ] : []),
 
     // ─── ACCESS ───
-    ...(mode === "access" ? [
+    ...(mode === "access" || mode === "today" ? [
       new PathLayer<ArcDatum, PathStyleExtensionProps<ArcDatum>>({
         id: "access-arcs", data: accessArcs, pickable: true, getPath: (d) => d.path,
         getColor: (d) => rgba(d.color, d.id === s.selected ? 255 : s.selected && s.selected.startsWith("acc:") ? 60 : dim(!focus || focus.access.has(d.id), 150)),
@@ -446,7 +446,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       const els = box.children as HTMLCollectionOf<HTMLElement>;
       // Greedy de-overlap in priority order (selection, hover, then rank); colliding labels are hidden.
       const placed: [number, number, number, number][] = [];
-      const rail = document.querySelector(".rail")?.getBoundingClientRect();
+      const rail = document.querySelector(".rail, .mode-panel")?.getBoundingClientRect();
       const topbar = document.querySelector(".topbar")?.getBoundingClientRect();
       const pad = 5;
       overlayRef.current.forEach((l, i) => {
@@ -485,7 +485,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   return (
     <div className="globe-wrap" onPointerDown={onPointerDown} onWheel={stopSpin}>
       <div className="halo" ref={haloRef} />
-      {mode === "access" && idx.atlas.access.length === 0 && (
+      {(mode === "access" || mode === "today") && idx.atlas.access.length === 0 && (
         <div className="empty-banner">No verified access routes yet. A route is drawn only after the platform’s own documentation has been checked.</div>
       )}
       <div className="labels" ref={labelsRef} aria-hidden="true">

@@ -1,0 +1,4 @@
+# Substrings that must appear in the harness output. Energies are not pinned.
+Total number of qubits in the circuit: 4
+INFO: Computing ground-state energy for bond-length
+Total running time:

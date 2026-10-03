@@ -1,0 +1,593 @@
+{
+  "topic": "today",
+  "analyst": "cursor-grok-today",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:today-braket-devices",
+      "title": "Amazon Braket supported regions and devices",
+      "publisher": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-braket-pricing",
+      "title": "Amazon Braket pricing",
+      "publisher": "Amazon Web Services",
+      "url": "https://aws.amazon.com/braket/pricing/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-braket-submit",
+      "title": "Submitting quantum tasks to QPUs",
+      "publisher": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-submit-tasks.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-braket-to-qpu",
+      "title": "Example: Submitting a quantum task to a QPU",
+      "publisher": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/braket/latest/developerguide/braket-submit-to-qpu.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-ibm-computers",
+      "title": "IBM Quantum Platform compute resources",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/computers",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-ibm-plans",
+      "title": "Plans overview",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/docs/en/guides/plans-overview",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-ibm-pricing",
+      "title": "IBM Quantum access plans",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/quantum/pricing",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-ibm-hello",
+      "title": "Run your first circuit on hardware",
+      "publisher": "IBM",
+      "url": "https://quantum.cloud.ibm.com/docs/en/guides/hello-world",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-ionq-backends",
+      "title": "IonQ backends",
+      "publisher": "IonQ",
+      "url": "https://docs.ionq.com/user-manual/backends.md",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-ionq-qiskit",
+      "title": "Getting started with Qiskit",
+      "publisher": "IonQ",
+      "url": "https://docs.ionq.com/sdks/qiskit/index.md",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-ionq-cost",
+      "title": "Job cost and usage",
+      "publisher": "IonQ",
+      "url": "https://docs.ionq.com/guides/job-cost-and-usage.md",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-azure-targets",
+      "title": "Quantum computing providers on Azure Quantum",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/qc-target-list",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-04-23",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-azure-pricing",
+      "title": "Pricing plans for Azure Quantum providers",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/pricing",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2025-12-23",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-azure-ionq",
+      "title": "IonQ provider on Azure Quantum",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/provider-ionq",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2025-10-03",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-azure-pasqal",
+      "title": "Pasqal provider on Azure Quantum",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/provider-pasqal",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-04-23",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-azure-quantinuum",
+      "title": "Quantinuum provider on Azure Quantum",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/provider-quantinuum",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-05-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-azure-rigetti",
+      "title": "Rigetti provider on Azure Quantum",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/provider-rigetti",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-04-10",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-dwave-cloud",
+      "title": "D-Wave cloud platform",
+      "publisher": "D-Wave Quantum",
+      "url": "https://www.dwavequantum.com/solutions-and-products/cloud-platform/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-pasqal-qpu",
+      "title": "Pasqal QPUs and emulators",
+      "publisher": "Pasqal",
+      "url": "https://docs.pasqal.com/qpu-emulators/",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-pasqal-start",
+      "title": "Get started with Pasqal Cloud",
+      "publisher": "Pasqal",
+      "url": "https://docs.pasqal.com/cloud/pasqal-cloud/getting-started/",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-pasqal-billing",
+      "title": "Pasqal Cloud billing",
+      "publisher": "Pasqal",
+      "url": "https://docs.pasqal.com/cloud/billing/",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-iqm-resonance",
+      "title": "IQM Resonance",
+      "publisher": "IQM",
+      "url": "https://www.meetiqm.com/products/iqm-resonance/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-oqc-cloud",
+      "title": "OQC Cloud",
+      "publisher": "OQC",
+      "url": "https://oqc.tech/access/oqc-cloud/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-qh-access",
+      "title": "Quantinuum systems access",
+      "publisher": "Quantinuum",
+      "url": "https://docs.quantinuum.com/systems/user_guide/hardware_user_guide/access.html",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-google-concepts",
+      "title": "Quantum Computing Service concepts",
+      "publisher": "Google Quantum AI",
+      "url": "https://quantumai.google/cirq/google/concepts",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-google-engine",
+      "title": "Quantum Engine API",
+      "publisher": "Google Quantum AI",
+      "url": "https://quantumai.google/cirq/google/engine",
+      "doc_type": "official_docs",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:today-aqt-products",
+      "title": "AQT products",
+      "publisher": "Alpine Quantum Technologies",
+      "url": "https://www.aqt.eu/products/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:nature-gqai-2024-below-threshold",
+      "title": "Quantum error correction below the surface code threshold",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-024-08449-y",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-12-09",
+      "accessed": "2026-10-01",
+      "doi": "10.1038/s41586-024-08449-y"
+    },
+    {
+      "id": "src:google-quantum-ai-about-pdf",
+      "title": "Our focused and responsible approach to quantum computing (Google Quantum AI overview)",
+      "publisher": "Google",
+      "url": "https://services.google.com/fh/files/misc/google_quantum_ai_about.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2023",
+      "accessed": "2026-10-01"
+    },
+    {
+      "id": "src:google-locations",
+      "title": "Google office locations",
+      "publisher": "Google",
+      "url": "https://about.google/intl/en/locations/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-01"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:google",
+      "name": "Google (Google Quantum AI)",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "city",
+        "address": "Mountain View, CA"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://quantumai.google",
+      "evidence": [
+        {
+          "source": "src:google-locations",
+          "quote": "Google Mountain View - Googleplex 1600 Amphitheatre Pkwy, Mountain View, CA 94043",
+          "locator": "Locations list, Mountain View",
+          "supports": "existence, hq (city)"
+        },
+        {
+          "source": "src:google-quantum-ai-about-pdf",
+          "quote": "Google has been working on quantum computing since 2014.",
+          "locator": "section 'Our progress towards building a quantum computer'",
+          "supports": "existence (quantum programme)"
+        },
+        {
+          "source": "src:nature-gqai-2024-below-threshold",
+          "quote": "Here we present two below-threshold surface code memories on our newest generation of superconducting processors, Willow",
+          "locator": "Abstract",
+          "supports": "modality"
+        }
+      ]
+    }
+  ],
+  "sites": [],
+  "systems": [],
+  "milestones": [],
+  "targets": [],
+  "access": [
+    {
+      "id": "acc:google-qai-willow-pink",
+      "system_hint": "willow_pink",
+      "target_org": "co:google",
+      "platform": "co:google",
+      "platform_name": "Google Quantum AI",
+      "route": "google_quantum_ai",
+      "sdks": [
+        "cirq"
+      ],
+      "auth_model": "Access is currently only granted to those on an approved list.",
+      "tier": "restricted",
+      "tier_note": "No public access to the service is available at this time.",
+      "docs_url": "https://quantumai.google/cirq/google/concepts",
+      "program_models": [
+        "gate_circuit"
+      ],
+      "availability": {
+        "status": "unavailable",
+        "as_of": "2026-10-02",
+        "windows": "No public access to the service is available at this time."
+      },
+      "limits": {
+        "max_shots": {
+          "value": 1500000,
+          "as_of": "2026-10-02",
+          "evidence": [
+            {
+              "source": "src:today-google-concepts",
+              "quote": "During non-reservation times, jobs are restricted to run for at most 5 minutes and may have no more than 1,500,000 total shots on the processor.",
+              "locator": "Processor schedules",
+              "supports": "limits"
+            }
+          ]
+        },
+        "notes": "During non-reservation times, jobs are restricted to run for at most 5 minutes and may have no more than 1,500,000 total shots on the processor."
+      },
+      "to_hardware": {
+        "code_or_step": "For example, one processor is the “willow_pink” processor, which corresponds to a quantum computer located in Santa Barbara.",
+        "source_url": "https://quantumai.google/cirq/google/concepts"
+      },
+      "evidence": [
+        {
+          "source": "src:today-google-concepts",
+          "quote": "Access is currently only granted to those on an approved list.",
+          "locator": "Access",
+          "supports": "tier"
+        },
+        {
+          "source": "src:today-google-concepts",
+          "quote": "No public access to the service is available at this time.",
+          "locator": "Access",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-google-concepts",
+          "quote": "For example, one processor is the “willow_pink” processor, which corresponds to a quantum computer located in Santa Barbara.",
+          "locator": "Processors",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-google-concepts",
+          "quote": "Programs that are written in Cirq, an open-source quantum computing program language, can be sent to run on a quantum computer",
+          "locator": "Overview",
+          "supports": "program_models"
+        },
+        {
+          "source": "src:today-google-engine",
+          "quote": "the Quantum Engine API is not yet open for public access.",
+          "locator": "Note",
+          "supports": "availability"
+        },
+        {
+          "source": "src:today-google-concepts",
+          "quote": "During non-reservation times, jobs are restricted to run for at most 5 minutes and may have no more than 1,500,000 total shots on the processor.",
+          "locator": "Processor schedules",
+          "supports": "limits"
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "gaps": [
+    {
+      "topic": "device IBEX-Q1 on Amazon Braket not in atlas",
+      "why": "The Braket devices page lists AQT IBEX-Q1 as a gate-based QPU. The atlas systems for AQT are MARMOT, LYNX, and the LRZ installation. The AQT products page lists IBEX Q1 separately from MARMOT.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_boston on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_boston online, processor family Heron, 156 programmable qubits. sys:ibm-heron is the processor class, not this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_kingston on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_kingston online, processor family Heron, 156 programmable qubits. No sys: id is this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_pittsburgh on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_pittsburgh paused for maintenance. No sys: id is this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_fez on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_fez online, processor family Heron, 156 programmable qubits. No sys: id is this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_marrakesh on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_marrakesh online, processor family Heron, 156 programmable qubits. No sys: id is this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_miami on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_miami online, processor family Nighthawk, 120 programmable qubits. sys:ibm-nighthawk is recorded as an announced processor class, not this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_phoenix on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_phoenix online, processor family Nighthawk, 120 programmable qubits. No sys: id is this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_aachen on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_aachen online, processor family Heron, 156 programmable qubits, region eu-de. No sys: id is this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device ibm_berlin on IBM Quantum Platform not in atlas",
+      "why": "The compute-resources page lists ibm_berlin online, processor family Nighthawk, 120 programmable qubits, region eu-de. No sys: id is this named QPU.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device FRESNEL on Pasqal Cloud not in atlas",
+      "why": "Pasqal's QPU table marks FRESNEL Available on Pasqal Cloud. The atlas Pasqal systems are Ruby, Jade, SOL, the Aramco installation, and Orion Gamma.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device FRESNEL_CAN1 on Pasqal Cloud not in atlas",
+      "why": "Pasqal's QPU table marks FRESNEL_CAN1 Available on Pasqal Cloud. No sys: id uses that name.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device FRESNEL_SA1 on Pasqal Cloud not in atlas",
+      "why": "Pasqal's QPU table marks FRESNEL_SA1 Available on the first access column. No sys: id uses that name.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device FRESNEL on Azure Quantum not in atlas",
+      "why": "Azure's Pasqal provider page lists target pasqal.qpu.fresnel with 100 qubits. No sys: id uses the name FRESNEL.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device FRESNEL_CAN1 on Azure Quantum not in atlas",
+      "why": "Azure's Pasqal provider page lists target pasqal.qpu.fresnel-can1 with 100 qubits. No sys: id uses that name.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device Quantinuum H2-1 on Azure Quantum not in atlas",
+      "why": "Azure's Quantinuum provider page lists target quantinuum.qpu.h2-1. sys:quantinuum-h2 is the System Model H2 generation, and the same page also lists a separate H2-2 target.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device Quantinuum H2-2 on Azure Quantum not in atlas",
+      "why": "Azure's Quantinuum provider page lists target quantinuum.qpu.h2-2. No sys: id is H2-2.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device IQM Crystal 54 on IQM Resonance not in atlas",
+      "why": "The Resonance page lists IQM Crystal 54 under Available QPUs. sys:iqm-emerald's record says Emerald uses a Crystal 54 architecture. The Resonance page does not say Crystal 54 is Emerald.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device IQM Crystal 20 on IQM Resonance not in atlas",
+      "why": "The Resonance page lists IQM Crystal 20 under Available QPUs. sys:iqm-garnet is a 20-qubit processor. The Resonance page does not say Crystal 20 is Garnet.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device IQM Star 24 on IQM Resonance not in atlas",
+      "why": "The Resonance page lists IQM Star 24 and says it is now available in beta. No sys: id uses that name.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "device willow_pink on Google Quantum AI not in atlas",
+      "why": "The Quantum Computing Service concepts page gives willow_pink as an example processor id in Santa Barbara. sys:google-willow is the Willow processor reported in the 2024 experiment. The concepts page does not say willow_pink is that system.",
+      "would_need": "A system record whose evidence names this device, or a primary document that identifies it with an existing sys: id."
+    },
+    {
+      "topic": "Xanadu Cloud",
+      "why": "https://www.xanadu.ai/ returned a title shell and did not name a cloud QPU. The Strawberry Fields documentation index names Hardware and Cloud sections and does not name a QPU a user can submit to.",
+      "would_need": "A current Xanadu page that names a cloud QPU, its status, and the line that selects it."
+    },
+    {
+      "topic": "Quandela Cloud",
+      "why": "The Quandela Cloud page names a QPU reservation service and photonic computers, and the navigation names Ascella, Belenos, and Canopus. The fetched page does not give a per-device availability status.",
+      "would_need": "A Quandela device list that states which QPU can be submitted to, with status and the selection step."
+    },
+    {
+      "topic": "Rigetti QCS",
+      "why": "The PyQuil getting-started page fetched here shows get_qc('9q-square-qvm') and does not name Ankaa-3 or Cepheus-1-108Q. Rigetti QPUs are listed on Amazon Braket.",
+      "would_need": "A Rigetti QCS device list that names the current QPUs and the get_qc argument for one of them."
+    },
+    {
+      "topic": "AQT ARNICA",
+      "why": "The ARNICA product page describes remote access to IBEX quantum computers. The products page says ARNICA is remote access to IBEX quantum computers and does not state an access tier. IBEX Q1 is not an existing sys: id.",
+      "would_need": "An ARNICA page that states the access tier and a code line that selects IBEX Q1."
+    },
+    {
+      "topic": "D-Wave Leap pricing and sampler line",
+      "why": "The cloud page says customers can access the two named annealing systems. The Leap service page and the Ocean getting-started page fetched here do not state a unit price and do not contain a sampler assignment.",
+      "would_need": "The Leap customer-plans page, with a price, and an Ocean page whose code selects a QPU solver."
+    },
+    {
+      "topic": "Quantinuum Nexus device selection and price",
+      "why": "The systems page says Helios and System Model H2 computers are available to subscription users. The fetched page does not contain a device-name assignment, and it does not state a price. Azure's pricing page states a Standard Plan monthly price for System Model H2.",
+      "would_need": "A Nexus page with the line that sets the hardware target, and a Quantinuum price for direct Nexus access."
+    },
+    {
+      "topic": "IQM Resonance device-selection line",
+      "why": "The Resonance page lists Crystal 54, Crystal 20, and Star 24, a free credit allowance, and a per-second price. It does not contain a code line that selects a QPU.",
+      "would_need": "IQM Resonance documentation with the call that names the QPU."
+    },
+    {
+      "topic": "Braket prices missing for two listed QPUs",
+      "why": "The devices page lists IonQ Forte-Enterprise-1 and Rigetti Ankaa-3. The pricing table rows name Forte and Cepheus, and do not name Forte-Enterprise-1 or Ankaa-3.",
+      "would_need": "A pricing row that names Forte-Enterprise-1 and a row that names Ankaa-3."
+    },
+    {
+      "topic": "Azure Quantinuum qubit counts differ across Microsoft pages",
+      "why": "The provider page dated 2026-05-15 says 56 qubits for quantinuum.qpu.h2-1 and quantinuum.qpu.h2-2. The target list dated 2026-04-23 says 20 qubits for Quantinuum H2-1 and 32 qubits for Quantinuum H2-2.",
+      "would_need": "A Microsoft page that states which count is current."
+    },
+    {
+      "topic": "IBM Open Plan time wording",
+      "why": "The plans guide says up to 10 minutes per 28-day rolling window. The pricing page says up to 10 minutes of runtime per month.",
+      "would_need": "One IBM page that states which window the Open Plan uses."
+    }
+  ]
+}

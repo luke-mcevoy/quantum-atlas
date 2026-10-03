@@ -1,0 +1,7 @@
+# Pinned for the local-simulator harness. Installed before networking is blocked.
+amazon-braket-sdk==1.127.3.post0
+openfermion==1.8.1
+openfermionpyscf==0.5
+pyscf==2.14.0
+matplotlib==3.11.2
+scipy==1.18.1

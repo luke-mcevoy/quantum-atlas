@@ -43,6 +43,12 @@ export type Topic =
   | "spin_topo_anneal" // Photonic Inc, Diraq, Quantum Motion, Intel, Microsoft, D-Wave...
   | "access" // how to submit a program: platforms, SDKs, tiers, verbatim snippets
   | "relationships" // acquisitions, partnerships, government awards/contracts, funding
+  | "today" // live device lists, availability, pricing, limits, the step onto hardware
+  | "usecases" // official tutorials and customer case studies
+  | "history_gate_sc" // past roadmaps: IBM, Google, Rigetti, IQM, OQC
+  | "history_ion_atom" // past roadmaps: IonQ, Quantinuum, QuEra, Pasqal, Atom Computing, Infleqtion
+  | "history_other" // past roadmaps: D-Wave, PsiQuantum, Xanadu, Microsoft, Intel, Alice & Bob
+  | "history_claims" // retractions, corrections, published rebuttals
   | "followup"; // later rounds
 
 // ─── Sources and evidence ───────────────────────────────────────────────────
@@ -164,6 +170,8 @@ export interface System {
   /** Only where a source states BOTH the logical-qubit count and the code used. */
   logical_qubits?: Figure & { code: string };
   metrics?: Metric[];
+  /** What kind of program this machine accepts, only when a source states it. */
+  program_models?: ProgramModel[];
   evidence: Evidence[]; // existence + status (+ modality)
 }
 
@@ -200,8 +208,42 @@ export interface Target {
   status: "open" | "met" | "missed" | "revised" | "withdrawn";
   superseded_by?: string; // Target.id of the later statement that revised this one
   met_by?: string; // Milestone.id
+  /** Required on targets in a history_* file. Existing catalogue targets are backfilled later. */
+  roadmap_doc?: string;
+  metric_kind?: MetricKind;
+  target_value?: Figure;
+  /** "by 2023" with year precision is due 2023-12-31. */
+  due?: { by: string; precision: "year" | "half" | "quarter" | "month" | "day" };
   evidence: Evidence[]; // the roadmap document itself
 }
+
+/** What a machine accepts as a program. */
+export type ProgramModel =
+  | "gate_circuit"
+  | "annealing_qubo"
+  | "analog_hamiltonian"
+  | "photonic_circuit"
+  | "pulse";
+
+export type ProblemClass =
+  | "optimization"
+  | "chemistry"
+  | "physics_simulation"
+  | "machine_learning"
+  | "sampling"
+  | "linear_algebra"
+  | "other";
+
+export type MetricKind =
+  | "physical_qubits"
+  | "logical_qubits"
+  | "fidelity"
+  | "error_rate"
+  | "system_availability"
+  | "product_launch"
+  | "customer_access"
+  | "error_correction_demo"
+  | "other";
 
 export type Route = "vendor_cloud" | "aws_braket" | "azure_quantum" | "ibm_quantum_platform" | "google_quantum_ai"
   | "other_cloud" | "on_premise";
@@ -238,7 +280,96 @@ export interface AccessRoute {
   tier_note?: string; // e.g. "Open Plan: 10 minutes per month", quoted in evidence
   docs_url: string; // official getting-started / submit-a-job page
   snippet?: Snippet;
+  /** Required, with `system` and `availability.as_of`, when availability.status is "available". */
+  program_models?: ProgramModel[];
+  availability?: {
+    status: "available" | "limited" | "unavailable" | "unknown";
+    as_of: string; // YYYY-MM-DD
+    windows?: string;
+    /** Set by the build. True when as_of is more than 45 days before the build date. */
+    stale?: boolean;
+  };
+  pricing?: { quote: string; unit?: string; source: string };
+  limits?: { max_qubits?: Figure; max_shots?: Figure; notes?: string };
+  to_hardware?: { code_or_step: string; source_url: string };
   evidence: Evidence[]; // must support availability of this system on this platform AND the tier
+}
+
+export interface UseCase {
+  id: string; // "uc:<platform>-<slug>"
+  problem_class: ProblemClass;
+  title: string;
+  program_model: ProgramModel;
+  platform: string;
+  sdk: string;
+  kind: "official_tutorial" | "customer_case_study" | "peer_reviewed_application";
+  customer?: string;
+  statement: string;
+  outcome_quote?: string;
+  example?: string;
+  evidence: Evidence[];
+}
+
+export interface Example {
+  id: string; // "ex:<sdk>-<slug>"
+  title: string;
+  program_model: ProgramModel;
+  sdk: string;
+  source_url: string;
+  code: string;
+  harness_path: string;
+  substitution?: string;
+  sim_check: Snippet["sim_check"];
+  routes: string[];
+  evidence: Evidence[];
+}
+
+export interface RoadmapDocument {
+  id: string; // "rd:<org>-<yyyy>-<slug>"
+  org: string;
+  title: string;
+  published: string;
+  kind: "roadmap_page" | "blog" | "investor_presentation" | "sec_exhibit" | "keynote" | "press_release" | "paper";
+  url: string;
+  archived_url?: string;
+  completeness: "all_items" | "partial";
+  items: string[];
+  evidence: Evidence[];
+}
+
+export interface Outcome {
+  id: string; // "out:<target-slug>"
+  target: string;
+  result: "met_on_time" | "met_early" | "met_late" | "partially_met" | "revised_before_due"
+    | "acknowledged_missed" | "no_delivery_found" | "pending";
+  resolved_on?: string;
+  delivered_value?: Figure;
+  delivered_by?: string;
+  /** Computed by the build. Never hand-entered as the published value. */
+  slip_months?: number;
+  search_log?: { checked: string[]; queries: string[]; as_of: string };
+  statement: string;
+  evidence: Evidence[];
+}
+
+export interface Projection {
+  id: string; // "prj:<org>-<metric>-<period>"
+  org: string;
+  roadmap_doc: string;
+  metric: "revenue" | "bookings" | "gross_margin" | "ebitda" | "customers" | "qubits" | "other";
+  period: string;
+  projected: Figure;
+  actual?: Figure;
+  evidence: Evidence[];
+}
+
+export interface ClaimRevision {
+  id: string; // "cr:<slug>"
+  subject: string;
+  kind: "retraction" | "correction" | "expression_of_concern" | "published_rebuttal";
+  date: string;
+  statement: string;
+  evidence: Evidence[];
 }
 
 export type RelKind = "acquisition" | "partnership" | "government_award" | "government_contract" | "investment"
@@ -275,6 +406,12 @@ export interface ResearchFile {
   targets: Target[];
   access: AccessRoute[];
   relationships: Relationship[];
+  use_cases?: UseCase[];
+  examples?: Example[];
+  roadmap_docs?: RoadmapDocument[];
+  outcomes?: Outcome[];
+  projections?: Projection[];
+  claim_revisions?: ClaimRevision[];
   gaps: Gap[];
 }
 

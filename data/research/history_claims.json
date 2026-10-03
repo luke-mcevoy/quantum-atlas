@@ -1,0 +1,856 @@
+{
+  "topic": "history_claims",
+  "analyst": "Analyst 4",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:nature-speed-limit-retraction-html",
+      "title": "Retraction Note: Exploring the quantum speed limit with computer games",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-020-2515-2",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2020-07-22",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-020-2515-2"
+    },
+    {
+      "id": "src:nature-speed-limit-retraction-pdf",
+      "title": "Retraction Note: Exploring the quantum speed limit with computer games",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-020-2515-2.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2020-07-22",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-020-2515-2"
+    },
+    {
+      "id": "src:nature-epitaxy-retraction-pdf",
+      "title": "Retraction Note: Epitaxy of advanced nanowire quantum devices",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-022-04704-2.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2022-04-19",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-022-04704-2"
+    },
+    {
+      "id": "src:nature-willow-author-correction-pdf",
+      "title": "Author Correction: Quantum error correction below the surface code threshold",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10559-8.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2026-04-28",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-026-10559-8"
+    },
+    {
+      "id": "src:nature-cat-author-correction-pdf",
+      "title": "Author Correction: Quantum control of a cat qubit with bit-flip times exceeding ten seconds",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-024-07565-z.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-05-17",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-024-07565-z"
+    },
+    {
+      "id": "src:nature-sycamore-2019-pdf",
+      "title": "Quantum supremacy using a programmable superconducting processor",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-019-1666-5.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2019-10-23",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-019-1666-5"
+    },
+    {
+      "id": "src:arxiv-pan-sycamore-pdf",
+      "title": "Solving the Sampling Problem of the Sycamore Quantum Circuits",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2111.03011",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2022-08-28",
+      "accessed": "2026-10-02",
+      "arxiv": "2111.03011"
+    },
+    {
+      "id": "src:arxiv-pan-sycamore-abs",
+      "title": "Solving the Sampling Problem of the Sycamore Quantum Circuits",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2111.03011",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2022-08-28",
+      "accessed": "2026-10-02",
+      "arxiv": "2111.03011"
+    },
+    {
+      "id": "src:nature-kim-2023-pdf",
+      "title": "Evidence for the utility of quantum computing before fault tolerance",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-023-06096-3.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2023-06-14",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-023-06096-3"
+    },
+    {
+      "id": "src:arxiv-tindall-pdf",
+      "title": "Efficient tensor network simulation of IBM’s Eagle kicked Ising experiment",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2306.14887",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-01-26",
+      "accessed": "2026-10-02",
+      "arxiv": "2306.14887"
+    },
+    {
+      "id": "src:arxiv-tindall-abs",
+      "title": "Efficient tensor network simulation of IBM’s Eagle kicked Ising experiment",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2306.14887",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-01-26",
+      "accessed": "2026-10-02",
+      "arxiv": "2306.14887"
+    },
+    {
+      "id": "src:arxiv-begusic-pdf",
+      "title": "Fast and converged classical simulations of evidence for the utility of quantum computing before fault tolerance",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2308.05077",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-01-26",
+      "accessed": "2026-10-02",
+      "arxiv": "2308.05077"
+    },
+    {
+      "id": "src:arxiv-begusic-abs",
+      "title": "Fast and converged classical simulations of evidence for the utility of quantum computing before fault tolerance",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2308.05077",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2024-01-26",
+      "accessed": "2026-10-02",
+      "arxiv": "2308.05077"
+    },
+    {
+      "id": "src:nature-oh-gbs-html",
+      "title": "Classical algorithm for simulating experimental Gaussian boson sampling",
+      "publisher": "Nature Physics",
+      "url": "https://www.nature.com/articles/s41567-024-02535-8",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2024-06-25",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41567-024-02535-8"
+    },
+    {
+      "id": "src:arxiv-oh-gbs-pdf",
+      "title": "Classical algorithm for simulating experimental Gaussian boson sampling",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2306.03709",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2023-12-04",
+      "accessed": "2026-10-02",
+      "arxiv": "2306.03709"
+    },
+    {
+      "id": "src:nature-borealis-2022-pdf",
+      "title": "Quantum computational advantage with a programmable photonic processor",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-022-04725-x.pdf",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2022-06-01",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-022-04725-x"
+    },
+    {
+      "id": "src:arxiv-jiuzhang-pdf",
+      "title": "Quantum computational advantage using photons",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2012.01625",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2020-12-03",
+      "accessed": "2026-10-02",
+      "arxiv": "2012.01625"
+    },
+    {
+      "id": "src:arxiv-jiuzhang-abs",
+      "title": "Quantum computational advantage using photons",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2012.01625",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2020-12-03",
+      "accessed": "2026-10-02",
+      "arxiv": "2012.01625"
+    },
+    {
+      "id": "src:arxiv-king-pdf",
+      "title": "Beyond-classical computation in quantum simulation",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2403.00910",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-10-14",
+      "accessed": "2026-10-02",
+      "arxiv": "2403.00910"
+    },
+    {
+      "id": "src:arxiv-king-abs",
+      "title": "Beyond-classical computation in quantum simulation",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2403.00910",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2025-10-14",
+      "accessed": "2026-10-02",
+      "arxiv": "2403.00910"
+    },
+    {
+      "id": "src:arxiv-krinitsin-comment-pdf",
+      "title": "Comment on “Beyond-classical computation in quantum simulation”",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/pdf/2607.08811",
+      "doc_type": "preprint",
+      "tier": 2,
+      "document_date": "2026-07-09",
+      "accessed": "2026-10-02",
+      "arxiv": "2607.08811"
+    }
+  ],
+  "orgs": [],
+  "sites": [],
+  "systems": [],
+  "milestones": [],
+  "targets": [],
+  "access": [],
+  "relationships": [],
+  "claim_revisions": [
+    {
+      "id": "cr:sorensen-quantum-speed-limit-retraction",
+      "subject": "Quantitative results in the 2016 Nature article on a quantum speed limit with computer games, by Sørensen and co-authors",
+      "kind": "retraction",
+      "date": "2020-07-22",
+      "statement": "On 22 July 2020, Nature published a retraction note by Sørensen and co-authors on their 2016 article. The authors state that an error in their computer code means the quantitative results reported are not valid.",
+      "evidence": [
+        {
+          "source": "src:nature-speed-limit-retraction-html",
+          "quote": "Retraction Note: Exploring the quantum speed limit with computer games",
+          "locator": "HTML title",
+          "supports": "kind, subject"
+        },
+        {
+          "source": "src:nature-speed-limit-retraction-html",
+          "quote": "\"datePublished\":\"2020-07-22T00:00:00Z\"",
+          "locator": "schema.org JSON-LD datePublished",
+          "supports": "date"
+        },
+        {
+          "source": "src:nature-speed-limit-retraction-pdf",
+          "quote": "Jens Jakob W. H. Sørensen",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:nature-speed-limit-retraction-pdf",
+          "quote": "Published online 13 April 2016",
+          "locator": "Retraction note, original-article line",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-speed-limit-retraction-pdf",
+          "quote": "We, the authors, are regretfully retracting this Article owing to an error in our computer code that means the quantitative results reported are not valid.",
+          "locator": "Retraction note body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "cr:gazibegovic-nanowire-epitaxy-retraction",
+      "subject": "The 2017 Nature article on epitaxy of nanowire quantum devices by Gazibegovic and co-authors",
+      "kind": "retraction",
+      "date": "2022-04-19",
+      "statement": "On 19 April 2022, Gazibegovic and co-authors published a retraction note in Nature on their 2017 article. The note states that unjustified data removal and cropping affect the agreement between the theoretical curves and the experimental data and the claims of ballistic transport, and that the authors are retracting the paper.",
+      "evidence": [
+        {
+          "source": "src:nature-epitaxy-retraction-pdf",
+          "quote": "Published online: 19 April 2022",
+          "locator": "Retraction note header",
+          "supports": "date"
+        },
+        {
+          "source": "src:nature-epitaxy-retraction-pdf",
+          "quote": "Sasa Gazibegovic",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:nature-epitaxy-retraction-pdf",
+          "quote": "Published online 24 August 2017",
+          "locator": "Original-article line",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-epitaxy-retraction-pdf",
+          "quote": "Correction to: Nature https://doi.org/10.1038/nature23468",
+          "locator": "Correction-to line",
+          "supports": "original article"
+        },
+        {
+          "source": "src:nature-epitaxy-retraction-pdf",
+          "quote": "We found unjustified data removal and cropping in Figures 4a and c, and Extended Data Figures 7 and 8, which affect the agreement between the theoretical curves and the experimental data and the claims of ballistic transport.",
+          "locator": "Retraction note body",
+          "supports": "statement"
+        },
+        {
+          "source": "src:nature-epitaxy-retraction-pdf",
+          "quote": "We are accordingly retracting the paper.",
+          "locator": "Retraction note body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "cr:google-qai-fig3a-author-correction",
+      "subject": "Labels in Fig. 3a of the 9 December 2024 Nature article by Google Quantum AI and Collaborators",
+      "kind": "correction",
+      "date": "2026-04-28",
+      "statement": "On 28 April 2026, Nature published an author correction to the 9 December 2024 article by Google Quantum AI and Collaborators. The correction states that the Fig. 3a x-axis label now reads “Repetition code distance, d” and originally appeared as “Surface code distance, d,”.",
+      "evidence": [
+        {
+          "source": "src:nature-willow-author-correction-pdf",
+          "quote": "Published online: 28 April 2026",
+          "locator": "Correction header",
+          "supports": "date"
+        },
+        {
+          "source": "src:nature-willow-author-correction-pdf",
+          "quote": "Published online 9 December 2024",
+          "locator": "Original-article line",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-willow-author-correction-pdf",
+          "quote": "Google Quantum AI and Collaborators",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:nature-willow-author-correction-pdf",
+          "quote": "there were errors in Fig. 3a, where the x-axis label, now reading “Repetition code distance, d”originally appeared as “Surface code distance, d,” while in the Fig. 3a keys, the open and closed circles, now reading “Ref. 17” and “This work,” respectively, were originally denoted “d = 3 (ref. 17)” and “d = 5.”",
+          "locator": "Correction body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "cr:reglade-fig3d-author-correction",
+      "subject": "X-axis units on a graph in the 6 May 2024 Nature article by Réglade and co-authors",
+      "kind": "correction",
+      "date": "2024-05-17",
+      "statement": "On 17 May 2024, Nature published an author correction to the 6 May 2024 article by Réglade and co-authors. The correction states that in the uppermost graph of Fig. 3d the x-axis units were erroneously listed as μs instead of ms.",
+      "evidence": [
+        {
+          "source": "src:nature-cat-author-correction-pdf",
+          "quote": "Published online: 17 May 2024",
+          "locator": "Correction header",
+          "supports": "date"
+        },
+        {
+          "source": "src:nature-cat-author-correction-pdf",
+          "quote": "Published online 6 May 2024",
+          "locator": "Original-article line",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-cat-author-correction-pdf",
+          "quote": "U. Réglade",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:nature-cat-author-correction-pdf",
+          "quote": "in the uppermost graph of Fig. 3d, the x-axis units were erroneously listed as μs instead of ms.",
+          "locator": "Correction body",
+          "supports": "statement"
+        }
+      ]
+    },
+    {
+      "id": "cr:pan-sycamore-sampling-preprint",
+      "subject": "Sampling the output distribution of the Sycamore circuits in the 23 October 2019 Nature article by Arute and co-authors",
+      "kind": "published_rebuttal",
+      "date": "2022-08-28",
+      "statement": "On 28 August 2022, Pan, Chen and Zhang posted a preprint on sampling the output distribution of the Sycamore circuits in the 23 October 2019 Nature article by Arute and co-authors. Pan, Chen and Zhang state that those circuits have “been used to demonstrate quantum supremacy.” Arute and co-authors state that the Sycamore result “is an experimental realization of quantum supremacy”. The preprint’s arXiv record lists the journal reference Physical Review Letters 129, 090502 (2022).",
+      "evidence": [
+        {
+          "source": "src:arxiv-pan-sycamore-pdf",
+          "quote": "arXiv:2111.03011v2 [quant-ph] 28 Aug 2022",
+          "locator": "arXiv header on the PDF",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-pan-sycamore-pdf",
+          "quote": "Feng Pan",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-pan-sycamore-pdf",
+          "quote": "Keyang Chen",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-pan-sycamore-pdf",
+          "quote": "Pan Zhang",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-pan-sycamore-pdf",
+          "quote": "which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy.",
+          "locator": "Abstract",
+          "supports": "rebuttal"
+        },
+        {
+          "source": "src:arxiv-pan-sycamore-abs",
+          "quote": "last revised 28 Aug 2022",
+          "locator": "arXiv abstract page, submission history",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-pan-sycamore-abs",
+          "quote": "Physical Review Letters 129, 090502 (2022)",
+          "locator": "arXiv abstract page, journal reference",
+          "supports": "journal reference"
+        },
+        {
+          "source": "src:nature-sycamore-2019-pdf",
+          "quote": "Published online: 23 October 2019",
+          "locator": "Article header",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-sycamore-2019-pdf",
+          "quote": "Frank Arute",
+          "locator": "Author line",
+          "supports": "original authors"
+        },
+        {
+          "source": "src:nature-sycamore-2019-pdf",
+          "quote": "is an experimental realization of quantum supremacy",
+          "locator": "Abstract",
+          "supports": "claim answered"
+        },
+        {
+          "source": "src:nature-sycamore-2019-pdf",
+          "quote": "Our Sycamore processor takes about 200 seconds to sample one instance of a quantum circuit a million times—our benchmarks currently indicate that the equivalent task for a state-of-the-art classical supercomputer would take approximately 10,000 years.",
+          "locator": "Abstract",
+          "supports": "claim answered"
+        }
+      ]
+    },
+    {
+      "id": "cr:tindall-kim-kicked-ising-preprint",
+      "subject": "Classical simulation of the kicked Ising experiment in the 14 June 2023 Nature article by Kim and co-authors",
+      "kind": "published_rebuttal",
+      "date": "2024-01-26",
+      "statement": "On 26 January 2024, Tindall, Fishman, Stoudenmire and Sels posted a preprint reporting a classical simulation of the kicked Ising experiment in the 14 June 2023 Nature article by Kim and co-authors. Kim and co-authors state that the experiments represent “evidence for the utility of quantum computing in a pre-fault-tolerant era.” Tindall, Fishman, Stoudenmire and Sels state that their classical simulation “is significantly more accurate and precise than the results obtained from the quantum processor.” The preprint’s arXiv record lists the journal reference PRX Quantum 5, 010308 (2024).",
+      "evidence": [
+        {
+          "source": "src:arxiv-tindall-pdf",
+          "quote": "arXiv:2306.14887v3 [quant-ph] 26 Jan 2024",
+          "locator": "arXiv header on the PDF",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-tindall-pdf",
+          "quote": "Joseph Tindall",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-tindall-pdf",
+          "quote": "Matthew Fishman",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-tindall-pdf",
+          "quote": "Stoudenmire",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-tindall-pdf",
+          "quote": "Dries Sels",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-tindall-pdf",
+          "quote": "A simulation of this system was recently performed on a 127 qubit quantum processor",
+          "locator": "Abstract",
+          "supports": "experiment named"
+        },
+        {
+          "source": "src:arxiv-tindall-pdf",
+          "quote": "we can perform a classical simulation that is significantly more accurate and precise than the results obtained from the quantum processor and many other classical methods.",
+          "locator": "Abstract",
+          "supports": "rebuttal"
+        },
+        {
+          "source": "src:arxiv-tindall-abs",
+          "quote": "last revised 26 Jan 2024",
+          "locator": "arXiv abstract page, submission history",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-tindall-abs",
+          "quote": "PRX Quantum 5, 010308 (2024)",
+          "locator": "arXiv abstract page, journal reference",
+          "supports": "journal reference"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "Published online: 14 June 2023",
+          "locator": "Article header",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "Youngseok Kim",
+          "locator": "Author line",
+          "supports": "original authors"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "We argue that this represents evidence for the utility of quantum computing in a pre-fault-tolerant era.",
+          "locator": "Abstract",
+          "supports": "claim answered"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "Here we report experiments on a noisy 127-qubit processor and demonstrate the measurement of accurate expectation values for circuit volumes at a scale beyond brute-force classical computation.",
+          "locator": "Abstract",
+          "supports": "claim answered"
+        }
+      ]
+    },
+    {
+      "id": "cr:begusic-kim-kicked-ising-preprint",
+      "subject": "Classical simulation by Begušić, Gray and Chan of the kicked Ising experiment in the 14 June 2023 Nature article by Kim and co-authors",
+      "kind": "published_rebuttal",
+      "date": "2024-01-26",
+      "statement": "On 26 January 2024, Begušić, Gray and Chan posted a preprint on a classical simulation of the kicked Ising experiment in the 14 June 2023 Nature article by Kim and co-authors. Kim and co-authors state that the experiments represent “evidence for the utility of quantum computing in a pre-fault-tolerant era.” Begušić, Gray and Chan state that approximate classical methods “can simulate these observables orders of magnitude faster than the quantum experiment.” The preprint’s arXiv record lists the journal reference Sci. Adv. 10, eadk4321 (2024).",
+      "evidence": [
+        {
+          "source": "src:arxiv-begusic-pdf",
+          "quote": "arXiv:2308.05077v3 [quant-ph] 26 Jan 2024",
+          "locator": "arXiv header on the PDF",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-begusic-pdf",
+          "quote": "Tomislav Begušić",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-begusic-pdf",
+          "quote": "Johnnie Gray",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-begusic-pdf",
+          "quote": "Garnet Kin-Lic Chan",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-begusic-pdf",
+          "quote": "can simulate these observables orders of magnitude faster than the quantum experiment",
+          "locator": "Abstract",
+          "supports": "rebuttal"
+        },
+        {
+          "source": "src:arxiv-begusic-abs",
+          "quote": "last revised 26 Jan 2024",
+          "locator": "arXiv abstract page, submission history",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-begusic-abs",
+          "quote": "Sci. Adv. 10, eadk4321 (2024)",
+          "locator": "arXiv abstract page, journal reference",
+          "supports": "journal reference"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "Published online: 14 June 2023",
+          "locator": "Article header",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "Youngseok Kim",
+          "locator": "Author line",
+          "supports": "original authors"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "We argue that this represents evidence for the utility of quantum computing in a pre-fault-tolerant era.",
+          "locator": "Abstract",
+          "supports": "claim answered"
+        },
+        {
+          "source": "src:nature-kim-2023-pdf",
+          "quote": "Here we report experiments on a noisy 127-qubit processor and demonstrate the measurement of accurate expectation values for circuit volumes at a scale beyond brute-force classical computation.",
+          "locator": "Abstract",
+          "supports": "claim answered"
+        }
+      ]
+    },
+    {
+      "id": "cr:oh-gaussian-boson-sampling",
+      "subject": "Classical simulation of Gaussian boson sampling experiments, including Borealis and the photon experiment by Zhong and co-authors",
+      "kind": "published_rebuttal",
+      "date": "2024-06-25",
+      "statement": "On 25 June 2024, Nature Physics published a paper whose landing page is titled “Classical algorithm for simulating experimental Gaussian boson sampling.” Oh and co-authors state that they “simulate the largest Borealis, Jiuzhang2.0, and Jiuzhang3.0 experiments, which were used to claim quantum computational advantage” and that the simulation “disputes the experimental quantum advantage claims.” Madsen and co-authors state “Here we report quantum computational advantage using Borealis”. Zhong and co-authors report the title “Quantum computational advantage using photons”.",
+      "evidence": [
+        {
+          "source": "src:nature-oh-gbs-html",
+          "quote": "Classical algorithm for simulating experimental Gaussian boson sampling",
+          "locator": "HTML title",
+          "supports": "title, journal"
+        },
+        {
+          "source": "src:nature-oh-gbs-html",
+          "quote": "\"datePublished\":\"2024-06-25T00:00:00Z\"",
+          "locator": "schema.org JSON-LD datePublished",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "arXiv:2306.03709v2 [quant-ph] 4 Dec 2023",
+          "locator": "arXiv header on the PDF",
+          "supports": "preprint version"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "Changhun Oh",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "Minzhao Liu",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "Yuri Alexeev",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "Bill Fefferman",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "Liang Jiang",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "which disputes the experimental quantum advantage claims.",
+          "locator": "Abstract",
+          "supports": "rebuttal"
+        },
+        {
+          "source": "src:arxiv-oh-gbs-pdf",
+          "quote": "We now simulate the largest Borealis, Jiuzhang2.0, and Jiuzhang3.0 experiments, which were used to claim quantum computational advantage.",
+          "locator": "Section D, largest-scale simulations",
+          "supports": "experiments named"
+        },
+        {
+          "source": "src:nature-borealis-2022-pdf",
+          "quote": "Published online: 1 June 2022",
+          "locator": "Article header",
+          "supports": "original date"
+        },
+        {
+          "source": "src:nature-borealis-2022-pdf",
+          "quote": "Lars S. Madsen",
+          "locator": "Author line",
+          "supports": "original authors"
+        },
+        {
+          "source": "src:nature-borealis-2022-pdf",
+          "quote": "Here we report quantum computational advantage using Borealis, a photonic processor offering dynamic programmability on all gates implemented.",
+          "locator": "Abstract",
+          "supports": "claim answered"
+        },
+        {
+          "source": "src:arxiv-jiuzhang-pdf",
+          "quote": "Quantum computational advantage using photons",
+          "locator": "Title",
+          "supports": "claim answered"
+        },
+        {
+          "source": "src:arxiv-jiuzhang-pdf",
+          "quote": "Han-Sen Zhong",
+          "locator": "Author line",
+          "supports": "original authors"
+        },
+        {
+          "source": "src:arxiv-jiuzhang-abs",
+          "quote": "3 Dec 2020",
+          "locator": "arXiv abstract page, submission line",
+          "supports": "preprint date"
+        },
+        {
+          "source": "src:arxiv-jiuzhang-abs",
+          "quote": "Science 370, 1460 (2020)",
+          "locator": "arXiv abstract page, journal reference",
+          "supports": "journal reference"
+        }
+      ]
+    },
+    {
+      "id": "cr:krinitsin-king-neural-network-comment",
+      "subject": "A neural-network comparison in the article by King and co-authors",
+      "kind": "published_rebuttal",
+      "date": "2026-07-09",
+      "statement": "On 9 July 2026, Krinitsin, Alert, Rizzi and Schmitt posted a preprint comment on the article by King and co-authors. King and co-authors state that “neural networks cannot achieve the same accuracy as the quantum annealer within a reasonable time frame.” The comment states that “NQS can provide competitive results in some of the cases”. The article’s arXiv record lists the journal reference Science 388, 199-204 (2025).",
+      "evidence": [
+        {
+          "source": "src:arxiv-krinitsin-comment-pdf",
+          "quote": "arXiv:2607.08811v1 [quant-ph] 9 Jul 2026",
+          "locator": "arXiv header on the PDF",
+          "supports": "date"
+        },
+        {
+          "source": "src:arxiv-krinitsin-comment-pdf",
+          "quote": "Wladislaw Krinitsin",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-krinitsin-comment-pdf",
+          "quote": "Nikita Alert",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-krinitsin-comment-pdf",
+          "quote": "Matteo Rizzi",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-krinitsin-comment-pdf",
+          "quote": "Markus Schmitt",
+          "locator": "Author line",
+          "supports": "authors"
+        },
+        {
+          "source": "src:arxiv-krinitsin-comment-pdf",
+          "quote": "NQS can provide competitive results in some of the cases when accounting for the Monte-Carlo noise and large autocorrelation times between samples obtained from the final state.",
+          "locator": "Opening paragraph",
+          "supports": "rebuttal"
+        },
+        {
+          "source": "src:arxiv-king-pdf",
+          "quote": "Andrew D. King",
+          "locator": "Author line",
+          "supports": "original authors"
+        },
+        {
+          "source": "src:arxiv-king-pdf",
+          "quote": "neural networks cannot achieve the same accuracy as the quantum annealer within a reasonable time frame.",
+          "locator": "Opening summary",
+          "supports": "claim answered"
+        },
+        {
+          "source": "src:arxiv-king-abs",
+          "quote": "last revised 14 Oct 2025",
+          "locator": "arXiv abstract page, submission history",
+          "supports": "preprint version"
+        },
+        {
+          "source": "src:arxiv-king-abs",
+          "quote": "Science 388, 199-204 (2025)",
+          "locator": "arXiv abstract page, journal reference",
+          "supports": "journal reference"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Quantized Majorana conductance retraction and expression of concern",
+      "why": "The 8 March 2021 Nature retraction (10.1038/s41586-021-03373-x) and the 29 April 2020 editorial expression of concern (10.1038/s41586-020-2252-6) of the 2018 article Quantized Majorana conductance (10.1038/nature26142) are assigned to history_other.json. They are not recorded here.",
+      "would_need": "Nothing further in this file. history_other should carry both notices for that article."
+    },
+    {
+      "topic": "Expression of concern on the quantum speed limit article",
+      "why": "Nature published an editorial expression of concern, DOI 10.1038/s41586-020-2274-0, dated 2020-05-05 in the article HTML schema.org block, on the same 2016 article later retracted. The HTML description was empty, the PDF URL returned HTML rather than a PDF, and the PubMed record had no abstract, so the notice body was not in the fetched text.",
+      "would_need": "The notice PDF or another publisher copy that contains the expression-of-concern paragraph."
+    },
+    {
+      "topic": "Journal PDFs refused for three classical-simulation papers",
+      "why": "journals.aps.org returned 403 for the Pan and Tindall PDFs and abstract pages. science.org returned 403 for the Begušić PDF. The quoted sentences are from the arXiv PDFs. Each arXiv abstract page lists a journal reference: Physical Review Letters 129, 090502 (2022); PRX Quantum 5, 010308 (2024); Sci. Adv. 10, eadk4321 (2024). Those journal pages were not used for the scientific quotes.",
+      "would_need": "The journal PDF or HTML body, fetched under the declared User-Agent, so the quotes can be checked against the journal text."
+    },
+    {
+      "topic": "Nature Physics body for the Gaussian boson sampling paper",
+      "why": "The Nature Physics landing page for 10.1038/s41567-024-02535-8 returned the title and datePublished 2024-06-25. The PDF URL returned the same HTML shell, not the article body. The scientific sentences are from arXiv:2306.03709v2, dated 4 Dec 2023 on the PDF.",
+      "would_need": "The Nature Physics PDF, to confirm the journal text matches the preprint sentences."
+    },
+    {
+      "topic": "Jiuzhang 2.0 and Jiuzhang 3.0 articles",
+      "why": "Oh and co-authors name Borealis, Jiuzhang2.0 and Jiuzhang3.0. This file quotes the Borealis article and the Zhong preprint whose arXiv record lists Science 370, 1460 (2020). The later two experiments are quoted only in Oh and co-authors' sentence.",
+      "would_need": "The articles that report Jiuzhang2.0 and Jiuzhang3.0, so their own wording can be quoted."
+    },
+    {
+      "topic": "IBM secondary-storage preprint on Sycamore circuits",
+      "why": "arXiv:1910.09534, by Pednault and co-authors at IBM, estimates a classical simulation of 53- and 54-qubit Sycamore circuits and states that the computations were not carried out. It was not recorded as a published rebuttal. The accompanying IBM Research blog was not used.",
+      "would_need": "A journal version, or a later paper by the same authors reporting that the estimated simulation was run."
+    },
+    {
+      "topic": "Publisher corrections that do not revise a reported result",
+      "why": "Two publisher corrections were fetched and not recorded. 10.1038/s41586-026-10108-3 (19 January 2026), on the article by Bluvstein and co-authors, changes one Fig. 3d label from “corrected decoding” to “correlated decoding”. 10.1038/s41524-025-01513-9 (21 January 2026) adds omitted affiliations on the Quantinuum and BMW catalyst article.",
+      "would_need": "Nothing, unless a later notice revises a reported result in either article."
+    },
+    {
+      "topic": "Science PDF of the King and co-authors article",
+      "why": "The Krinitsin comment and the arXiv record identify the article as Science 388, 199-204 (2025). The quoted King sentence is from arXiv:2403.00910v2, whose abstract page says it was last revised 14 Oct 2025. The Science PDF was not fetched.",
+      "would_need": "The Science PDF, to confirm that sentence is in the journal text."
+    }
+  ]
+}

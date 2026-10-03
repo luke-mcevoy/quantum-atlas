@@ -88,6 +88,46 @@ test("phone layout: bottom sheet fits, no horizontal scroll", async ({ page }) =
   expect(scrollW).toBeLessThanOrEqual(390);
 });
 
+test("run today loads, the picker filters, and a machine page shows code plus a badge", async ({ page }) => {
+  const errors = watchErrors(page);
+  await page.goto("/#mode=today");
+  await expect(page.getByRole("tab", { name: "Run today" })).toHaveAttribute("aria-selected", "true");
+  await expect(page.locator(".today-panel")).toBeVisible();
+  const all = await page.locator(".today-row").count();
+  expect(all).toBe(atlas.access.length);
+  await page.getByRole("tab", { name: "Chemistry" }).click();
+  const chem = await page.locator(".today-row").count();
+  expect(chem).toBeGreaterThan(0);
+  expect(chem).toBeLessThan(all);
+  await expect(page.locator(".today-row", { hasText: "D-Wave" })).toHaveCount(0);
+  await page.getByRole("tab", { name: "Just show me" }).click();
+  const forte = page.locator(".today-row", { hasText: "IonQ Forte" }).first();
+  await forte.scrollIntoViewIfNeeded();
+  await forte.locator("td").first().click();
+  await expect(page.locator(".inspector pre.snippet").first()).toBeVisible();
+  await expect(page.locator(".inspector .tested-badge")).toHaveText(/Tested here|Not tested/);
+  await expect(page.locator(".honesty").last()).toBeVisible();
+  expect(errors).toEqual([]);
+});
+
+test("track record shows items without a rate, and the page does not scroll sideways", async ({ page }) => {
+  await page.goto("/#mode=track");
+  await expect(page.locator(".track-panel")).toBeVisible();
+  await expect(page.locator(".track-card")).toContainText("Not enough resolved history to summarise.");
+  await expect(page.getByText(/trust score/i)).toHaveCount(0);
+  await expect(page.locator(".ledger-scroll")).toBeVisible();
+  const scrollW = await page.evaluate(() => document.documentElement.scrollWidth);
+  expect(scrollW).toBeLessThanOrEqual(1600);
+});
+
+test("run today on a phone uses cards and does not widen the page", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/#mode=today");
+  await expect(page.locator(".today-card").first()).toBeVisible();
+  const scrollW = await page.evaluate(() => document.documentElement.scrollWidth);
+  expect(scrollW).toBeLessThanOrEqual(390);
+});
+
 test("stories play with verbatim, linked quotes", async ({ page }) => {
   await page.goto("/");
   await page.locator(".story-btn").click();

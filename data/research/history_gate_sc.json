@@ -1,0 +1,3279 @@
+{
+  "topic": "history_gate_sc",
+  "analyst": "history analyst, superconducting gate-model",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:ibm-roadmap-blog-2020",
+      "title": "IBM's roadmap for scaling quantum technology",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2020-09-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-roadmap-blog-2022",
+      "title": "Expanding the IBM Quantum roadmap to anticipate the future of quantum-centric supercomputing",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2022-05-10",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-osprey-pr-2022",
+      "title": "IBM Unveils 400 Qubit-Plus Quantum Processor and Next-Generation IBM Quantum System Two",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2022-11-09",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-utility-blog-2023",
+      "title": "The hardware and software for the era of quantum utility is here",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2023-12-04",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-eagle-pr-2021",
+      "title": "IBM Unveils Breakthrough 127-Qubit Quantum Processor",
+      "publisher": "IBM",
+      "url": "https://newsroom.ibm.com/2021-11-16-IBM-Unveils-Breakthrough-127-Qubit-Quantum-Processor",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-11-16",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:ibm-qdc-blog-2024",
+      "title": "IBM Quantum delivers on 2022 100x100 performance challenge",
+      "publisher": "IBM",
+      "url": "https://www.ibm.com/quantum/blog/qdc-2024",
+      "doc_type": "technical_blog",
+      "tier": 2,
+      "document_date": "2024-11-13",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:rigetti-merger-2021",
+      "title": "Rigetti Computing announces plans to become publicly traded via merger with Supernova Partners Acquisition Company II",
+      "publisher": "Rigetti Computing",
+      "url": "https://www.rigetti.com/merger-announcement",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-10-06",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:rigetti-investor-pdf-2021",
+      "title": "Rigetti investor presentation, October 2021",
+      "publisher": "Rigetti Computing",
+      "url": "https://www.rigetti.com/uploads/Rigetti-Investor-Presentation.pdf",
+      "doc_type": "investor_presentation",
+      "tier": 2,
+      "document_date": "2021-10",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:rigetti-aspen-m-2021",
+      "title": "Rigetti Computing announces next-generation 40Q and 80Q quantum systems",
+      "publisher": "Rigetti Computing",
+      "url": "https://www.rigetti.com/news/rigetti-computing-announces-next-generation-40q-and-80q-quantum-systems",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-12-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:iqm-roadmap-page",
+      "title": "Development roadmap",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://iqm.tech/technology/roadmap/",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026-01-05",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:iqm-pr-2024-07-15",
+      "title": "IQM Quantum Computers achieves new technology milestones with 99.9% 2-qubit gate fidelity and 1 millisecond coherence time",
+      "publisher": "IQM Quantum Computers",
+      "url": "https://meetiqm.com/press-releases/iqm-quantum-computers-achieves-new-technology-milestones-with-99-9-2-qubit-gate-fidelity-and-1-millisecond-coherence-time/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-07-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:oqc-roadmap-page",
+      "title": "The OQC roadmap",
+      "publisher": "Oxford Quantum Circuits",
+      "url": "https://oqc.tech/tech/technical-roadmap",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:oqc-pr-2025-06-19",
+      "title": "OQC dual-rail Dimon research announcement",
+      "publisher": "Oxford Quantum Circuits",
+      "url": "https://oqc.tech/company/newsroom/oqc-announces-dual-rail-dimon-research",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-19",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:oqc-series-c-2026",
+      "title": "OQC Series C announcement",
+      "publisher": "Oxford Quantum Circuits",
+      "url": "https://oqc.tech/company/newsroom/series-c",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-03",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:google-locations",
+      "title": "Google locations",
+      "publisher": "Google",
+      "url": "https://about.google/company-info/locations/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:google-quantum-hardware",
+      "title": "Quantum computer",
+      "publisher": "Google Quantum AI",
+      "url": "https://quantumai.google/quantumcomputer",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-10-02",
+      "accessed": "2026-10-02"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "co:ibm",
+      "name": "IBM",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 41.1265,
+        "lon": -73.714,
+        "precision": "city",
+        "address": "Armonk, New York"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "tickers": [
+        "NYSE:IBM"
+      ],
+      "sec_cik": "0000051143",
+      "website": "https://www.ibm.com/quantum",
+      "evidence": [
+        {
+          "source": "src:ibm-eagle-pr-2021",
+          "quote": "ARMONK, N.Y., Nov. 16, 2021 /PRNewswire/ -- IBM (NYSE: IBM) today announced its new 127-quantum bit (qubit) 'Eagle' processor",
+          "locator": "dateline and first sentence",
+          "supports": "existence, hq city, ticker"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "We represent data using the electronic quantum states of artificial atoms known as superconducting transmon qubits",
+          "locator": "body, processor description",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:google",
+      "name": "Google (Google Quantum AI)",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "city",
+        "address": "Mountain View, CA"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://quantumai.google",
+      "evidence": [
+        {
+          "source": "src:google-locations",
+          "quote": "Google Mountain View - Googleplex 1600 Amphitheatre Pkwy, Mountain View, CA 94043",
+          "locator": "Mountain View locations list",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:google-quantum-hardware",
+          "quote": "Our hardware focuses on superconducting qubits, which require specialized cryogenic environments and custom control electronics.",
+          "locator": "section 'The future of quantum hardware: Willow'",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:rigetti",
+      "name": "Rigetti Computing",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.8716,
+        "lon": -122.2727,
+        "precision": "city",
+        "address": "Berkeley, CA"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "tickers": [
+        "NASDAQ:RGTI"
+      ],
+      "sec_cik": "0001838359",
+      "website": "https://www.rigetti.com",
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "BERKELEY, Calif. — Oct. 6, 2021 — Rigetti & Co., Inc. (“Rigetti”), a pioneer in full-stack quantum computing, announced today",
+          "locator": "dateline",
+          "supports": "existence, hq city, date"
+        },
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti introduced its scalable superconducting chips in June 2021.",
+          "locator": "body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:iqm",
+      "name": "IQM Quantum Computers",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "FI",
+      "hq": {
+        "lat": 60.2055,
+        "lon": 24.6559,
+        "precision": "city",
+        "address": "Espoo, Finland"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "tickers": [
+        "NASDAQ:IQMX"
+      ],
+      "sec_cik": "0002113060",
+      "website": "https://iqm.tech",
+      "evidence": [
+        {
+          "source": "src:iqm-pr-2024-07-15",
+          "quote": "Espoo, Finland, 15th July 2024 – IQM Quantum Computers, a global leader in building quantum computers, has reached significant milestones in superconducting quantum computing",
+          "locator": "dateline",
+          "supports": "existence, hq city, modality"
+        },
+        {
+          "source": "src:iqm-pr-2024-07-15",
+          "quote": "Founded in 2018 and headquartered in Finland, with major operations in Munich",
+          "locator": "About IQM",
+          "supports": "hq country"
+        },
+        {
+          "source": "src:iqm-pr-2024-07-15",
+          "quote": "IQM Quantum Computers (Nasdaq: IQMX) is a global leader in superconducting quantum computers",
+          "locator": "About IQM",
+          "supports": "ticker, modality"
+        }
+      ]
+    },
+    {
+      "id": "co:oqc",
+      "name": "Oxford Quantum Circuits (OQC)",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "GB",
+      "hq": {
+        "lat": 51.4543,
+        "lon": -0.9781,
+        "precision": "city",
+        "address": "Reading, UK"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://oqc.tech",
+      "evidence": [
+        {
+          "source": "src:oqc-pr-2025-06-19",
+          "quote": "READING, UK – June 19, 2025 – Oxford Quantum Circuits (OQC) , a global leader in quantum computing solutions spun out from Oxford University",
+          "locator": "dateline",
+          "supports": "existence, hq city"
+        },
+        {
+          "source": "src:oqc-series-c-2026",
+          "quote": "Founded in the UK, OQC develops and operates superconducting quantum computers designed for deployment in data-centre environments",
+          "locator": "body",
+          "supports": "modality, country"
+        }
+      ]
+    }
+  ],
+  "sites": [],
+  "systems": [],
+  "milestones": [
+    {
+      "id": "ms:ibm-hist-eagle-2021",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2021-11-16",
+      "category": "qubit_count",
+      "claim": "IBM announced a 127-qubit processor it calls Eagle on 16 Nov 2021.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-eagle-pr-2021",
+          "quote": "IBM (NYSE: IBM) today announced its new 127-quantum bit (qubit) 'Eagle' processor at the IBM Quantum Summit 2021",
+          "locator": "first paragraph",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-eagle-pr-2021",
+          "quote": "Nov 16, 2021",
+          "locator": "dateline area",
+          "supports": "delivery date"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-hist-osprey-2022",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2022-11-09",
+      "category": "qubit_count",
+      "claim": "IBM announced a 433-qubit processor it calls Osprey on 9 Nov 2022.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "‘IBM Osprey’ - IBM’s new 433-quantum bit (qubit) processor",
+          "locator": "developments list",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "NEW YORK, Nov. 9, 2022 /PRNewswire/ -- IBM (NYSE: IBM) today kicked off the IBM Quantum Summit 2022",
+          "locator": "dateline",
+          "supports": "delivery date"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-hist-condor-2023",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2023-12-04",
+      "category": "qubit_count",
+      "claim": "IBM stated on 4 Dec 2023 that it had introduced Condor, a 1,121-qubit processor.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "We have introduced IBM Condor, a 1,121 superconducting qubit quantum processor based on our cross-resonance gate technology.",
+          "locator": "section 'Breaking the 1,000-qubit barrier with Condor'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-hist-heron-2023",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2023-12-04",
+      "category": "qubit_count",
+      "claim": "IBM stated on 4 Dec 2023 that Heron features 133 fixed-frequency qubits.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Featuring 133 fixed-frequency qubits with tunable couplers, Heron yields a 3-5x improvement in device performance over our previous flagship 127-qubit Eagle processors",
+          "locator": "section 'Access to the highest performing quantum processor: Heron'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-hist-serverless-2023",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2023-12-04",
+      "category": "other",
+      "claim": "IBM announced on 4 Dec 2023 the deployment of Quantum Serverless as beta.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "With Qiskit Patterns, IBM is announcing the deployment of Quantum Serverless as beta for managed, unattended execution of Patterns at scale.",
+          "locator": "section 'Qiskit Patterns and Quantum Serverless'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-hist-system-two-2023",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2023-12-04",
+      "category": "system_launch",
+      "claim": "IBM stated on 4 Dec 2023 that IBM Quantum System Two is operational at its lab in Yorktown Heights, NY.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "IBM Quantum System Two is the bedrock for scalable quantum computation, and is now operational at our lab in Yorktown Heights, NY.",
+          "locator": "section 'IBM Quantum System Two'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:ibm-hist-heron-5000-2024",
+      "orgs": [
+        "co:ibm"
+      ],
+      "date": "2024-11-13",
+      "category": "other",
+      "claim": "On 13 Nov 2024, IBM stated that Heron can run circuits with 5,000 two-qubit gates.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Heron is now capable of running accurate calculations employing circuits with 5,000 two-qubit gates.",
+          "locator": "opening",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "ms:rigetti-hist-aspen-m-2021",
+      "orgs": [
+        "co:rigetti"
+      ],
+      "date": "2021-12-15",
+      "category": "qubit_count",
+      "claim": "Rigetti introduced an 80-qubit system it calls Aspen-M into private beta; the page JSON-LD datePublished is 2021-12-15.",
+      "peer_review": "company_claim",
+      "evidence": [
+        {
+          "source": "src:rigetti-aspen-m-2021",
+          "quote": "Rigetti Computing, a pioneer in hybrid quantum-classical computing, today introduced its next-generation “Aspen-M” 80-qubit quantum computer into private beta.",
+          "locator": "article body",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:rigetti-aspen-m-2021",
+          "quote": "\"datePublished\":\"2021-12-15T05:41:00-08:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:ibm-hist-eagle-127-2021",
+      "org": "co:ibm",
+      "target_date": "2021",
+      "statement": "IBM targets debuting a 127-qubit processor it calls Eagle by 2021.",
+      "stated_on": "2020-09-15",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2020-scaling",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2021-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "Next year, we’ll debut our 127-qubit IBM Quantum Eagle processor.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "Date 15 Sep 2020 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 127,
+        "as_of": "2020-09-15",
+        "note": "qubits named for the Eagle processor",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2020",
+            "quote": "Next year, we’ll debut our 127-qubit IBM Quantum Eagle processor.",
+            "locator": "body",
+            "supports": "target"
+          }
+        ]
+      },
+      "system_name": "Eagle",
+      "met_by": "ms:ibm-hist-eagle-2021"
+    },
+    {
+      "id": "tgt:ibm-hist-eagle-realtime-2021",
+      "org": "co:ibm",
+      "target_date": "2021",
+      "statement": "IBM targets introducing concurrent real-time classical compute capabilities with the Eagle processor by 2021.",
+      "stated_on": "2020-09-15",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2020-scaling",
+      "metric_kind": "other",
+      "due": {
+        "by": "2021-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "With the Eagle processor, we will also introduce concurrent real-time classical compute capabilities that will allow for execution of a broader family of quantum circuits and codes.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "Date 15 Sep 2020 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "system_name": "Eagle"
+    },
+    {
+      "id": "tgt:ibm-hist-osprey-433-2022",
+      "org": "co:ibm",
+      "target_date": "2022",
+      "statement": "IBM targets releasing a 433-qubit processor it calls Osprey by 2022.",
+      "stated_on": "2020-09-15",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2020-scaling",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2022-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "The design principles established for our smaller processors will set us on a course to release a 433-qubit IBM Quantum Osprey processor in 2022.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "Date 15 Sep 2020 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 433,
+        "as_of": "2020-09-15",
+        "note": "qubits named for the Osprey processor",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2020",
+            "quote": "The design principles established for our smaller processors will set us on a course to release a 433-qubit IBM Quantum Osprey processor in 2022.",
+            "locator": "body",
+            "supports": "target"
+          }
+        ]
+      },
+      "system_name": "Osprey",
+      "met_by": "ms:ibm-hist-osprey-2022"
+    },
+    {
+      "id": "tgt:ibm-hist-condor-1121-2023",
+      "org": "co:ibm",
+      "target_date": "2023",
+      "statement": "IBM targets debuting a 1,121-qubit processor it calls Condor by the end of 2023.",
+      "stated_on": "2020-09-15",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2020-scaling",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2023-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "In 2023, we will debut the 1,121-qubit IBM Quantum Condor processor",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "with a 1,000-qubit chip, IBM Quantum Condor, targeted for the end of 2023.",
+          "locator": "lede",
+          "supports": "target date"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "Date 15 Sep 2020 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 1121,
+        "as_of": "2020-09-15",
+        "note": "qubits named for the Condor processor",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2020",
+            "quote": "In 2023, we will debut the 1,121-qubit IBM Quantum Condor processor",
+            "locator": "body",
+            "supports": "target"
+          }
+        ]
+      },
+      "system_name": "Condor",
+      "met_by": "ms:ibm-hist-condor-2023"
+    },
+    {
+      "id": "tgt:ibm-hist-2022-osprey-433",
+      "org": "co:ibm",
+      "target_date": "2022",
+      "statement": "IBM targets release of a 433-qubit processor it calls Osprey by 2022.",
+      "stated_on": "2022-05-10",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2022-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "With the 433-qubit “Osprey” processor and the 1,121-qubit “Condor” processors — slated for release in 2022 and 2023, respectively",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 433,
+        "as_of": "2022-05-10",
+        "note": "qubits named for Osprey",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2022",
+            "quote": "With the 433-qubit “Osprey” processor and the 1,121-qubit “Condor” processors — slated for release in 2022 and 2023, respectively",
+            "locator": "section 'Solving the scaling problem'",
+            "supports": "targets"
+          }
+        ]
+      },
+      "system_name": "Osprey",
+      "met_by": "ms:ibm-hist-osprey-2022"
+    },
+    {
+      "id": "tgt:ibm-hist-2022-condor-1121",
+      "org": "co:ibm",
+      "target_date": "2023",
+      "statement": "IBM targets release of a 1,121-qubit processor it calls Condor by 2023.",
+      "stated_on": "2022-05-10",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2023-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "With the 433-qubit “Osprey” processor and the 1,121-qubit “Condor” processors — slated for release in 2022 and 2023, respectively",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 1121,
+        "as_of": "2022-05-10",
+        "note": "qubits named for Condor",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2022",
+            "quote": "With the 433-qubit “Osprey” processor and the 1,121-qubit “Condor” processors — slated for release in 2022 and 2023, respectively",
+            "locator": "section 'Solving the scaling problem'",
+            "supports": "targets"
+          }
+        ]
+      },
+      "system_name": "Condor",
+      "met_by": "ms:ibm-hist-condor-2023"
+    },
+    {
+      "id": "tgt:ibm-hist-heron-133-2023",
+      "org": "co:ibm",
+      "target_date": "2023",
+      "statement": "IBM targets introducing a 133-qubit processor it calls Heron by 2023.",
+      "stated_on": "2022-05-10",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2023-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "First, in 2023, we are introducing “Heron”: a 133-qubit processor with control hardware that allows for real-time classical communication between separate processors",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 133,
+        "as_of": "2022-05-10",
+        "note": "qubits named for Heron",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2022",
+            "quote": "First, in 2023, we are introducing “Heron”: a 133-qubit processor with control hardware that allows for real-time classical communication between separate processors",
+            "locator": "section 'Solving the scaling problem'",
+            "supports": "target"
+          }
+        ]
+      },
+      "system_name": "Heron",
+      "met_by": "ms:ibm-hist-heron-2023"
+    },
+    {
+      "id": "tgt:ibm-hist-flamingo-462-2024",
+      "org": "co:ibm",
+      "target_date": "2024",
+      "statement": "IBM targets introducing a 462-qubit processor it calls Flamingo, with a built-in quantum communication link, by 2024.",
+      "stated_on": "2022-05-10",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "in 2024, we also plan to introduce our third approach: quantum communication between processors to support quantum parallelization. We will introduce the 462-qubit “Flamingo” processor with a built-in quantum communication link, and then release a demonstration of this architecture by linking together at least three Flamingo processors into a 1,386-qubit system.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 462,
+        "as_of": "2022-05-10",
+        "note": "qubits named for the Flamingo processor",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2022",
+            "quote": "in 2024, we also plan to introduce our third approach: quantum communication between processors to support quantum parallelization. We will introduce the 462-qubit “Flamingo” processor with a built-in quantum communication link, and then release a demonstration of this architecture by linking together at least three Flamingo processors into a 1,386-qubit system.",
+            "locator": "section 'Solving the scaling problem'",
+            "supports": "targets"
+          }
+        ]
+      },
+      "system_name": "Flamingo"
+    },
+    {
+      "id": "tgt:ibm-hist-flamingo-1386-2024",
+      "org": "co:ibm",
+      "target_date": "2024",
+      "statement": "IBM targets a demonstration linking at least three Flamingo processors into a 1,386-qubit system by 2024.",
+      "stated_on": "2022-05-10",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "in 2024, we also plan to introduce our third approach: quantum communication between processors to support quantum parallelization. We will introduce the 462-qubit “Flamingo” processor with a built-in quantum communication link, and then release a demonstration of this architecture by linking together at least three Flamingo processors into a 1,386-qubit system.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 1386,
+        "as_of": "2022-05-10",
+        "note": "qubits in the stated three-processor demonstration",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2022",
+            "quote": "in 2024, we also plan to introduce our third approach: quantum communication between processors to support quantum parallelization. We will introduce the 462-qubit “Flamingo” processor with a built-in quantum communication link, and then release a demonstration of this architecture by linking together at least three Flamingo processors into a 1,386-qubit system.",
+            "locator": "section 'Solving the scaling problem'",
+            "supports": "targets"
+          }
+        ]
+      },
+      "system_name": "Flamingo"
+    },
+    {
+      "id": "tgt:ibm-hist-kookaburra-1386-2025",
+      "org": "co:ibm",
+      "target_date": "2025",
+      "statement": "IBM targets introducing a 1,386-qubit multi-chip processor it calls Kookaburra by 2025.",
+      "stated_on": "2022-05-10",
+      "status": "revised",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 1386,
+        "as_of": "2022-05-10",
+        "note": "qubits named for the Kookaburra processor",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2022",
+            "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+            "locator": "section 'Solving the scaling problem'",
+            "supports": "targets"
+          }
+        ]
+      },
+      "system_name": "Kookaburra",
+      "superseded_by": "tgt:ibm-hist-kookaburra-ccoupler-2026"
+    },
+    {
+      "id": "tgt:ibm-hist-kookaburra-4158-2025",
+      "org": "co:ibm",
+      "target_date": "2025",
+      "statement": "IBM targets connecting three Kookaburra chips into a 4,158-qubit system by 2025.",
+      "stated_on": "2022-05-10",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "target_value": {
+        "value": 4158,
+        "as_of": "2022-05-10",
+        "note": "qubits in the stated three-chip demonstration",
+        "evidence": [
+          {
+            "source": "src:ibm-roadmap-blog-2022",
+            "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+            "locator": "section 'Solving the scaling problem'",
+            "supports": "targets"
+          }
+        ]
+      },
+      "system_name": "Kookaburra"
+    },
+    {
+      "id": "tgt:ibm-hist-serverless-2023",
+      "org": "co:ibm",
+      "target_date": "2023",
+      "statement": "IBM targets integrating Quantum Serverless into its core software stack by 2023.",
+      "stated_on": "2022-05-10",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2023-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "In 2023, we plan to integrate Quantum Serverless into our core software stack in order to enable core functionality such as circuit knitting.",
+          "locator": "section 'Preparing for serverless quantum computation'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ],
+      "met_by": "ms:ibm-hist-serverless-2023"
+    },
+    {
+      "id": "tgt:ibm-hist-threads-2023",
+      "org": "co:ibm",
+      "target_date": "2023",
+      "statement": "IBM targets bringing threads to Qiskit Runtime, to operate parallelized quantum processors, by 2023.",
+      "stated_on": "2022-05-10",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2023-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "To continue to increase the speed of quantum programs in 2023, we plan to bring threads to the Qiskit Runtime, allowing us to operate parallelized quantum processors",
+          "locator": "section 'Preparing for serverless quantum computation'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-hist-errmit-2025",
+      "org": "co:ibm",
+      "target_date": "2025",
+      "statement": "IBM targets introducing error mitigation and suppression techniques into Qiskit Runtime by 2025.",
+      "stated_on": "2022-05-10",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2022-qcs",
+      "metric_kind": "error_rate",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "In 2024 and 2025, we’ll introduce error mitigation and suppression techniques into Qiskit Runtime so that users can focus on improving the quality of the results obtained from quantum hardware.",
+          "locator": "section 'Preparing for serverless quantum computation'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-hist-system-two-2023",
+      "org": "co:ibm",
+      "target_date": "2023",
+      "statement": "IBM targets IBM Quantum System Two being online by the end of 2023.",
+      "stated_on": "2022-11-09",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2022-osprey-pr",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2023-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "This system is targeted to be online by the end of 2023 and will be a building block of quantum-centric supercomputing",
+          "locator": "IBM Quantum System Two update",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "NEW YORK, Nov. 9, 2022 /PRNewswire/ -- IBM (NYSE: IBM) today kicked off the IBM Quantum Summit 2022",
+          "locator": "dateline",
+          "supports": "delivery date"
+        }
+      ],
+      "system_name": "IBM Quantum System Two",
+      "met_by": "ms:ibm-hist-system-two-2023"
+    },
+    {
+      "id": "tgt:ibm-hist-4000q-2025",
+      "org": "co:ibm",
+      "target_date": "2025",
+      "statement": "IBM targets scaling toward a stated goal of 4,000+ qubits by 2025.",
+      "stated_on": "2022-11-09",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2022-osprey-pr",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "As IBM Quantum systems scale up towards the stated goal of 4,000+ qubits by 2025 and beyond",
+          "locator": "IBM Quantum System Two update",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "NEW YORK, Nov. 9, 2022 /PRNewswire/ -- IBM (NYSE: IBM) today kicked off the IBM Quantum Summit 2022",
+          "locator": "dateline",
+          "supports": "delivery date"
+        }
+      ],
+      "target_value": {
+        "value": 4000,
+        "as_of": "2022-11-09",
+        "note": "qubits in the stated goal, written as 4,000+",
+        "evidence": [
+          {
+            "source": "src:ibm-osprey-pr-2022",
+            "quote": "As IBM Quantum systems scale up towards the stated goal of 4,000+ qubits by 2025 and beyond",
+            "locator": "IBM Quantum System Two update",
+            "supports": "target"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:ibm-hist-heron-5000-gates-2024",
+      "org": "co:ibm",
+      "target_date": "2024",
+      "statement": "IBM targets Heron reaching 5,000 gates by 2024.",
+      "stated_on": "2023-12-04",
+      "status": "met",
+      "roadmap_doc": "rd:ibm-2023-utility",
+      "metric_kind": "other",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Starting with a target of Heron reaching 5,000 gates in 2024, the roadmap lays out multiple generations of processors",
+          "locator": "section 'Extended roadmap to 2033'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 5000,
+        "as_of": "2023-12-04",
+        "note": "gates named for Heron",
+        "evidence": [
+          {
+            "source": "src:ibm-utility-blog-2023",
+            "quote": "Starting with a target of Heron reaching 5,000 gates in 2024, the roadmap lays out multiple generations of processors",
+            "locator": "section 'Extended roadmap to 2033'",
+            "supports": "target"
+          }
+        ]
+      },
+      "system_name": "Heron",
+      "met_by": "ms:ibm-hist-heron-5000-2024"
+    },
+    {
+      "id": "tgt:ibm-hist-starling-2029",
+      "org": "co:ibm",
+      "target_date": "2029",
+      "statement": "IBM targets executing 100 million gates over 200 qubits with a processor it calls Starling, employing error correction based on the Gross code, by 2029.",
+      "stated_on": "2023-12-04",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2023-utility",
+      "metric_kind": "other",
+      "due": {
+        "by": "2029-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Then, in 2029, we hit an inflection point: executing 100 million gates over 200 qubits with our Starling processor employing error correction based on the novel Gross code",
+          "locator": "section 'Extended roadmap to 2033'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 200,
+        "as_of": "2023-12-04",
+        "note": "qubits named in the Starling sentence; the sentence also states 100 million gates",
+        "evidence": [
+          {
+            "source": "src:ibm-utility-blog-2023",
+            "quote": "Then, in 2029, we hit an inflection point: executing 100 million gates over 200 qubits with our Starling processor employing error correction based on the novel Gross code",
+            "locator": "section 'Extended roadmap to 2033'",
+            "supports": "target"
+          }
+        ]
+      },
+      "system_name": "Starling"
+    },
+    {
+      "id": "tgt:ibm-hist-bluejay-2033",
+      "org": "co:ibm",
+      "target_date": "2033",
+      "statement": "IBM targets a system it calls Blue Jay, capable of executing 1 billion gates across 2,000 qubits, by 2033.",
+      "stated_on": "2023-12-04",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2023-utility",
+      "metric_kind": "other",
+      "due": {
+        "by": "2033-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "This is followed by Blue Jay, a system capable of executing 1 billion gates across 2,000 qubits by 2033.",
+          "locator": "section 'Extended roadmap to 2033'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 2000,
+        "as_of": "2023-12-04",
+        "note": "qubits named for Blue Jay; the sentence also states 1 billion gates",
+        "evidence": [
+          {
+            "source": "src:ibm-utility-blog-2023",
+            "quote": "This is followed by Blue Jay, a system capable of executing 1 billion gates across 2,000 qubits by 2033.",
+            "locator": "section 'Extended roadmap to 2033'",
+            "supports": "target"
+          }
+        ]
+      },
+      "system_name": "Blue Jay"
+    },
+    {
+      "id": "tgt:ibm-hist-qiskit10-2024",
+      "org": "co:ibm",
+      "target_date": "2024-02",
+      "statement": "IBM targets Qiskit 1.0 coming in February 2024.",
+      "stated_on": "2023-12-04",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2023-utility",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2024-02-29",
+        "precision": "month"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Qiskit 1.0 coming in February 2024",
+          "locator": "heading",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:ibm-hist-flamingo-prod-2025",
+      "org": "co:ibm",
+      "target_date": "2025",
+      "statement": "IBM targets debuting a production-ready Flamingo-based system for clients by the end of 2025.",
+      "stated_on": "2024-11-13",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2024-qdc",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2025-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We expect these metrics to improve, and will debut a production-ready Flamingo-based system for use by our clients by the end of 2025.",
+          "locator": "Flamingo paragraph",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "system_name": "Flamingo"
+    },
+    {
+      "id": "tgt:ibm-hist-kookaburra-ccoupler-2026",
+      "org": "co:ibm",
+      "target_date": "2026",
+      "statement": "IBM targets demonstrating c-couplers with a processor it calls Kookaburra by 2026.",
+      "stated_on": "2024-11-13",
+      "status": "open",
+      "roadmap_doc": "rd:ibm-2024-qdc",
+      "metric_kind": "product_launch",
+      "due": {
+        "by": "2026-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We’re well on our way toward realizing these technologies, with the hope of demonstrating c-couplers with Kookaburra, slated for 2026.",
+          "locator": "coupler section",
+          "supports": "revision"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "system_name": "Kookaburra"
+    },
+    {
+      "id": "tgt:rigetti-hist-80q-2021",
+      "org": "co:rigetti",
+      "target_date": "2021",
+      "statement": "Rigetti targets scaling its quantum computers to 80 qubits by 2021.",
+      "stated_on": "2021-10-06",
+      "status": "met",
+      "roadmap_doc": "rd:rigetti-2021-merger",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2021-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+          "locator": "body",
+          "supports": "targets"
+        },
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "BERKELEY, Calif. — Oct. 6, 2021 — Rigetti & Co., Inc. (“Rigetti”), a pioneer in full-stack quantum computing, announced today",
+          "locator": "dateline",
+          "supports": "existence, hq city, date"
+        }
+      ],
+      "target_value": {
+        "value": 80,
+        "as_of": "2021-10-06",
+        "note": "qubits in the 2021 step of the scale sentence",
+        "evidence": [
+          {
+            "source": "src:rigetti-merger-2021",
+            "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+            "locator": "body",
+            "supports": "targets"
+          }
+        ]
+      },
+      "met_by": "ms:rigetti-hist-aspen-m-2021"
+    },
+    {
+      "id": "tgt:rigetti-hist-1000q-2024",
+      "org": "co:rigetti",
+      "target_date": "2024",
+      "statement": "Rigetti targets scaling its quantum computers to 1,000 qubits by 2024.",
+      "stated_on": "2021-10-06",
+      "status": "open",
+      "roadmap_doc": "rd:rigetti-2021-merger",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+          "locator": "body",
+          "supports": "targets"
+        },
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "BERKELEY, Calif. — Oct. 6, 2021 — Rigetti & Co., Inc. (“Rigetti”), a pioneer in full-stack quantum computing, announced today",
+          "locator": "dateline",
+          "supports": "existence, hq city, date"
+        }
+      ],
+      "target_value": {
+        "value": 1000,
+        "as_of": "2021-10-06",
+        "note": "qubits in the 2024 step of the scale sentence",
+        "evidence": [
+          {
+            "source": "src:rigetti-merger-2021",
+            "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+            "locator": "body",
+            "supports": "targets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:rigetti-hist-4000q-2026",
+      "org": "co:rigetti",
+      "target_date": "2026",
+      "statement": "Rigetti targets scaling its quantum computers to 4,000 qubits by 2026.",
+      "stated_on": "2021-10-06",
+      "status": "open",
+      "roadmap_doc": "rd:rigetti-2021-merger",
+      "metric_kind": "physical_qubits",
+      "due": {
+        "by": "2026-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+          "locator": "body",
+          "supports": "targets"
+        },
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "BERKELEY, Calif. — Oct. 6, 2021 — Rigetti & Co., Inc. (“Rigetti”), a pioneer in full-stack quantum computing, announced today",
+          "locator": "dateline",
+          "supports": "existence, hq city, date"
+        }
+      ],
+      "target_value": {
+        "value": 4000,
+        "as_of": "2021-10-06",
+        "note": "qubits in the 2026 step of the scale sentence",
+        "evidence": [
+          {
+            "source": "src:rigetti-merger-2021",
+            "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+            "locator": "body",
+            "supports": "targets"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:iqm-hist-fidelity-9994-2026",
+      "org": "co:iqm",
+      "target_date": "2026",
+      "statement": "IQM targets achieving over 99.94% two-qubit gate fidelities in the phase it dates “2025-2026”, by 2026.",
+      "stated_on": "2026-01-05",
+      "status": "open",
+      "roadmap_doc": "rd:iqm-2026-roadmap",
+      "metric_kind": "fidelity",
+      "due": {
+        "by": "2026-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "2025-2026: NISQ Goal Enhance gate performance, introduce top-tier error reduction (error mitigation and suppression), and deliver NISQ solutions for immediate research applications.",
+          "locator": "Technology milestones",
+          "supports": "phase"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "Achieve over 99.94% two-qubit gate fidelities and deploy innovative error-mitigation methods.",
+          "locator": "2025-2026 technological innovations",
+          "supports": "target"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "\"dateModified\":\"2026-01-05T12:26:52+00:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 99.94,
+        "as_of": "2026-01-05",
+        "note": "percent two-qubit gate fidelity named in the 2025-2026 phase",
+        "evidence": [
+          {
+            "source": "src:iqm-roadmap-page",
+            "quote": "Achieve over 99.94% two-qubit gate fidelities and deploy innovative error-mitigation methods.",
+            "locator": "2025-2026 technological innovations",
+            "supports": "target"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:iqm-hist-qec-2028",
+      "org": "co:iqm",
+      "target_date": "2028",
+      "statement": "IQM targets, for the phase it dates “2027-2028”, developing large systems combining QEC and error reduction, and QLDPC codes it states increase efficiency compared with surface codes by up to 10, by 2028.",
+      "stated_on": "2026-01-05",
+      "status": "open",
+      "roadmap_doc": "rd:iqm-2026-roadmap",
+      "metric_kind": "error_correction_demo",
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "2027-2028: QEC Demonstrators Goal Develop large systems combining QEC and advanced error reduction for early quantum utility in applications like quantum machine learning, simulation, and optimization",
+          "locator": "Technology milestones",
+          "supports": "phase"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "Implement highly efficient QLDPC codes that increase the efficiency compared to surface codes by up to 10",
+          "locator": "2027-2028 technological innovations",
+          "supports": "target"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "\"dateModified\":\"2026-01-05T12:26:52+00:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 10,
+        "as_of": "2026-01-05",
+        "note": "stated efficiency factor versus surface codes",
+        "evidence": [
+          {
+            "source": "src:iqm-roadmap-page",
+            "quote": "Implement highly efficient QLDPC codes that increase the efficiency compared to surface codes by up to 10",
+            "locator": "2027-2028 technological innovations",
+            "supports": "target"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:iqm-hist-ft-2030",
+      "org": "co:iqm",
+      "target_date": "2030",
+      "statement": "IQM targets, for the phase it labels “2030+”, systems it describes as realizing “hundreds of high-precision logical qubits” and scaling “up to 1 Million qubits”.",
+      "stated_on": "2026-01-05",
+      "status": "open",
+      "roadmap_doc": "rd:iqm-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "2030+: Fault Tolerance Goal Realize fully QEC-enabled systems with hundreds of high-precision logical qubits, achieving quantum advantage across multiple industries and scale up to 1 Million qubits.",
+          "locator": "Technology milestones",
+          "supports": "phase"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "\"dateModified\":\"2026-01-05T12:26:52+00:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ],
+      "target_value": {
+        "value": 1000000,
+        "as_of": "2026-01-05",
+        "note": "physical qubits in the phrase scale up to 1 Million qubits; the same sentence also says hundreds of high-precision logical qubits",
+        "evidence": [
+          {
+            "source": "src:iqm-roadmap-page",
+            "quote": "2030+: Fault Tolerance Goal Realize fully QEC-enabled systems with hundreds of high-precision logical qubits, achieving quantum advantage across multiple industries and scale up to 1 Million qubits.",
+            "locator": "Technology milestones",
+            "supports": "phase"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:oqc-hist-genesis-2026",
+      "org": "co:oqc",
+      "target_date": "2026",
+      "statement": "OQC targets commercial availability from 2026 of OQC GENESIS, which the page lists as “LOGICAL QUBITS 16” and “LATTICE SITES 16”.",
+      "stated_on": "2026",
+      "status": "open",
+      "roadmap_doc": "rd:oqc-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2026-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "This kiloquop device marks the start of the logical era, commercially available from 2026.",
+          "locator": "OQC GENESIS",
+          "supports": "availability"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "LOGICAL QUBITS 16 LATTICE SITES 16",
+          "locator": "OQC GENESIS specifications",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "© 2026 OxfordQuantumCircuits.",
+          "locator": "footer",
+          "supports": "year"
+        }
+      ],
+      "target_value": {
+        "value": 16,
+        "as_of": "2026",
+        "note": "logical qubits listed for OQC GENESIS",
+        "evidence": [
+          {
+            "source": "src:oqc-roadmap-page",
+            "quote": "LOGICAL QUBITS 16 LATTICE SITES 16",
+            "locator": "OQC GENESIS specifications",
+            "supports": "counts"
+          }
+        ]
+      },
+      "system_name": "OQC GENESIS"
+    },
+    {
+      "id": "tgt:oqc-hist-titan-2028",
+      "org": "co:oqc",
+      "target_date": "2028",
+      "statement": "OQC targets OQC TITAN by 2028, described as featuring 200 “logical qubits” within 2,000 lattice sites.",
+      "stated_on": "2026",
+      "status": "open",
+      "roadmap_doc": "rd:oqc-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2028-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "Featuring 200 logical qubits within 2,000 lattice sites, it will perform millions of quantum operations.",
+          "locator": "OQC TITAN",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap navigation",
+          "supports": "years"
+        }
+      ],
+      "target_value": {
+        "value": 200,
+        "as_of": "2026",
+        "note": "logical qubits named for OQC TITAN",
+        "evidence": [
+          {
+            "source": "src:oqc-roadmap-page",
+            "quote": "Featuring 200 logical qubits within 2,000 lattice sites, it will perform millions of quantum operations.",
+            "locator": "OQC TITAN",
+            "supports": "counts"
+          }
+        ]
+      },
+      "system_name": "OQC TITAN"
+    },
+    {
+      "id": "tgt:oqc-hist-athena-2031",
+      "org": "co:oqc",
+      "target_date": "2031",
+      "statement": "OQC targets OQC ATHENA by 2031, described as scaling to 5,000 “logical qubits” and listing 75,000 lattice sites.",
+      "stated_on": "2026",
+      "status": "open",
+      "roadmap_doc": "rd:oqc-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2031-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "Scaling to 5,000 logical qubits and billions of operations, this quantum computer will begin to unlock quantum chemistry and materials simulation.",
+          "locator": "OQC ATHENA",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "LOGICAL QUBITS 5,000 LATTICE SITES 75,000",
+          "locator": "OQC ATHENA specifications",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap navigation",
+          "supports": "years"
+        }
+      ],
+      "target_value": {
+        "value": 5000,
+        "as_of": "2026",
+        "note": "logical qubits named for OQC ATHENA",
+        "evidence": [
+          {
+            "source": "src:oqc-roadmap-page",
+            "quote": "Scaling to 5,000 logical qubits and billions of operations, this quantum computer will begin to unlock quantum chemistry and materials simulation.",
+            "locator": "OQC ATHENA",
+            "supports": "counts"
+          }
+        ]
+      },
+      "system_name": "OQC ATHENA"
+    },
+    {
+      "id": "tgt:oqc-hist-atlas-2034",
+      "org": "co:oqc",
+      "target_date": "2034",
+      "statement": "OQC targets OQC ATLAS by 2034, described as delivering 50,000 “logical qubits” and featuring 1 million lattice sites.",
+      "stated_on": "2026",
+      "status": "open",
+      "roadmap_doc": "rd:oqc-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "due": {
+        "by": "2034-12-31",
+        "precision": "year"
+      },
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC ATLAS: Delivering 50,000 logical qubits and trillions of operations",
+          "locator": "OQC ATLAS",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "features 1 million lattice sites with multi-layer connectivity",
+          "locator": "OQC ATLAS processor paragraph",
+          "supports": "lattice sites"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap navigation",
+          "supports": "years"
+        }
+      ],
+      "target_value": {
+        "value": 50000,
+        "as_of": "2026",
+        "note": "logical qubits named for OQC ATLAS",
+        "evidence": [
+          {
+            "source": "src:oqc-roadmap-page",
+            "quote": "OQC ATLAS: Delivering 50,000 logical qubits and trillions of operations",
+            "locator": "OQC ATLAS",
+            "supports": "counts"
+          }
+        ]
+      },
+      "system_name": "OQC ATLAS"
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "roadmap_docs": [
+    {
+      "id": "rd:ibm-2020-scaling",
+      "org": "co:ibm",
+      "title": "IBM's roadmap for scaling quantum technology",
+      "published": "2020-09-15",
+      "kind": "blog",
+      "url": "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap",
+      "completeness": "partial",
+      "items": [
+        "tgt:ibm-hist-eagle-127-2021",
+        "tgt:ibm-hist-eagle-realtime-2021",
+        "tgt:ibm-hist-osprey-433-2022",
+        "tgt:ibm-hist-condor-1121-2023"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "Date 15 Sep 2020 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "with a 1,000-qubit chip, IBM Quantum Condor, targeted for the end of 2023.",
+          "locator": "lede",
+          "supports": "target date"
+        }
+      ]
+    },
+    {
+      "id": "rd:ibm-2022-qcs",
+      "org": "co:ibm",
+      "title": "Expanding the IBM Quantum roadmap to anticipate the future of quantum-centric supercomputing",
+      "published": "2022-05-10",
+      "kind": "blog",
+      "url": "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+      "completeness": "partial",
+      "items": [
+        "tgt:ibm-hist-2022-osprey-433",
+        "tgt:ibm-hist-2022-condor-1121",
+        "tgt:ibm-hist-heron-133-2023",
+        "tgt:ibm-hist-flamingo-462-2024",
+        "tgt:ibm-hist-flamingo-1386-2024",
+        "tgt:ibm-hist-kookaburra-1386-2025",
+        "tgt:ibm-hist-kookaburra-4158-2025",
+        "tgt:ibm-hist-serverless-2023",
+        "tgt:ibm-hist-threads-2023",
+        "tgt:ibm-hist-errmit-2025"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "Date 10 May 2022 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date, authorship"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        }
+      ]
+    },
+    {
+      "id": "rd:ibm-2022-osprey-pr",
+      "org": "co:ibm",
+      "title": "IBM Unveils 400 Qubit-Plus Quantum Processor and Next-Generation IBM Quantum System Two",
+      "published": "2022-11-09",
+      "kind": "press_release",
+      "url": "https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two",
+      "completeness": "partial",
+      "items": [
+        "tgt:ibm-hist-system-two-2023",
+        "tgt:ibm-hist-4000q-2025"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "NEW YORK, Nov. 9, 2022 /PRNewswire/ -- IBM (NYSE: IBM) today kicked off the IBM Quantum Summit 2022",
+          "locator": "dateline",
+          "supports": "delivery date"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "This system is targeted to be online by the end of 2023 and will be a building block of quantum-centric supercomputing",
+          "locator": "IBM Quantum System Two update",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "rd:ibm-2023-utility",
+      "org": "co:ibm",
+      "title": "The hardware and software for the era of quantum utility is here",
+      "published": "2023-12-04",
+      "kind": "blog",
+      "url": "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+      "completeness": "partial",
+      "items": [
+        "tgt:ibm-hist-heron-5000-gates-2024",
+        "tgt:ibm-hist-starling-2029",
+        "tgt:ibm-hist-bluejay-2033",
+        "tgt:ibm-hist-qiskit10-2024"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Starting with a target of Heron reaching 5,000 gates in 2024, the roadmap lays out multiple generations of processors",
+          "locator": "section 'Extended roadmap to 2033'",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "rd:ibm-2024-qdc",
+      "org": "co:ibm",
+      "title": "IBM Quantum delivers on 2022 100x100 performance challenge",
+      "published": "2024-11-13",
+      "kind": "blog",
+      "url": "https://www.ibm.com/quantum/blog/qdc-2024",
+      "completeness": "partial",
+      "items": [
+        "tgt:ibm-hist-flamingo-prod-2025",
+        "tgt:ibm-hist-kookaburra-ccoupler-2026"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We expect these metrics to improve, and will debut a production-ready Flamingo-based system for use by our clients by the end of 2025.",
+          "locator": "Flamingo paragraph",
+          "supports": "target"
+        }
+      ]
+    },
+    {
+      "id": "rd:rigetti-2021-merger",
+      "org": "co:rigetti",
+      "title": "Rigetti announcement of a merger with Supernova Partners Acquisition Company II",
+      "published": "2021-10-06",
+      "kind": "press_release",
+      "url": "https://www.rigetti.com/merger-announcement",
+      "completeness": "partial",
+      "items": [
+        "tgt:rigetti-hist-80q-2021",
+        "tgt:rigetti-hist-1000q-2024",
+        "tgt:rigetti-hist-4000q-2026"
+      ],
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "BERKELEY, Calif. — Oct. 6, 2021 — Rigetti & Co., Inc. (“Rigetti”), a pioneer in full-stack quantum computing, announced today",
+          "locator": "dateline",
+          "supports": "existence, hq city, date"
+        },
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+          "locator": "body",
+          "supports": "targets"
+        }
+      ]
+    },
+    {
+      "id": "rd:rigetti-2021-deck",
+      "org": "co:rigetti",
+      "title": "Investor presentation, October 2021",
+      "published": "2021-10",
+      "kind": "investor_presentation",
+      "url": "https://www.rigetti.com/uploads/Rigetti-Investor-Presentation.pdf",
+      "completeness": "partial",
+      "items": [
+        "prj:rigetti-revenue-cy2021",
+        "prj:rigetti-revenue-cy2022",
+        "prj:rigetti-revenue-cy2023",
+        "prj:rigetti-revenue-cy2024",
+        "prj:rigetti-revenue-cy2025",
+        "prj:rigetti-revenue-cy2026"
+      ],
+      "evidence": [
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Investor Presentation October 2021",
+          "locator": "first page",
+          "supports": "date"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Note Years represent calendar year end.",
+          "locator": "note under the forecast table",
+          "supports": "period basis"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+          "locator": "summary financial forecast table",
+          "supports": "projected revenue row"
+        }
+      ]
+    },
+    {
+      "id": "rd:iqm-2026-roadmap",
+      "org": "co:iqm",
+      "title": "Development roadmap",
+      "published": "2026-01-05",
+      "kind": "roadmap_page",
+      "url": "https://iqm.tech/technology/roadmap/",
+      "completeness": "partial",
+      "items": [
+        "tgt:iqm-hist-fidelity-9994-2026",
+        "tgt:iqm-hist-qec-2028",
+        "tgt:iqm-hist-ft-2030"
+      ],
+      "evidence": [
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "\"dateModified\":\"2026-01-05T12:26:52+00:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "2030+: Fault Tolerance Goal Realize fully QEC-enabled systems with hundreds of high-precision logical qubits, achieving quantum advantage across multiple industries and scale up to 1 Million qubits.",
+          "locator": "Technology milestones",
+          "supports": "phase"
+        }
+      ]
+    },
+    {
+      "id": "rd:oqc-2026-roadmap",
+      "org": "co:oqc",
+      "title": "The OQC roadmap",
+      "published": "2026",
+      "kind": "roadmap_page",
+      "url": "https://oqc.tech/tech/technical-roadmap",
+      "completeness": "partial",
+      "items": [
+        "tgt:oqc-hist-genesis-2026",
+        "tgt:oqc-hist-titan-2028",
+        "tgt:oqc-hist-athena-2031",
+        "tgt:oqc-hist-atlas-2034"
+      ],
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "© 2026 OxfordQuantumCircuits.",
+          "locator": "footer",
+          "supports": "year"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap navigation",
+          "supports": "years"
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "out:ibm-hist-eagle-127-2021",
+      "target": "tgt:ibm-hist-eagle-127-2021",
+      "result": "met_on_time",
+      "statement": "IBM's 15 Sep 2020 roadmap targeted a 127-qubit processor ('Eagle') in the following year; IBM announced a 127-qubit Eagle processor on 16 Nov 2021.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "Next year, we’ll debut our 127-qubit IBM Quantum Eagle processor.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-eagle-pr-2021",
+          "quote": "IBM (NYSE: IBM) today announced its new 127-quantum bit (qubit) 'Eagle' processor at the IBM Quantum Summit 2021",
+          "locator": "first paragraph",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-eagle-pr-2021",
+          "quote": "Nov 16, 2021",
+          "locator": "dateline area",
+          "supports": "delivery date"
+        }
+      ],
+      "resolved_on": "2021-11-16",
+      "delivered_by": "ms:ibm-hist-eagle-2021"
+    },
+    {
+      "id": "out:ibm-hist-eagle-realtime-2021",
+      "target": "tgt:ibm-hist-eagle-realtime-2021",
+      "result": "no_delivery_found",
+      "statement": "IBM's 15 Sep 2020 roadmap targeted concurrent real-time classical compute capabilities with Eagle in the following year; the 10 May 2022 roadmap still described dynamic circuits, which it defines as feedback and feedforward of quantum measurements, as something it would add.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "With the Eagle processor, we will also introduce concurrent real-time classical compute capabilities that will allow for execution of a broader family of quantum circuits and codes.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "First, we will add dynamic circuits, which allow for feedback and feedforward of quantum measurements to change or steer the course of future operations.",
+          "locator": "section 'Preparing for serverless quantum computation'",
+          "supports": "later wording"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap",
+          "https://newsroom.ibm.com/2021-11-16-IBM-Unveils-Breakthrough-127-Qubit-Quantum-Processor",
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+          "https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two"
+        ],
+        "queries": [
+          "Eagle real-time classical compute",
+          "Eagle dynamic circuits 2021",
+          "concurrent real-time classical"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-osprey-433-2022",
+      "target": "tgt:ibm-hist-osprey-433-2022",
+      "result": "met_on_time",
+      "statement": "IBM's 15 Sep 2020 roadmap targeted a 433-qubit processor ('Osprey') in 2022; IBM announced a 433-qubit Osprey processor on 9 Nov 2022.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "The design principles established for our smaller processors will set us on a course to release a 433-qubit IBM Quantum Osprey processor in 2022.",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "‘IBM Osprey’ - IBM’s new 433-quantum bit (qubit) processor",
+          "locator": "developments list",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "NEW YORK, Nov. 9, 2022 /PRNewswire/ -- IBM (NYSE: IBM) today kicked off the IBM Quantum Summit 2022",
+          "locator": "dateline",
+          "supports": "delivery date"
+        }
+      ],
+      "resolved_on": "2022-11-09",
+      "delivered_by": "ms:ibm-hist-osprey-2022"
+    },
+    {
+      "id": "out:ibm-hist-condor-1121-2023",
+      "target": "tgt:ibm-hist-condor-1121-2023",
+      "result": "met_on_time",
+      "statement": "IBM's 15 Sep 2020 roadmap targeted a 1,121-qubit processor ('Condor') by the end of 2023; IBM stated on 4 Dec 2023 that it had introduced a 1,121-qubit Condor processor.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2020",
+          "quote": "In 2023, we will debut the 1,121-qubit IBM Quantum Condor processor",
+          "locator": "body",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "We have introduced IBM Condor, a 1,121 superconducting qubit quantum processor based on our cross-resonance gate technology.",
+          "locator": "section 'Breaking the 1,000-qubit barrier with Condor'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2023-12-04",
+      "delivered_by": "ms:ibm-hist-condor-2023"
+    },
+    {
+      "id": "out:ibm-hist-2022-osprey-433",
+      "target": "tgt:ibm-hist-2022-osprey-433",
+      "result": "met_on_time",
+      "statement": "IBM's 10 May 2022 roadmap targeted a 433-qubit Osprey processor for release in 2022; IBM announced a 433-qubit Osprey processor on 9 Nov 2022.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "With the 433-qubit “Osprey” processor and the 1,121-qubit “Condor” processors — slated for release in 2022 and 2023, respectively",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "‘IBM Osprey’ - IBM’s new 433-quantum bit (qubit) processor",
+          "locator": "developments list",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "NEW YORK, Nov. 9, 2022 /PRNewswire/ -- IBM (NYSE: IBM) today kicked off the IBM Quantum Summit 2022",
+          "locator": "dateline",
+          "supports": "delivery date"
+        }
+      ],
+      "resolved_on": "2022-11-09",
+      "delivered_by": "ms:ibm-hist-osprey-2022"
+    },
+    {
+      "id": "out:ibm-hist-2022-condor-1121",
+      "target": "tgt:ibm-hist-2022-condor-1121",
+      "result": "met_on_time",
+      "statement": "IBM's 10 May 2022 roadmap targeted a 1,121-qubit Condor processor for release in 2023; IBM stated on 4 Dec 2023 that it had introduced a 1,121-qubit Condor processor.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "With the 433-qubit “Osprey” processor and the 1,121-qubit “Condor” processors — slated for release in 2022 and 2023, respectively",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "We have introduced IBM Condor, a 1,121 superconducting qubit quantum processor based on our cross-resonance gate technology.",
+          "locator": "section 'Breaking the 1,000-qubit barrier with Condor'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2023-12-04",
+      "delivered_by": "ms:ibm-hist-condor-2023"
+    },
+    {
+      "id": "out:ibm-hist-heron-133-2023",
+      "target": "tgt:ibm-hist-heron-133-2023",
+      "result": "met_on_time",
+      "statement": "IBM's 10 May 2022 roadmap targeted a 133-qubit Heron processor in 2023; IBM stated on 4 Dec 2023 that Heron features 133 fixed-frequency qubits.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "First, in 2023, we are introducing “Heron”: a 133-qubit processor with control hardware that allows for real-time classical communication between separate processors",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Featuring 133 fixed-frequency qubits with tunable couplers, Heron yields a 3-5x improvement in device performance over our previous flagship 127-qubit Eagle processors",
+          "locator": "section 'Access to the highest performing quantum processor: Heron'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2023-12-04",
+      "delivered_by": "ms:ibm-hist-heron-2023"
+    },
+    {
+      "id": "out:ibm-hist-flamingo-462-2024",
+      "target": "tgt:ibm-hist-flamingo-462-2024",
+      "result": "partially_met",
+      "statement": "IBM's 10 May 2022 roadmap targeted a 462-qubit Flamingo processor in 2024; on 13 Nov 2024 IBM described a proof-of-concept it called Flamingo that connects two Heron R2 chips, and stated a best benchmarked CNOT error per gate of 3.5% on test devices.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "in 2024, we also plan to introduce our third approach: quantum communication between processors to support quantum parallelization. We will introduce the 462-qubit “Flamingo” processor with a built-in quantum communication link, and then release a demonstration of this architecture by linking together at least three Flamingo processors into a 1,386-qubit system.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Today, we demonstrated l-couplers with a proof-of-concept called IBM Quantum Flamingo, which connects two Heron R2 chips with four connectors measuring up to a meter long.",
+          "locator": "section on couplers",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "At the moment, the best CNOTs we’ve benchmarked have been on test devices, with errors per gate of 3.5% for a 235 nanosecond operation.",
+          "locator": "same section",
+          "supports": "delivered metric"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2024-11-13",
+      "delivered_value": {
+        "value": 2,
+        "as_of": "2024-11-13",
+        "note": "Heron R2 chips connected in the proof-of-concept IBM called Flamingo; the 2022 target stated a 462-qubit processor",
+        "evidence": [
+          {
+            "source": "src:ibm-qdc-blog-2024",
+            "quote": "Today, we demonstrated l-couplers with a proof-of-concept called IBM Quantum Flamingo, which connects two Heron R2 chips with four connectors measuring up to a meter long.",
+            "locator": "section on couplers",
+            "supports": "delivery"
+          }
+        ]
+      }
+    },
+    {
+      "id": "out:ibm-hist-flamingo-1386-2024",
+      "target": "tgt:ibm-hist-flamingo-1386-2024",
+      "result": "no_delivery_found",
+      "statement": "IBM's 10 May 2022 roadmap targeted a demonstration linking at least three Flamingo processors into a 1,386-qubit system in 2024; the 13 Nov 2024 description of Flamingo is a proof-of-concept connecting two Heron R2 chips.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "in 2024, we also plan to introduce our third approach: quantum communication between processors to support quantum parallelization. We will introduce the 462-qubit “Flamingo” processor with a built-in quantum communication link, and then release a demonstration of this architecture by linking together at least three Flamingo processors into a 1,386-qubit system.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Today, we demonstrated l-couplers with a proof-of-concept called IBM Quantum Flamingo, which connects two Heron R2 chips with four connectors measuring up to a meter long.",
+          "locator": "section on couplers",
+          "supports": "delivery"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+          "https://www.ibm.com/quantum/blog/qdc-2024",
+          "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+          "https://newsroom.ibm.com/2023-12-04-IBM-Debuts-Next-Generation-Quantum-Processor-IBM-Quantum-System-Two,-Extends-Roadmap-to-Advance-Era-of-Quantum-Utility"
+        ],
+        "queries": [
+          "Flamingo 1,386",
+          "three Flamingo processors",
+          "1386-qubit Flamingo"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-kookaburra-1386-2025",
+      "target": "tgt:ibm-hist-kookaburra-1386-2025",
+      "result": "revised_before_due",
+      "statement": "IBM's 10 May 2022 roadmap targeted a 1,386-qubit Kookaburra processor in 2025; on 13 Nov 2024 IBM described demonstrating c-couplers with Kookaburra as slated for 2026.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We’re well on our way toward realizing these technologies, with the hope of demonstrating c-couplers with Kookaburra, slated for 2026.",
+          "locator": "coupler section",
+          "supports": "revision"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2024-11-13"
+    },
+    {
+      "id": "out:ibm-hist-kookaburra-4158-2025",
+      "target": "tgt:ibm-hist-kookaburra-4158-2025",
+      "result": "no_delivery_found",
+      "statement": "IBM's 10 May 2022 roadmap targeted connecting three Kookaburra chips into a 4,158-qubit system in 2025; the 13 Nov 2024 post schedules a Kookaburra c-coupler demonstration for 2026 and does not describe a 4,158-qubit system.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "So, in 2025, we’ll introduce the “Kookaburra” processor. Kookaburra will be a 1,386 qubit multi-chip processor with a quantum communication link. As a demonstration, we will connect three Kookaburra chips into a 4,158-qubit system connected by quantum communication for our users.",
+          "locator": "section 'Solving the scaling problem'",
+          "supports": "targets"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We’re well on our way toward realizing these technologies, with the hope of demonstrating c-couplers with Kookaburra, slated for 2026.",
+          "locator": "coupler section",
+          "supports": "revision"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+          "https://www.ibm.com/quantum/blog/qdc-2024",
+          "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+          "https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two"
+        ],
+        "queries": [
+          "Kookaburra 4,158",
+          "4158-qubit",
+          "three Kookaburra"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-serverless-2023",
+      "target": "tgt:ibm-hist-serverless-2023",
+      "result": "met_on_time",
+      "statement": "IBM's 10 May 2022 roadmap targeted integrating Quantum Serverless into its core software stack in 2023; on 4 Dec 2023 IBM announced deployment of Quantum Serverless as beta.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "In 2023, we plan to integrate Quantum Serverless into our core software stack in order to enable core functionality such as circuit knitting.",
+          "locator": "section 'Preparing for serverless quantum computation'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "With Qiskit Patterns, IBM is announcing the deployment of Quantum Serverless as beta for managed, unattended execution of Patterns at scale.",
+          "locator": "section 'Qiskit Patterns and Quantum Serverless'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2023-12-04",
+      "delivered_by": "ms:ibm-hist-serverless-2023"
+    },
+    {
+      "id": "out:ibm-hist-threads-2023",
+      "target": "tgt:ibm-hist-threads-2023",
+      "result": "no_delivery_found",
+      "statement": "IBM's 10 May 2022 roadmap targeted bringing threads to Qiskit Runtime in 2023; the 4 Dec 2023 and 13 Nov 2024 posts fetched for this file do not describe that threads feature as delivered.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "To continue to increase the speed of quantum programs in 2023, we plan to bring threads to the Qiskit Runtime, allowing us to operate parallelized quantum processors",
+          "locator": "section 'Preparing for serverless quantum computation'",
+          "supports": "target"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+          "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+          "https://www.ibm.com/quantum/blog/qdc-2024"
+        ],
+        "queries": [
+          "Qiskit Runtime threads",
+          "parallelized quantum processors threads 2023"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-errmit-2025",
+      "target": "tgt:ibm-hist-errmit-2025",
+      "result": "no_delivery_found",
+      "statement": "IBM's 10 May 2022 roadmap targeted introducing error mitigation and suppression techniques into Qiskit Runtime in 2024 and 2025; a 9 Nov 2022 release describes a beta option to trade speed for reduced error count, and the 13 Nov 2024 post describes two-level system mitigation on the processor.",
+      "evidence": [
+        {
+          "source": "src:ibm-roadmap-blog-2022",
+          "quote": "In 2024 and 2025, we’ll introduce error mitigation and suppression techniques into Qiskit Runtime so that users can focus on improving the quality of the results obtained from quantum hardware.",
+          "locator": "section 'Preparing for serverless quantum computation'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "IBM released a beta update to Qiskit Runtime, which now includes allowing a user to trade speed for reduced error count with a simple option in the API.",
+          "locator": "software section",
+          "supports": "related earlier release"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We also added new two-level system mitigation to help reduce the impact of an important source of noise.",
+          "locator": "Heron section",
+          "supports": "later mitigation wording"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+          "https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two",
+          "https://www.ibm.com/quantum/blog/qdc-2024",
+          "https://www.ibm.com/quantum/blog/quantum-roadmap-2033"
+        ],
+        "queries": [
+          "Qiskit Runtime error mitigation 2024",
+          "error suppression Qiskit Runtime"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-system-two-2023",
+      "target": "tgt:ibm-hist-system-two-2023",
+      "result": "met_on_time",
+      "statement": "IBM's 9 Nov 2022 release targeted IBM Quantum System Two being online by the end of 2023; IBM stated on 4 Dec 2023 that the system is operational at its lab in Yorktown Heights, NY.",
+      "evidence": [
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "This system is targeted to be online by the end of 2023 and will be a building block of quantum-centric supercomputing",
+          "locator": "IBM Quantum System Two update",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "IBM Quantum System Two is the bedrock for scalable quantum computation, and is now operational at our lab in Yorktown Heights, NY.",
+          "locator": "section 'IBM Quantum System Two'",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2023-12-04",
+      "delivered_by": "ms:ibm-hist-system-two-2023"
+    },
+    {
+      "id": "out:ibm-hist-4000q-2025",
+      "target": "tgt:ibm-hist-4000q-2025",
+      "result": "no_delivery_found",
+      "statement": "IBM's 9 Nov 2022 release referred to a stated goal of 4,000+ qubits by 2025; the 13 Nov 2024 post schedules a Kookaburra demonstration for 2026 and does not describe a 4,000-qubit system as delivered.",
+      "evidence": [
+        {
+          "source": "src:ibm-osprey-pr-2022",
+          "quote": "As IBM Quantum systems scale up towards the stated goal of 4,000+ qubits by 2025 and beyond",
+          "locator": "IBM Quantum System Two update",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We’re well on our way toward realizing these technologies, with the hope of demonstrating c-couplers with Kookaburra, slated for 2026.",
+          "locator": "coupler section",
+          "supports": "revision"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two",
+          "https://www.ibm.com/quantum/blog/qdc-2024",
+          "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+          "https://newsroom.ibm.com/2023-12-04-IBM-Debuts-Next-Generation-Quantum-Processor-IBM-Quantum-System-Two,-Extends-Roadmap-to-Advance-Era-of-Quantum-Utility"
+        ],
+        "queries": [
+          "IBM 4,000 qubits 2025",
+          "4000-qubit system delivered"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-heron-5000-gates-2024",
+      "target": "tgt:ibm-hist-heron-5000-gates-2024",
+      "result": "met_on_time",
+      "statement": "IBM's 4 Dec 2023 roadmap targeted Heron reaching 5,000 gates in 2024; on 13 Nov 2024 IBM stated Heron can run circuits with 5,000 two-qubit gates.",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Starting with a target of Heron reaching 5,000 gates in 2024, the roadmap lays out multiple generations of processors",
+          "locator": "section 'Extended roadmap to 2033'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Heron is now capable of running accurate calculations employing circuits with 5,000 two-qubit gates.",
+          "locator": "opening",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2024-11-13",
+      "delivered_by": "ms:ibm-hist-heron-5000-2024"
+    },
+    {
+      "id": "out:ibm-hist-starling-2029",
+      "target": "tgt:ibm-hist-starling-2029",
+      "result": "pending",
+      "statement": "IBM's 4 Dec 2023 roadmap targeted a Starling processor executing 100 million gates over 200 qubits in 2029; that date is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Then, in 2029, we hit an inflection point: executing 100 million gates over 200 qubits with our Starling processor employing error correction based on the novel Gross code",
+          "locator": "section 'Extended roadmap to 2033'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:ibm-hist-bluejay-2033",
+      "target": "tgt:ibm-hist-bluejay-2033",
+      "result": "pending",
+      "statement": "IBM's 4 Dec 2023 roadmap targeted Blue Jay, described as executing 1 billion gates across 2,000 qubits, by 2033; that date is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "This is followed by Blue Jay, a system capable of executing 1 billion gates across 2,000 qubits by 2033.",
+          "locator": "section 'Extended roadmap to 2033'",
+          "supports": "target"
+        },
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Date 4 Dec 2023 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:ibm-hist-qiskit10-2024",
+      "target": "tgt:ibm-hist-qiskit10-2024",
+      "result": "no_delivery_found",
+      "statement": "IBM's 4 Dec 2023 post headed a section 'Qiskit 1.0 coming in February 2024'; a fetch of https://www.ibm.com/quantum/blog/qiskit-1-release returned 404, and the 13 Nov 2024 post fetched here does not mention Qiskit 1.0.",
+      "evidence": [
+        {
+          "source": "src:ibm-utility-blog-2023",
+          "quote": "Qiskit 1.0 coming in February 2024",
+          "locator": "heading",
+          "supports": "target"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+          "https://www.ibm.com/quantum/blog/qdc-2024",
+          "https://www.ibm.com/quantum/blog/qiskit-1-release"
+        ],
+        "queries": [
+          "Qiskit 1.0 February 2024 release",
+          "Qiskit 1.0 announced"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-flamingo-prod-2025",
+      "target": "tgt:ibm-hist-flamingo-prod-2025",
+      "result": "no_delivery_found",
+      "statement": "IBM's 13 Nov 2024 post targeted a production-ready Flamingo-based system for clients by the end of 2025; the IBM roadmap and newsroom pages fetched for this file do not describe that system as delivered.",
+      "evidence": [
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We expect these metrics to improve, and will debut a production-ready Flamingo-based system for use by our clients by the end of 2025.",
+          "locator": "Flamingo paragraph",
+          "supports": "target"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.ibm.com/quantum/blog/qdc-2024",
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap",
+          "https://www.ibm.com/quantum/blog/ibm-quantum-roadmap-2025",
+          "https://www.ibm.com/quantum/blog/quantum-roadmap-2033",
+          "https://newsroom.ibm.com/2023-12-04-IBM-Debuts-Next-Generation-Quantum-Processor-IBM-Quantum-System-Two,-Extends-Roadmap-to-Advance-Era-of-Quantum-Utility"
+        ],
+        "queries": [
+          "production-ready Flamingo 2025",
+          "Flamingo-based system delivered"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:ibm-hist-kookaburra-ccoupler-2026",
+      "target": "tgt:ibm-hist-kookaburra-ccoupler-2026",
+      "result": "pending",
+      "statement": "IBM's 13 Nov 2024 post described demonstrating c-couplers with Kookaburra as slated for 2026; that date is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "We’re well on our way toward realizing these technologies, with the hope of demonstrating c-couplers with Kookaburra, slated for 2026.",
+          "locator": "coupler section",
+          "supports": "revision"
+        },
+        {
+          "source": "src:ibm-qdc-blog-2024",
+          "quote": "Date 13 Nov 2024 Authors Jay Gambetta",
+          "locator": "date and author lines",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:rigetti-hist-80q-2021",
+      "target": "tgt:rigetti-hist-80q-2021",
+      "result": "met_on_time",
+      "statement": "Rigetti's 6 Oct 2021 announcement targeted scaling to 80 qubits in 2021; a Rigetti page whose JSON-LD datePublished is 2021-12-15 says it introduced an 80-qubit Aspen-M system into private beta.",
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+          "locator": "body",
+          "supports": "targets"
+        },
+        {
+          "source": "src:rigetti-aspen-m-2021",
+          "quote": "Rigetti Computing, a pioneer in hybrid quantum-classical computing, today introduced its next-generation “Aspen-M” 80-qubit quantum computer into private beta.",
+          "locator": "article body",
+          "supports": "delivery"
+        },
+        {
+          "source": "src:rigetti-aspen-m-2021",
+          "quote": "\"datePublished\":\"2021-12-15T05:41:00-08:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ],
+      "resolved_on": "2021-12-15",
+      "delivered_by": "ms:rigetti-hist-aspen-m-2021"
+    },
+    {
+      "id": "out:rigetti-hist-1000q-2024",
+      "target": "tgt:rigetti-hist-1000q-2024",
+      "result": "no_delivery_found",
+      "statement": "Rigetti's 6 Oct 2021 announcement targeted scaling to 1,000 qubits in 2024; the Rigetti pages and October 2021 investor presentation fetched for this file describe that figure as a plan, not as a delivered system.",
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+          "locator": "body",
+          "supports": "targets"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "80+Q 1,000+Q 4,000+Q",
+          "locator": "scaling chart, page 26 of the extracted text",
+          "supports": "same plan in the presentation"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.rigetti.com/merger-announcement",
+          "https://www.rigetti.com/uploads/Rigetti-Investor-Presentation.pdf",
+          "https://www.rigetti.com/news/rigetti-computing-announces-next-generation-40q-and-80q-quantum-systems"
+        ],
+        "queries": [
+          "Rigetti 1,000 qubits 2024",
+          "Rigetti 1000-qubit system delivered"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:rigetti-hist-4000q-2026",
+      "target": "tgt:rigetti-hist-4000q-2026",
+      "result": "pending",
+      "statement": "Rigetti's 6 Oct 2021 announcement targeted scaling to 4,000 qubits in 2026; that date is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "Rigetti expects to scale its quantum computers from 80 qubits in 2021, to 1,000 qubits in 2024, and to 4,000 qubits in 2026.",
+          "locator": "body",
+          "supports": "targets"
+        },
+        {
+          "source": "src:rigetti-merger-2021",
+          "quote": "BERKELEY, Calif. — Oct. 6, 2021 — Rigetti & Co., Inc. (“Rigetti”), a pioneer in full-stack quantum computing, announced today",
+          "locator": "dateline",
+          "supports": "existence, hq city, date"
+        }
+      ]
+    },
+    {
+      "id": "out:iqm-hist-fidelity-9994-2026",
+      "target": "tgt:iqm-hist-fidelity-9994-2026",
+      "result": "pending",
+      "statement": "IQM's roadmap page, with JSON-LD dateModified 2026-01-05, targets over 99.94% two-qubit gate fidelities in a phase it dates 2025-2026; 31 Dec 2026 is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "Achieve over 99.94% two-qubit gate fidelities and deploy innovative error-mitigation methods.",
+          "locator": "2025-2026 technological innovations",
+          "supports": "target"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "\"dateModified\":\"2026-01-05T12:26:52+00:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:iqm-hist-qec-2028",
+      "target": "tgt:iqm-hist-qec-2028",
+      "result": "pending",
+      "statement": "IQM's roadmap page dates a QEC demonstrator phase “2027-2028”; 31 Dec 2028 is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "2027-2028: QEC Demonstrators Goal Develop large systems combining QEC and advanced error reduction for early quantum utility in applications like quantum machine learning, simulation, and optimization",
+          "locator": "Technology milestones",
+          "supports": "phase"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "\"dateModified\":\"2026-01-05T12:26:52+00:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:iqm-hist-ft-2030",
+      "target": "tgt:iqm-hist-ft-2030",
+      "result": "pending",
+      "statement": "IQM's roadmap page labels a phase “2030+” for systems it describes with “hundreds of high-precision logical qubits” and scale up to 1 million qubits; that phase is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "2030+: Fault Tolerance Goal Realize fully QEC-enabled systems with hundreds of high-precision logical qubits, achieving quantum advantage across multiple industries and scale up to 1 Million qubits.",
+          "locator": "Technology milestones",
+          "supports": "phase"
+        },
+        {
+          "source": "src:iqm-roadmap-page",
+          "quote": "\"dateModified\":\"2026-01-05T12:26:52+00:00\"",
+          "locator": "page JSON-LD",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "out:oqc-hist-genesis-2026",
+      "target": "tgt:oqc-hist-genesis-2026",
+      "result": "pending",
+      "statement": "OQC's roadmap page says OQC GENESIS is commercially available from 2026 and lists “LOGICAL QUBITS 16”; 31 Dec 2026 is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "This kiloquop device marks the start of the logical era, commercially available from 2026.",
+          "locator": "OQC GENESIS",
+          "supports": "availability"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "LOGICAL QUBITS 16 LATTICE SITES 16",
+          "locator": "OQC GENESIS specifications",
+          "supports": "counts"
+        }
+      ]
+    },
+    {
+      "id": "out:oqc-hist-titan-2028",
+      "target": "tgt:oqc-hist-titan-2028",
+      "result": "pending",
+      "statement": "OQC's roadmap page places OQC TITAN in 2028 and describes 200 “logical qubits” within 2,000 lattice sites; that year is after 2026.",
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "Featuring 200 logical qubits within 2,000 lattice sites, it will perform millions of quantum operations.",
+          "locator": "OQC TITAN",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap navigation",
+          "supports": "years"
+        }
+      ]
+    },
+    {
+      "id": "out:oqc-hist-athena-2031",
+      "target": "tgt:oqc-hist-athena-2031",
+      "result": "pending",
+      "statement": "OQC's roadmap page places OQC ATHENA in 2031 and describes scaling to 5,000 “logical qubits”; that year is after 2026.",
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "Scaling to 5,000 logical qubits and billions of operations, this quantum computer will begin to unlock quantum chemistry and materials simulation.",
+          "locator": "OQC ATHENA",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap navigation",
+          "supports": "years"
+        }
+      ]
+    },
+    {
+      "id": "out:oqc-hist-atlas-2034",
+      "target": "tgt:oqc-hist-atlas-2034",
+      "result": "pending",
+      "statement": "OQC's roadmap page places OQC ATLAS in 2034 and describes delivering 50,000 “logical qubits”; that year is after 2026.",
+      "evidence": [
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC ATLAS: Delivering 50,000 logical qubits and trillions of operations",
+          "locator": "OQC ATLAS",
+          "supports": "counts"
+        },
+        {
+          "source": "src:oqc-roadmap-page",
+          "quote": "OQC GENESIS TODAY OQC TITAN 2028 OQC ATHENA 2031 OQC ATLAS 2034",
+          "locator": "roadmap navigation",
+          "supports": "years"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "id": "prj:rigetti-revenue-cy2021",
+      "org": "co:rigetti",
+      "roadmap_doc": "rd:rigetti-2021-deck",
+      "metric": "revenue",
+      "period": "CY2021",
+      "projected": {
+        "value": 7,
+        "as_of": "2021-10",
+        "note": "USD millions, Total revenue row, calendar year, as labeled in the October 2021 presentation",
+        "evidence": [
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+            "locator": "summary financial forecast table",
+            "supports": "projected revenue row"
+          },
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Note Years represent calendar year end.",
+            "locator": "note under the forecast table",
+            "supports": "period basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+          "locator": "summary financial forecast table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Note Years represent calendar year end.",
+          "locator": "note under the forecast table",
+          "supports": "period basis"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Investor Presentation October 2021",
+          "locator": "first page",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "prj:rigetti-revenue-cy2022",
+      "org": "co:rigetti",
+      "roadmap_doc": "rd:rigetti-2021-deck",
+      "metric": "revenue",
+      "period": "CY2022",
+      "projected": {
+        "value": 18,
+        "as_of": "2021-10",
+        "note": "USD millions, Total revenue row, calendar year, as labeled in the October 2021 presentation",
+        "evidence": [
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+            "locator": "summary financial forecast table",
+            "supports": "projected revenue row"
+          },
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Note Years represent calendar year end.",
+            "locator": "note under the forecast table",
+            "supports": "period basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+          "locator": "summary financial forecast table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Note Years represent calendar year end.",
+          "locator": "note under the forecast table",
+          "supports": "period basis"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Investor Presentation October 2021",
+          "locator": "first page",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "prj:rigetti-revenue-cy2023",
+      "org": "co:rigetti",
+      "roadmap_doc": "rd:rigetti-2021-deck",
+      "metric": "revenue",
+      "period": "CY2023",
+      "projected": {
+        "value": 34,
+        "as_of": "2021-10",
+        "note": "USD millions, Total revenue row, calendar year, as labeled in the October 2021 presentation",
+        "evidence": [
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+            "locator": "summary financial forecast table",
+            "supports": "projected revenue row"
+          },
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Note Years represent calendar year end.",
+            "locator": "note under the forecast table",
+            "supports": "period basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+          "locator": "summary financial forecast table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Note Years represent calendar year end.",
+          "locator": "note under the forecast table",
+          "supports": "period basis"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Investor Presentation October 2021",
+          "locator": "first page",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "prj:rigetti-revenue-cy2024",
+      "org": "co:rigetti",
+      "roadmap_doc": "rd:rigetti-2021-deck",
+      "metric": "revenue",
+      "period": "CY2024",
+      "projected": {
+        "value": 73,
+        "as_of": "2021-10",
+        "note": "USD millions, Total revenue row, calendar year, as labeled in the October 2021 presentation",
+        "evidence": [
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+            "locator": "summary financial forecast table",
+            "supports": "projected revenue row"
+          },
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Note Years represent calendar year end.",
+            "locator": "note under the forecast table",
+            "supports": "period basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+          "locator": "summary financial forecast table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Note Years represent calendar year end.",
+          "locator": "note under the forecast table",
+          "supports": "period basis"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Investor Presentation October 2021",
+          "locator": "first page",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "prj:rigetti-revenue-cy2025",
+      "org": "co:rigetti",
+      "roadmap_doc": "rd:rigetti-2021-deck",
+      "metric": "revenue",
+      "period": "CY2025",
+      "projected": {
+        "value": 288,
+        "as_of": "2021-10",
+        "note": "USD millions, Total revenue row, calendar year, as labeled in the October 2021 presentation",
+        "evidence": [
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+            "locator": "summary financial forecast table",
+            "supports": "projected revenue row"
+          },
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Note Years represent calendar year end.",
+            "locator": "note under the forecast table",
+            "supports": "period basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+          "locator": "summary financial forecast table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Note Years represent calendar year end.",
+          "locator": "note under the forecast table",
+          "supports": "period basis"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Investor Presentation October 2021",
+          "locator": "first page",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "prj:rigetti-revenue-cy2026",
+      "org": "co:rigetti",
+      "roadmap_doc": "rd:rigetti-2021-deck",
+      "metric": "revenue",
+      "period": "CY2026",
+      "projected": {
+        "value": 594,
+        "as_of": "2021-10",
+        "note": "USD millions, Total revenue row, calendar year, as labeled in the October 2021 presentation",
+        "evidence": [
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+            "locator": "summary financial forecast table",
+            "supports": "projected revenue row"
+          },
+          {
+            "source": "src:rigetti-investor-pdf-2021",
+            "quote": "Note Years represent calendar year end.",
+            "locator": "note under the forecast table",
+            "supports": "period basis"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Summary financial forecast ($M) 2021E 2022E 2023E 2024E 2025E 2026E Total revenue1 7 18 34 73 288 594",
+          "locator": "summary financial forecast table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "$1,152M post-money enterprise value based on 1.9x 2026E revenue of $594M",
+          "locator": "transaction summary",
+          "supports": "2026 revenue"
+        },
+        {
+          "source": "src:rigetti-investor-pdf-2021",
+          "quote": "Note Years represent calendar year end.",
+          "locator": "note under the forecast table",
+          "supports": "period basis"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Google Quantum AI roadmap years",
+      "why": "https://quantumai.google/roadmap returned HTML without the milestone text (the page is client-rendered). The fetched PDF https://services.google.com/fh/files/misc/google_quantum_ai_about.pdf describes Milestone 3 in a caption as a long-lived logical qubit capable of living for 1 million computational steps with less than 1 error, and says Google plans to tile thousands of surface-encoded logical qubits, but the six-milestone figure is not itemized in the text layer and no calendar year is stated for Milestones 3-6.",
+      "would_need": "A text document, or a text-layer PDF, that lists each Google roadmap milestone with its stated metric and any stated year."
+    },
+    {
+      "topic": "IBM 2020 and 2022 roadmap graphics",
+      "why": "The 15 Sep 2020 and 10 May 2022 posts include roadmap images. Dated processor and software sentences in the prose were recorded. Undated sentences (Goldeneye; a fault-tolerant machine described as feeling achievable within the coming decade; Crossbill's 408 qubits with no year in the 10 May 2022 prose) were not given due dates. Completeness is partial for that reason.",
+      "would_need": "Text of every label on the roadmap images, or a Wayback capture of the original posts if the live pages differ from the 2020 and 2022 wording."
+    },
+    {
+      "topic": "IBM roadmap updates after 13 Nov 2024",
+      "why": "A living IBM roadmap page at https://www.ibm.com/roadmaps/quantum/ was identified in search results as updated in 2026, with later processor names. It was not fetched as a separate enumerated document in this pass.",
+      "would_need": "The roadmap page saved as text, with its stated update date, so later revisions of Starling, Nighthawk, Cockatoo and related items can be ledgered."
+    },
+    {
+      "topic": "Rigetti SEC exhibit 99.2 and 10-K actuals",
+      "why": "www.sec.gov returned 403 for the 6 Oct 2021 8-K exhibit d228756dex992.htm (accession 0001193125-21-292696). Wayback availability reported a 21 Apr 2025 capture, and fetches of that capture returned 429. Revenue projections are therefore quoted from the company-hosted October 2021 PDF, not from the EDGAR HTML. data.sec.gov companyfacts was used only as a finding aid and is not quoted. No 10-K HTML was retrieved, so projections have no actuals.",
+      "would_need": "The EDGAR exhibit HTML or a successful Wayback copy, plus the Form 10-K for each calendar year 2021-2025 quoting total revenue on the same basis as the presentation's Total revenue row."
+    },
+    {
+      "topic": "Rigetti commercial availability of the 80-qubit system",
+      "why": "The investors.rigetti.com release titled as commercial availability of the 80-qubit Aspen-M system did not download (HTTP/2 stream error). The outcome for the 2021 80-qubit sentence uses the private-beta page and its JSON-LD date only.",
+      "would_need": "The 15 Feb 2022 commercial-availability release, if that is the document, saved as text."
+    },
+    {
+      "topic": "IQM and OQC undated or application sentences",
+      "why": "The IQM roadmap also states a logical error rate aim of 10^-9, a 99.95% fidelity target without a year in that sentence, and application sentences anticipated by 2030. The OQC page prints logical error rates with an internal space (for example 10 -3) and includes application descriptions that are not dated product commitments. Those sentences were not made into separate targets. The OQC page has a 2026 copyright line and no fuller publication date. A 3 Jun 2026 OQC release is datelined London; the headquarters city in this file is the Reading dateline from the 19 Jun 2025 release, copied to match the existing org record.",
+      "would_need": "A dated IQM roadmap PDF that assigns years to the error-rate and fidelity sentences, and an OQC page date plus a text rendering of the error-rate figures."
+    },
+    {
+      "topic": "Google and hardware page publication dates",
+      "why": "The Google locations page and the Quantum AI hardware page did not display a publication date. Their source document_date is the fetch date 2026-10-02.",
+      "would_need": "A dated Google page that states the Mountain View headquarters address and that the quantum hardware uses superconducting qubits."
+    }
+  ]
+}

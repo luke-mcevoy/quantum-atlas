@@ -115,3 +115,93 @@
   50 entities. validate: 0 errors. Research file not edited.
 - Rebuilt the verified atlas: 36 access routes. Added the story "How to run your first program".
   Unit tests 50 passed. Playwright 8 passed, including the snippet smoke test.
+
+## 2026-10-02 22:21 ET — Cursor coordinator: Run-today and Track-record schema
+- Took the shared-schema role for both plans. Optional fields are on the contract
+  (program models, availability, pricing, use cases, examples, roadmap documents,
+  outcomes, projections, claim revisions). Existing research still validates.
+- Availability older than 45 days is marked stale at build. Slip months and ledger
+  counts are computed, and rates stay hidden when fewer than 3 items are resolved.
+  Benefit words and words like "failed" are blocked outside quotes on the new prose.
+- Unit tests 61 passed. Analysts for today, usecases, history_gate_sc and history_ion_atom
+  are the next four slots. Do not deploy.
+
+## 2026-10-02 22:40 ET — Analyst A (today): live device lists
+- Wrote data/research/today.json (topic today) and added availability, pricing, limits,
+  program_models, and to_hardware on existing routes in data/research/access.json.
+  No routes, evidence, snippets, or orgs were removed. Verdicts were not edited.
+  data/verification/ was not touched.
+- node scripts/validate.mjs today and node scripts/validate.mjs access: 0 errors.
+- No system_hint was resolved to a sys: id. Named QPUs that are not already in the atlas
+  were left as hints, with a gap each. They were not marked available.
+- Not published and not deployed.
+
+## 2026-10-02 23:00 ET — Counsel: today
+- data/verification/today.json: 0 publish, 1 publish_flagged, 0 reject. All 30 sources
+  were fetched live with the declared counsel user agent; all 10 evidence items were
+  checked programmatically against saved copies.
+- acc:google-qai-willow-pink remains unavailable, retains system_hint willow_pink, and
+  has no system id. Corrections remove the misclassified availability window and the
+  processor-identification sentence that was not a to-hardware instruction.
+- node scripts/validate.mjs today: 0 errors. Research and access verification were not
+  edited. Nothing was published or deployed.
+
+## 2026-10-02 22:55 ET — Counsel: history_ion_atom
+- Wrote data/verification/history_ion_atom.json: 91 publish, 1 publish_flagged,
+  17 reject. All 20 sources were fetched with the required counsel user agent;
+  231 evidence items and all 109 non-org entities received checks or verdicts.
+- Rejected the six IonQ projections because Exhibit 99.2 was not retrievable through
+  the permitted SEC endpoints and its forecast basis is not comparable to GAAP revenue;
+  corrections null the five entered actuals. Also rejected two Honeywell five-year
+  outcomes resolved from only a 2021 result and four one-page no-delivery searches.
+- node scripts/validate.mjs history_ion_atom: 0 errors. Research was not edited.
+  Nothing was published or deployed.
+
+## 2026-10-02 23:12 ET — Counsel: use cases
+- Wrote data/verification/usecases.json: 25 publish, 12 publish_flagged, 0 reject.
+  All 40 sources were fetched with the required counsel user agent; all 63 evidence
+  quotes and all 37 use cases received checks or verdicts.
+- Corrections remove unsupported SDKs from ten customer studies, unsupported program
+  models from three Pasqal stories and Quantinuum's BMW release, a Pasqal aspiration
+  mislabelled as an outcome, and BMW as a customer where the journal paper only gives
+  an author affiliation. One differential-equation tutorial is reclassified as
+  machine learning.
+- node scripts/validate.mjs usecases: 0 errors. Research was not edited. Nothing was
+  published or deployed.
+
+## 2026-10-02 23:20 ET — Engineer B: Run-today examples harness
+- Three published official tutorials now have a local-simulator harness. official.py is the
+  notebook's code cells verbatim. harness.py differs only as substitution.diff describes.
+  Research sim_check.status stays not_run. examples/results.json is the runner's output.
+- Passed, Python 3.12.13, networking blocked in-process: ex:amazon-braket-qpe (LocalSimulator,
+  amazon-braket-sdk 1.127.3.post0; harness only comments notebook magics),
+  ex:amazon-braket-vqe-hydrogen (same SDK; LocalSimulator, n_shots 0; !mkdir replaced with
+  os.makedirs; hydrogen scan 9.95 s), ex:pulser-qubo (pulser-core and pulser-simulation 1.9.1,
+  qutip 5.3.1; QutipBackendV2; harness identical to official.py).
+- Skipped annealing_qubo. The published D-Wave tutorials submit to Leap hybrid solvers.
+  Job shop's offline option is a classical MIP solver, not Ocean ExactSolver or simulated
+  annealing.
+- node scripts/validate.mjs usecases: 0 errors. The new examples have no counsel verdict
+  and will not publish. Nothing published or deployed.
+
+## 2026-10-02 23:30 ET — UI: Run today and Track record
+- Added the Run today and Track record tabs on the published atlas.json. No rebuild of
+  the data, and no edits to research, verification, schema, or the build scripts.
+- Run today: problem picker, availability board (stale rows say "last confirmed <date>"),
+  machine page with the tested-example badge, verbatim to_hardware step, pricing quote,
+  limits, related use cases, and the sourced "Will this beat my laptop?" panel.
+  Data table tabs: Routes, Use cases, Examples.
+- Track record: per-company ledger (partial documents labelled as excluded from the counts),
+  slip plot, projection bars only where both sides exist, claim-revision list, and a
+  track-record card on every open target. Rates use the published track_record only.
+  No company currently has n ≥ 3 with show_rates, so the card says "Not enough resolved
+  history to summarise."
+- Stories added where a caption can frame a published quote. Skipped the Braket AHS atom-array
+  story and the "qubit counts arrive; error correction slips" story. The SPAC story is D-Wave
+  only; IonQ and Rigetti paired actuals are not in the published atlas.
+- app: tsc, 80 unit tests, and 11 Playwright tests passed. Nothing published, deployed, or committed.
+
+## 2026-10-02 23:47 ET — Coordinator
+- The UI agent had finished. The earlier status check was interrupted, so this looked stuck.
+- Run today and Track record are in the local app. Problem Lab has not started.
+- Committing the verified data, the three example harnesses, and both tabs. Not pushing. Not deploying.

@@ -1,0 +1,2128 @@
+{
+  "topic": "history_other",
+  "analyst": "history analyst, other companies",
+  "generated_at": "2026-10-02",
+  "sources": [
+    {
+      "id": "src:hist-dwave-s4-20220315",
+      "title": "Form S-4, DPCM Capital, Inc. and D-Wave Systems Inc. business combination",
+      "publisher": "U.S. SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000119312522076126/d366416ds4.htm",
+      "doc_type": "sec_s4",
+      "tier": 1,
+      "document_date": "2022-03-15",
+      "accessed": "2026-10-02",
+      "identifier": "0001193125-22-076126",
+      "archived_url": "https://web.archive.org/web/20250227150026/https://www.sec.gov/Archives/edgar/data/1907982/000119312522076126/0001193125-22-076126.txt"
+    },
+    {
+      "id": "src:hist-dwave-10k-fy2025",
+      "title": "D-Wave Quantum Inc. Form 10-K for the year ended December 31, 2025",
+      "publisher": "U.S. SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798226000026/qbts-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-26",
+      "accessed": "2026-10-02",
+      "identifier": "0001907982-26-000026",
+      "archived_url": "https://web.archive.org/web/20260930023638/https://www.sec.gov/Archives/edgar/data/1907982/000190798226000026/qbts-20251231.htm"
+    },
+    {
+      "id": "src:hist-dwave-10k-fy2024",
+      "title": "D-Wave Quantum Inc. Form 10-K for the year ended December 31, 2024",
+      "publisher": "U.S. SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000190798225000060/qbts-20241231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-03-14",
+      "accessed": "2026-10-02",
+      "identifier": "0001907982-25-000060",
+      "archived_url": "https://web.archive.org/web/2025/https://www.sec.gov/Archives/edgar/data/1907982/000190798225000060/qbts-20241231.htm"
+    },
+    {
+      "id": "src:hist-dwave-clarity-2021",
+      "title": "The D-Wave Clarity Roadmap",
+      "publisher": "D-Wave Systems Inc.",
+      "url": "https://www.dwavequantum.com/media/gppkjvik/clarity-roadmap_digital_v2.pdf",
+      "doc_type": "roadmap",
+      "tier": 2,
+      "document_date": "2021",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-dwave-pr-2021-10",
+      "title": "Let's Get Practical: D-Wave Details Product Expansion & Cross Platform Roadmap",
+      "publisher": "D-Wave Systems Inc.",
+      "url": "https://www.dwavequantum.com/company/newsroom/press-release/let-s-get-practical-d-wave-details-product-expansion-cross-platform-roadmap/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-10-05",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-dwave-pr-2024-advantage2-proto",
+      "title": "D-Wave Advantage2 prototype announcement",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-1-200-qubit-advantage2-prototype-in-new-lower-noise-fabrication-stack-demonstrating-20x-faster-time-to-solution-on-important-class-of-hard-optimization-problems/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-01-23",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-dwave-pr-2025-advantage2",
+      "title": "D-Wave announces general availability of the Advantage2 quantum computer",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-general-availability-of-advantage2-quantum-computer-its-most-advanced-and-performant-system/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-05-20",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-dwave-pr-2026-simulator",
+      "title": "D-Wave launches a gate-model simulator beta program",
+      "publisher": "D-Wave Quantum Inc.",
+      "url": "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-launches-gate-model-simulator-beta-program-advancing-error-aware-programming-capabilities/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-10-01",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-intel-tunnel-falls-2023",
+      "title": "Intel's new chip to advance silicon spin qubit research",
+      "publisher": "Intel Corporation",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1626/intels-new-chip-to-advance-silicon-spin-qubit-research",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-06-15",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-intel-spin-2024",
+      "title": "Intel takes next step toward building scalable silicon-based quantum processors",
+      "publisher": "Intel Corporation",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1693/intel-takes-next-step-toward-building-scalable",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-05-01",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-psiquantum-australia-2024",
+      "title": "PsiQuantum to build a quantum computer in Australia",
+      "publisher": "PsiQuantum",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-to-build-worlds-first-utility-scale-fault-tolerant-quantum-computer-in-australia",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-29",
+      "accessed": "2026-10-02"
+    },
+    {
+      "id": "src:hist-xanadu-roadmap-2026",
+      "title": "Xanadu Charts Path to Over 1,000 Logical Qubits by 2031",
+      "publisher": "Xanadu Quantum Technologies Limited",
+      "url": "https://investors.xanadu.ai/news-releases/news-release-details/xanadu-charts-path-over-1000-logical-qubits-2031",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-31",
+      "accessed": "2026-10-02",
+      "archived_url": "https://web.archive.org/web/20260903175945/https://investors.xanadu.ai/news-releases/news-release-details/xanadu-charts-path-over-1000-logical-qubits-2031"
+    },
+    {
+      "id": "src:hist-nature-majorana-2018",
+      "title": "Quantized Majorana conductance",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/nature26142",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2018-03-28",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/nature26142"
+    },
+    {
+      "id": "src:hist-nature-retraction-2021",
+      "title": "Retraction Note: Quantized Majorana conductance",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-021-03373-x",
+      "doc_type": "peer_reviewed",
+      "tier": 1,
+      "document_date": "2021-03-08",
+      "accessed": "2026-10-02",
+      "doi": "10.1038/s41586-021-03373-x"
+    }
+  ],
+  "orgs": [
+    {
+      "name": "D-Wave Quantum Inc.",
+      "kind": "company",
+      "roles": [
+        "hardware",
+        "cloud_platform"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.4565,
+        "lon": -122.114,
+        "precision": "site",
+        "address": "2650 East Bayshore Road, Palo Alto, California 94303"
+      },
+      "modalities": [
+        "quantum_annealing"
+      ],
+      "tickers": [
+        "NYSE:QBTS"
+      ],
+      "sec_cik": "0001907982",
+      "website": "https://www.dwavequantum.com",
+      "evidence": [
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "2650 East Bayshore Road , Palo Alto , California 94303",
+          "locator": "Cover page, principal executive offices",
+          "supports": "hq"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "QBTS New York Stock Exchange",
+          "locator": "Cover page, securities registered",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:dwave-10k-2025",
+          "quote": "Advantage TM and Advantage2 systems are available via our Leap service",
+          "locator": "Annealing quantum computers",
+          "supports": "modality, cloud"
+        },
+        {
+          "source": "src:dwave-advantage2-pr",
+          "quote": "D-Wave Quantum Inc. (NYSE: QBTS)",
+          "locator": "Dateline",
+          "supports": "ticker"
+        }
+      ],
+      "id": "co:d-wave"
+    },
+    {
+      "id": "co:psiquantum",
+      "name": "PsiQuantum",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.4419,
+        "lon": -122.143,
+        "precision": "city",
+        "address": "Palo Alto, California"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "website": "https://www.psiquantum.com",
+      "evidence": [
+        {
+          "source": "src:psiq-griffith-lab",
+          "quote": "PsiQuantum was founded by four world leaders in quantum computing in 2016 and is headquartered in Palo Alto, California.",
+          "locator": "boilerplate",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:psiq-omega-pr",
+          "quote": "PsiQuantum’s approach is based on using single photons – particles of light – which are then manipulated using silicon photonic chip technology originally developed for telecom and datacenter networking applications.",
+          "locator": "body",
+          "supports": "modality"
+        }
+      ]
+    },
+    {
+      "id": "co:xanadu",
+      "name": "Xanadu Quantum Technologies",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "CA",
+      "hq": {
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "precision": "city",
+        "address": "Toronto, Ontario"
+      },
+      "modalities": [
+        "photonic"
+      ],
+      "tickers": [
+        "NASDAQ:XNDU",
+        "TSX:XNDU"
+      ],
+      "sec_cik": "0002097163",
+      "website": "https://www.xanadu.ai",
+      "evidence": [
+        {
+          "source": "src:xanadu-packaging-pr",
+          "quote": "officially opened the new facility at the company's Toronto headquarters.",
+          "locator": "paragraph 3",
+          "supports": "hq"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Founded in 2016, Xanadu is a Canadian photonic quantum computing company with the mission to build quantum computers that are useful and available to people everywhere.",
+          "locator": "About Xanadu",
+          "supports": "existence, modality"
+        },
+        {
+          "source": "src:xanadu-closing-pr-2026",
+          "quote": "The Class B Subordinate Voting Shares of Xanadu are expected to trade on Nasdaq and the Toronto Stock Exchange under the ticker symbol “XNDU” starting on March 27, 2026.",
+          "locator": "paragraph 2",
+          "supports": "tickers"
+        },
+        {
+          "source": "src:xanadu-roadmap-2026",
+          "quote": "Xanadu Quantum Technologies Limited (“Xanadu” or the “Company”) (NASDAQ: XNDU) (TSX: XNDU)",
+          "locator": "dateline paragraph",
+          "supports": "tickers (listed)"
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Corporation",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 47.6396,
+        "lon": -122.1284,
+        "precision": "site",
+        "address": "One Microsoft Way, Redmond, Washington 98052-6399"
+      },
+      "modalities": [
+        "topological"
+      ],
+      "tickers": [
+        "NASDAQ:MSFT"
+      ],
+      "sec_cik": "0000789019",
+      "website": "https://www.microsoft.com",
+      "evidence": [
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "ONE MICROSOFT WAY , REDMOND , Washington 98052-6399",
+          "locator": "Cover page, principal executive offices",
+          "supports": "hq"
+        },
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "Our corporate headquarters are located in Redmond, Washington.",
+          "locator": "Item 2. Properties",
+          "supports": "hq"
+        },
+        {
+          "source": "src:ms-10k-2026",
+          "quote": "MSFT Nasdaq",
+          "locator": "Cover page, securities registered",
+          "supports": "ticker"
+        },
+        {
+          "source": "src:ms-majorana1-blog",
+          "quote": "Microsoft unveils Majorana 1, the world's first quantum processor powered by topological qubits",
+          "locator": "Title",
+          "supports": "modality"
+        }
+      ],
+      "id": "co:microsoft"
+    },
+    {
+      "name": "Intel Corporation",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "US",
+      "hq": {
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "precision": "city"
+      },
+      "modalities": [
+        "spin_silicon"
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ],
+      "sec_cik": "0000050863",
+      "website": "https://www.intel.com",
+      "evidence": [
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "SANTA CLARA, Calif.",
+          "locator": "Dateline",
+          "supports": "hq"
+        },
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "Intel (Nasdaq: INTC) is an industry leader",
+          "locator": "About Intel",
+          "supports": "existence, ticker"
+        },
+        {
+          "source": "src:intel-tunnel-falls-pr",
+          "quote": "In silicon spin qubits, information (the 0/1) is encoded in the spin (up/down) of a single electron.",
+          "locator": "About Tunnel Falls",
+          "supports": "modality"
+        }
+      ],
+      "id": "co:intel"
+    },
+    {
+      "id": "co:alice-bob",
+      "name": "Alice & Bob",
+      "kind": "company",
+      "roles": [
+        "hardware"
+      ],
+      "country": "FR",
+      "hq": {
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "precision": "city",
+        "address": "Paris, France"
+      },
+      "modalities": [
+        "superconducting"
+      ],
+      "website": "https://alice-bob.com",
+      "evidence": [
+        {
+          "source": "src:alicebob-pr-2025-09-25-bitflip",
+          "quote": "Alice & Bob is a quantum computing company based in Paris and Boston whose goal is to create the first universal, fault-tolerant quantum computer.",
+          "locator": "About Alice & Bob",
+          "supports": "existence, hq (city)"
+        },
+        {
+          "source": "src:alicebob-pr-2024-12-04-roadmap",
+          "quote": "These superconducting chips feature an active stabilization mechanism that effectively shields the qubits from some external errors.",
+          "locator": "body",
+          "supports": "modality"
+        }
+      ]
+    }
+  ],
+  "sites": [],
+  "systems": [],
+  "milestones": [
+    {
+      "id": "ms:d-wave-hist-gate-sim-2026",
+      "orgs": [
+        "co:d-wave"
+      ],
+      "date": "2026-10-01",
+      "category": "other",
+      "peer_review": "company_claim",
+      "claim": "On Oct. 1, 2026, D-Wave announced a gate-model quantum computing simulator beta program and said it offers select customers early access ahead of general availability.",
+      "evidence": [
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "Oct. 1, 2026",
+          "locator": "dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "launched its gate-model quantum computing simulator beta program",
+          "locator": "lede",
+          "supports": "what launched"
+        },
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "The beta program offers select customers early access to the simulator in advance of its general availability",
+          "locator": "body",
+          "supports": "who can use it"
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "tgt:d-wave-hist-advantage2-7000-2024",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2021-clarity",
+      "metric_kind": "physical_qubits",
+      "target_value": {
+        "value": 7000,
+        "as_of": "2021-10-05",
+        "note": "The PDF prints 7000+ qubits.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-clarity-2021",
+            "quote": "The Advantage 2 QPU will contain 7000+ qubits",
+            "locator": "2023-2024 annealing section",
+            "supports": "qubit count"
+          }
+        ]
+      },
+      "target_date": "2024",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2021-10-05",
+      "status": "open",
+      "statement": "D-Wave targets an Advantage2 QPU that “will contain 7000+ qubits” with “20-way connectivity in a new topology” in 2023-2024.",
+      "evidence": [
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "The Advantage 2 QPU will contain 7000+ qubits",
+          "locator": "2023-2024 annealing section",
+          "supports": "qubit count"
+        },
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "20-way connectivity in a new topology",
+          "locator": "2023-2024 annealing section",
+          "supports": "connectivity"
+        },
+        {
+          "source": "src:hist-dwave-pr-2021-10",
+          "quote": "BURNABY, B.C. (October 5, 2021)",
+          "locator": "dateline",
+          "supports": "publication date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:d-wave-hist-gate-sim-2023",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2021-clarity",
+      "metric_kind": "product_launch",
+      "target_date": "2023",
+      "due": {
+        "by": "2023-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2021-10-05",
+      "status": "met",
+      "met_by": "ms:d-wave-hist-gate-sim-2026",
+      "statement": "D-Wave targets that developers “will be able to access code examples, gate-model simulators” in 2022-2023.",
+      "evidence": [
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "developers will be able to access code examples, gate-model simulators, and extensive",
+          "locator": "2022-2023 tools section",
+          "supports": "simulator access"
+        },
+        {
+          "source": "src:hist-dwave-pr-2021-10",
+          "quote": "BURNABY, B.C. (October 5, 2021)",
+          "locator": "dateline",
+          "supports": "publication date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:d-wave-hist-gate-qpu-2024",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2021-clarity",
+      "metric_kind": "product_launch",
+      "target_date": "2024",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2021-10-05",
+      "status": "open",
+      "statement": "D-Wave targets that “the first gate-model preview QPUs will come online in the Leap quantum cloud service” in 2023-2024.",
+      "evidence": [
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "the first gate-model preview QPUs will come online in the Leap quantum cloud service",
+          "locator": "2023-2024 tools section",
+          "supports": "preview QPU sentence"
+        },
+        {
+          "source": "src:hist-dwave-pr-2021-10",
+          "quote": "BURNABY, B.C. (October 5, 2021)",
+          "locator": "dateline",
+          "supports": "publication date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:intel-hist-next-chip-2024",
+      "org": "co:intel",
+      "roadmap_doc": "rd:intel-2023-tunnel-falls",
+      "metric_kind": "product_launch",
+      "target_date": "2024",
+      "due": {
+        "by": "2024-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2023-06-15",
+      "status": "open",
+      "statement": "Intel targets release in 2024 of its next-generation quantum chip based on Tunnel Falls. The Jun 15, 2023 release said it “is expected to be released in 2024.”",
+      "evidence": [
+        {
+          "source": "src:hist-intel-tunnel-falls-2023",
+          "quote": "Intel is already developing its next-generation quantum chip based on Tunnel Falls; it is expected to be released in 2024.",
+          "locator": "body",
+          "supports": "release sentence"
+        },
+        {
+          "source": "src:hist-intel-tunnel-falls-2023",
+          "quote": "Jun 15, 2023",
+          "locator": "dateline",
+          "supports": "date"
+        }
+      ]
+    },
+    {
+      "id": "tgt:psiquantum-hist-brisbane-2027",
+      "org": "co:psiquantum",
+      "roadmap_doc": "rd:psiquantum-2024-australia",
+      "metric_kind": "product_launch",
+      "target_date": "2027",
+      "due": {
+        "by": "2027-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2024-04-29",
+      "status": "open",
+      "statement": "PsiQuantum targets having “the site operational by the end of 2027.”",
+      "evidence": [
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "PsiQuantum is on an aggressive plan to have the site operational by the end of 2027.",
+          "locator": "body",
+          "supports": "site sentence"
+        },
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "April 29, 2024",
+          "locator": "dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "site near Brisbane Airport in Brisbane, Australia",
+          "locator": "body",
+          "supports": "site location"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-hist-loss-2026",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "other",
+      "target_date": "2026",
+      "due": {
+        "by": "2026-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets a key loss technical indicator “from 24.1x by 2026 to 1.0x by 2030.” This record is the 24.1x-by-2026 clause.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+          "locator": "roadmap paragraph",
+          "supports": "loss-indicator sentence"
+        }
+      ],
+      "target_value": {
+        "value": 24.1,
+        "as_of": "2026-08-31",
+        "note": "Times a reference, as printed: 24.1x.",
+        "evidence": [
+          {
+            "source": "src:hist-xanadu-roadmap-2026",
+            "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+            "locator": "roadmap paragraph",
+            "supports": "loss-indicator sentence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:xanadu-hist-loss-2030",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "other",
+      "target_date": "2030",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets a key loss technical indicator “from 24.1x by 2026 to 1.0x by 2030.” This record is the 1.0x-by-2030 clause.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+          "locator": "roadmap paragraph",
+          "supports": "loss-indicator sentence"
+        }
+      ],
+      "target_value": {
+        "value": 1.0,
+        "as_of": "2026-08-31",
+        "note": "Times a reference, as printed: 1.0x.",
+        "evidence": [
+          {
+            "source": "src:hist-xanadu-roadmap-2026",
+            "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+            "locator": "roadmap paragraph",
+            "supports": "loss-indicator sentence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:xanadu-hist-logical-200-2029",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "target_date": "2029",
+      "due": {
+        "by": "2029-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets “up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031”. This record is the 200-by-2029 clause.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+          "locator": "scaling paragraph",
+          "supports": "qubit-count sentence"
+        }
+      ],
+      "target_value": {
+        "value": 200,
+        "as_of": "2026-08-31",
+        "note": "The release prints up to 200.",
+        "evidence": [
+          {
+            "source": "src:hist-xanadu-roadmap-2026",
+            "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+            "locator": "scaling paragraph",
+            "supports": "qubit-count sentence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:xanadu-hist-logical-500-2030",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "target_date": "2030",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets “up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031”. This record is the 500-by-2030 clause.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+          "locator": "scaling paragraph",
+          "supports": "qubit-count sentence"
+        }
+      ],
+      "target_value": {
+        "value": 500,
+        "as_of": "2026-08-31",
+        "note": "The release prints up to 500.",
+        "evidence": [
+          {
+            "source": "src:hist-xanadu-roadmap-2026",
+            "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+            "locator": "scaling paragraph",
+            "supports": "qubit-count sentence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:xanadu-hist-logical-1000-2031",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "logical_qubits",
+      "target_date": "2031",
+      "due": {
+        "by": "2031-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets “up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031”. This record is the 1,000+-by-2031 clause.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+          "locator": "scaling paragraph",
+          "supports": "qubit-count sentence"
+        }
+      ],
+      "target_value": {
+        "value": 1000,
+        "as_of": "2026-08-31",
+        "note": "The release prints 1,000+.",
+        "evidence": [
+          {
+            "source": "src:hist-xanadu-roadmap-2026",
+            "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+            "locator": "scaling paragraph",
+            "supports": "qubit-count sentence"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgt:xanadu-hist-factory-2027",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "product_launch",
+      "target_date": "2027",
+      "due": {
+        "by": "2027-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets a “Qubit Factory build: 2026–2027”.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "Qubit Factory build: 2026–2027",
+          "locator": "milestone list",
+          "supports": "factory bullet"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-hist-ft-2029",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "other",
+      "target_date": "2029",
+      "due": {
+        "by": "2029-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets a “Fault tolerance milestone: 2028-2029”.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "Fault tolerance milestone: 2028-2029",
+          "locator": "milestone list",
+          "supports": "tolerance bullet"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-hist-error-rate-2030",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "error_rate",
+      "target_date": "2030",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets logical error rates “targeted to improve to 10⁻ 16 by 2030”.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "logical error rates targeted to improve to 10⁻ 16 by 2030",
+          "locator": "roadmap paragraph",
+          "supports": "error-rate sentence"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-hist-datacenter-2030",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "product_launch",
+      "target_date": "2030",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets a “Quantum data center: 2029–2030”.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "Quantum data center: 2029–2030",
+          "locator": "milestone list",
+          "supports": "data-center bullet"
+        }
+      ]
+    },
+    {
+      "id": "tgt:xanadu-hist-commercial-2030",
+      "org": "co:xanadu",
+      "roadmap_doc": "rd:xanadu-2026-roadmap",
+      "metric_kind": "customer_access",
+      "target_date": "2030",
+      "due": {
+        "by": "2030-12-31",
+        "precision": "year"
+      },
+      "stated_on": "2026-08-31",
+      "status": "open",
+      "statement": "Xanadu targets “meaningful end-customer commercialization by 2029–2030”.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "meaningful end-customer commercialization by 2029–2030",
+          "locator": "commercialization paragraph",
+          "supports": "commercialization sentence"
+        }
+      ]
+    }
+  ],
+  "access": [],
+  "relationships": [],
+  "roadmap_docs": [
+    {
+      "id": "rd:d-wave-2021-clarity",
+      "org": "co:d-wave",
+      "title": "The D-Wave Clarity Roadmap",
+      "published": "2021-10-05",
+      "kind": "roadmap_page",
+      "url": "https://www.dwavequantum.com/media/gppkjvik/clarity-roadmap_digital_v2.pdf",
+      "completeness": "partial",
+      "items": [
+        "tgt:d-wave-hist-advantage2-7000-2024",
+        "tgt:d-wave-hist-gate-sim-2023",
+        "tgt:d-wave-hist-gate-qpu-2024"
+      ],
+      "evidence": [
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "The D-Wave Clarity Roadmap",
+          "locator": "title line",
+          "supports": "document"
+        },
+        {
+          "source": "src:hist-dwave-pr-2021-10",
+          "quote": "BURNABY, B.C. (October 5, 2021)",
+          "locator": "dateline of the release that published the PDF",
+          "supports": "publication date"
+        }
+      ]
+    },
+    {
+      "id": "rd:d-wave-2022-s4-projections",
+      "org": "co:d-wave",
+      "title": "D-Wave unaudited prospective financial projections in the 15 March 2022 Form S-4",
+      "published": "2022-03-15",
+      "kind": "sec_exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1907982/000119312522076126/d366416ds4.htm",
+      "completeness": "partial",
+      "items": [
+        "prj:d-wave-hist-revenue-fy2022",
+        "prj:d-wave-hist-revenue-fy2023",
+        "prj:d-wave-hist-revenue-fy2024",
+        "prj:d-wave-hist-revenue-fy2025",
+        "prj:d-wave-hist-revenue-fy2026",
+        "prj:d-wave-hist-gross-profit-fy2022",
+        "prj:d-wave-hist-gross-profit-fy2023",
+        "prj:d-wave-hist-gross-profit-fy2024",
+        "prj:d-wave-hist-gross-profit-fy2025",
+        "prj:d-wave-hist-gross-profit-fy2026",
+        "prj:d-wave-hist-ebitda-fy2025",
+        "prj:d-wave-hist-ebitda-fy2026"
+      ],
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "As filed with the U.S. Securities and Exchange Commission on March 15, 2022",
+          "locator": "cover",
+          "supports": "filing date"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "The key elements of the unaudited prospective financial projections provided by management of D-Wave to DPCM are summarized in the table below",
+          "locator": "projections section",
+          "supports": "what the table is"
+        }
+      ]
+    },
+    {
+      "id": "rd:intel-2023-tunnel-falls",
+      "org": "co:intel",
+      "title": "Intel Tunnel Falls release",
+      "published": "2023-06-15",
+      "kind": "press_release",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1626/intels-new-chip-to-advance-silicon-spin-qubit-research",
+      "completeness": "partial",
+      "items": [
+        "tgt:intel-hist-next-chip-2024"
+      ],
+      "evidence": [
+        {
+          "source": "src:hist-intel-tunnel-falls-2023",
+          "quote": "Jun 15, 2023",
+          "locator": "dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-intel-tunnel-falls-2023",
+          "quote": "Intel is already developing its next-generation quantum chip based on Tunnel Falls; it is expected to be released in 2024.",
+          "locator": "body",
+          "supports": "forward-looking sentence"
+        }
+      ]
+    },
+    {
+      "id": "rd:psiquantum-2024-australia",
+      "org": "co:psiquantum",
+      "title": "PsiQuantum Australia site release",
+      "published": "2024-04-29",
+      "kind": "press_release",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-to-build-worlds-first-utility-scale-fault-tolerant-quantum-computer-in-australia",
+      "completeness": "partial",
+      "items": [
+        "tgt:psiquantum-hist-brisbane-2027"
+      ],
+      "evidence": [
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "April 29, 2024",
+          "locator": "dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "PsiQuantum is on an aggressive plan to have the site operational by the end of 2027.",
+          "locator": "body",
+          "supports": "dated site sentence"
+        }
+      ]
+    },
+    {
+      "id": "rd:xanadu-2026-roadmap",
+      "org": "co:xanadu",
+      "title": "Xanadu technical roadmap release",
+      "published": "2026-08-31",
+      "kind": "press_release",
+      "url": "https://investors.xanadu.ai/news-releases/news-release-details/xanadu-charts-path-over-1000-logical-qubits-2031",
+      "completeness": "partial",
+      "items": [
+        "tgt:xanadu-hist-loss-2026",
+        "tgt:xanadu-hist-loss-2030",
+        "tgt:xanadu-hist-logical-200-2029",
+        "tgt:xanadu-hist-logical-500-2030",
+        "tgt:xanadu-hist-logical-1000-2031",
+        "tgt:xanadu-hist-factory-2027",
+        "tgt:xanadu-hist-ft-2029",
+        "tgt:xanadu-hist-error-rate-2030",
+        "tgt:xanadu-hist-datacenter-2030",
+        "tgt:xanadu-hist-commercial-2030"
+      ],
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+          "locator": "roadmap paragraph",
+          "supports": "loss-indicator sentence"
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "out:d-wave-hist-advantage2-7000-2024",
+      "target": "tgt:d-wave-hist-advantage2-7000-2024",
+      "result": "partially_met",
+      "resolved_on": "2025-05-20",
+      "statement": "D-Wave's 2021 Clarity roadmap said “The Advantage 2 QPU will contain 7000+ qubits” and “20-way connectivity in a new topology” under a 2023-2024 heading. On January 23, 2024, D-Wave said the system “is expected to feature 7,000 qubits” with “20-way connectivity,” and stated no new date. On May 20, 2025, D-Wave announced general availability of Advantage2 and described a “4,400+ Qubit” system with “20-way connectivity”.",
+      "delivered_value": {
+        "value": 4400,
+        "as_of": "2025-05-20",
+        "note": "The release prints 4,400+ qubits.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-pr-2025-advantage2",
+            "quote": "Production-Ready 4,400+ Qubit Annealing Quantum",
+            "locator": "subhead",
+            "supports": "qubit count"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "The Advantage 2 QPU will contain 7000+ qubits",
+          "locator": "2023-2024 annealing section",
+          "supports": "stated qubit count"
+        },
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "20-way connectivity in a new topology",
+          "locator": "2023-2024 annealing section",
+          "supports": "stated connectivity"
+        },
+        {
+          "source": "src:hist-dwave-pr-2024-advantage2-proto",
+          "quote": "January 23, 2024",
+          "locator": "dateline",
+          "supports": "restatement date"
+        },
+        {
+          "source": "src:hist-dwave-pr-2024-advantage2-proto",
+          "quote": "It is expected to feature 7,000 qubits with a new qubit design, enabling 20-way connectivity",
+          "locator": "body",
+          "supports": "restated qubit count"
+        },
+        {
+          "source": "src:hist-dwave-pr-2025-advantage2",
+          "quote": "May 20, 2025",
+          "locator": "dateline",
+          "supports": "availability date"
+        },
+        {
+          "source": "src:hist-dwave-pr-2025-advantage2",
+          "quote": "announced the general availability of its Advantage2",
+          "locator": "lede",
+          "supports": "availability"
+        },
+        {
+          "source": "src:hist-dwave-pr-2025-advantage2",
+          "quote": "Production-Ready 4,400+ Qubit Annealing Quantum",
+          "locator": "subhead",
+          "supports": "delivered qubit wording"
+        },
+        {
+          "source": "src:hist-dwave-pr-2025-advantage2",
+          "quote": "with 20-way connectivity, which enables embedding of more complex problems.",
+          "locator": "feature list",
+          "supports": "delivered connectivity"
+        }
+      ]
+    },
+    {
+      "id": "out:d-wave-hist-gate-sim-2023",
+      "target": "tgt:d-wave-hist-gate-sim-2023",
+      "result": "met_late",
+      "resolved_on": "2026-10-01",
+      "delivered_by": "ms:d-wave-hist-gate-sim-2026",
+      "statement": "D-Wave's 2021 Clarity roadmap said developers “will be able to access code examples, gate-model simulators” in a 2022-2023 section. On Oct. 1, 2026, D-Wave announced it “launched its gate-model quantum computing simulator beta program” and said the beta “offers select customers early access” “in advance of its general availability”.",
+      "evidence": [
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "developers will be able to access code examples, gate-model simulators, and extensive",
+          "locator": "2022-2023 tools section",
+          "supports": "stated access"
+        },
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "Oct. 1, 2026",
+          "locator": "dateline",
+          "supports": "announcement date"
+        },
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "launched its gate-model quantum computing simulator beta program",
+          "locator": "lede",
+          "supports": "beta launch"
+        },
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "The beta program offers select customers early access to the simulator in advance of its general availability",
+          "locator": "body",
+          "supports": "who can use it"
+        }
+      ]
+    },
+    {
+      "id": "out:d-wave-hist-gate-qpu-2024",
+      "target": "tgt:d-wave-hist-gate-qpu-2024",
+      "result": "no_delivery_found",
+      "statement": "D-Wave's 2021 Clarity roadmap said “the first gate-model preview QPUs will come online in the Leap quantum cloud service” in a 2023-2024 section. On Oct. 1, 2026, D-Wave described gate-model systems as “forthcoming”.",
+      "evidence": [
+        {
+          "source": "src:hist-dwave-clarity-2021",
+          "quote": "the first gate-model preview QPUs will come online in the Leap quantum cloud service",
+          "locator": "2023-2024 tools section",
+          "supports": "stated preview"
+        },
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "Oct. 1, 2026",
+          "locator": "dateline",
+          "supports": "later date"
+        },
+        {
+          "source": "src:hist-dwave-pr-2026-simulator",
+          "quote": "preparation for D-Wave’s forthcoming gate-model systems",
+          "locator": "body",
+          "supports": "later wording"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.dwavequantum.com/media/gppkjvik/clarity-roadmap_digital_v2.pdf",
+          "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-announces-general-availability-of-advantage2-quantum-computer-its-most-advanced-and-performant-system/",
+          "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-launches-gate-model-simulator-beta-program-advancing-error-aware-programming-capabilities/",
+          "https://www.dwavequantum.com/company/newsroom/?y=2022",
+          "https://www.dwavequantum.com/company/newsroom/?y=2023",
+          "https://www.dwavequantum.com/company/newsroom/?y=2024",
+          "https://www.dwavequantum.com/company/newsroom/?y=2025"
+        ],
+        "queries": [
+          "gate-model preview QPU",
+          "gate-model quantum computer Leap"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:intel-hist-next-chip-2024",
+      "target": "tgt:intel-hist-next-chip-2024",
+      "result": "no_delivery_found",
+      "statement": "Intel's Jun 15, 2023 release said its next-generation quantum chip based on Tunnel Falls “is expected to be released in 2024.” A May 1, 2024 Intel release still referred to “its next generation quantum chip”. No release announcement for that chip was found in the sources checked.",
+      "evidence": [
+        {
+          "source": "src:hist-intel-tunnel-falls-2023",
+          "quote": "Intel is already developing its next-generation quantum chip based on Tunnel Falls; it is expected to be released in 2024.",
+          "locator": "body",
+          "supports": "stated release"
+        },
+        {
+          "source": "src:hist-intel-tunnel-falls-2023",
+          "quote": "Jun 15, 2023",
+          "locator": "dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-intel-spin-2024",
+          "quote": "May 1, 2024",
+          "locator": "dateline",
+          "supports": "later date"
+        },
+        {
+          "source": "src:hist-intel-spin-2024",
+          "quote": "its next generation quantum chip",
+          "locator": "body",
+          "supports": "later wording"
+        }
+      ],
+      "search_log": {
+        "checked": [
+          "https://www.intc.com/news-events/press-releases/detail/1626/intels-new-chip-to-advance-silicon-spin-qubit-research",
+          "https://www.intc.com/news-events/press-releases/detail/1693/intel-takes-next-step-toward-building-scalable",
+          "https://www.intel.com/content/www/us/en/research/quantum-computing.html"
+        ],
+        "queries": [
+          "Tunnel Falls next-generation quantum chip 2024",
+          "Intel silicon spin qubit chip release"
+        ],
+        "as_of": "2026-10-02"
+      }
+    },
+    {
+      "id": "out:psiquantum-hist-brisbane-2027",
+      "target": "tgt:psiquantum-hist-brisbane-2027",
+      "result": "pending",
+      "statement": "PsiQuantum's April 29, 2024 release said it is on a plan “to have the site operational by the end of 2027.” That date is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "April 29, 2024",
+          "locator": "dateline",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "PsiQuantum is on an aggressive plan to have the site operational by the end of 2027.",
+          "locator": "body",
+          "supports": "site sentence"
+        },
+        {
+          "source": "src:hist-psiquantum-australia-2024",
+          "quote": "site near Brisbane Airport in Brisbane, Australia",
+          "locator": "body",
+          "supports": "site location"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-loss-2026",
+      "target": "tgt:xanadu-hist-loss-2026",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets a key loss technical indicator “from 24.1x by 2026 to 1.0x by 2030.” The 24.1x-by-2026 clause is dated after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+          "locator": "roadmap paragraph",
+          "supports": "loss-indicator sentence"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-loss-2030",
+      "target": "tgt:xanadu-hist-loss-2030",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets a key loss technical indicator “from 24.1x by 2026 to 1.0x by 2030.” The 1.0x-by-2030 clause is dated after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "The roadmap targets a reduction in the Company's key loss technical indicator from 24.1x by 2026 to 1.0x by 2030.",
+          "locator": "roadmap paragraph",
+          "supports": "loss-indicator sentence"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-logical-200-2029",
+      "target": "tgt:xanadu-hist-logical-200-2029",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets “up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031”. The 200-by-2029 clause is dated after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+          "locator": "scaling paragraph",
+          "supports": "qubit-count sentence"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-logical-500-2030",
+      "target": "tgt:xanadu-hist-logical-500-2030",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets “up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031”. The 500-by-2030 clause is dated after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+          "locator": "scaling paragraph",
+          "supports": "qubit-count sentence"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-logical-1000-2031",
+      "target": "tgt:xanadu-hist-logical-1000-2031",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets “up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031”. The 1,000+-by-2031 clause is dated after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "up to 200 logical qubits by 2029, up to 500 by 2030, and 1,000+ by 2031",
+          "locator": "scaling paragraph",
+          "supports": "qubit-count sentence"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-factory-2027",
+      "target": "tgt:xanadu-hist-factory-2027",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets a “Qubit Factory build: 2026–2027”. That window ends after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "Qubit Factory build: 2026–2027",
+          "locator": "milestone list",
+          "supports": "factory bullet"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-ft-2029",
+      "target": "tgt:xanadu-hist-ft-2029",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets a “Fault tolerance milestone: 2028-2029”. That window ends after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "Fault tolerance milestone: 2028-2029",
+          "locator": "milestone list",
+          "supports": "tolerance bullet"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-error-rate-2030",
+      "target": "tgt:xanadu-hist-error-rate-2030",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets logical error rates “targeted to improve to 10⁻ 16 by 2030”. That date is after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "logical error rates targeted to improve to 10⁻ 16 by 2030",
+          "locator": "roadmap paragraph",
+          "supports": "error-rate sentence"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-datacenter-2030",
+      "target": "tgt:xanadu-hist-datacenter-2030",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets a “Quantum data center: 2029–2030”. That window ends after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "Quantum data center: 2029–2030",
+          "locator": "milestone list",
+          "supports": "data-center bullet"
+        }
+      ]
+    },
+    {
+      "id": "out:xanadu-hist-commercial-2030",
+      "target": "tgt:xanadu-hist-commercial-2030",
+      "result": "pending",
+      "statement": "Xanadu's August 31, 2026 release targets “meaningful end-customer commercialization by 2029–2030”. That window ends after 2 Oct 2026.",
+      "evidence": [
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "August 31, 2026",
+          "locator": "release date line",
+          "supports": "date"
+        },
+        {
+          "source": "src:hist-xanadu-roadmap-2026",
+          "quote": "meaningful end-customer commercialization by 2029–2030",
+          "locator": "commercialization paragraph",
+          "supports": "commercialization sentence"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "id": "prj:d-wave-hist-revenue-fy2022",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "revenue",
+      "period": "FY2022",
+      "projected": {
+        "value": 11,
+        "as_of": "2022-03-15",
+        "note": "USD millions, as labeled $M on the projection table.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+            "locator": "Financial Projections table",
+            "supports": "revenue row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+          "locator": "Financial Projections table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "As filed with the U.S. Securities and Exchange Commission on March 15, 2022",
+          "locator": "cover",
+          "supports": "filing date"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-revenue-fy2023",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "revenue",
+      "period": "FY2023",
+      "projected": {
+        "value": 27,
+        "as_of": "2022-03-15",
+        "note": "USD millions, as labeled $M on the projection table.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+            "locator": "Financial Projections table",
+            "supports": "revenue row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+          "locator": "Financial Projections table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:hist-dwave-10k-fy2024",
+          "quote": "Year Ended December 31, Variance (In thousands, except share and per share data) 2024 2023 Amount % Revenue $ 8,827 $ 8,758",
+          "locator": "results of operations table",
+          "supports": "2023 column"
+        },
+        {
+          "source": "src:hist-dwave-10k-fy2024",
+          "quote": "2024 and 2023, we generated revenue totaling $8.8 million and $8.8 million, respectively.",
+          "locator": "results narrative",
+          "supports": "rounded millions"
+        }
+      ],
+      "actual": {
+        "value": 8.758,
+        "as_of": "2023-12-31",
+        "note": "Second revenue amount in the quoted table. The filing prints thousands of U.S. dollars; this figure stores millions.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-10k-fy2024",
+            "quote": "Year Ended December 31, Variance (In thousands, except share and per share data) 2024 2023 Amount % Revenue $ 8,827 $ 8,758",
+            "locator": "results of operations table",
+            "supports": "2023 column"
+          },
+          {
+            "source": "src:hist-dwave-10k-fy2024",
+            "quote": "2024 and 2023, we generated revenue totaling $8.8 million and $8.8 million, respectively.",
+            "locator": "results narrative",
+            "supports": "rounded millions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:d-wave-hist-revenue-fy2024",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "revenue",
+      "period": "FY2024",
+      "projected": {
+        "value": 72,
+        "as_of": "2022-03-15",
+        "note": "USD millions, as labeled $M on the projection table.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+            "locator": "Financial Projections table",
+            "supports": "revenue row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+          "locator": "Financial Projections table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:hist-dwave-10k-fy2024",
+          "quote": "Year Ended December 31, Variance (In thousands, except share and per share data) 2024 2023 Amount % Revenue $ 8,827 $ 8,758",
+          "locator": "results of operations table",
+          "supports": "2024 column"
+        },
+        {
+          "source": "src:hist-dwave-10k-fy2024",
+          "quote": "2024 and 2023, we generated revenue totaling $8.8 million and $8.8 million, respectively.",
+          "locator": "results narrative",
+          "supports": "rounded millions"
+        }
+      ],
+      "actual": {
+        "value": 8.827,
+        "as_of": "2024-12-31",
+        "note": "First revenue amount in the quoted table. The filing prints thousands of U.S. dollars; this figure stores millions.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-10k-fy2024",
+            "quote": "Year Ended December 31, Variance (In thousands, except share and per share data) 2024 2023 Amount % Revenue $ 8,827 $ 8,758",
+            "locator": "results of operations table",
+            "supports": "2024 column"
+          },
+          {
+            "source": "src:hist-dwave-10k-fy2024",
+            "quote": "2024 and 2023, we generated revenue totaling $8.8 million and $8.8 million, respectively.",
+            "locator": "results narrative",
+            "supports": "rounded millions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:d-wave-hist-revenue-fy2025",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "revenue",
+      "period": "FY2025",
+      "projected": {
+        "value": 219,
+        "as_of": "2022-03-15",
+        "note": "USD millions, as labeled $M on the projection table.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+            "locator": "Financial Projections table",
+            "supports": "revenue row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+          "locator": "Financial Projections table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:hist-dwave-10k-fy2025",
+          "quote": "Year Ended December 31, Variance (In thousands, except share and per share data) 2025 2024 Amount % Revenue $ 24,587 $ 8,827",
+          "locator": "results of operations table",
+          "supports": "2025 column"
+        },
+        {
+          "source": "src:hist-dwave-10k-fy2025",
+          "quote": "2025 and 2024, we generated revenue totaling $24.6 million and $8.8 million, respectively.",
+          "locator": "results narrative",
+          "supports": "rounded millions"
+        }
+      ],
+      "actual": {
+        "value": 24.587,
+        "as_of": "2025-12-31",
+        "note": "First revenue amount in the quoted table. The filing prints thousands of U.S. dollars; this figure stores millions.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-10k-fy2025",
+            "quote": "Year Ended December 31, Variance (In thousands, except share and per share data) 2025 2024 Amount % Revenue $ 24,587 $ 8,827",
+            "locator": "results of operations table",
+            "supports": "2025 column"
+          },
+          {
+            "source": "src:hist-dwave-10k-fy2025",
+            "quote": "2025 and 2024, we generated revenue totaling $24.6 million and $8.8 million, respectively.",
+            "locator": "results narrative",
+            "supports": "rounded millions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "prj:d-wave-hist-revenue-fy2026",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "revenue",
+      "period": "FY2026",
+      "projected": {
+        "value": 551,
+        "as_of": "2022-03-15",
+        "note": "USD millions, as labeled $M on the projection table.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+            "locator": "Financial Projections table",
+            "supports": "revenue row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Financial Projections $M 2022E 2023E 2024E 2025E 2026E Revenue (1) 11 27 72 219 551",
+          "locator": "Financial Projections table",
+          "supports": "projected revenue row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "As filed with the U.S. Securities and Exchange Commission on March 15, 2022",
+          "locator": "cover",
+          "supports": "filing date"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-gross-profit-fy2022",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "other",
+      "period": "FY2022",
+      "projected": {
+        "value": 7,
+        "as_of": "2022-03-15",
+        "note": "USD millions; row labeled Gross Profit.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Gross Profit (2) 7 18 54 180 465",
+            "locator": "Financial Projections table",
+            "supports": "gross profit row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit (2) 7 18 54 180 465",
+          "locator": "Financial Projections table",
+          "supports": "projected gross profit row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit is equal to Revenue minus Cost of Revenue.",
+          "locator": "footnote under the table",
+          "supports": "how the filing defines gross profit"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-gross-profit-fy2023",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "other",
+      "period": "FY2023",
+      "projected": {
+        "value": 18,
+        "as_of": "2022-03-15",
+        "note": "USD millions; row labeled Gross Profit.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Gross Profit (2) 7 18 54 180 465",
+            "locator": "Financial Projections table",
+            "supports": "gross profit row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit (2) 7 18 54 180 465",
+          "locator": "Financial Projections table",
+          "supports": "projected gross profit row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit is equal to Revenue minus Cost of Revenue.",
+          "locator": "footnote under the table",
+          "supports": "how the filing defines gross profit"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-gross-profit-fy2024",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "other",
+      "period": "FY2024",
+      "projected": {
+        "value": 54,
+        "as_of": "2022-03-15",
+        "note": "USD millions; row labeled Gross Profit.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Gross Profit (2) 7 18 54 180 465",
+            "locator": "Financial Projections table",
+            "supports": "gross profit row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit (2) 7 18 54 180 465",
+          "locator": "Financial Projections table",
+          "supports": "projected gross profit row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit is equal to Revenue minus Cost of Revenue.",
+          "locator": "footnote under the table",
+          "supports": "how the filing defines gross profit"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-gross-profit-fy2025",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "other",
+      "period": "FY2025",
+      "projected": {
+        "value": 180,
+        "as_of": "2022-03-15",
+        "note": "USD millions; row labeled Gross Profit.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Gross Profit (2) 7 18 54 180 465",
+            "locator": "Financial Projections table",
+            "supports": "gross profit row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit (2) 7 18 54 180 465",
+          "locator": "Financial Projections table",
+          "supports": "projected gross profit row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit is equal to Revenue minus Cost of Revenue.",
+          "locator": "footnote under the table",
+          "supports": "how the filing defines gross profit"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-gross-profit-fy2026",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "other",
+      "period": "FY2026",
+      "projected": {
+        "value": 465,
+        "as_of": "2022-03-15",
+        "note": "USD millions; row labeled Gross Profit.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Gross Profit (2) 7 18 54 180 465",
+            "locator": "Financial Projections table",
+            "supports": "gross profit row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit (2) 7 18 54 180 465",
+          "locator": "Financial Projections table",
+          "supports": "projected gross profit row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Gross Profit is equal to Revenue minus Cost of Revenue.",
+          "locator": "footnote under the table",
+          "supports": "how the filing defines gross profit"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-ebitda-fy2025",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "ebitda",
+      "period": "FY2025",
+      "projected": {
+        "value": 14,
+        "as_of": "2022-03-15",
+        "note": "USD millions; row labeled Adjusted EBITDA. The filing describes the row as non-GAAP. No actual is attached.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Adjusted EBITDA (2)(3) (59 ) (83 ) (70 ) 14 226",
+            "locator": "Financial Projections table",
+            "supports": "adjusted EBITDA row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Adjusted EBITDA (2)(3) (59 ) (83 ) (70 ) 14 226",
+          "locator": "Financial Projections table",
+          "supports": "projected adjusted EBITDA row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "As filed with the U.S. Securities and Exchange Commission on March 15, 2022",
+          "locator": "cover",
+          "supports": "filing date"
+        }
+      ]
+    },
+    {
+      "id": "prj:d-wave-hist-ebitda-fy2026",
+      "org": "co:d-wave",
+      "roadmap_doc": "rd:d-wave-2022-s4-projections",
+      "metric": "ebitda",
+      "period": "FY2026",
+      "projected": {
+        "value": 226,
+        "as_of": "2022-03-15",
+        "note": "USD millions; row labeled Adjusted EBITDA. The filing describes the row as non-GAAP. No actual is attached.",
+        "evidence": [
+          {
+            "source": "src:hist-dwave-s4-20220315",
+            "quote": "Adjusted EBITDA (2)(3) (59 ) (83 ) (70 ) 14 226",
+            "locator": "Financial Projections table",
+            "supports": "adjusted EBITDA row"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "Adjusted EBITDA (2)(3) (59 ) (83 ) (70 ) 14 226",
+          "locator": "Financial Projections table",
+          "supports": "projected adjusted EBITDA row"
+        },
+        {
+          "source": "src:hist-dwave-s4-20220315",
+          "quote": "As filed with the U.S. Securities and Exchange Commission on March 15, 2022",
+          "locator": "cover",
+          "supports": "filing date"
+        }
+      ]
+    }
+  ],
+  "claim_revisions": [
+    {
+      "id": "cr:nature-majorana-2018",
+      "kind": "retraction",
+      "date": "2021-03-08",
+      "subject": "Quantized Majorana conductance, Nature, 28 March 2018, DOI 10.1038/nature26142",
+      "statement": "On 8 March 2021, Nature published a retraction note to “Quantized Majorana conductance”, which the note states “was published on 28 March 2018”. The note lists “Leo P. Kouwenhoven” under “Microsoft Station Q Delft”. The 2018 letter states “Here we report a quantized conductance plateau at 2 e 2 / h”. The retraction note states the authors “can therefore no longer claim the observation of a quantized Majorana conductance, and wish to retract this Letter.”",
+      "evidence": [
+        {
+          "source": "src:hist-nature-retraction-2021",
+          "quote": "08 March 2021",
+          "locator": "publication line",
+          "supports": "retraction date"
+        },
+        {
+          "source": "src:hist-nature-retraction-2021",
+          "quote": "Quantized Majorana conductance",
+          "locator": "title",
+          "supports": "which letter"
+        },
+        {
+          "source": "src:hist-nature-retraction-2021",
+          "quote": "was published on 28 March 2018",
+          "locator": "note",
+          "supports": "original online date"
+        },
+        {
+          "source": "src:hist-nature-retraction-2021",
+          "quote": "Leo P. Kouwenhoven",
+          "locator": "author line",
+          "supports": "named author"
+        },
+        {
+          "source": "src:hist-nature-retraction-2021",
+          "quote": "Microsoft Station Q Delft, 2600 GA, Delft, The Netherlands",
+          "locator": "affiliation line",
+          "supports": "named affiliation"
+        },
+        {
+          "source": "src:hist-nature-retraction-2021",
+          "quote": "We can therefore no longer claim the observation of a quantized Majorana conductance, and wish to retract this Letter.",
+          "locator": "retraction paragraph",
+          "supports": "retraction sentence"
+        },
+        {
+          "source": "src:hist-nature-majorana-2018",
+          "quote": "Here we report a quantized conductance plateau at 2 e 2 / h in the zero-bias conductance measured in indium antimonide semiconductor nanowires covered with an aluminium superconducting shell.",
+          "locator": "abstract",
+          "supports": "original sentence"
+        },
+        {
+          "source": "src:hist-nature-majorana-2018",
+          "quote": "Microsoft Station Q Delft, Delft, 2600 GA, The Netherlands",
+          "locator": "affiliation line",
+          "supports": "original affiliation"
+        },
+        {
+          "source": "src:hist-nature-majorana-2018",
+          "quote": "Microsoft Corporation Station-Q",
+          "locator": "acknowledgements",
+          "supports": "support line"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Alice & Bob roadmap pages",
+      "why": "On 2 Oct 2026 the Alice & Bob homepage, a newsroom roadmap URL, the December 2024 long and short roadmap PDFs, and a blog URL returned HTTP 403. A Wayback request for the long PDF returned HTTP 429. No sentences from those pages are recorded here.",
+      "would_need": "A successful fetch of the roadmap PDF or the newsroom page, saved with its capture date."
+    },
+    {
+      "topic": "D-Wave Clarity items left out of the target list",
+      "why": "The 2021 Clarity PDF also schedules mixed-integer hybrid solvers and a unified hybrid interface in 2022-2023, cross-platform solvers and vertical solvers in 2023-2024, in-region systems in North America and the European Union in 2021-2022, and an application marketplace plus Asia Pacific in-region systems in 2023-2024. A 2025+ connectivity line has no end date. Five gate-model phases have no calendar year, including a 60-qubit system and a 1000-qubit system. Company newsroom year pages list only a handful of items, so they were not treated as a complete archive and those sentences were not given a delivery result.",
+      "would_need": "A press release or filing for each dated bullet, or a newsroom archive that is complete enough to support a search log."
+    },
+    {
+      "topic": "D-Wave S-4 rows without a stored figure",
+      "why": "The 15 March 2022 projections table also prints percent growth, a percent margin, and an adjusted EBITDA margin. Those rows are not stored as separate projections. Adjusted EBITDA for 2022E, 2023E, and 2024E is printed in parentheses in the same row as the later positive amounts. Those three amounts are not stored, because a figure value has to be non-negative and a parenthetical amount is not recorded here as a positive number. The Revenue row is marked (1) while footnote (1) defines gross profit; the revenue figures are the Revenue row as printed. The fiscal year 2022 Form 10-K HTML was not retrieved: a Wayback request returned HTTP 429. Companyfacts XBRL was not used as a quotation. The S-4 also contains other forward-looking sentences beyond this table, so the document is partial.",
+      "would_need": "The fiscal year 2022 Form 10-K HTML for a revenue quotation, and a decision on how to store parenthetical adjusted EBITDA if a later schema allows it."
+    },
+    {
+      "topic": "Fiscal year 2024 Form 10-K capture day",
+      "why": "The fiscal year 2024 Form 10-K copy used here came from a Wayback year gate (web/2025/) rather than a day-stamped capture. The filing date 14 March 2025 is taken from the SEC submissions JSON on data.sec.gov.",
+      "would_need": "A day-stamped Wayback capture, or the filing HTML from data.sec.gov."
+    },
+    {
+      "topic": "Microsoft roadmap posts without a calendar due date",
+      "why": "The 21 June 2023 Azure Quantum post at https://azure.microsoft.com/en-us/blog/quantum/2023/06/21/microsoft-achieves-first-milestone-towards-a-quantum-supercomputer/ lists six milestones and marks the first as achieved. Later milestones in that post are not given calendar dates, including a stated scale of one million rQOPS. The 19 February 2025 post at https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/ says the path is in years, not decades, which is not a calendar due date. Those sentences are not targets.",
+      "would_need": "A Microsoft document that puts a calendar date on one of those later milestones."
+    },
+    {
+      "topic": "PsiQuantum sentences without a calendar date",
+      "why": "The 29 April 2024 Australia release says the first system will be “in the regime of 1 million physical qubits” and states an investment amount, but those sentences do not give a calendar date. They are not assigned the site's end-of-2027 date. An earlier wire release did not download (HTTP/2 error).",
+      "would_need": "A PsiQuantum document that dates the qubit-count sentence, and a successful copy of the earlier wire release."
+    },
+    {
+      "topic": "Xanadu release beyond the dated bullets",
+      "why": "The 31 August 2026 release includes a safe-harbor list of forward-looking categories beyond the dated bullets entered here, so the document is partial. The live investors page was not retrieved in this session. The quotations are from a Wayback capture on 3 Sep 2026 that was already on disk and copied into this scratch folder. A repeat Wayback request returned HTTP 429.",
+      "would_need": "A fresh fetch of the investors release, and a decision about whether any safe-harbor sentence is a separate dated item."
+    },
+    {
+      "topic": "Intel quantum pages after May 2024",
+      "why": "After the 1 May 2024 release, which still refers to a next generation quantum chip, https://www.intel.com/content/www/us/en/research/quantum-computing.html returned HTTP 403. A full newsroom crawl for a later chip-release announcement was not completed. The search log lists only the pages that were opened.",
+      "would_need": "Intel newsroom pages from later in 2024 and from 2025 that either announce the chip or do not."
+    }
+  ]
+}

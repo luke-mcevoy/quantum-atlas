@@ -1,0 +1,4 @@
+# Substrings that must appear in the harness output. Not exact counts or eigenvalues.
+QPE CIRCUIT:
+Measurement counts:
+QPE eigenvalue estimates:
